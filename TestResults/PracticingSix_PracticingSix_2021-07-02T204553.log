@@ -1,0 +1,226 @@
+﻿2021-07-02T20:45:53.5389738-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-07-02T20:45:53.5389738-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-07-02T20:45:53.5389738-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-07-02T20:45:53.5399734-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-07-02T20:45:53.6940727-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-02T20:45:53.6940727-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-07-02T20:45:53.6950728-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-07-02T20:45:53.7416145-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-07-02T204553.log
+2021-07-02T20:45:53.7466157-06:00;Thread#13;Info;Checking activation
+2021-07-02T20:45:53.8521854-06:00;Thread#13;Info;Activated.
+2021-07-02T20:45:53.8521854-06:00;Thread#13;Info;Activation check completed
+2021-07-02T20:45:53.8531853-06:00;Thread#13;Info;Starting test run
+2021-07-02T20:45:53.8942120-06:00;Thread#13;Info;Discovering target: Default
+2021-07-02T20:45:53.8942120-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-02T20:45:54.2497666-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-02T20:45:54.2507670-06:00:Test Suite Dump
+2021-07-02T20:45:54.2517676-06:00:#0: PracticingSix/PracticingSix - 
+2021-07-02T20:45:54.2517676-06:00:#1: Default - 
+2021-07-02T20:45:54.2517676-06:00:#2: PracticingSix - 
+2021-07-02T20:45:54.2527688-06:00:#3: EyeOfTheTiger - 
+2021-07-02T20:45:54.2527688-06:00:#5: Twitch Bot! - 
+2021-07-02T20:45:54.2885670-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-07-02T20:45:54.2885670-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-07-02T20:45:54.2885670-06:00:End: Test Suite Dump
+2021-07-02T20:45:54.3255559-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-02T20:45:54.3265552-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-07-02T20:45:54.3265552-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-07-02T20:45:54.3315570-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-02T20:45:54.3315570-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-07-02T20:45:54.3315570-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-07-02T20:45:54.3315570-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-07-02T20:45:54.3325564-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-07-02T20:45:54.3335578-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-07-02T20:45:54.3335578-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-07-02T20:45:54.3335578-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-07-02T20:45:54.3335578-06:00:Thread#1:Scheduler: considering testitem #6 for thread 1
+2021-07-02T20:45:54.3335578-06:00:Thread#1:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-02T20:45:54.3335578-06:00:Thread#1:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-02T20:45:54.3335578-06:00:Thread#1:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-02T20:45:54.3335578-06:00:Thread#1:Scheduler: using testitem #6 for thread 1
+2021-07-02T20:45:54.3335578-06:00:Thread#1:Scheduler: Test #6 is scheduled for thread
+2021-07-02T20:45:54.3335578-06:00:Thread#1:Scheduler: with testItemExecutionIndex 0
+2021-07-02T20:45:54.3368935-06:00:Thread #1: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-07-02T20:45:54.3368935-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-07-02T20:45:54.3388771-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-07-02T20:45:54.3388771-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-02T20:45:54.3789610-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-02T20:45:54.3789610-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-07-02T20:45:54.3809623-06:00:Thread #1: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-07-02T20:45:54.3809623-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-07-02T20:45:54.3829621-06:00:starting Out Of Process Executor
+2021-07-02T20:45:54.3829621-06:00:starting Out Of Process Executor
+2021-07-02T20:45:54.3891510-06:00:Starting callback TCP Rpc server
+2021-07-02T20:45:54.3891510-06:00:Starting callback TCP Rpc server
+2021-07-02T20:45:54.4026858-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-07-02T20:45:54.4026858-06:00:Started callback TCP Rpc server on port 32768
+2021-07-02T20:45:54.4026858-06:00:Starting logger TCP Rpc server
+2021-07-02T20:45:54.4056859-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-07-02T20:45:54.4056859-06:00:Started callback TCP Rpc server on port 32769
+2021-07-02T20:45:54.4056859-06:00:Starting logger TCP Rpc server
+2021-07-02T20:45:54.4086861-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-07-02T20:45:54.4086861-06:00:Started logger TCP Rpc server on port 32770
+2021-07-02T20:45:54.4116876-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-07-02T20:45:54.4116876-06:00:Started logger TCP Rpc server on port 32771
+2021-07-02T20:45:54.4136891-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 18768 --uniqueId "2021-07-02T204553" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32769 --loggerPort 32770' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-07-02T20:45:54.4136891-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 18768 --uniqueId "2021-07-02T204553" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32771' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-07-02T20:45:54.4782191-06:00:Executor with PID 19200 has been started successfully.
+2021-07-02T20:45:54.4812205-06:00:Executor with PID 19220 has been started successfully.
+2021-07-02T20:45:54.4812205-06:00:Out of Process Executor 19200 started
+2021-07-02T20:45:54.4812205-06:00:Waiting for endpoint
+2021-07-02T20:45:54.4812205-06:00:Out of Process Executor 19220 started
+2021-07-02T20:45:54.4812205-06:00:Waiting for endpoint
+2021-07-02T20:45:55.1153906-06:00:Remote executor port received: 32773
+2021-07-02T20:45:55.1153906-06:00:Remote executor port received: 32772
+2021-07-02T20:45:55.1163908-06:00:Creating executor TCP client on port 32773
+2021-07-02T20:45:55.1163908-06:00:Creating executor TCP client on port 32772
+2021-07-02T20:45:55.1163908-06:00:Created executor TCP client on port 32773
+2021-07-02T20:45:55.1163908-06:00:Created executor TCP client on port 32772
+2021-07-02T20:45:55.1163908-06:00:Connecting to remote executor TCP server
+2021-07-02T20:45:55.1163908-06:00:Connecting to remote executor TCP server
+2021-07-02T20:45:55.1173910-06:00:Connected remote executor TCP server
+2021-07-02T20:45:55.1173910-06:00:Connected remote executor TCP server
+2021-07-02T20:45:55.1173910-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-07-02T20:45:55.1173910-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-07-02T20:45:55.1173910-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-07-02T20:45:55.1173910-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-07-02T20:45:55.8040288-06:00:2021-07-02T20:45:55.8030277-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-07-02T20:45:55.8050287-06:00:2021-07-02T20:45:55.8040288-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #1
+2021-07-02T20:45:55.8110293-06:00:Endpoint 19200 started
+2021-07-02T20:45:55.8110293-06:00:Endpoint 19220 started
+2021-07-02T20:45:55.8370355-06:00:2021-07-02T20:45:55.8360354-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-07-02T20:45:55.8500384-06:00:2021-07-02T20:45:55.8490385-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-07-02T20:45:56.2891457-06:00:2021-07-02T20:45:56.2891457-06:00:Thread#1:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-07-02T20:45:56.2911373-06:00:2021-07-02T20:45:56.2911373-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-07-02T20:45:56.3421492-06:00:2021-07-02T20:45:56.3411489-06:00:Thread#1:T:-> Using default config
+2021-07-02T20:45:56.3421492-06:00:2021-07-02T20:45:56.3421492-06:00:Thread#0:T:-> Using default config
+2021-07-02T20:45:57.6360346-06:00:2021-07-02T20:45:57.6350340-06:00:Thread#0:T:Starting the driver...
+2021-07-02T20:45:57.6360346-06:00:2021-07-02T20:45:57.6360346-06:00:Thread#1:T:Starting the driver...
+2021-07-02T20:45:59.6224834-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-07-02T20:45:59.6664968-06:00:2021-07-02T20:45:59.6664968-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-07-02T20:45:59.7695154-06:00:Thread#1: Test #6/0 is started on thread #1
+2021-07-02T20:45:59.8095253-06:00:2021-07-02T20:45:59.8085252-06:00:Thread#1:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-02T20:45:59.8805402-06:00:2021-07-02T20:45:59.8805402-06:00:Thread#1:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-02T20:45:59.8825415-06:00:2021-07-02T20:45:59.8825415-06:00:Thread#1:B:When I send a browser to snoop on my own chat channel
+2021-07-02T20:46:03.2098981-06:00:2021-07-02T20:46:03.2088981-06:00:Thread#1:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (3.3s)
+2021-07-02T20:46:03.2108982-06:00:2021-07-02T20:46:03.2108982-06:00:Thread#1:B:Then my Twitch Bot lives!
+2021-07-02T20:46:11.5223494-06:00:2021-07-02T20:46:11.5213477-06:00:Thread#0:T:Playing!
+2021-07-02T20:46:12.3105260-06:00:2021-07-02T20:46:12.3085246-06:00:Thread#0:T:Loop: 0
+2021-07-02T20:46:17.6112994-06:00:2021-07-02T20:46:17.6092980-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-07-02T20:46:20.7091043-06:00:2021-07-02T20:46:20.7081039-06:00:Thread#0:T:Finished logging in
+2021-07-02T20:58:03.2475712-06:00:2021-07-02T20:58:03.2465715-06:00:Thread#0:T:Playing!
+2021-07-02T20:58:20.7197017-06:00:2021-07-02T20:58:20.7187017-06:00:Thread#1:T:Line 2
+2021-07-02T20:58:20.8377294-06:00:2021-07-02T20:58:20.8367288-06:00:Thread#1:T:Parsing: yo yo yo whats up from: nitrobeastproductions
+2021-07-02T20:58:20.9557538-06:00:2021-07-02T20:58:20.9547540-06:00:Thread#1:T:{
+2021-07-02T20:58:20.9557538-06:00:2021-07-02T20:58:20.9557538-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-07-02T20:58:20.9567545-06:00:2021-07-02T20:58:20.9557538-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-07-02T20:58:20.9577544-06:00:2021-07-02T20:58:20.9567545-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-07-02T20:58:20.9597546-06:00:2021-07-02T20:58:20.9587568-06:00:Thread#1:T:}
+2021-07-02T20:58:20.9597546-06:00:2021-07-02T20:58:20.9597546-06:00:Thread#1:T:{
+2021-07-02T20:58:20.9597546-06:00:2021-07-02T20:58:20.9597546-06:00:Thread#1:T:	CHUNK ID: IART
+2021-07-02T20:58:20.9607553-06:00:2021-07-02T20:58:20.9607553-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-07-02T20:58:20.9607553-06:00:2021-07-02T20:58:20.9607553-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-07-02T20:58:20.9617555-06:00:2021-07-02T20:58:20.9607553-06:00:Thread#1:T:}
+2021-07-02T20:58:20.9617555-06:00:2021-07-02T20:58:20.9617555-06:00:Thread#1:T:{
+2021-07-02T20:58:20.9627576-06:00:2021-07-02T20:58:20.9627576-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-07-02T20:58:20.9637573-06:00:2021-07-02T20:58:20.9627576-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-07-02T20:58:20.9637573-06:00:2021-07-02T20:58:20.9637573-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-02T20:58:20.9647571-06:00:2021-07-02T20:58:20.9647571-06:00:Thread#1:T:}
+2021-07-02T20:58:22.2285335-06:00:2021-07-02T20:58:22.2275332-06:00:Thread#1:T:Line 2
+2021-07-02T20:58:22.3286267-06:00:2021-07-02T20:58:22.3286267-06:00:Thread#1:T:Parsing: hows it coming from: nitrobeastproductions
+2021-07-02T20:58:30.5170127-06:00:2021-07-02T20:58:30.5170127-06:00:Thread#1:T:Line 3
+2021-07-02T20:58:30.5990312-06:00:2021-07-02T20:58:30.5980304-06:00:Thread#1:T:Parsing: test from: user335
+2021-07-02T20:58:30.6010318-06:00:2021-07-02T20:58:30.6010318-06:00:Thread#1:T:Eyy, its user335!
+2021-07-02T20:58:30.6140338-06:00:2021-07-02T20:58:30.6140338-06:00:Thread#1:T:{
+2021-07-02T20:58:30.6150344-06:00:2021-07-02T20:58:30.6150344-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-07-02T20:58:30.6180364-06:00:2021-07-02T20:58:30.6170366-06:00:Thread#1:T:	CHUNK SIZE: 34
+2021-07-02T20:58:30.6180364-06:00:2021-07-02T20:58:30.6180364-06:00:Thread#1:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-02T20:58:30.6190367-06:00:2021-07-02T20:58:30.6180364-06:00:Thread#1:T:}
+2021-07-02T20:58:31.3901209-06:00:2021-07-02T20:58:31.3901209-06:00:Thread#1:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-02T20:58:31.3911207-06:00:2021-07-02T20:58:31.3911207-06:00:Thread#1:T:clip played the old boring way, duration was: 0.763356
+2021-07-02T20:59:00.1158349-06:00:2021-07-02T20:59:00.1148349-06:00:Thread#1:T:Line 4
+2021-07-02T20:59:00.1898529-06:00:2021-07-02T20:59:00.1898529-06:00:Thread#1:T:Parsing: !whip from: user335
+2021-07-02T20:59:03.2372951-06:00:2021-07-02T20:59:03.2362943-06:00:Thread#1:T:Line 5
+2021-07-02T20:59:28.5139534-06:00:2021-07-02T20:59:28.5139534-06:00:Thread#1:T:error: chrome not reachable
+2021-07-02T20:59:28.5149546-06:00:2021-07-02T20:59:28.5149546-06:00:Thread#1:T:  (Session info: chrome=91.0.4472.124)
+2021-07-02T20:59:28.8260235-06:00:Thread#1:TestItem#6:Scheduler: reschedule tests for testitem #6
+2021-07-02T20:59:28.8300267-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-07-02T20:59:28.8300267-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-07-02T20:59:28.8300267-06:00:Thread#1:Scheduler: considering testitem #6 for thread 1
+2021-07-02T20:59:28.8300267-06:00:Thread#1:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-02T20:59:28.8300267-06:00:Thread#1:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-02T20:59:28.8300267-06:00:Thread#1:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-02T20:59:28.8300267-06:00:Thread#1:Scheduler: using testitem #6 for thread 1
+2021-07-02T20:59:28.8300267-06:00:Thread#1:Scheduler: Test #6 is scheduled for thread
+2021-07-02T20:59:28.8300267-06:00:Thread#1:Scheduler: with testItemExecutionIndex 1
+2021-07-02T20:59:28.8890384-06:00:Thread#1: Test #6/0 is finished on thread #1 as Failed within 809.119523 seconds
+2021-07-02T20:59:28.8910398-06:00:Thread#1: Test #6/1 is started on thread #1
+2021-07-02T20:59:28.8920395-06:00:2021-07-02T20:59:28.8920395-06:00:Thread#1:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-02T20:59:28.8930393-06:00:2021-07-02T20:59:28.8930393-06:00:Thread#1:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-02T20:59:28.8940397-06:00:2021-07-02T20:59:28.8930393-06:00:Thread#1:B:When I send a browser to snoop on my own chat channel
+2021-07-02T20:59:40.9778150-06:00:2021-07-02T20:59:40.9778150-06:00:Thread#1:T:Starting the driver...
+2021-07-02T20:59:44.5526874-06:00:2021-07-02T20:59:44.5516871-06:00:Thread#1:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (15.7s)
+2021-07-02T20:59:44.5536870-06:00:2021-07-02T20:59:44.5536870-06:00:Thread#1:B:Then my Twitch Bot lives!
+2021-07-02T20:59:56.3074615-06:00:2021-07-02T20:59:56.3074615-06:00:Thread#1:T:Line 1
+2021-07-02T20:59:56.3870258-06:00:2021-07-02T20:59:56.3860267-06:00:Thread#1:T:Parsing: intro sound test from: mrnoah99
+2021-07-02T20:59:56.3900280-06:00:2021-07-02T20:59:56.3900280-06:00:Thread#1:T:Eyy, its mrnoah99!
+2021-07-02T20:59:56.3920271-06:00:2021-07-02T20:59:56.3920271-06:00:Thread#1:T:Found 9 clips for user mrnoah99 and rolled clip #: 7
+2021-07-02T20:59:57.2782519-06:00:2021-07-02T20:59:57.2772512-06:00:Thread#1:T:Duration of clip was 0.87075, thanks rabbit_xxxx you're the best!
+2021-07-02T20:59:57.2812528-06:00:2021-07-02T20:59:57.2812528-06:00:Thread#1:T:clip played the old boring way, duration was: 0.87075
+2021-07-02T21:00:19.7003404-06:00:2021-07-02T21:00:19.6993360-06:00:Thread#1:T:Line 2
+2021-07-02T21:00:19.8293658-06:00:2021-07-02T21:00:19.8283647-06:00:Thread#1:T:Parsing: hey noah hows it going man from: nitrobeastproductions
+2021-07-02T21:00:19.8363660-06:00:2021-07-02T21:00:19.8353657-06:00:Thread#1:T:{
+2021-07-02T21:00:19.8363660-06:00:2021-07-02T21:00:19.8363660-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-07-02T21:00:19.8373666-06:00:2021-07-02T21:00:19.8373666-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-07-02T21:00:19.8383664-06:00:2021-07-02T21:00:19.8373666-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-07-02T21:00:19.8383664-06:00:2021-07-02T21:00:19.8383664-06:00:Thread#1:T:}
+2021-07-02T21:00:19.8393681-06:00:2021-07-02T21:00:19.8383664-06:00:Thread#1:T:{
+2021-07-02T21:00:19.8393681-06:00:2021-07-02T21:00:19.8393681-06:00:Thread#1:T:	CHUNK ID: IART
+2021-07-02T21:00:19.8403676-06:00:2021-07-02T21:00:19.8403676-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-07-02T21:00:19.8403676-06:00:2021-07-02T21:00:19.8403676-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-07-02T21:00:19.8413674-06:00:2021-07-02T21:00:19.8413674-06:00:Thread#1:T:}
+2021-07-02T21:00:19.8423683-06:00:2021-07-02T21:00:19.8423683-06:00:Thread#1:T:{
+2021-07-02T21:00:19.8443688-06:00:2021-07-02T21:00:19.8433680-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-07-02T21:00:19.8443688-06:00:2021-07-02T21:00:19.8443688-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-07-02T21:00:19.8453686-06:00:2021-07-02T21:00:19.8453686-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-02T21:00:19.8453686-06:00:2021-07-02T21:00:19.8453686-06:00:Thread#1:T:}
+2021-07-02T21:01:31.5013113-06:00:2021-07-02T21:01:31.5003128-06:00:Thread#1:T:Line 3
+2021-07-02T21:01:31.5833292-06:00:2021-07-02T21:01:31.5833292-06:00:Thread#1:T:Parsing: less about patience more about i want to start filming. from: nitrobeastproductions
+2021-07-02T21:02:21.1481121-06:00:2021-07-02T21:02:21.1471126-06:00:Thread#0:T:Playing!
+2021-07-02T21:02:56.5171535-06:00:2021-07-02T21:02:56.5151525-06:00:Thread#1:T:Line 4
+2021-07-02T21:02:56.6137239-06:00:2021-07-02T21:02:56.6137239-06:00:Thread#1:T:Parsing: like there are cameras that i can use but the style i want to make low light performance matters and sony a7s mark 3s apparently have great low light performance but im not in a place where i can drop 3500 on a camera new from: nitrobeastproductions
+2021-07-02T21:06:37.6265923-06:00:2021-07-02T21:06:37.6255901-06:00:Thread#0:T:Playing!
+2021-07-02T21:06:52.7112935-06:00:2021-07-02T21:06:52.7082909-06:00:Thread#1:T:Line 5
+2021-07-02T21:06:52.7993117-06:00:2021-07-02T21:06:52.7983121-06:00:Thread#1:T:Parsing: you look like hell mate work been tough recently? from: bixxplays
+2021-07-02T21:06:52.8073143-06:00:2021-07-02T21:06:52.8063135-06:00:Thread#1:T:{
+2021-07-02T21:06:52.8083144-06:00:2021-07-02T21:06:52.8073143-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-07-02T21:06:52.8083144-06:00:2021-07-02T21:06:52.8083144-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-07-02T21:06:52.8083144-06:00:2021-07-02T21:06:52.8083144-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-07-02T21:06:52.8093149-06:00:2021-07-02T21:06:52.8093149-06:00:Thread#1:T:}
+2021-07-02T21:06:52.8093149-06:00:2021-07-02T21:06:52.8093149-06:00:Thread#1:T:{
+2021-07-02T21:06:52.8103151-06:00:2021-07-02T21:06:52.8103151-06:00:Thread#1:T:	CHUNK ID: IART
+2021-07-02T21:06:52.8113162-06:00:2021-07-02T21:06:52.8103151-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-07-02T21:06:52.8113162-06:00:2021-07-02T21:06:52.8113162-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-07-02T21:06:52.8123160-06:00:2021-07-02T21:06:52.8113162-06:00:Thread#1:T:}
+2021-07-02T21:06:52.8123160-06:00:2021-07-02T21:06:52.8123160-06:00:Thread#1:T:{
+2021-07-02T21:06:52.8133149-06:00:2021-07-02T21:06:52.8123160-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-07-02T21:06:52.8133149-06:00:2021-07-02T21:06:52.8133149-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-07-02T21:06:52.8133149-06:00:2021-07-02T21:06:52.8133149-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-02T21:06:52.8143147-06:00:2021-07-02T21:06:52.8143147-06:00:Thread#1:T:}
+2021-07-02T21:07:55.7080730-06:00:2021-07-02T21:07:55.7075588-06:00:Thread#1:T:Line 6
+2021-07-02T21:07:55.7901186-06:00:2021-07-02T21:07:55.7901186-06:00:Thread#1:T:Parsing: does intro sound work now? from: mrnoah99
+2021-07-02T21:08:10.8513914-06:00:2021-07-02T21:08:10.8513914-06:00:Thread#1:T:Line 7
+2021-07-02T21:08:10.9924240-06:00:2021-07-02T21:08:10.9924240-06:00:Thread#1:T:Parsing: yah for anyone getting inot linux i sagest amd graphics as they have better linux support than nvidia do from: bixxplays
+2021-07-02T21:09:34.8566574-06:00:2021-07-02T21:09:34.8566574-06:00:Thread#1:T:Line 8
+2021-07-02T21:09:34.9436965-06:00:2021-07-02T21:09:34.9436965-06:00:Thread#1:T:Parsing: for them i sagest ubuntu as they generaly have some of the better nvidia support of the distros out there from: bixxplays
+2021-07-02T21:10:48.2195676-06:00:2021-07-02T21:10:48.2185662-06:00:Thread#0:T:Playing!
+2021-07-02T21:10:54.8452991-06:00:2021-07-02T21:10:54.8452991-06:00:Thread#1:T:Line 9
+2021-07-02T21:10:54.9273129-06:00:2021-07-02T21:10:54.9273129-06:00:Thread#1:T:Parsing: licky you tho your gpu isnt one of the newer ones generaly the older the hardware the better its suported from: bixxplays
+2021-07-02T21:11:01.8456092-06:00:2021-07-02T21:11:01.8446098-06:00:Thread#1:T:Line 10
+2021-07-02T21:11:01.9242567-06:00:2021-07-02T21:11:01.9232569-06:00:Thread#1:T:Parsing: *lucky from: bixxplays
+2021-07-02T21:11:59.8765530-06:00:2021-07-02T21:11:59.8755527-06:00:Thread#1:T:Line 11
+2021-07-02T21:11:59.9675733-06:00:2021-07-02T21:11:59.9675733-06:00:Thread#1:T:Parsing: i still love it from: hadhacks
+2021-07-02T21:11:59.9705730-06:00:2021-07-02T21:11:59.9695728-06:00:Thread#1:T:Eyy, its hadhacks!
+2021-07-02T21:11:59.9705730-06:00:2021-07-02T21:11:59.9705730-06:00:Thread#1:T:Found 2 clips for user hadhacks and rolled clip #: 0
+2021-07-02T21:12:02.8854813-06:00:2021-07-02T21:12:02.8844818-06:00:Thread#1:T:Duration of clip was 2.898667, thanks rabbit_xxxx you're the best!
+2021-07-02T21:12:02.8864824-06:00:2021-07-02T21:12:02.8854813-06:00:Thread#1:T:clip played the old boring way, duration was: 2.898667

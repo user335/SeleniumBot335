@@ -1,0 +1,503 @@
+﻿2021-08-20T21:51:00.6800178-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-08-20T21:51:00.6800178-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-08-20T21:51:00.6800178-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-08-20T21:51:00.6800178-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-08-20T21:51:00.8480549-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-20T21:51:00.8480549-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-08-20T21:51:00.8480549-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-08-20T21:51:00.9090699-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-08-20T215100.log
+2021-08-20T21:51:00.9160707-06:00;Thread#13;Info;Checking activation
+2021-08-20T21:51:01.0491018-06:00;Thread#13;Info;Activated.
+2021-08-20T21:51:01.0491018-06:00;Thread#13;Info;Activation check completed
+2021-08-20T21:51:01.0491018-06:00;Thread#13;Info;Starting test run
+2021-08-20T21:51:01.1061133-06:00;Thread#13;Info;Discovering target: Default
+2021-08-20T21:51:01.1071134-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-20T21:51:01.5902242-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-20T21:51:01.5912255-06:00:Test Suite Dump
+2021-08-20T21:51:01.5932255-06:00:#0: PracticingSix/PracticingSix - 
+2021-08-20T21:51:01.5932255-06:00:#1: Default - 
+2021-08-20T21:51:01.5932255-06:00:#2: PracticingSix - 
+2021-08-20T21:51:01.5932255-06:00:#4: Twitch Bot! - 
+2021-08-20T21:51:01.6482368-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-08-20T21:51:01.6482368-06:00:End: Test Suite Dump
+2021-08-20T21:51:01.7002475-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-20T21:51:01.7022482-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-08-20T21:51:01.7022482-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-20T21:51:01.7092508-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-20T21:51:01.7092508-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-20T21:51:01.7092508-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-20T21:51:01.7092508-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-20T21:51:01.7122513-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-20T21:51:01.7132508-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-08-20T21:51:01.7132508-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-08-20T21:51:01.7132508-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-08-20T21:51:01.7132508-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-08-20T21:51:01.7132508-06:00:Thread#1:Scheduler: No more tests for thread
+2021-08-20T21:51:01.7152510-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-08-20T21:51:01.7182520-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-20T21:51:01.7652631-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-20T21:51:01.7672636-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-08-20T21:51:01.7692647-06:00:starting Out Of Process Executor
+2021-08-20T21:51:01.7772668-06:00:Starting callback TCP Rpc server
+2021-08-20T21:51:01.7942718-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-08-20T21:51:01.7942718-06:00:Started callback TCP Rpc server on port 32768
+2021-08-20T21:51:01.7942718-06:00:Starting logger TCP Rpc server
+2021-08-20T21:51:01.7992711-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-08-20T21:51:01.7992711-06:00:Started logger TCP Rpc server on port 32769
+2021-08-20T21:51:01.8102734-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15940 --uniqueId "2021-08-20T215100" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-08-20T21:51:01.8762877-06:00:Executor with PID 15972 has been started successfully.
+2021-08-20T21:51:01.8792878-06:00:Out of Process Executor 15972 started
+2021-08-20T21:51:01.8792878-06:00:Waiting for endpoint
+2021-08-20T21:51:02.8675119-06:00:Remote executor port received: 32770
+2021-08-20T21:51:02.8685126-06:00:Creating executor TCP client on port 32770
+2021-08-20T21:51:02.8685126-06:00:Created executor TCP client on port 32770
+2021-08-20T21:51:02.8685126-06:00:Connecting to remote executor TCP server
+2021-08-20T21:51:02.8695137-06:00:Connected remote executor TCP server
+2021-08-20T21:51:02.8695137-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-08-20T21:51:02.8695137-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-08-20T21:51:03.6346851-06:00:2021-08-20T21:51:03.6336853-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-08-20T21:51:03.6416878-06:00:Endpoint 15972 started
+2021-08-20T21:51:03.6646923-06:00:2021-08-20T21:51:03.6646923-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-08-20T21:51:04.1463527-06:00:2021-08-20T21:51:04.1463527-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-08-20T21:51:04.2033649-06:00:2021-08-20T21:51:04.2033649-06:00:Thread#0:T:-> Using default config
+2021-08-20T21:51:05.3126511-06:00:2021-08-20T21:51:05.3116505-06:00:Thread#0:T:Starting the driver...
+2021-08-20T21:51:07.0365345-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-08-20T21:51:07.0745435-06:00:2021-08-20T21:51:07.0745435-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-20T21:51:07.1345581-06:00:2021-08-20T21:51:07.1335559-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-20T21:51:07.1385593-06:00:2021-08-20T21:51:07.1375599-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-20T21:51:08.9769732-06:00:2021-08-20T21:51:08.9759727-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.8s)
+2021-08-20T21:51:08.9789724-06:00:2021-08-20T21:51:08.9789724-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-20T21:52:04.7245835-06:00:2021-08-20T21:52:04.7235849-06:00:Thread#0:T:Line 1
+2021-08-20T21:52:04.8056444-06:00:2021-08-20T21:52:04.8056444-06:00:Thread#0:T:Parsing: he's 336 now obviously from: mrnoah99
+2021-08-20T21:52:04.8136453-06:00:2021-08-20T21:52:04.8136453-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-08-20T21:52:04.8171562-06:00:2021-08-20T21:52:04.8161659-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 3
+2021-08-20T21:52:04.8937210-06:00:2021-08-20T21:52:04.8927228-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\mrnoah993.wav at time: 8/20/2021 9:52:04 PM
+2021-08-20T21:52:04.8972319-06:00:2021-08-20T21:52:04.8962434-06:00:Thread#0:T:Waiting for 2380.063ms ended at time: 8/20/2021 9:52:04 PM
+2021-08-20T21:52:07.2846027-06:00:2021-08-20T21:52:07.2836018-06:00:Thread#0:T:Duration of clip was 2.380063, thanks rabbit_xxxx you're the best!
+2021-08-20T21:52:07.2846027-06:00:2021-08-20T21:52:07.2846027-06:00:Thread#0:T:clip played the old boring way, duration was: 2.380063
+2021-08-20T21:53:45.3143812-06:00:2021-08-20T21:53:45.3133804-06:00:Thread#0:T:Line 2
+2021-08-20T21:53:45.3833967-06:00:2021-08-20T21:53:45.3833967-06:00:Thread#0:T:Parsing: ...obviously... from: voidvenom777
+2021-08-20T21:53:45.3863978-06:00:2021-08-20T21:53:45.3863978-06:00:Thread#0:T:Eyy, its voidvenom777!
+2021-08-20T21:53:45.3984016-06:00:2021-08-20T21:53:45.3984016-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\voidvenom777.wav at time: 8/20/2021 9:53:45 PM
+2021-08-20T21:53:45.4014022-06:00:2021-08-20T21:53:45.4004018-06:00:Thread#0:T:Waiting for 5152.721ms ended at time: 8/20/2021 9:53:45 PM
+2021-08-20T21:53:50.5606102-06:00:2021-08-20T21:53:50.5596102-06:00:Thread#0:T:Duration of clip was 5.152721, thanks rabbit_xxxx you're the best!
+2021-08-20T21:53:50.5606102-06:00:2021-08-20T21:53:50.5606102-06:00:Thread#0:T:clip played the old boring way, duration was: 5.152721
+2021-08-20T21:53:50.5676116-06:00:2021-08-20T21:53:50.5676116-06:00:Thread#0:T:Line 3
+2021-08-20T21:53:50.6346791-06:00:2021-08-20T21:53:50.6346791-06:00:Thread#0:T:Parsing: yoda, he is from: voidvenom777
+2021-08-20T21:55:15.5135856-06:00:2021-08-20T21:55:15.5125865-06:00:Thread#0:T:Line 4
+2021-08-20T21:55:15.5895837-06:00:2021-08-20T21:55:15.5895837-06:00:Thread#0:T:Parsing: happy birthday man from: nitrobeastproductions
+2021-08-20T21:55:15.6035870-06:00:2021-08-20T21:55:15.6025869-06:00:Thread#0:T:{
+2021-08-20T21:55:15.6045864-06:00:2021-08-20T21:55:15.6035870-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-20T21:55:15.6045864-06:00:2021-08-20T21:55:15.6045864-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-20T21:55:15.6065881-06:00:2021-08-20T21:55:15.6055899-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-20T21:55:15.6065881-06:00:2021-08-20T21:55:15.6065881-06:00:Thread#0:T:}
+2021-08-20T21:55:15.6075866-06:00:2021-08-20T21:55:15.6065881-06:00:Thread#0:T:{
+2021-08-20T21:55:15.6075866-06:00:2021-08-20T21:55:15.6075866-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-20T21:55:15.6085882-06:00:2021-08-20T21:55:15.6075866-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-20T21:55:15.6085882-06:00:2021-08-20T21:55:15.6085882-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-20T21:55:15.6085882-06:00:2021-08-20T21:55:15.6085882-06:00:Thread#0:T:}
+2021-08-20T21:55:15.6095894-06:00:2021-08-20T21:55:15.6095894-06:00:Thread#0:T:{
+2021-08-20T21:55:15.6095894-06:00:2021-08-20T21:55:15.6095894-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-20T21:55:15.6105888-06:00:2021-08-20T21:55:15.6095894-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-20T21:55:15.6105888-06:00:2021-08-20T21:55:15.6105888-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-20T21:55:15.6105888-06:00:2021-08-20T21:55:15.6105888-06:00:Thread#0:T:}
+2021-08-20T21:55:15.6115879-06:00:2021-08-20T21:55:15.6115879-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/20/2021 9:55:15 PM
+2021-08-20T21:55:15.6125892-06:00:2021-08-20T21:55:15.6125892-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/20/2021 9:55:15 PM
+2021-08-20T21:56:14.8997349-06:00:2021-08-20T21:56:14.8987347-06:00:Thread#0:T:Line 5
+2021-08-20T21:56:14.9699238-06:00:2021-08-20T21:56:14.9699238-06:00:Thread#0:T:Parsing: @user335 300 more years then you will be truly user335 from: voidvenom777
+2021-08-20T21:56:35.9125665-06:00:2021-08-20T21:56:35.9115670-06:00:Thread#0:T:Line 6
+2021-08-20T21:56:36.0055229-06:00:2021-08-20T21:56:36.0045225-06:00:Thread#0:T:Parsing: happy birthday! and hoping everything goes well on the interviews! from: hadhacks
+2021-08-20T21:56:36.0085231-06:00:2021-08-20T21:56:36.0075230-06:00:Thread#0:T:Eyy, its hadhacks!
+2021-08-20T21:56:36.0085231-06:00:2021-08-20T21:56:36.0085231-06:00:Thread#0:T:Found 2 clips for user hadhacks and rolled clip #: 1
+2021-08-20T21:56:36.0155261-06:00:2021-08-20T21:56:36.0155261-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\hadhacks1.wav at time: 8/20/2021 9:56:36 PM
+2021-08-20T21:56:36.0165250-06:00:2021-08-20T21:56:36.0165250-06:00:Thread#0:T:Waiting for 2109.333ms ended at time: 8/20/2021 9:56:36 PM
+2021-08-20T21:56:38.1314334-06:00:2021-08-20T21:56:38.1314334-06:00:Thread#0:T:Duration of clip was 2.109333, thanks rabbit_xxxx you're the best!
+2021-08-20T21:56:38.1324241-06:00:2021-08-20T21:56:38.1324241-06:00:Thread#0:T:clip played the old boring way, duration was: 2.109333
+2021-08-20T21:57:11.0967334-06:00:2021-08-20T21:57:11.0957339-06:00:Thread#0:T:Line 7
+2021-08-20T21:57:11.1697733-06:00:2021-08-20T21:57:11.1687728-06:00:Thread#0:T:Parsing: did anyone else hear that? "freedom comes to those who fight" from: voidvenom777
+2021-08-20T21:57:19.7045240-06:00:2021-08-20T21:57:19.7035242-06:00:Thread#0:T:Line 8
+2021-08-20T21:57:19.8085671-06:00:2021-08-20T21:57:19.8075670-06:00:Thread#0:T:Parsing: oh is that hadhacks' intro? lol from: voidvenom777
+2021-08-20T21:58:18.7050660-06:00:2021-08-20T21:58:18.7040654-06:00:Thread#0:T:Line 9
+2021-08-20T21:58:18.7861079-06:00:2021-08-20T21:58:18.7851077-06:00:Thread#0:T:Parsing: hows it going man from: nitrobeastproductions
+2021-08-20T22:00:52.3175992-06:00:2021-08-20T22:00:52.3175992-06:00:Thread#0:T:Line 10
+2021-08-20T22:00:52.3959337-06:00:2021-08-20T22:00:52.3959337-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-08-20T22:00:52.4009348-06:00:2021-08-20T22:00:52.4009348-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-08-20T22:00:52.4029351-06:00:2021-08-20T22:00:52.4019343-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 0
+2021-08-20T22:00:52.4104474-06:00:2021-08-20T22:00:52.4094467-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev.wav at time: 8/20/2021 10:00:52 PM
+2021-08-20T22:00:52.4114467-06:00:2021-08-20T22:00:52.4104474-06:00:Thread#0:T:Waiting for 1915.646ms ended at time: 8/20/2021 10:00:52 PM
+2021-08-20T22:00:54.3414334-06:00:2021-08-20T22:00:54.3394432-06:00:Thread#0:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-08-20T22:00:54.3424324-06:00:2021-08-20T22:00:54.3414334-06:00:Thread#0:T:clip played the old boring way, duration was: 1.915646
+2021-08-20T22:00:57.6887414-06:00:2021-08-20T22:00:57.6887414-06:00:Thread#0:T:Line 11
+2021-08-20T22:00:57.7680291-06:00:2021-08-20T22:00:57.7680291-06:00:Thread#0:T:Parsing: i need sleep ive had a long day from: nitrobeastproductions
+2021-08-20T22:01:03.2903822-06:00:2021-08-20T22:01:03.2903822-06:00:Thread#0:T:Line 12
+2021-08-20T22:01:03.3944057-06:00:2021-08-20T22:01:03.3934062-06:00:Thread#0:T:Parsing: bought a new car from: nitrobeastproductions
+2021-08-20T22:01:53.5113952-06:00:2021-08-20T22:01:53.5103960-06:00:Thread#0:T:Line 13
+2021-08-20T22:01:53.5909468-06:00:2021-08-20T22:01:53.5899460-06:00:Thread#0:T:Parsing: !nitrobeast from: user335
+2021-08-20T22:01:53.7029713-06:00:2021-08-20T22:01:53.7029713-06:00:Thread#0:T:Line 14
+2021-08-20T22:02:01.7140139-06:00:2021-08-20T22:02:01.7130134-06:00:Thread#0:T:Line 15
+2021-08-20T22:02:01.8010336-06:00:2021-08-20T22:02:01.8010336-06:00:Thread#0:T:Parsing: !nitrobeastproductions from: user335
+2021-08-20T22:02:07.5150687-06:00:2021-08-20T22:02:07.5150687-06:00:Thread#0:T:Line 16
+2021-08-20T22:02:07.6041962-06:00:2021-08-20T22:02:07.6031947-06:00:Thread#0:T:Parsing: actually im rteturnign to twitch in like a week from: nitrobeastproductions
+2021-08-20T22:02:30.9054342-06:00:2021-08-20T22:02:30.9044333-06:00:Thread#0:T:Line 17
+2021-08-20T22:02:30.9904540-06:00:2021-08-20T22:02:30.9894536-06:00:Thread#0:T:Parsing: horror games from: nitrobeastproductions
+2021-08-20T22:02:41.9123253-06:00:2021-08-20T22:02:41.9123253-06:00:Thread#0:T:Line 18
+2021-08-20T22:02:41.9813407-06:00:2021-08-20T22:02:41.9813407-06:00:Thread#0:T:Parsing: i play them as a break aso i might as well be streaming them from: nitrobeastproductions
+2021-08-20T22:03:02.1214024-06:00:2021-08-20T22:03:02.1194013-06:00:Thread#0:T:Line 19
+2021-08-20T22:03:02.2154263-06:00:2021-08-20T22:03:02.2144234-06:00:Thread#0:T:Parsing: i can at least play the game now from: sky_acaniadev
+2021-08-20T22:03:17.9219594-06:00:2021-08-20T22:03:17.9209587-06:00:Thread#0:T:Line 20
+2021-08-20T22:03:18.0159803-06:00:2021-08-20T22:03:18.0149807-06:00:Thread#0:T:Parsing: oh of my favorite games of all time is geting a vr release on tuesday from: nitrobeastproductions
+2021-08-20T22:03:18.4951913-06:00:2021-08-20T22:03:18.4951913-06:00:Thread#0:T:Line 21
+2021-08-20T22:03:18.5842546-06:00:2021-08-20T22:03:18.5842546-06:00:Thread#0:T:Parsing: even though i need to fix the bugs from that from: sky_acaniadev
+2021-08-20T22:03:19.4931779-06:00:2021-08-20T22:03:19.4931779-06:00:Thread#0:T:Line 22
+2021-08-20T22:03:19.5692373-06:00:2021-08-20T22:03:19.5692373-06:00:Thread#0:T:Parsing: cant wait from: nitrobeastproductions
+2021-08-20T22:05:11.5133053-06:00:2021-08-20T22:05:11.5133053-06:00:Thread#0:T:Line 23
+2021-08-20T22:05:11.5930554-06:00:2021-08-20T22:05:11.5930554-06:00:Thread#0:T:Parsing: myst from: nitrobeastproductions
+2021-08-20T22:05:13.5256912-06:00:2021-08-20T22:05:13.5256912-06:00:Thread#0:T:Line 25
+2021-08-20T22:05:13.6467188-06:00:2021-08-20T22:05:13.6457197-06:00:Thread#0:T:Parsing: happy birthday... your gift is $2.50 or whatever tiny amount of this sub you get from twitch from: voidvenom777
+2021-08-20T22:05:13.6577213-06:00:2021-08-20T22:05:13.6577213-06:00:Thread#0:T:Line 25
+2021-08-20T22:05:17.3360808-06:00:2021-08-20T22:05:17.3350795-06:00:Thread#0:T:Line 26
+2021-08-20T22:05:17.4180970-06:00:2021-08-20T22:05:17.4180970-06:00:Thread#0:T:Parsing: fucking myst vr from: nitrobeastproductions
+2021-08-20T22:05:42.1263193-06:00:2021-08-20T22:05:42.1263193-06:00:Thread#0:T:Line 27
+2021-08-20T22:05:42.2233548-06:00:2021-08-20T22:05:42.2233548-06:00:Thread#0:T:Parsing: glad to hear everything going well, sorry, put on the stream and was grabing some coffee from: hadhacks
+2021-08-20T22:06:29.5112798-06:00:2021-08-20T22:06:29.5112798-06:00:Thread#0:T:Line 28
+2021-08-20T22:06:29.5922969-06:00:2021-08-20T22:06:29.5922969-06:00:Thread#0:T:Parsing: wait what were you saying @user335 ? something about going wherever i want? from: voidvenom777
+2021-08-20T22:06:33.5105116-06:00:2021-08-20T22:06:33.5095117-06:00:Thread#0:T:Line 29
+2021-08-20T22:06:33.5925296-06:00:2021-08-20T22:06:33.5925296-06:00:Thread#0:T:Parsing: yeah we have talked you make good fucking money. to the extent that i keep hinting at my wife to get into selenium lol from: nitrobeastproductions
+2021-08-20T22:07:36.1178076-06:00:2021-08-20T22:07:36.1178076-06:00:Thread#0:T:Line 30
+2021-08-20T22:07:36.2104005-06:00:2021-08-20T22:07:36.2094008-06:00:Thread#0:T:Parsing: even i wanna do a few years of selenium now from: sky_acaniadev
+2021-08-20T22:07:42.7123702-06:00:2021-08-20T22:07:42.7123702-06:00:Thread#0:T:Line 31
+2021-08-20T22:07:42.7996327-06:00:2021-08-20T22:07:42.7996327-06:00:Thread#0:T:Parsing: confidence is key, from: nitrobeastproductions
+2021-08-20T22:07:53.1588912-06:00:2021-08-20T22:07:53.1578905-06:00:Thread#0:T:Line 32
+2021-08-20T22:07:53.2469107-06:00:2021-08-20T22:07:53.2459102-06:00:Thread#0:T:Parsing: the one thing i have negative amounts of from: voidvenom777
+2021-08-20T22:08:17.3133340-06:00:2021-08-20T22:08:17.3133340-06:00:Thread#0:T:Line 33
+2021-08-20T22:08:17.3973737-06:00:2021-08-20T22:08:17.3963719-06:00:Thread#0:T:Parsing: if (jobapplicationdeclined) confidence--; from: voidvenom777
+2021-08-20T22:08:44.5302766-06:00:2021-08-20T22:08:44.5302766-06:00:Thread#0:T:Line 34
+2021-08-20T22:08:44.6170548-06:00:2021-08-20T22:08:44.6170548-06:00:Thread#0:T:Parsing: see void for me when i get rejected it jsut fuels me to work harder and prove them wrong from: nitrobeastproductions
+2021-08-20T22:09:35.7158424-06:00:2021-08-20T22:09:35.7148424-06:00:Thread#0:T:Line 35
+2021-08-20T22:09:35.8038630-06:00:2021-08-20T22:09:35.8038630-06:00:Thread#0:T:Parsing: that is now a controversial issue now from: sky_acaniadev
+2021-08-20T22:10:04.5273092-06:00:2021-08-20T22:10:04.5263093-06:00:Thread#0:T:Line 36
+2021-08-20T22:10:04.6106388-06:00:2021-08-20T22:10:04.6106388-06:00:Thread#0:T:Parsing: i've gotten some incredibly rude declines. some companies just don't respond, and others say "you have talent but you're not good enough" (nearly direct quote from blackberry) from: voidvenom777
+2021-08-20T22:10:05.4954932-06:00:2021-08-20T22:10:05.4944927-06:00:Thread#0:T:Line 37
+2021-08-20T22:10:05.5672103-06:00:2021-08-20T22:10:05.5665756-06:00:Thread#0:T:Parsing: a lot of people criticize those top universities letting foreign students to get into too easily from: sky_acaniadev
+2021-08-20T22:10:19.9152955-06:00:2021-08-20T22:10:19.9142836-06:00:Thread#0:T:Line 38
+2021-08-20T22:10:20.0336678-06:00:2021-08-20T22:10:20.0326666-06:00:Thread#0:T:Parsing: like, if i have talent, then why don't you want me from: voidvenom777
+2021-08-20T22:10:54.1193797-06:00:2021-08-20T22:10:54.1173794-06:00:Thread#0:T:Line 39
+2021-08-20T22:10:54.2459590-06:00:2021-08-20T22:10:54.2439590-06:00:Thread#0:T:Parsing: also @user335 did you get a chance to look at my website/resume? from: voidvenom777
+2021-08-20T22:11:02.3489824-06:00:2021-08-20T22:11:02.3479807-06:00:Thread#0:T:Line 40
+2021-08-20T22:11:02.4390691-06:00:2021-08-20T22:11:02.4390691-06:00:Thread#0:T:Parsing: wow fuck blackberry from: nitrobeastproductions
+2021-08-20T22:11:24.1301142-06:00:2021-08-20T22:11:24.1301142-06:00:Thread#0:T:Line 41
+2021-08-20T22:11:24.2212838-06:00:2021-08-20T22:11:24.2202833-06:00:Thread#0:T:Parsing: frfr. their application form was like 40 questions, too from: voidvenom777
+2021-08-20T22:14:26.9145028-06:00:2021-08-20T22:14:26.9135036-06:00:Thread#0:T:Line 42
+2021-08-20T22:14:27.0073534-06:00:2021-08-20T22:14:27.0073534-06:00:Thread#0:T:Parsing: 100% from: nitrobeastproductions
+2021-08-20T22:14:52.5339037-06:00:2021-08-20T22:14:52.5299168-06:00:Thread#0:T:Line 43
+2021-08-20T22:14:52.6534721-06:00:2021-08-20T22:14:52.6524706-06:00:Thread#0:T:Parsing: i know that my first horror film will likely fail, but i want to know why it fails and how to inprove from: nitrobeastproductions
+2021-08-20T22:15:40.9206764-06:00:2021-08-20T22:15:40.9196760-06:00:Thread#0:T:Line 44
+2021-08-20T22:15:41.0136976-06:00:2021-08-20T22:15:41.0136976-06:00:Thread#0:T:Parsing: yea that's one of my biggest peeves with application declines. they just say no, they never say why. from: voidvenom777
+2021-08-20T22:15:57.9167804-06:00:2021-08-20T22:15:57.9157799-06:00:Thread#0:T:Line 45
+2021-08-20T22:15:58.0140070-06:00:2021-08-20T22:15:58.0140070-06:00:Thread#0:T:Parsing: i absolutely love being behind the camera. my only regret is that i wish i could have gotten the more expensive camera that i wanted from: nitrobeastproductions
+2021-08-20T22:16:04.3259816-06:00:2021-08-20T22:16:04.3249809-06:00:Thread#0:T:Line 46
+2021-08-20T22:16:04.4165512-06:00:2021-08-20T22:16:04.4155504-06:00:Thread#0:T:Parsing: like, all the positions i applied to for the summer i was qualified several times over from: voidvenom777
+2021-08-20T22:16:12.5152991-06:00:2021-08-20T22:16:12.5152991-06:00:Thread#0:T:Line 47
+2021-08-20T22:16:12.6101425-06:00:2021-08-20T22:16:12.6101425-06:00:Thread#0:T:Parsing: simply because the features of the camera from: nitrobeastproductions
+2021-08-20T22:16:13.1225196-06:00:2021-08-20T22:16:13.1205186-06:00:Thread#0:T:Line 48
+2021-08-20T22:16:13.2285654-06:00:2021-08-20T22:16:13.2285654-06:00:Thread#0:T:Parsing: must have been some really good candidates from: voidvenom777
+2021-08-20T22:22:10.5181543-06:00:2021-08-20T22:22:10.5181543-06:00:Thread#0:T:Line 49
+2021-08-20T22:22:10.6091747-06:00:2021-08-20T22:22:10.6091747-06:00:Thread#0:T:Parsing: probably worse now from: sky_acaniadev
+2021-08-20T22:22:17.7314176-06:00:2021-08-20T22:22:17.7304178-06:00:Thread#0:T:Line 50
+2021-08-20T22:22:17.8219765-06:00:2021-08-20T22:22:17.8219765-06:00:Thread#0:T:Parsing: i appreciate the decline responses, i just hate the way they try to pr flip the decline into a compliment. its insulting. from: voidvenom777
+2021-08-20T22:22:57.9299958-06:00:2021-08-20T22:22:57.9299958-06:00:Thread#0:T:Line 51
+2021-08-20T22:22:58.0240156-06:00:2021-08-20T22:22:58.0230144-06:00:Thread#0:T:Parsing: i mean the criticism is about having the same standard in both chinese language and academic capability as the chinese students from: sky_acaniadev
+2021-08-20T22:23:02.3192297-06:00:2021-08-20T22:23:02.3192297-06:00:Thread#0:T:Line 52
+2021-08-20T22:23:02.4088813-06:00:2021-08-20T22:23:02.4088813-06:00:Thread#0:T:Parsing: not really about racism from: sky_acaniadev
+2021-08-20T22:28:35.7690927-06:00:2021-08-20T22:28:35.7680931-06:00:Thread#0:T:Line 53
+2021-08-20T22:28:35.8691552-06:00:2021-08-20T22:28:35.8691552-06:00:Thread#0:T:Parsing: did i tell you i actually got some paid camera gigs? im shooting 2 music videos and a car dealership commercial. also real estate photo gigs from: nitrobeastproductions
+2021-08-20T22:29:39.7256492-06:00:2021-08-20T22:29:39.7246488-06:00:Thread#0:T:Line 54
+2021-08-20T22:29:39.8162217-06:00:2021-08-20T22:29:39.8162217-06:00:Thread#0:T:Parsing: university probably still won't do that. but people might riot, which would put pressure on xi jingping, forcing him to put mandatory requirements. from: sky_acaniadev
+2021-08-20T22:29:46.3296684-06:00:2021-08-20T22:29:46.3296684-06:00:Thread#0:T:Line 55
+2021-08-20T22:29:46.4232517-06:00:2021-08-20T22:29:46.4232517-06:00:Thread#0:T:Parsing: @user335 do you have a copy of your resume you can post in the discord for me to learn from? cllearly yours is effective from: voidvenom777
+2021-08-20T22:30:00.7336831-06:00:2021-08-20T22:30:00.7336831-06:00:Thread#0:T:Line 56
+2021-08-20T22:30:00.8352307-06:00:2021-08-20T22:30:00.8352307-06:00:Thread#0:T:Parsing: the other ph.d. student is one of the people about to riot. from: sky_acaniadev
+2021-08-20T22:30:41.3280382-06:00:2021-08-20T22:30:41.3280382-06:00:Thread#0:T:Line 57
+2021-08-20T22:30:41.4200588-06:00:2021-08-20T22:30:41.4190584-06:00:Thread#0:T:Parsing: and the disputes on this issue is super heated online, both pro-xi jingping and anti-xi jingping people are supporting this. from: sky_acaniadev
+2021-08-20T22:32:13.9310271-06:00:2021-08-20T22:32:13.9310271-06:00:Thread#0:T:Line 58
+2021-08-20T22:32:14.0290507-06:00:2021-08-20T22:32:14.0290507-06:00:Thread#0:T:Parsing: @user335 yea, i was looking for a 4 month internship from: voidvenom777
+2021-08-20T22:32:28.3311383-06:00:2021-08-20T22:32:28.3301381-06:00:Thread#0:T:Line 59
+2021-08-20T22:32:28.4259176-06:00:2021-08-20T22:32:28.4259176-06:00:Thread#0:T:Parsing: i was applying to intern positions tho so they were expecting that from: voidvenom777
+2021-08-20T22:34:45.9344363-06:00:2021-08-20T22:34:45.9334362-06:00:Thread#0:T:Line 60
+2021-08-20T22:34:46.0324033-06:00:2021-08-20T22:34:46.0324033-06:00:Thread#0:T:Parsing: i feel it is really hard to apply for an entry-level job when you are not very young. from: sky_acaniadev
+2021-08-20T22:35:06.3192031-06:00:2021-08-20T22:35:06.3192031-06:00:Thread#0:T:Line 61
+2021-08-20T22:35:06.4222818-06:00:2021-08-20T22:35:06.4222818-06:00:Thread#0:T:Parsing: well camera is making money to fund movie. from: nitrobeastproductions
+2021-08-20T22:35:11.7574768-06:00:2021-08-20T22:35:11.7574768-06:00:Thread#0:T:Line 62
+2021-08-20T22:35:11.8535468-06:00:2021-08-20T22:35:11.8525467-06:00:Thread#0:T:Parsing: howdy from: rabbit_xxxx
+2021-08-20T22:35:11.8575485-06:00:2021-08-20T22:35:11.8565485-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-08-20T22:35:11.8665507-06:00:2021-08-20T22:35:11.8665507-06:00:Thread#0:T:{
+2021-08-20T22:35:11.8665507-06:00:2021-08-20T22:35:11.8665507-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-20T22:35:11.8675501-06:00:2021-08-20T22:35:11.8675501-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-08-20T22:35:11.8675501-06:00:2021-08-20T22:35:11.8675501-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-08-20T22:35:11.8685526-06:00:2021-08-20T22:35:11.8685526-06:00:Thread#0:T:}
+2021-08-20T22:35:11.8695514-06:00:2021-08-20T22:35:11.8685526-06:00:Thread#0:T:{
+2021-08-20T22:35:11.8695514-06:00:2021-08-20T22:35:11.8695514-06:00:Thread#0:T:	CHUNK ID: IPRD
+2021-08-20T22:35:11.8705515-06:00:2021-08-20T22:35:11.8705515-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-08-20T22:35:11.8705515-06:00:2021-08-20T22:35:11.8705515-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-08-20T22:35:11.8715519-06:00:2021-08-20T22:35:11.8705515-06:00:Thread#0:T:}
+2021-08-20T22:35:11.8715519-06:00:2021-08-20T22:35:11.8715519-06:00:Thread#0:T:{
+2021-08-20T22:35:11.8715519-06:00:2021-08-20T22:35:11.8715519-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-20T22:35:11.8725521-06:00:2021-08-20T22:35:11.8725521-06:00:Thread#0:T:	CHUNK SIZE: 6
+2021-08-20T22:35:11.8725521-06:00:2021-08-20T22:35:11.8725521-06:00:Thread#0:T:	Text Value: 2009  
+2021-08-20T22:35:11.8735517-06:00:2021-08-20T22:35:11.8735517-06:00:Thread#0:T:}
+2021-08-20T22:35:11.8735517-06:00:2021-08-20T22:35:11.8735517-06:00:Thread#0:T:{
+2021-08-20T22:35:11.8745518-06:00:2021-08-20T22:35:11.8745518-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-20T22:35:11.8755519-06:00:2021-08-20T22:35:11.8755519-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-20T22:35:11.8755519-06:00:2021-08-20T22:35:11.8755519-06:00:Thread#0:T:	Text Value: Lavf58.26.101 (libsndfile-1.0.24) 
+2021-08-20T22:35:11.8765523-06:00:2021-08-20T22:35:11.8755519-06:00:Thread#0:T:}
+2021-08-20T22:35:11.8765523-06:00:2021-08-20T22:35:11.8765523-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\rabbit_xxxx.wav at time: 8/20/2021 10:35:11 PM
+2021-08-20T22:35:11.8785525-06:00:2021-08-20T22:35:11.8775525-06:00:Thread#0:T:Waiting for 5015.51ms ended at time: 8/20/2021 10:35:11 PM
+2021-08-20T22:35:16.8960132-06:00:2021-08-20T22:35:16.8960132-06:00:Thread#0:T:Duration of clip was 5.01551, thanks rabbit_xxxx you're the best!
+2021-08-20T22:35:16.8970131-06:00:2021-08-20T22:35:16.8970131-06:00:Thread#0:T:clip played the old boring way, duration was: 5.01551
+2021-08-20T22:35:20.9296070-06:00:2021-08-20T22:35:20.9296070-06:00:Thread#0:T:Line 63
+2021-08-20T22:35:21.0376123-06:00:2021-08-20T22:35:21.0376123-06:00:Thread#0:T:Parsing: i don't really care, hrs think i am business espionage. from: sky_acaniadev
+2021-08-20T22:35:27.5318224-06:00:2021-08-20T22:35:27.5318224-06:00:Thread#0:T:Line 64
+2021-08-20T22:35:27.6267418-06:00:2021-08-20T22:35:27.6267418-06:00:Thread#0:T:Parsing: i'm okay too from: rabbit_xxxx
+2021-08-20T22:35:32.7404178-06:00:2021-08-20T22:35:32.7404178-06:00:Thread#0:T:Line 65
+2021-08-20T22:35:32.8426647-06:00:2021-08-20T22:35:32.8416631-06:00:Thread#0:T:Parsing: oh nice! happy birthday from: rabbit_xxxx
+2021-08-20T22:35:40.1579197-06:00:2021-08-20T22:35:40.1569196-06:00:Thread#0:T:Line 66
+2021-08-20T22:35:40.2549430-06:00:2021-08-20T22:35:40.2539411-06:00:Thread#0:T:Parsing: but im going to bed everyone. night. happy birthday again man. from: nitrobeastproductions
+2021-08-20T22:36:11.5421878-06:00:2021-08-20T22:36:11.5411874-06:00:Thread#0:T:Line 67
+2021-08-20T22:36:11.6507365-06:00:2021-08-20T22:36:11.6497357-06:00:Thread#0:T:Parsing: my birthday is 6 days from now, guess we're almost exactly a year apart from: rabbit_xxxx
+2021-08-20T22:36:37.7285051-06:00:2021-08-20T22:36:37.7275056-06:00:Thread#0:T:Line 68
+2021-08-20T22:36:37.8266863-06:00:2021-08-20T22:36:37.8256862-06:00:Thread#0:T:Parsing: the same one - making foreign students too easy to get into top chinese universities from: sky_acaniadev
+2021-08-20T22:37:31.9652337-06:00:2021-08-20T22:37:31.9652337-06:00:Thread#0:T:Line 69
+2021-08-20T22:37:32.0963082-06:00:2021-08-20T22:37:32.0953085-06:00:Thread#0:T:Parsing: i don't see any similarities from: sky_acaniadev
+2021-08-20T22:38:08.5382059-06:00:2021-08-20T22:38:08.5382059-06:00:Thread#0:T:Line 70
+2021-08-20T22:38:08.6362362-06:00:2021-08-20T22:38:08.6362362-06:00:Thread#0:T:Parsing: this problem looks super small (there are so few foreign college students in china), but it is actually super big. any education-related issues are super big. from: sky_acaniadev
+2021-08-20T22:38:18.5322613-06:00:2021-08-20T22:38:18.5312604-06:00:Thread#0:T:Line 71
+2021-08-20T22:38:18.6463039-06:00:2021-08-20T22:38:18.6463039-06:00:Thread#0:T:Parsing: hi from: dstew99
+2021-08-20T22:38:18.6494354-06:00:2021-08-20T22:38:18.6483129-06:00:Thread#0:T:Eyy, its dstew99!
+2021-08-20T22:38:18.6573072-06:00:2021-08-20T22:38:18.6563068-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\dstew99.wav at time: 8/20/2021 10:38:18 PM
+2021-08-20T22:38:18.6583072-06:00:2021-08-20T22:38:18.6583072-06:00:Thread#0:T:Waiting for 1024.399ms ended at time: 8/20/2021 10:38:18 PM
+2021-08-20T22:38:19.6902879-06:00:2021-08-20T22:38:19.6902879-06:00:Thread#0:T:Duration of clip was 1.024399, thanks rabbit_xxxx you're the best!
+2021-08-20T22:38:19.6912867-06:00:2021-08-20T22:38:19.6912867-06:00:Thread#0:T:clip played the old boring way, duration was: 1.024399
+2021-08-20T22:39:37.1465233-06:00:2021-08-20T22:39:37.1455231-06:00:Thread#0:T:Line 72
+2021-08-20T22:39:37.2491080-06:00:2021-08-20T22:39:37.2481214-06:00:Thread#0:T:Parsing: @user335 that sounds awesome, i'll 100% take up that offer from: voidvenom777
+2021-08-20T22:39:51.5756336-06:00:2021-08-20T22:39:51.5756336-06:00:Thread#0:T:Line 73
+2021-08-20T22:39:51.6796749-06:00:2021-08-20T22:39:51.6796749-06:00:Thread#0:T:Parsing: heyyy man from: thatmanrobin
+2021-08-20T22:39:51.6826761-06:00:2021-08-20T22:39:51.6816760-06:00:Thread#0:T:Eyy, its thatmanrobin!
+2021-08-20T22:39:51.6916773-06:00:2021-08-20T22:39:51.6906773-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\thatmanrobin.wav at time: 8/20/2021 10:39:51 PM
+2021-08-20T22:39:51.6936783-06:00:2021-08-20T22:39:51.6936783-06:00:Thread#0:T:Waiting for 6112.653ms ended at time: 8/20/2021 10:39:51 PM
+2021-08-20T22:39:57.8224296-06:00:2021-08-20T22:39:57.8214300-06:00:Thread#0:T:Duration of clip was 6.112653, thanks rabbit_xxxx you're the best!
+2021-08-20T22:39:57.8224296-06:00:2021-08-20T22:39:57.8224296-06:00:Thread#0:T:clip played the old boring way, duration was: 6.112653
+2021-08-20T22:40:04.3726927-06:00:2021-08-20T22:40:04.3726927-06:00:Thread#0:T:Line 74
+2021-08-20T22:40:04.4737185-06:00:2021-08-20T22:40:04.4727178-06:00:Thread#0:T:Parsing: how goes the optimizing? from: thatmanrobin
+2021-08-20T22:40:20.5512070-06:00:2021-08-20T22:40:20.5502063-06:00:Thread#0:T:Line 75
+2021-08-20T22:40:20.6732975-06:00:2021-08-20T22:40:20.6722974-06:00:Thread#0:T:Parsing: lol i don't think user has done a single thing so far lol from: voidvenom777
+2021-08-20T22:40:27.1474204-06:00:2021-08-20T22:40:27.1474204-06:00:Thread#0:T:Line 76
+2021-08-20T22:40:27.2664476-06:00:2021-08-20T22:40:27.2654471-06:00:Thread#0:T:Parsing: he's been talking to chat the whole time from: voidvenom777
+2021-08-20T22:40:51.3338057-06:00:2021-08-20T22:40:51.3338057-06:00:Thread#0:T:Line 77
+2021-08-20T22:40:51.5004895-06:00:2021-08-20T22:40:51.5004895-06:00:Thread#0:T:Parsing: @voidvenom777 haha sounds about right for some days, i don't blame him haha from: thatmanrobin
+2021-08-20T22:40:53.3309652-06:00:2021-08-20T22:40:53.3309652-06:00:Thread#0:T:Line 78
+2021-08-20T22:40:53.4582221-06:00:2021-08-20T22:40:53.4567011-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T22:40:55.9152653-06:00:2021-08-20T22:40:55.9152653-06:00:Thread#0:T:Line 79
+2021-08-20T22:40:56.0369027-06:00:2021-08-20T22:40:56.0369027-06:00:Thread#0:T:Parsing: yep, it is all about money from: sky_acaniadev
+2021-08-20T22:40:57.5146633-06:00:2021-08-20T22:40:57.5146633-06:00:Thread#0:T:Line 80
+2021-08-20T22:40:57.6292297-06:00:2021-08-20T22:40:57.6292297-06:00:Thread#0:T:Parsing: i released my demo for finding fern today from: thatmanrobin
+2021-08-20T22:41:00.3155757-06:00:2021-08-20T22:41:00.3145757-06:00:Thread#0:T:Line 81
+2021-08-20T22:41:00.4546084-06:00:2021-08-20T22:41:00.4536079-06:00:Thread#0:T:Parsing:  from: hadhacks
+2021-08-20T22:41:09.5678822-06:00:2021-08-20T22:41:09.5678822-06:00:Thread#0:T:Line 82
+2021-08-20T22:41:09.6754166-06:00:2021-08-20T22:41:09.6754166-06:00:Thread#0:T:Parsing: this is why i will never find anyone from: rabbit_xxxx
+2021-08-20T22:41:13.3284104-06:00:2021-08-20T22:41:13.3274102-06:00:Thread#0:T:Line 83
+2021-08-20T22:41:13.4274342-06:00:2021-08-20T22:41:13.4274342-06:00:Thread#0:T:Parsing: @thatmanrobin congrats from: sky_acaniadev
+2021-08-20T22:41:28.5312323-06:00:2021-08-20T22:41:28.5312323-06:00:Thread#0:T:Line 84
+2021-08-20T22:41:28.6352782-06:00:2021-08-20T22:41:28.6352782-06:00:Thread#0:T:Parsing: !thatmanrobin from: user335
+2021-08-20T22:41:28.7182971-06:00:2021-08-20T22:41:28.7182971-06:00:Thread#0:T:Line 85
+2021-08-20T22:42:10.1305262-06:00:2021-08-20T22:42:10.1295259-06:00:Thread#0:T:Line 86
+2021-08-20T22:42:10.2341368-06:00:2021-08-20T22:42:10.2341368-06:00:Thread#0:T:Parsing: https://ronnon22.itch.io/finding-fern from: thatmanrobin
+2021-08-20T22:42:11.1284851-06:00:2021-08-20T22:42:11.1284851-06:00:Thread#0:T:Line 87
+2021-08-20T22:42:11.2295414-06:00:2021-08-20T22:42:11.2295414-06:00:Thread#0:T:Parsing: going to bed from: rabbit_xxxx
+2021-08-20T22:42:14.5328580-06:00:2021-08-20T22:42:14.5328580-06:00:Thread#0:T:Line 88
+2021-08-20T22:42:14.6406426-06:00:2021-08-20T22:42:14.6396422-06:00:Thread#0:T:Parsing: @sky_acaniadev thanks! from: thatmanrobin
+2021-08-20T22:42:19.7147017-06:00:2021-08-20T22:42:19.7147017-06:00:Thread#0:T:Line 89
+2021-08-20T22:42:19.8257264-06:00:2021-08-20T22:42:19.8247263-06:00:Thread#0:T:Parsing: hope you're doing good man! from: thatmanrobin
+2021-08-20T22:43:01.1595538-06:00:2021-08-20T22:43:01.1595538-06:00:Thread#0:T:Line 90
+2021-08-20T22:43:01.2645764-06:00:2021-08-20T22:43:01.2645764-06:00:Thread#0:T:Parsing: nice from: rabbit_xxxx
+2021-08-20T22:43:24.5598847-06:00:2021-08-20T22:43:24.5598847-06:00:Thread#0:T:Line 91
+2021-08-20T22:43:24.6779420-06:00:2021-08-20T22:43:24.6779420-06:00:Thread#0:T:Parsing: yeah i grew up with a typewriter, didn't have a computer until 15 from: rabbit_xxxx
+2021-08-20T22:44:24.9380523-06:00:2021-08-20T22:44:24.9370520-06:00:Thread#0:T:Line 92
+2021-08-20T22:44:25.0466204-06:00:2021-08-20T22:44:25.0466204-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-08-20T22:45:11.3300249-06:00:2021-08-20T22:45:11.3290246-06:00:Thread#0:T:Line 93
+2021-08-20T22:45:11.4360685-06:00:2021-08-20T22:45:11.4360685-06:00:Thread#0:T:Parsing: wow, my first pc was a toshiba in 2008 (10-year old laptop) from: sky_acaniadev
+2021-08-20T22:45:45.7419357-06:00:2021-08-20T22:45:45.7419357-06:00:Thread#0:T:Line 94
+2021-08-20T22:45:45.8640200-06:00:2021-08-20T22:45:45.8640200-06:00:Thread#0:T:Parsing: non-top tier colleges really doesn't matter much from: sky_acaniadev
+2021-08-20T22:45:56.1265744-06:00:2021-08-20T22:45:56.1255742-06:00:Thread#0:T:Line 95
+2021-08-20T22:45:56.2301860-06:00:2021-08-20T22:45:56.2301860-06:00:Thread#0:T:Parsing: top tier ones really matters from: sky_acaniadev
+2021-08-20T22:48:05.3716049-06:00:2021-08-20T22:48:05.3716049-06:00:Thread#0:T:Line 96
+2021-08-20T22:48:05.4776289-06:00:2021-08-20T22:48:05.4776289-06:00:Thread#0:T:Parsing: another super big topic in china now is the government putting limitations on commercial education companies from: sky_acaniadev
+2021-08-20T22:49:25.5523583-06:00:2021-08-20T22:49:25.5513599-06:00:Thread#0:T:Line 97
+2021-08-20T22:49:25.7053933-06:00:2021-08-20T22:49:25.7043915-06:00:Thread#0:T:Parsing: was she in skull and bones? from: rabbit_xxxx
+2021-08-20T22:51:39.5856954-06:00:2021-08-20T22:51:39.5856954-06:00:Thread#0:T:Line 98
+2021-08-20T22:51:39.7357305-06:00:2021-08-20T22:51:39.7357305-06:00:Thread#0:T:Parsing: nice voice acting from: sky_acaniadev
+2021-08-20T22:53:43.3607606-06:00:2021-08-20T22:53:43.3577581-06:00:Thread#0:T:Line 99
+2021-08-20T22:53:43.4933578-06:00:2021-08-20T22:53:43.4933578-06:00:Thread#0:T:Parsing: sounds good from: sky_acaniadev
+2021-08-20T22:56:00.3577488-06:00:2021-08-20T22:56:00.3567483-06:00:Thread#0:T:Line 100
+2021-08-20T22:56:00.5403316-06:00:2021-08-20T22:56:00.5393315-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T22:56:48.1423626-06:00:2021-08-20T22:56:48.1413616-06:00:Thread#0:T:Line 101
+2021-08-20T22:56:48.2548999-06:00:2021-08-20T22:56:48.2548999-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-08-20T22:57:43.7337668-06:00:2021-08-20T22:57:43.7327665-06:00:Thread#0:T:Line 102
+2021-08-20T22:57:43.8508490-06:00:2021-08-20T22:57:43.8498495-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T22:57:46.9251658-06:00:2021-08-20T22:57:46.9236531-06:00:Thread#0:T:Line 103
+2021-08-20T22:57:47.1037091-06:00:2021-08-20T22:57:47.1037091-06:00:Thread#0:T:Parsing: good advice from: twitchdog
+2021-08-20T22:57:47.1107114-06:00:2021-08-20T22:57:47.1097113-06:00:Thread#0:T:{
+2021-08-20T22:57:47.1117118-06:00:2021-08-20T22:57:47.1107114-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-20T22:57:47.1117118-06:00:2021-08-20T22:57:47.1117118-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-20T22:57:47.1127113-06:00:2021-08-20T22:57:47.1127113-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-20T22:57:47.1127113-06:00:2021-08-20T22:57:47.1127113-06:00:Thread#0:T:}
+2021-08-20T22:57:47.1137116-06:00:2021-08-20T22:57:47.1137116-06:00:Thread#0:T:{
+2021-08-20T22:57:47.1137116-06:00:2021-08-20T22:57:47.1137116-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-20T22:57:47.1147114-06:00:2021-08-20T22:57:47.1147114-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-20T22:57:47.1147114-06:00:2021-08-20T22:57:47.1147114-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-20T22:57:47.1157127-06:00:2021-08-20T22:57:47.1157127-06:00:Thread#0:T:}
+2021-08-20T22:57:47.1167121-06:00:2021-08-20T22:57:47.1167121-06:00:Thread#0:T:{
+2021-08-20T22:57:47.1167121-06:00:2021-08-20T22:57:47.1167121-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-20T22:57:47.1177121-06:00:2021-08-20T22:57:47.1177121-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-20T22:57:47.1177121-06:00:2021-08-20T22:57:47.1177121-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-20T22:57:47.1187131-06:00:2021-08-20T22:57:47.1177121-06:00:Thread#0:T:}
+2021-08-20T22:57:47.1187131-06:00:2021-08-20T22:57:47.1187131-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/20/2021 10:57:47 PM
+2021-08-20T22:57:47.1197135-06:00:2021-08-20T22:57:47.1197135-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/20/2021 10:57:47 PM
+2021-08-20T22:58:21.1316549-06:00:2021-08-20T22:58:21.1306542-06:00:Thread#0:T:Line 104
+2021-08-20T22:58:21.2456792-06:00:2021-08-20T22:58:21.2446787-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T22:58:41.5532529-06:00:2021-08-20T22:58:41.5522523-06:00:Thread#0:T:Line 105
+2021-08-20T22:58:41.6652776-06:00:2021-08-20T22:58:41.6652776-06:00:Thread#0:T:Parsing: that's crazy from: rabbit_xxxx
+2021-08-20T22:58:56.9418921-06:00:2021-08-20T22:58:56.9408924-06:00:Thread#0:T:Line 106
+2021-08-20T22:58:57.0849258-06:00:2021-08-20T22:58:57.0849258-06:00:Thread#0:T:Parsing: wow from: rabbit_xxxx
+2021-08-20T22:59:03.3883472-06:00:2021-08-20T22:59:03.3873459-06:00:Thread#0:T:Line 107
+2021-08-20T22:59:03.5053941-06:00:2021-08-20T22:59:03.5053941-06:00:Thread#0:T:Parsing: i am not good looking from: sky_acaniadev
+2021-08-20T22:59:16.7487640-06:00:2021-08-20T22:59:16.7477628-06:00:Thread#0:T:Line 108
+2021-08-20T22:59:16.8623178-06:00:2021-08-20T22:59:16.8623178-06:00:Thread#0:T:Parsing: i think in the us it's often based on that as well though from: rabbit_xxxx
+2021-08-20T22:59:43.1464964-06:00:2021-08-20T22:59:43.1464964-06:00:Thread#0:T:Line 109
+2021-08-20T22:59:43.2605243-06:00:2021-08-20T22:59:43.2605243-06:00:Thread#0:T:Parsing: we just don't outright admit it, and we don't post photos on resumes from: rabbit_xxxx
+2021-08-20T22:59:56.3865822-06:00:2021-08-20T22:59:56.3855815-06:00:Thread#0:T:Line 110
+2021-08-20T22:59:56.4966211-06:00:2021-08-20T22:59:56.4966211-06:00:Thread#0:T:Parsing: i've turned awful candidates away only to have a colleague go "go on, give her a chance" - me knowing full well they had a gender bias in that decision >< from: twitchdog
+2021-08-20T23:01:16.9379826-06:00:2021-08-20T23:01:16.9369825-06:00:Thread#0:T:Line 111
+2021-08-20T23:01:17.0490063-06:00:2021-08-20T23:01:17.0490063-06:00:Thread#0:T:Parsing: though in 2009 i got a relatively good laptop from: sky_acaniadev
+2021-08-20T23:01:25.1338956-06:00:2021-08-20T23:01:25.1328954-06:00:Thread#0:T:Line 112
+2021-08-20T23:01:25.2659259-06:00:2021-08-20T23:01:25.2649253-06:00:Thread#0:T:Parsing: i remember those very sad days when i couldn't afford anything with decent ram from: flamingdryad
+2021-08-20T23:01:25.2729279-06:00:2021-08-20T23:01:25.2719272-06:00:Thread#0:T:{
+2021-08-20T23:01:25.2739284-06:00:2021-08-20T23:01:25.2729279-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-20T23:01:25.2739284-06:00:2021-08-20T23:01:25.2739284-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-20T23:01:25.2749272-06:00:2021-08-20T23:01:25.2749272-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-20T23:01:25.2749272-06:00:2021-08-20T23:01:25.2749272-06:00:Thread#0:T:}
+2021-08-20T23:01:25.2759282-06:00:2021-08-20T23:01:25.2759282-06:00:Thread#0:T:{
+2021-08-20T23:01:25.2769276-06:00:2021-08-20T23:01:25.2759282-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-20T23:01:25.2779283-06:00:2021-08-20T23:01:25.2779283-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-20T23:01:25.2789285-06:00:2021-08-20T23:01:25.2779283-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-20T23:01:25.2789285-06:00:2021-08-20T23:01:25.2789285-06:00:Thread#0:T:}
+2021-08-20T23:01:25.2799283-06:00:2021-08-20T23:01:25.2789285-06:00:Thread#0:T:{
+2021-08-20T23:01:25.2799283-06:00:2021-08-20T23:01:25.2799283-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-20T23:01:25.2809289-06:00:2021-08-20T23:01:25.2809289-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-20T23:01:25.2819297-06:00:2021-08-20T23:01:25.2819297-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-20T23:01:25.2829305-06:00:2021-08-20T23:01:25.2829305-06:00:Thread#0:T:}
+2021-08-20T23:01:25.2839287-06:00:2021-08-20T23:01:25.2839287-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/20/2021 11:01:25 PM
+2021-08-20T23:01:25.2849299-06:00:2021-08-20T23:01:25.2849299-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/20/2021 11:01:25 PM
+2021-08-20T23:01:26.5386089-06:00:2021-08-20T23:01:26.5386089-06:00:Thread#0:T:Line 113
+2021-08-20T23:01:26.6436333-06:00:2021-08-20T23:01:26.6436333-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T23:01:54.3483079-06:00:2021-08-20T23:01:54.3483079-06:00:Thread#0:T:Line 114
+2021-08-20T23:01:54.4593783-06:00:2021-08-20T23:01:54.4593783-06:00:Thread#0:T:Parsing: btw, happy birthday!!! from: flamingdryad
+2021-08-20T23:02:04.9521299-06:00:2021-08-20T23:02:04.9521299-06:00:Thread#0:T:Line 115
+2021-08-20T23:02:05.1031634-06:00:2021-08-20T23:02:05.1031634-06:00:Thread#0:T:Parsing: the reason is the same as i guessed, my biological father is about to be jailed so he was trying to spend all his corrupted money from: sky_acaniadev
+2021-08-20T23:02:21.7427919-06:00:2021-08-20T23:02:21.7427919-06:00:Thread#0:T:Line 116
+2021-08-20T23:02:21.8679817-06:00:2021-08-20T23:02:21.8679647-06:00:Thread#0:T:Parsing: commercial ones. yeah after school from: sky_acaniadev
+2021-08-20T23:02:56.3532999-06:00:2021-08-20T23:02:56.3473075-06:00:Thread#0:T:Line 117
+2021-08-20T23:02:56.4913796-06:00:2021-08-20T23:02:56.4913796-06:00:Thread#0:T:Parsing: this one is probably as controversial as xi jinping removing presidential term limits from: sky_acaniadev
+2021-08-20T23:03:08.5619701-06:00:2021-08-20T23:03:08.5619701-06:00:Thread#0:T:Line 118
+2021-08-20T23:03:08.6850723-06:00:2021-08-20T23:03:08.6850723-06:00:Thread#0:T:Parsing: happy b'day! from: dstew99
+2021-08-20T23:03:51.1522335-06:00:2021-08-20T23:03:51.1512336-06:00:Thread#0:T:Line 119
+2021-08-20T23:03:51.2722160-06:00:2021-08-20T23:03:51.2722160-06:00:Thread#0:T:Parsing: the official reason is to reduce burden on students, the government motivation is probably trying to stop pay-to-learn (and win), tho there are all kinds of theories out there. from: sky_acaniadev
+2021-08-20T23:03:57.3316057-06:00:2021-08-20T23:03:57.3316057-06:00:Thread#0:T:Line 120
+2021-08-20T23:03:57.4546322-06:00:2021-08-20T23:03:57.4536322-06:00:Thread#0:T:Parsing: yo! from: almightygamesdev
+2021-08-20T23:03:57.4576335-06:00:2021-08-20T23:03:57.4566330-06:00:Thread#0:T:Eyy, its almightygamesdev!
+2021-08-20T23:03:57.4586342-06:00:2021-08-20T23:03:57.4576335-06:00:Thread#0:T:Found 2 clips for user almightygamesdev and rolled clip #: 0
+2021-08-20T23:03:57.4685218-06:00:2021-08-20T23:03:57.4676357-06:00:Thread#0:T:{
+2021-08-20T23:03:57.4685218-06:00:2021-08-20T23:03:57.4685218-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-20T23:03:57.4695118-06:00:2021-08-20T23:03:57.4695118-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-20T23:03:57.4705118-06:00:2021-08-20T23:03:57.4695118-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-20T23:03:57.4705118-06:00:2021-08-20T23:03:57.4705118-06:00:Thread#0:T:}
+2021-08-20T23:03:57.4715116-06:00:2021-08-20T23:03:57.4705118-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\almightygamesdev.wav at time: 8/20/2021 11:03:57 PM
+2021-08-20T23:03:57.4715116-06:00:2021-08-20T23:03:57.4715116-06:00:Thread#0:T:Waiting for 2882.902ms ended at time: 8/20/2021 11:03:57 PM
+2021-08-20T23:04:00.3615672-06:00:2021-08-20T23:04:00.3605652-06:00:Thread#0:T:Duration of clip was 2.882902, thanks rabbit_xxxx you're the best!
+2021-08-20T23:04:00.3625672-06:00:2021-08-20T23:04:00.3615672-06:00:Thread#0:T:clip played the old boring way, duration was: 2.882902
+2021-08-20T23:04:12.1580865-06:00:2021-08-20T23:04:12.1570875-06:00:Thread#0:T:Line 121
+2021-08-20T23:04:12.3082507-06:00:2021-08-20T23:04:12.3072579-06:00:Thread#0:T:Parsing: all good thanks, hope you're doing alright from: twitchdog
+2021-08-20T23:04:17.9706815-06:00:2021-08-20T23:04:17.9706815-06:00:Thread#0:T:Line 122
+2021-08-20T23:04:18.1537601-06:00:2021-08-20T23:04:18.1527599-06:00:Thread#0:T:Parsing: i'm really fortunate in the education regard. my parents will pay for me to go to school anywhere i want, as well as any materials and such that i need because they believe it gives me something of a headstart on life to not come out of university with massive debt. from: voidvenom777
+2021-08-20T23:04:21.9630669-06:00:2021-08-20T23:04:21.9620687-06:00:Thread#0:T:Line 123
+2021-08-20T23:04:22.1142355-06:00:2021-08-20T23:04:22.1132373-06:00:Thread#0:T:Parsing: sup @almightygamesdev from: voidvenom777
+2021-08-20T23:04:34.9495678-06:00:2021-08-20T23:04:34.9485683-06:00:Thread#0:T:Line 124
+2021-08-20T23:04:35.0856387-06:00:2021-08-20T23:04:35.0846391-06:00:Thread#0:T:Parsing: hey all from: almightygamesdev
+2021-08-20T23:04:53.3465766-06:00:2021-08-20T23:04:53.3465766-06:00:Thread#0:T:Line 125
+2021-08-20T23:04:53.4788158-06:00:2021-08-20T23:04:53.4788158-06:00:Thread#0:T:Parsing: hi from: dstew99
+2021-08-20T23:05:42.1736094-06:00:2021-08-20T23:05:42.1726088-06:00:Thread#0:T:Line 126
+2021-08-20T23:05:42.3416463-06:00:2021-08-20T23:05:42.3416463-06:00:Thread#0:T:Parsing: your mom knows what ram is? from: rabbit_xxxx
+2021-08-20T23:05:52.3557492-06:00:2021-08-20T23:05:52.3557492-06:00:Thread#0:T:Line 127
+2021-08-20T23:05:52.4992898-06:00:2021-08-20T23:05:52.4992898-06:00:Thread#0:T:Parsing: hi user mom! from: dstew99
+2021-08-20T23:05:54.3229873-06:00:2021-08-20T23:05:54.3199845-06:00:Thread#0:T:Line 128
+2021-08-20T23:05:54.4740197-06:00:2021-08-20T23:05:54.4740197-06:00:Thread#0:T:Parsing: happy birthday my friend
+2021-08-20T23:05:54.4750198-06:00:2021-08-20T23:05:54.4750198-06:00:Thread#0:T:thanks for sharing your birthday with us too from: almightygamesdev
+2021-08-20T23:06:40.9491376-06:00:2021-08-20T23:06:40.9481367-06:00:Thread#0:T:Line 129
+2021-08-20T23:06:41.0741654-06:00:2021-08-20T23:06:41.0741654-06:00:Thread#0:T:Parsing: i like all you're putting into the artwork from: flamingdryad
+2021-08-20T23:08:33.9436617-06:00:2021-08-20T23:08:33.9426612-06:00:Thread#0:T:Line 130
+2021-08-20T23:08:34.0764418-06:00:2021-08-20T23:08:34.0764418-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T23:08:58.9525919-06:00:2021-08-20T23:08:58.9525919-06:00:Thread#0:T:Line 131
+2021-08-20T23:08:59.0842035-06:00:2021-08-20T23:08:59.0842035-06:00:Thread#0:T:Parsing: mistake? wow, i guess!!! from: flamingdryad
+2021-08-20T23:08:59.7206383-06:00:2021-08-20T23:08:59.7206383-06:00:Thread#0:T:Line 132
+2021-08-20T23:08:59.8370483-06:00:2021-08-20T23:08:59.8370483-06:00:Thread#0:T:Parsing: sounds like a frank abagnale :'d from: voidvenom777
+2021-08-20T23:09:24.3561085-06:00:2021-08-20T23:09:24.3551058-06:00:Thread#0:T:Line 133
+2021-08-20T23:09:24.4861353-06:00:2021-08-20T23:09:24.4861353-06:00:Thread#0:T:Parsing: catch me if you can (my favorite movie) from: almightygamesdev
+2021-08-20T23:09:30.7425634-06:00:2021-08-20T23:09:30.7425634-06:00:Thread#0:T:Line 134
+2021-08-20T23:09:30.9326262-06:00:2021-08-20T23:09:30.9326262-06:00:Thread#0:T:Parsing: read the book too
+2021-08-20T23:09:30.9336271-06:00:2021-08-20T23:09:30.9326262-06:00:Thread#0:T:great story from: almightygamesdev
+2021-08-20T23:09:33.7658565-06:00:2021-08-20T23:09:33.7658565-06:00:Thread#0:T:Line 135
+2021-08-20T23:09:33.9030695-06:00:2021-08-20T23:09:33.9030695-06:00:Thread#0:T:Parsing: spy! from: rabbit_xxxx
+2021-08-20T23:09:40.7417118-06:00:2021-08-20T23:09:40.7417118-06:00:Thread#0:T:Line 136
+2021-08-20T23:09:40.8757623-06:00:2021-08-20T23:09:40.8747624-06:00:Thread#0:T:Parsing: it is indeed a very very good movie @almightygamesdev from: voidvenom777
+2021-08-20T23:09:42.7422312-06:00:2021-08-20T23:09:42.7412310-06:00:Thread#0:T:Line 137
+2021-08-20T23:09:42.9048714-06:00:2021-08-20T23:09:42.9048714-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T23:09:44.7322838-06:00:2021-08-20T23:09:44.7312835-06:00:Thread#0:T:Line 138
+2021-08-20T23:09:44.8643148-06:00:2021-08-20T23:09:44.8643148-06:00:Thread#0:T:Parsing: didn't know there was a book tho from: voidvenom777
+2021-08-20T23:11:17.5527204-06:00:2021-08-20T23:11:17.5517196-06:00:Thread#0:T:Line 139
+2021-08-20T23:11:17.6919166-06:00:2021-08-20T23:11:17.6919166-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-08-20T23:12:07.9542888-06:00:2021-08-20T23:12:07.9532883-06:00:Thread#0:T:Line 140
+2021-08-20T23:12:08.0915596-06:00:2021-08-20T23:12:08.0915596-06:00:Thread#0:T:Parsing: he was in jail for 8 years from: sky_acaniadev
+2021-08-20T23:12:17.7434382-06:00:2021-08-20T23:12:17.7434382-06:00:Thread#0:T:Line 141
+2021-08-20T23:12:17.8844700-06:00:2021-08-20T23:12:17.8844700-06:00:Thread#0:T:Parsing: lucky he didn't die there from: sky_acaniadev
+2021-08-20T23:12:31.2065571-06:00:2021-08-20T23:12:31.2055568-06:00:Thread#0:T:Line 142
+2021-08-20T23:12:31.3535924-06:00:2021-08-20T23:12:31.3525901-06:00:Thread#0:T:Parsing: the money he corrupted is enough to be killed 10 times from: sky_acaniadev
+2021-08-20T23:12:52.5642896-06:00:2021-08-20T23:12:52.5642896-06:00:Thread#0:T:Line 143
+2021-08-20T23:12:52.7038311-06:00:2021-08-20T23:12:52.7038311-06:00:Thread#0:T:Parsing: you're the family hero! everybody is proud to be related to you from: flamingdryad
+2021-08-20T23:14:07.5530020-06:00:2021-08-20T23:14:07.5530020-06:00:Thread#0:T:Line 144
+2021-08-20T23:14:07.7020675-06:00:2021-08-20T23:14:07.7010672-06:00:Thread#0:T:Parsing: your mom works in a computer & cell phone repair shop. mayyyybe i know out what ram is; ya think? from: flamingdryad
+2021-08-20T23:15:48.9490222-06:00:2021-08-20T23:15:48.9490222-06:00:Thread#0:T:Line 145
+2021-08-20T23:15:49.0915631-06:00:2021-08-20T23:15:49.0915631-06:00:Thread#0:T:Parsing: the thing about the book that really stood out for me was the prison he spent most of his time in (in france) which had a 5 foot tall ceiling, while frank was over 6 feet tall. he had to crawl on his knees for years. no window, dirt floor, and no treatment for pnuemonia which he had for years while living on his knees in the dirt (basically) from: almightygamesdev
+2021-08-20T23:15:53.7470394-06:00:2021-08-20T23:15:53.7460406-06:00:Thread#0:T:Line 146
+2021-08-20T23:15:53.8751674-06:00:2021-08-20T23:15:53.8741666-06:00:Thread#0:T:Parsing: stream is alive and well @user335 from: voidvenom777
+2021-08-20T23:16:09.1568532-06:00:2021-08-20T23:16:09.1558524-06:00:Thread#0:T:Line 147
+2021-08-20T23:16:09.2939689-06:00:2021-08-20T23:16:09.2939689-06:00:Thread#0:T:Parsing: isn't check chat a thing on the bot> from: mrnoah99
+2021-08-20T23:16:09.3099920-06:00:2021-08-20T23:16:09.3089926-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\usercheckthechat.wav at time: 8/20/2021 11:16:09 PM
+2021-08-20T23:16:09.3099920-06:00:2021-08-20T23:16:09.3099920-06:00:Thread#0:T:Waiting for 1780.68ms ended at time: 8/20/2021 11:16:09 PM
+2021-08-20T23:16:11.1162202-06:00:2021-08-20T23:16:11.1162202-06:00:Thread#0:T:Line 148
+2021-08-20T23:16:11.2851358-06:00:2021-08-20T23:16:11.2841356-06:00:Thread#0:T:Parsing: ? from: mrnoah99
+2021-08-20T23:16:20.9546852-06:00:2021-08-20T23:16:20.9546852-06:00:Thread#0:T:Line 149
+2021-08-20T23:16:21.0897370-06:00:2021-08-20T23:16:21.0897370-06:00:Thread#0:T:Parsing: neither of my parents know much of anything about computers from: rabbit_xxxx
+2021-08-20T23:16:28.1568104-06:00:2021-08-20T23:16:28.1558106-06:00:Thread#0:T:Line 150
+2021-08-20T23:16:28.2919206-06:00:2021-08-20T23:16:28.2919206-06:00:Thread#0:T:Parsing: wow. the movie really glossed over that by just having him fake illness then escaping... i gotta read books more often from: voidvenom777
+2021-08-20T23:16:52.9560062-06:00:2021-08-20T23:16:52.9550072-06:00:Thread#0:T:Line 151
+2021-08-20T23:16:53.1290618-06:00:2021-08-20T23:16:53.1290618-06:00:Thread#0:T:Parsing: mostly gone, his ex-wife (the wife after my mon) swallowed most of the money and fled to canada or somewhere like that. from: sky_acaniadev
+2021-08-21T17:10:58.1425289-06:00:2021-08-21T17:10:58.1415295-06:00:Thread#0:T:Line 152
+2021-08-21T17:10:59.2526141-06:00:2021-08-21T17:10:59.2516152-06:00:Thread#0:T:Eyy, its user335!
+2021-08-21T17:10:59.2606153-06:00:2021-08-21T17:10:59.2606153-06:00:Thread#0:T:{
+2021-08-21T17:10:59.2616155-06:00:2021-08-21T17:10:59.2616155-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T17:10:59.2616155-06:00:2021-08-21T17:10:59.2616155-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-21T17:10:59.2626161-06:00:2021-08-21T17:10:59.2626161-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-21T17:10:59.2626161-06:00:2021-08-21T17:10:59.2626161-06:00:Thread#0:T:}
+2021-08-21T17:10:59.2636169-06:00:2021-08-21T17:10:59.2636169-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\user335.wav at time: 8/21/2021 5:10:59 PM
+2021-08-21T17:10:59.2646165-06:00:2021-08-21T17:10:59.2646165-06:00:Thread#0:T:Waiting for 763.356ms ended at time: 8/21/2021 5:10:59 PM
+2021-08-21T17:11:00.0295117-06:00:2021-08-21T17:11:00.0285100-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-08-21T17:11:00.0305110-06:00:2021-08-21T17:11:00.0295117-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356

@@ -1,0 +1,624 @@
+﻿2021-09-27T21:17:15.2488797-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-09-27T21:17:15.2488797-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-09-27T21:17:15.2488797-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-09-27T21:17:15.2498805-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-09-27T21:17:15.3919151-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-09-27T21:17:15.3929132-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-09-27T21:17:15.3929132-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-09-27T21:17:15.4349225-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-09-27T211715.log
+2021-09-27T21:17:15.4399242-06:00;Thread#13;Info;Checking activation
+2021-09-27T21:17:15.5229431-06:00;Thread#13;Info;Activated.
+2021-09-27T21:17:15.5229431-06:00;Thread#13;Info;Activation check completed
+2021-09-27T21:17:15.5229431-06:00;Thread#13;Info;Starting test run
+2021-09-27T21:17:15.5589497-06:00;Thread#13;Info;Discovering target: Default
+2021-09-27T21:17:15.5589497-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-09-27T21:17:15.9070293-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-09-27T21:17:15.9080294-06:00:Test Suite Dump
+2021-09-27T21:17:15.9090296-06:00:#0: PracticingSix/PracticingSix - 
+2021-09-27T21:17:15.9090296-06:00:#1: Default - 
+2021-09-27T21:17:15.9090296-06:00:#2: PracticingSix - 
+2021-09-27T21:17:15.9090296-06:00:#4: Twitch Bot! - 
+2021-09-27T21:17:15.9420389-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-09-27T21:17:15.9420389-06:00:End: Test Suite Dump
+2021-09-27T21:17:15.9780470-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-09-27T21:17:15.9800466-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-09-27T21:17:15.9800466-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-09-27T21:17:15.9850468-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-09-27T21:17:15.9850468-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-09-27T21:17:15.9850468-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-09-27T21:17:15.9850468-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-09-27T21:17:15.9870479-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-09-27T21:17:15.9880480-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-09-27T21:17:15.9880480-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-09-27T21:17:15.9880480-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-09-27T21:17:15.9880480-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-09-27T21:17:15.9880480-06:00:Thread#1:Scheduler: No more tests for thread
+2021-09-27T21:17:15.9900476-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-09-27T21:17:15.9920497-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-09-27T21:17:16.0230551-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-09-27T21:17:16.0250656-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-09-27T21:17:16.0270658-06:00:starting Out Of Process Executor
+2021-09-27T21:17:16.0340584-06:00:Starting callback TCP Rpc server
+2021-09-27T21:17:16.0470606-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-09-27T21:17:16.0470606-06:00:Started callback TCP Rpc server on port 32768
+2021-09-27T21:17:16.0470606-06:00:Starting logger TCP Rpc server
+2021-09-27T21:17:16.0500610-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-09-27T21:17:16.0500610-06:00:Started logger TCP Rpc server on port 32769
+2021-09-27T21:17:16.0540621-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 8052 --uniqueId "2021-09-27T211715" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-09-27T21:17:16.0830692-06:00:Executor with PID 15688 has been started successfully.
+2021-09-27T21:17:16.0860700-06:00:Out of Process Executor 15688 started
+2021-09-27T21:17:16.0860700-06:00:Waiting for endpoint
+2021-09-27T21:17:16.7532208-06:00:Remote executor port received: 32770
+2021-09-27T21:17:16.7542206-06:00:Creating executor TCP client on port 32770
+2021-09-27T21:17:16.7542206-06:00:Created executor TCP client on port 32770
+2021-09-27T21:17:16.7542206-06:00:Connecting to remote executor TCP server
+2021-09-27T21:17:16.7542206-06:00:Connected remote executor TCP server
+2021-09-27T21:17:16.7542206-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-09-27T21:17:16.7542206-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-09-27T21:17:17.2586560-06:00:2021-09-27T21:17:17.2576554-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-09-27T21:17:17.2636564-06:00:Endpoint 15688 started
+2021-09-27T21:17:17.2806607-06:00:2021-09-27T21:17:17.2796605-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-09-27T21:17:17.6567464-06:00:2021-09-27T21:17:17.6567464-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-09-27T21:17:17.6887533-06:00:2021-09-27T21:17:17.6887533-06:00:Thread#0:T:-> Using default config
+2021-09-27T21:17:18.7000015-06:00:2021-09-27T21:17:18.7000015-06:00:Thread#0:T:Starting the driver...
+2021-09-27T21:17:20.3251268-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-09-27T21:17:20.3561335-06:00:2021-09-27T21:17:20.3551343-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-09-27T21:17:20.4011440-06:00:2021-09-27T21:17:20.4001436-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-09-27T21:17:20.4031447-06:00:2021-09-27T21:17:20.4031447-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-09-27T21:17:22.3846331-06:00:2021-09-27T21:17:22.3816335-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.0s)
+2021-09-27T21:17:22.3866339-06:00:2021-09-27T21:17:22.3866339-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-09-27T21:17:52.1467279-06:00:2021-09-27T21:17:52.1457278-06:00:Thread#0:T:Line 1
+2021-09-27T21:17:52.2297467-06:00:2021-09-27T21:17:52.2287464-06:00:Thread#0:T:Parsing: working on school tasks from: sky_acaniadev
+2021-09-27T21:17:52.2377487-06:00:2021-09-27T21:17:52.2377487-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-09-27T21:17:52.2397509-06:00:2021-09-27T21:17:52.2397509-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 1
+2021-09-27T21:17:52.3027630-06:00:2021-09-27T21:17:52.3017632-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev1.wav at time: 9/27/2021 9:17:52 PM
+2021-09-27T21:17:52.3047638-06:00:2021-09-27T21:17:52.3047638-06:00:Thread#0:T:Waiting for 2999.252ms ended at time: 9/27/2021 9:17:52 PM
+2021-09-27T21:17:55.3197945-06:00:2021-09-27T21:17:55.3197945-06:00:Thread#0:T:Duration of clip was 2.999252, thanks rabbit_xxxx you're the best!
+2021-09-27T21:17:55.3207936-06:00:2021-09-27T21:17:55.3207936-06:00:Thread#0:T:clip played the old boring way, duration was: 2.999252
+2021-09-27T21:18:20.5398799-06:00:2021-09-27T21:18:20.5388796-06:00:Thread#0:T:Line 2
+2021-09-27T21:18:20.6078957-06:00:2021-09-27T21:18:20.6078957-06:00:Thread#0:T:Parsing: hello from: dstew99
+2021-09-27T21:18:20.6098949-06:00:2021-09-27T21:18:20.6098949-06:00:Thread#0:T:Eyy, its dstew99!
+2021-09-27T21:18:20.6168978-06:00:2021-09-27T21:18:20.6168978-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\dstew99.wav at time: 9/27/2021 9:18:20 PM
+2021-09-27T21:18:20.6188983-06:00:2021-09-27T21:18:20.6178983-06:00:Thread#0:T:Waiting for 1024.399ms ended at time: 9/27/2021 9:18:20 PM
+2021-09-27T21:18:21.6488187-06:00:2021-09-27T21:18:21.6478188-06:00:Thread#0:T:Duration of clip was 1.024399, thanks rabbit_xxxx you're the best!
+2021-09-27T21:18:21.6488187-06:00:2021-09-27T21:18:21.6488187-06:00:Thread#0:T:clip played the old boring way, duration was: 1.024399
+2021-09-27T21:27:51.9417034-06:00:2021-09-27T21:27:51.9407039-06:00:Thread#0:T:Line 3
+2021-09-27T21:27:52.0107193-06:00:2021-09-27T21:27:52.0107193-06:00:Thread#0:T:Parsing: lol from: dstew99
+2021-09-27T21:28:08.1301568-06:00:2021-09-27T21:28:08.1291570-06:00:Thread#0:T:Line 4
+2021-09-27T21:28:08.2001923-06:00:2021-09-27T21:28:08.2001923-06:00:Thread#0:T:Parsing: it’s been awhile from: abletheabove
+2021-09-27T21:28:08.2180471-06:00:2021-09-27T21:28:08.2180471-06:00:Thread#0:T:{
+2021-09-27T21:28:08.2190470-06:00:2021-09-27T21:28:08.2190470-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-09-27T21:28:08.2200483-06:00:2021-09-27T21:28:08.2200483-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-09-27T21:28:08.2210467-06:00:2021-09-27T21:28:08.2200483-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-09-27T21:28:08.2220471-06:00:2021-09-27T21:28:08.2210467-06:00:Thread#0:T:}
+2021-09-27T21:28:08.2220471-06:00:2021-09-27T21:28:08.2220471-06:00:Thread#0:T:{
+2021-09-27T21:28:08.2220471-06:00:2021-09-27T21:28:08.2220471-06:00:Thread#0:T:	CHUNK ID: IART
+2021-09-27T21:28:08.2230483-06:00:2021-09-27T21:28:08.2220471-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-09-27T21:28:08.2230483-06:00:2021-09-27T21:28:08.2230483-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-09-27T21:28:08.2230483-06:00:2021-09-27T21:28:08.2230483-06:00:Thread#0:T:}
+2021-09-27T21:28:08.2240479-06:00:2021-09-27T21:28:08.2240479-06:00:Thread#0:T:{
+2021-09-27T21:28:08.2240479-06:00:2021-09-27T21:28:08.2240479-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-09-27T21:28:08.2250485-06:00:2021-09-27T21:28:08.2250485-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-09-27T21:28:08.2250485-06:00:2021-09-27T21:28:08.2250485-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-09-27T21:28:08.2250485-06:00:2021-09-27T21:28:08.2250485-06:00:Thread#0:T:}
+2021-09-27T21:28:08.2260485-06:00:2021-09-27T21:28:08.2260485-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 9/27/2021 9:28:08 PM
+2021-09-27T21:28:08.2270493-06:00:2021-09-27T21:28:08.2270493-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 9/27/2021 9:28:08 PM
+2021-09-27T21:29:24.9379299-06:00:2021-09-27T21:29:24.9369304-06:00:Thread#0:T:Line 5
+2021-09-27T21:29:25.0039451-06:00:2021-09-27T21:29:25.0029450-06:00:Thread#0:T:Parsing: boop from: mrnoah99
+2021-09-27T21:29:25.0059450-06:00:2021-09-27T21:29:25.0059450-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-09-27T21:29:25.0069451-06:00:2021-09-27T21:29:25.0069451-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 3
+2021-09-27T21:29:25.0169485-06:00:2021-09-27T21:29:25.0149567-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\mrnoah993.wav at time: 9/27/2021 9:29:25 PM
+2021-09-27T21:29:25.0179488-06:00:2021-09-27T21:29:25.0179488-06:00:Thread#0:T:Waiting for 2380.063ms ended at time: 9/27/2021 9:29:25 PM
+2021-09-27T21:29:27.4124171-06:00:2021-09-27T21:29:27.4124171-06:00:Thread#0:T:Duration of clip was 2.380063, thanks rabbit_xxxx you're the best!
+2021-09-27T21:29:27.4134178-06:00:2021-09-27T21:29:27.4134178-06:00:Thread#0:T:clip played the old boring way, duration was: 2.380063
+2021-09-27T21:29:29.3222903-06:00:2021-09-27T21:29:29.3222903-06:00:Thread#0:T:Line 6
+2021-09-27T21:29:29.4073268-06:00:2021-09-27T21:29:29.4073268-06:00:Thread#0:T:Parsing: whoooo go america /j from: abletheabove
+2021-09-27T21:29:34.3343288-06:00:2021-09-27T21:29:34.3343288-06:00:Thread#0:T:Line 7
+2021-09-27T21:29:34.4049818-06:00:2021-09-27T21:29:34.4039824-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-09-27T21:29:34.4119836-06:00:2021-09-27T21:29:34.4119836-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\202230__deraj__pop-sound.wav at time: 9/27/2021 9:29:34 PM
+2021-09-27T21:29:34.4129839-06:00:2021-09-27T21:29:34.4129839-06:00:Thread#0:T:Waiting for 650.1587ms ended at time: 9/27/2021 9:29:34 PM
+2021-09-27T21:29:35.0850334-06:00:2021-09-27T21:29:35.0850334-06:00:Thread#0:T:Line 8
+2021-09-27T21:30:18.1543186-06:00:2021-09-27T21:30:18.1533176-06:00:Thread#0:T:Line 9
+2021-09-27T21:30:18.2383370-06:00:2021-09-27T21:30:18.2383370-06:00:Thread#0:T:Parsing: just realized that i have so much need to be done this year both for my game dev and school stuff from: sky_acaniadev
+2021-09-27T21:30:47.7373587-06:00:2021-09-27T21:30:47.7363586-06:00:Thread#0:T:Line 10
+2021-09-27T21:30:47.8063739-06:00:2021-09-27T21:30:47.8063739-06:00:Thread#0:T:Parsing: and there is only 3 months left from: sky_acaniadev
+2021-09-27T21:30:54.3315154-06:00:2021-09-27T21:30:54.3305151-06:00:Thread#0:T:Line 11
+2021-09-27T21:30:54.3980378-06:00:2021-09-27T21:30:54.3980378-06:00:Thread#0:T:Parsing: there from: abletheabove
+2021-09-27T21:31:03.7432657-06:00:2021-09-27T21:31:03.7432657-06:00:Thread#0:T:Line 12
+2021-09-27T21:31:03.8132823-06:00:2021-09-27T21:31:03.8122811-06:00:Thread#0:T:Parsing: there’s only 3 months left???? from: abletheabove
+2021-09-27T21:31:32.3328221-06:00:2021-09-27T21:31:32.3318278-06:00:Thread#0:T:Line 13
+2021-09-27T21:31:32.3956158-06:00:2021-09-27T21:31:32.3956158-06:00:Thread#0:T:Parsing: i have a tiny goal for my game dev this year from: sky_acaniadev
+2021-09-27T21:31:53.9371325-06:00:2021-09-27T21:31:53.9361334-06:00:Thread#0:T:Line 14
+2021-09-27T21:31:54.0051790-06:00:2021-09-27T21:31:54.0051790-06:00:Thread#0:T:Parsing: i guess you'll have to cancel sleeping. who needs rest anyway. from: dstew99
+2021-09-27T21:31:54.0131815-06:00:2021-09-27T21:31:54.0131815-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\sleepytime.wav at time: 9/27/2021 9:31:54 PM
+2021-09-27T21:31:54.0202017-06:00:2021-09-27T21:31:54.0141816-06:00:Thread#0:T:Waiting for 1457.052ms ended at time: 9/27/2021 9:31:54 PM
+2021-09-27T21:31:55.4998854-06:00:2021-09-27T21:31:55.4988849-06:00:Thread#0:T:Line 15
+2021-09-27T21:31:55.5590735-06:00:2021-09-27T21:31:55.5580832-06:00:Thread#0:T:Parsing: make an mvp with whatever i have now from: sky_acaniadev
+2021-09-27T21:32:01.5439700-06:00:2021-09-27T21:32:01.5439700-06:00:Thread#0:T:Line 16
+2021-09-27T21:32:01.6289907-06:00:2021-09-27T21:32:01.6289907-06:00:Thread#0:T:Parsing: months are a social construct from: abletheabove
+2021-09-27T21:32:42.5429162-06:00:2021-09-27T21:32:42.5419162-06:00:Thread#0:T:Line 17
+2021-09-27T21:32:42.6109317-06:00:2021-09-27T21:32:42.6109317-06:00:Thread#0:T:Parsing: i need to cancel my sleeping and find a place with strong time dilation. from: sky_acaniadev
+2021-09-27T21:32:42.6149325-06:00:2021-09-27T21:32:42.6139323-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\sleepytime.wav at time: 9/27/2021 9:32:42 PM
+2021-09-27T21:32:42.6159334-06:00:2021-09-27T21:32:42.6149325-06:00:Thread#0:T:Waiting for 1457.052ms ended at time: 9/27/2021 9:32:42 PM
+2021-09-27T21:32:53.9415748-06:00:2021-09-27T21:32:53.9405744-06:00:Thread#0:T:Line 18
+2021-09-27T21:32:54.0126710-06:00:2021-09-27T21:32:54.0126710-06:00:Thread#0:T:Parsing: it is mvp already,, minimal viable product from: sky_acaniadev
+2021-09-27T21:32:58.9407469-06:00:2021-09-27T21:32:58.9407469-06:00:Thread#0:T:Line 19
+2021-09-27T21:32:59.0152766-06:00:2021-09-27T21:32:59.0142751-06:00:Thread#0:T:Parsing: minimal from: sky_acaniadev
+2021-09-27T21:33:15.9448744-06:00:2021-09-27T21:33:15.9448744-06:00:Thread#0:T:Line 20
+2021-09-27T21:33:16.0188909-06:00:2021-09-27T21:33:16.0178916-06:00:Thread#0:T:Parsing: i have a lot of codes not even used in mvp from: sky_acaniadev
+2021-09-27T21:33:54.1447036-06:00:2021-09-27T21:33:54.1437034-06:00:Thread#0:T:Line 21
+2021-09-27T21:33:54.2247220-06:00:2021-09-27T21:33:54.2237223-06:00:Thread#0:T:Parsing: i need to renew my passport first from: sky_acaniadev
+2021-09-27T21:33:58.3410655-06:00:2021-09-27T21:33:58.3410655-06:00:Thread#0:T:Line 22
+2021-09-27T21:33:58.4125938-06:00:2021-09-27T21:33:58.4115941-06:00:Thread#0:T:Parsing: i can't have a steam page from: sky_acaniadev
+2021-09-27T21:34:11.9443993-06:00:2021-09-27T21:34:11.9443993-06:00:Thread#0:T:Line 23
+2021-09-27T21:34:12.0414996-06:00:2021-09-27T21:34:12.0404995-06:00:Thread#0:T:Parsing: the houston one is closed... from: sky_acaniadev
+2021-09-27T21:34:23.7412940-06:00:2021-09-27T21:34:23.7412940-06:00:Thread#0:T:Line 24
+2021-09-27T21:34:23.8153120-06:00:2021-09-27T21:34:23.8143107-06:00:Thread#0:T:Parsing: i’d rather people talking about my game positively then buy my game from: abletheabove
+2021-09-27T21:34:31.9421329-06:00:2021-09-27T21:34:31.9421329-06:00:Thread#0:T:Line 25
+2021-09-27T21:34:32.0451564-06:00:2021-09-27T21:34:32.0451564-06:00:Thread#0:T:Parsing: i am not even planning to finish the mvp this year from: sky_acaniadev
+2021-09-27T21:35:01.1401371-06:00:2021-09-27T21:35:01.1401371-06:00:Thread#0:T:Line 26
+2021-09-27T21:35:01.2191560-06:00:2021-09-27T21:35:01.2191560-06:00:Thread#0:T:Parsing: yeah, i took the photograph already. i just need to find time to mail the materials from: sky_acaniadev
+2021-09-27T21:35:16.9587388-06:00:2021-09-27T21:35:16.9577387-06:00:Thread#0:T:Line 27
+2021-09-27T21:35:17.0557622-06:00:2021-09-27T21:35:17.0557622-06:00:Thread#0:T:Parsing: but when i have time to mail the material, i just want to sleep from: sky_acaniadev
+2021-09-27T21:35:26.7512002-06:00:2021-09-27T21:35:26.7502000-06:00:Thread#0:T:Line 28
+2021-09-27T21:35:26.8342185-06:00:2021-09-27T21:35:26.8332185-06:00:Thread#0:T:Parsing: let alone i don't have that that time from: sky_acaniadev
+2021-09-27T21:35:58.9564543-06:00:2021-09-27T21:35:58.9559199-06:00:Thread#0:T:Line 29
+2021-09-27T21:35:59.0464814-06:00:2021-09-27T21:35:59.0454820-06:00:Thread#0:T:Parsing: i bought a steam dev license. now i have a reason to pump out code changes from: abletheabove
+2021-09-27T21:36:10.3481964-06:00:2021-09-27T21:36:10.3471960-06:00:Thread#0:T:Line 30
+2021-09-27T21:36:10.4242138-06:00:2021-09-27T21:36:10.4242138-06:00:Thread#0:T:Parsing: rather more updates from: abletheabove
+2021-09-27T21:36:13.9469195-06:00:2021-09-27T21:36:13.9469195-06:00:Thread#0:T:Line 31
+2021-09-27T21:36:14.0282717-06:00:2021-09-27T21:36:14.0282717-06:00:Thread#0:T:Parsing: need to maintain a minimal 5-hour sleep per day to have an ok immune system from: sky_acaniadev
+2021-09-27T21:36:14.0327852-06:00:2021-09-27T21:36:14.0317848-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\sleepytime.wav at time: 9/27/2021 9:36:14 PM
+2021-09-27T21:36:14.0337838-06:00:2021-09-27T21:36:14.0337838-06:00:Thread#0:T:Waiting for 1457.052ms ended at time: 9/27/2021 9:36:14 PM
+2021-09-27T21:36:32.3422619-06:00:2021-09-27T21:36:32.3422619-06:00:Thread#0:T:Line 32
+2021-09-27T21:36:32.4212796-06:00:2021-09-27T21:36:32.4212796-06:00:Thread#0:T:Parsing: yeah, i think they require fedex, i need to check it from: sky_acaniadev
+2021-09-27T21:37:12.5440594-06:00:2021-09-27T21:37:12.5440594-06:00:Thread#0:T:Line 33
+2021-09-27T21:37:12.6255867-06:00:2021-09-27T21:37:12.6245871-06:00:Thread#0:T:Parsing: ok gonna lurk, enough ranting... from: sky_acaniadev
+2021-09-27T21:37:12.6431685-06:00:2021-09-27T21:37:12.6431685-06:00:Thread#0:T:{
+2021-09-27T21:37:12.6441232-06:00:2021-09-27T21:37:12.6441232-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-09-27T21:37:12.6461247-06:00:2021-09-27T21:37:12.6441232-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-09-27T21:37:12.6461247-06:00:2021-09-27T21:37:12.6461247-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-09-27T21:37:12.6471250-06:00:2021-09-27T21:37:12.6471250-06:00:Thread#0:T:}
+2021-09-27T21:37:12.6471250-06:00:2021-09-27T21:37:12.6471250-06:00:Thread#0:T:{
+2021-09-27T21:37:12.6481238-06:00:2021-09-27T21:37:12.6481238-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-09-27T21:37:12.6481238-06:00:2021-09-27T21:37:12.6481238-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-09-27T21:37:12.6491243-06:00:2021-09-27T21:37:12.6491243-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-09-27T21:37:12.6491243-06:00:2021-09-27T21:37:12.6491243-06:00:Thread#0:T:}
+2021-09-27T21:37:12.6501239-06:00:2021-09-27T21:37:12.6501239-06:00:Thread#0:T:{
+2021-09-27T21:37:12.6501239-06:00:2021-09-27T21:37:12.6501239-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-09-27T21:37:12.6511245-06:00:2021-09-27T21:37:12.6511245-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-09-27T21:37:12.6511245-06:00:2021-09-27T21:37:12.6511245-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-09-27T21:37:12.6521252-06:00:2021-09-27T21:37:12.6521252-06:00:Thread#0:T:}
+2021-09-27T21:37:12.6521252-06:00:2021-09-27T21:37:12.6521252-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 9/27/2021 9:37:12 PM
+2021-09-27T21:37:12.6531246-06:00:2021-09-27T21:37:12.6531246-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 9/27/2021 9:37:12 PM
+2021-09-27T21:38:10.9446448-06:00:2021-09-27T21:38:10.9446448-06:00:Thread#0:T:Line 34
+2021-09-27T21:38:11.0216786-06:00:2021-09-27T21:38:11.0206789-06:00:Thread#0:T:Parsing: i want it asap from: sky_acaniadev
+2021-09-27T21:38:11.0316818-06:00:2021-09-27T21:38:11.0306813-06:00:Thread#0:T:{
+2021-09-27T21:38:11.0316818-06:00:2021-09-27T21:38:11.0316818-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-09-27T21:38:11.0326815-06:00:2021-09-27T21:38:11.0326815-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-09-27T21:38:11.0326815-06:00:2021-09-27T21:38:11.0326815-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-09-27T21:38:11.0326815-06:00:2021-09-27T21:38:11.0326815-06:00:Thread#0:T:}
+2021-09-27T21:38:11.0336810-06:00:2021-09-27T21:38:11.0336810-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCUNBURROW.wav at time: 9/27/2021 9:38:11 PM
+2021-09-27T21:38:11.0346819-06:00:2021-09-27T21:38:11.0346819-06:00:Thread#0:T:Waiting for 1181.429ms ended at time: 9/27/2021 9:38:11 PM
+2021-09-27T21:38:14.1300942-06:00:2021-09-27T21:38:14.1300942-06:00:Thread#0:T:Line 35
+2021-09-27T21:38:14.1991097-06:00:2021-09-27T21:38:14.1991097-06:00:Thread#0:T:Parsing: cost is secondary from: sky_acaniadev
+2021-09-27T21:38:37.3453849-06:00:2021-09-27T21:38:37.3453849-06:00:Thread#0:T:Line 36
+2021-09-27T21:38:37.4231475-06:00:2021-09-27T21:38:37.4231475-06:00:Thread#0:T:Parsing: just need it for my final step of steamwork registration from: sky_acaniadev
+2021-09-27T21:38:48.3445222-06:00:2021-09-27T21:38:48.3445222-06:00:Thread#0:T:Line 37
+2021-09-27T21:38:48.4225403-06:00:2021-09-27T21:38:48.4225403-06:00:Thread#0:T:Parsing: i mean the new passport from: sky_acaniadev
+2021-09-27T21:39:12.3623428-06:00:2021-09-27T21:39:12.3623428-06:00:Thread#0:T:Line 38
+2021-09-27T21:39:12.4533616-06:00:2021-09-27T21:39:12.4523610-06:00:Thread#0:T:Parsing: rawrrrr from: ccgamedev
+2021-09-27T21:39:12.4563641-06:00:2021-09-27T21:39:12.4563641-06:00:Thread#0:T:Eyy, its ccgamedev!
+2021-09-27T21:39:12.4673652-06:00:2021-09-27T21:39:12.4673652-06:00:Thread#0:T:{
+2021-09-27T21:39:12.4683646-06:00:2021-09-27T21:39:12.4683646-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-09-27T21:39:12.4693667-06:00:2021-09-27T21:39:12.4683646-06:00:Thread#0:T:	CHUNK SIZE: 22
+2021-09-27T21:39:12.4703661-06:00:2021-09-27T21:39:12.4693667-06:00:Thread#0:T:	Text Value: REEEEEE Sound Effect  
+2021-09-27T21:39:12.4703661-06:00:2021-09-27T21:39:12.4703661-06:00:Thread#0:T:}
+2021-09-27T21:39:12.4713667-06:00:2021-09-27T21:39:12.4713667-06:00:Thread#0:T:{
+2021-09-27T21:39:12.4713667-06:00:2021-09-27T21:39:12.4713667-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-09-27T21:39:12.4723661-06:00:2021-09-27T21:39:12.4713667-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-09-27T21:39:12.4723661-06:00:2021-09-27T21:39:12.4723661-06:00:Thread#0:T:	Text Value: Lavf58.29.100 (libsndfile-) 
+2021-09-27T21:39:12.4723661-06:00:2021-09-27T21:39:12.4723661-06:00:Thread#0:T:}
+2021-09-27T21:39:12.4733665-06:00:2021-09-27T21:39:12.4733665-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\ccgamedev.wav at time: 9/27/2021 9:39:12 PM
+2021-09-27T21:39:12.4743665-06:00:2021-09-27T21:39:12.4733665-06:00:Thread#0:T:Waiting for 2965.964ms ended at time: 9/27/2021 9:39:12 PM
+2021-09-27T21:39:15.4458219-06:00:2021-09-27T21:39:15.4458219-06:00:Thread#0:T:Duration of clip was 2.965964, thanks rabbit_xxxx you're the best!
+2021-09-27T21:39:15.4468214-06:00:2021-09-27T21:39:15.4458219-06:00:Thread#0:T:clip played the old boring way, duration was: 2.965964
+2021-09-27T21:39:19.7530990-06:00:2021-09-27T21:39:19.7530990-06:00:Thread#0:T:Line 39
+2021-09-27T21:39:19.8321180-06:00:2021-09-27T21:39:19.8321180-06:00:Thread#0:T:Parsing: i probably need to get a driver's license, after i finished the game and my ph.d. from: sky_acaniadev
+2021-09-27T21:39:30.9449214-06:00:2021-09-27T21:39:30.9449214-06:00:Thread#0:T:Line 40
+2021-09-27T21:39:31.0260524-06:00:2021-09-27T21:39:31.0255358-06:00:Thread#0:T:Parsing: it is expired for 20 months. from: sky_acaniadev
+2021-09-27T21:39:33.5313132-06:00:2021-09-27T21:39:33.5303122-06:00:Thread#0:T:Line 41
+2021-09-27T21:39:33.6122959-06:00:2021-09-27T21:39:33.6122959-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-09-27T21:40:00.1497919-06:00:2021-09-27T21:40:00.1497919-06:00:Thread#0:T:Line 42
+2021-09-27T21:40:00.2398110-06:00:2021-09-27T21:40:00.2398110-06:00:Thread#0:T:Parsing: i totally forgot about it until i got checked by the airport from: sky_acaniadev
+2021-09-27T21:40:19.3502467-06:00:2021-09-27T21:40:19.3492468-06:00:Thread#0:T:Line 43
+2021-09-27T21:40:19.4249509-06:00:2021-09-27T21:40:19.4239513-06:00:Thread#0:T:Parsing: then i realized my passport was expired a long time ago from: sky_acaniadev
+2021-09-27T21:40:38.1566585-06:00:2021-09-27T21:40:38.1556586-06:00:Thread#0:T:Line 44
+2021-09-27T21:40:38.2576814-06:00:2021-09-27T21:40:38.2576814-06:00:Thread#0:T:Parsing: they investigated me for like 15 minutes from: sky_acaniadev
+2021-09-27T21:40:42.9708799-06:00:2021-09-27T21:40:42.9708799-06:00:Thread#0:T:Line 45
+2021-09-27T21:40:43.0619675-06:00:2021-09-27T21:40:43.0619675-06:00:Thread#0:T:Parsing: i have a valid i-20 from: sky_acaniadev
+2021-09-27T21:40:45.9498951-06:00:2021-09-27T21:40:45.9498951-06:00:Thread#0:T:Line 46
+2021-09-27T21:40:46.0309123-06:00:2021-09-27T21:40:46.0309123-06:00:Thread#0:T:Parsing: so it is fine from: sky_acaniadev
+2021-09-27T21:40:50.7536829-06:00:2021-09-27T21:40:50.7526834-06:00:Thread#0:T:Line 47
+2021-09-27T21:40:50.8487054-06:00:2021-09-27T21:40:50.8487054-06:00:Thread#0:T:Parsing:  from: ccgamedev
+2021-09-27T21:41:02.3558366-06:00:2021-09-27T21:41:02.3558366-06:00:Thread#0:T:Line 48
+2021-09-27T21:41:02.4423647-06:00:2021-09-27T21:41:02.4423647-06:00:Thread#0:T:Parsing: speech skill from: sky_acaniadev
+2021-09-27T21:41:21.9517702-06:00:2021-09-27T21:41:21.9507703-06:00:Thread#0:T:Line 49
+2021-09-27T21:41:22.0338042-06:00:2021-09-27T21:41:22.0328042-06:00:Thread#0:T:Parsing: domestic flight is fine without a passport from: sky_acaniadev
+2021-09-27T21:41:33.1533833-06:00:2021-09-27T21:41:33.1533833-06:00:Thread#0:T:Line 50
+2021-09-27T21:41:33.2454050-06:00:2021-09-27T21:41:33.2444048-06:00:Thread#0:T:Parsing: international one might have more trouble from: sky_acaniadev
+2021-09-27T21:42:01.7491419-06:00:2021-09-27T21:42:01.7481409-06:00:Thread#0:T:Line 51
+2021-09-27T21:42:01.8391616-06:00:2021-09-27T21:42:01.8391616-06:00:Thread#0:T:Parsing: yeah, that is why they need to investigate from: sky_acaniadev
+2021-09-27T21:42:28.5570856-06:00:2021-09-27T21:42:28.5560850-06:00:Thread#0:T:Line 52
+2021-09-27T21:42:28.6521616-06:00:2021-09-27T21:42:28.6511633-06:00:Thread#0:T:Parsing: my flight was delayed for a whole day so i won't be late for my flight anyway from: sky_acaniadev
+2021-09-27T21:42:58.5607047-06:00:2021-09-27T21:42:58.5607047-06:00:Thread#0:T:Line 53
+2021-09-27T21:42:58.6477256-06:00:2021-09-27T21:42:58.6467252-06:00:Thread#0:T:Parsing: they fetched some photo doc from their database (i sneak peeked their computer) from: sky_acaniadev
+2021-09-27T21:43:17.1516559-06:00:2021-09-27T21:43:17.1516559-06:00:Thread#0:T:Line 54
+2021-09-27T21:43:17.2416756-06:00:2021-09-27T21:43:17.2406760-06:00:Thread#0:T:Parsing: and probably check any criminal or worse records from: sky_acaniadev
+2021-09-27T21:43:45.7630236-06:00:2021-09-27T21:43:45.7620229-06:00:Thread#0:T:Line 55
+2021-09-27T21:43:45.8530434-06:00:2021-09-27T21:43:45.8520431-06:00:Thread#0:T:Parsing: but i am not sure from: sky_acaniadev
+2021-09-27T21:44:00.3496830-06:00:2021-09-27T21:44:00.3496830-06:00:Thread#0:T:Line 56
+2021-09-27T21:44:00.4382097-06:00:2021-09-27T21:44:00.4372087-06:00:Thread#0:T:Parsing: yeah, nothing major from: sky_acaniadev
+2021-09-27T21:44:13.5567596-06:00:2021-09-27T21:44:13.5557603-06:00:Thread#0:T:Line 57
+2021-09-27T21:44:13.6478547-06:00:2021-09-27T21:44:13.6468538-06:00:Thread#0:T:Parsing: and they probably do that for everybody from: sky_acaniadev
+2021-09-27T21:45:09.7599761-06:00:2021-09-27T21:45:09.7599761-06:00:Thread#0:T:Line 58
+2021-09-27T21:45:09.8529974-06:00:2021-09-27T21:45:09.8519969-06:00:Thread#0:T:Parsing: yeah, they fetched my i-20 and some university doc from: sky_acaniadev
+2021-09-27T21:45:34.1598414-06:00:2021-09-27T21:45:34.1588420-06:00:Thread#0:T:Line 59
+2021-09-27T21:45:34.3258791-06:00:2021-09-27T21:45:34.3258791-06:00:Thread#0:T:Parsing: oh my ssn was stolen (or at least lost) what should i do from: sky_acaniadev
+2021-09-27T21:45:42.3559488-06:00:2021-09-27T21:45:42.3549497-06:00:Thread#0:T:Line 60
+2021-09-27T21:45:42.4499693-06:00:2021-09-27T21:45:42.4489688-06:00:Thread#0:T:Parsing: i remember the number still from: sky_acaniadev
+2021-09-27T21:47:13.3566457-06:00:2021-09-27T21:47:13.3566457-06:00:Thread#0:T:Line 61
+2021-09-27T21:47:13.4580744-06:00:2021-09-27T21:47:13.4580744-06:00:Thread#0:T:Parsing: i would report it. don't know where though from: dstew99
+2021-09-27T21:48:28.5646905-06:00:2021-09-27T21:48:28.5626889-06:00:Thread#0:T:Line 62
+2021-09-27T21:48:28.6657931-06:00:2021-09-27T21:48:28.6657931-06:00:Thread#0:T:Parsing: ^ same from: sky_acaniadev
+2021-09-27T21:49:55.7663204-06:00:2021-09-27T21:49:55.7653199-06:00:Thread#0:T:Line 63
+2021-09-27T21:49:55.8633603-06:00:2021-09-27T21:49:55.8623693-06:00:Thread#0:T:Parsing: yeah my chinese id card was with the ssn from: sky_acaniadev
+2021-09-27T21:50:01.5527994-06:00:2021-09-27T21:50:01.5527994-06:00:Thread#0:T:Line 64
+2021-09-27T21:50:01.6495911-06:00:2021-09-27T21:50:01.6495911-06:00:Thread#0:T:Parsing: so birth day from: sky_acaniadev
+2021-09-27T21:50:24.3593334-06:00:2021-09-27T21:50:24.3583329-06:00:Thread#0:T:Line 65
+2021-09-27T21:50:24.4833636-06:00:2021-09-27T21:50:24.4823623-06:00:Thread#0:T:Parsing: and my chinese name which can be easily used to guess my english document name from: sky_acaniadev
+2021-09-27T21:50:47.5535098-06:00:2021-09-27T21:50:47.5525091-06:00:Thread#0:T:Line 66
+2021-09-27T21:50:47.6460747-06:00:2021-09-27T21:50:47.6460747-06:00:Thread#0:T:Parsing: no brainer, super easy to do picture search from: sky_acaniadev
+2021-09-27T21:50:58.1499771-06:00:2021-09-27T21:50:58.1489780-06:00:Thread#0:T:Line 67
+2021-09-27T21:50:58.2459981-06:00:2021-09-27T21:50:58.2459981-06:00:Thread#0:T:Parsing: or just find someone who knows chinese from: sky_acaniadev
+2021-09-27T21:51:06.7563426-06:00:2021-09-27T21:51:06.7563426-06:00:Thread#0:T:Line 68
+2021-09-27T21:51:06.8483634-06:00:2021-09-27T21:51:06.8473631-06:00:Thread#0:T:Parsing: easily from: sky_acaniadev
+2021-09-27T21:51:08.5303209-06:00:2021-09-27T21:51:08.5303209-06:00:Thread#0:T:Line 69
+2021-09-27T21:51:08.6183416-06:00:2021-09-27T21:51:08.6183416-06:00:Thread#0:T:Parsing: yes from: sky_acaniadev
+2021-09-27T21:51:15.5604616-06:00:2021-09-27T21:51:15.5594614-06:00:Thread#0:T:Line 70
+2021-09-27T21:51:15.6564850-06:00:2021-09-27T21:51:15.6554835-06:00:Thread#0:T:Parsing: picture search from: sky_acaniadev
+2021-09-27T21:51:37.5638193-06:00:2021-09-27T21:51:37.5628189-06:00:Thread#0:T:Line 71
+2021-09-27T21:51:37.6608401-06:00:2021-09-27T21:51:37.6608401-06:00:Thread#0:T:Parsing: some app to convert picture of chinese characters into digital one from: sky_acaniadev
+2021-09-27T21:51:53.3640172-06:00:2021-09-27T21:51:53.3630174-06:00:Thread#0:T:Line 72
+2021-09-27T21:51:53.4535469-06:00:2021-09-27T21:51:53.4535469-06:00:Thread#0:T:Parsing: hello from: sky_acaniadev
+2021-09-27T21:52:03.9578071-06:00:2021-09-27T21:52:03.9578071-06:00:Thread#0:T:Line 73
+2021-09-27T21:52:04.0668325-06:00:2021-09-27T21:52:04.0668325-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-09-27T21:52:12.3566776-06:00:2021-09-27T21:52:12.3556772-06:00:Thread#0:T:Line 74
+2021-09-27T21:52:12.4547004-06:00:2021-09-27T21:52:12.4547004-06:00:Thread#0:T:Parsing: but i think it might just be lost from: sky_acaniadev
+2021-09-27T21:52:31.9541603-06:00:2021-09-27T21:52:31.9531620-06:00:Thread#0:T:Line 75
+2021-09-27T21:52:32.0551831-06:00:2021-09-27T21:52:32.0541834-06:00:Thread#0:T:Parsing: i went back to the motel but they can't find it already from: sky_acaniadev
+2021-09-27T21:59:59.5589707-06:00:2021-09-27T21:59:59.5589707-06:00:Thread#0:T:Line 76
+2021-09-27T21:59:59.6749995-06:00:2021-09-27T21:59:59.6749995-06:00:Thread#0:T:Parsing: ok i get credit karma, what should i do next? from: sky_acaniadev
+2021-09-27T22:00:23.7680222-06:00:2021-09-27T22:00:23.7670225-06:00:Thread#0:T:Line 77
+2021-09-27T22:00:23.9130550-06:00:2021-09-27T22:00:23.9130550-06:00:Thread#0:T:Parsing: i saw my credit score... from: sky_acaniadev
+2021-09-27T22:00:28.1552133-06:00:2021-09-27T22:00:28.1552133-06:00:Thread#0:T:Line 78
+2021-09-27T22:00:28.2527439-06:00:2021-09-27T22:00:28.2527439-06:00:Thread#0:T:Parsing: looks normal from: sky_acaniadev
+2021-09-27T22:00:39.7649563-06:00:2021-09-27T22:00:39.7649563-06:00:Thread#0:T:Line 79
+2021-09-27T22:00:39.8879824-06:00:2021-09-27T22:00:39.8879824-06:00:Thread#0:T:Parsing: the lost happened almost two years ago from: sky_acaniadev
+2021-09-27T22:00:47.5642000-06:00:2021-09-27T22:00:47.5642000-06:00:Thread#0:T:Line 80
+2021-09-27T22:00:47.6652220-06:00:2021-09-27T22:00:47.6652220-06:00:Thread#0:T:Parsing: when my passport was still valid from: sky_acaniadev
+2021-09-27T22:00:53.1583012-06:00:2021-09-27T22:00:53.1583012-06:00:Thread#0:T:Line 81
+2021-09-27T22:00:53.2663269-06:00:2021-09-27T22:00:53.2663269-06:00:Thread#0:T:Parsing: come on kid, sing it! "it's eye of tiger ..." from: dstew99
+2021-09-27T22:01:20.3659341-06:00:2021-09-27T22:01:20.3649330-06:00:Thread#0:T:Line 82
+2021-09-27T22:01:20.4679548-06:00:2021-09-27T22:01:20.4669549-06:00:Thread#0:T:Parsing: i originally thought i just put them somewhere i forgot from: sky_acaniadev
+2021-09-27T22:01:32.1552123-06:00:2021-09-27T22:01:32.1552123-06:00:Thread#0:T:Line 83
+2021-09-27T22:01:32.2572357-06:00:2021-09-27T22:01:32.2572357-06:00:Thread#0:T:Parsing: maybe that is still true... tho the chance is very low now from: sky_acaniadev
+2021-09-27T22:02:26.6078707-06:00:2021-09-27T22:02:26.6058711-06:00:Thread#0:T:Line 84
+2021-09-27T22:02:26.7729079-06:00:2021-09-27T22:02:26.7729079-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-09-27T22:02:26.7849108-06:00:2021-09-27T22:02:26.7849108-06:00:Thread#0:T:Line 85
+2021-09-27T22:02:28.9554461-06:00:2021-09-27T22:02:28.9544460-06:00:Thread#0:T:Line 86
+2021-09-27T22:02:29.0954806-06:00:2021-09-27T22:02:29.0944779-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-09-27T22:02:29.1419981-06:00:2021-09-27T22:02:29.1419981-06:00:Thread#0:T:Line 87
+2021-09-27T22:02:32.1476048-06:00:2021-09-27T22:02:32.1466048-06:00:Thread#0:T:Line 88
+2021-09-27T22:02:32.3096429-06:00:2021-09-27T22:02:32.3076420-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-09-27T22:02:32.3546529-06:00:2021-09-27T22:02:32.3546529-06:00:Thread#0:T:Line 89
+2021-09-27T22:02:38.9784087-06:00:2021-09-27T22:02:38.9774098-06:00:Thread#0:T:Line 90
+2021-09-27T22:02:39.0874801-06:00:2021-09-27T22:02:39.0874801-06:00:Thread#0:T:Parsing: bye from: dstew99
+2021-09-27T22:02:39.1004826-06:00:2021-09-27T22:02:39.0994830-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 9/27/2021 10:02:39 PM
+2021-09-27T22:02:39.1014825-06:00:2021-09-27T22:02:39.1004826-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 9/27/2021 10:02:39 PM
+2021-09-27T23:52:27.2943276-06:00:2021-09-27T23:52:27.2933276-06:00:Thread#0:T:Line 92
+2021-09-27T23:52:27.3653436-06:00:2021-09-27T23:52:27.3653436-06:00:Thread#0:T:Line 92
+2021-09-27T23:53:27.2672041-06:00:2021-09-27T23:53:27.2662039-06:00:Thread#0:T:Line 93
+2021-09-27T23:53:27.4012348-06:00:2021-09-27T23:53:27.4012348-06:00:Thread#0:T:Parsing: so now i am thinking of making the satisfactory like conveyor belt (after i published the mvp) from: sky_acaniadev
+2021-09-27T23:54:27.2605504-06:00:2021-09-27T23:54:27.2605504-06:00:Thread#0:T:Line 96
+2021-09-27T23:54:27.4055830-06:00:2021-09-27T23:54:27.4055830-06:00:Thread#0:T:Parsing: oh yeah math tile from: sky_acaniadev
+2021-09-27T23:54:27.4195873-06:00:2021-09-27T23:54:27.4195873-06:00:Thread#0:T:Line 96
+2021-09-27T23:54:27.5476155-06:00:2021-09-27T23:54:27.5476155-06:00:Thread#0:T:Parsing: i have those in my signal system from: sky_acaniadev
+2021-09-27T23:54:27.5596181-06:00:2021-09-27T23:54:27.5596181-06:00:Thread#0:T:Line 96
+2021-09-27T23:54:27.6846473-06:00:2021-09-27T23:54:27.6846473-06:00:Thread#0:T:Parsing: for people to make in-game computers originally from: sky_acaniadev
+2021-09-27T23:55:27.2725959-06:00:2021-09-27T23:55:27.2725959-06:00:Thread#0:T:Line 98
+2021-09-27T23:55:27.4146259-06:00:2021-09-27T23:55:27.4146259-06:00:Thread#0:T:Parsing: yeah from: sky_acaniadev
+2021-09-27T23:55:27.4461417-06:00:2021-09-27T23:55:27.4461417-06:00:Thread#0:T:Line 98
+2021-09-27T23:55:27.5782254-06:00:2021-09-27T23:55:27.5772259-06:00:Thread#0:T:Parsing: i have four types of signals in my game, ushort (i use them for a lot of ids), vector 3, float, and string from: sky_acaniadev
+2021-09-27T23:56:27.2746424-06:00:2021-09-27T23:56:27.2736421-06:00:Thread#0:T:Line 101
+2021-09-27T23:56:27.4166745-06:00:2021-09-27T23:56:27.4166745-06:00:Thread#0:T:Parsing: different types of materials make different types of signal entities that can only support one of the signals from: sky_acaniadev
+2021-09-27T23:56:27.4306777-06:00:2021-09-27T23:56:27.4296785-06:00:Thread#0:T:Line 101
+2021-09-27T23:56:27.5587062-06:00:2021-09-27T23:56:27.5587062-06:00:Thread#0:T:Parsing: oh sorry and another one, netid from: sky_acaniadev
+2021-09-27T23:56:27.5797107-06:00:2021-09-27T23:56:27.5787112-06:00:Thread#0:T:Line 101
+2021-09-27T23:56:27.7147420-06:00:2021-09-27T23:56:27.7147420-06:00:Thread#0:T:Parsing: for targeting from: sky_acaniadev
+2021-09-28T00:17:27.2795136-06:00:2021-09-28T00:17:27.2785128-06:00:Thread#0:T:Line 102
+2021-09-28T00:17:27.4055421-06:00:2021-09-28T00:17:27.4055421-06:00:Thread#0:T:Parsing: oh, an entity is something that can move in your game? (like minecraft) from: sky_acaniadev
+2021-09-28T00:18:27.2611256-06:00:2021-09-28T00:18:27.2601250-06:00:Thread#0:T:Line 104
+2021-09-28T00:18:27.3961558-06:00:2021-09-28T00:18:27.3961558-06:00:Thread#0:T:Parsing: i thought entity is some block that has a function from: sky_acaniadev
+2021-09-28T00:18:27.4131599-06:00:2021-09-28T00:18:27.4131599-06:00:Thread#0:T:Line 104
+2021-09-28T00:18:27.5331869-06:00:2021-09-28T00:18:27.5331869-06:00:Thread#0:T:Parsing: what is a crafting table, a wall? from: sky_acaniadev
+2021-09-28T00:19:27.3183556-06:00:2021-09-28T00:19:27.3183556-06:00:Thread#0:T:Line 109
+2021-09-28T00:19:27.4494394-06:00:2021-09-28T00:19:27.4484390-06:00:Thread#0:T:Parsing: i guess i use the word entity wrong in my game from: sky_acaniadev
+2021-09-28T00:19:27.4754455-06:00:2021-09-28T00:19:27.4744451-06:00:Thread#0:T:Line 109
+2021-09-28T00:19:27.5985236-06:00:2021-09-28T00:19:27.5985236-06:00:Thread#0:T:Parsing: in my game entity is a thing that has input, process, and output. and it is based on voxel-volume class (structure and entity) from: sky_acaniadev
+2021-09-28T00:19:27.6150378-06:00:2021-09-28T00:19:27.6150378-06:00:Thread#0:T:Line 109
+2021-09-28T00:19:27.7546319-06:00:2021-09-28T00:19:27.7546319-06:00:Thread#0:T:Parsing: a "machine" is an entity group from: sky_acaniadev
+2021-09-28T00:19:27.7751457-06:00:2021-09-28T00:19:27.7751457-06:00:Thread#0:T:Line 109
+2021-09-28T00:19:27.9187389-06:00:2021-09-28T00:19:27.9177389-06:00:Thread#0:T:Parsing: though all my current "machine" is single-entity one from: sky_acaniadev
+2021-09-28T00:19:27.9372518-06:00:2021-09-28T00:19:27.9362512-06:00:Thread#0:T:Line 109
+2021-09-28T00:19:28.0773565-06:00:2021-09-28T00:19:28.0773565-06:00:Thread#0:T:Parsing: like field chest or anvil from: sky_acaniadev
+2021-09-28T00:22:27.2622551-06:00:2021-09-28T00:22:27.2622551-06:00:Thread#0:T:Line 110
+2021-09-28T00:22:27.4118306-06:00:2021-09-28T00:22:27.4108307-06:00:Thread#0:T:Parsing: only entities in the same machine can connect by checking voxel proximity. and a machine has a single network identity and rigid body and can move and rotate (like a vehicle). from: sky_acaniadev
+2021-09-28T00:36:27.2783186-06:00:2021-09-28T00:36:27.2783186-06:00:Thread#0:T:Line 113
+2021-09-28T00:36:27.4253518-06:00:2021-09-28T00:36:27.4243521-06:00:Thread#0:T:Parsing: think i am gonna sleep from: sky_acaniadev
+2021-09-28T00:36:27.4443565-06:00:2021-09-28T00:36:27.4443565-06:00:Thread#0:T:Line 113
+2021-09-28T00:36:27.5723858-06:00:2021-09-28T00:36:27.5723858-06:00:Thread#0:T:Parsing: met some roadblocks on my task from: sky_acaniadev
+2021-09-28T00:36:27.5923897-06:00:2021-09-28T00:36:27.5923897-06:00:Thread#0:T:Line 113
+2021-09-28T00:36:27.7194191-06:00:2021-09-28T00:36:27.7184189-06:00:Thread#0:T:Parsing: i need to wait for response from my boss from: sky_acaniadev
+2021-09-28T00:38:27.2736600-06:00:2021-09-28T00:38:27.2726586-06:00:Thread#0:T:Line 114
+2021-09-28T00:38:27.4277126-06:00:2021-09-28T00:38:27.4267126-06:00:Thread#0:T:Parsing: is this a component of wall instance? from: sky_acaniadev
+2021-09-28T00:40:27.2877041-06:00:2021-09-28T00:40:27.2867040-06:00:Thread#0:T:Line 116
+2021-09-28T00:40:27.4383216-06:00:2021-09-28T00:40:27.4383216-06:00:Thread#0:T:Parsing: how does entity send impulse, vector2int? from: sky_acaniadev
+2021-09-28T00:40:27.4533241-06:00:2021-09-28T00:40:27.4523237-06:00:Thread#0:T:Line 116
+2021-09-28T00:40:27.5999244-06:00:2021-09-28T00:40:27.5989243-06:00:Thread#0:T:Parsing: can you have more than one entity in a block? from: sky_acaniadev
+2021-09-28T00:41:27.2596549-06:00:2021-09-28T00:41:27.2586547-06:00:Thread#0:T:Line 117
+2021-09-28T00:41:27.4131965-06:00:2021-09-28T00:41:27.4131965-06:00:Thread#0:T:Parsing: yeah, i have mouse speed buttons on my mouse as well from: sky_acaniadev
+2021-09-28T00:42:27.3121152-06:00:2021-09-28T00:42:27.3121152-06:00:Thread#0:T:Line 120
+2021-09-28T00:42:27.4781521-06:00:2021-09-28T00:42:27.4771522-06:00:Thread#0:T:Parsing: and two custom button that i can set it to any key from: sky_acaniadev
+2021-09-28T00:42:27.5031578-06:00:2021-09-28T00:42:27.5031578-06:00:Thread#0:T:Line 120
+2021-09-28T00:42:27.6441901-06:00:2021-09-28T00:42:27.6431897-06:00:Thread#0:T:Parsing: i set them as enter and backspace from: sky_acaniadev
+2021-09-28T00:42:27.6621941-06:00:2021-09-28T00:42:27.6611938-06:00:Thread#0:T:Line 120
+2021-09-28T00:42:27.7972246-06:00:2021-09-28T00:42:27.7962245-06:00:Thread#0:T:Parsing: those two are super useful from: sky_acaniadev
+2021-09-28T00:43:27.2666640-06:00:2021-09-28T00:43:27.2666640-06:00:Thread#0:T:Line 121
+2021-09-28T00:43:27.4216987-06:00:2021-09-28T00:43:27.4206985-06:00:Thread#0:T:Parsing: i don't need to press those two keys with my right hand on keyboard now from: sky_acaniadev
+2021-09-28T00:44:27.2806267-06:00:2021-09-28T00:44:27.2806267-06:00:Thread#0:T:Line 125
+2021-09-28T00:44:27.4456647-06:00:2021-09-28T00:44:27.4456647-06:00:Thread#0:T:Parsing: ok gonna sleep for real now from: sky_acaniadev
+2021-09-28T00:44:27.4706702-06:00:2021-09-28T00:44:27.4696699-06:00:Thread#0:T:Line 125
+2021-09-28T00:44:27.6247045-06:00:2021-09-28T00:44:27.6237135-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-09-28T00:44:27.6467099-06:00:2021-09-28T00:44:27.6457112-06:00:Thread#0:T:Line 125
+2021-09-28T00:44:27.7967439-06:00:2021-09-28T00:44:27.7957443-06:00:Thread#0:T:Parsing: i guess i'll see it before sleep from: sky_acaniadev
+2021-09-28T00:44:27.8197494-06:00:2021-09-28T00:44:27.8197494-06:00:Thread#0:T:Line 125
+2021-09-28T00:44:27.9787849-06:00:2021-09-28T00:44:27.9777847-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-09-28T00:45:27.3200570-06:00:2021-09-28T00:45:27.3200570-06:00:Thread#0:T:Line 128
+2021-09-28T00:45:27.4900954-06:00:2021-09-28T00:45:27.4890956-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-09-28T00:45:27.5126108-06:00:2021-09-28T00:45:27.5116098-06:00:Thread#0:T:Line 128
+2021-09-28T00:45:27.6746473-06:00:2021-09-28T00:45:27.6736464-06:00:Thread#0:T:Parsing: ok sleep from: sky_acaniadev
+2021-09-28T00:45:27.6926503-06:00:2021-09-28T00:45:27.6926503-06:00:Thread#0:T:Line 128
+2021-09-28T00:45:27.8627431-06:00:2021-09-28T00:45:27.8617422-06:00:Thread#0:T:Parsing: i set up all connectivity when placing the block from: sky_acaniadev
+2021-09-28T00:46:27.2737342-06:00:2021-09-28T00:46:27.2727338-06:00:Thread#0:T:Line 130
+2021-09-28T00:46:27.4353549-06:00:2021-09-28T00:46:27.4343542-06:00:Thread#0:T:Parsing: not sure how it could work for your entity tho from: sky_acaniadev
+2021-09-28T00:46:27.4694012-06:00:2021-09-28T00:46:27.4694012-06:00:Thread#0:T:Line 130
+2021-09-28T00:46:27.6114931-06:00:2021-09-28T00:46:27.6104931-06:00:Thread#0:T:Parsing: your entity needs to have a check position funciton in fixedupdate i guess from: sky_acaniadev
+2021-09-28T00:47:27.2868021-06:00:2021-09-28T00:47:27.2868021-06:00:Thread#0:T:Line 132
+2021-09-28T00:47:27.4468391-06:00:2021-09-28T00:47:27.4468391-06:00:Thread#0:T:Parsing: yeah from: sky_acaniadev
+2021-09-28T00:47:27.4828459-06:00:2021-09-28T00:47:27.4818453-06:00:Thread#0:T:Line 132
+2021-09-28T00:47:27.6198780-06:00:2021-09-28T00:47:27.6198780-06:00:Thread#0:T:Parsing: you have a 2d array for list<entity> ? from: sky_acaniadev
+2021-09-28T00:51:27.2972931-06:00:2021-09-28T00:51:27.2962927-06:00:Thread#0:T:Line 133
+2021-09-28T00:51:27.4603298-06:00:2021-09-28T00:51:27.4593305-06:00:Thread#0:T:Parsing: what is the rule for signal dissemination? from: sky_acaniadev
+2021-09-28T00:52:27.3851577-06:00:2021-09-28T00:52:27.3841571-06:00:Thread#0:T:Line 135
+2021-09-28T00:52:27.5502298-06:00:2021-09-28T00:52:27.5502298-06:00:Thread#0:T:Parsing: how long can they pass? any energy loss? from: sky_acaniadev
+2021-09-28T00:52:27.5742823-06:00:2021-09-28T00:52:27.5742823-06:00:Thread#0:T:Line 135
+2021-09-28T00:52:27.7393546-06:00:2021-09-28T00:52:27.7383550-06:00:Thread#0:T:Parsing: or some not block, or block? from: sky_acaniadev
+2021-09-28T00:53:27.2941917-06:00:2021-09-28T00:53:27.2941917-06:00:Thread#0:T:Line 137
+2021-09-28T00:53:27.4642306-06:00:2021-09-28T00:53:27.4642306-06:00:Thread#0:T:Parsing: maybe some block that needs to have 2 or 3 adjacent impulse to pass emit one impulse? from: sky_acaniadev
+2021-09-28T00:53:27.4872354-06:00:2021-09-28T00:53:27.4862354-06:00:Thread#0:T:Line 137
+2021-09-28T00:53:27.6522734-06:00:2021-09-28T00:53:27.6512739-06:00:Thread#0:T:Parsing: and some has delay passing it? from: sky_acaniadev
+2021-09-28T00:54:27.2812052-06:00:2021-09-28T00:54:27.2812052-06:00:Thread#0:T:Line 138
+2021-09-28T00:54:27.4432417-06:00:2021-09-28T00:54:27.4422421-06:00:Thread#0:T:Parsing: is the signal a bool currently? from: sky_acaniadev
+2021-09-28T00:55:27.2925722-06:00:2021-09-28T00:55:27.2915723-06:00:Thread#0:T:Line 140
+2021-09-28T00:55:27.4666807-06:00:2021-09-28T00:55:27.4656806-06:00:Thread#0:T:Parsing: i never get the break point working from: sky_acaniadev
+2021-09-28T00:55:27.4891946-06:00:2021-09-28T00:55:27.4891946-06:00:Thread#0:T:Line 140
+2021-09-28T00:55:27.6442975-06:00:2021-09-28T00:55:27.6432978-06:00:Thread#0:T:Parsing: i put them in vs and nothing happens. from: sky_acaniadev
+2021-09-28T00:58:27.2679530-06:00:2021-09-28T00:58:27.2674344-06:00:Thread#0:T:Line 141
+2021-09-28T00:58:27.4480174-06:00:2021-09-28T00:58:27.4470170-06:00:Thread#0:T:Parsing: at least your project loads faster than mine, and it crashes less from: sky_acaniadev
+2021-09-28T01:01:27.3102877-06:00:2021-09-28T01:01:27.3092876-06:00:Thread#0:T:Line 142
+2021-09-28T01:01:27.4773904-06:00:2021-09-28T01:01:27.4773904-06:00:Thread#0:T:Parsing: yeah, i have those for my conveyor belt from: sky_acaniadev
+2021-09-28T01:02:27.3056904-06:00:2021-09-28T01:02:27.3056904-06:00:Thread#0:T:Line 145
+2021-09-28T01:02:27.4737274-06:00:2021-09-28T01:02:27.4737274-06:00:Thread#0:T:Parsing: for me it is different models from: sky_acaniadev
+2021-09-28T01:02:27.4987328-06:00:2021-09-28T01:02:27.4977333-06:00:Thread#0:T:Line 145
+2021-09-28T01:02:27.6657705-06:00:2021-09-28T01:02:27.6647700-06:00:Thread#0:T:Parsing: i, l, t, x from: sky_acaniadev
+2021-09-28T01:02:27.6867760-06:00:2021-09-28T01:02:27.6867760-06:00:Thread#0:T:Line 145
+2021-09-28T01:02:27.8388101-06:00:2021-09-28T01:02:27.8388101-06:00:Thread#0:T:Parsing: and rotate to the correct angle from: sky_acaniadev
+2021-09-28T01:03:27.3089036-06:00:2021-09-28T01:03:27.3079031-06:00:Thread#0:T:Line 149
+2021-09-28T01:03:27.4839597-06:00:2021-09-28T01:03:27.4839597-06:00:Thread#0:T:Parsing: infinite loop? between two blocks? from: sky_acaniadev
+2021-09-28T01:03:27.5149679-06:00:2021-09-28T01:03:27.5149679-06:00:Thread#0:T:Line 149
+2021-09-28T01:03:27.6790733-06:00:2021-09-28T01:03:27.6790733-06:00:Thread#0:T:Parsing: back and forth? from: sky_acaniadev
+2021-09-28T01:03:27.7020796-06:00:2021-09-28T01:03:27.7020796-06:00:Thread#0:T:Line 149
+2021-09-28T01:03:27.8756599-06:00:2021-09-28T01:03:27.8746590-06:00:Thread#0:T:Parsing: do you have direction for the signal? from: sky_acaniadev
+2021-09-28T01:03:27.9006651-06:00:2021-09-28T01:03:27.8996645-06:00:Thread#0:T:Line 149
+2021-09-28T01:03:28.0712319-06:00:2021-09-28T01:03:28.0702319-06:00:Thread#0:T:Parsing: like a signal from left can only go right? from: sky_acaniadev
+2021-09-28T01:04:27.3184423-06:00:2021-09-28T01:04:27.3184423-06:00:Thread#0:T:Line 150
+2021-09-28T01:04:27.5000640-06:00:2021-09-28T01:04:27.5000640-06:00:Thread#0:T:Parsing: ok have a good night! from: sky_acaniadev
+2021-09-28T08:23:27.3262769-06:00:2021-09-28T08:23:27.3262769-06:00:Thread#0:T:Line 151
+2021-09-28T08:24:27.3167849-06:00:2021-09-28T08:24:27.3157853-06:00:Thread#0:T:Line 152
+2021-09-28T08:24:27.5248346-06:00:2021-09-28T08:24:27.5238324-06:00:Thread#0:T:Parsing: i'm sorry that water fountain is ummmmm from: girloftomorrow
+2021-09-28T08:24:27.5298338-06:00:2021-09-28T08:24:27.5298338-06:00:Thread#0:T:{
+2021-09-28T08:24:27.5298338-06:00:2021-09-28T08:24:27.5298338-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-09-28T08:24:27.5308338-06:00:2021-09-28T08:24:27.5308338-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-09-28T08:24:27.5308338-06:00:2021-09-28T08:24:27.5308338-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-09-28T08:24:27.5318341-06:00:2021-09-28T08:24:27.5308338-06:00:Thread#0:T:}
+2021-09-28T08:24:27.5318341-06:00:2021-09-28T08:24:27.5318341-06:00:Thread#0:T:{
+2021-09-28T08:24:27.5318341-06:00:2021-09-28T08:24:27.5318341-06:00:Thread#0:T:	CHUNK ID: IART
+2021-09-28T08:24:27.5328338-06:00:2021-09-28T08:24:27.5328338-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-09-28T08:24:27.5328338-06:00:2021-09-28T08:24:27.5328338-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-09-28T08:24:27.5338344-06:00:2021-09-28T08:24:27.5328338-06:00:Thread#0:T:}
+2021-09-28T08:24:27.5338344-06:00:2021-09-28T08:24:27.5338344-06:00:Thread#0:T:{
+2021-09-28T08:24:27.5338344-06:00:2021-09-28T08:24:27.5338344-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-09-28T08:24:27.5348343-06:00:2021-09-28T08:24:27.5338344-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-09-28T08:24:27.5348343-06:00:2021-09-28T08:24:27.5348343-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-09-28T08:24:27.5348343-06:00:2021-09-28T08:24:27.5348343-06:00:Thread#0:T:}
+2021-09-28T08:24:27.5358357-06:00:2021-09-28T08:24:27.5358357-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 9/28/2021 8:24:27 AM
+2021-09-28T08:24:27.5368353-06:00:2021-09-28T08:24:27.5358357-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 9/28/2021 8:24:27 AM
+2021-09-28T08:27:27.3718246-06:00:2021-09-28T08:27:27.3708245-06:00:Thread#0:T:Line 153
+2021-09-28T08:27:27.5698697-06:00:2021-09-28T08:27:27.5698697-06:00:Thread#0:T:Parsing: i definitely keep a toilet in the bathroom from: anubis169
+2021-09-28T08:27:27.5748708-06:00:2021-09-28T08:27:27.5738711-06:00:Thread#0:T:{
+2021-09-28T08:27:27.5748708-06:00:2021-09-28T08:27:27.5748708-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-09-28T08:27:27.5758710-06:00:2021-09-28T08:27:27.5758710-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-09-28T08:27:27.5768718-06:00:2021-09-28T08:27:27.5768718-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-09-28T08:27:27.5778720-06:00:2021-09-28T08:27:27.5778720-06:00:Thread#0:T:}
+2021-09-28T08:27:27.5788720-06:00:2021-09-28T08:27:27.5788720-06:00:Thread#0:T:{
+2021-09-28T08:27:27.5808724-06:00:2021-09-28T08:27:27.5808724-06:00:Thread#0:T:	CHUNK ID: IART
+2021-09-28T08:27:27.5818724-06:00:2021-09-28T08:27:27.5818724-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-09-28T08:27:27.5818724-06:00:2021-09-28T08:27:27.5818724-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-09-28T08:27:27.5828724-06:00:2021-09-28T08:27:27.5828724-06:00:Thread#0:T:}
+2021-09-28T08:27:27.5838734-06:00:2021-09-28T08:27:27.5838734-06:00:Thread#0:T:{
+2021-09-28T08:27:27.5838734-06:00:2021-09-28T08:27:27.5838734-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-09-28T08:27:27.5848728-06:00:2021-09-28T08:27:27.5848728-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-09-28T08:27:27.5858734-06:00:2021-09-28T08:27:27.5858734-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-09-28T08:27:27.5858734-06:00:2021-09-28T08:27:27.5858734-06:00:Thread#0:T:}
+2021-09-28T08:27:27.5868735-06:00:2021-09-28T08:27:27.5868735-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 9/28/2021 8:27:27 AM
+2021-09-28T08:27:27.5878745-06:00:2021-09-28T08:27:27.5878745-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 9/28/2021 8:27:27 AM
+2021-09-28T08:33:27.3311357-06:00:2021-09-28T08:33:27.3311357-06:00:Thread#0:T:Line 154
+2021-10-01T19:35:43.8411532-06:00:RPC Client disconnected, because 'StreamError'. 
+LastMessage: 
+Description:Reading JSON RPC from the stream failed with IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+Exception:System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.IO.Stream.<>c.<BeginEndReadAsync>b__43_1(Stream stream, IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncTrimPromise`1.Complete(TInstance thisRef, Func`3 endMethod, IAsyncResult asyncResult, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.ReadBufferingStream.<FillBufferAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.HeaderDelimitedMessageHandler.<ReadCoreAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.DelimitedMessageHandler.<ReadAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.JsonRpc.<ReadAndHandleRequestsAsync>d__97.MoveNext()
+2021-10-01T19:35:43.8411532-06:00:RPC Server disconnected, because 'StreamError'. 
+LastMessage: 
+Description:Reading JSON RPC from the stream failed with IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+Exception:System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.IO.Stream.<>c.<BeginEndReadAsync>b__43_1(Stream stream, IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncTrimPromise`1.Complete(TInstance thisRef, Func`3 endMethod, IAsyncResult asyncResult, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.ReadBufferingStream.<FillBufferAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.HeaderDelimitedMessageHandler.<ReadCoreAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.DelimitedMessageHandler.<ReadAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.JsonRpc.<ReadAndHandleRequestsAsync>d__97.MoveNext()
+2021-10-01T19:35:43.8421527-06:00:RPC Server disconnected, because 'StreamError'. 
+LastMessage: 
+Description:Reading JSON RPC from the stream failed with IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+Exception:System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at System.IO.Stream.<>c.<BeginEndReadAsync>b__43_1(Stream stream, IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncTrimPromise`1.Complete(TInstance thisRef, Func`3 endMethod, IAsyncResult asyncResult, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.ReadBufferingStream.<FillBufferAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.HeaderDelimitedMessageHandler.<ReadCoreAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.DelimitedMessageHandler.<ReadAsync>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at StreamJsonRpc.JsonRpc.<ReadAndHandleRequestsAsync>d__97.MoveNext()
+2021-10-01T19:35:44.0582017-06:00:test thread #0 error: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2021-10-01T19:35:44.0592014-06:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2021-10-01T19:35:44.0592014-06:00:Trying to cancel thread
+2021-10-01T19:35:44.0592014-06:00:Thread cancelled
+2021-10-01T19:35:44.0592014-06:00:Trying to cancel thread
+2021-10-01T19:35:44.0592014-06:00:Thread cancelled
+2021-10-01T19:35:44.0672033-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-10-01T19:35:44.0672033-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-10-01T19:35:44.0672033-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-10-01T19:35:44.0732046-06:00;Thread#13;Info;test run finished
+2021-10-01T19:35:44.0732046-06:00;Thread#13;Info;publishing test results
+2021-10-01T19:35:44.1322185-06:00;Thread#13;Info;test results published
+2021-10-01T19:35:44.1322185-06:00;Thread#13;Info;generating reports
+2021-10-01T19:35:44.2452438-06:00;Thread#13;Info;Starting external report generation process
+2021-10-01T19:35:44.4292854-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-10-01T19:35:44.4292854-06:00;Thread#13;Error;External program returned exit code '-1073741502'
+2021-10-01T19:35:44.4292854-06:00;Thread#13;Info;Failed generating reports
+2021-10-01T19:35:44.4392870-06:00:Total: 1 (test executions: 0)
+2021-10-01T19:35:44.4412877-06:00:Succeeded: 0
+2021-10-01T19:35:44.4412877-06:00:Ignored: 0
+2021-10-01T19:35:44.4422892-06:00:Pending: 0
+2021-10-01T19:35:44.4422892-06:00:Skipped: 0
+2021-10-01T19:35:44.4422892-06:00:Failed: 0
+2021-10-01T19:35:44.4442886-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

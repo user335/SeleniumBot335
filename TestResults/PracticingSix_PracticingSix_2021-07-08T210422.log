@@ -1,0 +1,1091 @@
+﻿2021-07-08T21:04:21.9553178-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-07-08T21:04:21.9553178-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-07-08T21:04:21.9553178-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-07-08T21:04:21.9563062-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-07-08T21:04:22.1933601-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-08T21:04:22.1963648-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-07-08T21:04:22.1983609-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-07-08T21:04:22.2613745-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-07-08T210422.log
+2021-07-08T21:04:22.2693761-06:00;Thread#13;Info;Checking activation
+2021-07-08T21:04:22.4014062-06:00;Thread#13;Info;Activated.
+2021-07-08T21:04:22.4014062-06:00;Thread#13;Info;Activation check completed
+2021-07-08T21:04:22.4024059-06:00;Thread#13;Info;Starting test run
+2021-07-08T21:04:22.4684203-06:00;Thread#13;Info;Discovering target: Default
+2021-07-08T21:04:22.4694209-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-08T21:04:22.9751463-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-08T21:04:22.9761467-06:00:Test Suite Dump
+2021-07-08T21:04:22.9821540-06:00:#0: PracticingSix/PracticingSix - 
+2021-07-08T21:04:22.9821540-06:00:#1: Default - 
+2021-07-08T21:04:22.9821540-06:00:#2: PracticingSix - 
+2021-07-08T21:04:22.9821540-06:00:#5: Twitch Bot! - 
+2021-07-08T21:04:23.0411820-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-07-08T21:04:23.0411820-06:00:End: Test Suite Dump
+2021-07-08T21:04:23.1072473-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-08T21:04:23.1082477-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-07-08T21:04:23.1092465-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-07-08T21:04:23.1142479-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-08T21:04:23.1142479-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-08T21:04:23.1142479-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-08T21:04:23.1142479-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-07-08T21:04:23.1172495-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-07-08T21:04:23.1192490-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-07-08T21:04:23.1192490-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-07-08T21:04:23.1192490-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-07-08T21:04:23.1192490-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-07-08T21:04:23.1192490-06:00:Thread#1:Scheduler: No more tests for thread
+2021-07-08T21:04:23.1222496-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-07-08T21:04:23.1247638-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-08T21:04:23.1863104-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-08T21:04:23.1893109-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-07-08T21:04:23.1923127-06:00:starting Out Of Process Executor
+2021-07-08T21:04:23.2003122-06:00:Starting callback TCP Rpc server
+2021-07-08T21:04:23.2173382-06:00:Asynchronously starting background TCP Rpc Server on port 32774
+2021-07-08T21:04:23.2173382-06:00:Started callback TCP Rpc server on port 32774
+2021-07-08T21:04:23.2173382-06:00:Starting logger TCP Rpc server
+2021-07-08T21:04:23.2223401-06:00:Asynchronously starting background TCP Rpc Server on port 32775
+2021-07-08T21:04:23.2223401-06:00:Started logger TCP Rpc server on port 32775
+2021-07-08T21:04:23.2283408-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 30316 --uniqueId "2021-07-08T210422" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32774 --loggerPort 32775' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-07-08T21:04:23.3114123-06:00:Executor with PID 8016 has been started successfully.
+2021-07-08T21:04:23.3154149-06:00:Out of Process Executor 8016 started
+2021-07-08T21:04:23.3154149-06:00:Waiting for endpoint
+2021-07-08T21:04:24.3337698-06:00:Remote executor port received: 32776
+2021-07-08T21:04:24.3347695-06:00:Creating executor TCP client on port 32776
+2021-07-08T21:04:24.3347695-06:00:Created executor TCP client on port 32776
+2021-07-08T21:04:24.3347695-06:00:Connecting to remote executor TCP server
+2021-07-08T21:04:24.3357693-06:00:Connected remote executor TCP server
+2021-07-08T21:04:24.3357693-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-07-08T21:04:24.3357693-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-07-08T21:04:25.0969407-06:00:2021-07-08T21:04:25.0949405-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-07-08T21:04:25.1049443-06:00:Endpoint 8016 started
+2021-07-08T21:04:25.1269489-06:00:2021-07-08T21:04:25.1269489-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-07-08T21:04:25.6220603-06:00:2021-07-08T21:04:25.6220603-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-07-08T21:04:25.6880747-06:00:2021-07-08T21:04:25.6870746-06:00:Thread#0:T:-> Using default config
+2021-07-08T21:04:26.9073493-06:00:2021-07-08T21:04:26.9073493-06:00:Thread#0:T:Starting the driver...
+2021-07-08T21:04:28.9864213-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-07-08T21:04:29.0304308-06:00:2021-07-08T21:04:29.0294304-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-08T21:04:29.1144505-06:00:2021-07-08T21:04:29.1134501-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-08T21:04:29.1174502-06:00:2021-07-08T21:04:29.1164501-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-08T21:04:31.7031849-06:00:2021-07-08T21:04:31.6991836-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.6s)
+2021-07-08T21:04:31.7101877-06:00:2021-07-08T21:04:31.7081875-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-07-08T21:14:15.1352941-06:00:2021-07-08T21:14:15.1342933-06:00:Thread#0:T:Line 1
+2021-07-08T21:14:15.2273147-06:00:2021-07-08T21:14:15.2263141-06:00:Thread#0:T:Parsing: bot on intro sound test from: mrnoah99
+2021-07-08T21:14:15.2373180-06:00:2021-07-08T21:14:15.2373180-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-07-08T21:14:15.2383179-06:00:2021-07-08T21:14:15.2383179-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 7
+2021-07-08T21:14:16.1297687-06:00:2021-07-08T21:14:16.1287659-06:00:Thread#0:T:Duration of clip was 0.87075, thanks rabbit_xxxx you're the best!
+2021-07-08T21:14:16.1307662-06:00:2021-07-08T21:14:16.1307662-06:00:Thread#0:T:clip played the old boring way, duration was: 0.87075
+2021-07-08T21:16:49.1060694-06:00:2021-07-08T21:16:49.1050696-06:00:Thread#0:T:Line 2
+2021-07-08T21:16:49.1850874-06:00:2021-07-08T21:16:49.1850874-06:00:Thread#0:T:Parsing: user i'm starting to think you got sick of eye of the tiger ages ago and use it a motivation to finish the game so you can stop listening to it from: taliyahpottruff
+2021-07-08T21:16:49.2150944-06:00:2021-07-08T21:16:49.2150944-06:00:Thread#0:T:{
+2021-07-08T21:16:49.2150944-06:00:2021-07-08T21:16:49.2150944-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T21:16:49.2160945-06:00:2021-07-08T21:16:49.2160945-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T21:16:49.2170944-06:00:2021-07-08T21:16:49.2160945-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T21:16:49.2190960-06:00:2021-07-08T21:16:49.2180953-06:00:Thread#0:T:}
+2021-07-08T21:16:49.2190960-06:00:2021-07-08T21:16:49.2190960-06:00:Thread#0:T:{
+2021-07-08T21:16:49.2200962-06:00:2021-07-08T21:16:49.2200962-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T21:16:49.2200962-06:00:2021-07-08T21:16:49.2200962-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T21:16:49.2210969-06:00:2021-07-08T21:16:49.2210969-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T21:16:49.2210969-06:00:2021-07-08T21:16:49.2210969-06:00:Thread#0:T:}
+2021-07-08T21:16:49.2220971-06:00:2021-07-08T21:16:49.2220971-06:00:Thread#0:T:{
+2021-07-08T21:16:49.2230963-06:00:2021-07-08T21:16:49.2220971-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T21:16:49.2340998-06:00:2021-07-08T21:16:49.2331006-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T21:16:49.2340998-06:00:2021-07-08T21:16:49.2340998-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T21:16:49.2350996-06:00:2021-07-08T21:16:49.2350996-06:00:Thread#0:T:}
+2021-07-08T21:17:20.1110867-06:00:2021-07-08T21:17:20.1100869-06:00:Thread#0:T:Line 3
+2021-07-08T21:17:20.2100706-06:00:2021-07-08T21:17:20.2090694-06:00:Thread#0:T:Parsing: also its pronounced taleeyah from: taliyahpottruff
+2021-07-08T21:17:42.1095654-06:00:2021-07-08T21:17:42.1085767-06:00:Thread#0:T:Line 4
+2021-07-08T21:17:42.1851484-06:00:2021-07-08T21:17:42.1801478-06:00:Thread#0:T:Parsing: i have done a lot recently from: taliyahpottruff
+2021-07-08T21:18:01.1026074-06:00:2021-07-08T21:18:01.1026074-06:00:Thread#0:T:Line 5
+2021-07-08T21:18:01.1856259-06:00:2021-07-08T21:18:01.1856259-06:00:Thread#0:T:Parsing: idk if i ever told you, but i got my private pilots license from: taliyahpottruff
+2021-07-08T21:18:28.1031228-06:00:2021-07-08T21:18:28.1031228-06:00:Thread#0:T:Line 6
+2021-07-08T21:18:28.1754459-06:00:2021-07-08T21:18:28.1744452-06:00:Thread#0:T:Parsing: next is commercial from: taliyahpottruff
+2021-07-08T21:20:52.1264278-06:00:2021-07-08T21:20:52.1264278-06:00:Thread#0:T:Line 8
+2021-07-08T21:20:52.2194485-06:00:2021-07-08T21:20:52.2184474-06:00:Thread#0:T:Parsing: yeah theres some margin between the minimum hours and how much the training will give me from: taliyahpottruff
+2021-07-08T21:20:52.2264494-06:00:2021-07-08T21:20:52.2264494-06:00:Thread#0:T:Line 8
+2021-07-08T21:20:52.3024662-06:00:2021-07-08T21:20:52.3024662-06:00:Thread#0:T:Parsing: i also legally changed my name, came out publicly, just got a job as a hostess today from: taliyahpottruff
+2021-07-08T21:21:52.1234633-06:00:2021-07-08T21:21:52.1224633-06:00:Thread#0:T:Line 12
+2021-07-08T21:21:52.1974801-06:00:2021-07-08T21:21:52.1974801-06:00:Thread#0:T:Parsing: nono from: taliyahpottruff
+2021-07-08T21:21:52.2044822-06:00:2021-07-08T21:21:52.2034812-06:00:Thread#0:T:Line 12
+2021-07-08T21:21:52.2714977-06:00:2021-07-08T21:21:52.2704966-06:00:Thread#0:T:Parsing: restaurant hostes from: taliyahpottruff
+2021-07-08T21:21:52.2795089-06:00:2021-07-08T21:21:52.2784996-06:00:Thread#0:T:Line 12
+2021-07-08T21:21:52.3475144-06:00:2021-07-08T21:21:52.3475144-06:00:Thread#0:T:Parsing: i wish lol from: taliyahpottruff
+2021-07-08T21:21:52.3565164-06:00:2021-07-08T21:21:52.3565164-06:00:Thread#0:T:Line 12
+2021-07-08T21:21:52.4474397-06:00:2021-07-08T21:21:52.4464519-06:00:Thread#0:T:Parsing: i need a valid passport though from: taliyahpottruff
+2021-07-08T21:22:52.1132804-06:00:2021-07-08T21:22:52.1122801-06:00:Thread#0:T:Line 13
+2021-07-08T21:22:52.2076489-06:00:2021-07-08T21:22:52.2076489-06:00:Thread#0:T:Parsing: pay is alright, i hope to get cross trained in serving from: taliyahpottruff
+2021-07-08T21:23:52.1272742-06:00:2021-07-08T21:23:52.1272742-06:00:Thread#0:T:Line 15
+2021-07-08T21:23:52.2333040-06:00:2021-07-08T21:23:52.2323045-06:00:Thread#0:T:Parsing: i have to get licensed as commercial first from: taliyahpottruff
+2021-07-08T21:23:52.2433055-06:00:2021-07-08T21:23:52.2423053-06:00:Thread#0:T:Line 15
+2021-07-08T21:23:52.3273250-06:00:2021-07-08T21:23:52.3273250-06:00:Thread#0:T:Parsing: thats what this will help pay for from: taliyahpottruff
+2021-07-08T21:24:52.1215448-06:00:2021-07-08T21:24:52.1205455-06:00:Thread#0:T:Line 18
+2021-07-08T21:24:52.1990736-06:00:2021-07-08T21:24:52.1990736-06:00:Thread#0:T:Parsing: cant fly for money lol from: taliyahpottruff
+2021-07-08T21:24:52.2080769-06:00:2021-07-08T21:24:52.2070750-06:00:Thread#0:T:Line 18
+2021-07-08T21:24:52.2711624-06:00:2021-07-08T21:24:52.2701620-06:00:Thread#0:T:Parsing: $20k from: taliyahpottruff
+2021-07-08T21:24:52.2807757-06:00:2021-07-08T21:24:52.2807757-06:00:Thread#0:T:Line 18
+2021-07-08T21:24:52.3465813-06:00:2021-07-08T21:24:52.3465813-06:00:Thread#0:T:Parsing: lmao if it was 80 id quit from: taliyahpottruff
+2021-07-08T21:25:52.0993359-06:00:2021-07-08T21:25:52.0993359-06:00:Thread#0:T:Line 19
+2021-07-08T21:25:52.1685698-06:00:2021-07-08T21:25:52.1675691-06:00:Thread#0:T:Parsing: well the cost is why there was a shortage before covid lol from: taliyahpottruff
+2021-07-08T21:26:52.1231246-06:00:2021-07-08T21:26:52.1231246-06:00:Thread#0:T:Line 21
+2021-07-08T21:26:52.2390615-06:00:2021-07-08T21:26:52.2380620-06:00:Thread#0:T:Parsing: see the baby is more like a toddler now from: taliyahpottruff
+2021-07-08T21:26:52.2470634-06:00:2021-07-08T21:26:52.2460639-06:00:Thread#0:T:Line 21
+2021-07-08T21:26:52.3100983-06:00:2021-07-08T21:26:52.3100983-06:00:Thread#0:T:Parsing: it was awful for a while from: taliyahpottruff
+2021-07-08T21:27:52.1327587-06:00:2021-07-08T21:27:52.1327587-06:00:Thread#0:T:Line 24
+2021-07-08T21:27:52.2196334-06:00:2021-07-08T21:27:52.2186332-06:00:Thread#0:T:Parsing: its starting to come back from: taliyahpottruff
+2021-07-08T21:27:52.2276348-06:00:2021-07-08T21:27:52.2276348-06:00:Thread#0:T:Line 24
+2021-07-08T21:27:52.2886673-06:00:2021-07-08T21:27:52.2886673-06:00:Thread#0:T:Parsing: entirely dependent, its as often as i can fly to pick up the 120 hours i need from: taliyahpottruff
+2021-07-08T21:27:52.2966694-06:00:2021-07-08T21:27:52.2966694-06:00:Thread#0:T:Line 24
+2021-07-08T21:27:52.3757104-06:00:2021-07-08T21:27:52.3747008-06:00:Thread#0:T:Parsing: id predict like 1-2 years from: taliyahpottruff
+2021-07-08T21:28:52.1215247-06:00:2021-07-08T21:28:52.1215247-06:00:Thread#0:T:Line 25
+2021-07-08T21:28:52.2094010-06:00:2021-07-08T21:28:52.2084001-06:00:Thread#0:T:Parsing: an airliner costs millions from: taliyahpottruff
+2021-07-08T21:29:52.1502053-06:00:2021-07-08T21:29:52.1502053-06:00:Thread#0:T:Line 26
+2021-07-08T21:29:52.2342257-06:00:2021-07-08T21:29:52.2342257-06:00:Thread#0:T:Parsing: brb 60s from: user335
+2021-07-08T21:29:52.2372253-06:00:2021-07-08T21:29:52.2372253-06:00:Thread#0:T:Eyy, its user335!
+2021-07-08T21:29:52.2462334-06:00:2021-07-08T21:29:52.2452270-06:00:Thread#0:T:{
+2021-07-08T21:29:52.2462334-06:00:2021-07-08T21:29:52.2462334-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T21:29:52.2482279-06:00:2021-07-08T21:29:52.2482279-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-08T21:29:52.2492282-06:00:2021-07-08T21:29:52.2482279-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-08T21:29:52.2497427-06:00:2021-07-08T21:29:52.2492282-06:00:Thread#0:T:}
+2021-07-08T21:29:53.0172944-06:00:2021-07-08T21:29:53.0172944-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-08T21:29:53.0192950-06:00:2021-07-08T21:29:53.0182963-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-08T21:30:48.9554262-06:00:2021-07-08T21:30:48.9544260-06:00:Thread#0:T:Line 27
+2021-07-08T21:30:49.1154624-06:00:2021-07-08T21:30:49.1144621-06:00:Thread#0:T:Parsing: funny enough airlines store planes in the desert during covid since the lack of humidity reduces maintenance from: taliyahpottruff
+2021-07-08T21:30:49.2144836-06:00:2021-07-08T21:30:49.2134829-06:00:Thread#0:T:Line 28
+2021-07-08T21:30:49.3125063-06:00:2021-07-08T21:30:49.3115059-06:00:Thread#0:T:Parsing: very late from: taliyahpottruff
+2021-07-08T21:31:01.2294118-06:00:2021-07-08T21:31:01.2284124-06:00:Thread#0:T:Line 29
+2021-07-08T21:31:01.3094128-06:00:2021-07-08T21:31:01.3094128-06:00:Thread#0:T:Parsing: back from: user335
+2021-07-08T21:33:28.6282618-06:00:2021-07-08T21:33:28.6272624-06:00:Thread#0:T:Line 30
+2021-07-08T21:33:28.7142839-06:00:2021-07-08T21:33:28.7142839-06:00:Thread#0:T:Parsing: london to sydney from: taliyahpottruff
+2021-07-08T21:33:48.2294124-06:00:2021-07-08T21:33:48.2294124-06:00:Thread#0:T:Line 31
+2021-07-08T21:33:48.3174295-06:00:2021-07-08T21:33:48.3164290-06:00:Thread#0:T:Parsing: south east lol from: taliyahpottruff
+2021-07-08T21:34:07.6421889-06:00:2021-07-08T21:34:07.6411883-06:00:Thread#0:T:Line 32
+2021-07-08T21:34:07.7577378-06:00:2021-07-08T21:34:07.7577378-06:00:Thread#0:T:Parsing: perth??? from: taliyahpottruff
+2021-07-08T21:36:41.6395996-06:00:2021-07-08T21:36:41.6385984-06:00:Thread#0:T:Line 33
+2021-07-08T21:36:41.7248371-06:00:2021-07-08T21:36:41.7242612-06:00:Thread#0:T:Parsing: very wild from: taliyahpottruff
+2021-07-08T21:36:46.8293433-06:00:2021-07-08T21:36:46.8293433-06:00:Thread#0:T:Line 34
+2021-07-08T21:36:46.9123665-06:00:2021-07-08T21:36:46.9123665-06:00:Thread#0:T:Parsing: thats all i can say from: taliyahpottruff
+2021-07-08T21:37:03.0253982-06:00:2021-07-08T21:37:03.0253982-06:00:Thread#0:T:Line 35
+2021-07-08T21:37:03.1182056-06:00:2021-07-08T21:37:03.1182056-06:00:Thread#0:T:Parsing: one of the states is half from: taliyahpottruff
+2021-07-08T21:38:24.2269462-06:00:2021-07-08T21:38:24.2259451-06:00:Thread#0:T:Line 36
+2021-07-08T21:38:24.3199656-06:00:2021-07-08T21:38:24.3199656-06:00:Thread#0:T:Parsing: lmao from: taliyahpottruff
+2021-07-08T21:48:20.6283376-06:00:2021-07-08T21:48:20.6273387-06:00:Thread#0:T:Line 37
+2021-07-08T21:48:20.7258862-06:00:2021-07-08T21:48:20.7258862-06:00:Thread#0:T:Parsing: ree from: ccgamedev
+2021-07-08T21:48:20.7318868-06:00:2021-07-08T21:48:20.7318868-06:00:Thread#0:T:{
+2021-07-08T21:48:20.7328870-06:00:2021-07-08T21:48:20.7318868-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T21:48:20.7328870-06:00:2021-07-08T21:48:20.7328870-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T21:48:20.7338869-06:00:2021-07-08T21:48:20.7328870-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T21:48:20.7338869-06:00:2021-07-08T21:48:20.7338869-06:00:Thread#0:T:}
+2021-07-08T21:48:20.7338869-06:00:2021-07-08T21:48:20.7338869-06:00:Thread#0:T:{
+2021-07-08T21:48:20.7348874-06:00:2021-07-08T21:48:20.7348874-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T21:48:20.7348874-06:00:2021-07-08T21:48:20.7348874-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T21:48:20.7348874-06:00:2021-07-08T21:48:20.7348874-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T21:48:20.7358882-06:00:2021-07-08T21:48:20.7358882-06:00:Thread#0:T:}
+2021-07-08T21:48:20.7358882-06:00:2021-07-08T21:48:20.7358882-06:00:Thread#0:T:{
+2021-07-08T21:48:20.7368880-06:00:2021-07-08T21:48:20.7368880-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T21:48:20.7378882-06:00:2021-07-08T21:48:20.7368880-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T21:48:20.7388886-06:00:2021-07-08T21:48:20.7378882-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T21:48:20.7388886-06:00:2021-07-08T21:48:20.7388886-06:00:Thread#0:T:}
+2021-07-08T21:51:06.2280933-06:00:2021-07-08T21:51:06.2280933-06:00:Thread#0:T:Line 38
+2021-07-08T21:51:06.3143126-06:00:2021-07-08T21:51:06.3143126-06:00:Thread#0:T:Parsing: ive been watching a tutorial for c# and he has a commented summary/param section too, but its in russian so i cant understand it. what is it for? from: ccgamedev
+2021-07-08T21:59:38.8747119-06:00:2021-07-08T21:59:38.8747119-06:00:Thread#0:T:Line 40
+2021-07-08T21:59:39.0222979-06:00:2021-07-08T21:59:39.0222979-06:00:Thread#0:T:Parsing: i heard my name from: rabbit_xxxx
+2021-07-08T21:59:39.0252983-06:00:2021-07-08T21:59:39.0242987-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-07-08T21:59:39.0413026-06:00:2021-07-08T21:59:39.0413026-06:00:Thread#0:T:{
+2021-07-08T21:59:39.0423028-06:00:2021-07-08T21:59:39.0423028-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T21:59:39.0433039-06:00:2021-07-08T21:59:39.0423028-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-07-08T21:59:39.0433039-06:00:2021-07-08T21:59:39.0433039-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-07-08T21:59:39.0433039-06:00:2021-07-08T21:59:39.0433039-06:00:Thread#0:T:}
+2021-07-08T21:59:39.0443033-06:00:2021-07-08T21:59:39.0443033-06:00:Thread#0:T:{
+2021-07-08T21:59:39.0453033-06:00:2021-07-08T21:59:39.0443033-06:00:Thread#0:T:	CHUNK ID: IPRD
+2021-07-08T21:59:39.0463043-06:00:2021-07-08T21:59:39.0453033-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-07-08T21:59:39.0463043-06:00:2021-07-08T21:59:39.0463043-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-07-08T21:59:39.0473041-06:00:2021-07-08T21:59:39.0463043-06:00:Thread#0:T:}
+2021-07-08T21:59:39.0473041-06:00:2021-07-08T21:59:39.0473041-06:00:Thread#0:T:{
+2021-07-08T21:59:39.0483041-06:00:2021-07-08T21:59:39.0483041-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-07-08T21:59:39.0493038-06:00:2021-07-08T21:59:39.0483041-06:00:Thread#0:T:	CHUNK SIZE: 6
+2021-07-08T21:59:39.0503044-06:00:2021-07-08T21:59:39.0493038-06:00:Thread#0:T:	Text Value: 2009  
+2021-07-08T21:59:39.0503044-06:00:2021-07-08T21:59:39.0503044-06:00:Thread#0:T:}
+2021-07-08T21:59:39.0513050-06:00:2021-07-08T21:59:39.0513050-06:00:Thread#0:T:{
+2021-07-08T21:59:39.0523050-06:00:2021-07-08T21:59:39.0513050-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T21:59:39.0533062-06:00:2021-07-08T21:59:39.0523050-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-08T21:59:39.0543066-06:00:2021-07-08T21:59:39.0533062-06:00:Thread#0:T:	Text Value: Lavf58.26.101 (libsndfile-1.0.24) 
+2021-07-08T21:59:39.0543066-06:00:2021-07-08T21:59:39.0543066-06:00:Thread#0:T:}
+2021-07-08T21:59:44.0806250-06:00:2021-07-08T21:59:44.0796243-06:00:Thread#0:T:Duration of clip was 5.01551, thanks rabbit_xxxx you're the best!
+2021-07-08T21:59:44.0806250-06:00:2021-07-08T21:59:44.0806250-06:00:Thread#0:T:clip played the old boring way, duration was: 5.01551
+2021-07-08T21:59:44.0992381-06:00:2021-07-08T21:59:44.0992381-06:00:Thread#0:T:Line 40
+2021-07-08T22:00:04.2310267-06:00:2021-07-08T22:00:04.2300270-06:00:Thread#0:T:Line 41
+2021-07-08T22:00:04.3110588-06:00:2021-07-08T22:00:04.3110588-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-07-08T22:00:34.6273452-06:00:2021-07-08T22:00:34.6263452-06:00:Thread#0:T:Line 42
+2021-07-08T22:00:34.7180805-06:00:2021-07-08T22:00:34.7180805-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:00:45.2580997-06:00:2021-07-08T22:00:45.2580997-06:00:Thread#0:T:Line 43
+2021-07-08T22:00:45.3481674-06:00:2021-07-08T22:00:45.3481674-06:00:Thread#0:T:Parsing: i am so unproductive today from: sky_acaniadev
+2021-07-08T22:00:45.3501676-06:00:2021-07-08T22:00:45.3501676-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-07-08T22:00:45.3511684-06:00:2021-07-08T22:00:45.3511684-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 1
+2021-07-08T22:00:48.3637214-06:00:2021-07-08T22:00:48.3637214-06:00:Thread#0:T:Duration of clip was 2.999252, thanks rabbit_xxxx you're the best!
+2021-07-08T22:00:48.3647219-06:00:2021-07-08T22:00:48.3647219-06:00:Thread#0:T:clip played the old boring way, duration was: 2.999252
+2021-07-08T22:00:48.3740218-06:00:2021-07-08T22:00:48.3740218-06:00:Thread#0:T:Line 44
+2021-07-08T22:00:48.4481555-06:00:2021-07-08T22:00:48.4471555-06:00:Thread#0:T:Parsing: yeah from: rabbit_xxxx
+2021-07-08T22:00:53.0533857-06:00:2021-07-08T22:00:53.0533857-06:00:Thread#0:T:Line 45
+2021-07-08T22:00:53.1464076-06:00:2021-07-08T22:00:53.1464076-06:00:Thread#0:T:Parsing: i designed it that way from: rabbit_xxxx
+2021-07-08T22:01:16.0305901-06:00:2021-07-08T22:01:16.0305901-06:00:Thread#0:T:Line 46
+2021-07-08T22:01:16.1266125-06:00:2021-07-08T22:01:16.1266125-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-07-08T22:01:53.4330564-06:00:2021-07-08T22:01:53.4320544-06:00:Thread#0:T:Line 47
+2021-07-08T22:01:53.5160741-06:00:2021-07-08T22:01:53.5160741-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-07-08T22:01:54.8274090-06:00:2021-07-08T22:01:54.8274090-06:00:Thread#0:T:Line 48
+2021-07-08T22:01:54.9154941-06:00:2021-07-08T22:01:54.9154941-06:00:Thread#0:T:Parsing: do you have a business email? from: ccgamedev
+2021-07-08T22:02:04.0250899-06:00:2021-07-08T22:02:04.0250899-06:00:Thread#0:T:Line 49
+2021-07-08T22:02:04.1221118-06:00:2021-07-08T22:02:04.1211119-06:00:Thread#0:T:Parsing: badcopworsecopstudios@gmail.com from: user335
+2021-07-08T22:02:45.0442368-06:00:2021-07-08T22:02:45.0442368-06:00:Thread#0:T:Line 50
+2021-07-08T22:02:45.1462596-06:00:2021-07-08T22:02:45.1452600-06:00:Thread#0:T:Parsing: badcopworsecopstudios+bestbuy@gmail.com from: user335
+2021-07-08T22:03:59.2304290-06:00:2021-07-08T22:03:59.2304290-06:00:Thread#0:T:Line 51
+2021-07-08T22:03:59.3208552-06:00:2021-07-08T22:03:59.3204491-06:00:Thread#0:T:Parsing: i just ordered 3 pairs of pants because i need them to fit right lol from: taliyahpottruff
+2021-07-08T22:04:06.4366268-06:00:2021-07-08T22:04:06.4356268-06:00:Thread#0:T:Line 52
+2021-07-08T22:04:06.5206429-06:00:2021-07-08T22:04:06.5206429-06:00:Thread#0:T:Parsing: i had to call the police at 2 am last night from: rabbit_xxxx
+2021-07-08T22:04:43.2252142-06:00:2021-07-08T22:04:43.2252142-06:00:Thread#0:T:Line 53
+2021-07-08T22:04:43.3194191-06:00:2021-07-08T22:04:43.3194191-06:00:Thread#0:T:Parsing: people who live above me, the woman was screaming get off of me and crying and i heard a bunch of thumping around and stuff from: rabbit_xxxx
+2021-07-08T22:04:50.0312432-06:00:2021-07-08T22:04:50.0302432-06:00:Thread#0:T:Line 54
+2021-07-08T22:04:50.1372801-06:00:2021-07-08T22:04:50.1372801-06:00:Thread#0:T:Parsing: was trying to decide if i should intervene from: rabbit_xxxx
+2021-07-08T22:04:57.4286594-06:00:2021-07-08T22:04:57.4286594-06:00:Thread#0:T:Line 55
+2021-07-08T22:04:57.5133849-06:00:2021-07-08T22:04:57.5133849-06:00:Thread#0:T:Parsing: cops didn't take too long to show up for once though from: rabbit_xxxx
+2021-07-08T22:05:04.4276751-06:00:2021-07-08T22:05:04.4276751-06:00:Thread#0:T:Line 56
+2021-07-08T22:05:04.5174634-06:00:2021-07-08T22:05:04.5174634-06:00:Thread#0:T:Parsing: it has been sent by electronic mail from: ccgamedev
+2021-07-08T22:05:20.8398222-06:00:2021-07-08T22:05:20.8388117-06:00:Thread#0:T:Line 57
+2021-07-08T22:05:20.9352180-06:00:2021-07-08T22:05:20.9352180-06:00:Thread#0:T:Parsing: she probably screamed "get off of me" like 50 times from: rabbit_xxxx
+2021-07-08T22:05:44.8284535-06:00:2021-07-08T22:05:44.8274541-06:00:Thread#0:T:Line 58
+2021-07-08T22:05:44.9634168-06:00:2021-07-08T22:05:44.9634168-06:00:Thread#0:T:Parsing: i was unnerved, hard for me to stand by with something like that from: rabbit_xxxx
+2021-07-08T22:06:02.2285533-06:00:2021-07-08T22:06:02.2275523-06:00:Thread#0:T:Line 59
+2021-07-08T22:06:02.3717144-06:00:2021-07-08T22:06:02.3717144-06:00:Thread#0:T:Parsing: but cops usually treat me unfairly so... from: rabbit_xxxx
+2021-07-08T22:06:50.8307903-06:00:2021-07-08T22:06:50.8297890-06:00:Thread#0:T:Line 60
+2021-07-08T22:06:50.9425906-06:00:2021-07-08T22:06:50.9425906-06:00:Thread#0:T:Parsing: and the whole situation made me think of my gf and what happened to her from: rabbit_xxxx
+2021-07-08T22:07:39.4270022-06:00:2021-07-08T22:07:39.4260033-06:00:Thread#0:T:Line 61
+2021-07-08T22:07:39.5193533-06:00:2021-07-08T22:07:39.5178545-06:00:Thread#0:T:Parsing: jesus from: rabbit_xxxx
+2021-07-08T22:08:11.6441329-06:00:2021-07-08T22:08:11.6431325-06:00:Thread#0:T:Line 62
+2021-07-08T22:08:11.7491567-06:00:2021-07-08T22:08:11.7491567-06:00:Thread#0:T:Parsing: yeah i prefer not to have an anxiety attack thanks from: rabbit_xxxx
+2021-07-08T22:08:23.0319182-06:00:2021-07-08T22:08:23.0309166-06:00:Thread#0:T:Line 63
+2021-07-08T22:08:23.1305131-06:00:2021-07-08T22:08:23.1305131-06:00:Thread#0:T:Parsing: pretty sure i was from: rabbit_xxxx
+2021-07-08T22:08:52.2255915-06:00:2021-07-08T22:08:52.2255915-06:00:Thread#0:T:Line 64
+2021-07-08T22:08:52.3197486-06:00:2021-07-08T22:08:52.3187485-06:00:Thread#0:T:Parsing: same from: rabbit_xxxx
+2021-07-08T22:09:03.8348893-06:00:2021-07-08T22:09:03.8338885-06:00:Thread#0:T:Line 65
+2021-07-08T22:09:03.9296951-06:00:2021-07-08T22:09:03.9296951-06:00:Thread#0:T:Parsing: i haven't trusted police since i was 6 from: rabbit_xxxx
+2021-07-08T22:09:35.2214837-06:00:2021-07-08T22:09:35.2214837-06:00:Thread#0:T:Line 66
+2021-07-08T22:09:35.3195190-06:00:2021-07-08T22:09:35.3195190-06:00:Thread#0:T:Parsing: because i called the police then when i heard a little girl screaming next door, and they told me they would take me and my brother to jail if we ever called the police again from: rabbit_xxxx
+2021-07-08T22:10:26.6309523-06:00:2021-07-08T22:10:26.6299532-06:00:Thread#0:T:Line 67
+2021-07-08T22:10:26.7400593-06:00:2021-07-08T22:10:26.7400593-06:00:Thread#0:T:Parsing: they really arent that great but it definitely wouldnt help if there was no one to enforce the law when actually needed from: ccgamedev
+2021-07-08T22:10:40.4286776-06:00:2021-07-08T22:10:40.4276787-06:00:Thread#0:T:Line 68
+2021-07-08T22:10:40.5232885-06:00:2021-07-08T22:10:40.5222888-06:00:Thread#0:T:Parsing: i've had countless bad police experiences from: rabbit_xxxx
+2021-07-08T22:12:08.6429770-06:00:2021-07-08T22:12:08.6419770-06:00:Thread#0:T:Line 69
+2021-07-08T22:12:08.7322998-06:00:2021-07-08T22:12:08.7322998-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-07-08T22:12:33.6445130-06:00:2021-07-08T22:12:33.6435123-06:00:Thread#0:T:Line 70
+2021-07-08T22:12:33.7365334-06:00:2021-07-08T22:12:33.7355330-06:00:Thread#0:T:Parsing: i pulled a cop over once, sort of from: rabbit_xxxx
+2021-07-08T22:12:48.6272130-06:00:2021-07-08T22:12:48.6262117-06:00:Thread#0:T:Line 71
+2021-07-08T22:12:48.7252346-06:00:2021-07-08T22:12:48.7252346-06:00:Thread#0:T:Parsing: then he proceeded to write me a ticket for breaking the same law he did from: rabbit_xxxx
+2021-07-08T22:13:58.2273379-06:00:2021-07-08T22:13:58.2263377-06:00:Thread#0:T:Line 72
+2021-07-08T22:13:58.3359331-06:00:2021-07-08T22:13:58.3359331-06:00:Thread#0:T:Parsing: yeah, i've had situations like that too, where they couldn't catch me speeding from: rabbit_xxxx
+2021-07-08T22:15:26.0219711-06:00:2021-07-08T22:15:26.0219711-06:00:Thread#0:T:Line 73
+2021-07-08T22:15:26.1307160-06:00:2021-07-08T22:15:26.1297162-06:00:Thread#0:T:Parsing: biking pics? from: ccgamedev
+2021-07-08T22:15:30.6381126-06:00:2021-07-08T22:15:30.6381126-06:00:Thread#0:T:Line 74
+2021-07-08T22:15:30.7650498-06:00:2021-07-08T22:15:30.7640491-06:00:Thread#0:T:Parsing: i was doing 100 in a 45 one night when i was 19 or 20, headed home after work (from kfc)...i flew past this gas station and there were 3 cop cars sitting there, they weren't checking speeds, just sitting there, by the time they left the gas station i was quite a way away from: rabbit_xxxx
+2021-07-08T22:15:43.0243731-06:00:2021-07-08T22:15:43.0233730-06:00:Thread#0:T:Line 75
+2021-07-08T22:15:43.1591076-06:00:2021-07-08T22:15:43.1591076-06:00:Thread#0:T:Parsing: didn't even hit the brakes, just let it slow down so they couldn't claim i slowed down for them from: rabbit_xxxx
+2021-07-08T22:15:50.2369537-06:00:2021-07-08T22:15:50.2359546-06:00:Thread#0:T:Line 76
+2021-07-08T22:15:50.3325675-06:00:2021-07-08T22:15:50.3315684-06:00:Thread#0:T:Parsing: got off with a courtesy warning from: rabbit_xxxx
+2021-07-08T22:16:28.6234627-06:00:2021-07-08T22:16:28.6224622-06:00:Thread#0:T:Line 77
+2021-07-08T22:16:28.7214976-06:00:2021-07-08T22:16:28.7214976-06:00:Thread#0:T:Parsing: that's a different thing than the time i pulled the cop over from: rabbit_xxxx
+2021-07-08T22:17:13.4470992-06:00:2021-07-08T22:17:13.4460988-06:00:Thread#0:T:Line 78
+2021-07-08T22:17:13.5556368-06:00:2021-07-08T22:17:13.5546356-06:00:Thread#0:T:Parsing: citizen arrest? from: ccgamedev
+2021-07-08T22:17:23.4266043-06:00:2021-07-08T22:17:23.4256035-06:00:Thread#0:T:Line 79
+2021-07-08T22:17:23.5216248-06:00:2021-07-08T22:17:23.5206256-06:00:Thread#0:T:Parsing: no, i was headed to work, and he ran a light and nearly hit me turning onto the road he was on, chasing some other car, without any lights or sirens from: rabbit_xxxx
+2021-07-08T22:17:32.8276331-06:00:2021-07-08T22:17:32.8276331-06:00:Thread#0:T:Line 80
+2021-07-08T22:17:32.9240947-06:00:2021-07-08T22:17:32.9240947-06:00:Thread#0:T:Parsing: so i went after him from: rabbit_xxxx
+2021-07-08T22:17:47.0999461-06:00:2021-07-08T22:17:47.0989462-06:00:Thread#0:T:Line 81
+2021-07-08T22:17:47.2005716-06:00:2021-07-08T22:17:47.1995723-06:00:Thread#0:T:Parsing: and i followed him through another light and finally he came to a stop from: rabbit_xxxx
+2021-07-08T22:18:09.6262662-06:00:2021-07-08T22:18:09.6252661-06:00:Thread#0:T:Line 82
+2021-07-08T22:18:09.7332901-06:00:2021-07-08T22:18:09.7332901-06:00:Thread#0:T:Parsing: then i told him what he just did, he didn't like it, so he wrote me a ticket for going through the light that he did from: rabbit_xxxx
+2021-07-08T22:19:31.0300793-06:00:2021-07-08T22:19:31.0300793-06:00:Thread#0:T:Line 83
+2021-07-08T22:19:31.1383290-06:00:2021-07-08T22:19:31.1383290-06:00:Thread#0:T:Parsing: i used to drive an old corvette sting ray, they pulled me over every week or two...but never caught me speeding...they ask "do you know how fast you were going", and i always answer yes from: rabbit_xxxx
+2021-07-08T22:19:58.4470203-06:00:2021-07-08T22:19:58.4470203-06:00:Thread#0:T:Line 84
+2021-07-08T22:19:58.5461451-06:00:2021-07-08T22:19:58.5451451-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:20:17.8520776-06:00:2021-07-08T22:20:17.8510775-06:00:Thread#0:T:Line 85
+2021-07-08T22:20:17.9605666-06:00:2021-07-08T22:20:17.9595672-06:00:Thread#0:T:Parsing: hi from: protopoly_dot_com
+2021-07-08T22:20:17.9655680-06:00:2021-07-08T22:20:17.9645673-06:00:Thread#0:T:{
+2021-07-08T22:20:17.9665689-06:00:2021-07-08T22:20:17.9655680-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T22:20:17.9675700-06:00:2021-07-08T22:20:17.9665689-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T22:20:17.9680922-06:00:2021-07-08T22:20:17.9675700-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T22:20:17.9680922-06:00:2021-07-08T22:20:17.9680922-06:00:Thread#0:T:}
+2021-07-08T22:20:17.9690801-06:00:2021-07-08T22:20:17.9690801-06:00:Thread#0:T:{
+2021-07-08T22:20:17.9690801-06:00:2021-07-08T22:20:17.9690801-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T22:20:17.9700804-06:00:2021-07-08T22:20:17.9700804-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T22:20:17.9700804-06:00:2021-07-08T22:20:17.9700804-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T22:20:17.9710800-06:00:2021-07-08T22:20:17.9700804-06:00:Thread#0:T:}
+2021-07-08T22:20:17.9710800-06:00:2021-07-08T22:20:17.9710800-06:00:Thread#0:T:{
+2021-07-08T22:20:17.9720802-06:00:2021-07-08T22:20:17.9720802-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T22:20:17.9720802-06:00:2021-07-08T22:20:17.9720802-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T22:20:17.9740806-06:00:2021-07-08T22:20:17.9730803-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T22:20:17.9740806-06:00:2021-07-08T22:20:17.9740806-06:00:Thread#0:T:}
+2021-07-08T22:20:35.2255563-06:00:2021-07-08T22:20:35.2245543-06:00:Thread#0:T:Line 86
+2021-07-08T22:20:35.3498908-06:00:2021-07-08T22:20:35.3498908-06:00:Thread#0:T:Parsing: i did know he was a cop, i don't care from: rabbit_xxxx
+2021-07-08T22:20:48.8294345-06:00:2021-07-08T22:20:48.8294345-06:00:Thread#0:T:Line 87
+2021-07-08T22:20:48.9380156-06:00:2021-07-08T22:20:48.9380156-06:00:Thread#0:T:Parsing: that doesn't give him the right to brake the law either from: rabbit_xxxx
+2021-07-08T22:21:01.4349434-06:00:2021-07-08T22:21:01.4349434-06:00:Thread#0:T:Line 88
+2021-07-08T22:21:01.5432880-06:00:2021-07-08T22:21:01.5432880-06:00:Thread#0:T:Parsing: break from: rabbit_xxxx
+2021-07-08T22:21:04.2410779-06:00:2021-07-08T22:21:04.2410779-06:00:Thread#0:T:Line 89
+2021-07-08T22:21:04.3413288-06:00:2021-07-08T22:21:04.3403292-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-07-08T22:21:14.6356402-06:00:2021-07-08T22:21:14.6346384-06:00:Thread#0:T:Line 90
+2021-07-08T22:21:14.7358497-06:00:2021-07-08T22:21:14.7358497-06:00:Thread#0:T:Parsing: sure, but i don't like that from: rabbit_xxxx
+2021-07-08T22:21:20.8727330-06:00:2021-07-08T22:21:20.8717325-06:00:Thread#0:T:Line 91
+2021-07-08T22:21:21.0030909-06:00:2021-07-08T22:21:21.0030909-06:00:Thread#0:T:Parsing: https://media.discordapp.net/attachments/401087926777151489/862892641431978034/unknown.png from: protopoly_dot_com
+2021-07-08T22:21:29.4322248-06:00:2021-07-08T22:21:29.4322248-06:00:Thread#0:T:Line 92
+2021-07-08T22:21:29.5367916-06:00:2021-07-08T22:21:29.5367916-06:00:Thread#0:T:Parsing: i also used to chase cops who were speeding on the interstate without lights from: rabbit_xxxx
+2021-07-08T22:21:36.4300498-06:00:2021-07-08T22:21:36.4290499-06:00:Thread#0:T:Line 93
+2021-07-08T22:21:36.5323849-06:00:2021-07-08T22:21:36.5313853-06:00:Thread#0:T:Parsing: making a voxel engine in unity from: protopoly_dot_com
+2021-07-08T22:21:37.6323447-06:00:2021-07-08T22:21:37.6313437-06:00:Thread#0:T:Line 94
+2021-07-08T22:21:37.7313903-06:00:2021-07-08T22:21:37.7313903-06:00:Thread#0:T:Parsing: still do sometimes from: rabbit_xxxx
+2021-07-08T22:21:48.0313051-06:00:2021-07-08T22:21:48.0303048-06:00:Thread#0:T:Line 95
+2021-07-08T22:21:48.1573322-06:00:2021-07-08T22:21:48.1573322-06:00:Thread#0:T:Parsing: yeah not sure thats justifiable lol from: ccgamedev
+2021-07-08T22:21:49.6328284-06:00:2021-07-08T22:21:49.6308281-06:00:Thread#0:T:Line 96
+2021-07-08T22:21:49.7399377-06:00:2021-07-08T22:21:49.7399377-06:00:Thread#0:T:Parsing: nope from: rabbit_xxxx
+2021-07-08T22:21:51.8457507-06:00:2021-07-08T22:21:51.8457507-06:00:Thread#0:T:Line 97
+2021-07-08T22:21:51.9580827-06:00:2021-07-08T22:21:51.9580827-06:00:Thread#0:T:Parsing: rabbit likes to live dangerously from: taliyahpottruff
+2021-07-08T22:21:54.2231888-06:00:2021-07-08T22:21:54.2231888-06:00:Thread#0:T:Line 98
+2021-07-08T22:21:54.3530057-06:00:2021-07-08T22:21:54.3530057-06:00:Thread#0:T:Parsing: because it's illegal for them too from: rabbit_xxxx
+2021-07-08T22:22:00.0321500-06:00:2021-07-08T22:22:00.0321500-06:00:Thread#0:T:Line 99
+2021-07-08T22:22:00.1398550-06:00:2021-07-08T22:22:00.1388637-06:00:Thread#0:T:Parsing: unless it's an emergency from: rabbit_xxxx
+2021-07-08T22:22:02.6325421-06:00:2021-07-08T22:22:02.6315549-06:00:Thread#0:T:Line 100
+2021-07-08T22:22:02.7768984-06:00:2021-07-08T22:22:02.7768984-06:00:Thread#0:T:Parsing: i know the laws from: rabbit_xxxx
+2021-07-08T22:22:18.2563711-06:00:2021-07-08T22:22:18.2553710-06:00:Thread#0:T:Line 101
+2021-07-08T22:22:18.3984402-06:00:2021-07-08T22:22:18.3984402-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:23:01.2336815-06:00:2021-07-08T22:23:01.2326814-06:00:Thread#0:T:Line 102
+2021-07-08T22:23:01.3634039-06:00:2021-07-08T22:23:01.3624031-06:00:Thread#0:T:Parsing: yep, i got pulled over for accelerating in my corvette once and i told the cop, "i wasn't speeding, i was accelerating", he had nothing from: rabbit_xxxx
+2021-07-08T22:23:12.8418114-06:00:2021-07-08T22:23:12.8408016-06:00:Thread#0:T:Line 103
+2021-07-08T22:23:12.9563400-06:00:2021-07-08T22:23:12.9563400-06:00:Thread#0:T:Parsing: my grandma got pulled over for doing a burn out from a street light from: protopoly_dot_com
+2021-07-08T22:24:10.4971005-06:00:2021-07-08T22:24:10.4971005-06:00:Thread#0:T:Line 104
+2021-07-08T22:24:10.6121592-06:00:2021-07-08T22:24:10.6111601-06:00:Thread#0:T:Parsing: lmao hes determined from: taliyahpottruff
+2021-07-08T22:24:11.8712672-06:00:2021-07-08T22:24:11.8712672-06:00:Thread#0:T:Line 105
+2021-07-08T22:24:11.9703091-06:00:2021-07-08T22:24:11.9693099-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:24:27.6306081-06:00:2021-07-08T22:24:27.6306081-06:00:Thread#0:T:Line 106
+2021-07-08T22:24:27.7415286-06:00:2021-07-08T22:24:27.7415286-06:00:Thread#0:T:Parsing: so he said he had to do 100, which was illegal from: rabbit_xxxx
+2021-07-08T22:24:51.8343192-06:00:2021-07-08T22:24:51.8343192-06:00:Thread#0:T:Line 107
+2021-07-08T22:24:51.9471881-06:00:2021-07-08T22:24:51.9471881-06:00:Thread#0:T:Parsing: even if you are speeding, they have to have their lights on to chase another speeder from: rabbit_xxxx
+2021-07-08T22:24:56.0373280-06:00:2021-07-08T22:24:56.0373280-06:00:Thread#0:T:Line 108
+2021-07-08T22:24:56.1483862-06:00:2021-07-08T22:24:56.1483862-06:00:Thread#0:T:Parsing: couldnt ticket you cause no proof lmao from: taliyahpottruff
+2021-07-08T22:25:21.4344661-06:00:2021-07-08T22:25:21.4334627-06:00:Thread#0:T:Line 109
+2021-07-08T22:25:21.5444907-06:00:2021-07-08T22:25:21.5444907-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:26:01.0401612-06:00:2021-07-08T22:26:01.0391599-06:00:Thread#0:T:Line 110
+2021-07-08T22:26:01.1771845-06:00:2021-07-08T22:26:01.1761845-06:00:Thread#0:T:Parsing: hey gang from: frozdy
+2021-07-08T22:26:01.1821852-06:00:2021-07-08T22:26:01.1821852-06:00:Thread#0:T:{
+2021-07-08T22:26:01.1831862-06:00:2021-07-08T22:26:01.1831862-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T22:26:01.1841864-06:00:2021-07-08T22:26:01.1841864-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T22:26:01.1851863-06:00:2021-07-08T22:26:01.1841864-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T22:26:01.1851863-06:00:2021-07-08T22:26:01.1851863-06:00:Thread#0:T:}
+2021-07-08T22:26:01.1861867-06:00:2021-07-08T22:26:01.1861867-06:00:Thread#0:T:{
+2021-07-08T22:26:01.1871862-06:00:2021-07-08T22:26:01.1871862-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T22:26:01.1871862-06:00:2021-07-08T22:26:01.1871862-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T22:26:01.1881875-06:00:2021-07-08T22:26:01.1881875-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T22:26:01.1891880-06:00:2021-07-08T22:26:01.1881875-06:00:Thread#0:T:}
+2021-07-08T22:26:01.1891880-06:00:2021-07-08T22:26:01.1891880-06:00:Thread#0:T:{
+2021-07-08T22:26:01.1901879-06:00:2021-07-08T22:26:01.1901879-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T22:26:01.1901879-06:00:2021-07-08T22:26:01.1901879-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T22:26:01.1917518-06:00:2021-07-08T22:26:01.1911878-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T22:26:01.1922726-06:00:2021-07-08T22:26:01.1922558-06:00:Thread#0:T:}
+2021-07-08T22:26:21.2343106-06:00:2021-07-08T22:26:21.2343106-06:00:Thread#0:T:Line 111
+2021-07-08T22:26:21.3703404-06:00:2021-07-08T22:26:21.3703404-06:00:Thread#0:T:Parsing: lmao from: taliyahpottruff
+2021-07-08T22:26:23.0234931-06:00:2021-07-08T22:26:23.0234931-06:00:Thread#0:T:Line 112
+2021-07-08T22:26:23.1439597-06:00:2021-07-08T22:26:23.1439597-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:27:28.8344240-06:00:2021-07-08T22:27:28.8334242-06:00:Thread#0:T:Line 113
+2021-07-08T22:27:28.9420305-06:00:2021-07-08T22:27:28.9412565-06:00:Thread#0:T:Parsing: i only scratched the surface of my police interactions from: rabbit_xxxx
+2021-07-08T22:27:47.0400974-06:00:2021-07-08T22:27:47.0390990-06:00:Thread#0:T:Line 114
+2021-07-08T22:27:47.1621375-06:00:2021-07-08T22:27:47.1611369-06:00:Thread#0:T:Parsing: did you write a noise library or use a public one? from: ccgamedev
+2021-07-08T22:28:09.0487166-06:00:2021-07-08T22:28:09.0487166-06:00:Thread#0:T:Line 115
+2021-07-08T22:28:09.1647419-06:00:2021-07-08T22:28:09.1637425-06:00:Thread#0:T:Parsing: i sent you a really cool resource ui for another dev. sent it on disc if you wanna see it, user (feel free to show stream too
+2021-07-08T22:28:09.1657437-06:00:2021-07-08T22:28:09.1647419-06:00:Thread#0:T:) from: frozdy
+2021-07-08T22:28:22.4796578-06:00:2021-07-08T22:28:22.4796578-06:00:Thread#0:T:Line 116
+2021-07-08T22:28:22.6084553-06:00:2021-07-08T22:28:22.6084553-06:00:Thread#0:T:Parsing: she was doing 40 but her tires were doing 140 from: protopoly_dot_com
+2021-07-08T22:28:29.4400121-06:00:2021-07-08T22:28:29.4400121-06:00:Thread#0:T:Line 117
+2021-07-08T22:28:29.5863470-06:00:2021-07-08T22:28:29.5863470-06:00:Thread#0:T:Parsing: i failed my driving test the first time because i laid drag in the testing lot from: rabbit_xxxx
+2021-07-08T22:28:49.4317742-06:00:2021-07-08T22:28:49.4307741-06:00:Thread#0:T:Line 118
+2021-07-08T22:28:49.5407994-06:00:2021-07-08T22:28:49.5407994-06:00:Thread#0:T:Parsing: law could be different in colorado, but that's georgia law from: rabbit_xxxx
+2021-07-08T22:29:30.2410644-06:00:2021-07-08T22:29:30.2410644-06:00:Thread#0:T:Line 119
+2021-07-08T22:29:30.3798795-06:00:2021-07-08T22:29:30.3798795-06:00:Thread#0:T:Parsing: thats why you "see a rabbit" and quickly break so you don't hit it from: taliyahpottruff
+2021-07-08T22:29:32.2179645-06:00:2021-07-08T22:29:32.2179645-06:00:Thread#0:T:Line 120
+2021-07-08T22:29:32.3499041-06:00:2021-07-08T22:29:32.3499041-06:00:Thread#0:T:Parsing: as for my voxel engine, it will be able to be purchased on asset store by september from: protopoly_dot_com
+2021-07-08T22:29:41.2560400-06:00:2021-07-08T22:29:41.2560400-06:00:Thread#0:T:Line 121
+2021-07-08T22:29:41.3789618-06:00:2021-07-08T22:29:41.3779618-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:30:45.8450198-06:00:2021-07-08T22:30:45.8450198-06:00:Thread#0:T:Line 122
+2021-07-08T22:30:45.9800508-06:00:2021-07-08T22:30:45.9800508-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-07-08T22:30:48.0373598-06:00:2021-07-08T22:30:48.0373598-06:00:Thread#0:T:Line 123
+2021-07-08T22:30:48.1693091-06:00:2021-07-08T22:30:48.1687711-06:00:Thread#0:T:Parsing: first thing i did from: rabbit_xxxx
+2021-07-08T22:31:24.4537485-06:00:2021-07-08T22:31:24.4527481-06:00:Thread#0:T:Line 124
+2021-07-08T22:31:24.5716694-06:00:2021-07-08T22:31:24.5716694-06:00:Thread#0:T:Parsing: he said, "speed up as fast as you can", and i was supposed to come to a sudden stop at the stop sign, but i sped up too fast... from: rabbit_xxxx
+2021-07-08T22:31:49.0371290-06:00:2021-07-08T22:31:49.0361285-06:00:Thread#0:T:Line 125
+2021-07-08T22:31:49.1769569-06:00:2021-07-08T22:31:49.1769569-06:00:Thread#0:T:Parsing: test was over immediately from: rabbit_xxxx
+2021-07-08T22:31:52.4421294-06:00:2021-07-08T22:31:52.4411297-06:00:Thread#0:T:Line 126
+2021-07-08T22:31:52.5599855-06:00:2021-07-08T22:31:52.5589845-06:00:Thread#0:T:Parsing: that's just as a demo from: frozdy
+2021-07-08T22:32:09.0333621-06:00:2021-07-08T22:32:09.0323617-06:00:Thread#0:T:Line 127
+2021-07-08T22:32:09.1720740-06:00:2021-07-08T22:32:09.1720740-06:00:Thread#0:T:Parsing: no, i didn't overshoot from: rabbit_xxxx
+2021-07-08T22:32:15.4276701-06:00:2021-07-08T22:32:15.4276701-06:00:Thread#0:T:Line 128
+2021-07-08T22:32:15.5431119-06:00:2021-07-08T22:32:15.5431119-06:00:Thread#0:T:Parsing: just laid drag, which is illegal from: rabbit_xxxx
+2021-07-08T22:32:21.6511520-06:00:2021-07-08T22:32:21.6511520-06:00:Thread#0:T:Line 129
+2021-07-08T22:32:21.8003101-06:00:2021-07-08T22:32:21.8003101-06:00:Thread#0:T:Parsing: yeah from: rabbit_xxxx
+2021-07-08T22:32:27.0365278-06:00:2021-07-08T22:32:27.0365278-06:00:Thread#0:T:Line 130
+2021-07-08T22:32:27.1860602-06:00:2021-07-08T22:32:27.1860602-06:00:Thread#0:T:Parsing: okay im gonna go make a hellofresh meal from: taliyahpottruff
+2021-07-08T22:32:49.0461229-06:00:2021-07-08T22:32:49.0461229-06:00:Thread#0:T:Line 131
+2021-07-08T22:32:49.1702189-06:00:2021-07-08T22:32:49.1702189-06:00:Thread#0:T:Parsing: well it was a short distance, maybe he didn't think i could speed up that fast from: rabbit_xxxx
+2021-07-08T22:32:50.2396767-06:00:2021-07-08T22:32:50.2396767-06:00:Thread#0:T:Line 132
+2021-07-08T22:32:50.3519770-06:00:2021-07-08T22:32:50.3511616-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:32:56.8389276-06:00:2021-07-08T22:32:56.8379272-06:00:Thread#0:T:Line 133
+2021-07-08T22:32:56.9581467-06:00:2021-07-08T22:32:56.9571463-06:00:Thread#0:T:Parsing: bank robber driving test from: liquideggproduct
+2021-07-08T22:32:56.9631481-06:00:2021-07-08T22:32:56.9621474-06:00:Thread#0:T:{
+2021-07-08T22:32:56.9671492-06:00:2021-07-08T22:32:56.9631481-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T22:32:56.9681489-06:00:2021-07-08T22:32:56.9671492-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T22:32:56.9681489-06:00:2021-07-08T22:32:56.9681489-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T22:32:56.9691491-06:00:2021-07-08T22:32:56.9691491-06:00:Thread#0:T:}
+2021-07-08T22:32:56.9691491-06:00:2021-07-08T22:32:56.9691491-06:00:Thread#0:T:{
+2021-07-08T22:32:56.9701490-06:00:2021-07-08T22:32:56.9701490-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T22:32:56.9711500-06:00:2021-07-08T22:32:56.9701490-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T22:32:56.9711500-06:00:2021-07-08T22:32:56.9711500-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T22:32:56.9711500-06:00:2021-07-08T22:32:56.9711500-06:00:Thread#0:T:}
+2021-07-08T22:32:56.9721504-06:00:2021-07-08T22:32:56.9721504-06:00:Thread#0:T:{
+2021-07-08T22:32:56.9731502-06:00:2021-07-08T22:32:56.9721504-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T22:32:56.9731502-06:00:2021-07-08T22:32:56.9731502-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T22:32:56.9741505-06:00:2021-07-08T22:32:56.9741505-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T22:32:56.9751519-06:00:2021-07-08T22:32:56.9741505-06:00:Thread#0:T:}
+2021-07-08T22:33:14.8690467-06:00:2021-07-08T22:33:14.8690467-06:00:Thread#0:T:Line 134
+2021-07-08T22:33:14.9949137-06:00:2021-07-08T22:33:14.9939141-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:33:50.8374790-06:00:2021-07-08T22:33:50.8364785-06:00:Thread#0:T:Line 135
+2021-07-08T22:33:50.9855109-06:00:2021-07-08T22:33:50.9855109-06:00:Thread#0:T:Parsing: it was the dot from: rabbit_xxxx
+2021-07-08T22:34:07.6812652-06:00:2021-07-08T22:34:07.6802656-06:00:Thread#0:T:Line 136
+2021-07-08T22:34:07.8162959-06:00:2021-07-08T22:34:07.8162959-06:00:Thread#0:T:Parsing: https://youtu.be/3l31bne6lt0?t=78 xd from: frozdy
+2021-07-08T22:34:28.6431897-06:00:2021-07-08T22:34:28.6431897-06:00:Thread#0:T:Line 137
+2021-07-08T22:34:28.7752657-06:00:2021-07-08T22:34:28.7752657-06:00:Thread#0:T:Parsing: now that's how you paralel park! from: frozdy
+2021-07-08T22:35:30.8675223-06:00:2021-07-08T22:35:30.8675223-06:00:Thread#0:T:Line 138
+2021-07-08T22:35:31.0165552-06:00:2021-07-08T22:35:31.0165552-06:00:Thread#0:T:Parsing: the only time i ever parallel parked is when i was practicing for my driving test, and when i took it from: rabbit_xxxx
+2021-07-08T22:35:37.4413373-06:00:2021-07-08T22:35:37.4413373-06:00:Thread#0:T:Line 139
+2021-07-08T22:35:37.5943915-06:00:2021-07-08T22:35:37.5933914-06:00:Thread#0:T:Parsing: never since from: rabbit_xxxx
+2021-07-08T22:36:38.8403600-06:00:2021-07-08T22:36:38.8393586-06:00:Thread#0:T:Line 140
+2021-07-08T22:36:38.9830543-06:00:2021-07-08T22:36:38.9830543-06:00:Thread#0:T:Parsing: what are you trying to save performance on? from: ccgamedev
+2021-07-08T22:37:16.0615919-06:00:2021-07-08T22:37:16.0615919-06:00:Thread#0:T:Line 141
+2021-07-08T22:37:16.1988664-06:00:2021-07-08T22:37:16.1978664-06:00:Thread#0:T:Parsing: the guy i made that element for said that he was doing "occlusion calling" to only load in whatever's in view, maybe you could apply that for your game, user? from: frozdy
+2021-07-08T22:38:03.4701243-06:00:2021-07-08T22:38:03.4691246-06:00:Thread#0:T:Line 142
+2021-07-08T22:38:39.6755590-06:00:2021-07-08T22:38:39.6745583-06:00:Thread#0:T:Line 143
+2021-07-08T22:38:39.8276114-06:00:2021-07-08T22:38:39.8276114-06:00:Thread#0:T:Parsing: and your trying to write your own physics instead of using unitys? from: ccgamedev
+2021-07-08T22:39:09.8652051-06:00:2021-07-08T22:39:09.8642078-06:00:Thread#0:T:Line 144
+2021-07-08T22:39:10.0312846-06:00:2021-07-08T22:39:10.0302845-06:00:Thread#0:T:Parsing: and you missed my msg from: frozdy
+2021-07-08T22:39:17.8659465-06:00:2021-07-08T22:39:17.8649469-06:00:Thread#0:T:Line 145
+2021-07-08T22:39:18.0249811-06:00:2021-07-08T22:39:18.0239809-06:00:Thread#0:T:Parsing: framerate is probably due to draw calls or something mostly from: rabbit_xxxx
+2021-07-08T22:40:29.0570791-06:00:2021-07-08T22:40:29.0570791-06:00:Thread#0:T:Line 146
+2021-07-08T22:40:29.2156242-06:00:2021-07-08T22:40:29.2156242-06:00:Thread#0:T:Parsing: and skipped me again from: frozdy
+2021-07-08T22:41:15.8739825-06:00:2021-07-08T22:41:15.8729801-06:00:Thread#0:T:Line 147
+2021-07-08T22:41:16.0210134-06:00:2021-07-08T22:41:16.0200132-06:00:Thread#0:T:Parsing: gaia from: rabbit_xxxx
+2021-07-08T22:42:04.6524860-06:00:2021-07-08T22:42:04.6514855-06:00:Thread#0:T:Line 148
+2021-07-08T22:42:04.8575325-06:00:2021-07-08T22:42:04.8565320-06:00:Thread#0:T:Parsing: is that character controller something you wrote? it uses the a* stuff right? from: rabbit_xxxx
+2021-07-08T22:42:39.0647287-06:00:2021-07-08T22:42:39.0647287-06:00:Thread#0:T:Line 149
+2021-07-08T22:42:39.2217663-06:00:2021-07-08T22:42:39.2197634-06:00:Thread#0:T:Parsing: a* pathfinding project is peic from: protopoly_dot_com
+2021-07-08T22:42:48.2653340-06:00:2021-07-08T22:42:48.2653340-06:00:Thread#0:T:Line 150
+2021-07-08T22:42:48.4179391-06:00:2021-07-08T22:42:48.4169386-06:00:Thread#0:T:Parsing: epic from: protopoly_dot_com
+2021-07-08T22:42:48.4569670-06:00:2021-07-08T22:42:48.4559670-06:00:Thread#0:T:error: That's the max! Restart this bot or it's done!
+2021-07-08T22:42:48.5029780-06:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2021-07-08T22:42:48.5059781-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-08T22:42:48.5059781-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-07-08T22:42:48.5059781-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-07-08T22:42:48.5059781-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-08T22:42:48.5059781-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-08T22:42:48.5059781-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-08T22:42:48.5069787-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-07-08T22:42:48.5069787-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-07-08T22:42:48.5069787-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-07-08T22:42:48.5650096-06:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 5899.5775871 seconds
+2021-07-08T22:42:48.5675216-06:00:Thread#0: Test #6/1 is started on thread #0
+2021-07-08T22:42:48.5695209-06:00:2021-07-08T22:42:48.5685198-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-08T22:42:48.5705211-06:00:2021-07-08T22:42:48.5695209-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-08T22:42:48.5715212-06:00:2021-07-08T22:42:48.5705211-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-08T22:42:50.1032615-06:00:2021-07-08T22:42:50.1022608-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.5s)
+2021-07-08T22:42:50.1042612-06:00:2021-07-08T22:42:50.1032615-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-07-08T22:43:01.4121945-06:00:2021-07-08T22:43:01.4121945-06:00:Thread#0:T:Line 1
+2021-07-08T22:43:01.5092471-06:00:2021-07-08T22:43:01.5092471-06:00:Thread#0:T:Parsing: when did you switch from navmesh to character controllers? from: ccgamedev
+2021-07-08T22:43:01.5157575-06:00:2021-07-08T22:43:01.5127560-06:00:Thread#0:T:Eyy, its ccgamedev!
+2021-07-08T22:43:01.5222664-06:00:2021-07-08T22:43:01.5222664-06:00:Thread#0:T:{
+2021-07-08T22:43:01.5232662-06:00:2021-07-08T22:43:01.5222664-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T22:43:01.5232662-06:00:2021-07-08T22:43:01.5232662-06:00:Thread#0:T:	CHUNK SIZE: 22
+2021-07-08T22:43:01.5242666-06:00:2021-07-08T22:43:01.5242666-06:00:Thread#0:T:	Text Value: REEEEEE Sound Effect  
+2021-07-08T22:43:01.5252664-06:00:2021-07-08T22:43:01.5242666-06:00:Thread#0:T:}
+2021-07-08T22:43:01.5262677-06:00:2021-07-08T22:43:01.5252664-06:00:Thread#0:T:{
+2021-07-08T22:43:01.5272681-06:00:2021-07-08T22:43:01.5272681-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T22:43:01.5282684-06:00:2021-07-08T22:43:01.5272681-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T22:43:01.5282684-06:00:2021-07-08T22:43:01.5282684-06:00:Thread#0:T:	Text Value: Lavf58.29.100 (libsndfile-) 
+2021-07-08T22:43:01.5292697-06:00:2021-07-08T22:43:01.5292697-06:00:Thread#0:T:}
+2021-07-08T22:43:04.5003765-06:00:2021-07-08T22:43:04.5003765-06:00:Thread#0:T:Duration of clip was 2.965964, thanks rabbit_xxxx you're the best!
+2021-07-08T22:43:04.5013773-06:00:2021-07-08T22:43:04.5013773-06:00:Thread#0:T:clip played the old boring way, duration was: 2.965964
+2021-07-08T22:43:24.0007589-06:00:2021-07-08T22:43:23.9997596-06:00:Thread#0:T:Line 2
+2021-07-08T22:43:24.0678514-06:00:2021-07-08T22:43:24.0678514-06:00:Thread#0:T:Parsing: oh did the bot restart? from: mrnoah99
+2021-07-08T22:43:24.0718605-06:00:2021-07-08T22:43:24.0708517-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-07-08T22:43:24.0738529-06:00:2021-07-08T22:43:24.0728526-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 3
+2021-07-08T22:43:26.4617827-06:00:2021-07-08T22:43:26.4607825-06:00:Thread#0:T:Duration of clip was 2.380063, thanks rabbit_xxxx you're the best!
+2021-07-08T22:43:26.4617827-06:00:2021-07-08T22:43:26.4617827-06:00:Thread#0:T:clip played the old boring way, duration was: 2.380063
+2021-07-08T22:43:26.4713356-06:00:2021-07-08T22:43:26.4708214-06:00:Thread#0:T:Line 4
+2021-07-08T22:43:26.5499710-06:00:2021-07-08T22:43:26.5499710-06:00:Thread#0:T:Parsing: he changed from navmesh from a* from: protopoly_dot_com
+2021-07-08T22:43:26.5544799-06:00:2021-07-08T22:43:26.5534796-06:00:Thread#0:T:{
+2021-07-08T22:43:26.5544799-06:00:2021-07-08T22:43:26.5544799-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T22:43:26.5554803-06:00:2021-07-08T22:43:26.5544799-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T22:43:26.5554803-06:00:2021-07-08T22:43:26.5554803-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T22:43:26.5564804-06:00:2021-07-08T22:43:26.5564804-06:00:Thread#0:T:}
+2021-07-08T22:43:26.5564804-06:00:2021-07-08T22:43:26.5564804-06:00:Thread#0:T:{
+2021-07-08T22:43:26.5574805-06:00:2021-07-08T22:43:26.5564804-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T22:43:26.5584806-06:00:2021-07-08T22:43:26.5574805-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T22:43:26.5594811-06:00:2021-07-08T22:43:26.5584806-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T22:43:26.5604810-06:00:2021-07-08T22:43:26.5594811-06:00:Thread#0:T:}
+2021-07-08T22:43:26.5604810-06:00:2021-07-08T22:43:26.5604810-06:00:Thread#0:T:{
+2021-07-08T22:43:26.5614815-06:00:2021-07-08T22:43:26.5614815-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T22:43:26.5624822-06:00:2021-07-08T22:43:26.5614815-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T22:43:26.5634817-06:00:2021-07-08T22:43:26.5624822-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T22:43:26.5634817-06:00:2021-07-08T22:43:26.5634817-06:00:Thread#0:T:}
+2021-07-08T22:43:27.8087321-06:00:2021-07-08T22:43:27.8077319-06:00:Thread#0:T:Line 4
+2021-07-08T22:43:27.8808766-06:00:2021-07-08T22:43:27.8808766-06:00:Thread#0:T:Parsing: kool from: mrnoah99
+2021-07-08T22:43:53.0057938-06:00:2021-07-08T22:43:53.0047932-06:00:Thread#0:T:Line 5
+2021-07-08T22:43:53.0808427-06:00:2021-07-08T22:43:53.0808427-06:00:Thread#0:T:Parsing: i meant character controller components from: ccgamedev
+2021-07-08T22:44:38.8044498-06:00:2021-07-08T22:44:38.8034494-06:00:Thread#0:T:Line 6
+2021-07-08T22:44:38.8851665-06:00:2021-07-08T22:44:38.8841665-06:00:Thread#0:T:Parsing: a* pathfinding project is superior compared to navmesh from: protopoly_dot_com
+2021-07-08T22:45:04.6085355-06:00:2021-07-08T22:45:04.6075355-06:00:Thread#0:T:Line 7
+2021-07-08T22:45:04.6945558-06:00:2021-07-08T22:45:04.6935546-06:00:Thread#0:T:Parsing: how come the a* stuff doesn't keep people from clipping through doors? shouldn't it take them into account when pathing rather than relying on colliders? from: rabbit_xxxx
+2021-07-08T22:45:04.6975551-06:00:2021-07-08T22:45:04.6965551-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-07-08T22:45:04.7015581-06:00:2021-07-08T22:45:04.6995590-06:00:Thread#0:T:{
+2021-07-08T22:45:04.7025582-06:00:2021-07-08T22:45:04.7015581-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T22:45:04.7025582-06:00:2021-07-08T22:45:04.7025582-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-07-08T22:45:04.7045575-06:00:2021-07-08T22:45:04.7035578-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-07-08T22:45:04.7045575-06:00:2021-07-08T22:45:04.7045575-06:00:Thread#0:T:}
+2021-07-08T22:45:04.7055574-06:00:2021-07-08T22:45:04.7055574-06:00:Thread#0:T:{
+2021-07-08T22:45:04.7055574-06:00:2021-07-08T22:45:04.7055574-06:00:Thread#0:T:	CHUNK ID: IPRD
+2021-07-08T22:45:04.7065577-06:00:2021-07-08T22:45:04.7065577-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-07-08T22:45:04.7075579-06:00:2021-07-08T22:45:04.7065577-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-07-08T22:45:04.7075579-06:00:2021-07-08T22:45:04.7075579-06:00:Thread#0:T:}
+2021-07-08T22:45:04.7085580-06:00:2021-07-08T22:45:04.7085580-06:00:Thread#0:T:{
+2021-07-08T22:45:04.7085580-06:00:2021-07-08T22:45:04.7085580-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-07-08T22:45:04.7095588-06:00:2021-07-08T22:45:04.7095588-06:00:Thread#0:T:	CHUNK SIZE: 6
+2021-07-08T22:45:04.7105585-06:00:2021-07-08T22:45:04.7105585-06:00:Thread#0:T:	Text Value: 2009  
+2021-07-08T22:45:04.7115586-06:00:2021-07-08T22:45:04.7105585-06:00:Thread#0:T:}
+2021-07-08T22:45:04.7115586-06:00:2021-07-08T22:45:04.7115586-06:00:Thread#0:T:{
+2021-07-08T22:45:04.7125596-06:00:2021-07-08T22:45:04.7125596-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T22:45:04.7135599-06:00:2021-07-08T22:45:04.7135599-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-08T22:45:04.7135599-06:00:2021-07-08T22:45:04.7135599-06:00:Thread#0:T:	Text Value: Lavf58.26.101 (libsndfile-1.0.24) 
+2021-07-08T22:45:04.7145594-06:00:2021-07-08T22:45:04.7145594-06:00:Thread#0:T:}
+2021-07-08T22:45:09.7353047-06:00:2021-07-08T22:45:09.7353047-06:00:Thread#0:T:Duration of clip was 5.01551, thanks rabbit_xxxx you're the best!
+2021-07-08T22:45:09.7363047-06:00:2021-07-08T22:45:09.7363047-06:00:Thread#0:T:clip played the old boring way, duration was: 5.01551
+2021-07-08T22:45:23.2031608-06:00:2021-07-08T22:45:23.2031608-06:00:Thread#0:T:Line 8
+2021-07-08T22:45:23.2797545-06:00:2021-07-08T22:45:23.2788206-06:00:Thread#0:T:Parsing: what if you separated the scene into chunks and then just did the culling? from: ccgamedev
+2021-07-08T22:45:42.2020874-06:00:2021-07-08T22:45:42.2020874-06:00:Thread#0:T:Line 9
+2021-07-08T22:45:42.2777988-06:00:2021-07-08T22:45:42.2777988-06:00:Thread#0:T:Parsing: i see from: rabbit_xxxx
+2021-07-08T22:46:30.9976633-06:00:2021-07-08T22:46:30.9966628-06:00:Thread#0:T:Line 10
+2021-07-08T22:46:31.0962115-06:00:2021-07-08T22:46:31.0952103-06:00:Thread#0:T:Parsing: i saw a cat junmp througha sheet of dry wall for cat treats once from: protopoly_dot_com
+2021-07-08T22:46:37.2050866-06:00:2021-07-08T22:46:37.2040867-06:00:Thread#0:T:Line 11
+2021-07-08T22:46:37.2901496-06:00:2021-07-08T22:46:37.2891494-06:00:Thread#0:T:Parsing: you should try switching to havok physics, maybe that would help from: rabbit_xxxx
+2021-07-08T22:46:55.8069799-06:00:2021-07-08T22:46:55.8039781-06:00:Thread#0:T:Line 12
+2021-07-08T22:46:55.8868461-06:00:2021-07-08T22:46:55.8858466-06:00:Thread#0:T:Parsing: doesn't require code changes or anything from: rabbit_xxxx
+2021-07-08T22:47:31.0096872-06:00:2021-07-08T22:47:31.0086871-06:00:Thread#0:T:Line 13
+2021-07-08T22:47:31.0867801-06:00:2021-07-08T22:47:31.0857798-06:00:Thread#0:T:Parsing: https://docs.unity3d.com/packages/com.havok.physics@0.1/manual/index.html from: rabbit_xxxx
+2021-07-08T22:48:58.2028707-06:00:2021-07-08T22:48:58.2028707-06:00:Thread#0:T:Line 14
+2021-07-08T22:48:58.2842207-06:00:2021-07-08T22:48:58.2832203-06:00:Thread#0:T:Parsing: what if you just generated a low poly mesh for the path finding instead of using the terrain? from: ccgamedev
+2021-07-08T22:50:35.4051752-06:00:2021-07-08T22:50:35.4041755-06:00:Thread#0:T:Line 15
+2021-07-08T22:50:35.4842115-06:00:2021-07-08T22:50:35.4842115-06:00:Thread#0:T:Parsing: no the cat ran and slammed entire body into the wall and come out the other side from: protopoly_dot_com
+2021-07-08T22:51:05.2168397-06:00:2021-07-08T22:51:05.2158398-06:00:Thread#0:T:Line 16
+2021-07-08T22:51:05.2986111-06:00:2021-07-08T22:51:05.2986111-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:52:29.4025093-06:00:2021-07-08T22:52:29.4025093-06:00:Thread#0:T:Line 17
+2021-07-08T22:52:29.4817034-06:00:2021-07-08T22:52:29.4817034-06:00:Thread#0:T:Parsing: i wish i had a cat from: rabbit_xxxx
+2021-07-08T22:52:38.6037048-06:00:2021-07-08T22:52:38.6027043-06:00:Thread#0:T:Line 18
+2021-07-08T22:52:38.6828906-06:00:2021-07-08T22:52:38.6818898-06:00:Thread#0:T:Parsing: that cat has since died of old age from: protopoly_dot_com
+2021-07-08T22:52:51.2027706-06:00:2021-07-08T22:52:51.2027706-06:00:Thread#0:T:Line 19
+2021-07-08T22:52:51.2988077-06:00:2021-07-08T22:52:51.2978077-06:00:Thread#0:T:Parsing: he died at 14 years old from: protopoly_dot_com
+2021-07-08T22:53:02.0111406-06:00:2021-07-08T22:53:02.0111406-06:00:Thread#0:T:Line 20
+2021-07-08T22:53:02.0941889-06:00:2021-07-08T22:53:02.0941889-06:00:Thread#0:T:Parsing: nice from: rabbit_xxxx
+2021-07-08T22:53:21.6127975-06:00:2021-07-08T22:53:21.6127975-06:00:Thread#0:T:Line 21
+2021-07-08T22:53:21.7058179-06:00:2021-07-08T22:53:21.7058179-06:00:Thread#0:T:Parsing: oooohhh yeahhhh from: rabbit_xxxx
+2021-07-08T22:53:26.4179516-06:00:2021-07-08T22:53:26.4174347-06:00:Thread#0:T:Line 22
+2021-07-08T22:53:26.5175222-06:00:2021-07-08T22:53:26.5165210-06:00:Thread#0:T:Parsing: the cat died because i went to the philippines and the person care giving started beating the cat from: protopoly_dot_com
+2021-07-08T22:54:19.6040760-06:00:2021-07-08T22:54:19.6040760-06:00:Thread#0:T:Line 23
+2021-07-08T22:54:19.7030990-06:00:2021-07-08T22:54:19.7020987-06:00:Thread#0:T:Parsing: my new cat is 5 months old from: protopoly_dot_com
+2021-07-08T22:54:22.3948666-06:00:2021-07-08T22:54:22.3938667-06:00:Thread#0:T:Line 24
+2021-07-08T22:54:22.4809887-06:00:2021-07-08T22:54:22.4799875-06:00:Thread#0:T:Parsing: growing up, our cats usually just stayed outside most of the time from: rabbit_xxxx
+2021-07-08T22:55:32.4106070-06:00:2021-07-08T22:55:32.4096079-06:00:Thread#0:T:Line 25
+2021-07-08T22:55:32.5216327-06:00:2021-07-08T22:55:32.5206326-06:00:Thread#0:T:Parsing: i cant do that because if i leave the cat dish on the floor for more tahn 20 mins it attracts ants from: protopoly_dot_com
+2021-07-08T22:56:26.0068081-06:00:2021-07-08T22:56:26.0058075-06:00:Thread#0:T:Line 26
+2021-07-08T22:56:26.0999573-06:00:2021-07-08T22:56:26.0989568-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-07-08T22:57:44.0031713-06:00:2021-07-08T22:57:44.0031713-06:00:Thread#0:T:Line 27
+2021-07-08T22:57:44.0888977-06:00:2021-07-08T22:57:44.0888977-06:00:Thread#0:T:Parsing: user needs to change his category from science and technology to just chatting (joke) from: protopoly_dot_com
+2021-07-08T22:57:47.7993060-06:00:2021-07-08T22:57:47.7983066-06:00:Thread#0:T:Line 28
+2021-07-08T22:57:47.8947446-06:00:2021-07-08T22:57:47.8937442-06:00:Thread#0:T:Parsing: i won't get a cat until i have somewhere to live...also since i plan to travel around for a while that makes having a pet undoable from: rabbit_xxxx
+2021-07-08T22:58:04.4022075-06:00:2021-07-08T22:58:04.4012069-06:00:Thread#0:T:Line 29
+2021-07-08T22:58:04.4907347-06:00:2021-07-08T22:58:04.4897341-06:00:Thread#0:T:Parsing: i am just teasing from: protopoly_dot_com
+2021-07-08T22:58:07.5880262-06:00:2021-07-08T22:58:07.5870257-06:00:Thread#0:T:Line 30
+2021-07-08T22:58:07.6760463-06:00:2021-07-08T22:58:07.6760463-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T22:58:45.0112374-06:00:2021-07-08T22:58:45.0102369-06:00:Thread#0:T:Line 31
+2021-07-08T22:58:45.1213042-06:00:2021-07-08T22:58:45.1213042-06:00:Thread#0:T:Parsing: have you tried testing it in a standalone build yet? from: ccgamedev
+2021-07-08T22:58:46.5902157-06:00:2021-07-08T22:58:46.5892161-06:00:Thread#0:T:Line 32
+2021-07-08T22:58:46.6792537-06:00:2021-07-08T22:58:46.6782546-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T23:00:41.8209941-06:00:2021-07-08T23:00:41.8199946-06:00:Thread#0:T:Line 33
+2021-07-08T23:00:41.9200166-06:00:2021-07-08T23:00:41.9200166-06:00:Thread#0:T:Parsing: what do you get when you disable to dynamic tree movement? from: ccgamedev
+2021-07-08T23:00:58.2270259-06:00:2021-07-08T23:00:58.2260248-06:00:Thread#0:T:Line 34
+2021-07-08T23:00:58.3385987-06:00:2021-07-08T23:00:58.3385987-06:00:Thread#0:T:Parsing: a stick? from: rabbit_xxxx
+2021-07-08T23:00:59.1876144-06:00:2021-07-08T23:00:59.1876144-06:00:Thread#0:T:Line 35
+2021-07-08T23:00:59.2706332-06:00:2021-07-08T23:00:59.2706332-06:00:Thread#0:T:Parsing: like the wind elements from: ccgamedev
+2021-07-08T23:01:09.4006348-06:00:2021-07-08T23:01:09.4006348-06:00:Thread#0:T:Line 36
+2021-07-08T23:01:09.5036819-06:00:2021-07-08T23:01:09.5036819-06:00:Thread#0:T:Parsing: yes from: ccgamedev
+2021-07-08T23:01:10.1836118-06:00:2021-07-08T23:01:10.1836118-06:00:Thread#0:T:Line 37
+2021-07-08T23:01:10.2856347-06:00:2021-07-08T23:01:10.2846339-06:00:Thread#0:T:Parsing: oh i thought that was some kind of joke from: rabbit_xxxx
+2021-07-08T23:03:14.6358612-06:00:2021-07-08T23:03:14.6358612-06:00:Thread#0:T:Line 38
+2021-07-08T23:03:14.7238811-06:00:2021-07-08T23:03:14.7238811-06:00:Thread#0:T:Parsing: heey from: nallewins
+2021-07-08T23:03:14.7268831-06:00:2021-07-08T23:03:14.7268831-06:00:Thread#0:T:Eyy, its nallewins!
+2021-07-08T23:03:14.7298823-06:00:2021-07-08T23:03:14.7288826-06:00:Thread#0:T:{
+2021-07-08T23:03:14.7308835-06:00:2021-07-08T23:03:14.7298823-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T23:03:14.7328835-06:00:2021-07-08T23:03:14.7318831-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T23:03:14.7338834-06:00:2021-07-08T23:03:14.7328835-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T23:03:14.7338834-06:00:2021-07-08T23:03:14.7338834-06:00:Thread#0:T:}
+2021-07-08T23:03:14.7348837-06:00:2021-07-08T23:03:14.7338834-06:00:Thread#0:T:{
+2021-07-08T23:03:14.7348837-06:00:2021-07-08T23:03:14.7348837-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T23:03:14.7358837-06:00:2021-07-08T23:03:14.7358837-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T23:03:14.7368838-06:00:2021-07-08T23:03:14.7358837-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T23:03:14.7368838-06:00:2021-07-08T23:03:14.7368838-06:00:Thread#0:T:}
+2021-07-08T23:03:14.7378844-06:00:2021-07-08T23:03:14.7378844-06:00:Thread#0:T:{
+2021-07-08T23:03:14.7388843-06:00:2021-07-08T23:03:14.7378844-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T23:03:14.7398850-06:00:2021-07-08T23:03:14.7398850-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T23:03:14.7418852-06:00:2021-07-08T23:03:14.7408846-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T23:03:14.7418852-06:00:2021-07-08T23:03:14.7418852-06:00:Thread#0:T:}
+2021-07-08T23:03:16.0477634-06:00:2021-07-08T23:03:16.0477634-06:00:Thread#0:T:Duration of clip was 1.304286, thanks rabbit_xxxx you're the best!
+2021-07-08T23:03:16.0487639-06:00:2021-07-08T23:03:16.0487639-06:00:Thread#0:T:clip played the old boring way, duration was: 1.304286
+2021-07-08T23:05:42.4112079-06:00:2021-07-08T23:05:42.4102075-06:00:Thread#0:T:Line 39
+2021-07-08T23:05:42.5002496-06:00:2021-07-08T23:05:42.4992505-06:00:Thread#0:T:Parsing: i feel like if you divide by 0, that means you don't divide...so you end up with the same number you were dividing...this nonsense about "dividing by 0 = undefined = we don't know" seems weird to me from: rabbit_xxxx
+2021-07-08T23:05:48.8133218-06:00:2021-07-08T23:05:48.8133218-06:00:Thread#0:T:Line 40
+2021-07-08T23:05:48.8923394-06:00:2021-07-08T23:05:48.8913395-06:00:Thread#0:T:Parsing: probably not a solution that you would want, but you could unload all the npc's and generate an estimated future location for them based on their current actions and locations then just move them there when in loading distance. that way they are all disabled but will show up where you want when needed from: ccgamedev
+2021-07-08T23:06:35.6130822-06:00:2021-07-08T23:06:35.6130822-06:00:Thread#0:T:Line 41
+2021-07-08T23:06:35.7101203-06:00:2021-07-08T23:06:35.7101203-06:00:Thread#0:T:Parsing: ah okay from: ccgamedev
+2021-07-08T23:07:51.2098798-06:00:2021-07-08T23:07:51.2098798-06:00:Thread#0:T:Line 42
+2021-07-08T23:07:51.3005027-06:00:2021-07-08T23:07:51.2995048-06:00:Thread#0:T:Parsing: how many draw calls are there, if you open the stats thingy? from: rabbit_xxxx
+2021-07-08T23:09:18.2114065-06:00:2021-07-08T23:09:18.2114065-06:00:Thread#0:T:Line 43
+2021-07-08T23:09:18.2894239-06:00:2021-07-08T23:09:18.2884239-06:00:Thread#0:T:Parsing: i don't know if it's the people that are the draw call problem, i think it's trees, grass, etc..gaia things mostly from: rabbit_xxxx
+2021-07-08T23:10:00.6112287-06:00:2021-07-08T23:10:00.6102281-06:00:Thread#0:T:Line 44
+2021-07-08T23:10:00.6972048-06:00:2021-07-08T23:10:00.6962051-06:00:Thread#0:T:Parsing: like, i'm sure the people also have an impact, but their impact is only 24ish fps from: rabbit_xxxx
+2021-07-08T23:10:11.4025960-06:00:2021-07-08T23:10:11.4025960-06:00:Thread#0:T:Line 45
+2021-07-08T23:10:11.4852498-06:00:2021-07-08T23:10:11.4852498-06:00:Thread#0:T:Parsing: my daughter is teething, sleep dont exist anymore from: protopoly_dot_com
+2021-07-08T23:10:21.4181168-06:00:2021-07-08T23:10:21.4171167-06:00:Thread#0:T:Line 46
+2021-07-08T23:10:21.5196681-06:00:2021-07-08T23:10:21.5196681-06:00:Thread#0:T:Parsing: ideally you should be able to get 120 fps if you didn't have the people turned on from: rabbit_xxxx
+2021-07-08T23:11:05.6113321-06:00:2021-07-08T23:11:05.6103317-06:00:Thread#0:T:Line 47
+2021-07-08T23:11:05.6963521-06:00:2021-07-08T23:11:05.6963521-06:00:Thread#0:T:Parsing: but those trees and things cause a big performance hit, especially with a terrain this size from: rabbit_xxxx
+2021-07-08T23:11:47.0129116-06:00:2021-07-08T23:11:47.0119121-06:00:Thread#0:T:Line 48
+2021-07-08T23:11:47.1029325-06:00:2021-07-08T23:11:47.1019333-06:00:Thread#0:T:Parsing: yeah from: rabbit_xxxx
+2021-07-08T23:12:19.6240622-06:00:2021-07-08T23:12:19.6230680-06:00:Thread#0:T:Line 49
+2021-07-08T23:12:19.7140996-06:00:2021-07-08T23:12:19.7140996-06:00:Thread#0:T:Parsing: chunks, lods, and oc could all help from: rabbit_xxxx
+2021-07-08T23:13:03.6124213-06:00:2021-07-08T23:13:03.6094212-06:00:Thread#0:T:Line 50
+2021-07-08T23:13:03.6995107-06:00:2021-07-08T23:13:03.6995107-06:00:Thread#0:T:Parsing: probably from: rabbit_xxxx
+2021-07-08T23:14:33.2272969-06:00:2021-07-08T23:14:33.2272969-06:00:Thread#0:T:Line 51
+2021-07-08T23:14:33.3213180-06:00:2021-07-08T23:14:33.3203181-06:00:Thread#0:T:Parsing: if there's an easy way to turn things off like trees or grass, i would be curious to see how your performance changes when you turn those off from: rabbit_xxxx
+2021-07-08T23:16:26.0039279-06:00:2021-07-08T23:16:26.0019270-06:00:Thread#0:T:Line 52
+2021-07-08T23:16:26.0846013-06:00:2021-07-08T23:16:26.0836010-06:00:Thread#0:T:Parsing: also, if that snow is using particles, that's probably having a decent impact from: rabbit_xxxx
+2021-07-08T23:17:57.8124018-06:00:2021-07-08T23:17:57.8124018-06:00:Thread#0:T:Line 53
+2021-07-08T23:17:57.9210132-06:00:2021-07-08T23:17:57.9200127-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-07-08T23:18:23.8093165-06:00:2021-07-08T23:18:23.8093165-06:00:Thread#0:T:Line 54
+2021-07-08T23:18:23.9233556-06:00:2021-07-08T23:18:23.9223460-06:00:Thread#0:T:Parsing: so it's not trees or grass from: rabbit_xxxx
+2021-07-08T23:22:44.2173326-06:00:2021-07-08T23:22:44.2163359-06:00:Thread#0:T:Line 55
+2021-07-08T23:22:44.3343594-06:00:2021-07-08T23:22:44.3343594-06:00:Thread#0:T:Parsing: the aibase stuff seems to be a problem from: rabbit_xxxx
+2021-07-08T23:22:52.0101823-06:00:2021-07-08T23:22:52.0096619-06:00:Thread#0:T:Line 56
+2021-07-08T23:22:52.1077018-06:00:2021-07-08T23:22:52.1067017-06:00:Thread#0:T:Parsing: 30 ms per frame is a lot from: rabbit_xxxx
+2021-07-08T23:23:10.4053964-06:00:2021-07-08T23:23:10.4043962-06:00:Thread#0:T:Line 57
+2021-07-08T23:23:10.5077743-06:00:2021-07-08T23:23:10.5077743-06:00:Thread#0:T:Parsing: yeah from: rabbit_xxxx
+2021-07-08T23:23:48.0133207-06:00:2021-07-08T23:23:48.0133207-06:00:Thread#0:T:Line 58
+2021-07-08T23:23:48.1066445-06:00:2021-07-08T23:23:48.1066445-06:00:Thread#0:T:Parsing: dunno, gotta think outside the box i guess from: rabbit_xxxx
+2021-07-08T23:25:03.8348346-06:00:2021-07-08T23:25:03.8338345-06:00:Thread#0:T:Line 59
+2021-07-08T23:25:03.9323636-06:00:2021-07-08T23:25:03.9323636-06:00:Thread#0:T:Parsing: 3 things that take 30 ms per frame means you have 10 fps from: rabbit_xxxx
+2021-07-08T23:25:22.6109103-06:00:2021-07-08T23:25:22.6109103-06:00:Thread#0:T:Line 60
+2021-07-08T23:25:22.6989211-06:00:2021-07-08T23:25:22.6989211-06:00:Thread#0:T:Parsing: so aibase, the other behavior thing, and rendering from: rabbit_xxxx
+2021-07-08T23:26:37.6154129-06:00:2021-07-08T23:26:37.6154129-06:00:Thread#0:T:Line 61
+2021-07-08T23:26:37.7004333-06:00:2021-07-08T23:26:37.7004333-06:00:Thread#0:T:Parsing: what if you just go all bethesda and make every single npc stationary lol from: ccgamedev
+2021-07-08T23:26:52.2076013-06:00:2021-07-08T23:26:52.2076013-06:00:Thread#0:T:Line 62
+2021-07-08T23:26:52.3176248-06:00:2021-07-08T23:26:52.3156252-06:00:Thread#0:T:Parsing: time to write a gpu based a* pathfinder from: rabbit_xxxx
+2021-07-08T23:27:33.2157355-06:00:2021-07-08T23:27:33.2147357-06:00:Thread#0:T:Line 63
+2021-07-08T23:27:33.3097104-06:00:2021-07-08T23:27:33.3097104-06:00:Thread#0:T:Parsing: late stream for you today from: thatmanrobin
+2021-07-08T23:27:33.3177119-06:00:2021-07-08T23:27:33.3167126-06:00:Thread#0:T:{
+2021-07-08T23:27:33.3177119-06:00:2021-07-08T23:27:33.3177119-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-08T23:27:33.3187128-06:00:2021-07-08T23:27:33.3187128-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-08T23:27:33.3197156-06:00:2021-07-08T23:27:33.3197156-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-08T23:27:33.3207129-06:00:2021-07-08T23:27:33.3207129-06:00:Thread#0:T:}
+2021-07-08T23:27:33.3217135-06:00:2021-07-08T23:27:33.3207129-06:00:Thread#0:T:{
+2021-07-08T23:27:33.3217135-06:00:2021-07-08T23:27:33.3217135-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-08T23:27:33.3227128-06:00:2021-07-08T23:27:33.3227128-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-08T23:27:33.3237139-06:00:2021-07-08T23:27:33.3227128-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-08T23:27:33.3237139-06:00:2021-07-08T23:27:33.3237139-06:00:Thread#0:T:}
+2021-07-08T23:27:33.3247134-06:00:2021-07-08T23:27:33.3247134-06:00:Thread#0:T:{
+2021-07-08T23:27:33.3267147-06:00:2021-07-08T23:27:33.3247134-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-08T23:27:33.3277143-06:00:2021-07-08T23:27:33.3267147-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-08T23:27:33.3287167-06:00:2021-07-08T23:27:33.3277143-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-08T23:27:33.3297160-06:00:2021-07-08T23:27:33.3297160-06:00:Thread#0:T:}
+2021-07-08T23:27:42.8330893-06:00:2021-07-08T23:27:42.8330893-06:00:Thread#0:T:Line 64
+2021-07-08T23:27:42.9471136-06:00:2021-07-08T23:27:42.9461138-06:00:Thread#0:T:Parsing: you fix the grounding situation? from: thatmanrobin
+2021-07-08T23:28:11.4178627-06:00:2021-07-08T23:28:11.4178627-06:00:Thread#0:T:Line 65
+2021-07-08T23:28:11.5339645-06:00:2021-07-08T23:28:11.5329630-06:00:Thread#0:T:Parsing: also from bethesda, random brat kids insulting you would add some content from: ccgamedev
+2021-07-08T23:29:50.0129397-06:00:2021-07-08T23:29:50.0119401-06:00:Thread#0:T:Line 66
+2021-07-08T23:29:50.1099621-06:00:2021-07-08T23:29:50.1099621-06:00:Thread#0:T:Parsing: shouldn't be, i can render huge terrain with high detailed meshes with decent fps from: thatmanrobin
+2021-07-08T23:30:25.0214851-06:00:2021-07-08T23:30:25.0214851-06:00:Thread#0:T:Line 67
+2021-07-08T23:30:25.1440813-06:00:2021-07-08T23:30:25.1440813-06:00:Thread#0:T:Parsing: time for a gpu based terrain also from: rabbit_xxxx
+2021-07-08T23:30:35.2256660-06:00:2021-07-08T23:30:35.2256660-06:00:Thread#0:T:Line 68
+2021-07-08T23:30:35.3178072-06:00:2021-07-08T23:30:35.3178072-06:00:Thread#0:T:Parsing: any time you update a life bar or something it repaints gui from: thatmanrobin
+2021-07-08T23:30:52.8152521-06:00:2021-07-08T23:30:52.8152521-06:00:Thread#0:T:Line 69
+2021-07-08T23:30:52.9108352-06:00:2021-07-08T23:30:52.9098346-06:00:Thread#0:T:Parsing: you could switch to havok physics, that would be one easy thing to try from: rabbit_xxxx
+2021-07-08T23:30:59.4159731-06:00:2021-07-08T23:30:59.4159731-06:00:Thread#0:T:Line 70
+2021-07-08T23:30:59.5160153-06:00:2021-07-08T23:30:59.5150157-06:00:Thread#0:T:Parsing: but still gonna have to fix other things from: rabbit_xxxx
+2021-07-08T23:31:31.4158776-06:00:2021-07-08T23:31:31.4158776-06:00:Thread#0:T:Line 71
+2021-07-08T23:31:31.5129173-06:00:2021-07-08T23:31:31.5129173-06:00:Thread#0:T:Parsing: if someone doesn't have a good gpu, the game won't work for them anyways currently from: rabbit_xxxx
+2021-07-08T23:32:04.6198450-06:00:2021-07-08T23:32:04.6198450-06:00:Thread#0:T:Line 72
+2021-07-08T23:32:04.7178646-06:00:2021-07-08T23:32:04.7178646-06:00:Thread#0:T:Parsing: no your terrain shoudln't be an issue from: thatmanrobin
+2021-07-08T23:32:37.0409696-06:00:2021-07-08T23:32:37.0389734-06:00:Thread#0:T:Line 73
+2021-07-08T23:32:37.1360636-06:00:2021-07-08T23:32:37.1350626-06:00:Thread#0:T:Parsing: one thing you should try is running some of these tests while not streaming, no videos playing or anything, obs closed, etc.. from: rabbit_xxxx
+2021-07-08T23:32:45.0171940-06:00:2021-07-08T23:32:45.0161935-06:00:Thread#0:T:Line 74
+2021-07-08T23:32:45.1112827-06:00:2021-07-08T23:32:45.1102729-06:00:Thread#0:T:Parsing: to see what performance difference you get from: rabbit_xxxx
+2021-07-08T23:32:54.0266587-06:00:2021-07-08T23:32:54.0266587-06:00:Thread#0:T:Line 75
+2021-07-08T23:32:54.1436850-06:00:2021-07-08T23:32:54.1436850-06:00:Thread#0:T:Parsing: occlusion culling will only hide objects outside of the view bounds, you would have to write a script to hide overlapping objects from: ccgamedev
+2021-07-08T23:33:10.2010947-06:00:2021-07-08T23:33:10.2000957-06:00:Thread#0:T:Line 76
+2021-07-08T23:33:10.3060486-06:00:2021-07-08T23:33:10.3060486-06:00:Thread#0:T:Parsing: / from: rabbit_xxxx
+2021-07-08T23:33:10.4021517-06:00:2021-07-08T23:33:10.4021517-06:00:Thread#0:T:Line 77
+2021-07-08T23:33:10.4960272-06:00:2021-07-08T23:33:10.4960272-06:00:Thread#0:T:Parsing: wait quick question from: thatmanrobin
+2021-07-08T23:33:15.8915941-06:00:2021-07-08T23:33:15.8915941-06:00:Thread#0:T:Line 78
+2021-07-08T23:33:16.0276239-06:00:2021-07-08T23:33:16.0266235-06:00:Thread#0:T:Parsing: how many cameras are you using? from: thatmanrobin
+2021-07-08T23:33:32.0271875-06:00:2021-07-08T23:33:32.0271875-06:00:Thread#0:T:Line 79
+2021-07-08T23:33:32.1812224-06:00:2021-07-08T23:33:32.1802232-06:00:Thread#0:T:Parsing: that might be something to do with it from: thatmanrobin
+2021-07-08T23:33:46.6190318-06:00:2021-07-08T23:33:46.6180309-06:00:Thread#0:T:Line 80
+2021-07-08T23:33:46.7240542-06:00:2021-07-08T23:33:46.7240542-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-07-08T23:33:46.7990718-06:00:2021-07-08T23:33:46.7990718-06:00:Thread#0:T:Line 81
+2021-07-08T23:33:48.7972274-06:00:2021-07-08T23:33:48.7962312-06:00:Thread#0:T:Line 82
+2021-07-08T23:33:48.8917704-06:00:2021-07-08T23:33:48.8917704-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-07-08T23:33:49.0068331-06:00:2021-07-08T23:33:49.0058310-06:00:Thread#0:T:Line 83
+2021-07-08T23:33:52.2076945-06:00:2021-07-08T23:33:52.2076945-06:00:Thread#0:T:Line 84
+2021-07-08T23:33:52.3277880-06:00:2021-07-08T23:33:52.3267881-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-07-08T23:33:52.4023297-06:00:2021-07-08T23:33:52.4023297-06:00:Thread#0:T:Line 85
+2021-07-08T23:33:53.6049989-06:00:2021-07-08T23:33:53.6049989-06:00:Thread#0:T:Line 86
+2021-07-08T23:33:53.6980602-06:00:2021-07-08T23:33:53.6970607-06:00:Thread#0:T:Parsing: take care! from: thatmanrobin
+2021-07-09T00:17:40.1182957-06:00:2021-07-09T00:17:40.1172954-06:00:Thread#0:T:Line 87
+2021-07-09T00:17:41.1985982-06:00:2021-07-09T00:17:41.1965986-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:17:41.1995980-06:00:2021-07-09T00:17:41.1995980-06:00:Thread#0:T:{
+2021-07-09T00:17:41.2005984-06:00:2021-07-09T00:17:41.1995980-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:17:41.2015981-06:00:2021-07-09T00:17:41.2015981-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:17:41.2015981-06:00:2021-07-09T00:17:41.2015981-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:17:41.2025988-06:00:2021-07-09T00:17:41.2025988-06:00:Thread#0:T:}
+2021-07-09T00:17:41.9806804-06:00:2021-07-09T00:17:41.9806804-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:17:41.9816806-06:00:2021-07-09T00:17:41.9816806-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:19:15.5203856-06:00:2021-07-09T00:19:15.5193844-06:00:Thread#0:T:Line 88
+2021-07-09T00:19:16.6005996-06:00:2021-07-09T00:19:16.5995992-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:19:16.6016044-06:00:2021-07-09T00:19:16.6016044-06:00:Thread#0:T:{
+2021-07-09T00:19:16.6026009-06:00:2021-07-09T00:19:16.6026009-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:19:16.6026009-06:00:2021-07-09T00:19:16.6026009-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:19:16.6036013-06:00:2021-07-09T00:19:16.6026009-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:19:16.6036013-06:00:2021-07-09T00:19:16.6036013-06:00:Thread#0:T:}
+2021-07-09T00:19:17.3748673-06:00:2021-07-09T00:19:17.3748673-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:19:17.3758678-06:00:2021-07-09T00:19:17.3758678-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:19:46.3165811-06:00:2021-07-09T00:19:46.3155808-06:00:Thread#0:T:Line 89
+2021-07-09T00:19:47.4040773-06:00:2021-07-09T00:19:47.4040773-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:19:47.4050679-06:00:2021-07-09T00:19:47.4050679-06:00:Thread#0:T:{
+2021-07-09T00:19:47.4060687-06:00:2021-07-09T00:19:47.4060687-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:19:47.4070696-06:00:2021-07-09T00:19:47.4070696-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:19:47.4070696-06:00:2021-07-09T00:19:47.4070696-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:19:47.4080692-06:00:2021-07-09T00:19:47.4080692-06:00:Thread#0:T:}
+2021-07-09T00:19:48.1783793-06:00:2021-07-09T00:19:48.1783793-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:19:48.1793801-06:00:2021-07-09T00:19:48.1793801-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:22:45.9102385-06:00:2021-07-09T00:22:45.9102385-06:00:Thread#0:T:Line 90
+2021-07-09T00:22:46.9903892-06:00:2021-07-09T00:22:46.9903892-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:22:46.9913893-06:00:2021-07-09T00:22:46.9913893-06:00:Thread#0:T:{
+2021-07-09T00:22:46.9923906-06:00:2021-07-09T00:22:46.9913893-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:22:46.9923906-06:00:2021-07-09T00:22:46.9923906-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:22:46.9933916-06:00:2021-07-09T00:22:46.9933916-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:22:46.9943904-06:00:2021-07-09T00:22:46.9933916-06:00:Thread#0:T:}
+2021-07-09T00:22:47.7685654-06:00:2021-07-09T00:22:47.7675646-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:22:47.7685654-06:00:2021-07-09T00:22:47.7685654-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:22:52.5067340-06:00:2021-07-09T00:22:52.5067340-06:00:Thread#0:T:Line 91
+2021-07-09T00:22:53.5776543-06:00:2021-07-09T00:22:53.5766534-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:22:53.5787265-06:00:2021-07-09T00:22:53.5787265-06:00:Thread#0:T:{
+2021-07-09T00:22:53.5807042-06:00:2021-07-09T00:22:53.5797039-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:22:53.5817048-06:00:2021-07-09T00:22:53.5817048-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:22:53.5817048-06:00:2021-07-09T00:22:53.5817048-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:22:53.5827059-06:00:2021-07-09T00:22:53.5827059-06:00:Thread#0:T:}
+2021-07-09T00:22:54.3597079-06:00:2021-07-09T00:22:54.3597079-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:22:54.3607094-06:00:2021-07-09T00:22:54.3607094-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:23:08.1313480-06:00:2021-07-09T00:23:08.1303472-06:00:Thread#0:T:Line 92
+2021-07-09T00:23:08.2543745-06:00:2021-07-09T00:23:08.2533744-06:00:Thread#0:T:Parsing: am i wasting my talents doing small stuff? from: master801
+2021-07-09T00:23:08.2593768-06:00:2021-07-09T00:23:08.2583756-06:00:Thread#0:T:{
+2021-07-09T00:23:08.2603772-06:00:2021-07-09T00:23:08.2593768-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:23:08.2603772-06:00:2021-07-09T00:23:08.2603772-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:23:08.2613778-06:00:2021-07-09T00:23:08.2613778-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:23:08.2613778-06:00:2021-07-09T00:23:08.2613778-06:00:Thread#0:T:}
+2021-07-09T00:23:08.2623777-06:00:2021-07-09T00:23:08.2623777-06:00:Thread#0:T:{
+2021-07-09T00:23:08.2633772-06:00:2021-07-09T00:23:08.2623777-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:23:08.2633772-06:00:2021-07-09T00:23:08.2633772-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:23:08.2643778-06:00:2021-07-09T00:23:08.2633772-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:23:08.2643778-06:00:2021-07-09T00:23:08.2643778-06:00:Thread#0:T:}
+2021-07-09T00:23:08.2653778-06:00:2021-07-09T00:23:08.2643778-06:00:Thread#0:T:{
+2021-07-09T00:23:08.2653778-06:00:2021-07-09T00:23:08.2653778-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:23:08.2663776-06:00:2021-07-09T00:23:08.2663776-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:23:08.2673780-06:00:2021-07-09T00:23:08.2663776-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:23:08.2683780-06:00:2021-07-09T00:23:08.2673780-06:00:Thread#0:T:}
+2021-07-09T00:23:23.5464601-06:00:2021-07-09T00:23:23.5464601-06:00:Thread#0:T:Line 93
+2021-07-09T00:23:23.6564943-06:00:2021-07-09T00:23:23.6554856-06:00:Thread#0:T:Parsing: *really wasting from: master801
+2021-07-09T00:25:09.7111342-06:00:2021-07-09T00:25:09.7111342-06:00:Thread#0:T:Line 94
+2021-07-09T00:25:09.8631592-06:00:2021-07-09T00:25:09.8621596-06:00:Thread#0:T:Parsing: raestrada95 has been promoted to regular by being in the chat for 5 hour(s). congratulations! from: sgtvex
+2021-07-09T00:25:09.8681593-06:00:2021-07-09T00:25:09.8671595-06:00:Thread#0:T:{
+2021-07-09T00:25:09.8691602-06:00:2021-07-09T00:25:09.8691602-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:25:09.8701602-06:00:2021-07-09T00:25:09.8691602-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:25:09.8701602-06:00:2021-07-09T00:25:09.8701602-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:25:09.8711602-06:00:2021-07-09T00:25:09.8711602-06:00:Thread#0:T:}
+2021-07-09T00:25:09.8721605-06:00:2021-07-09T00:25:09.8711602-06:00:Thread#0:T:{
+2021-07-09T00:25:09.8731625-06:00:2021-07-09T00:25:09.8721605-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:25:09.8731625-06:00:2021-07-09T00:25:09.8731625-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:25:09.8741629-06:00:2021-07-09T00:25:09.8731625-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:25:09.8741629-06:00:2021-07-09T00:25:09.8741629-06:00:Thread#0:T:}
+2021-07-09T00:25:09.8751618-06:00:2021-07-09T00:25:09.8751618-06:00:Thread#0:T:{
+2021-07-09T00:25:09.8751618-06:00:2021-07-09T00:25:09.8751618-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:25:09.8761621-06:00:2021-07-09T00:25:09.8761621-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:25:09.8761621-06:00:2021-07-09T00:25:09.8761621-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:25:09.8771619-06:00:2021-07-09T00:25:09.8771619-06:00:Thread#0:T:}
+2021-07-09T00:25:18.5052598-06:00:2021-07-09T00:25:18.5052598-06:00:Thread#0:T:Line 95
+2021-07-09T00:25:19.5873327-06:00:2021-07-09T00:25:19.5863324-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:25:19.5873327-06:00:2021-07-09T00:25:19.5873327-06:00:Thread#0:T:{
+2021-07-09T00:25:19.5883329-06:00:2021-07-09T00:25:19.5883329-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:25:19.5883329-06:00:2021-07-09T00:25:19.5883329-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:25:19.5893332-06:00:2021-07-09T00:25:19.5883329-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:25:19.5903339-06:00:2021-07-09T00:25:19.5903339-06:00:Thread#0:T:}
+2021-07-09T00:25:20.3614209-06:00:2021-07-09T00:25:20.3604198-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:25:20.3624211-06:00:2021-07-09T00:25:20.3614209-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:26:35.1125145-06:00:2021-07-09T00:26:35.1115141-06:00:Thread#0:T:Line 96
+2021-07-09T00:26:36.2077639-06:00:2021-07-09T00:26:36.2067633-06:00:Thread#0:T:Eyy, its user335!
+2021-07-09T00:26:36.2087647-06:00:2021-07-09T00:26:36.2077639-06:00:Thread#0:T:{
+2021-07-09T00:26:36.2087647-06:00:2021-07-09T00:26:36.2087647-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:26:36.2097641-06:00:2021-07-09T00:26:36.2097641-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-09T00:26:36.2097641-06:00:2021-07-09T00:26:36.2097641-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-07-09T00:26:36.2107648-06:00:2021-07-09T00:26:36.2107648-06:00:Thread#0:T:}
+2021-07-09T00:26:36.9896777-06:00:2021-07-09T00:26:36.9896777-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-07-09T00:26:36.9906692-06:00:2021-07-09T00:26:36.9906692-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-07-09T00:26:37.0066734-06:00:2021-07-09T00:26:37.0066734-06:00:Thread#0:T:Line 97
+2021-07-09T00:26:37.1378464-06:00:2021-07-09T00:26:37.1368462-06:00:Thread#0:T:Parsing: zap! from: sgtvex
+2021-07-09T00:29:03.5114494-06:00:2021-07-09T00:29:03.5104495-06:00:Thread#0:T:Line 98
+2021-07-09T00:29:03.6304948-06:00:2021-07-09T00:29:03.6304948-06:00:Thread#0:T:Parsing: really hope streamer reads at least past 15 messages from: master801
+2021-07-09T00:29:46.7101928-06:00:2021-07-09T00:29:46.7101928-06:00:Thread#0:T:Line 99
+2021-07-09T00:29:46.8282194-06:00:2021-07-09T00:29:46.8272189-06:00:Thread#0:T:Parsing: what’s the best way to stay young? - type !icebreaker for more from: sgtvex
+2021-07-09T00:30:36.5171844-06:00:2021-07-09T00:30:36.5171844-06:00:Thread#0:T:Line 100
+2021-07-09T00:30:36.6292103-06:00:2021-07-09T00:30:36.6282099-06:00:Thread#0:T:Parsing: uhh... i cannot, do basic prompt line stuff, in java, or even c from: master801
+2021-07-09T00:30:48.7431356-06:00:2021-07-09T00:30:48.7431356-06:00:Thread#0:T:Line 101
+2021-07-09T00:30:48.8537547-06:00:2021-07-09T00:30:48.8527548-06:00:Thread#0:T:Parsing: i don’t game dev but what a node map for just one component essentially! will this game potentially have 1000’s of these? from: hikertommy
+2021-07-09T00:30:48.8577651-06:00:2021-07-09T00:30:48.8567552-06:00:Thread#0:T:{
+2021-07-09T00:30:48.8577651-06:00:2021-07-09T00:30:48.8577651-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:30:48.8587568-06:00:2021-07-09T00:30:48.8587568-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:30:48.8597561-06:00:2021-07-09T00:30:48.8597561-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:30:48.8597561-06:00:2021-07-09T00:30:48.8597561-06:00:Thread#0:T:}
+2021-07-09T00:30:48.8607577-06:00:2021-07-09T00:30:48.8607577-06:00:Thread#0:T:{
+2021-07-09T00:30:48.8617566-06:00:2021-07-09T00:30:48.8607577-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:30:48.8617566-06:00:2021-07-09T00:30:48.8617566-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:30:48.8627571-06:00:2021-07-09T00:30:48.8627571-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:30:48.8637573-06:00:2021-07-09T00:30:48.8637573-06:00:Thread#0:T:}
+2021-07-09T00:30:48.8647574-06:00:2021-07-09T00:30:48.8637573-06:00:Thread#0:T:{
+2021-07-09T00:30:48.8647574-06:00:2021-07-09T00:30:48.8647574-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:30:48.8647574-06:00:2021-07-09T00:30:48.8647574-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:30:48.8657571-06:00:2021-07-09T00:30:48.8657571-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:30:48.8657571-06:00:2021-07-09T00:30:48.8657571-06:00:Thread#0:T:}
+2021-07-09T00:30:50.1133726-06:00:2021-07-09T00:30:50.1123726-06:00:Thread#0:T:Line 102
+2021-07-09T00:30:50.2239231-06:00:2021-07-09T00:30:50.2229220-06:00:Thread#0:T:Parsing: should i keep practicing modeling on blender or just go straight to learning u5? i wanna build games from: newbmechanics
+2021-07-09T00:30:50.2289249-06:00:2021-07-09T00:30:50.2279239-06:00:Thread#0:T:{
+2021-07-09T00:30:50.2289249-06:00:2021-07-09T00:30:50.2289249-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:30:50.2299240-06:00:2021-07-09T00:30:50.2299240-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:30:50.2299240-06:00:2021-07-09T00:30:50.2299240-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:30:50.2309245-06:00:2021-07-09T00:30:50.2309245-06:00:Thread#0:T:}
+2021-07-09T00:30:50.2319247-06:00:2021-07-09T00:30:50.2309245-06:00:Thread#0:T:{
+2021-07-09T00:30:50.2329256-06:00:2021-07-09T00:30:50.2319247-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:30:50.2349260-06:00:2021-07-09T00:30:50.2339255-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:30:50.2359253-06:00:2021-07-09T00:30:50.2349260-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:30:50.2359253-06:00:2021-07-09T00:30:50.2359253-06:00:Thread#0:T:}
+2021-07-09T00:30:50.2369255-06:00:2021-07-09T00:30:50.2369255-06:00:Thread#0:T:{
+2021-07-09T00:30:50.2379256-06:00:2021-07-09T00:30:50.2379256-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:30:50.2389258-06:00:2021-07-09T00:30:50.2389258-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:30:50.2389258-06:00:2021-07-09T00:30:50.2389258-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:30:50.2399260-06:00:2021-07-09T00:30:50.2389258-06:00:Thread#0:T:}
+2021-07-09T00:31:04.1364285-06:00:2021-07-09T00:31:04.1364285-06:00:Thread#0:T:Line 103
+2021-07-09T00:31:04.2584559-06:00:2021-07-09T00:31:04.2584559-06:00:Thread#0:T:Parsing: @newbmechanics u5? from: master801
+2021-07-09T00:31:13.9162367-06:00:2021-07-09T00:31:13.9162367-06:00:Thread#0:T:Line 104
+2021-07-09T00:31:14.0332840-06:00:2021-07-09T00:31:14.0322830-06:00:Thread#0:T:Parsing: unity 5? from: master801
+2021-07-09T00:31:36.7244831-06:00:2021-07-09T00:31:36.7234825-06:00:Thread#0:T:Line 105
+2021-07-09T00:31:36.8445102-06:00:2021-07-09T00:31:36.8435100-06:00:Thread#0:T:Parsing: welcome to vexfx's army of the undead lildede123! here are 100 rations rations to get you started! from: sgtvex
+2021-07-09T00:31:47.9227562-06:00:2021-07-09T00:31:47.9227562-06:00:Thread#0:T:Line 106
+2021-07-09T00:31:48.0367821-06:00:2021-07-09T00:31:48.0367821-06:00:Thread#0:T:Parsing: learn blender, then unity 5, i'd say. from: master801
+2021-07-09T00:32:15.3195262-06:00:2021-07-09T00:32:15.3195262-06:00:Thread#0:T:Line 107
+2021-07-09T00:32:15.4515566-06:00:2021-07-09T00:32:15.4515566-06:00:Thread#0:T:Parsing: yeah i wish i learnt blender before learning anything about a game engine tbh from: nathanfairbrass
+2021-07-09T00:32:15.4565574-06:00:2021-07-09T00:32:15.4555576-06:00:Thread#0:T:{
+2021-07-09T00:32:15.4565574-06:00:2021-07-09T00:32:15.4565574-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:32:15.4575574-06:00:2021-07-09T00:32:15.4575574-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:32:15.4585580-06:00:2021-07-09T00:32:15.4585580-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:32:15.4605587-06:00:2021-07-09T00:32:15.4595582-06:00:Thread#0:T:}
+2021-07-09T00:32:15.4615589-06:00:2021-07-09T00:32:15.4615589-06:00:Thread#0:T:{
+2021-07-09T00:32:15.4625598-06:00:2021-07-09T00:32:15.4625598-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:32:15.4635593-06:00:2021-07-09T00:32:15.4635593-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:32:15.4645590-06:00:2021-07-09T00:32:15.4635593-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:32:15.4645590-06:00:2021-07-09T00:32:15.4645590-06:00:Thread#0:T:}
+2021-07-09T00:32:15.4655592-06:00:2021-07-09T00:32:15.4655592-06:00:Thread#0:T:{
+2021-07-09T00:32:15.4665596-06:00:2021-07-09T00:32:15.4665596-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:32:15.4675598-06:00:2021-07-09T00:32:15.4675598-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:32:15.4675598-06:00:2021-07-09T00:32:15.4675598-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:32:15.4685596-06:00:2021-07-09T00:32:15.4675598-06:00:Thread#0:T:}
+2021-07-09T00:32:16.7131565-06:00:2021-07-09T00:32:16.7131565-06:00:Thread#0:T:Line 108
+2021-07-09T00:32:16.8381844-06:00:2021-07-09T00:32:16.8381844-06:00:Thread#0:T:Parsing: unity ain't gonna fix no model mistakes you make from: master801
+2021-07-09T00:32:28.1457063-06:00:2021-07-09T00:32:28.1457063-06:00:Thread#0:T:Line 109
+2021-07-09T00:32:28.2817371-06:00:2021-07-09T00:32:28.2807370-06:00:Thread#0:T:Parsing: i've spent too much money on model packs that i could have saved if i just took the time earlier from: nathanfairbrass
+2021-07-09T00:32:34.5769503-06:00:2021-07-09T00:32:34.5769503-06:00:Thread#0:T:Line 110
+2021-07-09T00:32:34.7129902-06:00:2021-07-09T00:32:34.7119996-06:00:Thread#0:T:Parsing: err, blender from: master801
+2021-07-09T00:32:38.7393142-06:00:2021-07-09T00:32:38.7393142-06:00:Thread#0:T:Line 111
+2021-07-09T00:32:38.8713427-06:00:2021-07-09T00:32:38.8703427-06:00:Thread#0:T:Parsing: and the community from: nathanfairbrass
+2021-07-09T00:32:54.7145009-06:00:2021-07-09T00:32:54.7145009-06:00:Thread#0:T:Line 112
+2021-07-09T00:32:54.8425294-06:00:2021-07-09T00:32:54.8415295-06:00:Thread#0:T:Parsing: the community is the 'selling point' (in quotation because they're not selling, they're giving) from: nathanfairbrass
+2021-07-09T00:33:15.5190730-06:00:2021-07-09T00:33:15.5180730-06:00:Thread#0:T:Line 113
+2021-07-09T00:33:15.6751089-06:00:2021-07-09T00:33:15.6751089-06:00:Thread#0:T:Parsing: uhh, depends on the license they give out from: master801
+2021-07-09T00:33:39.7223127-06:00:2021-07-09T00:33:39.7213132-06:00:Thread#0:T:Line 114
+2021-07-09T00:33:39.8455119-06:00:2021-07-09T00:33:39.8445029-06:00:Thread#0:T:Parsing: if no license, assume they give "all copyrights resigned" from: master801
+2021-07-09T00:34:06.5109305-06:00:2021-07-09T00:34:06.5099300-06:00:Thread#0:T:Line 115
+2021-07-09T00:34:06.6379599-06:00:2021-07-09T00:34:06.6379599-06:00:Thread#0:T:Parsing: without explicit permission from: master801
+2021-07-09T00:34:23.9217007-06:00:2021-07-09T00:34:23.9217007-06:00:Thread#0:T:Line 116
+2021-07-09T00:34:24.0505421-06:00:2021-07-09T00:34:24.0495421-06:00:Thread#0:T:Parsing: unreal 5* from: newbmechanics
+2021-07-09T00:34:37.5064276-06:00:2021-07-09T00:34:37.5064276-06:00:Thread#0:T:Line 117
+2021-07-09T00:34:37.6414587-06:00:2021-07-09T00:34:37.6404587-06:00:Thread#0:T:Parsing: my fav blender guy ever... https://www.youtube.com/channel/uc2u5mrfclg1rrr1ztnkpgka from: jalopyjones
+2021-07-09T00:34:37.6464602-06:00:2021-07-09T00:34:37.6464602-06:00:Thread#0:T:{
+2021-07-09T00:34:37.6474596-06:00:2021-07-09T00:34:37.6474596-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:34:37.6484601-06:00:2021-07-09T00:34:37.6484601-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:34:37.6484601-06:00:2021-07-09T00:34:37.6484601-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:34:37.6494602-06:00:2021-07-09T00:34:37.6494602-06:00:Thread#0:T:}
+2021-07-09T00:34:37.6504595-06:00:2021-07-09T00:34:37.6494602-06:00:Thread#0:T:{
+2021-07-09T00:34:37.6504595-06:00:2021-07-09T00:34:37.6504595-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:34:37.6514592-06:00:2021-07-09T00:34:37.6504595-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:34:37.6524596-06:00:2021-07-09T00:34:37.6514592-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:34:37.6524596-06:00:2021-07-09T00:34:37.6524596-06:00:Thread#0:T:}
+2021-07-09T00:34:37.6534597-06:00:2021-07-09T00:34:37.6524596-06:00:Thread#0:T:{
+2021-07-09T00:34:37.6544607-06:00:2021-07-09T00:34:37.6534597-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:34:37.6554614-06:00:2021-07-09T00:34:37.6544607-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:34:37.6554614-06:00:2021-07-09T00:34:37.6554614-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:34:37.6564610-06:00:2021-07-09T00:34:37.6554614-06:00:Thread#0:T:}
+2021-07-09T00:34:44.5146033-06:00:2021-07-09T00:34:44.5146033-06:00:Thread#0:T:Line 118
+2021-07-09T00:34:44.6383103-06:00:2021-07-09T00:34:44.6383103-06:00:Thread#0:T:Parsing: if you buy stuff from unity... different story... from: master801
+2021-07-09T00:35:00.9230893-06:00:2021-07-09T00:35:00.9220890-06:00:Thread#0:T:Line 119
+2021-07-09T00:35:01.0581195-06:00:2021-07-09T00:35:01.0571201-06:00:Thread#0:T:Parsing: read the copyright, license, etc. from: master801
+2021-07-09T00:35:36.9163207-06:00:2021-07-09T00:35:36.9153203-06:00:Thread#0:T:Line 120
+2021-07-09T00:35:37.0404236-06:00:2021-07-09T00:35:37.0404236-06:00:Thread#0:T:Parsing: find the fine lines you can exploit, and even then, email the original creator for permission from: master801
+2021-07-09T00:36:49.5042594-06:00:2021-07-09T00:36:49.5032589-06:00:Thread#0:T:Line 121
+2021-07-09T00:36:49.6242858-06:00:2021-07-09T00:36:49.6232854-06:00:Thread#0:T:Parsing: stock obs cutscene from: master801
+2021-07-09T00:36:55.3204907-06:00:2021-07-09T00:36:55.3204907-06:00:Thread#0:T:Line 122
+2021-07-09T00:36:55.4463319-06:00:2021-07-09T00:36:55.4453308-06:00:Thread#0:T:Parsing: err, slobs from: master801
+2021-07-09T00:38:17.7495018-06:00:2021-07-09T00:38:17.7495018-06:00:Thread#0:T:Line 123
+2021-07-09T00:38:17.8795307-06:00:2021-07-09T00:38:17.8795307-06:00:Thread#0:T:Parsing: thankfully you're on the edge 🙏 from: master801
+2021-07-09T00:38:38.3090709-06:00:2021-07-09T00:38:38.3080724-06:00:Thread#0:T:Line 124
+2021-07-09T00:38:38.4321063-06:00:2021-07-09T00:38:38.4311063-06:00:Thread#0:T:Parsing: slobs is bloat from: master801
+2021-07-09T00:38:50.3464935-06:00:2021-07-09T00:38:50.3454938-06:00:Thread#0:T:Line 125
+2021-07-09T00:38:50.4785230-06:00:2021-07-09T00:38:50.4775235-06:00:Thread#0:T:Parsing: i tried streaming while drawing using obs and gave up from: rabiruchi
+2021-07-09T00:38:50.4825245-06:00:2021-07-09T00:38:50.4825245-06:00:Thread#0:T:{
+2021-07-09T00:38:50.4835250-06:00:2021-07-09T00:38:50.4835250-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:38:50.4845254-06:00:2021-07-09T00:38:50.4835250-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:38:50.4845254-06:00:2021-07-09T00:38:50.4845254-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:38:50.4855253-06:00:2021-07-09T00:38:50.4855253-06:00:Thread#0:T:}
+2021-07-09T00:38:50.4865266-06:00:2021-07-09T00:38:50.4855253-06:00:Thread#0:T:{
+2021-07-09T00:38:50.4865266-06:00:2021-07-09T00:38:50.4865266-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:38:50.4875260-06:00:2021-07-09T00:38:50.4875260-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:38:50.4895268-06:00:2021-07-09T00:38:50.4885267-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:38:50.4895268-06:00:2021-07-09T00:38:50.4895268-06:00:Thread#0:T:}
+2021-07-09T00:38:50.4905262-06:00:2021-07-09T00:38:50.4905262-06:00:Thread#0:T:{
+2021-07-09T00:38:50.4905262-06:00:2021-07-09T00:38:50.4905262-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:38:50.4905262-06:00:2021-07-09T00:38:50.4905262-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:38:50.4915259-06:00:2021-07-09T00:38:50.4915259-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:38:50.4915259-06:00:2021-07-09T00:38:50.4915259-06:00:Thread#0:T:}
+2021-07-09T00:39:08.1435469-06:00:2021-07-09T00:39:08.1435469-06:00:Thread#0:T:Line 126
+2021-07-09T00:39:08.2841255-06:00:2021-07-09T00:39:08.2841255-06:00:Thread#0:T:Parsing: what plugins, exactly? from: master801
+2021-07-09T00:39:18.1236254-06:00:2021-07-09T00:39:18.1236254-06:00:Thread#0:T:Line 127
+2021-07-09T00:39:18.2546557-06:00:2021-07-09T00:39:18.2546557-06:00:Thread#0:T:Parsing: zap! from: sgtvex
+2021-07-09T00:39:47.3204602-06:00:2021-07-09T00:39:47.3204602-06:00:Thread#0:T:Line 128
+2021-07-09T00:39:47.4715609-06:00:2021-07-09T00:39:47.4705795-06:00:Thread#0:T:Parsing: brains are our twitch channel points. cash them in for all kinds of crazy things. we've recently added some new ones! from: sgtvex
+2021-07-09T00:40:41.3069989-06:00:2021-07-09T00:40:41.3059978-06:00:Thread#0:T:Line 129
+2021-07-09T00:40:41.4667999-06:00:2021-07-09T00:40:41.4667999-06:00:Thread#0:T:Parsing: welcome to vexfx's army of the undead beaversama! here are 100 rations rations to get you started! from: sgtvex
+2021-07-09T00:40:49.1061673-06:00:2021-07-09T00:40:49.1061673-06:00:Thread#0:T:Line 130
+2021-07-09T00:40:49.2274631-06:00:2021-07-09T00:40:49.2274631-06:00:Thread#0:T:Parsing: slobs is user friendly from: master801
+2021-07-09T00:40:52.9156181-06:00:2021-07-09T00:40:52.9156181-06:00:Thread#0:T:Line 131
+2021-07-09T00:40:53.0432010-06:00:2021-07-09T00:40:53.0422000-06:00:Thread#0:T:Parsing: obs is good from: master801
+2021-07-09T00:41:05.3173630-06:00:2021-07-09T00:41:05.3173630-06:00:Thread#0:T:Line 132
+2021-07-09T00:41:05.4553926-06:00:2021-07-09T00:41:05.4553926-06:00:Thread#0:T:Parsing: i'm a noob, i thought streamlabs was the good one haha from: rabiruchi
+2021-07-09T00:41:26.3139657-06:00:2021-07-09T00:41:26.3129669-06:00:Thread#0:T:Line 133
+2021-07-09T00:41:26.4529962-06:00:2021-07-09T00:41:26.4529962-06:00:Thread#0:T:Parsing: i've definitely had obs crash on me before, but i was using like 5 external vst plugins... from: master801
+2021-07-09T00:41:34.5423044-06:00:2021-07-09T00:41:34.5423044-06:00:Thread#0:T:Line 134
+2021-07-09T00:41:34.6813359-06:00:2021-07-09T00:41:34.6813359-06:00:Thread#0:T:Parsing: oh no he looks so worried from: nuclear_rose
+2021-07-09T00:41:34.6863376-06:00:2021-07-09T00:41:34.6863376-06:00:Thread#0:T:{
+2021-07-09T00:41:34.6883374-06:00:2021-07-09T00:41:34.6873389-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-09T00:41:34.6893383-06:00:2021-07-09T00:41:34.6893383-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-09T00:41:34.6903389-06:00:2021-07-09T00:41:34.6903389-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-09T00:41:34.6913382-06:00:2021-07-09T00:41:34.6903389-06:00:Thread#0:T:}
+2021-07-09T00:41:34.6923387-06:00:2021-07-09T00:41:34.6913382-06:00:Thread#0:T:{
+2021-07-09T00:41:34.6923387-06:00:2021-07-09T00:41:34.6923387-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-09T00:41:34.6933385-06:00:2021-07-09T00:41:34.6933385-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-09T00:41:34.6943385-06:00:2021-07-09T00:41:34.6943385-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-09T00:41:34.6953394-06:00:2021-07-09T00:41:34.6943385-06:00:Thread#0:T:}
+2021-07-09T00:41:34.6963395-06:00:2021-07-09T00:41:34.6963395-06:00:Thread#0:T:{
+2021-07-09T00:41:34.6973390-06:00:2021-07-09T00:41:34.6963395-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-09T00:41:34.6973390-06:00:2021-07-09T00:41:34.6973390-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-09T00:41:34.6973390-06:00:2021-07-09T00:41:34.6973390-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-09T00:41:34.6983391-06:00:2021-07-09T00:41:34.6983391-06:00:Thread#0:T:}
+2021-07-09T00:42:08.1154187-06:00:2021-07-09T00:42:08.1144199-06:00:Thread#0:T:Line 135
+2021-07-09T00:42:08.2565170-06:00:2021-07-09T00:42:08.2555162-06:00:Thread#0:T:Parsing: hold his hands to calm him down from: nuclear_rose
+2021-07-09T00:42:14.9103048-06:00:2021-07-09T00:42:14.9103048-06:00:Thread#0:T:Line 136
+2021-07-09T00:42:15.0633393-06:00:2021-07-09T00:42:15.0623394-06:00:Thread#0:T:Parsing: i feel like the eyebrowns need to be rotated inward from: nathanfairbrass
+2021-07-09T00:42:31.5220419-06:00:2021-07-09T00:42:31.5210410-06:00:Thread#0:T:Line 137
+2021-07-09T00:42:31.6750773-06:00:2021-07-09T00:42:31.6741040-06:00:Thread#0:T:Parsing: just so they're less angled out and more rested from: nathanfairbrass
+2021-07-09T00:43:21.9136990-06:00:2021-07-09T00:43:21.9136990-06:00:Thread#0:T:Line 138
+2021-07-09T00:43:22.0577312-06:00:2021-07-09T00:43:22.0577312-06:00:Thread#0:T:Parsing: why not measure the pixels out, on the screen? from: master801
+2021-07-09T00:43:39.9197301-06:00:2021-07-09T00:43:39.9197301-06:00:Thread#0:T:Line 139
+2021-07-09T00:43:40.0781831-06:00:2021-07-09T00:43:40.0781831-06:00:Thread#0:T:Parsing: pixels as in character screen from: master801
+2021-07-09T00:43:52.9130352-06:00:2021-07-09T00:43:52.9120341-06:00:Thread#0:T:Line 140
+2021-07-09T00:43:53.0462836-06:00:2021-07-09T00:43:53.0462836-06:00:Thread#0:T:Parsing: unless texture eyes are perfectly centered from: master801
+2021-07-09T00:47:29.9489919-06:00:2021-07-09T00:47:29.9479912-06:00:Thread#0:T:Line 141
+2021-07-09T00:47:30.0840218-06:00:2021-07-09T00:47:30.0840218-06:00:Thread#0:T:Parsing: thats amazing. from: newbmechanics
+2021-07-09T00:47:38.1282120-06:00:2021-07-09T00:47:38.1272115-06:00:Thread#0:T:Line 142
+2021-07-09T00:47:38.2812468-06:00:2021-07-09T00:47:38.2802459-06:00:Thread#0:T:Parsing: he is hinting at something im not sure what from: nuclear_rose
+2021-07-09T00:48:36.1194881-06:00:2021-07-09T00:48:36.1194881-06:00:Thread#0:T:Line 143
+2021-07-09T00:48:36.2640846-06:00:2021-07-09T00:48:36.2630844-06:00:Thread#0:T:Parsing: i miss his moustache from: nathanfairbrass
+2021-07-09T00:49:47.7399519-06:00:2021-07-09T00:49:47.7369481-06:00:Thread#0:T:Line 144
+2021-07-09T00:49:47.8880233-06:00:2021-07-09T00:49:47.8880233-06:00:Thread#0:T:Parsing: vex is building an interactive cyberpunk city in unreal and modeling the assets in blender. this is a community project, so feel free to chime in and check out the #cyberpunk channel on our discord https://discord.gg/2ed9bjv from: sgtvex
+2021-07-09T00:50:54.7333116-06:00:2021-07-09T00:50:54.7323125-06:00:Thread#0:T:Line 145
+2021-07-09T00:50:54.8663426-06:00:2021-07-09T00:50:54.8653421-06:00:Thread#0:T:Parsing: soundtrack is like wipeout from: hikertommy
+2021-07-09T00:51:50.9079578-06:00:2021-07-09T00:51:50.9069584-06:00:Thread#0:T:Line 146
+2021-07-09T00:51:51.0369862-06:00:2021-07-09T00:51:51.0359865-06:00:Thread#0:T:Parsing: this ghosting when the things move is a setting? maybe a little less would look better from: rabiruchi
+2021-07-09T00:51:55.1301507-06:00:2021-07-09T00:51:55.1301507-06:00:Thread#0:T:Line 147
+2021-07-09T00:51:55.3031886-06:00:2021-07-09T00:51:55.3021884-06:00:Thread#0:T:Parsing: how long have you used unreal? from: nathanfairbrass
+2021-07-09T00:52:07.1472982-06:00:2021-07-09T00:52:07.1472982-06:00:Thread#0:T:Line 148
+2021-07-09T00:52:07.2763264-06:00:2021-07-09T00:52:07.2763264-06:00:Thread#0:T:Parsing: i think i've asked before but i need a reminder apparently from: nathanfairbrass
+2021-07-09T00:52:29.9295882-06:00:2021-07-09T00:52:29.9285877-06:00:Thread#0:T:Line 149
+2021-07-09T00:52:30.0826224-06:00:2021-07-09T00:52:30.0826224-06:00:Thread#0:T:Parsing: you know the engine pretty well considering from: nathanfairbrass
+2021-07-09T00:52:47.9358118-06:00:2021-07-09T00:52:47.9358118-06:00:Thread#0:T:Line 150
+2021-07-09T00:52:48.0810427-06:00:2021-07-09T00:52:48.0810427-06:00:Thread#0:T:Parsing: how did you learn what you've learnt? just through youtube stuff and the ue resources? from: nathanfairbrass
+2021-07-09T00:52:48.1186474-06:00:2021-07-09T00:52:48.1174400-06:00:Thread#0:T:error: That's the max! Restart this bot or it's done!
+2021-07-09T00:52:48.1206333-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-09T00:52:48.1206333-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-07-09T00:52:48.1206333-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-07-09T00:52:48.1206333-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-09T00:52:48.1206333-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-09T00:52:48.1206333-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-09T00:52:48.1206333-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-07-09T00:52:48.1206333-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-07-09T00:52:48.1206333-06:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-07-09T00:52:48.1236337-06:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 7799.5561121 seconds
+2021-07-09T00:52:48.1256348-06:00:Thread#0: Test #6/2 is started on thread #0
+2021-07-09T00:52:48.1266358-06:00:2021-07-09T00:52:48.1256348-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-09T00:52:48.1286359-06:00:2021-07-09T00:52:48.1276354-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-09T00:52:48.1296361-06:00:2021-07-09T00:52:48.1296361-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-09T00:52:49.1162118-06:00:2021-07-09T00:52:49.1152116-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.0s)
+2021-07-09T00:52:49.1172119-06:00:2021-07-09T00:52:49.1162118-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-07-09T20:50:12.9231018-06:00:2021-07-09T20:50:12.9221015-06:00:Thread#0:T:error: no such window: target window already closed
+2021-07-09T20:50:12.9241026-06:00:2021-07-09T20:50:12.9231018-06:00:Thread#0:T:from unknown error: web view not found
+2021-07-09T20:50:12.9241026-06:00:2021-07-09T20:50:12.9241026-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.124)
+2021-07-09T20:50:12.9261044-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-09T20:50:12.9261044-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-07-09T20:50:12.9261044-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-07-09T20:50:12.9261044-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-09T20:50:12.9261044-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-09T20:50:12.9261044-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-09T20:50:12.9261044-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-07-09T20:50:12.9261044-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-07-09T20:50:12.9261044-06:00:Thread#0:Scheduler: with testItemExecutionIndex 3
+2021-07-09T20:50:12.9291047-06:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 71844.8034699 seconds
+2021-07-09T20:50:12.9301047-06:00:Thread#0: Test #6/3 is started on thread #0
+2021-07-09T20:50:12.9311043-06:00:2021-07-09T20:50:12.9311043-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-09T20:50:12.9321051-06:00:2021-07-09T20:50:12.9311043-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-09T20:50:12.9321051-06:00:2021-07-09T20:50:12.9321051-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-09T20:50:12.9341054-06:00:2021-07-09T20:50:12.9331072-06:00:Thread#0:T:Starting the driver...
+2021-07-09T20:50:16.1364019-06:00:2021-07-09T20:50:16.1364019-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (3.2s)
+2021-07-09T20:50:16.1374024-06:00:2021-07-09T20:50:16.1364019-06:00:Thread#0:B:Then my Twitch Bot lives!

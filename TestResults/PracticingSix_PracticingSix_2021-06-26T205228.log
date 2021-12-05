@@ -1,0 +1,151 @@
+﻿2021-06-26T20:52:27.8266606-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-26T20:52:27.8266606-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-26T20:52:27.8266606-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-26T20:52:27.8266606-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-26T20:52:28.0032077-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-26T20:52:28.0032077-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-26T20:52:28.0032077-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-26T20:52:28.0562197-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-26T205228.log
+2021-06-26T20:52:28.0632229-06:00;Thread#13;Info;Checking activation
+2021-06-26T20:52:28.1532443-06:00;Thread#13;Info;Activated.
+2021-06-26T20:52:28.1532443-06:00;Thread#13;Info;Activation check completed
+2021-06-26T20:52:28.1532443-06:00;Thread#13;Info;Starting test run
+2021-06-26T20:52:28.1992527-06:00;Thread#13;Info;Discovering target: Default
+2021-06-26T20:52:28.1992527-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-26T20:52:28.5533986-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-26T20:52:28.5543872-06:00:Test Suite Dump
+2021-06-26T20:52:28.5553873-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-26T20:52:28.5553873-06:00:#1: Default - 
+2021-06-26T20:52:28.5553873-06:00:#2: PracticingSix - 
+2021-06-26T20:52:28.5553873-06:00:#5: Twitch Bot! - 
+2021-06-26T20:52:28.5903946-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-26T20:52:28.5903946-06:00:End: Test Suite Dump
+2021-06-26T20:52:28.6284035-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-26T20:52:28.6314128-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-26T20:52:28.6314128-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-26T20:52:28.6374065-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-26T20:52:28.6374065-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-26T20:52:28.6374065-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-26T20:52:28.6374065-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-26T20:52:28.6394065-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-26T20:52:28.6404067-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-26T20:52:28.6404067-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-26T20:52:28.6404067-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-26T20:52:28.6404067-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-26T20:52:28.6404067-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-26T20:52:28.6424066-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-26T20:52:28.6444066-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-26T20:52:28.6464074-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-26T20:52:28.6484166-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-26T20:52:28.6504090-06:00:starting Out Of Process Executor
+2021-06-26T20:52:28.6554182-06:00:Starting callback TCP Rpc server
+2021-06-26T20:52:28.6774161-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-26T20:52:28.6774161-06:00:Started callback TCP Rpc server on port 32768
+2021-06-26T20:52:28.6774161-06:00:Starting logger TCP Rpc server
+2021-06-26T20:52:28.6834155-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-26T20:52:28.6834155-06:00:Started logger TCP Rpc server on port 32769
+2021-06-26T20:52:28.6894194-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 3540 --uniqueId "2021-06-26T205227" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-26T20:52:28.6964216-06:00:Executor with PID 15480 has been started successfully.
+2021-06-26T20:52:28.7004200-06:00:Out of Process Executor 15480 started
+2021-06-26T20:52:28.7004200-06:00:Waiting for endpoint
+2021-06-26T20:52:29.3745720-06:00:Remote executor port received: 32770
+2021-06-26T20:52:29.3755720-06:00:Creating executor TCP client on port 32770
+2021-06-26T20:52:29.3755720-06:00:Created executor TCP client on port 32770
+2021-06-26T20:52:29.3755720-06:00:Connecting to remote executor TCP server
+2021-06-26T20:52:29.3765720-06:00:Connected remote executor TCP server
+2021-06-26T20:52:29.3765720-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-26T20:52:29.3765720-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-26T20:52:29.5436086-06:00:2021-06-26T20:52:29.5426093-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-26T20:52:29.5507315-06:00:Endpoint 15480 started
+2021-06-26T20:52:29.5702888-06:00:2021-06-26T20:52:29.5691241-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-26T20:52:29.9086483-06:00:2021-06-26T20:52:29.9076477-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-26T20:52:29.9146497-06:00:2021-06-26T20:52:29.9136585-06:00:Thread#0:T:-> Using default config
+2021-06-26T20:52:30.7605328-06:00:2021-06-26T20:52:30.7585348-06:00:Thread#0:T:Starting the driver...
+2021-06-26T20:52:32.4319628-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-26T20:52:32.5339871-06:00:2021-06-26T20:52:32.5259839-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-26T20:52:32.6030019-06:00:2021-06-26T20:52:32.6020029-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-26T20:52:32.6060027-06:00:2021-06-26T20:52:32.6050023-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-26T20:52:35.0425483-06:00:2021-06-26T20:52:35.0375465-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.4s)
+2021-06-26T20:52:35.0445487-06:00:2021-06-26T20:52:35.0435503-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-26T20:52:44.2003372-06:00:2021-06-26T20:52:44.1963354-06:00:Thread#0:T:Line 1
+2021-06-26T20:52:44.4593942-06:00:2021-06-26T20:52:44.4574016-06:00:Thread#0:T:Parsing: test from: user335
+2021-06-26T20:52:44.4713967-06:00:2021-06-26T20:52:44.4703971-06:00:Thread#0:T:Eyy, its user335!
+2021-06-26T20:52:44.4823993-06:00:2021-06-26T20:52:44.4823993-06:00:Thread#0:T:{
+2021-06-26T20:52:44.4833996-06:00:2021-06-26T20:52:44.4833996-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-06-26T20:52:44.4844000-06:00:2021-06-26T20:52:44.4844000-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-06-26T20:52:44.4864008-06:00:2021-06-26T20:52:44.4854004-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-06-26T20:52:44.4874003-06:00:2021-06-26T20:52:44.4864008-06:00:Thread#0:T:}
+2021-06-26T20:52:45.2785774-06:00:2021-06-26T20:52:45.2775771-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-06-26T20:52:45.2785774-06:00:2021-06-26T20:52:45.2785774-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-06-26T20:52:47.3269441-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-26T20:52:47.3289446-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-26T20:52:47.3319464-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-26T20:52:47.3389479-06:00:test thread #0 error: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2021-06-26T20:52:47.3399474-06:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2021-06-26T20:52:47.3399474-06:00:Trying to cancel thread
+2021-06-26T20:52:47.3399474-06:00:Thread cancelled
+2021-06-26T20:52:47.3399474-06:00:Trying to cancel thread
+2021-06-26T20:52:47.3399474-06:00:Thread cancelled
+2021-06-26T20:52:47.3479497-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-06-26T20:52:47.3479497-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-26T20:52:47.3479497-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-26T20:52:47.3519495-06:00;Thread#13;Info;test run finished
+2021-06-26T20:52:47.3519495-06:00;Thread#13;Info;publishing test results
+2021-06-26T20:52:47.4834882-06:00;Thread#13;Info;test results published
+2021-06-26T20:52:47.4834882-06:00;Thread#13;Info;generating reports
+2021-06-26T20:52:47.6665306-06:00;Thread#13;Info;Starting external report generation process
+2021-06-26T20:52:49.4498698-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-06-26T20:52:49.4508696-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-06-26T20:52:49.4508696-06:00;Thread#13;Info;Failed generating reports
+2021-06-26T20:52:49.4668738-06:00:Total: 1 (test executions: 0)
+2021-06-26T20:52:49.4708745-06:00:Succeeded: 0
+2021-06-26T20:52:49.4718743-06:00:Ignored: 0
+2021-06-26T20:52:49.4718743-06:00:Pending: 0
+2021-06-26T20:52:49.4718743-06:00:Skipped: 0
+2021-06-26T20:52:49.4728743-06:00:Failed: 0
+2021-06-26T20:52:49.4758778-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

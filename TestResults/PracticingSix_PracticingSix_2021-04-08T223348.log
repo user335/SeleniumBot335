@@ -1,0 +1,61 @@
+﻿2021-04-08T22:33:48.2670375-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-04-08T22:33:48.2670375-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-04-08T22:33:48.2670375-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-04-08T22:33:48.2670375-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-04-08T22:33:48.4510172-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-04-08T22:33:48.4540179-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-04-08T22:33:48.4565277-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-04-08T22:33:48.5285608-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-04-08T223348.log
+2021-04-08T22:33:48.5425637-06:00;Thread#15;Info;Checking activation
+2021-04-08T22:33:48.6646065-06:00;Thread#15;Info;Activated.
+2021-04-08T22:33:48.6696085-06:00;Thread#15;Info;Activation check completed
+2021-04-08T22:33:48.6726084-06:00;Thread#15;Info;Starting test run
+2021-04-08T22:33:48.7371503-06:00;Thread#15;Info;Discovering target: Default
+2021-04-08T22:33:48.7451538-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-04-08T22:33:49.3751677-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-04-08T22:33:49.3801704-06:00:Test Suite Dump
+2021-04-08T22:33:49.3831711-06:00:#0: PracticingSix/PracticingSix - 
+2021-04-08T22:33:49.3831711-06:00:#1: Default - 
+2021-04-08T22:33:49.3831711-06:00:#2: PracticingSix - 
+2021-04-08T22:33:49.3831711-06:00:#3: EyeOfTheTiger - 
+2021-04-08T22:33:49.4341991-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-04-08T22:33:49.4341991-06:00:End: Test Suite Dump
+2021-04-08T22:33:49.4647143-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-04-08T22:33:49.4677157-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-04-08T22:33:49.4677157-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-04-08T22:33:49.4727159-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-04-08T22:33:49.4727159-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-04-08T22:33:49.4727159-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-04-08T22:33:49.4727159-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-04-08T22:33:49.4737166-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-04-08T22:33:49.4747169-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-04-08T22:33:49.4787175-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-04-08T22:33:49.4807178-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-04-08T22:33:49.4867190-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-04-08T22:33:49.4892281-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-04-08T22:33:49.4922273-06:00:starting Out Of Process Executor
+2021-04-08T22:33:49.5072668-06:00:Starting callback TCP Rpc server
+2021-04-08T22:33:49.5327830-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-04-08T22:33:49.5327830-06:00:Started callback TCP Rpc server on port 32770
+2021-04-08T22:33:49.5327830-06:00:Starting logger TCP Rpc server
+2021-04-08T22:33:49.5448061-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-04-08T22:33:49.5448061-06:00:Started logger TCP Rpc server on port 32771
+2021-04-08T22:33:49.5538073-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-04-08T22:33:49.6663867-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-04-08T22:33:49.7209093-06:00:Out of Process Executor 24788 started
+2021-04-08T22:33:49.7209093-06:00:Waiting for endpoint
+2021-04-08T22:33:50.4229891-06:00:Remote executor port received: 32772
+2021-04-08T22:33:50.4239888-06:00:Creating executor TCP client on port 32772
+2021-04-08T22:33:50.4249893-06:00:Created executor TCP client on port 32772
+2021-04-08T22:33:50.4249893-06:00:Connecting to remote executor TCP server
+2021-04-08T22:33:50.4249893-06:00:Connected remote executor TCP server
+2021-04-08T22:33:50.4249893-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-04-08T22:33:50.4249893-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-04-08T22:33:50.6320353-06:00:2021-04-08T22:33:50.6300351-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-04-08T22:33:50.6410375-06:00:Endpoint 24788 started
+2021-04-08T22:33:50.6600452-06:00:2021-04-08T22:33:50.6580415-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-04-08T22:33:51.0728846-06:00:2021-04-08T22:33:51.0718848-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-04-08T22:33:51.0858877-06:00:2021-04-08T22:33:51.0848874-06:00:Thread#0:T:-> Using default config
+2021-04-08T22:33:51.9201286-06:00:2021-04-08T22:33:51.9191286-06:00:Thread#0:T:Starting the driver...
+2021-04-08T22:33:53.3814287-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-04-08T22:33:53.4334590-06:00:2021-04-08T22:33:53.4294584-06:00:Thread#0:B:When I need Eye of the Tiger every 4.1 minutes

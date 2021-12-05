@@ -1,0 +1,1611 @@
+﻿2021-06-19T21:57:53.6229577-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-19T21:57:53.6239584-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-19T21:57:53.6239584-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-19T21:57:53.6239584-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-19T21:57:53.8420064-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-19T21:57:53.8430067-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-19T21:57:53.8430067-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-19T21:57:53.8970187-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-19T215753.log
+2021-06-19T21:57:53.9030196-06:00;Thread#13;Info;Checking activation
+2021-06-19T21:57:54.0605653-06:00;Thread#13;Info;Activated.
+2021-06-19T21:57:54.0615650-06:00;Thread#13;Info;Activation check completed
+2021-06-19T21:57:54.0615650-06:00;Thread#13;Info;Starting test run
+2021-06-19T21:57:54.1486039-06:00;Thread#13;Info;Discovering target: Default
+2021-06-19T21:57:54.1496021-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-19T21:57:54.7368254-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-19T21:57:54.7388270-06:00:Test Suite Dump
+2021-06-19T21:57:54.7398267-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-19T21:57:54.7398267-06:00:#1: Default - 
+2021-06-19T21:57:54.7398267-06:00:#2: PracticingSix - 
+2021-06-19T21:57:54.7398267-06:00:#3: EyeOfTheTiger - 
+2021-06-19T21:57:54.7868370-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-06-19T21:57:54.7868370-06:00:End: Test Suite Dump
+2021-06-19T21:57:54.8508521-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:57:54.8538521-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-19T21:57:54.8538521-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T21:57:54.8703670-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:57:54.8703670-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:57:54.8703670-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:57:54.8703670-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T21:57:54.8723659-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T21:57:54.8733669-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-19T21:57:54.8733669-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-19T21:57:54.8743673-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-19T21:57:54.8743673-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-19T21:57:54.8743673-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-19T21:57:54.8778783-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-19T21:57:54.8818805-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-19T21:57:54.9549193-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-19T21:57:54.9609201-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-19T21:57:54.9649210-06:00:starting Out Of Process Executor
+2021-06-19T21:57:54.9729272-06:00:Starting callback TCP Rpc server
+2021-06-19T21:57:55.0059317-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-06-19T21:57:55.0059317-06:00:Started callback TCP Rpc server on port 32771
+2021-06-19T21:57:55.0059317-06:00:Starting logger TCP Rpc server
+2021-06-19T21:57:55.0119324-06:00:Asynchronously starting background TCP Rpc Server on port 32772
+2021-06-19T21:57:55.0119324-06:00:Started logger TCP Rpc server on port 32772
+2021-06-19T21:57:55.0219345-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 29348 --uniqueId "2021-06-19T215753" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32771 --loggerPort 32772' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-19T21:57:55.1529831-06:00:Executor with PID 31664 has been started successfully.
+2021-06-19T21:57:55.1559830-06:00:Out of Process Executor 31664 started
+2021-06-19T21:57:55.1559830-06:00:Waiting for endpoint
+2021-06-19T21:57:56.0521845-06:00:Remote executor port received: 32773
+2021-06-19T21:57:56.0521845-06:00:Creating executor TCP client on port 32773
+2021-06-19T21:57:56.0531845-06:00:Created executor TCP client on port 32773
+2021-06-19T21:57:56.0531845-06:00:Connecting to remote executor TCP server
+2021-06-19T21:57:56.0541848-06:00:Connected remote executor TCP server
+2021-06-19T21:57:56.0541848-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-19T21:57:56.0541848-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-19T21:57:56.6463174-06:00:2021-06-19T21:57:56.6453179-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-06-19T21:57:56.6533193-06:00:Endpoint 31664 started
+2021-06-19T21:57:56.6763252-06:00:2021-06-19T21:57:56.6763252-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-19T21:57:57.1284261-06:00:2021-06-19T21:57:57.1284261-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-19T21:57:57.1824387-06:00:2021-06-19T21:57:57.1824387-06:00:Thread#0:T:-> Using default config
+2021-06-19T21:57:58.3723801-06:00:2021-06-19T21:57:58.3713793-06:00:Thread#0:T:Starting the driver...
+2021-06-19T21:58:00.0793582-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-19T21:58:00.1223681-06:00:2021-06-19T21:58:00.1213726-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T21:58:28.4258144-06:00:2021-06-19T21:58:28.4238115-06:00:Thread#0:T:Playing!
+2021-06-19T21:58:29.1319700-06:00:2021-06-19T21:58:29.1299709-06:00:Thread#0:T:Loop: 0
+2021-06-19T21:58:34.6642552-06:00:2021-06-19T21:58:34.6632546-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-06-19T21:58:37.6949368-06:00:2021-06-19T21:58:37.6939371-06:00:Thread#0:T:Finished logging in
+2021-06-19T22:02:48.4557507-06:00:2021-06-19T22:02:48.4537497-06:00:Thread#0:T:Playing!
+2021-06-19T22:07:17.3990326-06:00:2021-06-19T22:07:17.3980326-06:00:Thread#0:T:Playing!
+2021-06-19T22:11:45.5224087-06:00:2021-06-19T22:11:45.5214086-06:00:Thread#0:T:Playing!
+2021-06-19T22:15:56.8795422-06:00:2021-06-19T22:15:56.8785428-06:00:Thread#0:T:Playing!
+2021-06-19T22:20:14.8439899-06:00:2021-06-19T22:20:14.8429904-06:00:Thread#0:T:Playing!
+2021-06-19T22:24:46.9686437-06:00:2021-06-19T22:24:46.9676448-06:00:Thread#0:T:Playing!
+2021-06-19T22:29:04.2864710-06:00:2021-06-19T22:29:04.2854703-06:00:Thread#0:T:Playing!
+2021-06-19T22:33:15.9475827-06:00:2021-06-19T22:33:15.9455833-06:00:Thread#0:T:Playing!
+2021-06-19T22:37:32.9445672-06:00:2021-06-19T22:37:32.9435677-06:00:Thread#0:T:Playing!
+2021-06-19T22:41:42.7825465-06:00:2021-06-19T22:41:42.7815465-06:00:Thread#0:T:Playing!
+2021-06-19T22:45:53.2643960-06:00:2021-06-19T22:45:53.2643960-06:00:Thread#0:T:Playing!
+2021-06-19T22:50:03.6715249-06:00:2021-06-19T22:50:03.6715249-06:00:Thread#0:T:Playing!
+2021-06-19T22:54:06.9237684-06:00:2021-06-19T22:54:06.9227685-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:06.9267710-06:00:2021-06-19T22:54:06.9257708-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:06.9277705-06:00:2021-06-19T22:54:06.9277705-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:06.9718233-06:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2021-06-19T22:54:06.9748268-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:06.9748268-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:06.9748268-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:06.9748268-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:06.9748268-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:06.9748268-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:06.9748268-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:06.9748268-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:06.9748268-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-06-19T22:54:07.0283534-06:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 3366.9479943 seconds
+2021-06-19T22:54:07.0303533-06:00:Thread#0: Test #4/1 is started on thread #0
+2021-06-19T22:54:07.0313533-06:00:2021-06-19T22:54:07.0313533-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0363558-06:00:2021-06-19T22:54:07.0363558-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0373553-06:00:2021-06-19T22:54:07.0363558-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0373553-06:00:2021-06-19T22:54:07.0373553-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0423568-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0423568-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0423568-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0423568-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0423568-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0423568-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0423568-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0423568-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0433571-06:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-06-19T22:54:07.0443568-06:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0140035 seconds
+2021-06-19T22:54:07.0453571-06:00:Thread#0: Test #4/2 is started on thread #0
+2021-06-19T22:54:07.0453571-06:00:2021-06-19T22:54:07.0453571-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0473571-06:00:2021-06-19T22:54:07.0473571-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0483571-06:00:2021-06-19T22:54:07.0483571-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0483571-06:00:2021-06-19T22:54:07.0483571-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0493572-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0493572-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0493572-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0493572-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0493572-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0493572-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0493572-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0493572-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0493572-06:00:Thread#0:Scheduler: with testItemExecutionIndex 3
+2021-06-19T22:54:07.0513584-06:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0060013 seconds
+2021-06-19T22:54:07.0513584-06:00:Thread#0: Test #4/3 is started on thread #0
+2021-06-19T22:54:07.0533638-06:00:2021-06-19T22:54:07.0523582-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0573598-06:00:2021-06-19T22:54:07.0573598-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0583641-06:00:2021-06-19T22:54:07.0583641-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0593616-06:00:2021-06-19T22:54:07.0583641-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0603605-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0603605-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0603605-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0603605-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0603605-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0603605-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0603605-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0603605-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0603605-06:00:Thread#0:Scheduler: with testItemExecutionIndex 4
+2021-06-19T22:54:07.0633610-06:00:Thread#0: Test #4/3 is finished on thread #0 as Failed within 0.0120026 seconds
+2021-06-19T22:54:07.0633610-06:00:Thread#0: Test #4/4 is started on thread #0
+2021-06-19T22:54:07.0643613-06:00:2021-06-19T22:54:07.0643613-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0673625-06:00:2021-06-19T22:54:07.0673625-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0683634-06:00:2021-06-19T22:54:07.0673625-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0683634-06:00:2021-06-19T22:54:07.0683634-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0693622-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0693622-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0693622-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0693622-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0693622-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0693622-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0693622-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0693622-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0693622-06:00:Thread#0:Scheduler: with testItemExecutionIndex 5
+2021-06-19T22:54:07.0713629-06:00:Thread#0: Test #4/4 is finished on thread #0 as Failed within 0.0070016 seconds
+2021-06-19T22:54:07.0713629-06:00:Thread#0: Test #4/5 is started on thread #0
+2021-06-19T22:54:07.0723627-06:00:2021-06-19T22:54:07.0723627-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0743636-06:00:2021-06-19T22:54:07.0743636-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0753637-06:00:2021-06-19T22:54:07.0753637-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0753637-06:00:2021-06-19T22:54:07.0753637-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0773636-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0773636-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0773636-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0773636-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0773636-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0773636-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0773636-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0773636-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0773636-06:00:Thread#0:Scheduler: with testItemExecutionIndex 6
+2021-06-19T22:54:07.0803655-06:00:Thread#0: Test #4/5 is finished on thread #0 as Failed within 0.0090026 seconds
+2021-06-19T22:54:07.0813659-06:00:Thread#0: Test #4/6 is started on thread #0
+2021-06-19T22:54:07.0813659-06:00:2021-06-19T22:54:07.0813659-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0843659-06:00:2021-06-19T22:54:07.0833657-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0843659-06:00:2021-06-19T22:54:07.0843659-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0853665-06:00:2021-06-19T22:54:07.0843659-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0863661-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0863661-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0863661-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0863661-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0863661-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0863661-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0863661-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0863661-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0863661-06:00:Thread#0:Scheduler: with testItemExecutionIndex 7
+2021-06-19T22:54:07.0873667-06:00:Thread#0: Test #4/6 is finished on thread #0 as Failed within 0.0060008 seconds
+2021-06-19T22:54:07.0883666-06:00:Thread#0: Test #4/7 is started on thread #0
+2021-06-19T22:54:07.0883666-06:00:2021-06-19T22:54:07.0883666-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.0913675-06:00:2021-06-19T22:54:07.0903667-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.0923702-06:00:2021-06-19T22:54:07.0913675-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.0943836-06:00:2021-06-19T22:54:07.0923702-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.0963692-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.0963692-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.0963692-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.0963692-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.0963692-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.0963692-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.0963692-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.0963692-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.0963692-06:00:Thread#0:Scheduler: with testItemExecutionIndex 8
+2021-06-19T22:54:07.0983686-06:00:Thread#0: Test #4/7 is finished on thread #0 as Failed within 0.010002 seconds
+2021-06-19T22:54:07.0993694-06:00:Thread#0: Test #4/8 is started on thread #0
+2021-06-19T22:54:07.0993694-06:00:2021-06-19T22:54:07.0993694-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1013695-06:00:2021-06-19T22:54:07.1013695-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1023690-06:00:2021-06-19T22:54:07.1013695-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1023690-06:00:2021-06-19T22:54:07.1023690-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1033699-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1033699-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1033699-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1033699-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1033699-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1033699-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1033699-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1033699-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1033699-06:00:Thread#0:Scheduler: with testItemExecutionIndex 9
+2021-06-19T22:54:07.1053701-06:00:Thread#0: Test #4/8 is finished on thread #0 as Failed within 0.0060007 seconds
+2021-06-19T22:54:07.1063715-06:00:Thread#0: Test #4/9 is started on thread #0
+2021-06-19T22:54:07.1113713-06:00:2021-06-19T22:54:07.1103715-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1133716-06:00:2021-06-19T22:54:07.1133716-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1133716-06:00:2021-06-19T22:54:07.1133716-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1143718-06:00:2021-06-19T22:54:07.1133716-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1153722-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1153722-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1153722-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1153722-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1153722-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1153722-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1153722-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1153722-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1153722-06:00:Thread#0:Scheduler: with testItemExecutionIndex 10
+2021-06-19T22:54:07.1163727-06:00:Thread#0: Test #4/9 is finished on thread #0 as Failed within 0.0100012 seconds
+2021-06-19T22:54:07.1163727-06:00:Thread#0: Test #4/10 is started on thread #0
+2021-06-19T22:54:07.1173725-06:00:2021-06-19T22:54:07.1173725-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1203748-06:00:2021-06-19T22:54:07.1193739-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1203748-06:00:2021-06-19T22:54:07.1203748-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1213742-06:00:2021-06-19T22:54:07.1213742-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1233766-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1233766-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1233766-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1233766-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1233766-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1233766-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1233766-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1233766-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1233766-06:00:Thread#0:Scheduler: with testItemExecutionIndex 11
+2021-06-19T22:54:07.1253753-06:00:Thread#0: Test #4/10 is finished on thread #0 as Failed within 0.0090026 seconds
+2021-06-19T22:54:07.1263748-06:00:Thread#0: Test #4/11 is started on thread #0
+2021-06-19T22:54:07.1273750-06:00:2021-06-19T22:54:07.1263748-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1313763-06:00:2021-06-19T22:54:07.1303759-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1313763-06:00:2021-06-19T22:54:07.1313763-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1323767-06:00:2021-06-19T22:54:07.1323767-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1333773-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1333773-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1333773-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1333773-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1343773-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1343773-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1343773-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1343773-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1343773-06:00:Thread#0:Scheduler: with testItemExecutionIndex 12
+2021-06-19T22:54:07.1353776-06:00:Thread#0: Test #4/11 is finished on thread #0 as Failed within 0.0090028 seconds
+2021-06-19T22:54:07.1363774-06:00:Thread#0: Test #4/12 is started on thread #0
+2021-06-19T22:54:07.1373775-06:00:2021-06-19T22:54:07.1373775-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1413788-06:00:2021-06-19T22:54:07.1413788-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1463798-06:00:2021-06-19T22:54:07.1453796-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1483800-06:00:2021-06-19T22:54:07.1483800-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1503806-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1503806-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1503806-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1503806-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1503806-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1503806-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1503806-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1503806-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1503806-06:00:Thread#0:Scheduler: with testItemExecutionIndex 13
+2021-06-19T22:54:07.1523811-06:00:Thread#0: Test #4/12 is finished on thread #0 as Failed within 0.0160037 seconds
+2021-06-19T22:54:07.1523811-06:00:Thread#0: Test #4/13 is started on thread #0
+2021-06-19T22:54:07.1543815-06:00:2021-06-19T22:54:07.1533815-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1563818-06:00:2021-06-19T22:54:07.1563818-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1573821-06:00:2021-06-19T22:54:07.1563818-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1573821-06:00:2021-06-19T22:54:07.1573821-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1593827-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1593827-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1593827-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1593827-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1593827-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1593827-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1593827-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1593827-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1593827-06:00:Thread#0:Scheduler: with testItemExecutionIndex 14
+2021-06-19T22:54:07.1613837-06:00:Thread#0: Test #4/13 is finished on thread #0 as Failed within 0.0080022 seconds
+2021-06-19T22:54:07.1613837-06:00:Thread#0: Test #4/14 is started on thread #0
+2021-06-19T22:54:07.1623829-06:00:2021-06-19T22:54:07.1623829-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1643835-06:00:2021-06-19T22:54:07.1643835-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1653837-06:00:2021-06-19T22:54:07.1653837-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1653837-06:00:2021-06-19T22:54:07.1653837-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1663841-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1663841-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1663841-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1663841-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1663841-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1663841-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1663841-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1663841-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1663841-06:00:Thread#0:Scheduler: with testItemExecutionIndex 15
+2021-06-19T22:54:07.1673846-06:00:Thread#0: Test #4/14 is finished on thread #0 as Failed within 0.0060009 seconds
+2021-06-19T22:54:07.1683843-06:00:Thread#0: Test #4/15 is started on thread #0
+2021-06-19T22:54:07.1683843-06:00:2021-06-19T22:54:07.1683843-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1713856-06:00:2021-06-19T22:54:07.1703850-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1723856-06:00:2021-06-19T22:54:07.1713856-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1723856-06:00:2021-06-19T22:54:07.1723856-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1743872-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1743872-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1743872-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1743872-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1743872-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1743872-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1743872-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1743872-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1743872-06:00:Thread#0:Scheduler: with testItemExecutionIndex 16
+2021-06-19T22:54:07.1763863-06:00:Thread#0: Test #4/15 is finished on thread #0 as Failed within 0.008002 seconds
+2021-06-19T22:54:07.1773865-06:00:Thread#0: Test #4/16 is started on thread #0
+2021-06-19T22:54:07.1783869-06:00:2021-06-19T22:54:07.1783869-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1803876-06:00:2021-06-19T22:54:07.1803876-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1803876-06:00:2021-06-19T22:54:07.1803876-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1813869-06:00:2021-06-19T22:54:07.1813869-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1823871-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1823871-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1823871-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1823871-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1823871-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1823871-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1823871-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1823871-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1823871-06:00:Thread#0:Scheduler: with testItemExecutionIndex 17
+2021-06-19T22:54:07.1833875-06:00:Thread#0: Test #4/16 is finished on thread #0 as Failed within 0.006001 seconds
+2021-06-19T22:54:07.1843883-06:00:Thread#0: Test #4/17 is started on thread #0
+2021-06-19T22:54:07.1853890-06:00:2021-06-19T22:54:07.1843883-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1893905-06:00:2021-06-19T22:54:07.1893905-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1893905-06:00:2021-06-19T22:54:07.1893905-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1903890-06:00:2021-06-19T22:54:07.1903890-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.1913900-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.1913900-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.1913900-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.1913900-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.1913900-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.1913900-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.1913900-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.1913900-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.1913900-06:00:Thread#0:Scheduler: with testItemExecutionIndex 18
+2021-06-19T22:54:07.1933906-06:00:Thread#0: Test #4/17 is finished on thread #0 as Failed within 0.0090023 seconds
+2021-06-19T22:54:07.1943902-06:00:Thread#0: Test #4/18 is started on thread #0
+2021-06-19T22:54:07.1953906-06:00:2021-06-19T22:54:07.1953906-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.1983922-06:00:2021-06-19T22:54:07.1973910-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.1983922-06:00:2021-06-19T22:54:07.1983922-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.1993918-06:00:2021-06-19T22:54:07.1993918-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2003921-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2003921-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2013925-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2013925-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2013925-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2013925-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2013925-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2013925-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2013925-06:00:Thread#0:Scheduler: with testItemExecutionIndex 19
+2021-06-19T22:54:07.2033933-06:00:Thread#0: Test #4/18 is finished on thread #0 as Failed within 0.0090031 seconds
+2021-06-19T22:54:07.2043940-06:00:Thread#0: Test #4/19 is started on thread #0
+2021-06-19T22:54:07.2043940-06:00:2021-06-19T22:54:07.2043940-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2073930-06:00:2021-06-19T22:54:07.2073930-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2083931-06:00:2021-06-19T22:54:07.2073930-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2083931-06:00:2021-06-19T22:54:07.2083931-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2093941-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2093941-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2093941-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2093941-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2093941-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2093941-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2093941-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2093941-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2093941-06:00:Thread#0:Scheduler: with testItemExecutionIndex 20
+2021-06-19T22:54:07.2113937-06:00:Thread#0: Test #4/19 is finished on thread #0 as Failed within 0.0069997 seconds
+2021-06-19T22:54:07.2123952-06:00:Thread#0: Test #4/20 is started on thread #0
+2021-06-19T22:54:07.2153958-06:00:2021-06-19T22:54:07.2143954-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2183965-06:00:2021-06-19T22:54:07.2173955-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2183965-06:00:2021-06-19T22:54:07.2183965-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2193964-06:00:2021-06-19T22:54:07.2193964-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2203971-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2203971-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2203971-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2203971-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2203971-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2203971-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2203971-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2203971-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2203971-06:00:Thread#0:Scheduler: with testItemExecutionIndex 21
+2021-06-19T22:54:07.2223965-06:00:Thread#0: Test #4/20 is finished on thread #0 as Failed within 0.0100013 seconds
+2021-06-19T22:54:07.2223965-06:00:Thread#0: Test #4/21 is started on thread #0
+2021-06-19T22:54:07.2244000-06:00:2021-06-19T22:54:07.2233967-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2283984-06:00:2021-06-19T22:54:07.2273988-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2283984-06:00:2021-06-19T22:54:07.2283984-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2293980-06:00:2021-06-19T22:54:07.2293980-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2303984-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2303984-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2303984-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2303984-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2303984-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2303984-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2303984-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2303984-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2303984-06:00:Thread#0:Scheduler: with testItemExecutionIndex 22
+2021-06-19T22:54:07.2323990-06:00:Thread#0: Test #4/21 is finished on thread #0 as Failed within 0.0100025 seconds
+2021-06-19T22:54:07.2333991-06:00:Thread#0: Test #4/22 is started on thread #0
+2021-06-19T22:54:07.2343994-06:00:2021-06-19T22:54:07.2343994-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2404010-06:00:2021-06-19T22:54:07.2384001-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2414010-06:00:2021-06-19T22:54:07.2414010-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2424044-06:00:2021-06-19T22:54:07.2424044-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2434023-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2434023-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2434023-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2434023-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2434023-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2434023-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2434023-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2434023-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2434023-06:00:Thread#0:Scheduler: with testItemExecutionIndex 23
+2021-06-19T22:54:07.2454019-06:00:Thread#0: Test #4/22 is finished on thread #0 as Failed within 0.0120028 seconds
+2021-06-19T22:54:07.2454019-06:00:Thread#0: Test #4/23 is started on thread #0
+2021-06-19T22:54:07.2464024-06:00:2021-06-19T22:54:07.2464024-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2484028-06:00:2021-06-19T22:54:07.2484028-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2494035-06:00:2021-06-19T22:54:07.2494035-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2504033-06:00:2021-06-19T22:54:07.2494035-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2524047-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2524047-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2524047-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2524047-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2524047-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2524047-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2524047-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2524047-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2524047-06:00:Thread#0:Scheduler: with testItemExecutionIndex 24
+2021-06-19T22:54:07.2544040-06:00:Thread#0: Test #4/23 is finished on thread #0 as Failed within 0.0080016 seconds
+2021-06-19T22:54:07.2554047-06:00:Thread#0: Test #4/24 is started on thread #0
+2021-06-19T22:54:07.2564046-06:00:2021-06-19T22:54:07.2564046-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2594053-06:00:2021-06-19T22:54:07.2594053-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2604055-06:00:2021-06-19T22:54:07.2604055-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2614054-06:00:2021-06-19T22:54:07.2604055-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2624054-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2624054-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2624054-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2624054-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2624054-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2624054-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2624054-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2624054-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2634061-06:00:Thread#0:Scheduler: with testItemExecutionIndex 25
+2021-06-19T22:54:07.2654069-06:00:Thread#0: Test #4/24 is finished on thread #0 as Failed within 0.0100022 seconds
+2021-06-19T22:54:07.2654069-06:00:Thread#0: Test #4/25 is started on thread #0
+2021-06-19T22:54:07.2664069-06:00:2021-06-19T22:54:07.2664069-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2694085-06:00:2021-06-19T22:54:07.2694085-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2704086-06:00:2021-06-19T22:54:07.2704086-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2704086-06:00:2021-06-19T22:54:07.2704086-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2734085-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2734085-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2734085-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2734085-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2734085-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2734085-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2734085-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2734085-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2734085-06:00:Thread#0:Scheduler: with testItemExecutionIndex 26
+2021-06-19T22:54:07.2754079-06:00:Thread#0: Test #4/25 is finished on thread #0 as Failed within 0.010001 seconds
+2021-06-19T22:54:07.2754079-06:00:Thread#0: Test #4/26 is started on thread #0
+2021-06-19T22:54:07.2764088-06:00:2021-06-19T22:54:07.2764088-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2794094-06:00:2021-06-19T22:54:07.2784101-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2794094-06:00:2021-06-19T22:54:07.2794094-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2804100-06:00:2021-06-19T22:54:07.2804100-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2824122-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2824122-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2824122-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2834121-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2834121-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2834121-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2834121-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2834121-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2834121-06:00:Thread#0:Scheduler: with testItemExecutionIndex 27
+2021-06-19T22:54:07.2844111-06:00:Thread#0: Test #4/26 is finished on thread #0 as Failed within 0.0090032 seconds
+2021-06-19T22:54:07.2854114-06:00:Thread#0: Test #4/27 is started on thread #0
+2021-06-19T22:54:07.2864116-06:00:2021-06-19T22:54:07.2864116-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.2894116-06:00:2021-06-19T22:54:07.2894116-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.2904119-06:00:2021-06-19T22:54:07.2894116-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.2914133-06:00:2021-06-19T22:54:07.2904119-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.2934131-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.2934131-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.2934131-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.2934131-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.2934131-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.2934131-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.2934131-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.2934131-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.2944145-06:00:Thread#0:Scheduler: with testItemExecutionIndex 28
+2021-06-19T22:54:07.2964138-06:00:Thread#0: Test #4/27 is finished on thread #0 as Failed within 0.0110024 seconds
+2021-06-19T22:54:07.2974151-06:00:Thread#0: Test #4/28 is started on thread #0
+2021-06-19T22:54:07.2984147-06:00:2021-06-19T22:54:07.2984147-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3014157-06:00:2021-06-19T22:54:07.3014157-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3024170-06:00:2021-06-19T22:54:07.3024170-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3034153-06:00:2021-06-19T22:54:07.3034153-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3054160-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3054160-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3054160-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3054160-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3054160-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3064163-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3064163-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3064163-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3064163-06:00:Thread#0:Scheduler: with testItemExecutionIndex 29
+2021-06-19T22:54:07.3084167-06:00:Thread#0: Test #4/28 is finished on thread #0 as Failed within 0.0110016 seconds
+2021-06-19T22:54:07.3104169-06:00:Thread#0: Test #4/29 is started on thread #0
+2021-06-19T22:54:07.3114166-06:00:2021-06-19T22:54:07.3114166-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3144175-06:00:2021-06-19T22:54:07.3134175-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3144175-06:00:2021-06-19T22:54:07.3144175-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3154175-06:00:2021-06-19T22:54:07.3154175-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3164177-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3164177-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3164177-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3164177-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3164177-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3164177-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3164177-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3164177-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3164177-06:00:Thread#0:Scheduler: with testItemExecutionIndex 30
+2021-06-19T22:54:07.3184178-06:00:Thread#0: Test #4/29 is finished on thread #0 as Failed within 0.0080009 seconds
+2021-06-19T22:54:07.3194180-06:00:Thread#0: Test #4/30 is started on thread #0
+2021-06-19T22:54:07.3204189-06:00:2021-06-19T22:54:07.3204189-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3234202-06:00:2021-06-19T22:54:07.3234202-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3244197-06:00:2021-06-19T22:54:07.3244197-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3254223-06:00:2021-06-19T22:54:07.3254223-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3264204-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3264204-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3264204-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3274200-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3274200-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3274200-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3274200-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3274200-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3274200-06:00:Thread#0:Scheduler: with testItemExecutionIndex 31
+2021-06-19T22:54:07.3284215-06:00:Thread#0: Test #4/30 is finished on thread #0 as Failed within 0.0090035 seconds
+2021-06-19T22:54:07.3294211-06:00:Thread#0: Test #4/31 is started on thread #0
+2021-06-19T22:54:07.3304208-06:00:2021-06-19T22:54:07.3304208-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3344218-06:00:2021-06-19T22:54:07.3334220-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3344218-06:00:2021-06-19T22:54:07.3344218-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3354219-06:00:2021-06-19T22:54:07.3354219-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3374225-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3374225-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3374225-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3374225-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3374225-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3374225-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3374225-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3374225-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3374225-06:00:Thread#0:Scheduler: with testItemExecutionIndex 32
+2021-06-19T22:54:07.3384229-06:00:Thread#0: Test #4/31 is finished on thread #0 as Failed within 0.0090018 seconds
+2021-06-19T22:54:07.3394233-06:00:Thread#0: Test #4/32 is started on thread #0
+2021-06-19T22:54:07.3404230-06:00:2021-06-19T22:54:07.3394233-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3424238-06:00:2021-06-19T22:54:07.3414236-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3434244-06:00:2021-06-19T22:54:07.3424238-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3434244-06:00:2021-06-19T22:54:07.3434244-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3454241-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3454241-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3454241-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3454241-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3454241-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3454241-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3454241-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3454241-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3454241-06:00:Thread#0:Scheduler: with testItemExecutionIndex 33
+2021-06-19T22:54:07.3484256-06:00:Thread#0: Test #4/32 is finished on thread #0 as Failed within 0.0090023 seconds
+2021-06-19T22:54:07.3484256-06:00:Thread#0: Test #4/33 is started on thread #0
+2021-06-19T22:54:07.3494252-06:00:2021-06-19T22:54:07.3494252-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3594271-06:00:2021-06-19T22:54:07.3574264-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3614290-06:00:2021-06-19T22:54:07.3614290-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3624296-06:00:2021-06-19T22:54:07.3624296-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3644294-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3644294-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3644294-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3644294-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3644294-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3644294-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3654295-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3654295-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3654295-06:00:Thread#0:Scheduler: with testItemExecutionIndex 34
+2021-06-19T22:54:07.3664288-06:00:Thread#0: Test #4/33 is finished on thread #0 as Failed within 0.0180032 seconds
+2021-06-19T22:54:07.3674291-06:00:Thread#0: Test #4/34 is started on thread #0
+2021-06-19T22:54:07.3674291-06:00:2021-06-19T22:54:07.3674291-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3704302-06:00:2021-06-19T22:54:07.3704302-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3704302-06:00:2021-06-19T22:54:07.3704302-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3714303-06:00:2021-06-19T22:54:07.3714303-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3774316-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3774316-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3774316-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3774316-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3774316-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3774316-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3774316-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3774316-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3774316-06:00:Thread#0:Scheduler: with testItemExecutionIndex 35
+2021-06-19T22:54:07.3794318-06:00:Thread#0: Test #4/34 is finished on thread #0 as Failed within 0.0120027 seconds
+2021-06-19T22:54:07.3794318-06:00:Thread#0: Test #4/35 is started on thread #0
+2021-06-19T22:54:07.3814326-06:00:2021-06-19T22:54:07.3804319-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3834329-06:00:2021-06-19T22:54:07.3834329-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.3844335-06:00:2021-06-19T22:54:07.3844335-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.3854341-06:00:2021-06-19T22:54:07.3854341-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.3874337-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.3874337-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.3874337-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.3874337-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.3874337-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.3874337-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.3874337-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.3874337-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.3874337-06:00:Thread#0:Scheduler: with testItemExecutionIndex 36
+2021-06-19T22:54:07.3904357-06:00:Thread#0: Test #4/35 is finished on thread #0 as Failed within 0.0110039 seconds
+2021-06-19T22:54:07.3914353-06:00:Thread#0: Test #4/36 is started on thread #0
+2021-06-19T22:54:07.3944362-06:00:2021-06-19T22:54:07.3934371-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.3994368-06:00:2021-06-19T22:54:07.3994368-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4014378-06:00:2021-06-19T22:54:07.4004373-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4034378-06:00:2021-06-19T22:54:07.4024372-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4044382-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4044382-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4044382-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4054378-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4054378-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4054378-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4054378-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4054378-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4054378-06:00:Thread#0:Scheduler: with testItemExecutionIndex 37
+2021-06-19T22:54:07.4114392-06:00:Thread#0: Test #4/36 is finished on thread #0 as Failed within 0.0190009 seconds
+2021-06-19T22:54:07.4124393-06:00:Thread#0: Test #4/37 is started on thread #0
+2021-06-19T22:54:07.4144398-06:00:2021-06-19T22:54:07.4144398-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.4174406-06:00:2021-06-19T22:54:07.4164409-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4224419-06:00:2021-06-19T22:54:07.4174406-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4284431-06:00:2021-06-19T22:54:07.4264427-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4304435-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4304435-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4304435-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4304435-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4304435-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4304435-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4304435-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4304435-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4304435-06:00:Thread#0:Scheduler: with testItemExecutionIndex 38
+2021-06-19T22:54:07.4324465-06:00:Thread#0: Test #4/37 is finished on thread #0 as Failed within 0.0200072 seconds
+2021-06-19T22:54:07.4334445-06:00:Thread#0: Test #4/38 is started on thread #0
+2021-06-19T22:54:07.4344448-06:00:2021-06-19T22:54:07.4344448-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.4364446-06:00:2021-06-19T22:54:07.4364446-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4374450-06:00:2021-06-19T22:54:07.4374450-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4404469-06:00:2021-06-19T22:54:07.4394462-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4434463-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4434463-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4434463-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4434463-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4434463-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4434463-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4434463-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4434463-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4434463-06:00:Thread#0:Scheduler: with testItemExecutionIndex 39
+2021-06-19T22:54:07.4454474-06:00:Thread#0: Test #4/38 is finished on thread #0 as Failed within 0.0120029 seconds
+2021-06-19T22:54:07.4464474-06:00:Thread#0: Test #4/39 is started on thread #0
+2021-06-19T22:54:07.4474471-06:00:2021-06-19T22:54:07.4474471-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.4509582-06:00:2021-06-19T22:54:07.4509582-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4519577-06:00:2021-06-19T22:54:07.4509582-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4529577-06:00:2021-06-19T22:54:07.4519577-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4564874-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4564874-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4564874-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4564874-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4564874-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4564874-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4564874-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4564874-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4564874-06:00:Thread#0:Scheduler: with testItemExecutionIndex 40
+2021-06-19T22:54:07.4594784-06:00:Thread#0: Test #4/39 is finished on thread #0 as Failed within 0.013031 seconds
+2021-06-19T22:54:07.4604777-06:00:Thread#0: Test #4/40 is started on thread #0
+2021-06-19T22:54:07.4614781-06:00:2021-06-19T22:54:07.4604777-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.4644788-06:00:2021-06-19T22:54:07.4634788-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4644788-06:00:2021-06-19T22:54:07.4644788-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4654797-06:00:2021-06-19T22:54:07.4654797-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4674792-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4674792-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4674792-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4674792-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4674792-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4674792-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4674792-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4674792-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4674792-06:00:Thread#0:Scheduler: with testItemExecutionIndex 41
+2021-06-19T22:54:07.4704798-06:00:Thread#0: Test #4/40 is finished on thread #0 as Failed within 0.0100021 seconds
+2021-06-19T22:54:07.4714799-06:00:Thread#0: Test #4/41 is started on thread #0
+2021-06-19T22:54:07.4724806-06:00:2021-06-19T22:54:07.4724806-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.4754809-06:00:2021-06-19T22:54:07.4754809-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4764823-06:00:2021-06-19T22:54:07.4764823-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4774816-06:00:2021-06-19T22:54:07.4774816-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4794822-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4794822-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4794822-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4794822-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4794822-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4794822-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4794822-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4794822-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4794822-06:00:Thread#0:Scheduler: with testItemExecutionIndex 42
+2021-06-19T22:54:07.4844833-06:00:Thread#0: Test #4/41 is finished on thread #0 as Failed within 0.0120035 seconds
+2021-06-19T22:54:07.4854835-06:00:Thread#0: Test #4/42 is started on thread #0
+2021-06-19T22:54:07.4874848-06:00:2021-06-19T22:54:07.4864852-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.4904853-06:00:2021-06-19T22:54:07.4904853-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.4924852-06:00:2021-06-19T22:54:07.4914854-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.4934851-06:00:2021-06-19T22:54:07.4934851-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.4954858-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.4954858-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.4964856-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.4964856-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.4964856-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.4964856-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.4964856-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.4964856-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.4964856-06:00:Thread#0:Scheduler: with testItemExecutionIndex 43
+2021-06-19T22:54:07.4984865-06:00:Thread#0: Test #4/42 is finished on thread #0 as Failed within 0.013003 seconds
+2021-06-19T22:54:07.4994873-06:00:Thread#0: Test #4/43 is started on thread #0
+2021-06-19T22:54:07.5024881-06:00:2021-06-19T22:54:07.5024881-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.5054873-06:00:2021-06-19T22:54:07.5044876-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.5064878-06:00:2021-06-19T22:54:07.5064878-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.5074885-06:00:2021-06-19T22:54:07.5064878-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.5144900-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.5144900-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.5144900-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.5144900-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.5144900-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.5144900-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.5144900-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.5144900-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.5144900-06:00:Thread#0:Scheduler: with testItemExecutionIndex 44
+2021-06-19T22:54:07.5204905-06:00:Thread#0: Test #4/43 is finished on thread #0 as Failed within 0.0160029 seconds
+2021-06-19T22:54:07.5234940-06:00:Thread#0: Test #4/44 is started on thread #0
+2021-06-19T22:54:07.5344953-06:00:2021-06-19T22:54:07.5264939-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.5414964-06:00:2021-06-19T22:54:07.5404963-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.5414964-06:00:2021-06-19T22:54:07.5414964-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.5424968-06:00:2021-06-19T22:54:07.5424968-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.5444964-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.5444964-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.5444964-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.5444964-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.5444964-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.5444964-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.5444964-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.5444964-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.5444964-06:00:Thread#0:Scheduler: with testItemExecutionIndex 45
+2021-06-19T22:54:07.5474978-06:00:Thread#0: Test #4/44 is finished on thread #0 as Failed within 0.0240038 seconds
+2021-06-19T22:54:07.5484980-06:00:Thread#0: Test #4/45 is started on thread #0
+2021-06-19T22:54:07.5514980-06:00:2021-06-19T22:54:07.5504983-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.5545006-06:00:2021-06-19T22:54:07.5534987-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.5554994-06:00:2021-06-19T22:54:07.5545006-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.5564999-06:00:2021-06-19T22:54:07.5564999-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.5605000-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.5605000-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.5605000-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.5605000-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.5605000-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.5605000-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.5605000-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.5605000-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.5605000-06:00:Thread#0:Scheduler: with testItemExecutionIndex 46
+2021-06-19T22:54:07.5635010-06:00:Thread#0: Test #4/45 is finished on thread #0 as Failed within 0.015003 seconds
+2021-06-19T22:54:07.5645018-06:00:Thread#0: Test #4/46 is started on thread #0
+2021-06-19T22:54:07.5665025-06:00:2021-06-19T22:54:07.5665025-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.5695027-06:00:2021-06-19T22:54:07.5695027-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.5705026-06:00:2021-06-19T22:54:07.5695027-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.5715032-06:00:2021-06-19T22:54:07.5715032-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.5745027-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.5745027-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.5745027-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.5745027-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.5745027-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.5745027-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.5745027-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.5745027-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.5745027-06:00:Thread#0:Scheduler: with testItemExecutionIndex 47
+2021-06-19T22:54:07.5775047-06:00:Thread#0: Test #4/46 is finished on thread #0 as Failed within 0.0120027 seconds
+2021-06-19T22:54:07.5785042-06:00:Thread#0: Test #4/47 is started on thread #0
+2021-06-19T22:54:07.5795051-06:00:2021-06-19T22:54:07.5795051-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.5835058-06:00:2021-06-19T22:54:07.5825057-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.5835058-06:00:2021-06-19T22:54:07.5835058-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.5845053-06:00:2021-06-19T22:54:07.5845053-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.5865061-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.5865061-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.5865061-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.5865061-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.5865061-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.5865061-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.5865061-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.5875066-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.5875066-06:00:Thread#0:Scheduler: with testItemExecutionIndex 48
+2021-06-19T22:54:07.5905073-06:00:Thread#0: Test #4/47 is finished on thread #0 as Failed within 0.0120031 seconds
+2021-06-19T22:54:07.5925079-06:00:Thread#0: Test #4/48 is started on thread #0
+2021-06-19T22:54:07.5935077-06:00:2021-06-19T22:54:07.5935077-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.6035104-06:00:2021-06-19T22:54:07.5995106-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.6045108-06:00:2021-06-19T22:54:07.6045108-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.6065116-06:00:2021-06-19T22:54:07.6065116-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.6085119-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.6085119-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.6085119-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.6085119-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.6085119-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.6085119-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.6085119-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.6085119-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.6085119-06:00:Thread#0:Scheduler: with testItemExecutionIndex 49
+2021-06-19T22:54:07.6125115-06:00:Thread#0: Test #4/48 is finished on thread #0 as Failed within 0.0190041 seconds
+2021-06-19T22:54:07.6135128-06:00:Thread#0: Test #4/49 is started on thread #0
+2021-06-19T22:54:07.6155125-06:00:2021-06-19T22:54:07.6145127-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.6205146-06:00:2021-06-19T22:54:07.6205146-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.6215144-06:00:2021-06-19T22:54:07.6215144-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.6215144-06:00:2021-06-19T22:54:07.6215144-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.6255144-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.6255144-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.6255144-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.6255144-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.6255144-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.6255144-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.6255144-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.6255144-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.6255144-06:00:Thread#0:Scheduler: with testItemExecutionIndex 50
+2021-06-19T22:54:07.6295151-06:00:Thread#0: Test #4/49 is finished on thread #0 as Failed within 0.0150039 seconds
+2021-06-19T22:54:07.6305156-06:00:Thread#0: Test #4/50 is started on thread #0
+2021-06-19T22:54:07.6335174-06:00:2021-06-19T22:54:07.6335174-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.6385182-06:00:2021-06-19T22:54:07.6365168-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.6395185-06:00:2021-06-19T22:54:07.6385182-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.6415198-06:00:2021-06-19T22:54:07.6415198-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.6455189-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.6455189-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.6455189-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.6455189-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.6455189-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.6455189-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.6455189-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.6455189-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.6455189-06:00:Thread#0:Scheduler: with testItemExecutionIndex 51
+2021-06-19T22:54:07.6475206-06:00:Thread#0: Test #4/50 is finished on thread #0 as Failed within 0.017005 seconds
+2021-06-19T22:54:07.6485200-06:00:Thread#0: Test #4/51 is started on thread #0
+2021-06-19T22:54:07.6495201-06:00:2021-06-19T22:54:07.6495201-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.6520286-06:00:2021-06-19T22:54:07.6520286-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.6585394-06:00:2021-06-19T22:54:07.6575391-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.6595395-06:00:2021-06-19T22:54:07.6595395-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.6685428-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.6695431-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.6695431-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.6695431-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.6695431-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.6695431-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.6695431-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.6695431-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.6695431-06:00:Thread#0:Scheduler: with testItemExecutionIndex 52
+2021-06-19T22:54:07.6715425-06:00:Thread#0: Test #4/51 is finished on thread #0 as Failed within 0.0230225 seconds
+2021-06-19T22:54:07.6725427-06:00:Thread#0: Test #4/52 is started on thread #0
+2021-06-19T22:54:07.6735433-06:00:2021-06-19T22:54:07.6735433-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.6765433-06:00:2021-06-19T22:54:07.6765433-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.6775441-06:00:2021-06-19T22:54:07.6765433-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.6785447-06:00:2021-06-19T22:54:07.6775441-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.6805450-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.6805450-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.6805450-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.6805450-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.6805450-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.6805450-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.6805450-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.6805450-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.6805450-06:00:Thread#0:Scheduler: with testItemExecutionIndex 53
+2021-06-19T22:54:07.6825455-06:00:Thread#0: Test #4/52 is finished on thread #0 as Failed within 0.0100028 seconds
+2021-06-19T22:54:07.6835463-06:00:Thread#0: Test #4/53 is started on thread #0
+2021-06-19T22:54:07.6845467-06:00:2021-06-19T22:54:07.6845467-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.6885458-06:00:2021-06-19T22:54:07.6885458-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.6895466-06:00:2021-06-19T22:54:07.6895466-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.6895466-06:00:2021-06-19T22:54:07.6895466-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.6935486-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.6935486-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.6935486-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.6935486-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.6935486-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.6935486-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.6935486-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.6935486-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.6935486-06:00:Thread#0:Scheduler: with testItemExecutionIndex 54
+2021-06-19T22:54:07.6965485-06:00:Thread#0: Test #4/53 is finished on thread #0 as Failed within 0.0130022 seconds
+2021-06-19T22:54:07.6975489-06:00:Thread#0: Test #4/54 is started on thread #0
+2021-06-19T22:54:07.6985491-06:00:2021-06-19T22:54:07.6985491-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7015498-06:00:2021-06-19T22:54:07.7005493-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7015498-06:00:2021-06-19T22:54:07.7015498-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7025501-06:00:2021-06-19T22:54:07.7025501-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7045513-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7045513-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7045513-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7045513-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7045513-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7045513-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7045513-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7045513-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7045513-06:00:Thread#0:Scheduler: with testItemExecutionIndex 55
+2021-06-19T22:54:07.7065518-06:00:Thread#0: Test #4/54 is finished on thread #0 as Failed within 0.0090029 seconds
+2021-06-19T22:54:07.7085510-06:00:Thread#0: Test #4/55 is started on thread #0
+2021-06-19T22:54:07.7105519-06:00:2021-06-19T22:54:07.7095512-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7125530-06:00:2021-06-19T22:54:07.7125530-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7135528-06:00:2021-06-19T22:54:07.7135528-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7145523-06:00:2021-06-19T22:54:07.7145523-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7165534-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7165534-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7165534-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7165534-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7165534-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7165534-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7165534-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7165534-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7165534-06:00:Thread#0:Scheduler: with testItemExecutionIndex 56
+2021-06-19T22:54:07.7185533-06:00:Thread#0: Test #4/55 is finished on thread #0 as Failed within 0.0100023 seconds
+2021-06-19T22:54:07.7195542-06:00:Thread#0: Test #4/56 is started on thread #0
+2021-06-19T22:54:07.7205547-06:00:2021-06-19T22:54:07.7205547-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7235556-06:00:2021-06-19T22:54:07.7225549-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7245549-06:00:2021-06-19T22:54:07.7235556-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7245549-06:00:2021-06-19T22:54:07.7245549-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7285568-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7285568-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7285568-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7285568-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7285568-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7285568-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7285568-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7285568-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7285568-06:00:Thread#0:Scheduler: with testItemExecutionIndex 57
+2021-06-19T22:54:07.7325569-06:00:Thread#0: Test #4/56 is finished on thread #0 as Failed within 0.0120026 seconds
+2021-06-19T22:54:07.7325569-06:00:Thread#0: Test #4/57 is started on thread #0
+2021-06-19T22:54:07.7345568-06:00:2021-06-19T22:54:07.7345568-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7385583-06:00:2021-06-19T22:54:07.7375590-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7395587-06:00:2021-06-19T22:54:07.7395587-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7405585-06:00:2021-06-19T22:54:07.7405585-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7425591-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7425591-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7425591-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7425591-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7425591-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7425591-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7425591-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7425591-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7425591-06:00:Thread#0:Scheduler: with testItemExecutionIndex 58
+2021-06-19T22:54:07.7445594-06:00:Thread#0: Test #4/57 is finished on thread #0 as Failed within 0.0110022 seconds
+2021-06-19T22:54:07.7465607-06:00:Thread#0: Test #4/58 is started on thread #0
+2021-06-19T22:54:07.7495606-06:00:2021-06-19T22:54:07.7485603-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7515607-06:00:2021-06-19T22:54:07.7515607-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7525609-06:00:2021-06-19T22:54:07.7525609-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7535613-06:00:2021-06-19T22:54:07.7535613-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7565621-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7565621-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7565621-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7565621-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7565621-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7565621-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7565621-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7565621-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7565621-06:00:Thread#0:Scheduler: with testItemExecutionIndex 59
+2021-06-19T22:54:07.7595635-06:00:Thread#0: Test #4/58 is finished on thread #0 as Failed within 0.0130028 seconds
+2021-06-19T22:54:07.7630761-06:00:Thread#0: Test #4/59 is started on thread #0
+2021-06-19T22:54:07.7640764-06:00:2021-06-19T22:54:07.7630761-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7665930-06:00:2021-06-19T22:54:07.7665930-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7675851-06:00:2021-06-19T22:54:07.7675851-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7695872-06:00:2021-06-19T22:54:07.7685858-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7715874-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7715874-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7715874-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7715874-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7715874-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7715874-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7715874-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7715874-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7725879-06:00:Thread#0:Scheduler: with testItemExecutionIndex 60
+2021-06-19T22:54:07.7745875-06:00:Thread#0: Test #4/59 is finished on thread #0 as Failed within 0.0115114 seconds
+2021-06-19T22:54:07.7775885-06:00:Thread#0: Test #4/60 is started on thread #0
+2021-06-19T22:54:07.7785891-06:00:2021-06-19T22:54:07.7785891-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7835892-06:00:2021-06-19T22:54:07.7825900-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.7855905-06:00:2021-06-19T22:54:07.7845913-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.7885907-06:00:2021-06-19T22:54:07.7865906-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.7905921-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.7905921-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.7905921-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.7905921-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.7905921-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.7905921-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.7905921-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.7905921-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.7905921-06:00:Thread#0:Scheduler: with testItemExecutionIndex 61
+2021-06-19T22:54:07.7935916-06:00:Thread#0: Test #4/60 is finished on thread #0 as Failed within 0.0160031 seconds
+2021-06-19T22:54:07.7945925-06:00:Thread#0: Test #4/61 is started on thread #0
+2021-06-19T22:54:07.7955925-06:00:2021-06-19T22:54:07.7945925-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.7995929-06:00:2021-06-19T22:54:07.7985930-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8005936-06:00:2021-06-19T22:54:07.7995929-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8015936-06:00:2021-06-19T22:54:07.8005936-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8055949-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8055949-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8055949-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8055949-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8055949-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8055949-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8055949-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8055949-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8055949-06:00:Thread#0:Scheduler: with testItemExecutionIndex 62
+2021-06-19T22:54:07.8075952-06:00:Thread#0: Test #4/61 is finished on thread #0 as Failed within 0.0130027 seconds
+2021-06-19T22:54:07.8085946-06:00:Thread#0: Test #4/62 is started on thread #0
+2021-06-19T22:54:07.8105952-06:00:2021-06-19T22:54:07.8105952-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.8286003-06:00:2021-06-19T22:54:07.8275999-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8296005-06:00:2021-06-19T22:54:07.8296005-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8306003-06:00:2021-06-19T22:54:07.8306003-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8326016-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8336027-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8336027-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8346017-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8346017-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8346017-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8346017-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8346017-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8346017-06:00:Thread#0:Scheduler: with testItemExecutionIndex 63
+2021-06-19T22:54:07.8396020-06:00:Thread#0: Test #4/62 is finished on thread #0 as Failed within 0.0310074 seconds
+2021-06-19T22:54:07.8406027-06:00:Thread#0: Test #4/63 is started on thread #0
+2021-06-19T22:54:07.8406027-06:00:2021-06-19T22:54:07.8406027-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.8436036-06:00:2021-06-19T22:54:07.8436036-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8446031-06:00:2021-06-19T22:54:07.8446031-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8456030-06:00:2021-06-19T22:54:07.8446031-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8466037-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8466037-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8466037-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8466037-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8466037-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8466037-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8466037-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8466037-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8466037-06:00:Thread#0:Scheduler: with testItemExecutionIndex 64
+2021-06-19T22:54:07.8496048-06:00:Thread#0: Test #4/63 is finished on thread #0 as Failed within 0.0090021 seconds
+2021-06-19T22:54:07.8501211-06:00:Thread#0: Test #4/64 is started on thread #0
+2021-06-19T22:54:07.8521140-06:00:2021-06-19T22:54:07.8511148-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.8566343-06:00:2021-06-19T22:54:07.8561146-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8606251-06:00:2021-06-19T22:54:07.8576250-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8626257-06:00:2021-06-19T22:54:07.8616255-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8656397-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8656397-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8656397-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8656397-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8656397-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8656397-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8656397-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8656397-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8656397-06:00:Thread#0:Scheduler: with testItemExecutionIndex 65
+2021-06-19T22:54:07.8676262-06:00:Thread#0: Test #4/64 is finished on thread #0 as Failed within 0.0175051 seconds
+2021-06-19T22:54:07.8696278-06:00:Thread#0: Test #4/65 is started on thread #0
+2021-06-19T22:54:07.8706280-06:00:2021-06-19T22:54:07.8706280-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.8736285-06:00:2021-06-19T22:54:07.8736285-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8736285-06:00:2021-06-19T22:54:07.8736285-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8746285-06:00:2021-06-19T22:54:07.8746285-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8756288-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8756288-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8756288-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8756288-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8756288-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8756288-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8756288-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8756288-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8756288-06:00:Thread#0:Scheduler: with testItemExecutionIndex 66
+2021-06-19T22:54:07.8776281-06:00:Thread#0: Test #4/65 is finished on thread #0 as Failed within 0.0080003 seconds
+2021-06-19T22:54:07.8786290-06:00:Thread#0: Test #4/66 is started on thread #0
+2021-06-19T22:54:07.8806296-06:00:2021-06-19T22:54:07.8796307-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.8856297-06:00:2021-06-19T22:54:07.8836305-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8856297-06:00:2021-06-19T22:54:07.8856297-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8866309-06:00:2021-06-19T22:54:07.8866309-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8876310-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8876310-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8876310-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8876310-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8876310-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8886305-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8886305-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8886305-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8886305-06:00:Thread#0:Scheduler: with testItemExecutionIndex 67
+2021-06-19T22:54:07.8896326-06:00:Thread#0: Test #4/66 is finished on thread #0 as Failed within 0.0110036 seconds
+2021-06-19T22:54:07.8906327-06:00:Thread#0: Test #4/67 is started on thread #0
+2021-06-19T22:54:07.8916335-06:00:2021-06-19T22:54:07.8916335-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.8956327-06:00:2021-06-19T22:54:07.8946327-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.8966331-06:00:2021-06-19T22:54:07.8966331-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.8976333-06:00:2021-06-19T22:54:07.8976333-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.8996335-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.8996335-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.8996335-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.8996335-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.8996335-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.8996335-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.8996335-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.8996335-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.8996335-06:00:Thread#0:Scheduler: with testItemExecutionIndex 68
+2021-06-19T22:54:07.9016335-06:00:Thread#0: Test #4/67 is finished on thread #0 as Failed within 0.0110008 seconds
+2021-06-19T22:54:07.9016335-06:00:Thread#0: Test #4/68 is started on thread #0
+2021-06-19T22:54:07.9026351-06:00:2021-06-19T22:54:07.9026351-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.9056358-06:00:2021-06-19T22:54:07.9056358-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.9066364-06:00:2021-06-19T22:54:07.9066364-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.9076364-06:00:2021-06-19T22:54:07.9066364-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.9096381-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.9096381-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.9096381-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.9106370-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.9106370-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.9106370-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.9106370-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.9106370-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.9106370-06:00:Thread#0:Scheduler: with testItemExecutionIndex 69
+2021-06-19T22:54:07.9126367-06:00:Thread#0: Test #4/68 is finished on thread #0 as Failed within 0.0110032 seconds
+2021-06-19T22:54:07.9136369-06:00:Thread#0: Test #4/69 is started on thread #0
+2021-06-19T22:54:07.9146371-06:00:2021-06-19T22:54:07.9136369-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.9166376-06:00:2021-06-19T22:54:07.9166376-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.9176383-06:00:2021-06-19T22:54:07.9176383-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.9186383-06:00:2021-06-19T22:54:07.9176383-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.9196382-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.9196382-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.9196382-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.9196382-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.9196382-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.9196382-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.9196382-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.9196382-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.9196382-06:00:Thread#0:Scheduler: with testItemExecutionIndex 70
+2021-06-19T22:54:07.9226394-06:00:Thread#0: Test #4/69 is finished on thread #0 as Failed within 0.0090025 seconds
+2021-06-19T22:54:07.9236389-06:00:Thread#0: Test #4/70 is started on thread #0
+2021-06-19T22:54:07.9246398-06:00:2021-06-19T22:54:07.9236389-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.9296415-06:00:2021-06-19T22:54:07.9286402-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.9296415-06:00:2021-06-19T22:54:07.9296415-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.9306407-06:00:2021-06-19T22:54:07.9306407-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.9326416-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.9326416-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.9326416-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.9326416-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.9326416-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.9326416-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.9326416-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.9326416-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.9326416-06:00:Thread#0:Scheduler: with testItemExecutionIndex 71
+2021-06-19T22:54:07.9346419-06:00:Thread#0: Test #4/70 is finished on thread #0 as Failed within 0.011003 seconds
+2021-06-19T22:54:07.9356417-06:00:Thread#0: Test #4/71 is started on thread #0
+2021-06-19T22:54:07.9366426-06:00:2021-06-19T22:54:07.9366426-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.9386426-06:00:2021-06-19T22:54:07.9386426-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.9396438-06:00:2021-06-19T22:54:07.9396438-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.9406425-06:00:2021-06-19T22:54:07.9396438-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.9486456-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.9486456-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.9486456-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.9486456-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.9486456-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.9486456-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.9486456-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.9486456-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.9486456-06:00:Thread#0:Scheduler: with testItemExecutionIndex 72
+2021-06-19T22:54:07.9536453-06:00:Thread#0: Test #4/71 is finished on thread #0 as Failed within 0.0180036 seconds
+2021-06-19T22:54:07.9576467-06:00:Thread#0: Test #4/72 is started on thread #0
+2021-06-19T22:54:07.9596479-06:00:2021-06-19T22:54:07.9586472-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.9636479-06:00:2021-06-19T22:54:07.9636479-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.9646491-06:00:2021-06-19T22:54:07.9646491-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.9666490-06:00:2021-06-19T22:54:07.9656492-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.9676490-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.9676490-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.9676490-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.9676490-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.9676490-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.9676490-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.9676490-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.9676490-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.9676490-06:00:Thread#0:Scheduler: with testItemExecutionIndex 73
+2021-06-19T22:54:07.9696492-06:00:Thread#0: Test #4/72 is finished on thread #0 as Failed within 0.0120025 seconds
+2021-06-19T22:54:07.9706494-06:00:Thread#0: Test #4/73 is started on thread #0
+2021-06-19T22:54:07.9796530-06:00:2021-06-19T22:54:07.9716504-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:07.9836523-06:00:2021-06-19T22:54:07.9836523-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:07.9856544-06:00:2021-06-19T22:54:07.9846525-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:07.9866540-06:00:2021-06-19T22:54:07.9866540-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:07.9886533-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:07.9896541-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:07.9896541-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:07.9896541-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:07.9896541-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:07.9896541-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:07.9896541-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:07.9896541-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:07.9896541-06:00:Thread#0:Scheduler: with testItemExecutionIndex 74
+2021-06-19T22:54:07.9926550-06:00:Thread#0: Test #4/73 is finished on thread #0 as Failed within 0.0220056 seconds
+2021-06-19T22:54:07.9936551-06:00:Thread#0: Test #4/74 is started on thread #0
+2021-06-19T22:54:07.9966553-06:00:2021-06-19T22:54:07.9956555-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.0096591-06:00:2021-06-19T22:54:08.0096591-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.0106595-06:00:2021-06-19T22:54:08.0096591-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.0116594-06:00:2021-06-19T22:54:08.0106595-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.0136609-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.0136609-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.0136609-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.0136609-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.0136609-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.0136609-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.0136609-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.0136609-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.0136609-06:00:Thread#0:Scheduler: with testItemExecutionIndex 75
+2021-06-19T22:54:08.0171711-06:00:Thread#0: Test #4/74 is finished on thread #0 as Failed within 0.0225157 seconds
+2021-06-19T22:54:08.0181723-06:00:Thread#0: Test #4/75 is started on thread #0
+2021-06-19T22:54:08.0191723-06:00:2021-06-19T22:54:08.0181723-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.0311755-06:00:2021-06-19T22:54:08.0241745-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.0321757-06:00:2021-06-19T22:54:08.0311755-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.0321757-06:00:2021-06-19T22:54:08.0321757-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.0341762-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.0341762-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.0341762-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.0341762-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.0341762-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.0341762-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.0341762-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.0341762-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.0341762-06:00:Thread#0:Scheduler: with testItemExecutionIndex 76
+2021-06-19T22:54:08.0361766-06:00:Thread#0: Test #4/75 is finished on thread #0 as Failed within 0.0180043 seconds
+2021-06-19T22:54:08.0391766-06:00:Thread#0: Test #4/76 is started on thread #0
+2021-06-19T22:54:08.0401773-06:00:2021-06-19T22:54:08.0401773-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.0461794-06:00:2021-06-19T22:54:08.0451783-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.0461794-06:00:2021-06-19T22:54:08.0461794-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.0471800-06:00:2021-06-19T22:54:08.0471800-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.0491811-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.0491811-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.0491811-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.0491811-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.0491811-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.0491811-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.0491811-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.0491811-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.0491811-06:00:Thread#0:Scheduler: with testItemExecutionIndex 77
+2021-06-19T22:54:08.0511803-06:00:Thread#0: Test #4/76 is finished on thread #0 as Failed within 0.0120037 seconds
+2021-06-19T22:54:08.0521802-06:00:Thread#0: Test #4/77 is started on thread #0
+2021-06-19T22:54:08.0561810-06:00:2021-06-19T22:54:08.0551808-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.0581826-06:00:2021-06-19T22:54:08.0581826-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.0591810-06:00:2021-06-19T22:54:08.0591810-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.0601817-06:00:2021-06-19T22:54:08.0601817-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.0621823-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.0621823-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.0621823-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.0621823-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.0621823-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.0621823-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.0621823-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.0621823-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.0621823-06:00:Thread#0:Scheduler: with testItemExecutionIndex 78
+2021-06-19T22:54:08.0641824-06:00:Thread#0: Test #4/77 is finished on thread #0 as Failed within 0.0120022 seconds
+2021-06-19T22:54:08.0701841-06:00:Thread#0: Test #4/78 is started on thread #0
+2021-06-19T22:54:08.0721843-06:00:2021-06-19T22:54:08.0711843-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.0751853-06:00:2021-06-19T22:54:08.0741846-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.0751853-06:00:2021-06-19T22:54:08.0751853-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.0771861-06:00:2021-06-19T22:54:08.0761856-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.0801870-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.0801870-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.0801870-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.0801870-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.0801870-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.0801870-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.0801870-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.0801870-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.0801870-06:00:Thread#0:Scheduler: with testItemExecutionIndex 79
+2021-06-19T22:54:08.0831873-06:00:Thread#0: Test #4/78 is finished on thread #0 as Failed within 0.0130032 seconds
+2021-06-19T22:54:08.0841870-06:00:Thread#0: Test #4/79 is started on thread #0
+2021-06-19T22:54:08.0861877-06:00:2021-06-19T22:54:08.0861877-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.0891880-06:00:2021-06-19T22:54:08.0891880-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.0901884-06:00:2021-06-19T22:54:08.0901884-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.0911898-06:00:2021-06-19T22:54:08.0901884-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.0941900-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.0941900-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.0941900-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.0941900-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.0941900-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.0941900-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.0941900-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.0941900-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.0941900-06:00:Thread#0:Scheduler: with testItemExecutionIndex 80
+2021-06-19T22:54:08.0961902-06:00:Thread#0: Test #4/79 is finished on thread #0 as Failed within 0.0120032 seconds
+2021-06-19T22:54:08.0961902-06:00:Thread#0: Test #4/80 is started on thread #0
+2021-06-19T22:54:08.0971897-06:00:2021-06-19T22:54:08.0971897-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.1031920-06:00:2021-06-19T22:54:08.1021972-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.1041914-06:00:2021-06-19T22:54:08.1031920-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.1041914-06:00:2021-06-19T22:54:08.1041914-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.1061917-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.1061917-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.1061917-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.1061917-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.1061917-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.1061917-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.1061917-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.1061917-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.1061917-06:00:Thread#0:Scheduler: with testItemExecutionIndex 81
+2021-06-19T22:54:08.1091928-06:00:Thread#0: Test #4/80 is finished on thread #0 as Failed within 0.0130026 seconds
+2021-06-19T22:54:08.1101930-06:00:Thread#0: Test #4/81 is started on thread #0
+2021-06-19T22:54:08.1111926-06:00:2021-06-19T22:54:08.1101930-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.1291974-06:00:2021-06-19T22:54:08.1281981-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.1291974-06:00:2021-06-19T22:54:08.1291974-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.1301978-06:00:2021-06-19T22:54:08.1301978-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.1332014-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.1332014-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.1332014-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.1332014-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.1332014-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.1332014-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.1332014-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.1332014-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.1332014-06:00:Thread#0:Scheduler: with testItemExecutionIndex 82
+2021-06-19T22:54:08.1402002-06:00:Thread#0: Test #4/81 is finished on thread #0 as Failed within 0.0300072 seconds
+2021-06-19T22:54:08.1412001-06:00:Thread#0: Test #4/82 is started on thread #0
+2021-06-19T22:54:08.1422004-06:00:2021-06-19T22:54:08.1422004-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.1512021-06:00:2021-06-19T22:54:08.1492016-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.1552030-06:00:2021-06-19T22:54:08.1522020-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.1572029-06:00:2021-06-19T22:54:08.1572029-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.1592039-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.1592039-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.1592039-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.1592039-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.1592039-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.1592039-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.1592039-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.1592039-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.1592039-06:00:Thread#0:Scheduler: with testItemExecutionIndex 83
+2021-06-19T22:54:08.1632052-06:00:Thread#0: Test #4/82 is finished on thread #0 as Failed within 0.0220051 seconds
+2021-06-19T22:54:08.1672059-06:00:Thread#0: Test #4/83 is started on thread #0
+2021-06-19T22:54:08.1702059-06:00:2021-06-19T22:54:08.1692059-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.1822090-06:00:2021-06-19T22:54:08.1812096-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.1832093-06:00:2021-06-19T22:54:08.1822090-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.1832093-06:00:2021-06-19T22:54:08.1832093-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.1852097-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.1852097-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.1852097-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.1852097-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.1852097-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.1852097-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.1852097-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.1852097-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.1852097-06:00:Thread#0:Scheduler: with testItemExecutionIndex 84
+2021-06-19T22:54:08.1872104-06:00:Thread#0: Test #4/83 is finished on thread #0 as Failed within 0.0200045 seconds
+2021-06-19T22:54:08.1922117-06:00:Thread#0: Test #4/84 is started on thread #0
+2021-06-19T22:54:08.2012160-06:00:2021-06-19T22:54:08.1962137-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.2052144-06:00:2021-06-19T22:54:08.2052144-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.2062145-06:00:2021-06-19T22:54:08.2062145-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.2072150-06:00:2021-06-19T22:54:08.2062145-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.2082174-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.2082174-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.2082174-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.2082174-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.2082174-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.2082174-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.2082174-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.2082174-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.2082174-06:00:Thread#0:Scheduler: with testItemExecutionIndex 85
+2021-06-19T22:54:08.2102152-06:00:Thread#0: Test #4/84 is finished on thread #0 as Failed within 0.0180035 seconds
+2021-06-19T22:54:08.2112150-06:00:Thread#0: Test #4/85 is started on thread #0
+2021-06-19T22:54:08.2132163-06:00:2021-06-19T22:54:08.2122158-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.2192175-06:00:2021-06-19T22:54:08.2192175-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.2202182-06:00:2021-06-19T22:54:08.2202182-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.2212188-06:00:2021-06-19T22:54:08.2202182-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.2232181-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.2232181-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.2232181-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.2232181-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.2232181-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.2232181-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.2232181-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.2232181-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.2232181-06:00:Thread#0:Scheduler: with testItemExecutionIndex 86
+2021-06-19T22:54:08.2252190-06:00:Thread#0: Test #4/85 is finished on thread #0 as Failed within 0.014004 seconds
+2021-06-19T22:54:08.2272192-06:00:Thread#0: Test #4/86 is started on thread #0
+2021-06-19T22:54:08.2282195-06:00:2021-06-19T22:54:08.2282195-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.2342220-06:00:2021-06-19T22:54:08.2332212-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.2342220-06:00:2021-06-19T22:54:08.2342220-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.2352246-06:00:2021-06-19T22:54:08.2352246-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.2372218-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.2372218-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.2372218-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.2372218-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.2372218-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.2372218-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.2372218-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.2372218-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.2372218-06:00:Thread#0:Scheduler: with testItemExecutionIndex 87
+2021-06-19T22:54:08.2392216-06:00:Thread#0: Test #4/86 is finished on thread #0 as Failed within 0.0120024 seconds
+2021-06-19T22:54:08.2402230-06:00:Thread#0: Test #4/87 is started on thread #0
+2021-06-19T22:54:08.2412234-06:00:2021-06-19T22:54:08.2412234-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.2472247-06:00:2021-06-19T22:54:08.2462244-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.2482245-06:00:2021-06-19T22:54:08.2482245-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.2492246-06:00:2021-06-19T22:54:08.2492246-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.2502247-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.2502247-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.2502247-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.2502247-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.2502247-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.2502247-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.2502247-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.2502247-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.2502247-06:00:Thread#0:Scheduler: with testItemExecutionIndex 88
+2021-06-19T22:54:08.2542259-06:00:Thread#0: Test #4/87 is finished on thread #0 as Failed within 0.0140029 seconds
+2021-06-19T22:54:08.2552261-06:00:Thread#0: Test #4/88 is started on thread #0
+2021-06-19T22:54:08.2562259-06:00:2021-06-19T22:54:08.2552261-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.2592272-06:00:2021-06-19T22:54:08.2592272-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.2602264-06:00:2021-06-19T22:54:08.2602264-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.2612263-06:00:2021-06-19T22:54:08.2612263-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.2652274-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.2652274-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.2652274-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.2652274-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.2652274-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.2652274-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.2652274-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.2652274-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.2652274-06:00:Thread#0:Scheduler: with testItemExecutionIndex 89
+2021-06-19T22:54:08.2682296-06:00:Thread#0: Test #4/88 is finished on thread #0 as Failed within 0.0120022 seconds
+2021-06-19T22:54:08.2702292-06:00:Thread#0: Test #4/89 is started on thread #0
+2021-06-19T22:54:08.2712297-06:00:2021-06-19T22:54:08.2712297-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.2762293-06:00:2021-06-19T22:54:08.2762293-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.2772294-06:00:2021-06-19T22:54:08.2762293-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.2782302-06:00:2021-06-19T22:54:08.2772294-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.3012360-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.3012360-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.3012360-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.3022361-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.3022361-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.3022361-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.3022361-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.3022361-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.3022361-06:00:Thread#0:Scheduler: with testItemExecutionIndex 90
+2021-06-19T22:54:08.3097474-06:00:Thread#0: Test #4/89 is finished on thread #0 as Failed within 0.0395182 seconds
+2021-06-19T22:54:08.3107464-06:00:Thread#0: Test #4/90 is started on thread #0
+2021-06-19T22:54:08.3117467-06:00:2021-06-19T22:54:08.3107464-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.3147474-06:00:2021-06-19T22:54:08.3147474-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.3162666-06:00:2021-06-19T22:54:08.3157489-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.3167874-06:00:2021-06-19T22:54:08.3167874-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.3187734-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.3187734-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.3187734-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.3187734-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.3187734-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.3187734-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.3187734-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.3187734-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.3187734-06:00:Thread#0:Scheduler: with testItemExecutionIndex 91
+2021-06-19T22:54:08.3217748-06:00:Thread#0: Test #4/90 is finished on thread #0 as Failed within 0.0110284 seconds
+2021-06-19T22:54:08.3227754-06:00:Thread#0: Test #4/91 is started on thread #0
+2021-06-19T22:54:08.3247760-06:00:2021-06-19T22:54:08.3237772-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.3288172-06:00:2021-06-19T22:54:08.3278175-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.3318173-06:00:2021-06-19T22:54:08.3308179-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.3383303-06:00:2021-06-19T22:54:08.3338181-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.3433316-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.3433316-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.3433316-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.3433316-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.3433316-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.3433316-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.3433316-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.3433316-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.3433316-06:00:Thread#0:Scheduler: with testItemExecutionIndex 92
+2021-06-19T22:54:08.3453323-06:00:Thread#0: Test #4/91 is finished on thread #0 as Failed within 0.0225569 seconds
+2021-06-19T22:54:08.3463327-06:00:Thread#0: Test #4/92 is started on thread #0
+2021-06-19T22:54:08.3473324-06:00:2021-06-19T22:54:08.3473324-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.3563343-06:00:2021-06-19T22:54:08.3563343-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.3643356-06:00:2021-06-19T22:54:08.3563343-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.3773395-06:00:2021-06-19T22:54:08.3713371-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.3793387-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.3793387-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.3793387-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.3793387-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.3793387-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.3793387-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.3793387-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.3793387-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.3793387-06:00:Thread#0:Scheduler: with testItemExecutionIndex 93
+2021-06-19T22:54:08.3813397-06:00:Thread#0: Test #4/92 is finished on thread #0 as Failed within 0.035007 seconds
+2021-06-19T22:54:08.3823423-06:00:Thread#0: Test #4/93 is started on thread #0
+2021-06-19T22:54:08.3833402-06:00:2021-06-19T22:54:08.3833402-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.3873419-06:00:2021-06-19T22:54:08.3873419-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.3883419-06:00:2021-06-19T22:54:08.3883419-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.3893418-06:00:2021-06-19T22:54:08.3893418-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.3913422-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.3913422-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.3913422-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.3913422-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.3913422-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.3913422-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.3913422-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.3913422-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.3913422-06:00:Thread#0:Scheduler: with testItemExecutionIndex 94
+2021-06-19T22:54:08.3943431-06:00:Thread#0: Test #4/93 is finished on thread #0 as Failed within 0.0120008 seconds
+2021-06-19T22:54:08.3963434-06:00:Thread#0: Test #4/94 is started on thread #0
+2021-06-19T22:54:08.4003437-06:00:2021-06-19T22:54:08.3973430-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.4073458-06:00:2021-06-19T22:54:08.4073458-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.4083463-06:00:2021-06-19T22:54:08.4083463-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.4093595-06:00:2021-06-19T22:54:08.4083463-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.4103457-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.4103457-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.4103457-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.4103457-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.4103457-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.4103457-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.4103457-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.4103457-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.4103457-06:00:Thread#0:Scheduler: with testItemExecutionIndex 95
+2021-06-19T22:54:08.4143464-06:00:Thread#0: Test #4/94 is finished on thread #0 as Failed within 0.018003 seconds
+2021-06-19T22:54:08.4153473-06:00:Thread#0: Test #4/95 is started on thread #0
+2021-06-19T22:54:08.4173478-06:00:2021-06-19T22:54:08.4163478-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.4193487-06:00:2021-06-19T22:54:08.4193487-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.4203489-06:00:2021-06-19T22:54:08.4203489-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.4203489-06:00:2021-06-19T22:54:08.4203489-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.4223495-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.4223495-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.4223495-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.4223495-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.4223495-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.4223495-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.4223495-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.4223495-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.4223495-06:00:Thread#0:Scheduler: with testItemExecutionIndex 96
+2021-06-19T22:54:08.4253506-06:00:Thread#0: Test #4/95 is finished on thread #0 as Failed within 0.0090028 seconds
+2021-06-19T22:54:08.4273513-06:00:Thread#0: Test #4/96 is started on thread #0
+2021-06-19T22:54:08.4283496-06:00:2021-06-19T22:54:08.4283496-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.4523553-06:00:2021-06-19T22:54:08.4513544-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.4573559-06:00:2021-06-19T22:54:08.4573559-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.4583563-06:00:2021-06-19T22:54:08.4583563-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.4603570-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.4603570-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.4603570-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.4603570-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.4603570-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.4603570-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.4603570-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.4603570-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.4603570-06:00:Thread#0:Scheduler: with testItemExecutionIndex 97
+2021-06-19T22:54:08.4613574-06:00:Thread#0: Test #4/96 is finished on thread #0 as Failed within 0.0340061 seconds
+2021-06-19T22:54:08.4623570-06:00:Thread#0: Test #4/97 is started on thread #0
+2021-06-19T22:54:08.4633582-06:00:2021-06-19T22:54:08.4633582-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.4723599-06:00:2021-06-19T22:54:08.4713605-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.4723599-06:00:2021-06-19T22:54:08.4723599-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.4733601-06:00:2021-06-19T22:54:08.4733601-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.4743624-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.4743624-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.4743624-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.4743624-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.4743624-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.4743624-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.4743624-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.4743624-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.4743624-06:00:Thread#0:Scheduler: with testItemExecutionIndex 98
+2021-06-19T22:54:08.4763600-06:00:Thread#0: Test #4/97 is finished on thread #0 as Failed within 0.014003 seconds
+2021-06-19T22:54:08.4803622-06:00:Thread#0: Test #4/98 is started on thread #0
+2021-06-19T22:54:08.4843637-06:00:2021-06-19T22:54:08.4843637-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.4873630-06:00:2021-06-19T22:54:08.4873630-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.4883634-06:00:2021-06-19T22:54:08.4873630-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.4883634-06:00:2021-06-19T22:54:08.4883634-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.4903637-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.4903637-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-19T22:54:08.4903637-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-19T22:54:08.4903637-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T22:54:08.4903637-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-19T22:54:08.4903637-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-19T22:54:08.4903637-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-19T22:54:08.4903637-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-19T22:54:08.4903637-06:00:Thread#0:Scheduler: with testItemExecutionIndex 99
+2021-06-19T22:54:08.4923644-06:00:Thread#0: Test #4/98 is finished on thread #0 as Failed within 0.0110015 seconds
+2021-06-19T22:54:08.4993661-06:00:Thread#0: Test #4/99 is started on thread #0
+2021-06-19T22:54:08.5013674-06:00:2021-06-19T22:54:08.5013674-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-19T22:54:08.5053671-06:00:2021-06-19T22:54:08.5043707-06:00:Thread#0:T:error: invalid session id
+2021-06-19T22:54:08.5063684-06:00:2021-06-19T22:54:08.5063684-06:00:Thread#0:B:Then I get what I need
+2021-06-19T22:54:08.5093691-06:00:2021-06-19T22:54:08.5073680-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T22:54:08.5113690-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T22:54:08.5113690-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-19T22:54:08.5113690-06:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-06-19T22:54:08.5113690-06:00:Thread#0:Scheduler: No more tests for thread
+2021-06-19T22:54:08.5163694-06:00:Thread#0: Test #4/99 is finished on thread #0 as Failed within 0.0170033 seconds
+2021-06-19T22:54:08.5283732-06:00:2021-06-19T22:54:08.5283732-06:00:Got Deinitialize Signal
+2021-06-19T22:54:08.5333739-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-19T22:54:08.5353739-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-19T22:54:08.5363745-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-19T22:54:08.5383745-06:00:Trying to cancel thread
+2021-06-19T22:54:08.5383745-06:00:Thread cancelled
+2021-06-19T22:54:08.5383745-06:00:Trying to cancel thread
+2021-06-19T22:54:08.5383745-06:00:Thread cancelled
+2021-06-19T22:54:08.5453764-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-06-19T22:54:08.5453764-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-19T22:54:08.5453764-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-19T22:54:08.5513781-06:00;Thread#13;Info;test run finished
+2021-06-19T22:54:08.5523785-06:00;Thread#13;Info;publishing test results
+2021-06-19T22:54:08.6754062-06:00;Thread#13;Info;test results published
+2021-06-19T22:54:08.6754062-06:00;Thread#13;Info;generating reports
+2021-06-19T22:54:08.8184375-06:00;Thread#13;Info;Starting external report generation process
+2021-06-19T22:54:10.2924747-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-06-19T22:54:10.2924747-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-06-19T22:54:10.2934755-06:00;Thread#13;Info;Failed generating reports
+2021-06-19T22:54:10.3264830-06:00:Total: 1 (test executions: 100)
+2021-06-19T22:54:10.3284827-06:00:Succeeded: 0
+2021-06-19T22:54:10.3284827-06:00:Ignored: 0
+2021-06-19T22:54:10.3294830-06:00:Pending: 0
+2021-06-19T22:54:10.3294830-06:00:Skipped: 0
+2021-06-19T22:54:10.3294830-06:00:Failed: 1
+2021-06-19T22:54:10.3384855-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

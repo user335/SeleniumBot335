@@ -1,0 +1,1049 @@
+﻿2021-08-21T22:05:53.3015673-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-08-21T22:05:53.3015673-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-08-21T22:05:53.3015673-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-08-21T22:05:53.3015673-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-08-21T22:05:53.4614042-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-21T22:05:53.4614042-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-08-21T22:05:53.4614042-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-08-21T22:05:53.5054226-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-08-21T220553.log
+2021-08-21T22:05:53.5114156-06:00;Thread#13;Info;Checking activation
+2021-08-21T22:05:53.5914353-06:00;Thread#13;Info;Activated.
+2021-08-21T22:05:53.5924341-06:00;Thread#13;Info;Activation check completed
+2021-08-21T22:05:53.5924341-06:00;Thread#13;Info;Starting test run
+2021-08-21T22:05:53.6343792-06:00;Thread#13;Info;Discovering target: Default
+2021-08-21T22:05:53.6343792-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-21T22:05:54.0009582-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-21T22:05:54.0019508-06:00:Test Suite Dump
+2021-08-21T22:05:54.0039504-06:00:#0: PracticingSix/PracticingSix - 
+2021-08-21T22:05:54.0039504-06:00:#1: Default - 
+2021-08-21T22:05:54.0039504-06:00:#2: PracticingSix - 
+2021-08-21T22:05:54.0039504-06:00:#4: Twitch Bot! - 
+2021-08-21T22:05:54.0394928-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-08-21T22:05:54.0394928-06:00:End: Test Suite Dump
+2021-08-21T22:05:54.0804968-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-21T22:05:54.0824972-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-08-21T22:05:54.0824972-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-21T22:05:54.0885166-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-21T22:05:54.0885166-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-21T22:05:54.0885166-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-21T22:05:54.0885166-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-21T22:05:54.0895034-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-21T22:05:54.0905041-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-08-21T22:05:54.0905041-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-08-21T22:05:54.0905041-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-08-21T22:05:54.0905041-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-08-21T22:05:54.0905041-06:00:Thread#1:Scheduler: No more tests for thread
+2021-08-21T22:05:54.0935039-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-08-21T22:05:54.0955043-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-21T22:05:54.0985055-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-21T22:05:54.0995050-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-08-21T22:05:54.1025061-06:00:starting Out Of Process Executor
+2021-08-21T22:05:54.1065065-06:00:Starting callback TCP Rpc server
+2021-08-21T22:05:54.1295115-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-08-21T22:05:54.1295115-06:00:Started callback TCP Rpc server on port 32768
+2021-08-21T22:05:54.1295115-06:00:Starting logger TCP Rpc server
+2021-08-21T22:05:54.1400247-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-08-21T22:05:54.1400247-06:00:Started logger TCP Rpc server on port 32769
+2021-08-21T22:05:54.1450248-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 13340 --uniqueId "2021-08-21T220553" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-08-21T22:05:54.1490271-06:00:Executor with PID 18452 has been started successfully.
+2021-08-21T22:05:54.1530273-06:00:Out of Process Executor 18452 started
+2021-08-21T22:05:54.1530273-06:00:Waiting for endpoint
+2021-08-21T22:05:54.6441384-06:00:Remote executor port received: 32770
+2021-08-21T22:05:54.6451374-06:00:Creating executor TCP client on port 32770
+2021-08-21T22:05:54.6451374-06:00:Created executor TCP client on port 32770
+2021-08-21T22:05:54.6451374-06:00:Connecting to remote executor TCP server
+2021-08-21T22:05:54.6461378-06:00:Connected remote executor TCP server
+2021-08-21T22:05:54.6461378-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-08-21T22:05:54.6461378-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-08-21T22:05:54.7936888-06:00:2021-08-21T22:05:54.7921719-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-08-21T22:05:54.7986830-06:00:Endpoint 18452 started
+2021-08-21T22:05:54.8183664-06:00:2021-08-21T22:05:54.8176872-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-08-21T22:05:55.1923573-06:00:2021-08-21T22:05:55.1913587-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-08-21T22:05:55.1983593-06:00:2021-08-21T22:05:55.1983593-06:00:Thread#0:T:-> Using default config
+2021-08-21T22:05:55.9125198-06:00:2021-08-21T22:05:55.9125198-06:00:Thread#0:T:Starting the driver...
+2021-08-21T22:05:57.4537695-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-08-21T22:05:57.4887781-06:00:2021-08-21T22:05:57.4877775-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-21T22:05:57.5337886-06:00:2021-08-21T22:05:57.5337886-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-21T22:05:57.5357884-06:00:2021-08-21T22:05:57.5357884-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-21T22:05:59.2432124-06:00:2021-08-21T22:05:59.2422110-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.7s)
+2021-08-21T22:05:59.2452114-06:00:2021-08-21T22:05:59.2442116-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-21T22:06:19.1698023-06:00:2021-08-21T22:06:19.1688025-06:00:Thread#0:T:Line 1
+2021-08-21T22:06:19.2433867-06:00:2021-08-21T22:06:19.2433867-06:00:Thread#0:T:Parsing: i bought a new bed a few months back from: almightygamesdev
+2021-08-21T22:06:19.2513895-06:00:2021-08-21T22:06:19.2513895-06:00:Thread#0:T:Eyy, its almightygamesdev!
+2021-08-21T22:06:19.2523889-06:00:2021-08-21T22:06:19.2523889-06:00:Thread#0:T:Found 2 clips for user almightygamesdev and rolled clip #: 1
+2021-08-21T22:06:19.2583901-06:00:2021-08-21T22:06:19.2583901-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\almightygamesdev1.wav at time: 8/21/2021 10:06:19 PM
+2021-08-21T22:06:19.2603907-06:00:2021-08-21T22:06:19.2603907-06:00:Thread#0:T:Waiting for 2246.531ms ended at time: 8/21/2021 10:06:19 PM
+2021-08-21T22:06:21.5091542-06:00:2021-08-21T22:06:21.5081525-06:00:Thread#0:T:Duration of clip was 2.246531, thanks rabbit_xxxx you're the best!
+2021-08-21T22:06:21.5111540-06:00:2021-08-21T22:06:21.5101570-06:00:Thread#0:T:clip played the old boring way, duration was: 2.246531
+2021-08-21T22:07:00.7721675-06:00:2021-08-21T22:07:00.7721675-06:00:Thread#0:T:Line 2
+2021-08-21T22:07:00.8471842-06:00:2021-08-21T22:07:00.8461849-06:00:Thread#0:T:Parsing: funny bird video from: almightygamesdev
+2021-08-21T22:07:08.3579275-06:00:2021-08-21T22:07:08.3569275-06:00:Thread#0:T:Line 3
+2021-08-21T22:07:08.4269432-06:00:2021-08-21T22:07:08.4259431-06:00:Thread#0:T:Parsing: but sad too, cuz that bird may starve without humans around from: almightygamesdev
+2021-08-21T22:07:36.9723277-06:00:2021-08-21T22:07:36.9723277-06:00:Thread#0:T:Line 4
+2021-08-21T22:07:37.0453441-06:00:2021-08-21T22:07:37.0453441-06:00:Thread#0:T:Parsing: i'm not going to bed (test) from: almightygamesdev
+2021-08-21T22:07:37.0483448-06:00:2021-08-21T22:07:37.0483448-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:07:37 PM
+2021-08-21T22:07:37.0493452-06:00:2021-08-21T22:07:37.0493452-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:07:37 PM
+2021-08-21T22:07:45.5801424-06:00:2021-08-21T22:07:45.5801424-06:00:Thread#0:T:Line 5
+2021-08-21T22:07:45.6781651-06:00:2021-08-21T22:07:45.6781651-06:00:Thread#0:T:Parsing: goodnight from: dragonwolf3416
+2021-08-21T22:07:45.6851669-06:00:2021-08-21T22:07:45.6841666-06:00:Thread#0:T:{
+2021-08-21T22:07:45.6851669-06:00:2021-08-21T22:07:45.6851669-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T22:07:45.6861669-06:00:2021-08-21T22:07:45.6851669-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T22:07:45.6871674-06:00:2021-08-21T22:07:45.6861669-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T22:07:45.6881672-06:00:2021-08-21T22:07:45.6881672-06:00:Thread#0:T:}
+2021-08-21T22:07:45.6881672-06:00:2021-08-21T22:07:45.6881672-06:00:Thread#0:T:{
+2021-08-21T22:07:45.6891670-06:00:2021-08-21T22:07:45.6891670-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T22:07:45.6891670-06:00:2021-08-21T22:07:45.6891670-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T22:07:45.6901676-06:00:2021-08-21T22:07:45.6901676-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T22:07:45.6901676-06:00:2021-08-21T22:07:45.6901676-06:00:Thread#0:T:}
+2021-08-21T22:07:45.6911672-06:00:2021-08-21T22:07:45.6901676-06:00:Thread#0:T:{
+2021-08-21T22:07:45.6911672-06:00:2021-08-21T22:07:45.6911672-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T22:07:45.6981700-06:00:2021-08-21T22:07:45.6971692-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T22:07:45.6991700-06:00:2021-08-21T22:07:45.6991700-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T22:07:45.7001704-06:00:2021-08-21T22:07:45.6991700-06:00:Thread#0:T:}
+2021-08-21T22:07:45.7001704-06:00:2021-08-21T22:07:45.7001704-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 10:07:45 PM
+2021-08-21T22:07:45.7011705-06:00:2021-08-21T22:07:45.7011705-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 10:07:45 PM
+2021-08-21T22:07:46.9431254-06:00:2021-08-21T22:07:46.9431254-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:07:46 PM
+2021-08-21T22:07:46.9441260-06:00:2021-08-21T22:07:46.9441260-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:07:46 PM
+2021-08-21T22:08:02.7741165-06:00:2021-08-21T22:08:02.7731159-06:00:Thread#0:T:Line 6
+2021-08-21T22:08:02.8504107-06:00:2021-08-21T22:08:02.8494092-06:00:Thread#0:T:Parsing: hurray it works with caps from: dragonwolf3416
+2021-08-21T22:08:13.1802893-06:00:2021-08-21T22:08:13.1792892-06:00:Thread#0:T:Line 7
+2021-08-21T22:08:13.2483052-06:00:2021-08-21T22:08:13.2483052-06:00:Thread#0:T:Parsing: fred flinstone lives in bedrock from: almightygamesdev
+2021-08-21T22:08:39.9784995-06:00:2021-08-21T22:08:39.9774999-06:00:Thread#0:T:Line 8
+2021-08-21T22:08:40.0508762-06:00:2021-08-21T22:08:40.0498764-06:00:Thread#0:T:Parsing: going to sleep (test) from: almightygamesdev
+2021-08-21T22:08:45.1764062-06:00:2021-08-21T22:08:45.1764062-06:00:Thread#0:T:Line 9
+2021-08-21T22:08:45.2509318-06:00:2021-08-21T22:08:45.2509318-06:00:Thread#0:T:Parsing: bed go to ? from: dragonwolf3416
+2021-08-21T22:08:51.2085039-06:00:2021-08-21T22:08:51.2085039-06:00:Thread#0:T:Line 10
+2021-08-21T22:08:51.2795199-06:00:2021-08-21T22:08:51.2785198-06:00:Thread#0:T:Parsing: gotta get some rest from: almightygamesdev
+2021-08-21T22:09:15.1824245-06:00:2021-08-21T22:09:15.1824245-06:00:Thread#0:T:Line 11
+2021-08-21T22:09:15.2624426-06:00:2021-08-21T22:09:15.2624426-06:00:Thread#0:T:Parsing: make an array (bed, sleep, rest, etc) from: almightygamesdev
+2021-08-21T22:10:54.1805137-06:00:2021-08-21T22:10:54.1795133-06:00:Thread#0:T:Line 12
+2021-08-21T22:10:54.2695732-06:00:2021-08-21T22:10:54.2685715-06:00:Thread#0:T:Parsing: does it check caps? from: almightygamesdev
+2021-08-21T22:11:21.3949308-06:00:2021-08-21T22:11:21.3939305-06:00:Thread#0:T:Line 13
+2021-08-21T22:11:21.4829760-06:00:2021-08-21T22:11:21.4829760-06:00:Thread#0:T:Parsing: recording mode active from: mrnoah99
+2021-08-21T22:11:21.4879772-06:00:2021-08-21T22:11:21.4869748-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-08-21T22:11:21.4889767-06:00:2021-08-21T22:11:21.4889767-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 1
+2021-08-21T22:11:21.4929767-06:00:2021-08-21T22:11:21.4929767-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\mrnoah991.wav at time: 8/21/2021 10:11:21 PM
+2021-08-21T22:11:21.4969775-06:00:2021-08-21T22:11:21.4969775-06:00:Thread#0:T:Waiting for 8568.167ms ended at time: 8/21/2021 10:11:21 PM
+2021-08-21T22:11:30.0705557-06:00:2021-08-21T22:11:30.0695563-06:00:Thread#0:T:Duration of clip was 8.568167, thanks rabbit_xxxx you're the best!
+2021-08-21T22:11:30.0705557-06:00:2021-08-21T22:11:30.0705557-06:00:Thread#0:T:clip played the old boring way, duration was: 8.568167
+2021-08-21T22:11:30.0775574-06:00:2021-08-21T22:11:30.0775574-06:00:Thread#0:T:Line 15
+2021-08-21T22:11:30.1409393-06:00:2021-08-21T22:11:30.1399385-06:00:Thread#0:T:Parsing: !lurk from: mrnoah99
+2021-08-21T22:11:30.1449387-06:00:2021-08-21T22:11:30.1449387-06:00:Thread#0:T:{
+2021-08-21T22:11:30.1459402-06:00:2021-08-21T22:11:30.1449387-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-21T22:11:30.1469402-06:00:2021-08-21T22:11:30.1459402-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-08-21T22:11:30.1469402-06:00:2021-08-21T22:11:30.1469402-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-08-21T22:11:30.1479399-06:00:2021-08-21T22:11:30.1479399-06:00:Thread#0:T:}
+2021-08-21T22:11:30.1479399-06:00:2021-08-21T22:11:30.1479399-06:00:Thread#0:T:{
+2021-08-21T22:11:30.1489410-06:00:2021-08-21T22:11:30.1489410-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-08-21T22:11:30.1489410-06:00:2021-08-21T22:11:30.1489410-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T22:11:30.1499405-06:00:2021-08-21T22:11:30.1499405-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-08-21T22:11:30.1509403-06:00:2021-08-21T22:11:30.1499405-06:00:Thread#0:T:}
+2021-08-21T22:11:30.1509403-06:00:2021-08-21T22:11:30.1509403-06:00:Thread#0:T:{
+2021-08-21T22:11:30.1519401-06:00:2021-08-21T22:11:30.1519401-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T22:11:30.1519401-06:00:2021-08-21T22:11:30.1519401-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-08-21T22:11:30.1529411-06:00:2021-08-21T22:11:30.1519401-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-08-21T22:11:30.1539409-06:00:2021-08-21T22:11:30.1539409-06:00:Thread#0:T:}
+2021-08-21T22:11:30.1539409-06:00:2021-08-21T22:11:30.1539409-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 8/21/2021 10:11:30 PM
+2021-08-21T22:11:30.1549411-06:00:2021-08-21T22:11:30.1549411-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 8/21/2021 10:11:30 PM
+2021-08-21T22:11:35.7490392-06:00:2021-08-21T22:11:35.7490392-06:00:Thread#0:T:Line 16
+2021-08-21T22:11:35.8330561-06:00:2021-08-21T22:11:35.8320559-06:00:Thread#0:T:Line 16
+2021-08-21T22:11:35.9090734-06:00:2021-08-21T22:11:35.9080726-06:00:Thread#0:T:Parsing: so yeah good call on string.tolower() from: almightygamesdev
+2021-08-21T22:11:44.5940978-06:00:2021-08-21T22:11:44.5940978-06:00:Thread#0:T:Line 17
+2021-08-21T22:11:44.6721157-06:00:2021-08-21T22:11:44.6721157-06:00:Thread#0:T:Parsing: !lurk from: sky_acaniadev
+2021-08-21T22:11:44.6741155-06:00:2021-08-21T22:11:44.6741155-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-08-21T22:11:44.6751156-06:00:2021-08-21T22:11:44.6751156-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 0
+2021-08-21T22:11:44.6821177-06:00:2021-08-21T22:11:44.6811168-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev.wav at time: 8/21/2021 10:11:44 PM
+2021-08-21T22:11:44.6841178-06:00:2021-08-21T22:11:44.6831178-06:00:Thread#0:T:Waiting for 1915.646ms ended at time: 8/21/2021 10:11:44 PM
+2021-08-21T22:11:46.6027087-06:00:2021-08-21T22:11:46.6027087-06:00:Thread#0:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-08-21T22:11:46.6037091-06:00:2021-08-21T22:11:46.6037091-06:00:Thread#0:T:clip played the old boring way, duration was: 1.915646
+2021-08-21T22:11:46.6077095-06:00:2021-08-21T22:11:46.6067110-06:00:Thread#0:T:{
+2021-08-21T22:11:46.6077095-06:00:2021-08-21T22:11:46.6077095-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-21T22:11:46.6077095-06:00:2021-08-21T22:11:46.6077095-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-08-21T22:11:46.6087431-06:00:2021-08-21T22:11:46.6087431-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-08-21T22:11:46.6087431-06:00:2021-08-21T22:11:46.6087431-06:00:Thread#0:T:}
+2021-08-21T22:11:46.6097161-06:00:2021-08-21T22:11:46.6097161-06:00:Thread#0:T:{
+2021-08-21T22:11:46.6097161-06:00:2021-08-21T22:11:46.6097161-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-08-21T22:11:46.6097161-06:00:2021-08-21T22:11:46.6097161-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T22:11:46.6107161-06:00:2021-08-21T22:11:46.6107161-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-08-21T22:11:46.6107161-06:00:2021-08-21T22:11:46.6107161-06:00:Thread#0:T:}
+2021-08-21T22:11:46.6117159-06:00:2021-08-21T22:11:46.6117159-06:00:Thread#0:T:{
+2021-08-21T22:11:46.6117159-06:00:2021-08-21T22:11:46.6117159-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T22:11:46.6137155-06:00:2021-08-21T22:11:46.6137155-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-08-21T22:11:46.6137155-06:00:2021-08-21T22:11:46.6137155-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-08-21T22:11:46.6147162-06:00:2021-08-21T22:11:46.6147162-06:00:Thread#0:T:}
+2021-08-21T22:11:46.6152838-06:00:2021-08-21T22:11:46.6147162-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 8/21/2021 10:11:46 PM
+2021-08-21T22:11:46.6162716-06:00:2021-08-21T22:11:46.6162716-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 8/21/2021 10:11:46 PM
+2021-08-21T22:11:52.1979319-06:00:2021-08-21T22:11:52.1979319-06:00:Thread#0:T:Line 18
+2021-08-21T22:13:05.6119869-06:00:2021-08-21T22:13:05.6109864-06:00:Thread#0:T:Line 19
+2021-08-21T22:13:05.7280142-06:00:2021-08-21T22:13:05.7280142-06:00:Thread#0:T:Parsing: (going, gonna, gotta) in an array followed by (sleep, rest, bed) in another array ... this is how my brain thinks anyway from: almightygamesdev
+2021-08-21T22:17:19.9853539-06:00:2021-08-21T22:17:19.9843533-06:00:Thread#0:T:Line 20
+2021-08-21T22:17:20.0674822-06:00:2021-08-21T22:17:20.0674822-06:00:Thread#0:T:Parsing: if(checkgoing() && checkbed()) { play(someaudio); } from: almightygamesdev
+2021-08-21T22:17:35.9936619-06:00:2021-08-21T22:17:35.9936619-06:00:Thread#0:T:Line 21
+2021-08-21T22:17:36.0886823-06:00:2021-08-21T22:17:36.0886823-06:00:Thread#0:T:Parsing: the chain lightning is so beautiful from: sky_acaniadev
+2021-08-21T22:17:36.0916817-06:00:2021-08-21T22:17:36.0916817-06:00:Thread#0:T:{
+2021-08-21T22:17:36.0926814-06:00:2021-08-21T22:17:36.0926814-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T22:17:36.0926814-06:00:2021-08-21T22:17:36.0926814-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-21T22:17:36.0936817-06:00:2021-08-21T22:17:36.0936817-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-21T22:17:36.0936817-06:00:2021-08-21T22:17:36.0936817-06:00:Thread#0:T:}
+2021-08-21T22:17:36.0946817-06:00:2021-08-21T22:17:36.0946817-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCUNBURROW.wav at time: 8/21/2021 10:17:36 PM
+2021-08-21T22:17:36.0966840-06:00:2021-08-21T22:17:36.0966840-06:00:Thread#0:T:Waiting for 1181.429ms ended at time: 8/21/2021 10:17:36 PM
+2021-08-21T22:18:32.9937050-06:00:2021-08-21T22:18:32.9927053-06:00:Thread#0:T:Line 22
+2021-08-21T22:18:33.0792521-06:00:2021-08-21T22:18:33.0792521-06:00:Thread#0:T:Parsing: yeah, the same as before, with a little bit color change. from: sky_acaniadev
+2021-08-21T22:18:47.9902184-06:00:2021-08-21T22:18:47.9892186-06:00:Thread#0:T:Line 23
+2021-08-21T22:18:48.0702367-06:00:2021-08-21T22:18:48.0702367-06:00:Thread#0:T:Parsing: billy is saying you should check for at least going one type of "going" and one type of "bed" in a sentence before it triggers from: thatmanrobin
+2021-08-21T22:18:48.0722367-06:00:2021-08-21T22:18:48.0722367-06:00:Thread#0:T:Eyy, its thatmanrobin!
+2021-08-21T22:18:48.0742367-06:00:2021-08-21T22:18:48.0732369-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\thatmanrobin.wav at time: 8/21/2021 10:18:48 PM
+2021-08-21T22:18:48.0742367-06:00:2021-08-21T22:18:48.0742367-06:00:Thread#0:T:Waiting for 6112.653ms ended at time: 8/21/2021 10:18:48 PM
+2021-08-21T22:18:54.1882564-06:00:2021-08-21T22:18:54.1882564-06:00:Thread#0:T:Duration of clip was 6.112653, thanks rabbit_xxxx you're the best!
+2021-08-21T22:18:54.1892470-06:00:2021-08-21T22:18:54.1892470-06:00:Thread#0:T:clip played the old boring way, duration was: 6.112653
+2021-08-21T22:19:18.7866209-06:00:2021-08-21T22:19:18.7856208-06:00:Thread#0:T:Line 24
+2021-08-21T22:19:18.8646386-06:00:2021-08-21T22:19:18.8646386-06:00:Thread#0:T:Parsing: maxed out is great heh from: dragonwolf3416
+2021-08-21T22:19:22.8452080-06:00:2021-08-21T22:19:22.8442077-06:00:Thread#0:T:Line 25
+2021-08-21T22:19:22.9542316-06:00:2021-08-21T22:19:22.9532318-06:00:Thread#0:T:Parsing: i can do a silent stream to "test" my game after your stream if you wanna watch @user335 from: sky_acaniadev
+2021-08-21T22:20:02.7847049-06:00:2021-08-21T22:20:02.7837057-06:00:Thread#0:T:Line 26
+2021-08-21T22:20:02.8742328-06:00:2021-08-21T22:20:02.8742328-06:00:Thread#0:T:Parsing: i like it from: thatmanrobin
+2021-08-21T22:20:06.3674557-06:00:2021-08-21T22:20:06.3664560-06:00:Thread#0:T:Line 27
+2021-08-21T22:20:06.4453180-06:00:2021-08-21T22:20:06.4443193-06:00:Thread#0:T:Parsing: sounds demonic from: thatmanrobin
+2021-08-21T22:20:07.3869442-06:00:2021-08-21T22:20:07.3869442-06:00:Thread#0:T:Line 28
+2021-08-21T22:20:07.4614364-06:00:2021-08-21T22:20:07.4604366-06:00:Thread#0:T:Parsing: sounds good from: sky_acaniadev
+2021-08-21T22:20:19.1983426-06:00:2021-08-21T22:20:19.1983426-06:00:Thread#0:T:Line 29
+2021-08-21T22:20:19.2973655-06:00:2021-08-21T22:20:19.2973655-06:00:Thread#0:T:Parsing: test from: user335
+2021-08-21T22:20:19.3003654-06:00:2021-08-21T22:20:19.3003654-06:00:Thread#0:T:Eyy, its user335!
+2021-08-21T22:20:19.3013659-06:00:2021-08-21T22:20:19.3013659-06:00:Thread#0:T:{
+2021-08-21T22:20:19.3023658-06:00:2021-08-21T22:20:19.3023658-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T22:20:19.3023658-06:00:2021-08-21T22:20:19.3023658-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-21T22:20:19.3033661-06:00:2021-08-21T22:20:19.3023658-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-21T22:20:19.3033661-06:00:2021-08-21T22:20:19.3033661-06:00:Thread#0:T:}
+2021-08-21T22:20:19.3043667-06:00:2021-08-21T22:20:19.3043667-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\user335.wav at time: 8/21/2021 10:20:19 PM
+2021-08-21T22:20:19.3053671-06:00:2021-08-21T22:20:19.3053671-06:00:Thread#0:T:Waiting for 763.356ms ended at time: 8/21/2021 10:20:19 PM
+2021-08-21T22:20:20.0712742-06:00:2021-08-21T22:20:20.0702736-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-08-21T22:20:20.0712742-06:00:2021-08-21T22:20:20.0712742-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-08-21T22:20:20.0752912-06:00:2021-08-21T22:20:20.0752912-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\351267__peterbullmusic__mixed-whip-crack-1.wav at time: 8/21/2021 10:20:20 PM
+2021-08-21T22:20:20.0762752-06:00:2021-08-21T22:20:20.0762752-06:00:Thread#0:T:Waiting for 911.3605ms ended at time: 8/21/2021 10:20:20 PM
+2021-08-21T22:20:20.9973755-06:00:2021-08-21T22:20:20.9963753-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\usergetbacktowork.wav at time: 8/21/2021 10:20:20 PM
+2021-08-21T22:20:20.9983757-06:00:2021-08-21T22:20:20.9973755-06:00:Thread#0:T:Waiting for 2095.601ms ended at time: 8/21/2021 10:20:20 PM
+2021-08-21T22:20:28.2065679-06:00:2021-08-21T22:20:28.2055677-06:00:Thread#0:T:Line 30
+2021-08-21T22:20:28.2985891-06:00:2021-08-21T22:20:28.2975880-06:00:Thread#0:T:Parsing:  from: almightygamesdev
+2021-08-21T22:20:32.5933300-06:00:2021-08-21T22:20:32.5933300-06:00:Thread#0:T:Line 31
+2021-08-21T22:20:32.6723487-06:00:2021-08-21T22:20:32.6723487-06:00:Thread#0:T:Parsing: yeah from: thatmanrobin
+2021-08-21T22:20:45.5886592-06:00:2021-08-21T22:20:45.5877029-06:00:Thread#0:T:Line 32
+2021-08-21T22:20:45.6717517-06:00:2021-08-21T22:20:45.6707517-06:00:Thread#0:T:Parsing: doesn't quite match but not very noticeable from: sky_acaniadev
+2021-08-21T22:20:52.3909329-06:00:2021-08-21T22:20:52.3899330-06:00:Thread#0:T:Line 33
+2021-08-21T22:20:52.5035704-06:00:2021-08-21T22:20:52.5035704-06:00:Thread#0:T:Parsing: it's fine from: thatmanrobin
+2021-08-21T22:22:12.3999132-06:00:2021-08-21T22:22:12.3989128-06:00:Thread#0:T:Line 34
+2021-08-21T22:22:12.5019360-06:00:2021-08-21T22:22:12.5009358-06:00:Thread#0:T:Parsing: lol should have demons say "ooh sleeptime" when you go to bed from: thatmanrobin
+2021-08-21T22:22:16.2099462-06:00:2021-08-21T22:22:16.2099462-06:00:Thread#0:T:Line 35
+2021-08-21T22:22:16.3209932-06:00:2021-08-21T22:22:16.3209932-06:00:Thread#0:T:Parsing: what's your current fps? from: almightygamesdev
+2021-08-21T22:23:03.6222179-06:00:2021-08-21T22:23:03.6192175-06:00:Thread#0:T:Line 36
+2021-08-21T22:23:03.7147471-06:00:2021-08-21T22:23:03.7147471-06:00:Thread#0:T:Parsing: oof my obs just froze from: sky_acaniadev
+2021-08-21T22:23:41.1836128-06:00:2021-08-21T22:23:41.1826120-06:00:Thread#0:T:Line 37
+2021-08-21T22:23:41.2681639-06:00:2021-08-21T22:23:41.2675832-06:00:Thread#0:T:Parsing: how are you doing your rain? only efficient way i found it emitting the particles above the camera position in world space from: thatmanrobin
+2021-08-21T22:23:52.9871706-06:00:2021-08-21T22:23:52.9871706-06:00:Thread#0:T:Line 38
+2021-08-21T22:23:53.0715151-06:00:2021-08-21T22:23:53.0715151-06:00:Thread#0:T:Parsing: his rain is handled by enviro from: almightygamesdev
+2021-08-21T22:24:02.5851627-06:00:2021-08-21T22:24:02.5851627-06:00:Thread#0:T:Line 39
+2021-08-21T22:24:02.6711813-06:00:2021-08-21T22:24:02.6711813-06:00:Thread#0:T:Parsing: it sets the particles in front of the camera from: almightygamesdev
+2021-08-21T22:24:23.3981099-06:00:2021-08-21T22:24:23.3971102-06:00:Thread#0:T:Line 40
+2021-08-21T22:24:23.4831306-06:00:2021-08-21T22:24:23.4821317-06:00:Thread#0:T:Parsing: yeah so exactly how i'd do it from: thatmanrobin
+2021-08-21T22:25:12.3956901-06:00:2021-08-21T22:25:12.3946900-06:00:Thread#0:T:Line 41
+2021-08-21T22:25:12.4845773-06:00:2021-08-21T22:25:12.4835773-06:00:Thread#0:T:Parsing: did you know that i used enviro in my "giant blobs from mars" game? from: almightygamesdev
+2021-08-21T22:25:29.9912915-06:00:2021-08-21T22:25:29.9902911-06:00:Thread#0:T:Line 42
+2021-08-21T22:25:30.0753104-06:00:2021-08-21T22:25:30.0753104-06:00:Thread#0:T:Parsing: oh yeah, that's right from: almightygamesdev
+2021-08-21T22:25:56.7903542-06:00:2021-08-21T22:25:56.7883543-06:00:Thread#0:T:Line 43
+2021-08-21T22:25:56.8766110-06:00:2021-08-21T22:25:56.8766110-06:00:Thread#0:T:Parsing: i got enviro and overcloud, part of me likes overcloud better because it has a ssr rain system from: thatmanrobin
+2021-08-21T22:26:59.3883632-06:00:2021-08-21T22:26:59.3863625-06:00:Thread#0:T:Line 44
+2021-08-21T22:26:59.4743731-06:00:2021-08-21T22:26:59.4743731-06:00:Thread#0:T:Parsing: in my pawnshop tycoon game, there are two cameras. one follows the player, the other follows a drone that flies through the city. you can switch cameras at any time, so i had to update enviro to keep it informed where the main camera was in order for weather to draw itself in front of the correct camera. from: almightygamesdev
+2021-08-21T22:28:34.5928521-06:00:2021-08-21T22:28:34.5918520-06:00:Thread#0:T:Line 45
+2021-08-21T22:28:34.6826541-06:00:2021-08-21T22:28:34.6826541-06:00:Thread#0:T:Parsing: screen space reflections from: thatmanrobin
+2021-08-21T22:28:42.1960757-06:00:2021-08-21T22:28:42.1950764-06:00:Thread#0:T:Line 46
+2021-08-21T22:28:42.2911521-06:00:2021-08-21T22:28:42.2901522-06:00:Thread#0:T:Parsing: it does lighting from: thatmanrobin
+2021-08-21T22:29:24.9850662-06:00:2021-08-21T22:29:24.9850662-06:00:Thread#0:T:Line 47
+2021-08-21T22:29:25.0701345-06:00:2021-08-21T22:29:25.0691500-06:00:Thread#0:T:Parsing: no it overlays ground with reflective water like the gorund has been rained on from: thatmanrobin
+2021-08-21T22:29:35.3935231-06:00:2021-08-21T22:29:35.3925232-06:00:Thread#0:T:Line 48
+2021-08-21T22:29:35.4783069-06:00:2021-08-21T22:29:35.4773069-06:00:Thread#0:T:Parsing: and also has rain moving down the sides of stuff from: thatmanrobin
+2021-08-21T22:30:33.7934803-06:00:2021-08-21T22:30:33.7934803-06:00:Thread#0:T:Line 49
+2021-08-21T22:30:33.8796235-06:00:2021-08-21T22:30:33.8786221-06:00:Thread#0:T:Parsing: can screen space reflection work on non-flat terrain? from: sky_acaniadev
+2021-08-21T22:30:46.9902524-06:00:2021-08-21T22:30:46.9892542-06:00:Thread#0:T:Line 50
+2021-08-21T22:30:47.0722755-06:00:2021-08-21T22:30:47.0713883-06:00:Thread#0:T:Parsing: no it doesn't touch require any special shaders because it overlays them, so terrain, sidewalk, roof, etc would recieve the same amount of rain from: thatmanrobin
+2021-08-21T22:31:10.9804789-06:00:2021-08-21T22:31:10.9794715-06:00:Thread#0:T:Line 51
+2021-08-21T22:31:11.0655011-06:00:2021-08-21T22:31:11.0655011-06:00:Thread#0:T:Parsing: yeah sort of from: thatmanrobin
+2021-08-21T22:31:34.2032792-06:00:2021-08-21T22:31:34.2022779-06:00:Thread#0:T:Line 52
+2021-08-21T22:31:34.2884892-06:00:2021-08-21T22:31:34.2874882-06:00:Thread#0:T:Parsing: i assume it mirrors whatever is on top of the screen? from: sky_acaniadev
+2021-08-21T22:31:39.1953926-06:00:2021-08-21T22:31:39.1953926-06:00:Thread#0:T:Line 53
+2021-08-21T22:31:39.2733155-06:00:2021-08-21T22:31:39.2723156-06:00:Thread#0:T:Parsing: so very performant from: sky_acaniadev
+2021-08-21T22:31:47.7854251-06:00:2021-08-21T22:31:47.7844246-06:00:Thread#0:T:Line 54
+2021-08-21T22:31:47.8664592-06:00:2021-08-21T22:31:47.8664592-06:00:Thread#0:T:Parsing: i can use it back in 2009 in udk from: sky_acaniadev
+2021-08-21T22:31:49.3722493-06:00:2021-08-21T22:31:49.3722493-06:00:Thread#0:T:Line 55
+2021-08-21T22:31:49.4766983-06:00:2021-08-21T22:31:49.4766983-06:00:Thread#0:T:Parsing: i have paid attention to the wet fx in valheim. seems tricky to get it just right from: almightygamesdev
+2021-08-21T22:32:11.0079039-06:00:2021-08-21T22:32:11.0079039-06:00:Thread#0:T:Line 56
+2021-08-21T22:32:11.1324405-06:00:2021-08-21T22:32:11.1324405-06:00:Thread#0:T:Parsing: this was a project using it https://www.youtube.com/watch?v=tusbnujrns0 from: thatmanrobin
+2021-08-21T22:32:11.3805441-06:00:2021-08-21T22:32:11.3795458-06:00:Thread#0:T:Line 57
+2021-08-21T22:32:11.4577967-06:00:2021-08-21T22:32:11.4577967-06:00:Thread#0:T:Parsing: valheim does a good job, yeah from: almightygamesdev
+2021-08-21T22:33:22.9962750-06:00:2021-08-21T22:33:22.9952754-06:00:Thread#0:T:Line 58
+2021-08-21T22:33:23.0893158-06:00:2021-08-21T22:33:23.0893158-06:00:Thread#0:T:Parsing: are they reaching destinations (nodes)? maybe the stop you are seeing is a smoothing between nodes? from: almightygamesdev
+2021-08-21T22:33:53.2049850-06:00:2021-08-21T22:33:53.2049850-06:00:Thread#0:T:Line 59
+2021-08-21T22:33:53.2958949-06:00:2021-08-21T22:33:53.2948940-06:00:Thread#0:T:Parsing: oh that looks cool @thatmanrobin from: sky_acaniadev
+2021-08-21T22:36:38.4026101-06:00:2021-08-21T22:36:38.4026101-06:00:Thread#0:T:Line 60
+2021-08-21T22:36:38.5004335-06:00:2021-08-21T22:36:38.5004335-06:00:Thread#0:T:Parsing: @sky_acaniadev sadly i kind of abandoned that project from: thatmanrobin
+2021-08-21T22:36:51.8013563-06:00:2021-08-21T22:36:51.7993558-06:00:Thread#0:T:Line 61
+2021-08-21T22:36:51.9210966-06:00:2021-08-21T22:36:51.9210966-06:00:Thread#0:T:Parsing: yeah from: thatmanrobin
+2021-08-21T22:36:55.1834086-06:00:2021-08-21T22:36:55.1834086-06:00:Thread#0:T:Line 62
+2021-08-21T22:36:55.2763741-06:00:2021-08-21T22:36:55.2763741-06:00:Thread#0:T:Parsing: no that was mine from: thatmanrobin
+2021-08-21T22:36:57.3833223-06:00:2021-08-21T22:36:57.3833223-06:00:Thread#0:T:Line 63
+2021-08-21T22:36:57.4743524-06:00:2021-08-21T22:36:57.4743524-06:00:Thread#0:T:Parsing: yeah from: thatmanrobin
+2021-08-21T22:36:58.9914034-06:00:2021-08-21T22:36:58.9904034-06:00:Thread#0:T:Line 64
+2021-08-21T22:36:59.0734160-06:00:2021-08-21T22:36:59.0734160-06:00:Thread#0:T:Parsing: lmfao from: thatmanrobin
+2021-08-21T22:37:02.9932666-06:00:2021-08-21T22:37:02.9932666-06:00:Thread#0:T:Line 65
+2021-08-21T22:37:03.0897952-06:00:2021-08-21T22:37:03.0897952-06:00:Thread#0:T:Parsing: a few weeks from: thatmanrobin
+2021-08-21T22:37:03.5840842-06:00:2021-08-21T22:37:03.5840842-06:00:Thread#0:T:Line 66
+2021-08-21T22:37:03.6651505-06:00:2021-08-21T22:37:03.6641500-06:00:Thread#0:T:Parsing: yeh, did look great from: almightygamesdev
+2021-08-21T22:37:24.5945002-06:00:2021-08-21T22:37:24.5934992-06:00:Thread#0:T:Line 67
+2021-08-21T22:37:24.6841809-06:00:2021-08-21T22:37:24.6831810-06:00:Thread#0:T:Parsing: thanks man from: thatmanrobin
+2021-08-21T22:38:02.9970864-06:00:2021-08-21T22:38:02.9960861-06:00:Thread#0:T:Line 68
+2021-08-21T22:38:03.0964168-06:00:2021-08-21T22:38:03.0954166-06:00:Thread#0:T:Parsing: yeah most refactoring affects all levels from: thatmanrobin
+2021-08-21T22:38:37.6086461-06:00:2021-08-21T22:38:37.6076450-06:00:Thread#0:T:Line 69
+2021-08-21T22:38:37.7074174-06:00:2021-08-21T22:38:37.7064178-06:00:Thread#0:T:Parsing: hmm i thought it is a tree from: sky_acaniadev
+2021-08-21T22:38:56.5844813-06:00:2021-08-21T22:38:56.5834813-06:00:Thread#0:T:Line 70
+2021-08-21T22:38:56.7005083-06:00:2021-08-21T22:38:56.6995068-06:00:Thread#0:T:Parsing: i wrote a state-machine ai with node-graph editor a while back. they walked around, talked to eachother, interacted with stuff, sat in chairs/benches, and went to bed from: thatmanrobin
+2021-08-21T22:40:31.8114676-06:00:2021-08-21T22:40:31.8104693-06:00:Thread#0:T:Line 71
+2021-08-21T22:40:31.9115077-06:00:2021-08-21T22:40:31.9115077-06:00:Thread#0:T:Parsing: oof, my mage ate a full load of crossbow rapid shot then killed by a zombie mid-air... from: sky_acaniadev
+2021-08-21T22:40:51.0043244-06:00:2021-08-21T22:40:51.0043244-06:00:Thread#0:T:Line 72
+2021-08-21T22:40:51.1016919-06:00:2021-08-21T22:40:51.1016919-06:00:Thread#0:T:Parsing: @sky_acaniadev what game? from: thatmanrobin
+2021-08-21T22:40:55.3942756-06:00:2021-08-21T22:40:55.3942756-06:00:Thread#0:T:Line 73
+2021-08-21T22:40:55.4874991-06:00:2021-08-21T22:40:55.4874991-06:00:Thread#0:T:Parsing: acania from: sky_acaniadev
+2021-08-21T22:41:35.0103697-06:00:2021-08-21T22:41:35.0093693-06:00:Thread#0:T:Line 74
+2021-08-21T22:41:35.1164113-06:00:2021-08-21T22:41:35.1164113-06:00:Thread#0:T:Parsing: gothic 4? from: thatmanrobin
+2021-08-21T22:41:45.4009527-06:00:2021-08-21T22:41:45.3999530-06:00:Thread#0:T:Line 75
+2021-08-21T22:41:45.5120441-06:00:2021-08-21T22:41:45.5110439-06:00:Thread#0:T:Parsing: oh your own game from: thatmanrobin
+2021-08-21T22:41:50.3975683-06:00:2021-08-21T22:41:50.3975683-06:00:Thread#0:T:Line 76
+2021-08-21T22:41:50.4915901-06:00:2021-08-21T22:41:50.4915901-06:00:Thread#0:T:Parsing: lmfao from: thatmanrobin
+2021-08-21T22:42:08.9937526-06:00:2021-08-21T22:42:08.9927517-06:00:Thread#0:T:Line 77
+2021-08-21T22:42:09.0907738-06:00:2021-08-21T22:42:09.0897740-06:00:Thread#0:T:Parsing: moment of stupidity from: thatmanrobin
+2021-08-21T22:42:12.9940708-06:00:2021-08-21T22:42:12.9930711-06:00:Thread#0:T:Line 78
+2021-08-21T22:42:13.0848632-06:00:2021-08-21T22:42:13.0848632-06:00:Thread#0:T:Parsing: oh sorry from: sky_acaniadev
+2021-08-21T22:42:30.7954719-06:00:2021-08-21T22:42:30.7954719-06:00:Thread#0:T:Line 79
+2021-08-21T22:42:30.8874929-06:00:2021-08-21T22:42:30.8874929-06:00:Thread#0:T:Parsing: i always forgot there is a game named arcana or arcania from: sky_acaniadev
+2021-08-21T22:42:41.8060723-06:00:2021-08-21T22:42:41.8050721-06:00:Thread#0:T:Line 80
+2021-08-21T22:42:41.9421035-06:00:2021-08-21T22:42:41.9421035-06:00:Thread#0:T:Parsing: yeah arcania is gothic 4 from: thatmanrobin
+2021-08-21T22:42:46.2042130-06:00:2021-08-21T22:42:46.2042130-06:00:Thread#0:T:Line 81
+2021-08-21T22:42:46.3004666-06:00:2021-08-21T22:42:46.3004666-06:00:Thread#0:T:Parsing: not acania from: thatmanrobin
+2021-08-21T22:42:50.2042870-06:00:2021-08-21T22:42:50.2042870-06:00:Thread#0:T:Line 82
+2021-08-21T22:42:50.3019786-06:00:2021-08-21T22:42:50.3009788-06:00:Thread#0:T:Parsing: obviously from: thatmanrobin
+2021-08-21T22:43:28.2636512-06:00:2021-08-21T22:43:28.2616494-06:00:Thread#0:T:Line 83
+2021-08-21T22:43:28.5807215-06:00:2021-08-21T22:43:28.5807215-06:00:Thread#0:T:Parsing: i need to stop playing my game and actually fix the bug from: sky_acaniadev
+2021-08-21T22:43:56.6597226-06:00:2021-08-21T22:43:56.6125483-06:00:Thread#0:T:Line 84
+2021-08-21T22:43:57.7652367-06:00:2021-08-21T22:43:57.7642360-06:00:Thread#0:T:Parsing: and do steam multiplayer and revive the br and moba for testers to have some entertainment. from: sky_acaniadev
+2021-08-21T22:43:57.8512568-06:00:2021-08-21T22:43:57.8512568-06:00:Thread#0:T:Line 85
+2021-08-21T22:43:58.0503007-06:00:2021-08-21T22:43:58.0503007-06:00:Thread#0:T:Parsing: @sky_acaniadev synty or your own art? from: thatmanrobin
+2021-08-21T22:44:35.8082240-06:00:2021-08-21T22:44:35.8082240-06:00:Thread#0:T:Line 86
+2021-08-21T22:44:35.9232513-06:00:2021-08-21T22:44:35.9232513-06:00:Thread#0:T:Parsing: i used some of synty assets, character is my own (placeholder) art from: sky_acaniadev
+2021-08-21T22:45:01.8020353-06:00:2021-08-21T22:45:01.8000340-06:00:Thread#0:T:Line 87
+2021-08-21T22:45:01.9031354-06:00:2021-08-21T22:45:01.9031354-06:00:Thread#0:T:Parsing: @thatmanrobin are you watching my old yt video? from: sky_acaniadev
+2021-08-21T22:45:09.8151571-06:00:2021-08-21T22:45:09.8151571-06:00:Thread#0:T:Line 88
+2021-08-21T22:45:09.9112654-06:00:2021-08-21T22:45:09.9102651-06:00:Thread#0:T:Parsing: @sky_acaniadev yeah from: thatmanrobin
+2021-08-21T22:45:39.3941742-06:00:2021-08-21T22:45:39.3931741-06:00:Thread#0:T:Line 89
+2021-08-21T22:45:39.5032054-06:00:2021-08-21T22:45:39.5032054-06:00:Thread#0:T:Parsing: @user335 no it's a node-graph so it branches from state to state in a visual node graph editor from: thatmanrobin
+2021-08-21T22:45:39.8145507-06:00:2021-08-21T22:45:39.8135515-06:00:Thread#0:T:Line 90
+2021-08-21T22:45:39.9253866-06:00:2021-08-21T22:45:39.9243871-06:00:Thread#0:T:Parsing: oof there are so many other acania already from: sky_acaniadev
+2021-08-21T22:45:57.0291848-06:00:2021-08-21T22:45:57.0281912-06:00:Thread#0:T:Line 91
+2021-08-21T22:45:57.1351098-06:00:2021-08-21T22:45:57.1341097-06:00:Thread#0:T:Parsing: tree is a graph with no loops from: sky_acaniadev
+2021-08-21T22:46:35.7975414-06:00:2021-08-21T22:46:35.7965414-06:00:Thread#0:T:Line 92
+2021-08-21T22:46:35.9136938-06:00:2021-08-21T22:46:35.9136938-06:00:Thread#0:T:Parsing: @thatmanrobin i need to update that video from: sky_acaniadev
+2021-08-21T22:47:14.6071328-06:00:2021-08-21T22:47:14.6061323-06:00:Thread#0:T:Line 93
+2021-08-21T22:47:14.7121148-06:00:2021-08-21T22:47:14.7121148-06:00:Thread#0:T:Parsing: https://www.youtube.com/watch?v=_skv2-crnre&t=115s\ from: thatmanrobin
+2021-08-21T22:47:25.5992872-06:00:2021-08-21T22:47:25.5992872-06:00:Thread#0:T:Line 94
+2021-08-21T22:47:25.7093925-06:00:2021-08-21T22:47:25.7093925-06:00:Thread#0:T:Parsing: ai from: sky_acaniadev
+2021-08-21T22:47:30.0057684-06:00:2021-08-21T22:47:30.0037681-06:00:Thread#0:T:Line 95
+2021-08-21T22:47:30.1408670-06:00:2021-08-21T22:47:30.1408670-06:00:Thread#0:T:Parsing: crossbow enemies from: sky_acaniadev
+2021-08-21T22:47:32.8239241-06:00:2021-08-21T22:47:32.8229244-06:00:Thread#0:T:Line 96
+2021-08-21T22:47:32.9439517-06:00:2021-08-21T22:47:32.9429511-06:00:Thread#0:T:Parsing: oops meant to skip in video from: thatmanrobin
+2021-08-21T22:47:34.9852829-06:00:2021-08-21T22:47:34.9842827-06:00:Thread#0:T:Line 97
+2021-08-21T22:47:35.1348251-06:00:2021-08-21T22:47:35.1338248-06:00:Thread#0:T:Parsing: its 2 minutes in from: thatmanrobin
+2021-08-21T22:48:10.0212246-06:00:2021-08-21T22:48:10.0212246-06:00:Thread#0:T:Line 98
+2021-08-21T22:48:10.1342491-06:00:2021-08-21T22:48:10.1342491-06:00:Thread#0:T:Parsing: happy day after birth day user335! from: voidvenom777
+2021-08-21T22:48:10.1382505-06:00:2021-08-21T22:48:10.1372503-06:00:Thread#0:T:Eyy, its voidvenom777!
+2021-08-21T22:48:10.1492534-06:00:2021-08-21T22:48:10.1482531-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\voidvenom777.wav at time: 8/21/2021 10:48:10 PM
+2021-08-21T22:48:10.1512539-06:00:2021-08-21T22:48:10.1512539-06:00:Thread#0:T:Waiting for 5152.721ms ended at time: 8/21/2021 10:48:10 PM
+2021-08-21T22:48:15.3108596-06:00:2021-08-21T22:48:15.3108596-06:00:Thread#0:T:Duration of clip was 5.152721, thanks rabbit_xxxx you're the best!
+2021-08-21T22:48:15.3118605-06:00:2021-08-21T22:48:15.3118605-06:00:Thread#0:T:clip played the old boring way, duration was: 5.152721
+2021-08-21T22:48:26.4040410-06:00:2021-08-21T22:48:26.4040410-06:00:Thread#0:T:Line 99
+2021-08-21T22:48:26.5031590-06:00:2021-08-21T22:48:26.5021578-06:00:Thread#0:T:Parsing: my paladin is still a little bit boring, need some touch later from: sky_acaniadev
+2021-08-21T22:48:39.4142287-06:00:2021-08-21T22:48:39.4132283-06:00:Thread#0:T:Line 100
+2021-08-21T22:48:39.5182521-06:00:2021-08-21T22:48:39.5182521-06:00:Thread#0:T:Parsing: or maybe it is just being a tank is boring anyway... from: sky_acaniadev
+2021-08-21T22:48:44.0225931-06:00:2021-08-21T22:48:44.0225931-06:00:Thread#0:T:Line 101
+2021-08-21T22:48:44.1356187-06:00:2021-08-21T22:48:44.1356187-06:00:Thread#0:T:Parsing: i have a moba map from: sky_acaniadev
+2021-08-21T22:48:50.4048463-06:00:2021-08-21T22:48:50.4038467-06:00:Thread#0:T:Line 102
+2021-08-21T22:48:50.5187558-06:00:2021-08-21T22:48:50.5187558-06:00:Thread#0:T:Parsing: @sky_acaniadev some games it's not from: thatmanrobin
+2021-08-21T22:49:05.6323451-06:00:2021-08-21T22:49:05.6323451-06:00:Thread#0:T:Line 103
+2021-08-21T22:49:05.7438801-06:00:2021-08-21T22:49:05.7438801-06:00:Thread#0:T:Parsing: i have item system and all the rpg (leveling, gear) already from: sky_acaniadev
+2021-08-21T22:49:59.0373833-06:00:2021-08-21T22:49:59.0363837-06:00:Thread#0:T:Line 104
+2021-08-21T22:49:59.1444077-06:00:2021-08-21T22:49:59.1444077-06:00:Thread#0:T:Parsing: @thatmanrobin i tried to, it is more fun than some other games. but less fun than my other weapons (classes)... maybe not healers. from: sky_acaniadev
+2021-08-21T22:50:21.6477359-06:00:2021-08-21T22:50:21.6437353-06:00:Thread#0:T:Line 105
+2021-08-21T22:50:21.8077713-06:00:2021-08-21T22:50:21.8067711-06:00:Thread#0:T:Parsing: i've finally got my self to start learning coding again because the team i'm in needs people to code for it from: dragonwolf3416
+2021-08-21T22:50:34.0120909-06:00:2021-08-21T22:50:34.0110911-06:00:Thread#0:T:Line 106
+2021-08-21T22:50:34.1336743-06:00:2021-08-21T22:50:34.1331589-06:00:Thread#0:T:Parsing: yeah that's ai from: thatmanrobin
+2021-08-21T22:50:51.4066070-06:00:2021-08-21T22:50:51.4066070-06:00:Thread#0:T:Line 107
+2021-08-21T22:50:51.5127248-06:00:2021-08-21T22:50:51.5127248-06:00:Thread#0:T:Parsing: that's just editor stuff from: thatmanrobin
+2021-08-21T22:51:02.0074484-06:00:2021-08-21T22:51:02.0074484-06:00:Thread#0:T:Line 108
+2021-08-21T22:51:02.1175202-06:00:2021-08-21T22:51:02.1165213-06:00:Thread#0:T:Parsing: i probably would have a lot of buttons for my follower ais as well from: sky_acaniadev
+2021-08-21T22:51:29.8197263-06:00:2021-08-21T22:51:29.8187257-06:00:Thread#0:T:Line 109
+2021-08-21T22:51:29.9567905-06:00:2021-08-21T22:51:29.9557911-06:00:Thread#0:T:Parsing: i even plan to utilize my entity system to create an in-game mini tensor flow. from: sky_acaniadev
+2021-08-21T22:51:40.4016891-06:00:2021-08-21T22:51:40.4006880-06:00:Thread#0:T:Line 110
+2021-08-21T22:51:40.5194477-06:00:2021-08-21T22:51:40.5194477-06:00:Thread#0:T:Parsing: oh nice from: thatmanrobin
+2021-08-21T22:51:52.6011542-06:00:2021-08-21T22:51:52.6001525-06:00:Thread#0:T:Line 111
+2021-08-21T22:51:52.7287150-06:00:2021-08-21T22:51:52.7287150-06:00:Thread#0:T:Parsing: super tough is great for team from: sky_acaniadev
+2021-08-21T22:52:03.4121160-06:00:2021-08-21T22:52:03.4111154-06:00:Thread#0:T:Line 112
+2021-08-21T22:52:03.5229490-06:00:2021-08-21T22:52:03.5229490-06:00:Thread#0:T:Parsing: but a little bit dull playing solo from: sky_acaniadev
+2021-08-21T22:52:06.6066138-06:00:2021-08-21T22:52:06.6066138-06:00:Thread#0:T:Line 113
+2021-08-21T22:52:06.7256604-06:00:2021-08-21T22:52:06.7246600-06:00:Thread#0:T:Parsing: like being a wizard in d&d is tough but at lvl 20 you're basically god from: thatmanrobin
+2021-08-21T22:52:09.2137664-06:00:2021-08-21T22:52:09.2137664-06:00:Thread#0:T:Line 114
+2021-08-21T22:52:09.3441735-06:00:2021-08-21T22:52:09.3441735-06:00:Thread#0:T:Parsing: i would guess the healer will be the same from: sky_acaniadev
+2021-08-21T22:52:27.4262811-06:00:2021-08-21T22:52:27.4252826-06:00:Thread#0:T:Line 115
+2021-08-21T22:52:27.5753361-06:00:2021-08-21T22:52:27.5753361-06:00:Thread#0:T:Parsing: i played healers most of my life. (love it) from: almightygamesdev
+2021-08-21T22:52:28.8032224-06:00:2021-08-21T22:52:28.8032224-06:00:Thread#0:T:Line 116
+2021-08-21T22:52:28.9162500-06:00:2021-08-21T22:52:28.9152489-06:00:Thread#0:T:Parsing: well tank can do some damage if using the right weapon from: sky_acaniadev
+2021-08-21T22:53:09.6025848-06:00:2021-08-21T22:53:09.6025848-06:00:Thread#0:T:Line 117
+2021-08-21T22:53:09.7214168-06:00:2021-08-21T22:53:09.7204172-06:00:Thread#0:T:Parsing: also in moba mode, mage player just die if the archer player on the other side can aim. from: sky_acaniadev
+2021-08-21T22:53:24.2209834-06:00:2021-08-21T22:53:24.2199821-06:00:Thread#0:T:Line 118
+2021-08-21T22:53:24.3400094-06:00:2021-08-21T22:53:24.3400094-06:00:Thread#0:T:Parsing: paladin is quite strong in moba tho, good knockback and stun from: sky_acaniadev
+2021-08-21T22:53:29.6056935-06:00:2021-08-21T22:53:29.6056935-06:00:Thread#0:T:Line 119
+2021-08-21T22:53:29.7677299-06:00:2021-08-21T22:53:29.7667297-06:00:Thread#0:T:Parsing: i gotta head out. thanks for the stream @user335 and for the chat everyone from: almightygamesdev
+2021-08-21T22:53:42.2171940-06:00:2021-08-21T22:53:42.2161939-06:00:Thread#0:T:Line 120
+2021-08-21T22:53:42.3559251-06:00:2021-08-21T22:53:42.3549247-06:00:Thread#0:T:Parsing: take care billy from: thatmanrobin
+2021-08-21T22:53:44.6086104-06:00:2021-08-21T22:53:44.6076111-06:00:Thread#0:T:Line 121
+2021-08-21T22:53:44.7295804-06:00:2021-08-21T22:53:44.7295804-06:00:Thread#0:T:Parsing: goingbed from: almightygamesdev
+2021-08-21T22:53:59.8055222-06:00:2021-08-21T22:53:59.8045221-06:00:Thread#0:T:Line 122
+2021-08-21T22:53:59.9315513-06:00:2021-08-21T22:53:59.9305495-06:00:Thread#0:T:Parsing: paladin i mean a tanky build with a shield weapon (ideally tower shield lance) from: sky_acaniadev
+2021-08-21T22:54:07.6040018-06:00:2021-08-21T22:54:07.6030026-06:00:Thread#0:T:Line 123
+2021-08-21T22:54:07.7210291-06:00:2021-08-21T22:54:07.7200292-06:00:Thread#0:T:Parsing: (was trying to trigger a script) going to bed (test) from: almightygamesdev
+2021-08-21T22:54:07.7240292-06:00:2021-08-21T22:54:07.7240292-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:54:07 PM
+2021-08-21T22:54:07.7260297-06:00:2021-08-21T22:54:07.7250288-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:54:07 PM
+2021-08-21T22:54:20.6461392-06:00:2021-08-21T22:54:20.6451391-06:00:Thread#0:T:Line 124
+2021-08-21T22:54:20.8069476-06:00:2021-08-21T22:54:20.8069476-06:00:Thread#0:T:Parsing: has to be separate words i thinj from: thatmanrobin
+2021-08-21T22:54:24.4032279-06:00:2021-08-21T22:54:24.4032279-06:00:Thread#0:T:Line 125
+2021-08-21T22:54:24.5230189-06:00:2021-08-21T22:54:24.5220188-06:00:Thread#0:T:Parsing: think* from: thatmanrobin
+2021-08-21T22:54:30.4118049-06:00:2021-08-21T22:54:30.4118049-06:00:Thread#0:T:Line 126
+2021-08-21T22:54:30.5441807-06:00:2021-08-21T22:54:30.5431805-06:00:Thread#0:T:Parsing: goingtobed from: thatmanrobin
+2021-08-21T22:54:30.5471816-06:00:2021-08-21T22:54:30.5471816-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:54:30 PM
+2021-08-21T22:54:30.5481817-06:00:2021-08-21T22:54:30.5481817-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:54:30 PM
+2021-08-21T22:54:36.0134832-06:00:2021-08-21T22:54:36.0124826-06:00:Thread#0:T:Line 127
+2021-08-21T22:54:36.1507063-06:00:2021-08-21T22:54:36.1507063-06:00:Thread#0:T:Parsing: goingbed from: sky_acaniadev
+2021-08-21T22:54:37.5973180-06:00:2021-08-21T22:54:37.5973180-06:00:Thread#0:T:Line 128
+2021-08-21T22:54:37.7132511-06:00:2021-08-21T22:54:37.7132511-06:00:Thread#0:T:Parsing: it does work from: thatmanrobin
+2021-08-21T22:54:43.0126102-06:00:2021-08-21T22:54:43.0126102-06:00:Thread#0:T:Line 129
+2021-08-21T22:54:43.1272386-06:00:2021-08-21T22:54:43.1272386-06:00:Thread#0:T:Parsing: bed from: sky_acaniadev
+2021-08-21T22:54:44.8125213-06:00:2021-08-21T22:54:44.8125213-06:00:Thread#0:T:Line 130
+2021-08-21T22:54:44.9335641-06:00:2021-08-21T22:54:44.9335641-06:00:Thread#0:T:Parsing: we're making a game and we've got a lot of people for art and stuff but no-one who can code in c# from: dragonwolf3416
+2021-08-21T22:54:46.7963608-06:00:2021-08-21T22:54:46.7953587-06:00:Thread#0:T:Line 131
+2021-08-21T22:54:46.9053754-06:00:2021-08-21T22:54:46.9053754-06:00:Thread#0:T:Parsing: togoingbedto from: user335
+2021-08-21T22:54:46.9083754-06:00:2021-08-21T22:54:46.9083754-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:54:46 PM
+2021-08-21T22:54:46.9103755-06:00:2021-08-21T22:54:46.9103755-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:54:46 PM
+2021-08-21T22:55:04.6298274-06:00:2021-08-21T22:55:04.6288271-06:00:Thread#0:T:Line 132
+2021-08-21T22:55:04.7495694-06:00:2021-08-21T22:55:04.7495694-06:00:Thread#0:T:Parsing: @dragonwolf3416 kinda tough to make a game without a programmer from: thatmanrobin
+2021-08-21T22:55:19.2163026-06:00:2021-08-21T22:55:19.2163026-06:00:Thread#0:T:Line 133
+2021-08-21T22:55:19.3358366-06:00:2021-08-21T22:55:19.3348352-06:00:Thread#0:T:Parsing: @dragonwolf3416 use bolt then from: sky_acaniadev
+2021-08-21T22:55:23.6609825-06:00:2021-08-21T22:55:23.6609825-06:00:Thread#0:T:Line 134
+2021-08-21T22:55:23.7891119-06:00:2021-08-21T22:55:23.7881095-06:00:Thread#0:T:Parsing: eww from: thatmanrobin
+2021-08-21T22:55:32.8056913-06:00:2021-08-21T22:55:32.8046910-06:00:Thread#0:T:Line 135
+2021-08-21T22:55:32.9363778-06:00:2021-08-21T22:55:32.9363778-06:00:Thread#0:T:Parsing: i would never suggest trying to make a game with visual scripting from: thatmanrobin
+2021-08-21T22:55:34.8057603-06:00:2021-08-21T22:55:34.8047601-06:00:Thread#0:T:Line 136
+2021-08-21T22:55:34.9397899-06:00:2021-08-21T22:55:34.9397899-06:00:Thread#0:T:Parsing: go in gto be dude from: almightygamesdev
+2021-08-21T22:56:06.8075623-06:00:2021-08-21T22:56:06.8065617-06:00:Thread#0:T:Line 137
+2021-08-21T22:56:06.9667674-06:00:2021-08-21T22:56:06.9657662-06:00:Thread#0:T:Parsing: will do from: dragonwolf3416
+2021-08-21T22:56:19.8397262-06:00:2021-08-21T22:56:19.8387260-06:00:Thread#0:T:Line 138
+2021-08-21T22:56:19.9711443-06:00:2021-08-21T22:56:19.9701436-06:00:Thread#0:T:Parsing: and c# is easy to learn from: sky_acaniadev
+2021-08-21T22:56:29.0243552-06:00:2021-08-21T22:56:29.0243552-06:00:Thread#0:T:Line 139
+2021-08-21T22:56:29.1668959-06:00:2021-08-21T22:56:29.1668959-06:00:Thread#0:T:Parsing: it is from: thatmanrobin
+2021-08-21T22:56:36.4144730-06:00:2021-08-21T22:56:36.4134725-06:00:Thread#0:T:Line 140
+2021-08-21T22:56:36.5313634-06:00:2021-08-21T22:56:36.5313634-06:00:Thread#0:T:Parsing: i actually am leaving, though not going to bed, lol from: almightygamesdev
+2021-08-21T22:56:36.5343636-06:00:2021-08-21T22:56:36.5333631-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:56:36 PM
+2021-08-21T22:56:36.5369187-06:00:2021-08-21T22:56:36.5369187-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:56:36 PM
+2021-08-21T22:56:45.4104480-06:00:2021-08-21T22:56:45.4104480-06:00:Thread#0:T:Line 141
+2021-08-21T22:56:45.5494786-06:00:2021-08-21T22:56:45.5484784-06:00:Thread#0:T:Parsing: @almightygamesdev have fun from: sky_acaniadev
+2021-08-21T22:56:57.8092516-06:00:2021-08-21T22:56:57.8092516-06:00:Thread#0:T:Line 142
+2021-08-21T22:56:57.9351224-06:00:2021-08-21T22:56:57.9351224-06:00:Thread#0:T:Parsing: cya later from: thatmanrobin
+2021-08-21T22:57:02.8123474-06:00:2021-08-21T22:57:02.8123474-06:00:Thread#0:T:Line 143
+2021-08-21T22:57:02.9363762-06:00:2021-08-21T22:57:02.9363762-06:00:Thread#0:T:Parsing: testing from: thatmanrobin
+2021-08-21T22:57:10.6201044-06:00:2021-08-21T22:57:10.6191132-06:00:Thread#0:T:Line 144
+2021-08-21T22:57:10.7368319-06:00:2021-08-21T22:57:10.7368319-06:00:Thread#0:T:Parsing: maybe just setup a !command to degreet peeps? lol from: almightygamesdev
+2021-08-21T22:57:15.0322724-06:00:2021-08-21T22:57:15.0322724-06:00:Thread#0:T:Line 145
+2021-08-21T22:57:15.1692234-06:00:2021-08-21T22:57:15.1692234-06:00:Thread#0:T:Parsing: check see|cya & later from: sky_acaniadev
+2021-08-21T22:57:33.4283627-06:00:2021-08-21T22:57:33.4273622-06:00:Thread#0:T:Line 146
+2021-08-21T22:57:33.5503629-06:00:2021-08-21T22:57:33.5503629-06:00:Thread#0:T:Parsing: i have a dev team meeting to get to so, goodnight, see you in the nebulous future from: dragonwolf3416
+2021-08-21T22:57:33.5543632-06:00:2021-08-21T22:57:33.5533623-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 10:57:33 PM
+2021-08-21T22:57:33.5553630-06:00:2021-08-21T22:57:33.5543632-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 10:57:33 PM
+2021-08-21T22:57:48.8190224-06:00:2021-08-21T22:57:48.8190224-06:00:Thread#0:T:Line 147
+2021-08-21T22:57:48.9510457-06:00:2021-08-21T22:57:48.9510457-06:00:Thread#0:T:Parsing: song? from: zrealbigdeal
+2021-08-21T22:57:48.9547573-06:00:2021-08-21T22:57:48.9537573-06:00:Thread#0:T:Eyy, its zrealbigdeal!
+2021-08-21T22:57:48.9635893-06:00:2021-08-21T22:57:48.9626032-06:00:Thread#0:T:{
+2021-08-21T22:57:48.9635893-06:00:2021-08-21T22:57:48.9635893-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T22:57:48.9645898-06:00:2021-08-21T22:57:48.9645898-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-08-21T22:57:48.9645898-06:00:2021-08-21T22:57:48.9645898-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-08-21T22:57:48.9655889-06:00:2021-08-21T22:57:48.9655889-06:00:Thread#0:T:}
+2021-08-21T22:57:48.9655889-06:00:2021-08-21T22:57:48.9655889-06:00:Thread#0:T:{
+2021-08-21T22:57:48.9655889-06:00:2021-08-21T22:57:48.9655889-06:00:Thread#0:T:	CHUNK ID: IPRD
+2021-08-21T22:57:48.9665891-06:00:2021-08-21T22:57:48.9665891-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-08-21T22:57:48.9665891-06:00:2021-08-21T22:57:48.9665891-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-08-21T22:57:48.9675895-06:00:2021-08-21T22:57:48.9665891-06:00:Thread#0:T:}
+2021-08-21T22:57:48.9685902-06:00:2021-08-21T22:57:48.9675895-06:00:Thread#0:T:{
+2021-08-21T22:57:48.9685902-06:00:2021-08-21T22:57:48.9685902-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-21T22:57:48.9695898-06:00:2021-08-21T22:57:48.9685902-06:00:Thread#0:T:	CHUNK SIZE: 6
+2021-08-21T22:57:48.9695898-06:00:2021-08-21T22:57:48.9695898-06:00:Thread#0:T:	Text Value: 2009  
+2021-08-21T22:57:48.9695898-06:00:2021-08-21T22:57:48.9695898-06:00:Thread#0:T:}
+2021-08-21T22:57:48.9705898-06:00:2021-08-21T22:57:48.9705898-06:00:Thread#0:T:{
+2021-08-21T22:57:48.9705898-06:00:2021-08-21T22:57:48.9705898-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T22:57:48.9715902-06:00:2021-08-21T22:57:48.9705898-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-21T22:57:48.9715902-06:00:2021-08-21T22:57:48.9715902-06:00:Thread#0:T:	Text Value: Lavf58.26.101 (libsndfile-1.0.24) 
+2021-08-21T22:57:48.9715902-06:00:2021-08-21T22:57:48.9715902-06:00:Thread#0:T:}
+2021-08-21T22:57:48.9725906-06:00:2021-08-21T22:57:48.9725906-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\zrealbigdeal.wav at time: 8/21/2021 10:57:48 PM
+2021-08-21T22:57:48.9735903-06:00:2021-08-21T22:57:48.9725906-06:00:Thread#0:T:Waiting for 4436.667ms ended at time: 8/21/2021 10:57:48 PM
+2021-08-21T22:57:53.4205691-06:00:2021-08-21T22:57:53.4195690-06:00:Thread#0:T:Duration of clip was 4.436666, thanks rabbit_xxxx you're the best!
+2021-08-21T22:57:53.4215697-06:00:2021-08-21T22:57:53.4215697-06:00:Thread#0:T:clip played the old boring way, duration was: 4.436666
+2021-08-21T22:57:53.4391663-06:00:2021-08-21T22:57:53.4391663-06:00:Thread#0:T:Line 148
+2021-08-21T22:57:53.5513129-06:00:2021-08-21T22:57:53.5513129-06:00:Thread#0:T:Parsing: oh i see what you're doing... you want the bot to let you know that someone is coming/going from: almightygamesdev
+2021-08-21T22:58:27.2314784-06:00:2021-08-21T22:58:27.2304776-06:00:Thread#0:T:Line 149
+2021-08-21T22:58:27.3676009-06:00:2021-08-21T22:58:27.3676009-06:00:Thread#0:T:Parsing: train your viewrs to use the correct syntax to trigger these notificatiosn from: almightygamesdev
+2021-08-21T22:58:59.8350923-06:00:2021-08-21T22:58:59.8340922-06:00:Thread#0:T:Line 150
+2021-08-21T22:58:59.9962457-06:00:2021-08-21T22:58:59.9952462-06:00:Thread#0:T:Parsing: yeah from: almightygamesdev
+2021-08-21T23:01:39.0862999-06:00:2021-08-21T23:01:39.0853005-06:00:Thread#0:T:error: chrome not reachable
+2021-08-21T23:01:39.0873011-06:00:2021-08-21T23:01:39.0862999-06:00:Thread#0:T:  (Session info: chrome=92.0.4515.159)
+2021-08-21T23:01:39.1063131-06:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2021-08-21T23:01:39.1083061-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-21T23:01:39.1083061-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-08-21T23:01:39.1083061-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-21T23:01:39.1083061-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-21T23:01:39.1083061-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-21T23:01:39.1083061-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-21T23:01:39.1083061-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-21T23:01:39.1083061-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-21T23:01:39.1083061-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-08-21T23:01:39.1613168-06:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 3341.7075473 seconds
+2021-08-21T23:01:39.1633188-06:00:Thread#0: Test #5/1 is started on thread #0
+2021-08-21T23:01:39.1643184-06:00:2021-08-21T23:01:39.1643184-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-21T23:01:39.1653180-06:00:2021-08-21T23:01:39.1653180-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-21T23:01:39.1663179-06:00:2021-08-21T23:01:39.1653180-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-21T23:01:51.3231978-06:00:2021-08-21T23:01:51.3231978-06:00:Thread#0:T:Starting the driver...
+2021-08-21T23:01:54.2334702-06:00:2021-08-21T23:01:54.2334702-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (15.1s)
+2021-08-21T23:01:54.2344703-06:00:2021-08-21T23:01:54.2344703-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-21T23:02:21.2462251-06:00:2021-08-21T23:02:21.2452253-06:00:Thread#0:T:error: no such window: target window already closed
+2021-08-21T23:02:21.2462251-06:00:2021-08-21T23:02:21.2462251-06:00:Thread#0:T:from unknown error: web view not found
+2021-08-21T23:02:21.2472264-06:00:2021-08-21T23:02:21.2472264-06:00:Thread#0:T:  (Session info: chrome=92.0.4515.159)
+2021-08-21T23:02:21.2492255-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-21T23:02:21.2492255-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-08-21T23:02:21.2492255-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-21T23:02:21.2492255-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-21T23:02:21.2492255-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-21T23:02:21.2492255-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-21T23:02:21.2492255-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-21T23:02:21.2492255-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-21T23:02:21.2492255-06:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-08-21T23:02:21.2512263-06:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 42.0879075 seconds
+2021-08-21T23:02:21.2512263-06:00:Thread#0: Test #5/2 is started on thread #0
+2021-08-21T23:02:21.2522264-06:00:2021-08-21T23:02:21.2522264-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-21T23:02:21.2532265-06:00:2021-08-21T23:02:21.2532265-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-21T23:02:21.2562285-06:00:2021-08-21T23:02:21.2562285-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-21T23:02:21.2582282-06:00:2021-08-21T23:02:21.2582282-06:00:Thread#0:T:Starting the driver...
+2021-08-21T23:02:24.4334335-06:00:2021-08-21T23:02:24.4334335-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (3.2s)
+2021-08-21T23:02:24.4344334-06:00:2021-08-21T23:02:24.4334335-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-21T23:02:34.2825867-06:00:2021-08-21T23:02:34.2825867-06:00:Thread#0:T:error: no such window: target window already closed
+2021-08-21T23:02:34.2835871-06:00:2021-08-21T23:02:34.2835871-06:00:Thread#0:T:from unknown error: web view not found
+2021-08-21T23:02:34.2845871-06:00:2021-08-21T23:02:34.2845871-06:00:Thread#0:T:  (Session info: chrome=92.0.4515.159)
+2021-08-21T23:02:34.2865869-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-21T23:02:34.2865869-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-08-21T23:02:34.2865869-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-21T23:02:34.2865869-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-21T23:02:34.2865869-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-21T23:02:34.2865869-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-21T23:02:34.2875888-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-21T23:02:34.2875888-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-21T23:02:34.2875888-06:00:Thread#0:Scheduler: with testItemExecutionIndex 3
+2021-08-21T23:02:34.2915886-06:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 13.0393622 seconds
+2021-08-21T23:02:34.2925887-06:00:Thread#0: Test #5/3 is started on thread #0
+2021-08-21T23:02:34.2955898-06:00:2021-08-21T23:02:34.2925887-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-21T23:02:34.2971013-06:00:2021-08-21T23:02:34.2961157-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-21T23:02:34.2971013-06:00:2021-08-21T23:02:34.2971013-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-21T23:02:34.2991016-06:00:2021-08-21T23:02:34.2991016-06:00:Thread#0:T:Starting the driver...
+2021-08-21T23:02:37.3056755-06:00:2021-08-21T23:02:37.3056755-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (3.0s)
+2021-08-21T23:02:37.3066749-06:00:2021-08-21T23:02:37.3056755-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-21T23:05:44.6823718-06:00:2021-08-21T23:05:44.6813698-06:00:Thread#0:T:Line 1
+2021-08-21T23:05:44.7513334-06:00:2021-08-21T23:05:44.7513334-06:00:Thread#0:T:Parsing: my healer can do support attacks, like poison or ranged control from: sky_acaniadev
+2021-08-21T23:05:44.7533357-06:00:2021-08-21T23:05:44.7533357-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-08-21T23:05:44.7543357-06:00:2021-08-21T23:05:44.7543357-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 1
+2021-08-21T23:05:44.7563355-06:00:2021-08-21T23:05:44.7563355-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev1.wav at time: 8/21/2021 11:05:44 PM
+2021-08-21T23:05:44.7573549-06:00:2021-08-21T23:05:44.7573549-06:00:Thread#0:T:Waiting for 2999.252ms ended at time: 8/21/2021 11:05:44 PM
+2021-08-21T23:05:47.7603058-06:00:2021-08-21T23:05:47.7603058-06:00:Thread#0:T:Duration of clip was 2.999252, thanks rabbit_xxxx you're the best!
+2021-08-21T23:05:47.7613074-06:00:2021-08-21T23:05:47.7613074-06:00:Thread#0:T:clip played the old boring way, duration was: 2.999252
+2021-08-21T23:09:04.2692522-06:00:2021-08-21T23:09:04.2682514-06:00:Thread#0:T:Line 2
+2021-08-21T23:09:04.3428008-06:00:2021-08-21T23:09:04.3428008-06:00:Thread#0:T:Parsing: going to bed from: sky_acaniadev
+2021-08-21T23:09:04.3458012-06:00:2021-08-21T23:09:04.3458012-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 8/21/2021 11:09:04 PM
+2021-08-21T23:09:04.3473187-06:00:2021-08-21T23:09:04.3468018-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 8/21/2021 11:09:04 PM
+2021-08-21T23:09:45.6379062-06:00:2021-08-21T23:09:45.6379062-06:00:Thread#0:T:Line 3
+2021-08-21T23:09:45.7279274-06:00:2021-08-21T23:09:45.7279274-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-08-21T23:09:45.8449527-06:00:2021-08-21T23:09:45.8449527-06:00:Thread#0:T:Line 4
+2021-08-21T23:09:46.8339704-06:00:2021-08-21T23:09:46.8339704-06:00:Thread#0:T:Line 5
+2021-08-21T23:09:46.9068906-06:00:2021-08-21T23:09:46.9058902-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-08-21T23:09:47.0496214-06:00:2021-08-21T23:09:47.0491157-06:00:Thread#0:T:Line 6
+2021-08-21T23:09:51.6440997-06:00:2021-08-21T23:09:51.6440997-06:00:Thread#0:T:Line 8
+2021-08-21T23:09:51.7201461-06:00:2021-08-21T23:09:51.7201461-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-08-21T23:09:51.7291480-06:00:2021-08-21T23:09:51.7281474-06:00:Thread#0:T:Line 8
+2021-08-21T23:14:12.7527283-06:00:2021-08-21T23:14:12.7517266-06:00:Thread#0:T:Line 9
+2021-08-21T23:14:13.8038840-06:00:2021-08-21T23:14:13.8038840-06:00:Thread#0:T:Eyy, its user335!
+2021-08-21T23:14:13.8048840-06:00:2021-08-21T23:14:13.8048840-06:00:Thread#0:T:{
+2021-08-21T23:14:13.8058845-06:00:2021-08-21T23:14:13.8058845-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:14:13.8058845-06:00:2021-08-21T23:14:13.8058845-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-21T23:14:13.8058845-06:00:2021-08-21T23:14:13.8058845-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-21T23:14:13.8068845-06:00:2021-08-21T23:14:13.8068845-06:00:Thread#0:T:}
+2021-08-21T23:14:13.8068845-06:00:2021-08-21T23:14:13.8068845-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\user335.wav at time: 8/21/2021 11:14:13 PM
+2021-08-21T23:14:13.8078848-06:00:2021-08-21T23:14:13.8078848-06:00:Thread#0:T:Waiting for 763.356ms ended at time: 8/21/2021 11:14:13 PM
+2021-08-21T23:14:14.5790665-06:00:2021-08-21T23:14:14.5790665-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-08-21T23:14:14.5800683-06:00:2021-08-21T23:14:14.5800683-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-08-21T23:15:36.3670552-06:00:2021-08-21T23:15:36.3670552-06:00:Thread#0:T:Line 10
+2021-08-21T23:15:36.4312900-06:00:2021-08-21T23:15:36.4312900-06:00:Thread#0:T:Parsing: i never asked - did you play maplestory louis? from: mattdfin
+2021-08-21T23:15:36.4364010-06:00:2021-08-21T23:15:36.4352907-06:00:Thread#0:T:{
+2021-08-21T23:15:36.4364010-06:00:2021-08-21T23:15:36.4364010-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:15:36.4372914-06:00:2021-08-21T23:15:36.4364010-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:15:36.4372914-06:00:2021-08-21T23:15:36.4372914-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:15:36.4382923-06:00:2021-08-21T23:15:36.4382923-06:00:Thread#0:T:}
+2021-08-21T23:15:36.4382923-06:00:2021-08-21T23:15:36.4382923-06:00:Thread#0:T:{
+2021-08-21T23:15:36.4392922-06:00:2021-08-21T23:15:36.4392922-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:15:36.4392922-06:00:2021-08-21T23:15:36.4392922-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:15:36.4402930-06:00:2021-08-21T23:15:36.4392922-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:15:36.4402930-06:00:2021-08-21T23:15:36.4402930-06:00:Thread#0:T:}
+2021-08-21T23:15:36.4402930-06:00:2021-08-21T23:15:36.4402930-06:00:Thread#0:T:{
+2021-08-21T23:15:36.4412918-06:00:2021-08-21T23:15:36.4412918-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:15:36.4412918-06:00:2021-08-21T23:15:36.4412918-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:15:36.4412918-06:00:2021-08-21T23:15:36.4412918-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:15:36.4424492-06:00:2021-08-21T23:15:36.4424492-06:00:Thread#0:T:}
+2021-08-21T23:15:36.4424492-06:00:2021-08-21T23:15:36.4424492-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:15:36 PM
+2021-08-21T23:15:36.4434324-06:00:2021-08-21T23:15:36.4434324-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:15:36 PM
+2021-08-21T23:15:47.3536002-06:00:2021-08-21T23:15:47.3536002-06:00:Thread#0:T:Line 11
+2021-08-21T23:15:47.4166191-06:00:2021-08-21T23:15:47.4156185-06:00:Thread#0:T:Parsing: my first character was an ice/lightening mage from: mattdfin
+2021-08-21T23:15:57.5604458-06:00:2021-08-21T23:15:57.5604458-06:00:Thread#0:T:Line 12
+2021-08-21T23:15:57.6294613-06:00:2021-08-21T23:15:57.6284612-06:00:Thread#0:T:Parsing: back int he old days it took 1 month to get lv30 lol from: mattdfin
+2021-08-21T23:15:58.7462001-06:00:2021-08-21T23:15:58.7462001-06:00:Thread#0:T:Line 13
+2021-08-21T23:15:58.8087226-06:00:2021-08-21T23:15:58.8077223-06:00:Thread#0:T:Parsing: are ya working on farm forge right now
+2021-08-21T23:15:58.8087226-06:00:2021-08-21T23:15:58.8087226-06:00:Thread#0:T:hahaha from: cryocyanide
+2021-08-21T23:15:58.8137236-06:00:2021-08-21T23:15:58.8127234-06:00:Thread#0:T:{
+2021-08-21T23:15:58.8137236-06:00:2021-08-21T23:15:58.8137236-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:15:58.8147240-06:00:2021-08-21T23:15:58.8147240-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:15:58.8147240-06:00:2021-08-21T23:15:58.8147240-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:15:58.8157242-06:00:2021-08-21T23:15:58.8157242-06:00:Thread#0:T:}
+2021-08-21T23:15:58.8157242-06:00:2021-08-21T23:15:58.8157242-06:00:Thread#0:T:{
+2021-08-21T23:15:58.8167246-06:00:2021-08-21T23:15:58.8157242-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:15:58.8177243-06:00:2021-08-21T23:15:58.8167246-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:15:58.8177243-06:00:2021-08-21T23:15:58.8177243-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:15:58.8187244-06:00:2021-08-21T23:15:58.8187244-06:00:Thread#0:T:}
+2021-08-21T23:15:58.8187244-06:00:2021-08-21T23:15:58.8187244-06:00:Thread#0:T:{
+2021-08-21T23:15:58.8187244-06:00:2021-08-21T23:15:58.8187244-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:15:58.8197250-06:00:2021-08-21T23:15:58.8197250-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:15:58.8197250-06:00:2021-08-21T23:15:58.8197250-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:15:58.8197250-06:00:2021-08-21T23:15:58.8197250-06:00:Thread#0:T:}
+2021-08-21T23:15:58.8207249-06:00:2021-08-21T23:15:58.8207249-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:15:58 PM
+2021-08-21T23:15:58.8207249-06:00:2021-08-21T23:15:58.8207249-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:15:58 PM
+2021-08-21T23:17:02.5508989-06:00:2021-08-21T23:17:02.5498982-06:00:Thread#0:T:Line 14
+2021-08-21T23:17:02.6154087-06:00:2021-08-21T23:17:02.6154087-06:00:Thread#0:T:Parsing: swords 'n' magic 'n' landlords from: stillisles
+2021-08-21T23:17:02.6204191-06:00:2021-08-21T23:17:02.6204191-06:00:Thread#0:T:{
+2021-08-21T23:17:02.6214102-06:00:2021-08-21T23:17:02.6204191-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:17:02.6214102-06:00:2021-08-21T23:17:02.6214102-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:17:02.6214102-06:00:2021-08-21T23:17:02.6214102-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:17:02.6224104-06:00:2021-08-21T23:17:02.6224104-06:00:Thread#0:T:}
+2021-08-21T23:17:02.6224104-06:00:2021-08-21T23:17:02.6224104-06:00:Thread#0:T:{
+2021-08-21T23:17:02.6224104-06:00:2021-08-21T23:17:02.6224104-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:17:02.6234107-06:00:2021-08-21T23:17:02.6234107-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:17:02.6234107-06:00:2021-08-21T23:17:02.6234107-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:17:02.6234107-06:00:2021-08-21T23:17:02.6234107-06:00:Thread#0:T:}
+2021-08-21T23:17:02.6244111-06:00:2021-08-21T23:17:02.6244111-06:00:Thread#0:T:{
+2021-08-21T23:17:02.6244111-06:00:2021-08-21T23:17:02.6244111-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:17:02.6254110-06:00:2021-08-21T23:17:02.6244111-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:17:02.6254110-06:00:2021-08-21T23:17:02.6254110-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:17:02.6254110-06:00:2021-08-21T23:17:02.6254110-06:00:Thread#0:T:}
+2021-08-21T23:17:02.6264112-06:00:2021-08-21T23:17:02.6254110-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:17:02 PM
+2021-08-21T23:17:02.6274113-06:00:2021-08-21T23:17:02.6264112-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:17:02 PM
+2021-08-21T23:17:42.1592358-06:00:2021-08-21T23:17:42.1582346-06:00:Thread#0:T:Line 15
+2021-08-21T23:17:42.2273511-06:00:2021-08-21T23:17:42.2273511-06:00:Thread#0:T:Parsing: oh i never knew your game is already out! hahaha from: cryocyanide
+2021-08-21T23:17:48.3576286-06:00:2021-08-21T23:17:48.3576286-06:00:Thread#0:T:Line 16
+2021-08-21T23:17:48.4246438-06:00:2021-08-21T23:17:48.4246438-06:00:Thread#0:T:Parsing: i thought its still in development from: cryocyanide
+2021-08-21T23:18:21.9819212-06:00:2021-08-21T23:18:21.9819212-06:00:Thread#0:T:Line 17
+2021-08-21T23:18:22.0491986-06:00:2021-08-21T23:18:22.0481964-06:00:Thread#0:T:Parsing: https://store.steampowered.com/app/810040/swords_n_magic_and_stuff/ from: louis_vd
+2021-08-21T23:18:22.0531977-06:00:2021-08-21T23:18:22.0531977-06:00:Thread#0:T:{
+2021-08-21T23:18:22.0541979-06:00:2021-08-21T23:18:22.0531977-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:18:22.0541979-06:00:2021-08-21T23:18:22.0541979-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:18:22.0551982-06:00:2021-08-21T23:18:22.0551982-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:18:22.0551982-06:00:2021-08-21T23:18:22.0551982-06:00:Thread#0:T:}
+2021-08-21T23:18:22.0561984-06:00:2021-08-21T23:18:22.0551982-06:00:Thread#0:T:{
+2021-08-21T23:18:22.0561984-06:00:2021-08-21T23:18:22.0561984-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:18:22.0561984-06:00:2021-08-21T23:18:22.0561984-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:18:22.0571989-06:00:2021-08-21T23:18:22.0571989-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:18:22.0571989-06:00:2021-08-21T23:18:22.0571989-06:00:Thread#0:T:}
+2021-08-21T23:18:22.0571989-06:00:2021-08-21T23:18:22.0571989-06:00:Thread#0:T:{
+2021-08-21T23:18:22.0581987-06:00:2021-08-21T23:18:22.0581987-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:18:22.0581987-06:00:2021-08-21T23:18:22.0581987-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:18:22.0581987-06:00:2021-08-21T23:18:22.0581987-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:18:22.0591994-06:00:2021-08-21T23:18:22.0591994-06:00:Thread#0:T:}
+2021-08-21T23:18:22.0591994-06:00:2021-08-21T23:18:22.0591994-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:18:22 PM
+2021-08-21T23:18:22.0601985-06:00:2021-08-21T23:18:22.0601985-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:18:22 PM
+2021-08-21T23:18:34.9615440-06:00:2021-08-21T23:18:34.9610261-06:00:Thread#0:T:Line 18
+2021-08-21T23:18:35.0306207-06:00:2021-08-21T23:18:35.0306207-06:00:Thread#0:T:Parsing: thank you! ill go ahead and grab it right now actually from: cryocyanide
+2021-08-21T23:18:36.7408550-06:00:2021-08-21T23:18:36.7408550-06:00:Thread#0:T:Line 19
+2021-08-21T23:18:36.7984202-06:00:2021-08-21T23:18:36.7984202-06:00:Thread#0:T:Parsing: lmao from: cryocyanide
+2021-08-21T23:19:19.9508535-06:00:2021-08-21T23:19:19.9508535-06:00:Thread#0:T:Line 20
+2021-08-21T23:19:20.0188979-06:00:2021-08-21T23:19:20.0188979-06:00:Thread#0:T:Parsing: ^ from: stillisles
+2021-08-21T23:19:22.3437865-06:00:2021-08-21T23:19:22.3437865-06:00:Thread#0:T:Line 21
+2021-08-21T23:19:22.4148171-06:00:2021-08-21T23:19:22.4148171-06:00:Thread#0:T:Parsing: nah been a loong time supporter of kindred, just been out of the loop lately from: cryocyanide
+2021-08-21T23:19:58.3640103-06:00:2021-08-21T23:19:58.3630123-06:00:Thread#0:T:Line 22
+2021-08-21T23:19:58.4280585-06:00:2021-08-21T23:19:58.4280585-06:00:Thread#0:T:Parsing: i have to laugh at yr uh.. sales strategy from: stillisles
+2021-08-21T23:20:46.5587134-06:00:2021-08-21T23:20:46.5587134-06:00:Thread#0:T:Line 23
+2021-08-21T23:20:46.6257797-06:00:2021-08-21T23:20:46.6247790-06:00:Thread#0:T:Parsing: lurkin :3 from: cryocyanide
+2021-08-21T23:22:18.3568564-06:00:2021-08-21T23:22:18.3558580-06:00:Thread#0:T:Line 24
+2021-08-21T23:22:18.4211037-06:00:2021-08-21T23:22:18.4211037-06:00:Thread#0:T:Parsing: the volume is fine, if that's what you mean from: stillisles
+2021-08-21T23:23:28.1778027-06:00:2021-08-21T23:23:28.1778027-06:00:Thread#0:T:Line 25
+2021-08-21T23:23:28.3073470-06:00:2021-08-21T23:23:28.3073470-06:00:Thread#0:T:Parsing:  from: mottzymakes
+2021-08-21T23:23:28.3123475-06:00:2021-08-21T23:23:28.3123475-06:00:Thread#0:T:{
+2021-08-21T23:23:28.3133480-06:00:2021-08-21T23:23:28.3123475-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:23:28.3143479-06:00:2021-08-21T23:23:28.3133480-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:23:28.3143479-06:00:2021-08-21T23:23:28.3143479-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:23:28.3153481-06:00:2021-08-21T23:23:28.3143479-06:00:Thread#0:T:}
+2021-08-21T23:23:28.3153481-06:00:2021-08-21T23:23:28.3153481-06:00:Thread#0:T:{
+2021-08-21T23:23:28.3153481-06:00:2021-08-21T23:23:28.3153481-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:23:28.3163487-06:00:2021-08-21T23:23:28.3163487-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:23:28.3163487-06:00:2021-08-21T23:23:28.3163487-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:23:28.3163487-06:00:2021-08-21T23:23:28.3163487-06:00:Thread#0:T:}
+2021-08-21T23:23:28.3173488-06:00:2021-08-21T23:23:28.3173488-06:00:Thread#0:T:{
+2021-08-21T23:23:28.3173488-06:00:2021-08-21T23:23:28.3173488-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:23:28.3173488-06:00:2021-08-21T23:23:28.3173488-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:23:28.3183491-06:00:2021-08-21T23:23:28.3183491-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:23:28.3183491-06:00:2021-08-21T23:23:28.3183491-06:00:Thread#0:T:}
+2021-08-21T23:23:28.3193492-06:00:2021-08-21T23:23:28.3183491-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:23:28 PM
+2021-08-21T23:23:28.3193492-06:00:2021-08-21T23:23:28.3193492-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:23:28 PM
+2021-08-21T23:23:29.5711879-06:00:2021-08-21T23:23:29.5711879-06:00:Thread#0:T:Line 26
+2021-08-21T23:23:30.6277812-06:00:2021-08-21T23:23:30.6277812-06:00:Thread#0:T:Eyy, its user335!
+2021-08-21T23:23:30.6287818-06:00:2021-08-21T23:23:30.6287818-06:00:Thread#0:T:{
+2021-08-21T23:23:30.6287818-06:00:2021-08-21T23:23:30.6287818-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:23:30.6297823-06:00:2021-08-21T23:23:30.6287818-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-21T23:23:30.6297823-06:00:2021-08-21T23:23:30.6297823-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-21T23:23:30.6297823-06:00:2021-08-21T23:23:30.6297823-06:00:Thread#0:T:}
+2021-08-21T23:23:30.6307826-06:00:2021-08-21T23:23:30.6307826-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\user335.wav at time: 8/21/2021 11:23:30 PM
+2021-08-21T23:23:30.6317829-06:00:2021-08-21T23:23:30.6307826-06:00:Thread#0:T:Waiting for 763.356ms ended at time: 8/21/2021 11:23:30 PM
+2021-08-21T23:23:31.4002373-06:00:2021-08-21T23:23:31.4002373-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-08-21T23:23:31.4012293-06:00:2021-08-21T23:23:31.4012293-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-08-21T23:23:39.8029208-06:00:2021-08-21T23:23:39.8019369-06:00:Thread#0:T:Line 27
+2021-08-21T23:23:39.9782826-06:00:2021-08-21T23:23:39.9782665-06:00:Thread#0:T:Parsing:  from: sugarstacks
+2021-08-21T23:23:39.9822722-06:00:2021-08-21T23:23:39.9812799-06:00:Thread#0:T:{
+2021-08-21T23:23:39.9822722-06:00:2021-08-21T23:23:39.9822722-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:23:39.9822722-06:00:2021-08-21T23:23:39.9822722-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:23:39.9832721-06:00:2021-08-21T23:23:39.9832721-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:23:39.9842717-06:00:2021-08-21T23:23:39.9832721-06:00:Thread#0:T:}
+2021-08-21T23:23:39.9842717-06:00:2021-08-21T23:23:39.9842717-06:00:Thread#0:T:{
+2021-08-21T23:23:39.9842717-06:00:2021-08-21T23:23:39.9842717-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:23:39.9852716-06:00:2021-08-21T23:23:39.9842717-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:23:39.9852716-06:00:2021-08-21T23:23:39.9852716-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:23:39.9852716-06:00:2021-08-21T23:23:39.9852716-06:00:Thread#0:T:}
+2021-08-21T23:23:39.9862724-06:00:2021-08-21T23:23:39.9862724-06:00:Thread#0:T:{
+2021-08-21T23:23:39.9862724-06:00:2021-08-21T23:23:39.9862724-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:23:39.9862724-06:00:2021-08-21T23:23:39.9862724-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:23:39.9872718-06:00:2021-08-21T23:23:39.9872718-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:23:39.9872718-06:00:2021-08-21T23:23:39.9872718-06:00:Thread#0:T:}
+2021-08-21T23:23:39.9882719-06:00:2021-08-21T23:23:39.9872718-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:23:39 PM
+2021-08-21T23:23:39.9932749-06:00:2021-08-21T23:23:39.9892731-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:23:39 PM
+2021-08-21T23:23:45.5625840-06:00:2021-08-21T23:23:45.5615853-06:00:Thread#0:T:Line 28
+2021-08-21T23:23:45.6321231-06:00:2021-08-21T23:23:45.6311230-06:00:Thread#0:T:Parsing: hype hype hype from: noblelemon
+2021-08-21T23:23:45.6361238-06:00:2021-08-21T23:23:45.6361238-06:00:Thread#0:T:{
+2021-08-21T23:23:45.6361238-06:00:2021-08-21T23:23:45.6361238-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:23:45.6371242-06:00:2021-08-21T23:23:45.6371242-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:23:45.6371242-06:00:2021-08-21T23:23:45.6371242-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:23:45.6371242-06:00:2021-08-21T23:23:45.6371242-06:00:Thread#0:T:}
+2021-08-21T23:23:45.6381250-06:00:2021-08-21T23:23:45.6381250-06:00:Thread#0:T:{
+2021-08-21T23:23:45.6381250-06:00:2021-08-21T23:23:45.6381250-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:23:45.6391247-06:00:2021-08-21T23:23:45.6381250-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:23:45.6391247-06:00:2021-08-21T23:23:45.6391247-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:23:45.6391247-06:00:2021-08-21T23:23:45.6391247-06:00:Thread#0:T:}
+2021-08-21T23:23:45.6401252-06:00:2021-08-21T23:23:45.6401252-06:00:Thread#0:T:{
+2021-08-21T23:23:45.6406403-06:00:2021-08-21T23:23:45.6406403-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:23:45.6406403-06:00:2021-08-21T23:23:45.6406403-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:23:45.6416348-06:00:2021-08-21T23:23:45.6416348-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:23:45.6416348-06:00:2021-08-21T23:23:45.6416348-06:00:Thread#0:T:}
+2021-08-21T23:23:45.6426355-06:00:2021-08-21T23:23:45.6426355-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:23:45 PM
+2021-08-21T23:23:45.6436348-06:00:2021-08-21T23:23:45.6436348-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:23:45 PM
+2021-08-21T23:23:52.3619186-06:00:2021-08-21T23:23:52.3619186-06:00:Thread#0:T:Line 29
+2021-08-21T23:23:52.4321253-06:00:2021-08-21T23:23:52.4321253-06:00:Thread#0:T:Parsing: yo yo! from: mottzymakes
+2021-08-21T23:24:06.7556941-06:00:2021-08-21T23:24:06.7546926-06:00:Thread#0:T:Line 30
+2021-08-21T23:24:06.8263080-06:00:2021-08-21T23:24:06.8263080-06:00:Thread#0:T:Parsing: nice to see you're branching out from: mottzymakes
+2021-08-21T23:24:30.5585712-06:00:2021-08-21T23:24:30.5575714-06:00:Thread#0:T:Line 31
+2021-08-21T23:24:30.6561033-06:00:2021-08-21T23:24:30.6551023-06:00:Thread#0:T:Parsing:  from: stillisles
+2021-08-21T23:24:36.7618471-06:00:2021-08-21T23:24:36.7618471-06:00:Thread#0:T:Line 32
+2021-08-21T23:24:36.8313538-06:00:2021-08-21T23:24:36.8303539-06:00:Thread#0:T:Parsing: voxels from: mottzymakes
+2021-08-21T23:24:43.9653312-06:00:2021-08-21T23:24:43.9643311-06:00:Thread#0:T:Line 33
+2021-08-21T23:24:44.0353491-06:00:2021-08-21T23:24:44.0343479-06:00:Thread#0:T:Parsing: always voxels from: mottzymakes
+2021-08-21T23:25:12.5694851-06:00:2021-08-21T23:25:12.5694851-06:00:Thread#0:T:Line 34
+2021-08-21T23:25:12.6415014-06:00:2021-08-21T23:25:12.6415014-06:00:Thread#0:T:Parsing: i animated whitevault again from: mottzymakes
+2021-08-21T23:25:15.9648964-06:00:2021-08-21T23:25:15.9648964-06:00:Thread#0:T:Line 35
+2021-08-21T23:25:16.0349193-06:00:2021-08-21T23:25:16.0349193-06:00:Thread#0:T:Parsing: and then workd on dirt... from: mottzymakes
+2021-08-21T23:25:27.3659110-06:00:2021-08-21T23:25:27.3649124-06:00:Thread#0:T:Line 36
+2021-08-21T23:25:27.4393160-06:00:2021-08-21T23:25:27.4393160-06:00:Thread#0:T:Parsing: @mottzymakes from: sky_acaniadev
+2021-08-21T23:25:33.3659440-06:00:2021-08-21T23:25:33.3649453-06:00:Thread#0:T:Line 37
+2021-08-21T23:25:33.4361494-06:00:2021-08-21T23:25:33.4361494-06:00:Thread#0:T:Parsing: hi sky! from: mottzymakes
+2021-08-21T23:26:01.9619819-06:00:2021-08-21T23:26:01.9614641-06:00:Thread#0:T:Line 38
+2021-08-21T23:26:02.0354039-06:00:2021-08-21T23:26:02.0344037-06:00:Thread#0:T:Parsing: nailed it from: mottzymakes
+2021-08-21T23:26:39.9681538-06:00:2021-08-21T23:26:39.9671531-06:00:Thread#0:T:Line 39
+2021-08-21T23:26:40.0384434-06:00:2021-08-21T23:26:40.0384434-06:00:Thread#0:T:Parsing: yeah hammer from: sky_acaniadev
+2021-08-21T23:26:47.7631012-06:00:2021-08-21T23:26:47.7631012-06:00:Thread#0:T:Line 40
+2021-08-21T23:26:47.8386432-06:00:2021-08-21T23:26:47.8386432-06:00:Thread#0:T:Parsing: does the hammer do siege damage as well from: sky_acaniadev
+2021-08-21T23:27:08.1627325-06:00:2021-08-21T23:27:08.1617317-06:00:Thread#0:T:Line 41
+2021-08-21T23:27:08.2357479-06:00:2021-08-21T23:27:08.2347471-06:00:Thread#0:T:Parsing: well, though you didn't axe, i need to shed some z's soon from: mottzymakes
+2021-08-21T23:27:14.5642335-06:00:2021-08-21T23:27:14.5642335-06:00:Thread#0:T:Line 42
+2021-08-21T23:27:14.6433605-06:00:2021-08-21T23:27:14.6423768-06:00:Thread#0:T:Parsing: +100 damage against stones from: sky_acaniadev
+2021-08-21T23:27:15.7443202-06:00:2021-08-21T23:27:15.7443202-06:00:Thread#0:T:Line 43
+2021-08-21T23:27:15.8103345-06:00:2021-08-21T23:27:15.8103345-06:00:Thread#0:T:Parsing: because i'm still recovering from being sick last week from: mottzymakes
+2021-08-21T23:27:55.1633640-06:00:2021-08-21T23:27:55.1623793-06:00:Thread#0:T:Line 44
+2021-08-21T23:27:55.2348870-06:00:2021-08-21T23:27:55.2348870-06:00:Thread#0:T:Parsing: from this angle it kinda looks like a golf course from: stillisles
+2021-08-21T23:28:07.9653127-06:00:2021-08-21T23:28:07.9653127-06:00:Thread#0:T:Line 45
+2021-08-21T23:28:08.0392748-06:00:2021-08-21T23:28:08.0392748-06:00:Thread#0:T:Parsing: sand traps everywhere from: stillisles
+2021-08-21T23:28:12.1741980-06:00:2021-08-21T23:28:12.1741980-06:00:Thread#0:T:Line 46
+2021-08-21T23:28:12.2527577-06:00:2021-08-21T23:28:12.2517571-06:00:Thread#0:T:Parsing:  from: mottzymakes
+2021-08-21T23:28:13.1428519-06:00:2021-08-21T23:28:13.1428519-06:00:Thread#0:T:Line 47
+2021-08-21T23:28:13.2098665-06:00:2021-08-21T23:28:13.2098665-06:00:Thread#0:T:Parsing: is there a golf mode already? from: sky_acaniadev
+2021-08-21T23:28:19.3695621-06:00:2021-08-21T23:28:19.3695621-06:00:Thread#0:T:Line 48
+2021-08-21T23:28:19.4465779-06:00:2021-08-21T23:28:19.4465779-06:00:Thread#0:T:Parsing: always fun to stop in, and now, i must be responsible from: mottzymakes
+2021-08-21T23:28:23.9680462-06:00:2021-08-21T23:28:23.9680462-06:00:Thread#0:T:Line 49
+2021-08-21T23:28:24.0430807-06:00:2021-08-21T23:28:24.0430807-06:00:Thread#0:T:Parsing: have a great rest of your stream! from: mottzymakes
+2021-08-21T23:28:52.9718402-06:00:2021-08-21T23:28:52.9718402-06:00:Thread#0:T:Line 50
+2021-08-21T23:28:53.0488571-06:00:2021-08-21T23:28:53.0488571-06:00:Thread#0:T:Parsing: just add a boulder, hit it will drive it ahead. the higher damage the stronger force. from: sky_acaniadev
+2021-08-21T23:28:59.9857723-06:00:2021-08-21T23:28:59.9847738-06:00:Thread#0:T:Line 51
+2021-08-21T23:29:00.0638452-06:00:2021-08-21T23:29:00.0638452-06:00:Thread#0:T:Parsing: i was on my golf team in high school. from: kindredgames
+2021-08-21T23:29:00.0678473-06:00:2021-08-21T23:29:00.0678473-06:00:Thread#0:T:{
+2021-08-21T23:29:00.0690812-06:00:2021-08-21T23:29:00.0690812-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:29:00.0700656-06:00:2021-08-21T23:29:00.0690812-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:29:00.0700656-06:00:2021-08-21T23:29:00.0700656-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:29:00.0700656-06:00:2021-08-21T23:29:00.0700656-06:00:Thread#0:T:}
+2021-08-21T23:29:00.0710647-06:00:2021-08-21T23:29:00.0710647-06:00:Thread#0:T:{
+2021-08-21T23:29:00.0710647-06:00:2021-08-21T23:29:00.0710647-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:29:00.0720649-06:00:2021-08-21T23:29:00.0710647-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:29:00.0720649-06:00:2021-08-21T23:29:00.0720649-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:29:00.0720649-06:00:2021-08-21T23:29:00.0720649-06:00:Thread#0:T:}
+2021-08-21T23:29:00.0730663-06:00:2021-08-21T23:29:00.0720649-06:00:Thread#0:T:{
+2021-08-21T23:29:00.0730663-06:00:2021-08-21T23:29:00.0730663-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:29:00.0730663-06:00:2021-08-21T23:29:00.0730663-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:29:00.0740653-06:00:2021-08-21T23:29:00.0730663-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:29:00.0740653-06:00:2021-08-21T23:29:00.0740653-06:00:Thread#0:T:}
+2021-08-21T23:29:00.0740653-06:00:2021-08-21T23:29:00.0740653-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:29:00 PM
+2021-08-21T23:29:00.0750659-06:00:2021-08-21T23:29:00.0750659-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:29:00 PM
+2021-08-21T23:29:08.7684456-06:00:2021-08-21T23:29:08.7684456-06:00:Thread#0:T:Line 52
+2021-08-21T23:29:08.8465825-06:00:2021-08-21T23:29:08.8465825-06:00:Thread#0:T:Parsing: put a golf mechanic in. /shrug from: kindredgames
+2021-08-21T23:29:11.7700266-06:00:2021-08-21T23:29:11.7700266-06:00:Thread#0:T:Line 53
+2021-08-21T23:29:11.8509367-06:00:2021-08-21T23:29:11.8499382-06:00:Thread#0:T:Parsing: why not at this point? from: kindredgames
+2021-08-21T23:29:18.3677410-06:00:2021-08-21T23:29:18.3677410-06:00:Thread#0:T:Line 54
+2021-08-21T23:29:18.4538110-06:00:2021-08-21T23:29:18.4538110-06:00:Thread#0:T:Parsing: golf mode from: stillisles
+2021-08-21T23:29:28.3727878-06:00:2021-08-21T23:29:28.3727878-06:00:Thread#0:T:Line 55
+2021-08-21T23:29:28.4568626-06:00:2021-08-21T23:29:28.4568626-06:00:Thread#0:T:Parsing: golf mode confirmed from: sky_acaniadev
+2021-08-21T23:31:36.3651910-06:00:2021-08-21T23:31:36.3651910-06:00:Thread#0:T:Line 56
+2021-08-21T23:31:36.4440469-06:00:2021-08-21T23:31:36.4440469-06:00:Thread#0:T:Parsing: you mean ceo? from: sky_acaniadev
+2021-08-21T23:32:04.7725821-06:00:2021-08-21T23:32:04.7725821-06:00:Thread#0:T:Line 57
+2021-08-21T23:32:04.8545973-06:00:2021-08-21T23:32:04.8545973-06:00:Thread#0:T:Parsing: managers in our game are all powerful. from: kindredgames
+2021-08-21T23:33:02.7701113-06:00:2021-08-21T23:33:02.7691112-06:00:Thread#0:T:Line 58
+2021-08-21T23:33:02.8518600-06:00:2021-08-21T23:33:02.8508598-06:00:Thread#0:T:Parsing: are they singletons from: sky_acaniadev
+2021-08-21T23:34:12.3665471-06:00:2021-08-21T23:34:12.3655479-06:00:Thread#0:T:Line 59
+2021-08-21T23:34:12.4729442-06:00:2021-08-21T23:34:12.4729442-06:00:Thread#0:T:Parsing: it's managers all the way down from: stillisles
+2021-08-21T23:34:40.5670972-06:00:2021-08-21T23:34:40.5660975-06:00:Thread#0:T:Line 60
+2021-08-21T23:34:40.6488803-06:00:2021-08-21T23:34:40.6478804-06:00:Thread#0:T:Parsing: fresh and salt water are different, duh from: stillisles
+2021-08-21T23:35:16.7808652-06:00:2021-08-21T23:35:16.7788572-06:00:Thread#0:T:Line 61
+2021-08-21T23:35:16.8649272-06:00:2021-08-21T23:35:16.8649272-06:00:Thread#0:T:Parsing: nothing at all. comes from the new 4.26 water stuff we never ended up using. from: kindredgames
+2021-08-21T23:39:18.7619917-06:00:2021-08-21T23:39:18.7608741-06:00:Thread#0:T:Line 62
+2021-08-21T23:39:18.8465199-06:00:2021-08-21T23:39:18.8465199-06:00:Thread#0:T:Parsing: i know it's mostly just nintendo stuff, but yr stream music is p consistently good. who wouldn't want to join in from: stillisles
+2021-08-21T23:39:40.5733665-06:00:2021-08-21T23:39:40.5723666-06:00:Thread#0:T:Line 63
+2021-08-21T23:39:40.6533470-06:00:2021-08-21T23:39:40.6533470-06:00:Thread#0:T:Parsing: it's get... dang. i can't remember now. from: kindredgames
+2021-08-21T23:40:00.5692340-06:00:2021-08-21T23:40:00.5682328-06:00:Thread#0:T:Line 64
+2021-08-21T23:40:00.6463873-06:00:2021-08-21T23:40:00.6463873-06:00:Thread#0:T:Parsing: didn't you get it for the mail system? from: kindredgames
+2021-08-21T23:40:09.5865453-06:00:2021-08-21T23:40:09.5865453-06:00:Thread#0:T:Line 65
+2021-08-21T23:40:09.6958040-06:00:2021-08-21T23:40:09.6958040-06:00:Thread#0:T:Parsing: where was it you just used the steam id? from: kindredgames
+2021-08-21T23:41:52.9663094-06:00:2021-08-21T23:41:52.9653093-06:00:Thread#0:T:Line 66
+2021-08-21T23:41:53.0469835-06:00:2021-08-21T23:41:53.0469835-06:00:Thread#0:T:Parsing: steamwork? from: sky_acaniadev
+2021-08-21T23:41:54.9631264-06:00:2021-08-21T23:41:54.9631264-06:00:Thread#0:T:Line 67
+2021-08-21T23:41:55.0441494-06:00:2021-08-21T23:41:55.0441494-06:00:Thread#0:T:Parsing: will twitch blacklist you for pronouncing 'pawn' normally from: stillisles
+2021-08-21T23:42:49.9714753-06:00:2021-08-21T23:42:49.9704738-06:00:Thread#0:T:Line 68
+2021-08-21T23:42:50.0555720-06:00:2021-08-21T23:42:50.0555720-06:00:Thread#0:T:Parsing: lmao from: stillisles
+2021-08-21T23:42:53.7685468-06:00:2021-08-21T23:42:53.7685468-06:00:Thread#0:T:Line 69
+2021-08-21T23:42:53.8538570-06:00:2021-08-21T23:42:53.8528573-06:00:Thread#0:T:Parsing: you can just say corn from: sky_acaniadev
+2021-08-21T23:43:27.7707961-06:00:2021-08-21T23:43:27.7697954-06:00:Thread#0:T:Line 70
+2021-08-21T23:43:27.8529758-06:00:2021-08-21T23:43:27.8519756-06:00:Thread#0:T:Parsing: tbh i didn't realise this was an accent thing from: stillisles
+2021-08-21T23:47:13.5685877-06:00:2021-08-21T23:47:13.5685877-06:00:Thread#0:T:Line 71
+2021-08-21T23:47:13.6568802-06:00:2021-08-21T23:47:13.6568802-06:00:Thread#0:T:Parsing: kindred do be busy man from: cryocyanide
+2021-08-21T23:48:19.5639705-06:00:2021-08-21T23:48:19.5639705-06:00:Thread#0:T:Line 72
+2021-08-21T23:48:19.6529889-06:00:2021-08-21T23:48:19.6529889-06:00:Thread#0:T:Parsing: lock it in from: stillisles
+2021-08-21T23:48:25.9768638-06:00:2021-08-21T23:48:25.9768638-06:00:Thread#0:T:Line 73
+2021-08-21T23:48:26.0586544-06:00:2021-08-21T23:48:26.0586544-06:00:Thread#0:T:Parsing: ? from: kindredgames
+2021-08-21T23:48:38.7760280-06:00:2021-08-21T23:48:38.7760280-06:00:Thread#0:T:Line 74
+2021-08-21T23:48:38.8600522-06:00:2021-08-21T23:48:38.8590518-06:00:Thread#0:T:Parsing: oh no my cloak has been blown from: cryocyanide
+2021-08-21T23:49:01.9665229-06:00:2021-08-21T23:49:01.9655216-06:00:Thread#0:T:Line 75
+2021-08-21T23:49:02.0505475-06:00:2021-08-21T23:49:02.0505475-06:00:Thread#0:T:Parsing: 'snip and sketch is moving' since like 2 years ago lol from: stillisles
+2021-08-21T23:49:02.1585711-06:00:2021-08-21T23:49:02.1575704-06:00:Thread#0:T:Line 76
+2021-08-21T23:49:02.2310176-06:00:2021-08-21T23:49:02.2310176-06:00:Thread#0:T:Parsing: update: im making lots of progress on my new outfit tonight lol from: mattdfin
+2021-08-21T23:50:38.7773859-06:00:2021-08-21T23:50:38.7763880-06:00:Thread#0:T:Line 77
+2021-08-21T23:50:38.8664060-06:00:2021-08-21T23:50:38.8654058-06:00:Thread#0:T:Parsing:  from: stillisles
+2021-08-21T23:50:42.5780807-06:00:2021-08-21T23:50:42.5780807-06:00:Thread#0:T:Line 78
+2021-08-21T23:50:42.6660495-06:00:2021-08-21T23:50:42.6660495-06:00:Thread#0:T:Parsing: pfizer jab acquired from: limesyx
+2021-08-21T23:50:42.6710514-06:00:2021-08-21T23:50:42.6700498-06:00:Thread#0:T:{
+2021-08-21T23:50:42.6710514-06:00:2021-08-21T23:50:42.6710514-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:50:42.6710514-06:00:2021-08-21T23:50:42.6710514-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:50:42.6720496-06:00:2021-08-21T23:50:42.6720496-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:50:42.6720496-06:00:2021-08-21T23:50:42.6720496-06:00:Thread#0:T:}
+2021-08-21T23:50:42.6730503-06:00:2021-08-21T23:50:42.6730503-06:00:Thread#0:T:{
+2021-08-21T23:50:42.6730503-06:00:2021-08-21T23:50:42.6730503-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:50:42.6740510-06:00:2021-08-21T23:50:42.6740510-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:50:42.6740510-06:00:2021-08-21T23:50:42.6740510-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:50:42.6750509-06:00:2021-08-21T23:50:42.6740510-06:00:Thread#0:T:}
+2021-08-21T23:50:42.6750509-06:00:2021-08-21T23:50:42.6750509-06:00:Thread#0:T:{
+2021-08-21T23:50:42.6750509-06:00:2021-08-21T23:50:42.6750509-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:50:42.6760515-06:00:2021-08-21T23:50:42.6760515-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:50:42.6760515-06:00:2021-08-21T23:50:42.6760515-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:50:42.6760515-06:00:2021-08-21T23:50:42.6760515-06:00:Thread#0:T:}
+2021-08-21T23:50:42.6770517-06:00:2021-08-21T23:50:42.6770517-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:50:42 PM
+2021-08-21T23:50:42.6780509-06:00:2021-08-21T23:50:42.6770517-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:50:42 PM
+2021-08-21T23:50:47.9745961-06:00:2021-08-21T23:50:47.9745961-06:00:Thread#0:T:Line 79
+2021-08-21T23:50:48.0766242-06:00:2021-08-21T23:50:48.0766242-06:00:Thread#0:T:Parsing: nice from: stillisles
+2021-08-21T23:51:55.3688412-06:00:2021-08-21T23:51:55.3688412-06:00:Thread#0:T:Line 80
+2021-08-21T23:51:55.4502730-06:00:2021-08-21T23:51:55.4492729-06:00:Thread#0:T:Parsing: niceeeeeee from: mattdfin
+2021-08-21T23:52:14.1676981-06:00:2021-08-21T23:52:14.1676981-06:00:Thread#0:T:Line 81
+2021-08-21T23:52:14.2547281-06:00:2021-08-21T23:52:14.2547281-06:00:Thread#0:T:Parsing: may your antibody response be swift and vigorous from: mattdfin
+2021-08-21T23:53:34.7659628-06:00:2021-08-21T23:53:34.7659628-06:00:Thread#0:T:Line 82
+2021-08-21T23:53:34.8549049-06:00:2021-08-21T23:53:34.8539110-06:00:Thread#0:T:Parsing: you haven't been vaccinated yet louis? from: stillisles
+2021-08-21T23:54:12.9874850-06:00:2021-08-21T23:54:12.9874850-06:00:Thread#0:T:Line 83
+2021-08-21T23:54:13.0745050-06:00:2021-08-21T23:54:13.0745050-06:00:Thread#0:T:Parsing: christ ok from: stillisles
+2021-08-21T23:54:35.9643141-06:00:2021-08-21T23:54:35.9633144-06:00:Thread#0:T:Line 84
+2021-08-21T23:54:36.0536393-06:00:2021-08-21T23:54:36.0536393-06:00:Thread#0:T:Parsing: i work in disability and my mum is a nurse so i got priority queue thankfully from: limesyx
+2021-08-21T23:55:58.9942081-06:00:2021-08-21T23:55:58.9932081-06:00:Thread#0:T:Line 85
+2021-08-21T23:55:59.0949047-06:00:2021-08-21T23:55:59.0939038-06:00:Thread#0:T:Parsing:  from: petarpehchevski3d
+2021-08-21T23:55:59.0979064-06:00:2021-08-21T23:55:59.0979064-06:00:Thread#0:T:{
+2021-08-21T23:55:59.0989047-06:00:2021-08-21T23:55:59.0989047-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-21T23:55:59.0989047-06:00:2021-08-21T23:55:59.0989047-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-21T23:55:59.0999048-06:00:2021-08-21T23:55:59.0999048-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-21T23:55:59.0999048-06:00:2021-08-21T23:55:59.0999048-06:00:Thread#0:T:}
+2021-08-21T23:55:59.1009608-06:00:2021-08-21T23:55:59.0999048-06:00:Thread#0:T:{
+2021-08-21T23:55:59.1019055-06:00:2021-08-21T23:55:59.1009608-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-21T23:55:59.1019055-06:00:2021-08-21T23:55:59.1019055-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-21T23:55:59.1019055-06:00:2021-08-21T23:55:59.1019055-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-21T23:55:59.1029057-06:00:2021-08-21T23:55:59.1029057-06:00:Thread#0:T:}
+2021-08-21T23:55:59.1029057-06:00:2021-08-21T23:55:59.1029057-06:00:Thread#0:T:{
+2021-08-21T23:55:59.1039071-06:00:2021-08-21T23:55:59.1039071-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-21T23:55:59.1039071-06:00:2021-08-21T23:55:59.1039071-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-21T23:55:59.1049059-06:00:2021-08-21T23:55:59.1049059-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-21T23:55:59.1049059-06:00:2021-08-21T23:55:59.1049059-06:00:Thread#0:T:}
+2021-08-21T23:55:59.1059068-06:00:2021-08-21T23:55:59.1049059-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/21/2021 11:55:59 PM
+2021-08-21T23:55:59.1059068-06:00:2021-08-21T23:55:59.1059068-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/21/2021 11:55:59 PM
+2021-08-22T00:01:48.1888927-06:00:2021-08-22T00:01:48.1878916-06:00:Thread#0:T:Line 86
+2021-08-22T00:01:48.2799125-06:00:2021-08-22T00:01:48.2799125-06:00:Thread#0:T:Parsing: louis, can we make cursed chests some day that have skulls on them and talk to you? from: kindredgames
+2021-08-22T00:02:02.5813102-06:00:2021-08-22T00:02:02.5813102-06:00:Thread#0:T:Line 87
+2021-08-22T00:02:02.6703279-06:00:2021-08-22T00:02:02.6703279-06:00:Thread#0:T:Parsing: what do you want? from: kindredgames
+2021-08-22T00:02:04.7803070-06:00:2021-08-22T00:02:04.7803070-06:00:Thread#0:T:Line 88
+2021-08-22T00:02:04.8676674-06:00:2021-08-22T00:02:04.8666690-06:00:Thread#0:T:Parsing: i wasn't listening. from: kindredgames
+2021-08-22T00:02:14.7924142-06:00:2021-08-22T00:02:14.7924142-06:00:Thread#0:T:Line 89
+2021-08-22T00:02:14.8804376-06:00:2021-08-22T00:02:14.8804376-06:00:Thread#0:T:Parsing: lol nah. i think we should probably get housing done. from: kindredgames
+2021-08-22T00:02:47.3818335-06:00:2021-08-22T00:02:47.3808336-06:00:Thread#0:T:Line 90
+2021-08-22T00:02:47.4678836-06:00:2021-08-22T00:02:47.4678836-06:00:Thread#0:T:Parsing: do you think we should have a fence? from: kindredgames
+2021-08-22T00:03:19.3749813-06:00:2021-08-22T00:03:19.3749813-06:00:Thread#0:T:Line 91
+2021-08-22T00:03:19.4692161-06:00:2021-08-22T00:03:19.4682157-06:00:Thread#0:T:Parsing: i think wendy's gonna hate that. lol from: kindredgames
+2021-08-22T00:03:29.7755330-06:00:2021-08-22T00:03:29.7755330-06:00:Thread#0:T:Line 92
+2021-08-22T00:03:29.8723632-06:00:2021-08-22T00:03:29.8713617-06:00:Thread#0:T:Parsing: have a good night from: stillisles
+2021-08-22T00:03:32.5741569-06:00:2021-08-22T00:03:32.5736461-06:00:Thread#0:T:Line 93
+2021-08-22T00:03:32.6649799-06:00:2021-08-22T00:03:32.6649799-06:00:Thread#0:T:Parsing: we'll figure it out. from: kindredgames
+2021-08-22T00:03:36.5773192-06:00:2021-08-22T00:03:36.5773192-06:00:Thread#0:T:Line 94
+2021-08-22T00:03:36.6728911-06:00:2021-08-22T00:03:36.6718897-06:00:Thread#0:T:Parsing: fence is fine for now. from: kindredgames
+2021-08-22T00:03:42.3938900-06:00:2021-08-22T00:03:42.3928891-06:00:Thread#0:T:Line 95
+2021-08-22T00:03:42.4853233-06:00:2021-08-22T00:03:42.4843226-06:00:Thread#0:T:Parsing: and yes, i can move the pivot point if that's the plan. from: kindredgames
+2021-08-22T00:03:49.1827320-06:00:2021-08-22T00:03:49.1827320-06:00:Thread#0:T:Line 96
+2021-08-22T00:03:49.2842731-06:00:2021-08-22T00:03:49.2842731-06:00:Thread#0:T:Parsing: thanks for the stream! from: kindredgames
+2021-08-22T00:04:25.1710187-06:00:2021-08-22T00:04:25.1700199-06:00:Thread#0:T:Line 97
+2021-08-22T00:04:25.2869555-06:00:2021-08-22T00:04:25.2869555-06:00:Thread#0:T:Parsing: bye thanks for the stream from: sky_acaniadev
+2021-08-22T00:34:28.8939300-06:00:2021-08-22T00:34:28.8939300-06:00:Thread#0:T:Line 98
+2021-08-22T00:34:29.9639608-06:00:2021-08-22T00:34:29.9629606-06:00:Thread#0:T:{
+2021-08-22T00:34:29.9649611-06:00:2021-08-22T00:34:29.9649611-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-22T00:34:29.9649611-06:00:2021-08-22T00:34:29.9649611-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-22T00:34:29.9649611-06:00:2021-08-22T00:34:29.9649611-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-22T00:34:29.9659614-06:00:2021-08-22T00:34:29.9659614-06:00:Thread#0:T:}
+2021-08-22T00:34:29.9659614-06:00:2021-08-22T00:34:29.9659614-06:00:Thread#0:T:{
+2021-08-22T00:34:29.9669614-06:00:2021-08-22T00:34:29.9659614-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-22T00:34:29.9669614-06:00:2021-08-22T00:34:29.9669614-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-22T00:34:29.9669614-06:00:2021-08-22T00:34:29.9669614-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-22T00:34:29.9679617-06:00:2021-08-22T00:34:29.9679617-06:00:Thread#0:T:}
+2021-08-22T00:34:29.9679617-06:00:2021-08-22T00:34:29.9679617-06:00:Thread#0:T:{
+2021-08-22T00:34:29.9679617-06:00:2021-08-22T00:34:29.9679617-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-22T00:34:29.9689617-06:00:2021-08-22T00:34:29.9689617-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-22T00:34:29.9699621-06:00:2021-08-22T00:34:29.9699621-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-22T00:34:29.9699621-06:00:2021-08-22T00:34:29.9699621-06:00:Thread#0:T:}
+2021-08-22T00:34:29.9709624-06:00:2021-08-22T00:34:29.9699621-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/22/2021 12:34:29 AM
+2021-08-22T00:34:29.9709624-06:00:2021-08-22T00:34:29.9709624-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/22/2021 12:34:29 AM
+2021-08-22T00:35:09.9091720-06:00:2021-08-22T00:35:09.9091720-06:00:Thread#0:T:Line 99
+2021-08-22T00:35:09.9950111-06:00:2021-08-22T00:35:09.9950111-06:00:Thread#0:T:Parsing: im using vs2019 from: cryocyanide
+2021-08-22T00:37:09.1129589-06:00:2021-08-22T00:37:09.1109594-06:00:Thread#0:T:Line 100
+2021-08-22T00:37:09.2189827-06:00:2021-08-22T00:37:09.2179819-06:00:Thread#0:T:Parsing: work? nah from: cryocyanide
+2021-08-22T00:37:37.9070995-06:00:2021-08-22T00:37:37.9070995-06:00:Thread#0:T:Line 101
+2021-08-22T00:37:37.9990054-06:00:2021-08-22T00:37:37.9980052-06:00:Thread#0:T:Parsing: it's because of the raid i think. meaning, all of you that came in with the raid should click on the portrait twice
+2021-08-22T00:37:37.9990054-06:00:2021-08-22T00:37:37.9990054-06:00:Thread#0:T:you'll count as a regular viewer then from: liioni
+2021-08-22T00:37:38.0040068-06:00:2021-08-22T00:37:38.0030065-06:00:Thread#0:T:{
+2021-08-22T00:37:38.0040068-06:00:2021-08-22T00:37:38.0040068-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-22T00:37:38.0050068-06:00:2021-08-22T00:37:38.0040068-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-22T00:37:38.0050068-06:00:2021-08-22T00:37:38.0050068-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-22T00:37:38.0050068-06:00:2021-08-22T00:37:38.0050068-06:00:Thread#0:T:}
+2021-08-22T00:37:38.0060069-06:00:2021-08-22T00:37:38.0050068-06:00:Thread#0:T:{
+2021-08-22T00:37:38.0060069-06:00:2021-08-22T00:37:38.0060069-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-22T00:37:38.0060069-06:00:2021-08-22T00:37:38.0060069-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-22T00:37:38.0070082-06:00:2021-08-22T00:37:38.0070082-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-22T00:37:38.0070082-06:00:2021-08-22T00:37:38.0070082-06:00:Thread#0:T:}
+2021-08-22T00:37:38.0080092-06:00:2021-08-22T00:37:38.0080092-06:00:Thread#0:T:{
+2021-08-22T00:37:38.0080092-06:00:2021-08-22T00:37:38.0080092-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-22T00:37:38.0080092-06:00:2021-08-22T00:37:38.0080092-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-22T00:37:38.0090087-06:00:2021-08-22T00:37:38.0090087-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-22T00:37:38.0090087-06:00:2021-08-22T00:37:38.0090087-06:00:Thread#0:T:}
+2021-08-22T00:37:38.0100087-06:00:2021-08-22T00:37:38.0090087-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/22/2021 12:37:38 AM
+2021-08-22T00:37:38.0100087-06:00:2021-08-22T00:37:38.0100087-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/22/2021 12:37:38 AM
+2021-08-22T00:37:50.2936453-06:00:2021-08-22T00:37:50.2936453-06:00:Thread#0:T:Line 102
+2021-08-22T00:37:50.3961637-06:00:2021-08-22T00:37:50.3961637-06:00:Thread#0:T:Parsing: what studio do ya work for btw? from: cryocyanide
+2021-08-22T00:37:54.1051206-06:00:2021-08-22T00:37:54.1051206-06:00:Thread#0:T:Line 103
+2021-08-22T00:37:54.2013279-06:00:2021-08-22T00:37:54.2003274-06:00:Thread#0:T:Parsing: or just remove the raid-handle at the end of the web address from: liioni
+2021-08-22T00:38:04.5068203-06:00:2021-08-22T00:38:04.5068203-06:00:Thread#0:T:Line 104
+2021-08-22T00:38:04.6297041-06:00:2021-08-22T00:38:04.6297041-06:00:Thread#0:T:Parsing:  from: cryocyanide
+2021-08-22T00:39:27.7092033-06:00:2021-08-22T00:39:27.7082114-06:00:Thread#0:T:Line 105
+2021-08-22T00:39:27.8082628-06:00:2021-08-22T00:39:27.8072622-06:00:Thread#0:T:Parsing: nvm i know already from: cryocyanide
+2021-08-22T00:39:49.8967440-06:00:2021-08-22T00:39:49.8957439-06:00:Thread#0:T:Line 106
+2021-08-22T00:39:49.9874247-06:00:2021-08-22T00:39:49.9864340-06:00:Thread#0:T:Parsing: i like the branches moving! from: liioni
+2021-08-22T00:40:48.1188506-06:00:2021-08-22T00:40:48.1178502-06:00:Thread#0:T:Line 107
+2021-08-22T00:40:48.2073868-06:00:2021-08-22T00:40:48.2073868-06:00:Thread#0:T:Parsing: imagine having the wind blow through your ears from: cryocyanide
+2021-08-22T00:44:16.9113968-06:00:2021-08-22T00:44:16.9113968-06:00:Thread#0:T:Line 108
+2021-08-22T00:44:17.0044227-06:00:2021-08-22T00:44:17.0034227-06:00:Thread#0:T:Parsing: thanks for the stream today! from: liioni
+2021-08-22T00:44:35.2954630-06:00:2021-08-22T00:44:35.2954630-06:00:Thread#0:T:Line 109
+2021-08-22T00:44:36.3656932-06:00:2021-08-22T00:44:36.3656932-06:00:Thread#0:T:{
+2021-08-22T00:44:36.3666846-06:00:2021-08-22T00:44:36.3666846-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-22T00:44:36.3666846-06:00:2021-08-22T00:44:36.3666846-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-22T00:44:36.3676835-06:00:2021-08-22T00:44:36.3676835-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-22T00:44:36.3676835-06:00:2021-08-22T00:44:36.3676835-06:00:Thread#0:T:}
+2021-08-22T00:44:36.3676835-06:00:2021-08-22T00:44:36.3676835-06:00:Thread#0:T:{
+2021-08-22T00:44:36.3686845-06:00:2021-08-22T00:44:36.3686845-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-22T00:44:36.3686845-06:00:2021-08-22T00:44:36.3686845-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-22T00:44:36.3686845-06:00:2021-08-22T00:44:36.3686845-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-22T00:44:36.3696850-06:00:2021-08-22T00:44:36.3696850-06:00:Thread#0:T:}
+2021-08-22T00:44:36.3696850-06:00:2021-08-22T00:44:36.3696850-06:00:Thread#0:T:{
+2021-08-22T00:44:36.3696850-06:00:2021-08-22T00:44:36.3696850-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-22T00:44:36.3706849-06:00:2021-08-22T00:44:36.3706849-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-22T00:44:36.3716858-06:00:2021-08-22T00:44:36.3706849-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-22T00:44:36.3716858-06:00:2021-08-22T00:44:36.3716858-06:00:Thread#0:T:}
+2021-08-22T00:44:36.3716858-06:00:2021-08-22T00:44:36.3716858-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/22/2021 12:44:36 AM
+2021-08-22T00:44:36.3726848-06:00:2021-08-22T00:44:36.3726848-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/22/2021 12:44:36 AM
+2021-08-22T00:45:29.6929755-06:00:2021-08-22T00:45:29.6919764-06:00:Thread#0:T:Line 110
+2021-08-22T00:45:29.7899485-06:00:2021-08-22T00:45:29.7899485-06:00:Thread#0:T:Parsing: thanks for the stream from: sky_acaniadev
+2021-08-22T12:55:38.0175363-06:00:2021-08-22T12:55:38.0165350-06:00:Thread#0:T:error: chrome not reachable
+2021-08-22T12:55:38.0175363-06:00:2021-08-22T12:55:38.0175363-06:00:Thread#0:T:  (Session info: chrome=92.0.4515.159)
+2021-08-22T12:55:38.0195361-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-22T12:55:38.0195361-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-08-22T12:55:38.0195361-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-22T12:55:38.0195361-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-22T12:55:38.0195361-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-22T12:55:38.0195361-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-22T12:55:38.0195361-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-22T12:55:38.0195361-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-22T12:55:38.0195361-06:00:Thread#0:Scheduler: with testItemExecutionIndex 4
+2021-08-22T12:55:38.0226362-06:00:Thread#0: Test #5/3 is finished on thread #0 as Failed within 49983.7300475 seconds
+2021-08-22T12:55:38.0236374-06:00:Thread#0: Test #5/4 is started on thread #0
+2021-08-22T12:55:38.0236374-06:00:2021-08-22T12:55:38.0236374-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-22T12:55:38.0246377-06:00:2021-08-22T12:55:38.0246377-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-22T12:55:38.0246377-06:00:2021-08-22T12:55:38.0246377-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-22T12:55:50.1456089-06:00:2021-08-22T12:55:50.1456089-06:00:Thread#0:T:Starting the driver...
+2021-08-22T12:55:52.7078933-06:00:2021-08-22T12:55:52.7068930-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (14.7s)
+2021-08-22T12:55:52.7078933-06:00:2021-08-22T12:55:52.7078933-06:00:Thread#0:B:Then my Twitch Bot lives!

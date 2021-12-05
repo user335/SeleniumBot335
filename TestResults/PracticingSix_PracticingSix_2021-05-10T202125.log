@@ -1,0 +1,117 @@
+﻿2021-05-10T20:21:25.7702783-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-10T20:21:25.7702783-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-10T20:21:25.7702783-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-10T20:21:25.7712793-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-10T20:21:25.9383165-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll
+2021-05-10T20:21:25.9383165-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-10T20:21:25.9393165-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-10T20:21:25.9943299-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-10T202125.log
+2021-05-10T20:21:26.0043314-06:00;Thread#13;Info;Checking activation
+2021-05-10T20:21:26.1353603-06:00;Thread#13;Info;Activated.
+2021-05-10T20:21:26.1363606-06:00;Thread#13;Info;Activation check completed
+2021-05-10T20:21:26.1363606-06:00;Thread#13;Info;Starting test run
+2021-05-10T20:21:26.1813716-06:00;Thread#13;Info;Discovering target: Default
+2021-05-10T20:21:26.1823715-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll
+2021-05-10T20:21:26.6154704-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll
+2021-05-10T20:21:26.6174691-06:00:Test Suite Dump
+2021-05-10T20:21:26.6194694-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-10T20:21:26.6194694-06:00:#1: Default - 
+2021-05-10T20:21:26.6194694-06:00:#2: PracticingSix - 
+2021-05-10T20:21:26.6194694-06:00:#3: EyeOfTheTiger - 
+2021-05-10T20:21:26.6574777-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-10T20:21:26.6574777-06:00:End: Test Suite Dump
+2021-05-10T20:21:26.6964876-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-10T20:21:26.6984870-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-10T20:21:26.6984870-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-10T20:21:26.7054894-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-10T20:21:26.7054894-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-10T20:21:26.7054894-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-10T20:21:26.7054894-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-10T20:21:26.7064892-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-10T20:21:26.7074898-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-10T20:21:26.7074898-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-10T20:21:26.7074898-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-10T20:21:26.7074898-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-10T20:21:26.7074898-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-10T20:21:26.7104899-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-10T20:21:26.7124908-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-10T20:21:26.7595015-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-10T20:21:26.7625184-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-10T20:21:26.7645025-06:00:starting Out Of Process Executor
+2021-05-10T20:21:26.7705039-06:00:Starting callback TCP Rpc server
+2021-05-10T20:21:26.7855089-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-10T20:21:26.7855089-06:00:Started callback TCP Rpc server on port 32768
+2021-05-10T20:21:26.7855089-06:00:Starting logger TCP Rpc server
+2021-05-10T20:21:26.7895083-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-10T20:21:26.7895083-06:00:Started logger TCP Rpc server on port 32769
+2021-05-10T20:21:26.7985117-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15148 --uniqueId "2021-05-10T202125" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-10T20:21:26.8925327-06:00:Executor with PID 14412 has been started successfully.
+2021-05-10T20:21:26.8955332-06:00:Out of Process Executor 14412 started
+2021-05-10T20:21:26.8955332-06:00:Waiting for endpoint
+2021-05-10T20:21:27.7957358-06:00:Remote executor port received: 32770
+2021-05-10T20:21:27.7967364-06:00:Creating executor TCP client on port 32770
+2021-05-10T20:21:27.7967364-06:00:Created executor TCP client on port 32770
+2021-05-10T20:21:27.7967364-06:00:Connecting to remote executor TCP server
+2021-05-10T20:21:27.7977360-06:00:Connected remote executor TCP server
+2021-05-10T20:21:27.7977360-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-10T20:21:27.7977360-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-10T20:21:28.6732800-06:00:2021-05-10T20:21:28.6712793-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll on test thread #0
+2021-05-10T20:21:28.6853055-06:00:Endpoint 14412 started
+2021-05-10T20:21:28.7133291-06:00:2021-05-10T20:21:28.7133291-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-10T20:21:29.2112397-06:00:2021-05-10T20:21:29.2112397-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Release\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-10T20:21:29.2827638-06:00:2021-05-10T20:21:29.2827638-06:00:Thread#0:T:-> Using default config
+2021-05-10T20:21:30.6065912-06:00:2021-05-10T20:21:30.6055912-06:00:Thread#0:T:Starting the driver...
+2021-05-10T20:21:32.3611483-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-05-10T20:21:32.4091601-06:00:2021-05-10T20:21:32.4091601-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-10T20:21:46.5571783-06:00:2021-05-10T20:21:46.5561774-06:00:Thread#0:T:Playing!
+2021-05-10T20:21:47.0224497-06:00:2021-05-10T20:21:47.0214492-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:28:20.5664671-06:00:2021-05-10T20:28:20.5654660-06:00:Thread#0:T:Playing!
+2021-05-10T20:28:20.6089845-06:00:2021-05-10T20:28:20.6089845-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:32:27.5915205-06:00:2021-05-10T20:32:27.5905197-06:00:Thread#0:T:Playing!
+2021-05-10T20:32:27.6215266-06:00:2021-05-10T20:32:27.6205265-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:36:39.1665737-06:00:2021-05-10T20:36:39.1655741-06:00:Thread#0:T:Playing!
+2021-05-10T20:36:39.1986448-06:00:2021-05-10T20:36:39.1976440-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:40:47.6278459-06:00:2021-05-10T20:40:47.6278459-06:00:Thread#0:T:Playing!
+2021-05-10T20:40:47.8809022-06:00:2021-05-10T20:40:47.8799011-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:44:53.5291600-06:00:2021-05-10T20:44:53.5281594-06:00:Thread#0:T:Playing!
+2021-05-10T20:44:53.9892639-06:00:2021-05-10T20:44:53.9882636-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:48:59.2795321-06:00:2021-05-10T20:48:59.2785322-06:00:Thread#0:T:Playing!
+2021-05-10T20:48:59.6756210-06:00:2021-05-10T20:48:59.6746218-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:53:05.3201452-06:00:2021-05-10T20:53:05.3181443-06:00:Thread#0:T:Playing!
+2021-05-10T20:53:05.7672455-06:00:2021-05-10T20:53:05.7662447-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T20:57:10.4860891-06:00:2021-05-10T20:57:10.4850887-06:00:Thread#0:T:Playing!
+2021-05-10T20:57:11.1652428-06:00:2021-05-10T20:57:11.1642433-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:01:15.7415553-06:00:2021-05-10T21:01:15.7405543-06:00:Thread#0:T:Playing!
+2021-05-10T21:01:16.1366445-06:00:2021-05-10T21:01:16.1366445-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:05:20.7207530-06:00:2021-05-10T21:05:20.7197536-06:00:Thread#0:T:Playing!
+2021-05-10T21:05:21.2858876-06:00:2021-05-10T21:05:21.2858876-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:09:26.0805768-06:00:2021-05-10T21:09:26.0805768-06:00:Thread#0:T:Playing!
+2021-05-10T21:09:26.2927111-06:00:2021-05-10T21:09:26.2927111-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:13:31.8300928-06:00:2021-05-10T21:13:31.8290947-06:00:Thread#0:T:Playing!
+2021-05-10T21:13:32.2881960-06:00:2021-05-10T21:13:32.2881960-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:17:37.0488092-06:00:2021-05-10T21:17:37.0478100-06:00:Thread#0:T:Playing!
+2021-05-10T21:17:37.7129594-06:00:2021-05-10T21:17:37.7129594-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:21:42.6305808-06:00:2021-05-10T21:21:42.6305808-06:00:Thread#0:T:Playing!
+2021-05-10T21:21:43.2397186-06:00:2021-05-10T21:21:43.2387178-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:25:48.6828886-06:00:2021-05-10T21:25:48.6818883-06:00:Thread#0:T:Playing!
+2021-05-10T21:25:49.0209915-06:00:2021-05-10T21:25:49.0209915-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:29:56.2531736-06:00:2021-05-10T21:29:56.2521735-06:00:Thread#0:T:Playing!
+2021-05-10T21:29:56.5562523-06:00:2021-05-10T21:29:56.5552420-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:34:03.4536973-06:00:2021-05-10T21:34:03.4526970-06:00:Thread#0:T:Playing!
+2021-05-10T21:34:03.5317142-06:00:2021-05-10T21:34:03.5307144-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:38:10.2938841-06:00:2021-05-10T21:38:10.2938841-06:00:Thread#0:T:Playing!
+2021-05-10T21:38:10.3308928-06:00:2021-05-10T21:38:10.3298929-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:42:21.2589317-06:00:2021-05-10T21:42:21.2579317-06:00:Thread#0:T:Playing!
+2021-05-10T21:42:21.3189445-06:00:2021-05-10T21:42:21.3179453-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:46:29.9123756-06:00:2021-05-10T21:46:29.9113753-06:00:Thread#0:T:Playing!
+2021-05-10T21:46:29.9423812-06:00:2021-05-10T21:46:29.9423812-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:50:34.9578019-06:00:2021-05-10T21:50:34.9568008-06:00:Thread#0:T:Playing!
+2021-05-10T21:50:34.9998110-06:00:2021-05-10T21:50:34.9998110-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:54:39.9077765-06:00:2021-05-10T21:54:39.9067758-06:00:Thread#0:T:Playing!
+2021-05-10T21:54:39.9468015-06:00:2021-05-10T21:54:39.9468015-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T21:58:45.2307725-06:00:2021-05-10T21:58:45.2307725-06:00:Thread#0:T:Playing!
+2021-05-10T21:58:45.2617791-06:00:2021-05-10T21:58:45.2617791-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T22:02:50.5470033-06:00:2021-05-10T22:02:50.5460031-06:00:Thread#0:T:Playing!
+2021-05-10T22:02:50.5930130-06:00:2021-05-10T22:02:50.5920134-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-10T22:06:56.5440548-06:00:2021-05-10T22:06:56.5410533-06:00:Thread#0:T:Playing!
+2021-05-10T22:06:56.5840908-06:00:2021-05-10T22:06:56.5830894-06:00:Thread#0:T:sendkeys arrowdown didn't work

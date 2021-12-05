@@ -1,0 +1,39 @@
+﻿2021-04-06T22:40:28.0704232-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-04-06T22:40:28.0704232-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-04-06T22:40:28.0704232-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-04-06T22:40:28.0704232-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-04-06T22:40:28.1174340-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-04-06T22:40:28.1204345-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-04-06T22:40:28.1224355-06:00;VSTestExecutionThread;Info;Profile: 
+2021-04-06T22:40:28.1714485-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\Unnamed project__2021-04-06T224028.log
+2021-04-06T22:40:28.1824488-06:00;Thread#15;Info;Checking activation
+2021-04-06T22:40:28.2924739-06:00;Thread#15;Info;Activated.
+2021-04-06T22:40:28.2954737-06:00;Thread#15;Info;Activation check completed
+2021-04-06T22:40:28.2984750-06:00;Thread#15;Info;Starting test run
+2021-04-06T22:40:28.3544882-06:00;Thread#15;Info;Discovering target: Default
+2021-04-06T22:40:28.3584893-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-04-06T22:40:28.8626110-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-04-06T22:40:28.8666034-06:00:Test Suite Dump
+2021-04-06T22:40:28.8676047-06:00:#0: Unnamed project/ - 
+2021-04-06T22:40:28.8676047-06:00:#1: Default - 
+2021-04-06T22:40:28.8676047-06:00:#2: PracticingSix - 
+2021-04-06T22:40:28.8676047-06:00:#3: EyeOfTheTiger - 
+2021-04-06T22:40:28.9116141-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-04-06T22:40:28.9116141-06:00:End: Test Suite Dump
+2021-04-06T22:40:28.9386195-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-04-06T22:40:28.9406204-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-04-06T22:40:28.9406204-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-04-06T22:40:28.9456221-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-04-06T22:40:28.9456221-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-04-06T22:40:28.9456221-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-04-06T22:40:28.9456221-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-04-06T22:40:28.9476217-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-04-06T22:40:28.9486218-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-04-06T22:40:28.9516224-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-04-06T22:40:28.9546233-06:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2021-04-06T22:40:28.9616247-06:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2021-04-06T22:40:28.9626247-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2021-04-06T22:40:29.3887974-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-04-06T22:40:29.3993094-06:00:Thread#0:T:-> Using default config
+2021-04-06T22:40:30.1506708-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-04-06T22:40:30.1916801-06:00:Thread#0:B:When I need Eye of the Tiger every 4.1 minutes

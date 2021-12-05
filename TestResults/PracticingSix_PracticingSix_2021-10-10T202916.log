@@ -1,0 +1,236 @@
+﻿2021-10-10T20:29:16.6027139-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-10-10T20:29:16.6027139-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-10-10T20:29:16.6027139-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-10-10T20:29:16.6037148-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-10-10T20:29:16.7083016-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-10-10T20:29:16.7083016-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-10-10T20:29:16.7083016-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-10-10T20:29:16.7452919-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-10-10T202916.log
+2021-10-10T20:29:16.7518131-06:00;Thread#13;Info;Checking activation
+2021-10-10T20:29:16.8316033-06:00;Thread#13;Info;Activated.
+2021-10-10T20:29:16.8316033-06:00;Thread#13;Info;Activation check completed
+2021-10-10T20:29:16.8316033-06:00;Thread#13;Info;Starting test run
+2021-10-10T20:29:16.8646606-06:00;Thread#13;Info;Discovering target: Default
+2021-10-10T20:29:16.8646606-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-10-10T20:29:17.1654030-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-10-10T20:29:17.1664039-06:00:Test Suite Dump
+2021-10-10T20:29:17.1674049-06:00:#0: PracticingSix/PracticingSix - 
+2021-10-10T20:29:17.1674049-06:00:#1: Default - 
+2021-10-10T20:29:17.1674049-06:00:#2: PracticingSix - 
+2021-10-10T20:29:17.1674049-06:00:#4: Twitch Bot! - 
+2021-10-10T20:29:17.1987808-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-10-10T20:29:17.1987808-06:00:End: Test Suite Dump
+2021-10-10T20:29:17.2333418-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-10-10T20:29:17.2353341-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-10-10T20:29:17.2353341-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-10-10T20:29:17.2403348-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-10-10T20:29:17.2403348-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-10-10T20:29:17.2403348-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-10-10T20:29:17.2403348-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-10-10T20:29:17.2413342-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-10-10T20:29:17.2423341-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-10-10T20:29:17.2423341-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-10-10T20:29:17.2423341-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-10-10T20:29:17.2423341-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-10-10T20:29:17.2423341-06:00:Thread#1:Scheduler: No more tests for thread
+2021-10-10T20:29:17.2443454-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-10-10T20:29:17.2463449-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-10-10T20:29:17.2723413-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-10-10T20:29:17.2743523-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-10-10T20:29:17.2763517-06:00:starting Out Of Process Executor
+2021-10-10T20:29:17.2819326-06:00:Starting callback TCP Rpc server
+2021-10-10T20:29:17.2943571-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-10-10T20:29:17.2943571-06:00:Started callback TCP Rpc server on port 32768
+2021-10-10T20:29:17.2943571-06:00:Starting logger TCP Rpc server
+2021-10-10T20:29:17.2963561-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-10-10T20:29:17.2963561-06:00:Started logger TCP Rpc server on port 32769
+2021-10-10T20:29:17.3003574-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15524 --uniqueId "2021-10-10T202916" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-10-10T20:29:17.3232099-06:00:Executor with PID 14576 has been started successfully.
+2021-10-10T20:29:17.3251997-06:00:Out of Process Executor 14576 started
+2021-10-10T20:29:17.3251997-06:00:Waiting for endpoint
+2021-10-10T20:29:17.9072581-06:00:Remote executor port received: 32770
+2021-10-10T20:29:17.9077803-06:00:Creating executor TCP client on port 32770
+2021-10-10T20:29:17.9077803-06:00:Created executor TCP client on port 32770
+2021-10-10T20:29:17.9077803-06:00:Connecting to remote executor TCP server
+2021-10-10T20:29:17.9087674-06:00:Connected remote executor TCP server
+2021-10-10T20:29:17.9087674-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-10-10T20:29:17.9087674-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-10-10T20:29:18.3484277-06:00:2021-10-10T20:29:18.3474280-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-10-10T20:29:18.3534284-06:00:Endpoint 14576 started
+2021-10-10T20:29:18.3694583-06:00:2021-10-10T20:29:18.3694583-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-10-10T20:29:18.6993055-06:00:2021-10-10T20:29:18.6993055-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-10-10T20:29:18.7268428-06:00:2021-10-10T20:29:18.7258530-06:00:Thread#0:T:-> Using default config
+2021-10-10T20:29:19.5965830-06:00:2021-10-10T20:29:19.5955827-06:00:Thread#0:T:Starting the driver...
+2021-10-10T20:29:21.1236826-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-10-10T20:29:21.1546894-06:00:2021-10-10T20:29:21.1536980-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-10-10T20:29:21.1926983-06:00:2021-10-10T20:29:21.1916989-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-10-10T20:29:21.1936982-06:00:2021-10-10T20:29:21.1936982-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-10-10T20:29:23.4174623-06:00:2021-10-10T20:29:23.4164650-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.2s)
+2021-10-10T20:29:23.4194633-06:00:2021-10-10T20:29:23.4184649-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-10-10T20:59:03.7635961-06:00:2021-10-10T20:59:03.7625958-06:00:Thread#0:T:Line 1
+2021-10-10T20:59:03.8816227-06:00:2021-10-10T20:59:03.8816227-06:00:Thread#0:T:Parsing: bop from: mrnoah99
+2021-10-10T20:59:03.9146295-06:00:2021-10-10T20:59:03.9136291-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-10-10T20:59:03.9156292-06:00:2021-10-10T20:59:03.9156292-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 0
+2021-10-10T20:59:03.9906455-06:00:2021-10-10T20:59:03.9896467-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\mrnoah99.wav at time: 10/10/2021 8:59:03 PM
+2021-10-10T20:59:03.9926468-06:00:2021-10-10T20:59:03.9926468-06:00:Thread#0:T:Waiting for 3076.646ms ended at time: 10/10/2021 8:59:03 PM
+2021-10-10T20:59:07.0721723-06:00:2021-10-10T20:59:07.0711724-06:00:Thread#0:T:Duration of clip was 3.076646, thanks rabbit_xxxx you're the best!
+2021-10-10T20:59:07.0721723-06:00:2021-10-10T20:59:07.0721723-06:00:Thread#0:T:clip played the old boring way, duration was: 3.076646
+2021-10-10T20:59:09.7370102-06:00:2021-10-10T20:59:09.7360093-06:00:Thread#0:T:Line 2
+2021-10-10T20:59:09.8100698-06:00:2021-10-10T20:59:09.8100698-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-10-10T20:59:09.8220730-06:00:2021-10-10T20:59:09.8210736-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\202230__deraj__pop-sound.wav at time: 10/10/2021 8:59:09 PM
+2021-10-10T20:59:09.8230729-06:00:2021-10-10T20:59:09.8220730-06:00:Thread#0:T:Waiting for 650.1587ms ended at time: 10/10/2021 8:59:09 PM
+2021-10-10T20:59:10.4947971-06:00:2021-10-10T20:59:10.4947971-06:00:Thread#0:T:Line 3
+2021-10-10T20:59:27.1351743-06:00:2021-10-10T20:59:27.1351743-06:00:Thread#0:T:Line 4
+2021-10-10T20:59:27.2081888-06:00:2021-10-10T20:59:27.2081888-06:00:Thread#0:T:Parsing: the bot is kinda quiet from: mrnoah99
+2021-10-10T20:59:37.7456214-06:00:2021-10-10T20:59:37.7456214-06:00:Thread#0:T:Line 5
+2021-10-10T20:59:37.8196376-06:00:2021-10-10T20:59:37.8186378-06:00:Thread#0:T:Parsing: compared to you at least from: mrnoah99
+2021-10-10T20:59:44.7424905-06:00:2021-10-10T20:59:44.7414892-06:00:Thread#0:T:Line 6
+2021-10-10T20:59:44.8215082-06:00:2021-10-10T20:59:44.8215082-06:00:Thread#0:T:Parsing: test from: user335
+2021-10-10T20:59:44.8235082-06:00:2021-10-10T20:59:44.8235082-06:00:Thread#0:T:Eyy, its user335!
+2021-10-10T20:59:44.8325100-06:00:2021-10-10T20:59:44.8325100-06:00:Thread#0:T:{
+2021-10-10T20:59:44.8335105-06:00:2021-10-10T20:59:44.8335105-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-10T20:59:44.8345109-06:00:2021-10-10T20:59:44.8345109-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-10-10T20:59:44.8355108-06:00:2021-10-10T20:59:44.8345109-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-10-10T20:59:44.8365113-06:00:2021-10-10T20:59:44.8355108-06:00:Thread#0:T:}
+2021-10-10T20:59:44.8375121-06:00:2021-10-10T20:59:44.8365113-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\user335.wav at time: 10/10/2021 8:59:44 PM
+2021-10-10T20:59:44.8385120-06:00:2021-10-10T20:59:44.8375121-06:00:Thread#0:T:Waiting for 763.356ms ended at time: 10/10/2021 8:59:44 PM
+2021-10-10T20:59:45.6162553-06:00:2021-10-10T20:59:45.6152560-06:00:Thread#0:T:Duration of clip was 0.763356, thanks rabbit_xxxx you're the best!
+2021-10-10T20:59:45.6162553-06:00:2021-10-10T20:59:45.6162553-06:00:Thread#0:T:clip played the old boring way, duration was: 0.763356
+2021-10-10T20:59:45.6246019-06:00:2021-10-10T20:59:45.6246019-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\351267__peterbullmusic__mixed-whip-crack-1.wav at time: 10/10/2021 8:59:45 PM
+2021-10-10T20:59:45.6256029-06:00:2021-10-10T20:59:45.6256029-06:00:Thread#0:T:Waiting for 911.3605ms ended at time: 10/10/2021 8:59:45 PM
+2021-10-10T20:59:46.5599054-06:00:2021-10-10T20:59:46.5589144-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\usergetbacktowork.wav at time: 10/10/2021 8:59:46 PM
+2021-10-10T20:59:46.5609057-06:00:2021-10-10T20:59:46.5609057-06:00:Thread#0:T:Waiting for 2095.601ms ended at time: 10/10/2021 8:59:46 PM
+2021-10-10T20:59:56.5410563-06:00:2021-10-10T20:59:56.5410563-06:00:Thread#0:T:Line 7
+2021-10-10T20:59:56.6120694-06:00:2021-10-10T20:59:56.6120694-06:00:Thread#0:T:Parsing: much better from: mrnoah99
+2021-10-10T20:59:57.3320054-06:00:2021-10-10T20:59:57.3320054-06:00:Thread#0:T:Line 8
+2021-10-10T20:59:57.3970204-06:00:2021-10-10T20:59:57.3970204-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-10-10T20:59:57.4010218-06:00:2021-10-10T20:59:57.4000221-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\202230__deraj__pop-sound.wav at time: 10/10/2021 8:59:57 PM
+2021-10-10T20:59:57.4020227-06:00:2021-10-10T20:59:57.4010218-06:00:Thread#0:T:Waiting for 650.1587ms ended at time: 10/10/2021 8:59:57 PM
+2021-10-10T20:59:58.0608788-06:00:2021-10-10T20:59:58.0608788-06:00:Thread#0:T:Line 9
+2021-10-10T21:06:08.7433278-06:00:2021-10-10T21:06:08.7433278-06:00:Thread#0:T:Line 10
+2021-10-10T21:06:08.8194346-06:00:2021-10-10T21:06:08.8194346-06:00:Thread#0:T:Parsing: pogu major improvements from: crow_s_of_fate
+2021-10-10T21:06:08.8384395-06:00:2021-10-10T21:06:08.8384395-06:00:Thread#0:T:{
+2021-10-10T21:06:08.8395598-06:00:2021-10-10T21:06:08.8395598-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-10-10T21:06:08.8405387-06:00:2021-10-10T21:06:08.8405387-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-10-10T21:06:08.8415395-06:00:2021-10-10T21:06:08.8415395-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-10-10T21:06:08.8425388-06:00:2021-10-10T21:06:08.8415395-06:00:Thread#0:T:}
+2021-10-10T21:06:08.8425388-06:00:2021-10-10T21:06:08.8425388-06:00:Thread#0:T:{
+2021-10-10T21:06:08.8432978-06:00:2021-10-10T21:06:08.8432978-06:00:Thread#0:T:	CHUNK ID: IART
+2021-10-10T21:06:08.8432978-06:00:2021-10-10T21:06:08.8432978-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-10-10T21:06:08.8442854-06:00:2021-10-10T21:06:08.8442854-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-10-10T21:06:08.8442854-06:00:2021-10-10T21:06:08.8442854-06:00:Thread#0:T:}
+2021-10-10T21:06:08.8452843-06:00:2021-10-10T21:06:08.8452843-06:00:Thread#0:T:{
+2021-10-10T21:06:08.8452843-06:00:2021-10-10T21:06:08.8452843-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-10T21:06:08.8462855-06:00:2021-10-10T21:06:08.8462855-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-10-10T21:06:08.8462855-06:00:2021-10-10T21:06:08.8462855-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-10-10T21:06:08.8462855-06:00:2021-10-10T21:06:08.8462855-06:00:Thread#0:T:}
+2021-10-10T21:06:08.8472857-06:00:2021-10-10T21:06:08.8472857-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 10/10/2021 9:06:08 PM
+2021-10-10T21:06:08.8482856-06:00:2021-10-10T21:06:08.8482856-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 10/10/2021 9:06:08 PM
+2021-10-10T21:06:26.3456618-06:00:2021-10-10T21:06:26.3456618-06:00:Thread#0:T:Line 11
+2021-10-10T21:06:26.4190766-06:00:2021-10-10T21:06:26.4190766-06:00:Thread#0:T:Parsing: i made it for the raid pog from: crow_s_of_fate
+2021-10-10T21:06:45.1451222-06:00:2021-10-10T21:06:45.1441220-06:00:Thread#0:T:Line 12
+2021-10-10T21:06:45.2661669-06:00:2021-10-10T21:06:45.2661669-06:00:Thread#0:T:Parsing: ye almost thanksgiving break from: crow_s_of_fate
+2021-10-10T21:07:33.9648851-06:00:2021-10-10T21:07:33.9568847-06:00:Thread#0:T:Line 13
+2021-10-10T21:07:34.0549078-06:00:2021-10-10T21:07:34.0539060-06:00:Thread#0:T:Parsing: seems like america is getting worse tho bought about 800 dollars of survival gear from: crow_s_of_fate
+2021-10-10T21:07:41.3450906-06:00:2021-10-10T21:07:41.3440911-06:00:Thread#0:T:Line 14
+2021-10-10T21:07:41.4161064-06:00:2021-10-10T21:07:41.4161064-06:00:Thread#0:T:Parsing: arrives on the 16th from: crow_s_of_fate
+2021-10-10T21:07:58.3405685-06:00:2021-10-10T21:07:58.3395665-06:00:Thread#0:T:Line 15
+2021-10-10T21:07:58.4125953-06:00:2021-10-10T21:07:58.4115941-06:00:Thread#0:T:Parsing: ye from: crow_s_of_fate
+2021-10-10T21:08:40.9578308-06:00:2021-10-10T21:08:40.9568308-06:00:Thread#0:T:Line 16
+2021-10-10T21:08:41.0348488-06:00:2021-10-10T21:08:41.0338485-06:00:Thread#0:T:Parsing: an hour away from la puts you on edge in cali from: crow_s_of_fate
+2021-10-10T21:08:58.7514451-06:00:2021-10-10T21:08:58.7504455-06:00:Thread#0:T:Line 17
+2021-10-10T21:08:58.8240684-06:00:2021-10-10T21:08:58.8240684-06:00:Thread#0:T:Parsing: terrain and placement seens nore smooth from: crow_s_of_fate
+2021-10-10T21:09:10.5648689-06:00:2021-10-10T21:09:10.5638696-06:00:Thread#0:T:Line 18
+2021-10-10T21:09:10.6421877-06:00:2021-10-10T21:09:10.6421877-06:00:Thread#0:T:Parsing: more from: crow_s_of_fate
+2021-10-10T21:09:26.5435938-06:00:2021-10-10T21:09:26.5425942-06:00:Thread#0:T:Line 19
+2021-10-10T21:09:26.6204780-06:00:2021-10-10T21:09:26.6204780-06:00:Thread#0:T:Parsing: :0 from: crow_s_of_fate
+2021-10-10T21:10:24.1482512-06:00:2021-10-10T21:10:24.1482512-06:00:Thread#0:T:Line 20
+2021-10-10T21:10:24.2232875-06:00:2021-10-10T21:10:24.2222883-06:00:Thread#0:T:Parsing: think about this what about another space race and a war on mars? from: crow_s_of_fate
+2021-10-10T21:10:33.3502134-06:00:2021-10-10T21:10:33.3492140-06:00:Thread#0:T:Line 21
+2021-10-10T21:10:33.4327394-06:00:2021-10-10T21:10:33.4317394-06:00:Thread#0:T:Parsing: ok kool :0 from: crow_s_of_fate
+2021-10-10T21:11:34.7420927-06:00:2021-10-10T21:11:34.7420927-06:00:Thread#0:T:Line 22
+2021-10-10T21:11:34.8209344-06:00:2021-10-10T21:11:34.8209344-06:00:Thread#0:T:Parsing: if there was a boom in another space race this decade there might just be a space war from: crow_s_of_fate
+2021-10-10T21:11:47.3449719-06:00:2021-10-10T21:11:47.3449719-06:00:Thread#0:T:Line 23
+2021-10-10T21:11:47.4210074-06:00:2021-10-10T21:11:47.4210074-06:00:Thread#0:T:Parsing: true from: crow_s_of_fate
+2021-10-10T21:12:53.3481270-06:00:2021-10-10T21:12:53.3481270-06:00:Thread#0:T:Line 24
+2021-10-10T21:12:53.4234438-06:00:2021-10-10T21:12:53.4234438-06:00:Thread#0:T:Parsing: yea from: crow_s_of_fate
+2021-10-10T21:13:38.3634685-06:00:2021-10-10T21:13:38.3584654-06:00:Thread#0:T:Line 26
+2021-10-10T21:13:38.5075274-06:00:2021-10-10T21:13:38.5065275-06:00:Thread#0:T:Parsing:  from: crow_s_of_fate
+2021-10-10T21:13:38.5145277-06:00:2021-10-10T21:13:38.5145277-06:00:Thread#0:T:Line 26
+2021-10-10T21:13:39.5907876-06:00:2021-10-10T21:13:39.5897895-06:00:Thread#0:T:{
+2021-10-10T21:13:39.5907876-06:00:2021-10-10T21:13:39.5907876-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-10-10T21:13:39.5917888-06:00:2021-10-10T21:13:39.5907876-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-10-10T21:13:39.5917888-06:00:2021-10-10T21:13:39.5917888-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-10-10T21:13:39.5917888-06:00:2021-10-10T21:13:39.5917888-06:00:Thread#0:T:}
+2021-10-10T21:13:39.5927891-06:00:2021-10-10T21:13:39.5927891-06:00:Thread#0:T:{
+2021-10-10T21:13:39.5937899-06:00:2021-10-10T21:13:39.5937899-06:00:Thread#0:T:	CHUNK ID: IART
+2021-10-10T21:13:39.5937899-06:00:2021-10-10T21:13:39.5937899-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-10-10T21:13:39.5947897-06:00:2021-10-10T21:13:39.5937899-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-10-10T21:13:39.5947897-06:00:2021-10-10T21:13:39.5947897-06:00:Thread#0:T:}
+2021-10-10T21:13:39.5947897-06:00:2021-10-10T21:13:39.5947897-06:00:Thread#0:T:{
+2021-10-10T21:13:39.5957905-06:00:2021-10-10T21:13:39.5957905-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-10T21:13:39.5957905-06:00:2021-10-10T21:13:39.5957905-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-10-10T21:13:39.5967901-06:00:2021-10-10T21:13:39.5957905-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-10-10T21:13:39.5967901-06:00:2021-10-10T21:13:39.5967901-06:00:Thread#0:T:}
+2021-10-10T21:13:39.5967901-06:00:2021-10-10T21:13:39.5967901-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 10/10/2021 9:13:39 PM
+2021-10-10T21:13:39.5977904-06:00:2021-10-10T21:13:39.5977904-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 10/10/2021 9:13:39 PM
+2021-10-10T21:13:44.1501399-06:00:2021-10-10T21:13:44.1491395-06:00:Thread#0:T:Line 27
+2021-10-10T21:13:44.2681900-06:00:2021-10-10T21:13:44.2681900-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-10-10T21:13:44.3752851-06:00:2021-10-10T21:13:44.3742853-06:00:Thread#0:T:Line 28
+2021-10-10T21:13:45.5494562-06:00:2021-10-10T21:13:45.5494562-06:00:Thread#0:T:Line 29
+2021-10-10T21:13:45.6244726-06:00:2021-10-10T21:13:45.6234721-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-10-10T21:13:45.7495022-06:00:2021-10-10T21:13:45.7495022-06:00:Thread#0:T:Line 30
+2021-10-10T21:13:48.3425017-06:00:2021-10-10T21:13:48.3415007-06:00:Thread#0:T:Line 31
+2021-10-10T21:13:48.4235438-06:00:2021-10-10T21:13:48.4235438-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-10-10T21:13:48.5474722-06:00:2021-10-10T21:13:48.5464864-06:00:Thread#0:T:Line 32
+2021-10-10T21:29:39.3352228-06:00:2021-10-10T21:29:39.3342219-06:00:Thread#0:T:Line 33
+2021-10-10T21:29:42.3230599-06:00:2021-10-10T21:29:42.3220572-06:00:Thread#0:T:Line 34
+2021-10-10T21:29:42.3936269-06:00:2021-10-10T21:29:42.3936269-06:00:Thread#0:T:Parsing:  from: incantagames
+2021-10-10T21:29:42.3986373-06:00:2021-10-10T21:29:42.3986373-06:00:Thread#0:T:{
+2021-10-10T21:29:42.3986373-06:00:2021-10-10T21:29:42.3986373-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-10-10T21:29:42.3996274-06:00:2021-10-10T21:29:42.3996274-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-10-10T21:29:42.3996274-06:00:2021-10-10T21:29:42.3996274-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-10-10T21:29:42.4006309-06:00:2021-10-10T21:29:42.4006309-06:00:Thread#0:T:}
+2021-10-10T21:29:42.4006309-06:00:2021-10-10T21:29:42.4006309-06:00:Thread#0:T:{
+2021-10-10T21:29:42.4016296-06:00:2021-10-10T21:29:42.4016296-06:00:Thread#0:T:	CHUNK ID: IART
+2021-10-10T21:29:42.4016296-06:00:2021-10-10T21:29:42.4016296-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-10-10T21:29:42.4026292-06:00:2021-10-10T21:29:42.4026292-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-10-10T21:29:42.4046283-06:00:2021-10-10T21:29:42.4036321-06:00:Thread#0:T:}
+2021-10-10T21:29:42.4046283-06:00:2021-10-10T21:29:42.4046283-06:00:Thread#0:T:{
+2021-10-10T21:29:42.4046283-06:00:2021-10-10T21:29:42.4046283-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-10T21:29:42.4056287-06:00:2021-10-10T21:29:42.4056287-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-10-10T21:29:42.4056287-06:00:2021-10-10T21:29:42.4056287-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-10-10T21:29:42.4056287-06:00:2021-10-10T21:29:42.4056287-06:00:Thread#0:T:}
+2021-10-10T21:29:42.4066301-06:00:2021-10-10T21:29:42.4066301-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 10/10/2021 9:29:42 PM
+2021-10-10T21:29:42.4076294-06:00:2021-10-10T21:29:42.4076294-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 10/10/2021 9:29:42 PM
+2021-10-10T21:34:18.9302612-06:00:2021-10-10T21:34:18.9302612-06:00:Thread#0:T:Line 35
+2021-10-10T21:34:18.9993457-06:00:2021-10-10T21:34:18.9993457-06:00:Thread#0:T:Parsing: thanks for the stream louis, gotta run. have a great day/night everyone! from: caels_c
+2021-10-10T21:34:19.0046928-06:00:2021-10-10T21:34:19.0046928-06:00:Thread#0:T:{
+2021-10-10T21:34:19.0046928-06:00:2021-10-10T21:34:19.0046928-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-10-10T21:34:19.0056923-06:00:2021-10-10T21:34:19.0056923-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-10-10T21:34:19.0056923-06:00:2021-10-10T21:34:19.0056923-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-10-10T21:34:19.0066927-06:00:2021-10-10T21:34:19.0056923-06:00:Thread#0:T:}
+2021-10-10T21:34:19.0066927-06:00:2021-10-10T21:34:19.0066927-06:00:Thread#0:T:{
+2021-10-10T21:34:19.0066927-06:00:2021-10-10T21:34:19.0066927-06:00:Thread#0:T:	CHUNK ID: IART
+2021-10-10T21:34:19.0076919-06:00:2021-10-10T21:34:19.0076919-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-10-10T21:34:19.0076919-06:00:2021-10-10T21:34:19.0076919-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-10-10T21:34:19.0076919-06:00:2021-10-10T21:34:19.0076919-06:00:Thread#0:T:}
+2021-10-10T21:34:19.0086936-06:00:2021-10-10T21:34:19.0086936-06:00:Thread#0:T:{
+2021-10-10T21:34:19.0086936-06:00:2021-10-10T21:34:19.0086936-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-10T21:34:19.0096928-06:00:2021-10-10T21:34:19.0086936-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-10-10T21:34:19.0096928-06:00:2021-10-10T21:34:19.0096928-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-10-10T21:34:19.0096928-06:00:2021-10-10T21:34:19.0096928-06:00:Thread#0:T:}
+2021-10-10T21:34:19.0106942-06:00:2021-10-10T21:34:19.0106942-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 10/10/2021 9:34:19 PM
+2021-10-10T21:34:19.0106942-06:00:2021-10-10T21:34:19.0106942-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 10/10/2021 9:34:19 PM
+2021-10-10T21:34:33.3288890-06:00:2021-10-10T21:34:33.3288890-06:00:Thread#0:T:Line 36
+2021-10-10T21:34:33.4018206-06:00:2021-10-10T21:34:33.4008219-06:00:Thread#0:T:Parsing: i am so tired of working and probably too tired deving my own game... seems like i have only one option left... from: sky_acaniadev
+2021-10-10T21:34:33.4038216-06:00:2021-10-10T21:34:33.4038216-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-10-10T21:34:33.4048210-06:00:2021-10-10T21:34:33.4048210-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 0
+2021-10-10T21:34:33.4128580-06:00:2021-10-10T21:34:33.4128580-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev.wav at time: 10/10/2021 9:34:33 PM
+2021-10-10T21:34:33.4148295-06:00:2021-10-10T21:34:33.4138303-06:00:Thread#0:T:Waiting for 1915.646ms ended at time: 10/10/2021 9:34:33 PM
+2021-10-10T21:34:35.3415144-06:00:2021-10-10T21:34:35.3415144-06:00:Thread#0:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-10-10T21:34:35.3425152-06:00:2021-10-10T21:34:35.3425152-06:00:Thread#0:T:clip played the old boring way, duration was: 1.915646
+2021-10-10T21:34:43.9275346-06:00:2021-10-10T21:34:43.9265328-06:00:Thread#0:T:Line 37
+2021-10-10T21:34:43.9955791-06:00:2021-10-10T21:34:43.9955791-06:00:Thread#0:T:Parsing: i'll try to be around more from: caels_c
+2021-10-10T21:35:17.5351529-06:00:2021-10-10T21:35:17.5341545-06:00:Thread#0:T:Line 38
+2021-10-10T21:35:17.6099380-06:00:2021-10-10T21:35:17.6099380-06:00:Thread#0:T:Parsing: if they have free internet and i can bring my laptop from: sky_acaniadev

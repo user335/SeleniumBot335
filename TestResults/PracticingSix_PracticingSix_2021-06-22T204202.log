@@ -1,0 +1,89 @@
+﻿2021-06-22T20:42:02.6920724-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-22T20:42:02.6920724-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-22T20:42:02.6920724-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-22T20:42:02.6920724-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-22T20:42:02.8220095-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-22T20:42:02.8230056-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-22T20:42:02.8230056-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-22T20:42:02.8655226-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-22T204202.log
+2021-06-22T20:42:02.8705234-06:00;Thread#13;Info;Checking activation
+2021-06-22T20:42:02.9478668-06:00;Thread#13;Info;Activated.
+2021-06-22T20:42:02.9478668-06:00;Thread#13;Info;Activation check completed
+2021-06-22T20:42:02.9478668-06:00;Thread#13;Info;Starting test run
+2021-06-22T20:42:02.9845339-06:00;Thread#13;Info;Discovering target: Default
+2021-06-22T20:42:02.9865348-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-22T20:42:03.2928101-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-22T20:42:03.2938103-06:00:Test Suite Dump
+2021-06-22T20:42:03.2953446-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-22T20:42:03.2953446-06:00:#1: Default - 
+2021-06-22T20:42:03.2953446-06:00:#2: PracticingSix - 
+2021-06-22T20:42:03.2953446-06:00:#5: Twitch Bot! - 
+2021-06-22T20:42:03.3272361-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-22T20:42:03.3272361-06:00:End: Test Suite Dump
+2021-06-22T20:42:03.3606402-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-22T20:42:03.3626408-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-22T20:42:03.3626408-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-22T20:42:03.3676430-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-22T20:42:03.3686430-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-22T20:42:03.3686430-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-22T20:42:03.3686430-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-22T20:42:03.3692192-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-22T20:42:03.3702091-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-22T20:42:03.3702091-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-22T20:42:03.3702091-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-22T20:42:03.3702091-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-22T20:42:03.3702091-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-22T20:42:03.3732094-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-22T20:42:03.3742096-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-22T20:42:03.3762100-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-22T20:42:03.3782201-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-22T20:42:03.3802347-06:00:starting Out Of Process Executor
+2021-06-22T20:42:03.3862276-06:00:Starting callback TCP Rpc server
+2021-06-22T20:42:03.3988173-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-22T20:42:03.3988173-06:00:Started callback TCP Rpc server on port 32768
+2021-06-22T20:42:03.3988173-06:00:Starting logger TCP Rpc server
+2021-06-22T20:42:03.4018170-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-22T20:42:03.4018170-06:00:Started logger TCP Rpc server on port 32769
+2021-06-22T20:42:03.4068193-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 9372 --uniqueId "2021-06-22T204202" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-22T20:42:03.4108196-06:00:Executor with PID 16332 has been started successfully.
+2021-06-22T20:42:03.4138192-06:00:Out of Process Executor 16332 started
+2021-06-22T20:42:03.4138192-06:00:Waiting for endpoint
+2021-06-22T20:42:03.8444523-06:00:Remote executor port received: 32770
+2021-06-22T20:42:03.8444523-06:00:Creating executor TCP client on port 32770
+2021-06-22T20:42:03.8454536-06:00:Created executor TCP client on port 32770
+2021-06-22T20:42:03.8454536-06:00:Connecting to remote executor TCP server
+2021-06-22T20:42:03.8454536-06:00:Connected remote executor TCP server
+2021-06-22T20:42:03.8454536-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-22T20:42:03.8454536-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-22T20:42:03.9766927-06:00:2021-06-22T20:42:03.9766927-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-22T20:42:03.9826851-06:00:Endpoint 16332 started
+2021-06-22T20:42:04.0016888-06:00:2021-06-22T20:42:04.0006893-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-22T20:42:04.3028059-06:00:2021-06-22T20:42:04.3028059-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-22T20:42:04.3108075-06:00:2021-06-22T20:42:04.3098081-06:00:Thread#0:T:-> Using default config
+2021-06-22T20:42:04.8874492-06:00:2021-06-22T20:42:04.8874492-06:00:Thread#0:T:Starting the driver...
+2021-06-22T20:42:06.3057078-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-22T20:42:06.3377156-06:00:2021-06-22T20:42:06.3377156-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-22T20:42:06.3867253-06:00:2021-06-22T20:42:06.3857266-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-22T20:42:06.3877264-06:00:2021-06-22T20:42:06.3877264-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-22T20:42:07.9512526-06:00:2021-06-22T20:42:07.9512526-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.6s)
+2021-06-22T20:42:07.9522529-06:00:2021-06-22T20:42:07.9522529-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-22T20:42:44.5131903-06:00:2021-06-22T20:42:44.5131903-06:00:Thread#0:T:Line 1
+2021-06-22T20:42:44.6012189-06:00:2021-06-22T20:42:44.6012189-06:00:Thread#0:T:Parsing: test from: user335
+2021-06-22T20:42:44.9572906-06:00:2021-06-22T20:42:44.9562919-06:00:Thread#0:T:error: Could not load file or assembly 'System.Runtime, Version=4.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+2021-06-22T20:42:44.9882968-06:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2021-06-22T20:42:44.9902975-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-22T20:42:44.9912981-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-22T20:42:44.9912981-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-22T20:42:44.9912981-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-22T20:42:44.9912981-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-22T20:42:44.9912981-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-22T20:42:44.9912981-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-22T20:42:44.9912981-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-22T20:42:44.9912981-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-06-22T20:42:45.0413095-06:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 38.7356017 seconds
+2021-06-22T20:42:45.0433091-06:00:Thread#0: Test #6/1 is started on thread #0
+2021-06-22T20:42:45.0443098-06:00:2021-06-22T20:42:45.0443098-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-22T20:42:45.0453100-06:00:2021-06-22T20:42:45.0443098-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-22T20:42:45.0453100-06:00:2021-06-22T20:42:45.0453100-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-22T20:42:46.3564304-06:00:2021-06-22T20:42:46.3564304-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.3s)
+2021-06-22T20:42:46.3574316-06:00:2021-06-22T20:42:46.3574316-06:00:Thread#0:B:Then my Twitch Bot lives!

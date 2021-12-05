@@ -1,0 +1,154 @@
+﻿2021-05-09T20:17:15.6757617-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-09T20:17:15.6757617-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-09T20:17:15.6767620-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-09T20:17:15.6767620-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-09T20:17:15.8238647-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll
+2021-05-09T20:17:15.8248654-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-09T20:17:15.8248654-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-09T20:17:15.8718907-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-09T201715.log
+2021-05-09T20:17:15.8788926-06:00;Thread#13;Info;Checking activation
+2021-05-09T20:17:15.9784833-06:00;Thread#13;Info;Activated.
+2021-05-09T20:17:15.9784833-06:00;Thread#13;Info;Activation check completed
+2021-05-09T20:17:15.9794843-06:00;Thread#13;Info;Starting test run
+2021-05-09T20:17:16.0270298-06:00;Thread#13;Info;Discovering target: Default
+2021-05-09T20:17:16.0270298-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll
+2021-05-09T20:17:16.3802660-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll
+2021-05-09T20:17:16.3812656-06:00:Test Suite Dump
+2021-05-09T20:17:16.3837743-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-09T20:17:16.3837743-06:00:#1: Default - 
+2021-05-09T20:17:16.3837743-06:00:#2: PracticingSix - 
+2021-05-09T20:17:16.3837743-06:00:#3: EyeOfTheTiger - 
+2021-05-09T20:17:16.4172915-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-09T20:17:16.4172915-06:00:End: Test Suite Dump
+2021-05-09T20:17:16.4573159-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-09T20:17:16.4593167-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-09T20:17:16.4603169-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-09T20:17:16.4668254-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-09T20:17:16.4668254-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-09T20:17:16.4668254-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-09T20:17:16.4668254-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-09T20:17:16.4678253-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-09T20:17:16.4698259-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-09T20:17:16.4698259-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-09T20:17:16.4698259-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-09T20:17:16.4698259-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-09T20:17:16.4698259-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-09T20:17:16.4718269-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-09T20:17:16.4738269-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-09T20:17:16.4768284-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-09T20:17:16.4788283-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-09T20:17:16.4808288-06:00:starting Out Of Process Executor
+2021-05-09T20:17:16.4868303-06:00:Starting callback TCP Rpc server
+2021-05-09T20:17:16.5028579-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-05-09T20:17:16.5028579-06:00:Started callback TCP Rpc server on port 32771
+2021-05-09T20:17:16.5028579-06:00:Starting logger TCP Rpc server
+2021-05-09T20:17:16.5068491-06:00:Asynchronously starting background TCP Rpc Server on port 32772
+2021-05-09T20:17:16.5068491-06:00:Started logger TCP Rpc server on port 32772
+2021-05-09T20:17:16.5118512-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 1064 --uniqueId "2021-05-09T201715" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32771 --loggerPort 32772' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-09T20:17:16.5168520-06:00:Executor with PID 20496 has been started successfully.
+2021-05-09T20:17:16.5198527-06:00:Out of Process Executor 20496 started
+2021-05-09T20:17:16.5198527-06:00:Waiting for endpoint
+2021-05-09T20:17:17.2579173-06:00:Remote executor port received: 32773
+2021-05-09T20:17:17.2589177-06:00:Creating executor TCP client on port 32773
+2021-05-09T20:17:17.2599182-06:00:Created executor TCP client on port 32773
+2021-05-09T20:17:17.2599182-06:00:Connecting to remote executor TCP server
+2021-05-09T20:17:17.2599182-06:00:Connected remote executor TCP server
+2021-05-09T20:17:17.2599182-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-09T20:17:17.2599182-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-09T20:17:18.6941602-06:00:2021-05-09T20:17:18.6921605-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Release\PracticingSix.dll on test thread #0
+2021-05-09T20:17:18.7031609-06:00:Endpoint 20496 started
+2021-05-09T20:17:18.7341690-06:00:2021-05-09T20:17:18.7331683-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-09T20:17:19.5370162-06:00:2021-05-09T20:17:19.5370162-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Release\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-09T20:17:19.6231951-06:00:2021-05-09T20:17:19.6221945-06:00:Thread#0:T:-> Using default config
+2021-05-09T20:17:22.6522178-06:00:2021-05-09T20:17:22.6512174-06:00:Thread#0:T:Starting the driver...
+2021-05-09T20:17:25.2125992-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-05-09T20:17:25.2726130-06:00:2021-05-09T20:17:25.2726130-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-09T20:17:39.8571615-06:00:2021-05-09T20:17:39.8571615-06:00:Thread#0:T:Playing!
+2021-05-09T20:17:40.6078414-06:00:2021-05-09T20:17:40.6078414-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:21:47.9919961-06:00:2021-05-09T20:21:47.9909962-06:00:Thread#0:T:Playing!
+2021-05-09T20:21:48.6471665-06:00:2021-05-09T20:21:48.6471665-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:25:55.7259896-06:00:2021-05-09T20:25:55.7249896-06:00:Thread#0:T:Playing!
+2021-05-09T20:25:55.9920490-06:00:2021-05-09T20:25:55.9920490-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:30:04.7812961-06:00:2021-05-09T20:30:04.7812961-06:00:Thread#0:T:Playing!
+2021-05-09T20:30:05.4622447-06:00:2021-05-09T20:30:05.4622447-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:34:19.4859215-06:00:2021-05-09T20:34:19.4849211-06:00:Thread#0:T:Playing!
+2021-05-09T20:34:20.1731826-06:00:2021-05-09T20:34:20.1721822-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:38:26.0370600-06:00:2021-05-09T20:38:26.0360582-06:00:Thread#0:T:Playing!
+2021-05-09T20:38:26.5041647-06:00:2021-05-09T20:38:26.5041647-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:42:32.5001578-06:00:2021-05-09T20:42:32.4871553-06:00:Thread#0:T:Playing!
+2021-05-09T20:42:33.0019187-06:00:2021-05-09T20:42:33.0009188-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:46:41.8226152-06:00:2021-05-09T20:46:41.8226152-06:00:Thread#0:T:Playing!
+2021-05-09T20:46:41.8511322-06:00:2021-05-09T20:46:41.8501309-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:50:46.4971208-06:00:2021-05-09T20:50:46.4961208-06:00:Thread#0:T:Playing!
+2021-05-09T20:50:46.9825032-06:00:2021-05-09T20:50:46.9815032-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:54:54.8845243-06:00:2021-05-09T20:54:54.8835240-06:00:Thread#0:T:Playing!
+2021-05-09T20:54:55.7666196-06:00:2021-05-09T20:54:55.7666196-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T20:59:00.5888501-06:00:2021-05-09T20:59:00.5888501-06:00:Thread#0:T:Playing!
+2021-05-09T20:59:01.1199708-06:00:2021-05-09T20:59:01.1199708-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:03:06.7102669-06:00:2021-05-09T21:03:06.7092662-06:00:Thread#0:T:Playing!
+2021-05-09T21:03:07.2058903-06:00:2021-05-09T21:03:07.2058903-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:07:11.8698024-06:00:2021-05-09T21:07:11.8688016-06:00:Thread#0:T:Playing!
+2021-05-09T21:07:12.3548736-06:00:2021-05-09T21:07:12.3548736-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:11:17.4860686-06:00:2021-05-09T21:11:17.4850687-06:00:Thread#0:T:Playing!
+2021-05-09T21:11:17.8701571-06:00:2021-05-09T21:11:17.8701571-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:15:23.0463272-06:00:2021-05-09T21:15:23.0453270-06:00:Thread#0:T:Playing!
+2021-05-09T21:15:23.3211908-06:00:2021-05-09T21:15:23.3211908-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:19:28.5180678-06:00:2021-05-09T21:19:28.5170692-06:00:Thread#0:T:Playing!
+2021-05-09T21:19:29.4102695-06:00:2021-05-09T21:19:29.4092700-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:23:34.9880574-06:00:2021-05-09T21:23:34.9870578-06:00:Thread#0:T:Playing!
+2021-05-09T21:23:35.3051300-06:00:2021-05-09T21:23:35.3041319-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:27:44.6418523-06:00:2021-05-09T21:27:44.6408521-06:00:Thread#0:T:Playing!
+2021-05-09T21:27:44.6738593-06:00:2021-05-09T21:27:44.6738593-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:31:50.3982621-06:00:2021-05-09T21:31:50.3972626-06:00:Thread#0:T:Playing!
+2021-05-09T21:31:50.4972841-06:00:2021-05-09T21:31:50.4962835-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:36:00.9211194-06:00:2021-05-09T21:36:00.9201198-06:00:Thread#0:T:Playing!
+2021-05-09T21:36:00.9541261-06:00:2021-05-09T21:36:00.9531252-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:40:06.5051842-06:00:2021-05-09T21:40:06.5041842-06:00:Thread#0:T:Playing!
+2021-05-09T21:40:06.9032285-06:00:2021-05-09T21:40:06.9022291-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:44:12.4230790-06:00:2021-05-09T21:44:12.4230790-06:00:Thread#0:T:Playing!
+2021-05-09T21:44:12.7761647-06:00:2021-05-09T21:44:12.7761647-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-09T21:48:27.9931066-06:00:2021-05-09T21:48:27.9931066-06:00:Thread#0:T:error: chrome not reachable
+2021-05-09T21:48:27.9940965-06:00:2021-05-09T21:48:27.9940965-06:00:Thread#0:T:  (Session info: chrome=90.0.4430.93)
+2021-05-09T21:48:27.9950983-06:00:2021-05-09T21:48:27.9950983-06:00:Thread#0:B:Then I get what I need
+2021-05-09T21:48:27.9960971-06:00:2021-05-09T21:48:27.9960971-06:00:Thread#0:T:skipped because of previous errors
+2021-05-09T21:48:28.2451275-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-09T21:48:28.2451275-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-09T21:48:28.2451275-06:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-05-09T21:48:28.2451275-06:00:Thread#0:Scheduler: No more tests for thread
+2021-05-09T21:48:28.2941455-06:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 5463.0805445 seconds
+2021-05-09T21:48:28.3011459-06:00:2021-05-09T21:48:28.3011459-06:00:Got Deinitialize Signal
+2021-05-09T21:48:28.3041474-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-05-09T21:48:28.3051477-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-09T21:48:28.3071479-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-09T21:48:28.3091496-06:00:Trying to cancel thread
+2021-05-09T21:48:28.3091496-06:00:Thread cancelled
+2021-05-09T21:48:28.3091496-06:00:Trying to cancel thread
+2021-05-09T21:48:28.3091496-06:00:Thread cancelled
+2021-05-09T21:48:28.3131489-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-05-09T21:48:28.3131489-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-09T21:48:28.3131489-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-05-09T21:48:28.3151491-06:00;Thread#13;Info;test run finished
+2021-05-09T21:48:28.3151491-06:00;Thread#13;Info;publishing test results
+2021-05-09T21:48:28.3221512-06:00;Thread#13;Info;test results published
+2021-05-09T21:48:28.3221512-06:00;Thread#13;Info;generating reports
+2021-05-09T21:48:28.4271754-06:00;Thread#13;Info;Starting external report generation process
+2021-05-09T21:48:29.8802460-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-05-09T21:48:29.8802460-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-05-09T21:48:29.8802460-06:00;Thread#13;Info;Failed generating reports
+2021-05-09T21:48:29.8872471-06:00:Total: 1
+2021-05-09T21:48:29.8892565-06:00:Succeeded: 0
+2021-05-09T21:48:29.8892565-06:00:Ignored: 0
+2021-05-09T21:48:29.8902480-06:00:Pending: 0
+2021-05-09T21:48:29.8902480-06:00:Skipped: 0
+2021-05-09T21:48:29.8902480-06:00:Failed: 1
+2021-05-09T21:48:29.9002591-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

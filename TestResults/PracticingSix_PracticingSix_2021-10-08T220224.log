@@ -1,0 +1,210 @@
+﻿2021-10-08T22:02:24.8173334-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-10-08T22:02:24.8173334-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-10-08T22:02:24.8173334-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-10-08T22:02:24.8173334-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-10-08T22:02:24.9841266-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-10-08T22:02:24.9841266-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-10-08T22:02:24.9841266-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-10-08T22:02:25.0361386-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-10-08T220224.log
+2021-10-08T22:02:25.0431405-06:00;Thread#13;Info;Checking activation
+2021-10-08T22:02:25.1366711-06:00;Thread#13;Info;Activated.
+2021-10-08T22:02:25.1366711-06:00;Thread#13;Info;Activation check completed
+2021-10-08T22:02:25.1366711-06:00;Thread#13;Info;Starting test run
+2021-10-08T22:02:25.1751900-06:00;Thread#13;Info;Discovering target: Default
+2021-10-08T22:02:25.1751900-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-10-08T22:02:25.5548503-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-10-08T22:02:25.5558507-06:00:Test Suite Dump
+2021-10-08T22:02:25.5578511-06:00:#0: PracticingSix/PracticingSix - 
+2021-10-08T22:02:25.5578511-06:00:#1: Default - 
+2021-10-08T22:02:25.5578511-06:00:#2: PracticingSix - 
+2021-10-08T22:02:25.5578511-06:00:#4: Twitch Bot! - 
+2021-10-08T22:02:25.5948769-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-10-08T22:02:25.5948769-06:00:End: Test Suite Dump
+2021-10-08T22:02:25.6298850-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-10-08T22:02:25.6318852-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-10-08T22:02:25.6318852-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-10-08T22:02:25.6368862-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-10-08T22:02:25.6368862-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-10-08T22:02:25.6368862-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-10-08T22:02:25.6368862-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-10-08T22:02:25.6378864-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-10-08T22:02:25.6388868-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-10-08T22:02:25.6398876-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-10-08T22:02:25.6398876-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-10-08T22:02:25.6398876-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-10-08T22:02:25.6398876-06:00:Thread#1:Scheduler: No more tests for thread
+2021-10-08T22:02:25.6428889-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-10-08T22:02:25.6448891-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-10-08T22:02:25.6794373-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-10-08T22:02:25.6824391-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-10-08T22:02:25.6844385-06:00:starting Out Of Process Executor
+2021-10-08T22:02:25.6894396-06:00:Starting callback TCP Rpc server
+2021-10-08T22:02:25.7034425-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-10-08T22:02:25.7034425-06:00:Started callback TCP Rpc server on port 32770
+2021-10-08T22:02:25.7034425-06:00:Starting logger TCP Rpc server
+2021-10-08T22:02:25.7064430-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-10-08T22:02:25.7064430-06:00:Started logger TCP Rpc server on port 32771
+2021-10-08T22:02:25.7119834-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 13240 --uniqueId "2021-10-08T220224" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32770 --loggerPort 32771' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-10-08T22:02:25.7379574-06:00:Executor with PID 16596 has been started successfully.
+2021-10-08T22:02:25.7399577-06:00:Out of Process Executor 16596 started
+2021-10-08T22:02:25.7399577-06:00:Waiting for endpoint
+2021-10-08T22:02:26.4711481-06:00:Remote executor port received: 32772
+2021-10-08T22:02:26.4721478-06:00:Creating executor TCP client on port 32772
+2021-10-08T22:02:26.4721478-06:00:Created executor TCP client on port 32772
+2021-10-08T22:02:26.4721478-06:00:Connecting to remote executor TCP server
+2021-10-08T22:02:26.4731481-06:00:Connected remote executor TCP server
+2021-10-08T22:02:26.4731481-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-10-08T22:02:26.4731481-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-10-08T22:02:26.9982889-06:00:2021-10-08T22:02:26.9972874-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-10-08T22:02:27.0062892-06:00:Endpoint 16596 started
+2021-10-08T22:02:27.0252933-06:00:2021-10-08T22:02:27.0242937-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-10-08T22:02:27.4088903-06:00:2021-10-08T22:02:27.4088903-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-10-08T22:02:27.4188930-06:00:2021-10-08T22:02:27.4178934-06:00:Thread#0:T:-> Using default config
+2021-10-08T22:02:28.3801310-06:00:2021-10-08T22:02:28.3801310-06:00:Thread#0:T:Starting the driver...
+2021-10-08T22:02:29.8382498-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-10-08T22:02:29.8702563-06:00:2021-10-08T22:02:29.8702563-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-10-08T22:02:29.9192674-06:00:2021-10-08T22:02:29.9192674-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-10-08T22:02:29.9222692-06:00:2021-10-08T22:02:29.9212687-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-10-08T22:02:31.7348319-06:00:2021-10-08T22:02:31.7348319-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.8s)
+2021-10-08T22:02:31.7378324-06:00:2021-10-08T22:02:31.7368324-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-10-08T22:02:33.7323968-06:00:2021-10-08T22:02:33.7293968-06:00:Thread#0:T:Line 1
+2021-10-08T22:02:33.8394199-06:00:2021-10-08T22:02:33.8394199-06:00:Thread#0:T:Parsing: pawnshop tycoon lately from: almightygamesdev
+2021-10-08T22:02:33.8494228-06:00:2021-10-08T22:02:33.8494228-06:00:Thread#0:T:Eyy, its almightygamesdev!
+2021-10-08T22:02:33.8504241-06:00:2021-10-08T22:02:33.8504241-06:00:Thread#0:T:Found 2 clips for user almightygamesdev and rolled clip #: 0
+2021-10-08T22:02:33.9184386-06:00:2021-10-08T22:02:33.9184386-06:00:Thread#0:T:{
+2021-10-08T22:02:33.9194385-06:00:2021-10-08T22:02:33.9184386-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-08T22:02:33.9194385-06:00:2021-10-08T22:02:33.9194385-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-10-08T22:02:33.9214406-06:00:2021-10-08T22:02:33.9194385-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-10-08T22:02:33.9214406-06:00:2021-10-08T22:02:33.9214406-06:00:Thread#0:T:}
+2021-10-08T22:02:33.9234401-06:00:2021-10-08T22:02:33.9234401-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\almightygamesdev.wav at time: 10/8/2021 10:02:33 PM
+2021-10-08T22:02:33.9254407-06:00:2021-10-08T22:02:33.9254407-06:00:Thread#0:T:Waiting for 2882.902ms ended at time: 10/8/2021 10:02:33 PM
+2021-10-08T22:02:36.8152642-06:00:2021-10-08T22:02:36.8142636-06:00:Thread#0:T:Duration of clip was 2.882902, thanks rabbit_xxxx you're the best!
+2021-10-08T22:02:36.8162645-06:00:2021-10-08T22:02:36.8152642-06:00:Thread#0:T:clip played the old boring way, duration was: 2.882902
+2021-10-08T22:02:59.4692458-06:00:2021-10-08T22:02:59.4682444-06:00:Thread#0:T:Line 2
+2021-10-08T22:02:59.5482625-06:00:2021-10-08T22:02:59.5472615-06:00:Thread#0:T:Parsing: i started the project over from scratch about a month ago. from: almightygamesdev
+2021-10-08T22:03:39.8759962-06:00:2021-10-08T22:03:39.8759962-06:00:Thread#0:T:Line 3
+2021-10-08T22:03:39.9670576-06:00:2021-10-08T22:03:39.9670576-06:00:Thread#0:T:Parsing: to do what you're trying to do faster
+2021-10-08T22:03:39.9680578-06:00:2021-10-08T22:03:39.9680578-06:00:Thread#0:T:refactor everything from: almightygamesdev
+2021-10-08T22:04:14.8678187-06:00:2021-10-08T22:04:14.8668176-06:00:Thread#0:T:Line 4
+2021-10-08T22:04:14.9378357-06:00:2021-10-08T22:04:14.9368348-06:00:Thread#0:T:Parsing: everything's perfect so far from: almightygamesdev
+2021-10-08T22:04:45.4722451-06:00:2021-10-08T22:04:45.4722451-06:00:Thread#0:T:Line 5
+2021-10-08T22:04:45.5462627-06:00:2021-10-08T22:04:45.5462627-06:00:Thread#0:T:Parsing: well, not everything... i did make the executive decision to lose enviro... i found it to be one of the biggest contributors to frame loss from: almightygamesdev
+2021-10-08T22:05:28.8719415-06:00:2021-10-08T22:05:28.8719415-06:00:Thread#0:T:Line 6
+2021-10-08T22:05:28.9509607-06:00:2021-10-08T22:05:28.9499599-06:00:Thread#0:T:Parsing: with enviro: 45 fps... without enviro: 100 fps from: almightygamesdev
+2021-10-08T22:06:24.8772537-06:00:2021-10-08T22:06:24.8762533-06:00:Thread#0:T:Line 7
+2021-10-08T22:06:24.9862786-06:00:2021-10-08T22:06:24.9852789-06:00:Thread#0:T:Parsing: now with other optimizations, got my city running an average of 100fps and up to 160fps for some of the smaller regions from: almightygamesdev
+2021-10-08T22:07:20.1160850-06:00:2021-10-08T22:07:20.1150943-06:00:Thread#0:T:Line 8
+2021-10-08T22:07:20.2617967-06:00:2021-10-08T22:07:20.2607962-06:00:Thread#0:T:Parsing: also, new feature... player can traverse entire city now. i also redesigned the entire city from: almightygamesdev
+2021-10-08T22:09:01.2668360-06:00:2021-10-08T22:09:01.2658349-06:00:Thread#0:T:Line 9
+2021-10-08T22:09:01.3618570-06:00:2021-10-08T22:09:01.3618570-06:00:Thread#0:T:Parsing: let me tell you this though... this approach to refactoring is only good if you take a long break between rebuilding. it would be too difficult to separate your thoughts from the old and the new otherwise. from: almightygamesdev
+2021-10-08T22:09:03.6811894-06:00:2021-10-08T22:09:03.6791888-06:00:Thread#0:T:Line 10
+2021-10-08T22:09:03.8628451-06:00:2021-10-08T22:09:03.8618438-06:00:Thread#0:T:Parsing: this sounds like a game i dont know about. what game are you working on from: tenchiofficial
+2021-10-08T22:09:03.8708464-06:00:2021-10-08T22:09:03.8698464-06:00:Thread#0:T:{
+2021-10-08T22:09:03.8718494-06:00:2021-10-08T22:09:03.8718494-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-10-08T22:09:03.8728471-06:00:2021-10-08T22:09:03.8718494-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-10-08T22:09:03.8738466-06:00:2021-10-08T22:09:03.8728471-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-10-08T22:09:03.8748466-06:00:2021-10-08T22:09:03.8738466-06:00:Thread#0:T:}
+2021-10-08T22:09:03.8748466-06:00:2021-10-08T22:09:03.8748466-06:00:Thread#0:T:{
+2021-10-08T22:09:03.8758469-06:00:2021-10-08T22:09:03.8758469-06:00:Thread#0:T:	CHUNK ID: IART
+2021-10-08T22:09:03.8768468-06:00:2021-10-08T22:09:03.8758469-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-10-08T22:09:03.8768468-06:00:2021-10-08T22:09:03.8768468-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-10-08T22:09:03.8778473-06:00:2021-10-08T22:09:03.8778473-06:00:Thread#0:T:}
+2021-10-08T22:09:03.8788487-06:00:2021-10-08T22:09:03.8778473-06:00:Thread#0:T:{
+2021-10-08T22:09:03.8788487-06:00:2021-10-08T22:09:03.8788487-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-10-08T22:09:03.8798490-06:00:2021-10-08T22:09:03.8798490-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-10-08T22:09:03.8838877-06:00:2021-10-08T22:09:03.8823791-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-10-08T22:09:03.8868898-06:00:2021-10-08T22:09:03.8858915-06:00:Thread#0:T:}
+2021-10-08T22:09:03.8878897-06:00:2021-10-08T22:09:03.8868898-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 10/8/2021 10:09:03 PM
+2021-10-08T22:09:03.8888890-06:00:2021-10-08T22:09:03.8888890-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 10/8/2021 10:09:03 PM
+2021-10-08T22:09:51.8895359-06:00:2021-10-08T22:09:51.8885358-06:00:Thread#0:T:Line 11
+2021-10-08T22:09:51.9725550-06:00:2021-10-08T22:09:51.9725550-06:00:Thread#0:T:Parsing: !almightygamesdev from: user335
+2021-10-08T22:09:52.2756231-06:00:2021-10-08T22:09:52.2746226-06:00:Thread#0:T:Line 12
+2021-10-08T22:10:27.0681739-06:00:2021-10-08T22:10:27.0671728-06:00:Thread#0:T:Line 13
+2021-10-08T22:10:27.1521940-06:00:2021-10-08T22:10:27.1521940-06:00:Thread#0:T:Parsing: i only kept the character textures and models, everything else is rebuilt from scratch. from: almightygamesdev
+2021-10-08T22:11:22.4688483-06:00:2021-10-08T22:11:22.4688483-06:00:Thread#0:T:Line 14
+2021-10-08T22:11:22.5515293-06:00:2021-10-08T22:11:22.5505289-06:00:Thread#0:T:Parsing: the new map system is glorious
+2021-10-08T22:11:22.5515293-06:00:2021-10-08T22:11:22.5515293-06:00:Thread#0:T:you'd dig it for sure. from: almightygamesdev
+2021-10-08T22:11:50.8721777-06:00:2021-10-08T22:11:50.8721777-06:00:Thread#0:T:Line 15
+2021-10-08T22:11:50.9441938-06:00:2021-10-08T22:11:50.9441938-06:00:Thread#0:T:Parsing: yeah i had a rough time catching you online lately. both busy from: almightygamesdev
+2021-10-08T22:12:03.2761420-06:00:2021-10-08T22:12:03.2751418-06:00:Thread#0:T:Line 16
+2021-10-08T22:12:03.3632232-06:00:2021-10-08T22:12:03.3632232-06:00:Thread#0:T:Parsing: were you asking me @tenchiofficial ? from: almightygamesdev
+2021-10-08T22:12:51.8750390-06:00:2021-10-08T22:12:51.8740392-06:00:Thread#0:T:Line 17
+2021-10-08T22:12:51.9616030-06:00:2021-10-08T22:12:51.9616030-06:00:Thread#0:T:Parsing: you could swap out blobs with pawnshop tycoon @user335 ... blobs is old news now. from: almightygamesdev
+2021-10-08T22:12:58.6691617-06:00:2021-10-08T22:12:58.6681619-06:00:Thread#0:T:Line 18
+2021-10-08T22:12:58.7552100-06:00:2021-10-08T22:12:58.7552100-06:00:Thread#0:T:Parsing: yes but user answered from: tenchiofficial
+2021-10-08T22:13:32.2841896-06:00:2021-10-08T22:13:32.2761878-06:00:Thread#0:T:Line 19
+2021-10-08T22:13:32.3652091-06:00:2021-10-08T22:13:32.3652091-06:00:Thread#0:T:Parsing: ah so its not blobs ok that makes sense. i was wondering how a blob is going to travserse the city from: tenchiofficial
+2021-10-08T22:13:36.0812309-06:00:2021-10-08T22:13:36.0812309-06:00:Thread#0:T:Line 20
+2021-10-08T22:13:36.1682504-06:00:2021-10-08T22:13:36.1682504-06:00:Thread#0:T:Parsing: thanks for that bud from: almightygamesdev
+2021-10-08T22:14:27.4672265-06:00:2021-10-08T22:14:27.4667087-06:00:Thread#0:T:Line 21
+2021-10-08T22:14:27.5472793-06:00:2021-10-08T22:14:27.5472793-06:00:Thread#0:T:Parsing: the game i'm working on lately @tenchiofficial is called pawnshop tycoon. from: almightygamesdev
+2021-10-08T22:15:28.4767866-06:00:2021-10-08T22:15:28.4767866-06:00:Thread#0:T:Line 22
+2021-10-08T22:15:28.5653498-06:00:2021-10-08T22:15:28.5653498-06:00:Thread#0:T:Parsing: !commands edit !almightygamesdev user335 recommends you check out almightygamesdev at twitch.tv/almightygamesdev every saturday, his udemy courses at udemy.com/user/billymcdaniel/ and also wishlist two of his upcoming games on on steam tabletop adventures at store.steampowered.com/app/912310/tabletop_adventures/ and also be sure to catch pawn shop tycoon! at steam.pm/app/1216990 from: user335
+2021-10-08T22:15:28.8640756-06:00:2021-10-08T22:15:28.8630754-06:00:Thread#0:T:Line 23
+2021-10-08T22:15:34.2842905-06:00:2021-10-08T22:15:34.2832904-06:00:Thread#0:T:Line 24
+2021-10-08T22:15:34.3628495-06:00:2021-10-08T22:15:34.3628495-06:00:Thread#0:T:Parsing: !almightygamesdev from: user335
+2021-10-08T22:15:34.4894418-06:00:2021-10-08T22:15:34.4884429-06:00:Thread#0:T:Line 25
+2021-10-08T22:16:13.1491088-06:00:2021-10-08T22:16:13.1481080-06:00:Thread#0:T:Line 26
+2021-10-08T22:16:13.2376705-06:00:2021-10-08T22:16:13.2376705-06:00:Thread#0:T:Parsing: groovy, i have to remember that shortner from: almightygamesdev
+2021-10-08T22:16:28.1315022-06:00:2021-10-08T22:16:28.1315022-06:00:Thread#0:T:Line 27
+2021-10-08T22:16:28.2375741-06:00:2021-10-08T22:16:28.2375741-06:00:Thread#0:T:Parsing:  from: hadhacks
+2021-10-08T22:16:28.2405830-06:00:2021-10-08T22:16:28.2405830-06:00:Thread#0:T:Eyy, its hadhacks!
+2021-10-08T22:16:28.2415757-06:00:2021-10-08T22:16:28.2415757-06:00:Thread#0:T:Found 2 clips for user hadhacks and rolled clip #: 1
+2021-10-08T22:16:28.2505768-06:00:2021-10-08T22:16:28.2505768-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\hadhacks1.wav at time: 10/8/2021 10:16:28 PM
+2021-10-08T22:16:28.2525770-06:00:2021-10-08T22:16:28.2515773-06:00:Thread#0:T:Waiting for 2109.333ms ended at time: 10/8/2021 10:16:28 PM
+2021-10-08T22:16:30.3682789-06:00:2021-10-08T22:16:30.3682789-06:00:Thread#0:T:Duration of clip was 2.109333, thanks rabbit_xxxx you're the best!
+2021-10-08T22:16:30.3692785-06:00:2021-10-08T22:16:30.3692785-06:00:Thread#0:T:clip played the old boring way, duration was: 2.109333
+2021-10-08T22:16:53.1434824-06:00:2021-10-08T22:16:53.1434824-06:00:Thread#0:T:Line 28
+2021-10-08T22:16:53.2450174-06:00:2021-10-08T22:16:53.2440156-06:00:Thread#0:T:Parsing: cya from: tenchiofficial
+2021-10-08T22:16:58.1383612-06:00:2021-10-08T22:16:58.1383612-06:00:Thread#0:T:Line 31
+2021-10-08T22:16:58.2373830-06:00:2021-10-08T22:16:58.2373830-06:00:Thread#0:T:Parsing: later everyone from: almightygamesdev
+2021-10-08T22:16:58.2473870-06:00:2021-10-08T22:16:58.2473870-06:00:Thread#0:T:Line 31
+2021-10-08T22:16:58.3534317-06:00:2021-10-08T22:16:58.3534317-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-10-08T22:16:58.3644344-06:00:2021-10-08T22:16:58.3644344-06:00:Thread#0:T:Line 31
+2021-10-08T22:16:59.1583416-06:00:2021-10-08T22:16:59.1583416-06:00:Thread#0:T:Line 32
+2021-10-08T22:16:59.2553639-06:00:2021-10-08T22:16:59.2553639-06:00:Thread#0:T:Parsing: peace from: almightygamesdev
+2021-10-08T22:17:00.1421932-06:00:2021-10-08T22:17:00.1421932-06:00:Thread#0:T:Line 34
+2021-10-08T22:17:00.2398050-06:00:2021-10-08T22:17:00.2398050-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-10-08T22:17:00.2528080-06:00:2021-10-08T22:17:00.2528080-06:00:Thread#0:T:Line 34
+2021-10-08T22:17:01.1373467-06:00:2021-10-08T22:17:01.1373467-06:00:Thread#0:T:Line 35
+2021-10-08T22:17:01.2329361-06:00:2021-10-08T22:17:01.2329361-06:00:Thread#0:T:Parsing: bye from: dstew99
+2021-10-08T22:17:01.2369375-06:00:2021-10-08T22:17:01.2369375-06:00:Thread#0:T:Eyy, its dstew99!
+2021-10-08T22:17:01.2444452-06:00:2021-10-08T22:17:01.2444452-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\dstew99.wav at time: 10/8/2021 10:17:01 PM
+2021-10-08T22:17:01.2454484-06:00:2021-10-08T22:17:01.2454484-06:00:Thread#0:T:Waiting for 1024.399ms ended at time: 10/8/2021 10:17:01 PM
+2021-10-08T22:17:02.2779590-06:00:2021-10-08T22:17:02.2779590-06:00:Thread#0:T:Duration of clip was 1.024399, thanks rabbit_xxxx you're the best!
+2021-10-08T22:17:02.2789612-06:00:2021-10-08T22:17:02.2789612-06:00:Thread#0:T:clip played the old boring way, duration was: 1.024399
+2021-10-08T22:17:02.2919805-06:00:2021-10-08T22:17:02.2909800-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\goodnight.wav at time: 10/8/2021 10:17:02 PM
+2021-10-08T22:17:02.2929797-06:00:2021-10-08T22:17:02.2919805-06:00:Thread#0:T:Waiting for 2819.773ms ended at time: 10/8/2021 10:17:02 PM
+2021-10-08T22:17:05.1432316-06:00:2021-10-08T22:17:05.1422316-06:00:Thread#0:T:Line 38
+2021-10-08T22:17:05.2372537-06:00:2021-10-08T22:17:05.2372537-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-10-08T22:17:05.2462574-06:00:2021-10-08T22:17:05.2452599-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-10-08T22:17:05.2472577-06:00:2021-10-08T22:17:05.2472577-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 0
+2021-10-08T22:17:05.2542567-06:00:2021-10-08T22:17:05.2542567-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev.wav at time: 10/8/2021 10:17:05 PM
+2021-10-08T22:17:05.2562592-06:00:2021-10-08T22:17:05.2562592-06:00:Thread#0:T:Waiting for 1915.646ms ended at time: 10/8/2021 10:17:05 PM
+2021-10-08T22:17:07.1752607-06:00:2021-10-08T22:17:07.1742566-06:00:Thread#0:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-10-08T22:17:07.1772587-06:00:2021-10-08T22:17:07.1762585-06:00:Thread#0:T:clip played the old boring way, duration was: 1.915646
+2021-10-08T22:17:07.1882619-06:00:2021-10-08T22:17:07.1872599-06:00:Thread#0:T:Line 38
+2021-10-08T22:17:07.2722791-06:00:2021-10-08T22:17:07.2722791-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-10-08T22:17:07.2822833-06:00:2021-10-08T22:17:07.2812822-06:00:Thread#0:T:Line 38
+2021-10-08T22:17:26.1383294-06:00:2021-10-08T22:17:26.1383294-06:00:Thread#0:T:Line 39
+2021-10-08T22:17:26.2469152-06:00:2021-10-08T22:17:26.2469152-06:00:Thread#0:T:Parsing: tta is growing faster than expected from: almightygamesdev
+2021-10-08T22:18:03.0003067-06:00:2021-10-08T22:18:02.9993070-06:00:Thread#0:T:error: chrome not reachable
+2021-10-08T22:18:03.0013135-06:00:2021-10-08T22:18:03.0013135-06:00:Thread#0:T:  (Session info: chrome=94.0.4606.71)
+2021-10-08T22:18:03.0208203-06:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2021-10-08T22:18:03.0228196-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-10-08T22:18:03.0228196-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-10-08T22:18:03.0228196-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-10-08T22:18:03.0228196-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-10-08T22:18:03.0228196-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-10-08T22:18:03.0228196-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-10-08T22:18:03.0228196-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-10-08T22:18:03.0228196-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-10-08T22:18:03.0228196-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-10-08T22:18:03.0748696-06:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 933.2366198 seconds
+2021-10-08T22:18:03.0768701-06:00:Thread#0: Test #5/1 is started on thread #0
+2021-10-08T22:18:03.0778695-06:00:2021-10-08T22:18:03.0778695-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-10-08T22:18:03.0788712-06:00:2021-10-08T22:18:03.0788712-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-10-08T22:18:03.0788712-06:00:2021-10-08T22:18:03.0788712-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-10-08T22:18:15.1790764-06:00:2021-10-08T22:18:15.1790764-06:00:Thread#0:T:Starting the driver...
+2021-10-08T22:18:19.3302143-06:00:2021-10-08T22:18:19.3302143-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (16.3s)
+2021-10-08T22:18:19.3312144-06:00:2021-10-08T22:18:19.3312144-06:00:Thread#0:B:Then my Twitch Bot lives!

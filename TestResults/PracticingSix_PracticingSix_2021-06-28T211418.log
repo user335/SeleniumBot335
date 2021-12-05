@@ -1,0 +1,529 @@
+﻿2021-06-28T21:14:18.3276909-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-28T21:14:18.3276909-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-28T21:14:18.3276909-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-28T21:14:18.3276909-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-28T21:14:18.4887278-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-28T21:14:18.4897286-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-28T21:14:18.4897286-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-28T21:14:18.5487390-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-28T211418.log
+2021-06-28T21:14:18.5557420-06:00;Thread#13;Info;Checking activation
+2021-06-28T21:14:18.6877714-06:00;Thread#13;Info;Activated.
+2021-06-28T21:14:18.6907725-06:00;Thread#13;Info;Activation check completed
+2021-06-28T21:14:18.6917737-06:00;Thread#13;Info;Starting test run
+2021-06-28T21:14:18.7557868-06:00;Thread#13;Info;Discovering target: Default
+2021-06-28T21:14:18.7557868-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-28T21:14:19.1514589-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-28T21:14:19.1524568-06:00:Test Suite Dump
+2021-06-28T21:14:19.1544575-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-28T21:14:19.1544575-06:00:#1: Default - 
+2021-06-28T21:14:19.1544575-06:00:#2: PracticingSix - 
+2021-06-28T21:14:19.1544575-06:00:#3: EyeOfTheTiger - 
+2021-06-28T21:14:19.1544575-06:00:#5: Twitch Bot! - 
+2021-06-28T21:14:19.1979753-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-06-28T21:14:19.1989756-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-28T21:14:19.1989756-06:00:End: Test Suite Dump
+2021-06-28T21:14:19.2539881-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-28T21:14:19.2559883-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-28T21:14:19.2559883-06:00:Thread#1:Scheduler: considering testitem #6 for thread 1
+2021-06-28T21:14:19.2629899-06:00:Thread#1:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-28T21:14:19.2629899-06:00:Thread#1:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-28T21:14:19.2629899-06:00:Thread#1:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-28T21:14:19.2629899-06:00:Thread#1:Scheduler: using testitem #6 for thread 1
+2021-06-28T21:14:19.2649900-06:00:Thread#1:Scheduler: Test #6 is scheduled for thread
+2021-06-28T21:14:19.2659910-06:00:Thread#1:Scheduler: with testItemExecutionIndex 0
+2021-06-28T21:14:19.2659910-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-28T21:14:19.2659910-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-28T21:14:19.2659910-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-28T21:14:19.2659910-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-28T21:14:19.2659910-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-28T21:14:19.2659910-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-28T21:14:19.2659910-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-28T21:14:19.2659910-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-28T21:14:19.2659910-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-28T21:14:19.2689914-06:00:Thread #1: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-28T21:14:19.2689914-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-28T21:14:19.2709915-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-06-28T21:14:19.2709915-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-28T21:14:19.3300049-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-28T21:14:19.3300049-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-06-28T21:14:19.3330058-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-28T21:14:19.3330058-06:00:Thread #1: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-28T21:14:19.3360071-06:00:starting Out Of Process Executor
+2021-06-28T21:14:19.3360071-06:00:starting Out Of Process Executor
+2021-06-28T21:14:19.3450079-06:00:Starting callback TCP Rpc server
+2021-06-28T21:14:19.3450079-06:00:Starting callback TCP Rpc server
+2021-06-28T21:14:19.3640128-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-28T21:14:19.3640128-06:00:Started callback TCP Rpc server on port 32768
+2021-06-28T21:14:19.3640128-06:00:Starting logger TCP Rpc server
+2021-06-28T21:14:19.3700144-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-28T21:14:19.3700144-06:00:Started callback TCP Rpc server on port 32769
+2021-06-28T21:14:19.3700144-06:00:Starting logger TCP Rpc server
+2021-06-28T21:14:19.3740171-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-06-28T21:14:19.3740171-06:00:Started logger TCP Rpc server on port 32770
+2021-06-28T21:14:19.3770161-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-06-28T21:14:19.3770161-06:00:Started logger TCP Rpc server on port 32771
+2021-06-28T21:14:19.3810168-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15320 --uniqueId "2021-06-28T211418" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32770' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-28T21:14:19.3810168-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15320 --uniqueId "2021-06-28T211418" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32769 --loggerPort 32771' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-28T21:14:19.4535399-06:00:Executor with PID 14896 has been started successfully.
+2021-06-28T21:14:19.4565435-06:00:Executor with PID 15296 has been started successfully.
+2021-06-28T21:14:19.4575429-06:00:Out of Process Executor 14896 started
+2021-06-28T21:14:19.4575429-06:00:Waiting for endpoint
+2021-06-28T21:14:19.4585425-06:00:Out of Process Executor 15296 started
+2021-06-28T21:14:19.4585425-06:00:Waiting for endpoint
+2021-06-28T21:14:20.2769914-06:00:Remote executor port received: 32772
+2021-06-28T21:14:20.2779918-06:00:Creating executor TCP client on port 32772
+2021-06-28T21:14:20.2779918-06:00:Created executor TCP client on port 32772
+2021-06-28T21:14:20.2779918-06:00:Connecting to remote executor TCP server
+2021-06-28T21:14:20.2789922-06:00:Connected remote executor TCP server
+2021-06-28T21:14:20.2809923-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-28T21:14:20.2809923-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-28T21:14:20.4426022-06:00:Remote executor port received: 32773
+2021-06-28T21:14:20.4426022-06:00:Creating executor TCP client on port 32773
+2021-06-28T21:14:20.4431145-06:00:Created executor TCP client on port 32773
+2021-06-28T21:14:20.4431145-06:00:Connecting to remote executor TCP server
+2021-06-28T21:14:20.4431145-06:00:Connected remote executor TCP server
+2021-06-28T21:14:20.4431145-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-28T21:14:20.4431145-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-28T21:14:21.1758343-06:00:2021-06-28T21:14:21.1748341-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-28T21:14:21.1758343-06:00:2021-06-28T21:14:21.1748341-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #1
+2021-06-28T21:14:21.1843468-06:00:Endpoint 15296 started
+2021-06-28T21:14:21.1843468-06:00:Endpoint 14896 started
+2021-06-28T21:14:21.2108599-06:00:2021-06-28T21:14:21.2088594-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-28T21:14:21.2118606-06:00:2021-06-28T21:14:21.2108599-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-28T21:14:21.6680355-06:00:2021-06-28T21:14:21.6680355-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-28T21:14:21.6810380-06:00:2021-06-28T21:14:21.6800377-06:00:Thread#1:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-28T21:14:21.7345789-06:00:2021-06-28T21:14:21.7335787-06:00:Thread#0:T:-> Using default config
+2021-06-28T21:14:21.7345789-06:00:2021-06-28T21:14:21.7345789-06:00:Thread#1:T:-> Using default config
+2021-06-28T21:14:22.9319872-06:00:2021-06-28T21:14:22.9309875-06:00:Thread#0:T:Starting the driver...
+2021-06-28T21:14:22.9319872-06:00:2021-06-28T21:14:22.9319872-06:00:Thread#1:T:Starting the driver...
+2021-06-28T21:14:24.9370858-06:00:Thread#1: Test #6/0 is started on thread #1
+2021-06-28T21:14:25.0391084-06:00:2021-06-28T21:14:24.9890968-06:00:Thread#1:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-28T21:14:25.1211278-06:00:2021-06-28T21:14:25.1091236-06:00:Thread#1:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-28T21:14:25.1251278-06:00:2021-06-28T21:14:25.1231284-06:00:Thread#1:B:When I send a browser to snoop on my own chat channel
+2021-06-28T21:14:25.1881429-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-28T21:14:25.2361530-06:00:2021-06-28T21:14:25.2351526-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-28T21:14:29.3780340-06:00:2021-06-28T21:14:29.3770338-06:00:Thread#1:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (4.2s)
+2021-06-28T21:14:29.3790342-06:00:2021-06-28T21:14:29.3790342-06:00:Thread#1:B:Then my Twitch Bot lives!
+2021-06-28T21:14:47.8985965-06:00:2021-06-28T21:14:47.8985965-06:00:Thread#0:T:Playing!
+2021-06-28T21:14:49.4425234-06:00:2021-06-28T21:14:49.4065148-06:00:Thread#0:T:Loop: 0
+2021-06-28T21:14:55.0183389-06:00:2021-06-28T21:14:55.0173396-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-06-28T21:14:58.1995654-06:00:2021-06-28T21:14:58.1995654-06:00:Thread#0:T:Finished logging in
+2021-06-28T21:19:06.3311136-06:00:2021-06-28T21:19:06.3291137-06:00:Thread#0:T:Playing!
+2021-06-28T21:20:24.4474767-06:00:2021-06-28T21:20:24.4464756-06:00:Thread#1:T:Line 1
+2021-06-28T21:20:24.5284949-06:00:2021-06-28T21:20:24.5274942-06:00:Thread#1:T:Parsing: does intro sound work from: mrnoah99
+2021-06-28T21:20:24.5354958-06:00:2021-06-28T21:20:24.5354958-06:00:Thread#1:T:Eyy, its mrnoah99!
+2021-06-28T21:20:24.5375051-06:00:2021-06-28T21:20:24.5375051-06:00:Thread#1:T:Found 9 clips for user mrnoah99 and rolled clip #: 7
+2021-06-28T21:20:24.6145140-06:00:2021-06-28T21:20:24.6145140-06:00:Thread#1:T:{
+2021-06-28T21:20:24.6145140-06:00:2021-06-28T21:20:24.6145140-06:00:Thread#1:T:	CHUNK ID: IART
+2021-06-28T21:20:24.6155150-06:00:2021-06-28T21:20:24.6155150-06:00:Thread#1:T:	CHUNK SIZE: 16
+2021-06-28T21:20:24.6165146-06:00:2021-06-28T21:20:24.6155150-06:00:Thread#1:T:	Text Value: Noah TalksGames 
+2021-06-28T21:20:24.6175147-06:00:2021-06-28T21:20:24.6175147-06:00:Thread#1:T:}
+2021-06-28T21:20:24.6175147-06:00:2021-06-28T21:20:24.6175147-06:00:Thread#1:T:{
+2021-06-28T21:20:24.6185146-06:00:2021-06-28T21:20:24.6175147-06:00:Thread#1:T:	CHUNK ID: ICMT
+2021-06-28T21:20:24.6185146-06:00:2021-06-28T21:20:24.6185146-06:00:Thread#1:T:	CHUNK SIZE: 44
+2021-06-28T21:20:24.6185146-06:00:2021-06-28T21:20:24.6185146-06:00:Thread#1:T:	Text Value: https://www.youtube.com/watch?v=d1_8zBiefqA 
+2021-06-28T21:20:24.6195145-06:00:2021-06-28T21:20:24.6195145-06:00:Thread#1:T:}
+2021-06-28T21:20:24.6215160-06:00:2021-06-28T21:20:24.6205167-06:00:Thread#1:T:{
+2021-06-28T21:20:24.6225173-06:00:2021-06-28T21:20:24.6215160-06:00:Thread#1:T:	CHUNK ID: ICRD
+2021-06-28T21:20:24.6245174-06:00:2021-06-28T21:20:24.6245174-06:00:Thread#1:T:	CHUNK SIZE: 9
+2021-06-28T21:20:24.6255170-06:00:2021-06-28T21:20:24.6245174-06:00:Thread#1:T:	Text Value: 20210608 
+2021-06-28T21:20:24.6255170-06:00:2021-06-28T21:20:24.6255170-06:00:Thread#1:T:}
+2021-06-28T21:20:24.6265162-06:00:2021-06-28T21:20:24.6265162-06:00:Thread#1:T:{
+2021-06-28T21:20:24.6265162-06:00:2021-06-28T21:20:24.6265162-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-06-28T21:20:24.6275168-06:00:2021-06-28T21:20:24.6265162-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-06-28T21:20:24.6275168-06:00:2021-06-28T21:20:24.6275168-06:00:Thread#1:T:	Text Value: HelloTheresoundforuserstrem 
+2021-06-28T21:20:24.6275168-06:00:2021-06-28T21:20:24.6275168-06:00:Thread#1:T:}
+2021-06-28T21:20:24.6285165-06:00:2021-06-28T21:20:24.6285165-06:00:Thread#1:T:{
+2021-06-28T21:20:24.6285165-06:00:2021-06-28T21:20:24.6285165-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-06-28T21:20:24.6295173-06:00:2021-06-28T21:20:24.6295173-06:00:Thread#1:T:	CHUNK SIZE: 14
+2021-06-28T21:20:24.6325173-06:00:2021-06-28T21:20:24.6295173-06:00:Thread#1:T:	Text Value: Lavf58.29.100 
+2021-06-28T21:20:24.6335202-06:00:2021-06-28T21:20:24.6335202-06:00:Thread#1:T:}
+2021-06-28T21:20:25.5183817-06:00:2021-06-28T21:20:25.5173779-06:00:Thread#1:T:Duration of clip was 0.87075, thanks rabbit_xxxx you're the best!
+2021-06-28T21:20:25.5193790-06:00:2021-06-28T21:20:25.5193790-06:00:Thread#1:T:clip played the old boring way, duration was: 0.87075
+2021-06-28T21:20:26.8156980-06:00:2021-06-28T21:20:26.8156980-06:00:Thread#1:T:Line 2
+2021-06-28T21:20:26.8877130-06:00:2021-06-28T21:20:26.8877130-06:00:Thread#1:T:Parsing: ? from: mrnoah99
+2021-06-28T21:20:34.6187947-06:00:2021-06-28T21:20:34.6187947-06:00:Thread#1:T:Line 3
+2021-06-28T21:20:34.6998125-06:00:2021-06-28T21:20:34.6988117-06:00:Thread#1:T:Parsing: hi from: sky_acaniadev
+2021-06-28T21:20:34.7028138-06:00:2021-06-28T21:20:34.7018130-06:00:Thread#1:T:Eyy, its sky_acaniadev!
+2021-06-28T21:20:36.6348907-06:00:2021-06-28T21:20:36.6338899-06:00:Thread#1:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-06-28T21:20:36.6348907-06:00:2021-06-28T21:20:36.6348907-06:00:Thread#1:T:clip played the old boring way, duration was: 1.915646
+2021-06-28T21:20:43.2289756-06:00:2021-06-28T21:20:43.2289756-06:00:Thread#1:T:Line 4
+2021-06-28T21:20:43.3059937-06:00:2021-06-28T21:20:43.3049932-06:00:Thread#1:T:Parsing: i heard it but it was quiet from: mrnoah99
+2021-06-28T21:20:50.0338879-06:00:2021-06-28T21:20:50.0338879-06:00:Thread#1:T:Line 5
+2021-06-28T21:20:50.1179069-06:00:2021-06-28T21:20:50.1179069-06:00:Thread#1:T:Parsing: why are mine so quiet/ from: mrnoah99
+2021-06-28T21:20:52.8141498-06:00:2021-06-28T21:20:52.8141498-06:00:Thread#1:T:Line 6
+2021-06-28T21:20:52.8781761-06:00:2021-06-28T21:20:52.8771766-06:00:Thread#1:T:Parsing: ? from: mrnoah99
+2021-06-28T21:21:04.6386299-06:00:2021-06-28T21:21:04.6376291-06:00:Thread#1:T:Line 7
+2021-06-28T21:21:04.7486541-06:00:2021-06-28T21:21:04.7486541-06:00:Thread#1:T:Parsing: sky's was louder than mine from: mrnoah99
+2021-06-28T21:21:22.0284405-06:00:2021-06-28T21:21:22.0284405-06:00:Thread#1:T:Line 8
+2021-06-28T21:21:22.1094578-06:00:2021-06-28T21:21:22.1084578-06:00:Thread#1:T:Parsing: is there a way for you to make mine specifically louder? from: mrnoah99
+2021-06-28T21:22:03.8236168-06:00:2021-06-28T21:22:03.8226164-06:00:Thread#1:T:Line 9
+2021-06-28T21:22:03.9066922-06:00:2021-06-28T21:22:03.9066922-06:00:Thread#1:T:Parsing: yeah from: mrnoah99
+2021-06-28T21:22:06.8231725-06:00:2021-06-28T21:22:06.8231725-06:00:Thread#1:T:Line 10
+2021-06-28T21:22:06.9267607-06:00:2021-06-28T21:22:06.9267607-06:00:Thread#1:T:Parsing: that's way better from: mrnoah99
+2021-06-28T21:23:11.6293253-06:00:2021-06-28T21:23:11.6283253-06:00:Thread#1:T:Line 11
+2021-06-28T21:23:11.7233458-06:00:2021-06-28T21:23:11.7233458-06:00:Thread#1:T:Parsing: it's ok from: mrnoah99
+2021-06-28T21:23:25.2332699-06:00:2021-06-28T21:23:25.2322711-06:00:Thread#1:T:Line 12
+2021-06-28T21:23:25.3127955-06:00:2021-06-28T21:23:25.3117949-06:00:Thread#1:T:Parsing: i made it to end like that because it's longer than 5 sec from: mrnoah99
+2021-06-28T21:23:41.2296954-06:00:2021-06-28T21:23:41.2286952-06:00:Thread#1:T:Line 13
+2021-06-28T21:23:41.3017130-06:00:2021-06-28T21:23:41.3017130-06:00:Thread#1:T:Parsing: that's fine from: mrnoah99
+2021-06-28T21:24:00.8264483-06:00:2021-06-28T21:24:00.8254481-06:00:Thread#1:T:Line 14
+2021-06-28T21:24:00.9074657-06:00:2021-06-28T21:24:00.9064782-06:00:Thread#1:T:Parsing: maybe could you make it fade out with less intensity? from: mrnoah99
+2021-06-28T21:24:13.4274574-06:00:2021-06-28T21:24:13.4274574-06:00:Thread#1:T:Line 15
+2021-06-28T21:24:13.5029842-06:00:2021-06-28T21:24:13.5019844-06:00:Thread#1:T:Parsing: since it's meant to increase in volume right at the end from: mrnoah99
+2021-06-28T21:24:33.2317090-06:00:2021-06-28T21:24:33.2317090-06:00:Thread#1:T:Line 16
+2021-06-28T21:24:33.3117267-06:00:2021-06-28T21:24:33.3117267-06:00:Thread#1:T:Parsing: but the fade out makes it sound nicer from: mrnoah99
+2021-06-28T21:25:20.2270846-06:00:2021-06-28T21:25:20.2260848-06:00:Thread#1:T:Line 17
+2021-06-28T21:25:20.3036118-06:00:2021-06-28T21:25:20.3036118-06:00:Thread#1:T:Parsing: i could redo the clips rn actually from: mrnoah99
+2021-06-28T21:26:02.4276976-06:00:2021-06-28T21:26:02.4276976-06:00:Thread#1:T:Line 18
+2021-06-28T21:26:02.5082271-06:00:2021-06-28T21:26:02.5082271-06:00:Thread#1:T:Parsing: can you check the other sounds so i know which ones to fix? from: mrnoah99
+2021-06-28T21:27:02.0311186-06:00:2021-06-28T21:27:02.0301190-06:00:Thread#1:T:Line 19
+2021-06-28T21:27:02.1111930-06:00:2021-06-28T21:27:02.1111930-06:00:Thread#1:T:Parsing: i can't tell from my end cause they sound fine on my computer from: mrnoah99
+2021-06-28T21:27:09.6310581-06:00:2021-06-28T21:27:09.6310581-06:00:Thread#1:T:Line 20
+2021-06-28T21:27:09.7120758-06:00:2021-06-28T21:27:09.7120758-06:00:Thread#1:T:Parsing: but they are quiet coming from stream from: mrnoah99
+2021-06-28T21:28:51.7555841-06:00:2021-06-28T21:28:51.7545834-06:00:Thread#0:T:Playing!
+2021-06-28T21:32:00.6685543-06:00:2021-06-28T21:32:00.6665536-06:00:Thread#1:T:Line 21
+2021-06-28T21:32:00.8055839-06:00:2021-06-28T21:32:00.8045831-06:00:Thread#1:T:Parsing: how do you do background noise removal in audacity @user335 ? from: mrnoah99
+2021-06-28T21:33:01.3864991-06:00:2021-06-28T21:33:01.3855009-06:00:Thread#0:T:Playing!
+2021-06-28T21:34:46.4387027-06:00:2021-06-28T21:34:46.4387027-06:00:Thread#1:T:Line 22
+2021-06-28T21:34:46.5382736-06:00:2021-06-28T21:34:46.5382736-06:00:Thread#1:T:Parsing: ok thanks! from: mrnoah99
+2021-06-28T21:37:24.1546401-06:00:2021-06-28T21:37:24.1546401-06:00:Thread#0:T:Playing!
+2021-06-28T21:41:36.9109647-06:00:2021-06-28T21:41:36.9099650-06:00:Thread#0:T:Playing!
+2021-06-28T21:42:24.2107296-06:00:2021-06-28T21:42:24.2047280-06:00:Thread#1:T:Line 23
+2021-06-28T21:42:24.3897693-06:00:2021-06-28T21:42:24.3877693-06:00:Thread#1:T:Parsing: hi from: mysticgaming306
+2021-06-28T21:42:24.3997719-06:00:2021-06-28T21:42:24.3987813-06:00:Thread#1:T:{
+2021-06-28T21:42:24.4017723-06:00:2021-06-28T21:42:24.4017723-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-06-28T21:42:24.4027732-06:00:2021-06-28T21:42:24.4017723-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-06-28T21:42:24.4027732-06:00:2021-06-28T21:42:24.4027732-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-06-28T21:42:24.4037726-06:00:2021-06-28T21:42:24.4027732-06:00:Thread#1:T:}
+2021-06-28T21:42:24.4047736-06:00:2021-06-28T21:42:24.4037726-06:00:Thread#1:T:{
+2021-06-28T21:42:24.4047736-06:00:2021-06-28T21:42:24.4047736-06:00:Thread#1:T:	CHUNK ID: IART
+2021-06-28T21:42:24.4137743-06:00:2021-06-28T21:42:24.4057737-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-06-28T21:42:24.4157745-06:00:2021-06-28T21:42:24.4147744-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-06-28T21:42:24.4157745-06:00:2021-06-28T21:42:24.4157745-06:00:Thread#1:T:}
+2021-06-28T21:42:24.4167757-06:00:2021-06-28T21:42:24.4157745-06:00:Thread#1:T:{
+2021-06-28T21:42:24.4167757-06:00:2021-06-28T21:42:24.4167757-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-06-28T21:42:24.4177753-06:00:2021-06-28T21:42:24.4177753-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-06-28T21:42:24.4187758-06:00:2021-06-28T21:42:24.4177753-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-06-28T21:42:24.4187758-06:00:2021-06-28T21:42:24.4187758-06:00:Thread#1:T:}
+2021-06-28T21:42:39.8435945-06:00:2021-06-28T21:42:39.8425945-06:00:Thread#1:T:Line 24
+2021-06-28T21:42:39.9486579-06:00:2021-06-28T21:42:39.9486579-06:00:Thread#1:T:Parsing: good thx from: mysticgaming306
+2021-06-28T21:43:02.2449720-06:00:2021-06-28T21:43:02.2439712-06:00:Thread#1:T:Line 25
+2021-06-28T21:43:02.3635107-06:00:2021-06-28T21:43:02.3625100-06:00:Thread#1:T:Parsing: brb just gotta get some water from: mysticgaming306
+2021-06-28T21:43:55.0989639-06:00:2021-06-28T21:43:55.0979740-06:00:Thread#1:T:Line 26
+2021-06-28T21:43:55.2389956-06:00:2021-06-28T21:43:55.2379961-06:00:Thread#1:T:Parsing: im back from: mysticgaming306
+2021-06-28T21:45:33.0356781-06:00:2021-06-28T21:45:33.0326774-06:00:Thread#1:T:Line 27
+2021-06-28T21:45:33.1377002-06:00:2021-06-28T21:45:33.1367001-06:00:Thread#1:T:Parsing: my teeth are sore bc i went to the dentist and i got these rubber bands hooked to my teeth from: mysticgaming306
+2021-06-28T21:45:44.0147144-06:00:2021-06-28T21:45:44.0137133-06:00:Thread#0:T:Playing!
+2021-06-28T21:45:58.4603393-06:00:2021-06-28T21:45:58.4593382-06:00:Thread#1:T:Line 28
+2021-06-28T21:45:58.5758723-06:00:2021-06-28T21:45:58.5758723-06:00:Thread#1:T:Parsing: yea i have braces from: mysticgaming306
+2021-06-28T21:46:44.4465230-06:00:2021-06-28T21:46:44.4455217-06:00:Thread#1:T:Line 29
+2021-06-28T21:46:44.5485821-06:00:2021-06-28T21:46:44.5475902-06:00:Thread#1:T:Parsing: the rubber bands are for to move my bottom jaw forward from: mysticgaming306
+2021-06-28T21:48:10.4661805-06:00:2021-06-28T21:48:10.4651806-06:00:Thread#1:T:Line 30
+2021-06-28T21:48:10.5862283-06:00:2021-06-28T21:48:10.5842296-06:00:Thread#1:T:Parsing: also its my birthday tomorrow (30th june) from: mysticgaming306
+2021-06-28T21:48:12.4134888-06:00:2021-06-28T21:48:12.4134888-06:00:Thread#1:T:Line 31
+2021-06-28T21:48:12.5105114-06:00:2021-06-28T21:48:12.5105114-06:00:Thread#1:T:Parsing: brb from: sky_acaniadev
+2021-06-28T21:48:31.4473852-06:00:2021-06-28T21:48:31.4463837-06:00:Thread#1:T:Line 32
+2021-06-28T21:48:31.5504075-06:00:2021-06-28T21:48:31.5504075-06:00:Thread#1:T:Parsing: turning 13 from: mysticgaming306
+2021-06-28T21:48:36.8450123-06:00:2021-06-28T21:48:36.8450123-06:00:Thread#1:T:Line 33
+2021-06-28T21:48:36.9521418-06:00:2021-06-28T21:48:36.9511414-06:00:Thread#1:T:Parsing: welcome to the 30s club from: sky_acaniadev
+2021-06-28T21:49:41.2516876-06:00:2021-06-28T21:49:41.2506879-06:00:Thread#1:T:Line 34
+2021-06-28T21:49:41.3897188-06:00:2021-06-28T21:49:41.3897188-06:00:Thread#1:T:Parsing: i cant believe that im turning 18 in 5 years from: mysticgaming306
+2021-06-28T21:49:53.9116349-06:00:2021-06-28T21:49:53.9106328-06:00:Thread#0:T:Playing!
+2021-06-28T21:50:12.0477945-06:00:2021-06-28T21:50:12.0447930-06:00:Thread#1:T:Line 35
+2021-06-28T21:50:12.1628196-06:00:2021-06-28T21:50:12.1618190-06:00:Thread#1:T:Parsing: @user335 check discord from: mrnoah99
+2021-06-28T21:51:23.0301434-06:00:2021-06-28T21:51:23.0301434-06:00:Thread#1:T:Line 36
+2021-06-28T21:51:23.1451916-06:00:2021-06-28T21:51:23.1441909-06:00:Thread#1:T:Parsing: redid all of them from: mrnoah99
+2021-06-28T21:51:40.6396973-06:00:2021-06-28T21:51:40.6387025-06:00:Thread#1:T:Line 37
+2021-06-28T21:51:40.7337183-06:00:2021-06-28T21:51:40.7337183-06:00:Thread#1:T:Parsing: back from: sky_acaniadev
+2021-06-28T21:51:43.2416677-06:00:2021-06-28T21:51:43.2416677-06:00:Thread#1:T:Line 38
+2021-06-28T21:51:43.3556912-06:00:2021-06-28T21:51:43.3546913-06:00:Thread#1:T:Parsing: do a test? from: mrnoah99
+2021-06-28T21:51:58.8656137-06:00:2021-06-28T21:51:58.8656137-06:00:Thread#1:T:Line 39
+2021-06-28T21:51:58.9906410-06:00:2021-06-28T21:51:58.9906410-06:00:Thread#1:T:Parsing: ok from: mrnoah99
+2021-06-28T21:52:42.2567613-06:00:2021-06-28T21:52:42.2567613-06:00:Thread#1:T:Line 40
+2021-06-28T21:52:42.3527827-06:00:2021-06-28T21:52:42.3527827-06:00:Thread#1:T:Parsing: @mysticgaming306 i wish i was 13 forever from: sky_acaniadev
+2021-06-28T21:52:45.0335125-06:00:2021-06-28T21:52:45.0335125-06:00:Thread#1:T:Line 41
+2021-06-28T21:52:45.1280880-06:00:2021-06-28T21:52:45.1275736-06:00:Thread#1:T:Parsing: so 150 messages total crashes the bot or 150 in quick succession? from: mrnoah99
+2021-06-28T21:53:10.6361534-06:00:2021-06-28T21:53:10.6361534-06:00:Thread#1:T:Line 42
+2021-06-28T21:53:10.7471799-06:00:2021-06-28T21:53:10.7451795-06:00:Thread#1:T:Parsing: it sounded quiet to me from stream from: mrnoah99
+2021-06-28T21:53:21.6412857-06:00:2021-06-28T21:53:21.6412857-06:00:Thread#1:T:Line 43
+2021-06-28T21:53:21.7824165-06:00:2021-06-28T21:53:21.7814172-06:00:Thread#1:T:Parsing: when i was 13, i wish i was 9 forever from: sky_acaniadev
+2021-06-28T21:53:23.8215660-06:00:2021-06-28T21:53:23.8205652-06:00:Thread#1:T:Line 44
+2021-06-28T21:53:23.9170971-06:00:2021-06-28T21:53:23.9160973-06:00:Thread#1:T:Parsing: but maybe it'll be better when actual intros are done from: mrnoah99
+2021-06-28T21:53:54.0377107-06:00:2021-06-28T21:53:54.0367101-06:00:Thread#1:T:Line 45
+2021-06-28T21:53:54.1352391-06:00:2021-06-28T21:53:54.1352391-06:00:Thread#1:T:Parsing: 18-21 might be a good age to lock on as well from: sky_acaniadev
+2021-06-28T21:54:08.8139587-06:00:2021-06-28T21:54:08.8129580-06:00:Thread#0:T:Playing!
+2021-06-28T21:54:15.2450756-06:00:2021-06-28T21:54:15.2450756-06:00:Thread#1:T:Line 46
+2021-06-28T21:54:15.3561016-06:00:2021-06-28T21:54:15.3561016-06:00:Thread#1:T:Parsing: i didn't max them all out because some would go into the red when maxed from: mrnoah99
+2021-06-28T21:54:28.4492197-06:00:2021-06-28T21:54:28.4492197-06:00:Thread#1:T:Line 47
+2021-06-28T21:54:28.5623372-06:00:2021-06-28T21:54:28.5618225-06:00:Thread#1:T:Parsing: and you said red was not good from: mrnoah99
+2021-06-28T21:55:22.2403486-06:00:2021-06-28T21:55:22.2393476-06:00:Thread#1:T:Line 48
+2021-06-28T21:55:22.3328952-06:00:2021-06-28T21:55:22.3328952-06:00:Thread#1:T:Parsing: i have a problem the player is spawning in the wrong location on on the last level (2d btw) from: mysticgaming306
+2021-06-28T21:55:30.8599355-06:00:2021-06-28T21:55:30.8589345-06:00:Thread#1:T:Line 49
+2021-06-28T21:55:31.0069897-06:00:2021-06-28T21:55:31.0059876-06:00:Thread#1:T:Parsing: on my computer it would max but idk from: mrnoah99
+2021-06-28T21:57:15.2476939-06:00:2021-06-28T21:57:15.2466951-06:00:Thread#1:T:Line 50
+2021-06-28T21:57:15.3492991-06:00:2021-06-28T21:57:15.3492991-06:00:Thread#1:T:Parsing: ok i am alone in my office with my mic from: sky_acaniadev
+2021-06-28T21:57:19.4418839-06:00:2021-06-28T21:57:19.4408842-06:00:Thread#1:T:Line 51
+2021-06-28T21:57:19.5489260-06:00:2021-06-28T21:57:19.5479265-06:00:Thread#1:T:Parsing: and cam from: sky_acaniadev
+2021-06-28T21:57:29.6697256-06:00:2021-06-28T21:57:29.6687270-06:00:Thread#1:T:Line 52
+2021-06-28T21:57:29.8367645-06:00:2021-06-28T21:57:29.8347656-06:00:Thread#1:T:Parsing: ok i think i now whats happening thx u from: mysticgaming306
+2021-06-28T21:57:30.2548575-06:00:2021-06-28T21:57:30.2548575-06:00:Thread#1:T:Line 53
+2021-06-28T21:57:30.3768851-06:00:2021-06-28T21:57:30.3768851-06:00:Thread#1:T:Parsing: what should i do 🤔 from: sky_acaniadev
+2021-06-28T21:57:40.4613286-06:00:2021-06-28T21:57:40.4588130-06:00:Thread#1:T:Line 54
+2021-06-28T21:57:40.6499222-06:00:2021-06-28T21:57:40.6479228-06:00:Thread#1:T:Parsing: know from: mysticgaming306
+2021-06-28T21:58:14.8538180-06:00:2021-06-28T21:58:14.8538180-06:00:Thread#0:T:Playing!
+2021-06-28T22:00:08.6563528-06:00:2021-06-28T22:00:08.6563528-06:00:Thread#1:T:Line 55
+2021-06-28T22:00:08.7493723-06:00:2021-06-28T22:00:08.7493723-06:00:Thread#1:T:Parsing: no, i won't do voice acting for my game from: sky_acaniadev
+2021-06-28T22:00:14.6484428-06:00:2021-06-28T22:00:14.6484428-06:00:Thread#1:T:Line 56
+2021-06-28T22:00:14.7784715-06:00:2021-06-28T22:00:14.7784715-06:00:Thread#1:T:Parsing: too much work for localization from: sky_acaniadev
+2021-06-28T22:00:28.4522140-06:00:2021-06-28T22:00:28.4502129-06:00:Thread#1:T:Line 57
+2021-06-28T22:00:28.5492345-06:00:2021-06-28T22:00:28.5482347-06:00:Thread#1:T:Parsing: yes it will from: sky_acaniadev
+2021-06-28T22:00:35.2334508-06:00:2021-06-28T22:00:35.2324495-06:00:Thread#1:T:Line 58
+2021-06-28T22:00:35.3109786-06:00:2021-06-28T22:00:35.3109786-06:00:Thread#1:T:Parsing: my game is politically sensitive from: sky_acaniadev
+2021-06-28T22:00:54.0321416-06:00:2021-06-28T22:00:54.0311428-06:00:Thread#1:T:Line 59
+2021-06-28T22:00:54.1186989-06:00:2021-06-28T22:00:54.1186989-06:00:Thread#1:T:Parsing: fantasy is a disguise from: sky_acaniadev
+2021-06-28T22:01:05.0322592-06:00:2021-06-28T22:01:05.0312585-06:00:Thread#1:T:Line 60
+2021-06-28T22:01:05.1229012-06:00:2021-06-28T22:01:05.1229012-06:00:Thread#1:T:Parsing: it is more of a comment on current world events from: sky_acaniadev
+2021-06-28T22:01:18.8538162-06:00:2021-06-28T22:01:18.8538162-06:00:Thread#1:T:Line 61
+2021-06-28T22:01:18.9664128-06:00:2021-06-28T22:01:18.9654124-06:00:Thread#1:T:Parsing: will it was a prediction of future world events from: sky_acaniadev
+2021-06-28T22:01:30.2511005-06:00:2021-06-28T22:01:30.2511005-06:00:Thread#1:T:Line 62
+2021-06-28T22:01:30.3361180-06:00:2021-06-28T22:01:30.3351187-06:00:Thread#1:T:Parsing: but now a lot of my quest line has already happened in real life from: sky_acaniadev
+2021-06-28T22:01:48.4446996-06:00:2021-06-28T22:01:48.4436998-06:00:Thread#1:T:Line 63
+2021-06-28T22:01:48.5667291-06:00:2021-06-28T22:01:48.5657254-06:00:Thread#1:T:Parsing: so i probably need to predict further and discard some of my old questline from: sky_acaniadev
+2021-06-28T22:02:06.6419770-06:00:2021-06-28T22:02:06.6409771-06:00:Thread#1:T:Line 64
+2021-06-28T22:02:06.7940116-06:00:2021-06-28T22:02:06.7930097-06:00:Thread#1:T:Parsing: just let you know. one of my quest line was orc life matters from: sky_acaniadev
+2021-06-28T22:02:21.0890711-06:00:2021-06-28T22:02:21.0880712-06:00:Thread#1:T:Line 65
+2021-06-28T22:02:21.2050974-06:00:2021-06-28T22:02:21.2050974-06:00:Thread#1:T:Parsing: wait i got it from: mysticgaming306
+2021-06-28T22:02:27.8414285-06:00:2021-06-28T22:02:27.8404308-06:00:Thread#1:T:Line 66
+2021-06-28T22:02:27.9820522-06:00:2021-06-28T22:02:27.9810524-06:00:Thread#1:T:Parsing: i did it from: mysticgaming306
+2021-06-28T22:02:28.6559979-06:00:2021-06-28T22:02:28.6549973-06:00:Thread#1:T:Line 67
+2021-06-28T22:02:28.7826057-06:00:2021-06-28T22:02:28.7816048-06:00:Thread#1:T:Parsing: a lot of orcs were slaved by acanians from: sky_acaniadev
+2021-06-28T22:02:31.8297053-06:00:2021-06-28T22:02:31.8297053-06:00:Thread#1:T:Line 68
+2021-06-28T22:02:31.9237264-06:00:2021-06-28T22:02:31.9237264-06:00:Thread#1:T:Parsing: they riot from: sky_acaniadev
+2021-06-28T22:02:33.8381690-06:00:2021-06-28T22:02:33.8351665-06:00:Thread#0:T:Playing!
+2021-06-28T22:02:50.2536660-06:00:2021-06-28T22:02:50.2526666-06:00:Thread#1:T:Line 69
+2021-06-28T22:02:50.3716941-06:00:2021-06-28T22:02:50.3716941-06:00:Thread#1:T:Parsing: that was before the blm thing from: sky_acaniadev
+2021-06-28T22:02:52.2370040-06:00:2021-06-28T22:02:52.2370040-06:00:Thread#1:T:Line 70
+2021-06-28T22:02:52.3770557-06:00:2021-06-28T22:02:52.3770557-06:00:Thread#1:T:Parsing: i just disabled a script from: mysticgaming306
+2021-06-28T22:03:07.2420105-06:00:2021-06-28T22:03:07.2420105-06:00:Thread#1:T:Line 71
+2021-06-28T22:03:07.3430728-06:00:2021-06-28T22:03:07.3430728-06:00:Thread#1:T:Parsing: now it feels like i am just riding the current events to get attention from: sky_acaniadev
+2021-06-28T22:03:29.2821123-06:00:2021-06-28T22:03:29.2811123-06:00:Thread#1:T:Line 72
+2021-06-28T22:03:29.4301976-06:00:2021-06-28T22:03:29.4301976-06:00:Thread#1:T:Parsing: so i have to go futher from: sky_acaniadev
+2021-06-28T22:03:31.6485258-06:00:2021-06-28T22:03:31.6475267-06:00:Thread#1:T:Line 73
+2021-06-28T22:03:31.7715732-06:00:2021-06-28T22:03:31.7715732-06:00:Thread#1:T:Parsing: further from: sky_acaniadev
+2021-06-28T22:03:44.8557560-06:00:2021-06-28T22:03:44.8557560-06:00:Thread#1:T:Line 74
+2021-06-28T22:03:44.9777838-06:00:2021-06-28T22:03:44.9777838-06:00:Thread#1:T:Parsing: which is fine, i am doing that every morining from: sky_acaniadev
+2021-06-28T22:04:07.6450992-06:00:2021-06-28T22:04:07.6440992-06:00:Thread#1:T:Line 75
+2021-06-28T22:04:07.7916428-06:00:2021-06-28T22:04:07.7916428-06:00:Thread#1:T:Parsing: trade war between acanian and sinh'nan also happened. from: sky_acaniadev
+2021-06-28T22:04:12.4540651-06:00:2021-06-28T22:04:12.4530658-06:00:Thread#1:T:Line 76
+2021-06-28T22:04:12.5830953-06:00:2021-06-28T22:04:12.5820950-06:00:Thread#1:T:Parsing: it doest work check points dont work from: mysticgaming306
+2021-06-28T22:05:10.4521375-06:00:2021-06-28T22:05:10.4511381-06:00:Thread#1:T:Line 77
+2021-06-28T22:05:10.5821670-06:00:2021-06-28T22:05:10.5811675-06:00:Thread#1:T:Parsing: but i can still keep my old quests, the details are a little bit different from: sky_acaniadev
+2021-06-28T22:05:25.8520236-06:00:2021-06-28T22:05:25.8510236-06:00:Thread#1:T:Line 78
+2021-06-28T22:05:25.9721115-06:00:2021-06-28T22:05:25.9711108-06:00:Thread#1:T:Parsing: after all it was my old prediction, not exactly the same as what happened. from: sky_acaniadev
+2021-06-28T22:05:53.0980495-06:00:2021-06-28T22:05:53.0980495-06:00:Thread#1:T:Line 79
+2021-06-28T22:05:53.2190773-06:00:2021-06-28T22:05:53.2190773-06:00:Thread#1:T:Parsing: wait i fixed it from: mysticgaming306
+2021-06-28T22:06:11.4451289-06:00:2021-06-28T22:06:11.4441294-06:00:Thread#1:T:Line 80
+2021-06-28T22:06:11.5641554-06:00:2021-06-28T22:06:11.5641554-06:00:Thread#1:T:Parsing: i changed something in another script from: mysticgaming306
+2021-06-28T22:06:47.4363150-06:00:2021-06-28T22:06:47.4353155-06:00:Thread#1:T:Line 81
+2021-06-28T22:06:47.5343372-06:00:2021-06-28T22:06:47.5343372-06:00:Thread#1:T:Parsing: and enabled the script i enabled the script from: mysticgaming306
+2021-06-28T22:06:54.9531778-06:00:2021-06-28T22:06:54.9511707-06:00:Thread#0:T:Playing!
+2021-06-28T22:06:58.6472636-06:00:2021-06-28T22:06:58.6472636-06:00:Thread#1:T:Line 82
+2021-06-28T22:06:58.7447621-06:00:2021-06-28T22:06:58.7437626-06:00:Thread#1:T:Parsing: !mysticgaming306 from: user335
+2021-06-28T22:07:24.8415463-06:00:2021-06-28T22:07:24.8405461-06:00:Thread#1:T:Line 83
+2021-06-28T22:07:24.9375678-06:00:2021-06-28T22:07:24.9365671-06:00:Thread#1:T:Parsing: recreating redball from: mysticgaming306
+2021-06-28T22:07:30.6397201-06:00:2021-06-28T22:07:30.6387103-06:00:Thread#1:T:Line 84
+2021-06-28T22:07:30.7459794-06:00:2021-06-28T22:07:30.7459794-06:00:Thread#1:T:Parsing: its for a vid from: mysticgaming306
+2021-06-28T22:07:39.6670401-06:00:2021-06-28T22:07:39.6660390-06:00:Thread#1:T:Line 85
+2021-06-28T22:07:39.8260753-06:00:2021-06-28T22:07:39.8250759-06:00:Thread#1:T:Parsing: a flash game from: mysticgaming306
+2021-06-28T22:07:56.4408758-06:00:2021-06-28T22:07:56.4398754-06:00:Thread#1:T:Line 86
+2021-06-28T22:07:56.5383211-06:00:2021-06-28T22:07:56.5383211-06:00:Thread#1:T:Parsing: thats fake from: mysticgaming306
+2021-06-28T22:08:21.0551546-06:00:2021-06-28T22:08:21.0551546-06:00:Thread#1:T:Line 87
+2021-06-28T22:08:21.1791823-06:00:2021-06-28T22:08:21.1781826-06:00:Thread#1:T:Parsing: yea from: mysticgaming306
+2021-06-28T22:08:39.2311831-06:00:2021-06-28T22:08:39.2311831-06:00:Thread#1:T:Line 88
+2021-06-28T22:08:39.3357132-06:00:2021-06-28T22:08:39.3357132-06:00:Thread#1:T:Parsing: only the first 3 levels from: mysticgaming306
+2021-06-28T22:08:53.4362160-06:00:2021-06-28T22:08:53.4352155-06:00:Thread#1:T:Line 89
+2021-06-28T22:08:53.5412402-06:00:2021-06-28T22:08:53.5412402-06:00:Thread#1:T:Parsing: and im recreating number 1 from: mysticgaming306
+2021-06-28T22:09:00.2566205-06:00:2021-06-28T22:09:00.2566205-06:00:Thread#1:T:Line 90
+2021-06-28T22:09:00.3636448-06:00:2021-06-28T22:09:00.3626443-06:00:Thread#1:T:Parsing: game 1 from: mysticgaming306
+2021-06-28T22:09:09.6361614-06:00:2021-06-28T22:09:09.6361614-06:00:Thread#1:T:Line 91
+2021-06-28T22:09:09.7341824-06:00:2021-06-28T22:09:09.7341824-06:00:Thread#1:T:Parsing: now im finished from: mysticgaming306
+2021-06-28T22:09:41.6387253-06:00:2021-06-28T22:09:41.6377246-06:00:Thread#1:T:Line 92
+2021-06-28T22:09:41.7467492-06:00:2021-06-28T22:09:41.7467492-06:00:Thread#1:T:Parsing: the whole undergrad program is to just select a few that can do research for the universities in the future, and make money. from: sky_acaniadev
+2021-06-28T22:10:01.4485644-06:00:2021-06-28T22:10:01.4485644-06:00:Thread#1:T:Line 93
+2021-06-28T22:10:01.5475215-06:00:2021-06-28T22:10:01.5465207-06:00:Thread#1:T:Parsing: no, i don't from: sky_acaniadev
+2021-06-28T22:10:29.4440024-06:00:2021-06-28T22:10:29.4430024-06:00:Thread#1:T:Line 94
+2021-06-28T22:10:29.5530268-06:00:2021-06-28T22:10:29.5530268-06:00:Thread#1:T:Parsing: i wanna make my own bissness from: mysticgaming306
+2021-06-28T22:10:30.0286130-06:00:2021-06-28T22:10:30.0276128-06:00:Thread#1:T:Line 95
+2021-06-28T22:10:30.1206732-06:00:2021-06-28T22:10:30.1206732-06:00:Thread#1:T:Parsing: for it, those boot camps probably have the best roi. from: sky_acaniadev
+2021-06-28T22:11:06.8442325-06:00:2021-06-28T22:11:06.8432314-06:00:Thread#1:T:Line 96
+2021-06-28T22:11:06.9882630-06:00:2021-06-28T22:11:06.9872693-06:00:Thread#1:T:Parsing: game dev has no well-defined research area yet. from: sky_acaniadev
+2021-06-28T22:11:25.1601122-06:00:2021-06-28T22:11:25.1571106-06:00:Thread#0:T:Playing!
+2021-06-28T22:11:53.9237666-06:00:2021-06-28T22:11:53.9227688-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 1
+2021-06-28T22:11:54.3248582-06:00:2021-06-28T22:11:54.3238576-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 2
+2021-06-28T22:11:54.7109440-06:00:2021-06-28T22:11:54.7109440-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 3
+2021-06-28T22:11:55.0570227-06:00:2021-06-28T22:11:55.0570227-06:00:Thread#1:T:Line 97
+2021-06-28T22:11:55.1246051-06:00:2021-06-28T22:11:55.1246051-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 4
+2021-06-28T22:11:55.1861840-06:00:2021-06-28T22:11:55.1851835-06:00:Thread#1:T:Parsing: so i don't recommend going to university for it at all. you can learn computer science in university and go for a lead programmer in a game dev company still. from: sky_acaniadev
+2021-06-28T22:11:55.5243458-06:00:2021-06-28T22:11:55.5243458-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 5
+2021-06-28T22:11:55.9090786-06:00:2021-06-28T22:11:55.9080791-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 6
+2021-06-28T22:11:56.3107212-06:00:2021-06-28T22:11:56.3107212-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 7
+2021-06-28T22:11:56.7109240-06:00:2021-06-28T22:11:56.7109240-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 8
+2021-06-28T22:11:57.1350215-06:00:2021-06-28T22:11:57.1350215-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 9
+2021-06-28T22:11:57.5131035-06:00:2021-06-28T22:11:57.5121130-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 10
+2021-06-28T22:11:57.8992562-06:00:2021-06-28T22:11:57.8987402-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 11
+2021-06-28T22:11:58.3786167-06:00:2021-06-28T22:11:58.3776164-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 12
+2021-06-28T22:11:58.8313135-06:00:2021-06-28T22:11:58.8303131-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 13
+2021-06-28T22:11:59.2329770-06:00:2021-06-28T22:11:59.2319766-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 14
+2021-06-28T22:12:00.6592077-06:00:2021-06-28T22:12:00.6582070-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 15
+2021-06-28T22:12:01.0449819-06:00:2021-06-28T22:12:01.0439827-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 16
+2021-06-28T22:12:01.4587913-06:00:2021-06-28T22:12:01.4577955-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 17
+2021-06-28T22:12:01.8454612-06:00:2021-06-28T22:12:01.8454612-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 18
+2021-06-28T22:12:03.2184949-06:00:2021-06-28T22:12:03.2174939-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 19
+2021-06-28T22:12:03.9900036-06:00:2021-06-28T22:12:03.9900036-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 20
+2021-06-28T22:12:09.8839046-06:00:2021-06-28T22:12:09.8829050-06:00:Thread#1:T:Line 98
+2021-06-28T22:12:11.2272089-06:00:2021-06-28T22:12:11.2262076-06:00:Thread#1:T:{
+2021-06-28T22:12:11.2272089-06:00:2021-06-28T22:12:11.2272089-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-06-28T22:12:11.2282069-06:00:2021-06-28T22:12:11.2282069-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-06-28T22:12:11.2282069-06:00:2021-06-28T22:12:11.2282069-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-06-28T22:12:11.2292078-06:00:2021-06-28T22:12:11.2292078-06:00:Thread#1:T:}
+2021-06-28T22:12:11.2292078-06:00:2021-06-28T22:12:11.2292078-06:00:Thread#1:T:{
+2021-06-28T22:12:11.2302084-06:00:2021-06-28T22:12:11.2302084-06:00:Thread#1:T:	CHUNK ID: IART
+2021-06-28T22:12:11.2312083-06:00:2021-06-28T22:12:11.2302084-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-06-28T22:12:11.2312083-06:00:2021-06-28T22:12:11.2312083-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-06-28T22:12:11.2322092-06:00:2021-06-28T22:12:11.2312083-06:00:Thread#1:T:}
+2021-06-28T22:12:11.2322092-06:00:2021-06-28T22:12:11.2322092-06:00:Thread#1:T:{
+2021-06-28T22:12:11.2332088-06:00:2021-06-28T22:12:11.2332088-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-06-28T22:12:11.2382094-06:00:2021-06-28T22:12:11.2352109-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-06-28T22:12:11.2402105-06:00:2021-06-28T22:12:11.2392108-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-06-28T22:12:11.2412107-06:00:2021-06-28T22:12:11.2412107-06:00:Thread#1:T:}
+2021-06-28T22:12:12.4953606-06:00:2021-06-28T22:12:12.4943601-06:00:Thread#1:T:Line 99
+2021-06-28T22:12:12.6919157-06:00:2021-06-28T22:12:12.6919157-06:00:Thread#1:T:Parsing: you are getting raided from: badusername2262
+2021-06-28T22:12:12.6979170-06:00:2021-06-28T22:12:12.6969170-06:00:Thread#1:T:{
+2021-06-28T22:12:12.6979170-06:00:2021-06-28T22:12:12.6979170-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-06-28T22:12:12.6989181-06:00:2021-06-28T22:12:12.6989181-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-06-28T22:12:12.6989181-06:00:2021-06-28T22:12:12.6989181-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-06-28T22:12:12.6999183-06:00:2021-06-28T22:12:12.6999183-06:00:Thread#1:T:}
+2021-06-28T22:12:12.7019194-06:00:2021-06-28T22:12:12.7009189-06:00:Thread#1:T:{
+2021-06-28T22:12:12.7029190-06:00:2021-06-28T22:12:12.7029190-06:00:Thread#1:T:	CHUNK ID: IART
+2021-06-28T22:12:12.7039196-06:00:2021-06-28T22:12:12.7039196-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-06-28T22:12:12.7059204-06:00:2021-06-28T22:12:12.7049206-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-06-28T22:12:12.7069203-06:00:2021-06-28T22:12:12.7059204-06:00:Thread#1:T:}
+2021-06-28T22:12:12.7079214-06:00:2021-06-28T22:12:12.7069203-06:00:Thread#1:T:{
+2021-06-28T22:12:12.7089212-06:00:2021-06-28T22:12:12.7079214-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-06-28T22:12:12.7099214-06:00:2021-06-28T22:12:12.7089212-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-06-28T22:12:12.7099214-06:00:2021-06-28T22:12:12.7099214-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-06-28T22:12:12.7109208-06:00:2021-06-28T22:12:12.7109208-06:00:Thread#1:T:}
+2021-06-28T22:12:24.0766728-06:00:2021-06-28T22:12:24.0746721-06:00:Thread#1:T:Line 100
+2021-06-28T22:12:24.2127022-06:00:2021-06-28T22:12:24.2127022-06:00:Thread#1:T:Parsing: yeah, boot camp cost much less time and money from: sky_acaniadev
+2021-06-28T22:12:29.2511347-06:00:2021-06-28T22:12:29.2511347-06:00:Thread#1:T:Line 101
+2021-06-28T22:12:29.4131731-06:00:2021-06-28T22:12:29.4121723-06:00:Thread#1:T:Parsing: and it is about the same from: sky_acaniadev
+2021-06-28T22:12:45.4297124-06:00:2021-06-28T22:12:45.4297124-06:00:Thread#1:T:Line 102
+2021-06-28T22:12:45.5357359-06:00:2021-06-28T22:12:45.5347356-06:00:Thread#1:T:Parsing: i am good from: badusername2262
+2021-06-28T22:12:48.4416181-06:00:2021-06-28T22:12:48.4416181-06:00:Thread#1:T:Line 103
+2021-06-28T22:12:48.5666477-06:00:2021-06-28T22:12:48.5666477-06:00:Thread#1:T:Parsing: i mean bad from: badusername2262
+2021-06-28T22:13:00.0534916-06:00:2021-06-28T22:13:00.0524909-06:00:Thread#1:T:Line 104
+2021-06-28T22:13:00.1560236-06:00:2021-06-28T22:13:00.1550240-06:00:Thread#1:T:Parsing: dang messed up again from: badusername2262
+2021-06-28T22:13:02.2322310-06:00:2021-06-28T22:13:02.2322310-06:00:Thread#1:T:Line 105
+2021-06-28T22:13:02.3972888-06:00:2021-06-28T22:13:02.3962880-06:00:Thread#1:T:Parsing: to be a lead researcher in computer science (mostly ai) is too late now i think. from: sky_acaniadev
+2021-06-28T22:13:26.6509353-06:00:2021-06-28T22:13:26.6499352-06:00:Thread#1:T:Line 106
+2021-06-28T22:13:26.8129933-06:00:2021-06-28T22:13:26.8119915-06:00:Thread#1:T:Parsing: nope from: badusername2262
+2021-06-28T22:13:33.8530542-06:00:2021-06-28T22:13:33.8520540-06:00:Thread#1:T:Line 107
+2021-06-28T22:13:34.0050866-06:00:2021-06-28T22:13:34.0050866-06:00:Thread#1:T:Parsing: no one took badusername from: badusername2262
+2021-06-28T22:13:44.4684118-06:00:2021-06-28T22:13:44.4674116-06:00:Thread#1:T:Line 108
+2021-06-28T22:13:44.6434525-06:00:2021-06-28T22:13:44.6424514-06:00:Thread#1:T:Parsing: i just like the numbers from: badusername2262
+2021-06-28T22:14:40.4633190-06:00:2021-06-28T22:14:40.4623179-06:00:Thread#1:T:Line 109
+2021-06-28T22:14:40.6053695-06:00:2021-06-28T22:14:40.6043704-06:00:Thread#1:T:Parsing: what should i change my name to from: mysticgaming306
+2021-06-28T22:14:49.8560833-06:00:2021-06-28T22:14:49.8550832-06:00:Thread#1:T:Line 110
+2021-06-28T22:14:49.9971154-06:00:2021-06-28T22:14:49.9961164-06:00:Thread#1:T:Parsing: people just call me by “bad” from: badusername2262
+2021-06-28T22:14:57.6468170-06:00:2021-06-28T22:14:57.6468170-06:00:Thread#1:T:Line 111
+2021-06-28T22:14:57.8009522-06:00:2021-06-28T22:14:57.8009522-06:00:Thread#1:T:Parsing: thats my nick name lmao from: badusername2262
+2021-06-28T22:15:16.4578606-06:00:2021-06-28T22:15:16.4568609-06:00:Thread#1:T:Line 112
+2021-06-28T22:15:16.5988937-06:00:2021-06-28T22:15:16.5978933-06:00:Thread#1:T:Parsing: love it how my nick name is bad from: badusername2262
+2021-06-28T22:15:51.8603638-06:00:2021-06-28T22:15:51.8583632-06:00:Thread#1:T:Line 113
+2021-06-28T22:15:52.0199512-06:00:2021-06-28T22:15:52.0189522-06:00:Thread#1:T:Parsing: !discord from: mysticgaming306
+2021-06-28T22:15:52.0409565-06:00:2021-06-28T22:15:52.0399570-06:00:Thread#1:T:Line 114
+2021-06-28T22:17:17.2403650-06:00:2021-06-28T22:17:17.2393653-06:00:Thread#1:T:Line 115
+2021-06-28T22:17:17.3639703-06:00:2021-06-28T22:17:17.3639703-06:00:Thread#1:T:Parsing: noo its happening again from: mysticgaming306
+2021-06-28T22:17:25.6412620-06:00:2021-06-28T22:17:25.6412620-06:00:Thread#1:T:Line 116
+2021-06-28T22:17:25.7592884-06:00:2021-06-28T22:17:25.7582878-06:00:Thread#1:T:Parsing: be like dark souls from: badusername2262
+2021-06-28T22:17:43.4630571-06:00:2021-06-28T22:17:43.4630571-06:00:Thread#1:T:Line 117
+2021-06-28T22:17:43.5951700-06:00:2021-06-28T22:17:43.5951700-06:00:Thread#1:T:Parsing: will from: badusername2262
+2021-06-28T22:17:59.4106454-06:00:2021-06-28T22:17:59.4096446-06:00:Thread#0:T:Playing!
+2021-06-28T22:18:01.7319263-06:00:2021-06-28T22:18:01.7309438-06:00:Thread#1:T:Line 118
+2021-06-28T22:18:01.8930846-06:00:2021-06-28T22:18:01.8930846-06:00:Thread#1:T:Parsing: link to users game: from: mrnoah99
+2021-06-28T22:18:03.2447773-06:00:2021-06-28T22:18:03.2437763-06:00:Thread#1:T:Line 119
+2021-06-28T22:18:03.4003606-06:00:2021-06-28T22:18:03.3993607-06:00:Thread#1:T:Parsing: !demo from: mrnoah99
+2021-06-28T22:18:03.4573942-06:00:2021-06-28T22:18:03.4573942-06:00:Thread#1:T:Line 120
+2021-06-28T22:18:12.0641736-06:00:2021-06-28T22:18:12.0631764-06:00:Thread#1:T:Line 121
+2021-06-28T22:18:12.1902015-06:00:2021-06-28T22:18:12.1902015-06:00:Thread#1:T:Parsing: if people are interested from: mrnoah99
+2021-06-28T22:18:47.0536679-06:00:2021-06-28T22:18:47.0526686-06:00:Thread#1:T:Line 122
+2021-06-28T22:18:47.1886981-06:00:2021-06-28T22:18:47.1886981-06:00:Thread#1:T:Parsing: and you can check out videos i've done on rota and other stuff from: mrnoah99
+2021-06-28T22:18:49.6382505-06:00:2021-06-28T22:18:49.6382505-06:00:Thread#1:T:Line 123
+2021-06-28T22:18:49.7897914-06:00:2021-06-28T22:18:49.7897914-06:00:Thread#1:T:Parsing: !mrnoah99 from: mrnoah99
+2021-06-28T22:18:49.8248015-06:00:2021-06-28T22:18:49.8238008-06:00:Thread#1:T:Line 124
+2021-06-28T22:19:01.4452708-06:00:2021-06-28T22:19:01.4452708-06:00:Thread#1:T:Line 125
+2021-06-28T22:19:01.5943045-06:00:2021-06-28T22:19:01.5933048-06:00:Thread#1:T:Parsing: i haven't streamed in forever from: mrnoah99
+2021-06-28T22:19:14.6581310-06:00:2021-06-28T22:19:14.6581310-06:00:Thread#1:T:Line 126
+2021-06-28T22:19:14.8047732-06:00:2021-06-28T22:19:14.8047732-06:00:Thread#1:T:Parsing: so that's kinda empty from: mrnoah99
+2021-06-28T22:22:21.0619494-06:00:2021-06-28T22:22:21.0609490-06:00:Thread#1:T:Line 127
+2021-06-28T22:22:21.1929770-06:00:2021-06-28T22:22:21.1919775-06:00:Thread#1:T:Parsing: its something in that script that is reenabled from: mysticgaming306
+2021-06-28T22:22:22.0597348-06:00:2021-06-28T22:22:22.0587342-06:00:Thread#0:T:Playing!
+2021-06-28T22:22:52.0535631-06:00:2021-06-28T22:22:52.0525627-06:00:Thread#1:T:Line 128
+2021-06-28T22:22:52.1806262-06:00:2021-06-28T22:22:52.1796244-06:00:Thread#1:T:Parsing: its not its like 10 from: mysticgaming306
+2021-06-28T22:23:17.6421327-06:00:2021-06-28T22:23:17.6411337-06:00:Thread#1:T:Line 129
+2021-06-28T22:23:17.7761631-06:00:2021-06-28T22:23:17.7751629-06:00:Thread#1:T:Parsing: private gamemaster gm; private void start() { gm = gameobject.findgameobjectwithtag("gm").getcomponent<gamemaster>(); transform.position = gm.lastcheckpointpos; } private void update() { if (input.getkeydown(keycode.r)) { scenemanager.loadscene(scenemanager.getactivescene().buildindex); } } from: mysticgaming306
+2021-06-28T22:23:22.6612755-06:00:2021-06-28T22:23:22.6612755-06:00:Thread#1:T:Line 130
+2021-06-28T22:23:22.7973071-06:00:2021-06-28T22:23:22.7973071-06:00:Thread#1:T:Parsing: heres code from: mysticgaming306
+2021-06-28T22:24:08.8766645-06:00:2021-06-28T22:24:08.8746653-06:00:Thread#1:T:Line 131
+2021-06-28T22:24:09.0347006-06:00:2021-06-28T22:24:09.0337001-06:00:Thread#1:T:Parsing: yea from: mysticgaming306
+2021-06-28T22:24:24.4548504-06:00:2021-06-28T22:24:24.4538500-06:00:Thread#1:T:Line 132
+2021-06-28T22:24:24.5918805-06:00:2021-06-28T22:24:24.5918805-06:00:Thread#1:T:Parsing: it was on the tutorial from: mysticgaming306
+2021-06-28T22:26:14.7203619-06:00:2021-06-28T22:26:14.7183611-06:00:Thread#1:T:Line 133
+2021-06-28T22:26:14.8804167-06:00:2021-06-28T22:26:14.8804167-06:00:Thread#1:T:Parsing: game master script public class gamemaster : monobehaviour { private static gamemaster instance; public vector2 lastcheckpointpos; private void awake() { if (instance == null) { instance = this; dontdestroyonload(instance); } else { destroy(gameobject); } } } from: mysticgaming306
+2021-06-28T22:26:43.1472440-06:00:2021-06-28T22:26:43.1472440-06:00:Thread#0:T:Playing!
+2021-06-28T22:30:52.3202285-06:00:2021-06-28T22:30:52.3192273-06:00:Thread#0:T:Playing!
+2021-06-28T22:33:53.0718520-06:00:2021-06-28T22:33:53.0708502-06:00:Thread#1:T:Line 134
+2021-06-28T22:33:53.2259322-06:00:2021-06-28T22:33:53.2259322-06:00:Thread#1:T:Parsing: o.o from: flavcreations
+2021-06-28T22:33:53.2319330-06:00:2021-06-28T22:33:53.2309328-06:00:Thread#1:T:{
+2021-06-28T22:33:53.2319330-06:00:2021-06-28T22:33:53.2319330-06:00:Thread#1:T:	CHUNK ID: INAM
+2021-06-28T22:33:53.2329338-06:00:2021-06-28T22:33:53.2319330-06:00:Thread#1:T:	CHUNK SIZE: 8
+2021-06-28T22:33:53.2329338-06:00:2021-06-28T22:33:53.2329338-06:00:Thread#1:T:	Text Value: 8.3.16  
+2021-06-28T22:33:53.2344627-06:00:2021-06-28T22:33:53.2339361-06:00:Thread#1:T:}
+2021-06-28T22:33:53.2344627-06:00:2021-06-28T22:33:53.2344627-06:00:Thread#1:T:{
+2021-06-28T22:33:53.2354469-06:00:2021-06-28T22:33:53.2354469-06:00:Thread#1:T:	CHUNK ID: IART
+2021-06-28T22:33:53.2354469-06:00:2021-06-28T22:33:53.2354469-06:00:Thread#1:T:	CHUNK SIZE: 12
+2021-06-28T22:33:53.2364469-06:00:2021-06-28T22:33:53.2364469-06:00:Thread#1:T:	Text Value: InspectorJ  
+2021-06-28T22:33:53.2374483-06:00:2021-06-28T22:33:53.2374483-06:00:Thread#1:T:}
+2021-06-28T22:33:53.2374483-06:00:2021-06-28T22:33:53.2374483-06:00:Thread#1:T:{
+2021-06-28T22:33:53.2384482-06:00:2021-06-28T22:33:53.2384482-06:00:Thread#1:T:	CHUNK ID: ISFT
+2021-06-28T22:33:53.2404478-06:00:2021-06-28T22:33:53.2384482-06:00:Thread#1:T:	CHUNK SIZE: 28
+2021-06-28T22:33:53.2414482-06:00:2021-06-28T22:33:53.2404478-06:00:Thread#1:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-06-28T22:33:53.2414482-06:00:2021-06-28T22:33:53.2414482-06:00:Thread#1:T:}
+2021-06-28T22:34:59.0597246-06:00:2021-06-28T22:34:59.0587233-06:00:Thread#0:T:Playing!
+2021-06-28T22:36:06.4653081-06:00:2021-06-28T22:36:06.4653081-06:00:Thread#1:T:Line 135
+2021-06-28T22:36:06.6713543-06:00:2021-06-28T22:36:06.6703536-06:00:Thread#1:T:Parsing: hi from: flavcreations
+2021-06-28T22:36:08.6653223-06:00:2021-06-28T22:36:08.6643202-06:00:Thread#1:T:Line 136
+2021-06-28T22:36:08.8693673-06:00:2021-06-28T22:36:08.8693673-06:00:Thread#1:T:Parsing:  from: flavcreations
+2021-06-28T22:39:07.8050356-06:00:2021-06-28T22:39:07.8030354-06:00:Thread#0:T:Playing!
+2021-06-28T22:40:56.5443550-06:00:2021-06-28T22:40:56.5423550-06:00:Thread#1:T:Line 137
+2021-06-28T22:40:56.9739966-06:00:2021-06-28T22:40:56.9729970-06:00:Thread#1:T:Parsing: ok i recorded an alternative intro sound for myself... it is quite ... cringy tho... from: sky_acaniadev
+2021-06-28T22:41:49.2489601-06:00:2021-06-28T22:41:49.2479603-06:00:Thread#1:T:Line 138
+2021-06-28T22:41:49.3679889-06:00:2021-06-28T22:41:49.3669877-06:00:Thread#1:T:Parsing: oops from: sky_acaniadev
+2021-06-28T22:41:56.4740490-06:00:2021-06-28T22:41:56.4740490-06:00:Thread#1:T:Line 139
+2021-06-28T22:41:56.6646265-06:00:2021-06-28T22:41:56.6646265-06:00:Thread#1:T:Parsing: i uploaded it to #general from: sky_acaniadev
+2021-06-28T22:43:26.9536400-06:00:2021-06-28T22:43:26.9526365-06:00:Thread#0:T:Playing!
+2021-06-28T22:43:50.8580770-06:00:2021-06-28T22:43:50.8570766-06:00:Thread#1:T:Line 140
+2021-06-28T22:43:50.9813013-06:00:2021-06-28T22:43:50.9802998-06:00:Thread#1:T:Parsing: wow that is much better from: sky_acaniadev
+2021-06-28T22:46:57.3763765-06:00:2021-06-28T22:46:57.3753805-06:00:Thread#1:T:Line 141
+2021-06-28T22:46:57.6246945-06:00:2021-06-28T22:46:57.6236947-06:00:Thread#1:T:Parsing: your wife is probably behind you with a kitchen knife from: sky_acaniadev
+2021-06-28T22:47:34.2478271-06:00:2021-06-28T22:47:34.2458253-06:00:Thread#0:T:Playing!
+2021-06-28T22:47:35.3350718-06:00:2021-06-28T22:47:35.3340714-06:00:Thread#1:T:Line 142
+2021-06-28T22:47:35.5681235-06:00:2021-06-28T22:47:35.5671242-06:00:Thread#1:T:Parsing: !demo from: user335
+2021-06-28T22:47:35.6031319-06:00:2021-06-28T22:47:35.6021315-06:00:Thread#1:T:Line 143
+2021-06-28T22:47:37.3021785-06:00:2021-06-28T22:47:37.3001772-06:00:Thread#1:T:Line 144
+2021-06-28T22:47:37.5652357-06:00:2021-06-28T22:47:37.5642361-06:00:Thread#1:T:Parsing: !discord from: user335
+2021-06-28T22:47:37.5942429-06:00:2021-06-28T22:47:37.5922409-06:00:Thread#1:T:Line 145
+2021-06-28T22:47:39.3158819-06:00:2021-06-28T22:47:39.3148828-06:00:Thread#1:T:Line 146
+2021-06-28T22:47:39.5499748-06:00:2021-06-28T22:47:39.5399742-06:00:Thread#1:T:Parsing: !steam from: user335
+2021-06-28T22:47:39.6319942-06:00:2021-06-28T22:47:39.6179911-06:00:Thread#1:T:Line 147

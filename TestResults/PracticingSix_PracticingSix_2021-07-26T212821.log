@@ -1,0 +1,457 @@
+﻿2021-07-26T21:28:21.0232693-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-07-26T21:28:21.0232693-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-07-26T21:28:21.0232693-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-07-26T21:28:21.0242696-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-07-26T21:28:21.1578036-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-26T21:28:21.1578036-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-07-26T21:28:21.1578036-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-07-26T21:28:21.2023504-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-07-26T212821.log
+2021-07-26T21:28:21.2073532-06:00;Thread#13;Info;Checking activation
+2021-07-26T21:28:21.2825047-06:00;Thread#13;Info;Activated.
+2021-07-26T21:28:21.2835043-06:00;Thread#13;Info;Activation check completed
+2021-07-26T21:28:21.2835043-06:00;Thread#13;Info;Starting test run
+2021-07-26T21:28:21.3189462-06:00;Thread#13;Info;Discovering target: Default
+2021-07-26T21:28:21.3189462-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-26T21:28:21.6876829-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-26T21:28:21.6886834-06:00:Test Suite Dump
+2021-07-26T21:28:21.6906839-06:00:#0: PracticingSix/PracticingSix - 
+2021-07-26T21:28:21.6906839-06:00:#1: Default - 
+2021-07-26T21:28:21.6906839-06:00:#2: PracticingSix - 
+2021-07-26T21:28:21.6906839-06:00:#4: Twitch Bot! - 
+2021-07-26T21:28:21.7237057-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-07-26T21:28:21.7247050-06:00:End: Test Suite Dump
+2021-07-26T21:28:21.7667400-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-26T21:28:21.7687401-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-07-26T21:28:21.7687401-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-07-26T21:28:21.7737414-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-26T21:28:21.7737414-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-07-26T21:28:21.7737414-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-07-26T21:28:21.7737414-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-07-26T21:28:21.7757421-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-07-26T21:28:21.7762696-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-07-26T21:28:21.7762696-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-07-26T21:28:21.7772518-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-07-26T21:28:21.7772518-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-07-26T21:28:21.7772518-06:00:Thread#1:Scheduler: No more tests for thread
+2021-07-26T21:28:21.7812523-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-07-26T21:28:21.7832524-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-26T21:28:21.7862621-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-26T21:28:21.7887718-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-07-26T21:28:21.7915943-06:00:starting Out Of Process Executor
+2021-07-26T21:28:21.7965961-06:00:Starting callback TCP Rpc server
+2021-07-26T21:28:21.8121261-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-07-26T21:28:21.8121261-06:00:Started callback TCP Rpc server on port 32770
+2021-07-26T21:28:21.8121261-06:00:Starting logger TCP Rpc server
+2021-07-26T21:28:21.8161263-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-07-26T21:28:21.8161263-06:00:Started logger TCP Rpc server on port 32771
+2021-07-26T21:28:21.8211268-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 11436 --uniqueId "2021-07-26T212821" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32770 --loggerPort 32771' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-07-26T21:28:21.8251277-06:00:Executor with PID 17372 has been started successfully.
+2021-07-26T21:28:21.8281303-06:00:Out of Process Executor 17372 started
+2021-07-26T21:28:21.8281303-06:00:Waiting for endpoint
+2021-07-26T21:28:22.3316252-06:00:Remote executor port received: 32772
+2021-07-26T21:28:22.3316252-06:00:Creating executor TCP client on port 32772
+2021-07-26T21:28:22.3316252-06:00:Created executor TCP client on port 32772
+2021-07-26T21:28:22.3316252-06:00:Connecting to remote executor TCP server
+2021-07-26T21:28:22.3326259-06:00:Connected remote executor TCP server
+2021-07-26T21:28:22.3326259-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-07-26T21:28:22.3326259-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-07-26T21:28:22.4807326-06:00:2021-07-26T21:28:22.4797415-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-07-26T21:28:22.4872429-06:00:Endpoint 17372 started
+2021-07-26T21:28:22.5052477-06:00:2021-07-26T21:28:22.5052477-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-07-26T21:28:22.8653476-06:00:2021-07-26T21:28:22.8653476-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-07-26T21:28:22.8728591-06:00:2021-07-26T21:28:22.8728591-06:00:Thread#0:T:-> Using default config
+2021-07-26T21:28:23.5234457-06:00:2021-07-26T21:28:23.5224453-06:00:Thread#0:T:Starting the driver...
+2021-07-26T21:28:25.0198804-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-07-26T21:28:25.0508872-06:00:2021-07-26T21:28:25.0508872-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-26T21:28:25.0978980-06:00:2021-07-26T21:28:25.0968982-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-26T21:28:25.0988981-06:00:2021-07-26T21:28:25.0988981-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-26T21:28:26.7098787-06:00:2021-07-26T21:28:26.7098787-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.6s)
+2021-07-26T21:28:26.7128799-06:00:2021-07-26T21:28:26.7118797-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-07-26T21:31:02.6831144-06:00:2021-07-26T21:31:02.6821135-06:00:Thread#0:T:Line 1
+2021-07-26T21:31:02.7681314-06:00:2021-07-26T21:31:02.7671327-06:00:Thread#0:T:Parsing: planetary annihilation from: mrnoah99
+2021-07-26T21:31:02.7772795-06:00:2021-07-26T21:31:02.7763383-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-07-26T21:31:02.7782798-06:00:2021-07-26T21:31:02.7782798-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 5
+2021-07-26T21:31:04.9028097-06:00:2021-07-26T21:31:04.9028097-06:00:Thread#0:T:Duration of clip was 2.054979, thanks rabbit_xxxx you're the best!
+2021-07-26T21:31:04.9038116-06:00:2021-07-26T21:31:04.9038116-06:00:Thread#0:T:clip played the old boring way, duration was: 2.054979
+2021-07-26T21:32:48.1410156-06:00:2021-07-26T21:32:48.1400160-06:00:Thread#0:T:Line 2
+2021-07-26T21:32:48.2130372-06:00:2021-07-26T21:32:48.2130372-06:00:Thread#0:T:Parsing: those titans are really big from: mrnoah99
+2021-07-26T21:33:01.1340703-06:00:2021-07-26T21:33:01.1330701-06:00:Thread#0:T:Line 3
+2021-07-26T21:33:01.2203890-06:00:2021-07-26T21:33:01.2203890-06:00:Thread#0:T:Parsing: just look at the fact that the horizon of a planet is behind them from: mrnoah99
+2021-07-26T21:34:47.1477146-06:00:2021-07-26T21:34:47.1472022-06:00:Thread#0:T:Line 4
+2021-07-26T21:34:47.2251480-06:00:2021-07-26T21:34:47.2241480-06:00:Thread#0:T:Parsing: yeah from: mrnoah99
+2021-07-26T21:35:02.1389946-06:00:2021-07-26T21:35:02.1379924-06:00:Thread#0:T:Line 5
+2021-07-26T21:35:02.2167132-06:00:2021-07-26T21:35:02.2167132-06:00:Thread#0:T:Parsing: you build stuff and blow stuff up from: mrnoah99
+2021-07-26T21:36:01.0592700-06:00:2021-07-26T21:36:01.0582714-06:00:Thread#0:T:Line 6
+2021-07-26T21:36:01.1283122-06:00:2021-07-26T21:36:01.1273112-06:00:Thread#0:T:Parsing: there is single player but haven't played it from: dstew99
+2021-07-26T21:36:01.1303125-06:00:2021-07-26T21:36:01.1303125-06:00:Thread#0:T:Eyy, its dstew99!
+2021-07-26T21:36:02.1597336-06:00:2021-07-26T21:36:02.1597336-06:00:Thread#0:T:Duration of clip was 1.024399, thanks rabbit_xxxx you're the best!
+2021-07-26T21:36:02.1607249-06:00:2021-07-26T21:36:02.1607249-06:00:Thread#0:T:clip played the old boring way, duration was: 1.024399
+2021-07-26T21:36:24.0591245-06:00:2021-07-26T21:36:24.0581241-06:00:Thread#0:T:Line 7
+2021-07-26T21:36:24.1281265-06:00:2021-07-26T21:36:24.1271266-06:00:Thread#0:T:Parsing: just heard my knock sound from: dstew99
+2021-07-26T21:36:32.4590472-06:00:2021-07-26T21:36:32.4580470-06:00:Thread#0:T:Line 8
+2021-07-26T21:36:32.5251140-06:00:2021-07-26T21:36:32.5251140-06:00:Thread#0:T:Parsing: computers from: dstew99
+2021-07-26T21:36:33.0451329-06:00:2021-07-26T21:36:33.0441322-06:00:Thread#0:T:Line 9
+2021-07-26T21:36:33.1071520-06:00:2021-07-26T21:36:33.1071520-06:00:Thread#0:T:Parsing: two of us against two bots from: mrnoah99
+2021-07-26T21:37:03.0618355-06:00:2021-07-26T21:37:03.0608374-06:00:Thread#0:T:Line 10
+2021-07-26T21:37:03.1358966-06:00:2021-07-26T21:37:03.1358966-06:00:Thread#0:T:Parsing: it played when i put in my second message from: dstew99
+2021-07-26T21:37:43.2618932-06:00:2021-07-26T21:37:43.2618932-06:00:Thread#0:T:Line 11
+2021-07-26T21:37:43.3507382-06:00:2021-07-26T21:37:43.3507382-06:00:Thread#0:T:Parsing: ok. then sound was ok. from: dstew99
+2021-07-26T21:37:45.4421474-06:00:2021-07-26T21:37:45.4415809-06:00:Thread#0:T:Line 12
+2021-07-26T21:37:45.5148988-06:00:2021-07-26T21:37:45.5148988-06:00:Thread#0:T:Parsing: yes from: dstew99
+2021-07-26T21:43:20.2558439-06:00:2021-07-26T21:43:20.2552363-06:00:Thread#0:T:Line 13
+2021-07-26T21:43:20.3295530-06:00:2021-07-26T21:43:20.3295530-06:00:Thread#0:T:Parsing: that is what you tried last night from: dstew99
+2021-07-26T21:43:52.6554265-06:00:2021-07-26T21:43:52.6554265-06:00:Thread#0:T:Line 14
+2021-07-26T21:43:52.7309710-06:00:2021-07-26T21:43:52.7299707-06:00:Thread#0:T:Parsing: but you did not have the negative sign\ from: dstew99
+2021-07-26T21:43:59.8499299-06:00:2021-07-26T21:43:59.8499299-06:00:Thread#0:T:Line 15
+2021-07-26T21:43:59.9461487-06:00:2021-07-26T21:43:59.9461487-06:00:Thread#0:T:Parsing: so try it from: dstew99
+2021-07-26T21:44:57.6740997-06:00:2021-07-26T21:44:57.6730981-06:00:Thread#0:T:Line 16
+2021-07-26T21:44:57.7706766-06:00:2021-07-26T21:44:57.7696769-06:00:Thread#0:T:Parsing: been tooo long my friend, used to be chebalee, renamed to lonestar from: lonestarhtx
+2021-07-26T21:44:57.7866804-06:00:2021-07-26T21:44:57.7866804-06:00:Thread#0:T:{
+2021-07-26T21:44:57.7876824-06:00:2021-07-26T21:44:57.7876824-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-26T21:44:57.7886811-06:00:2021-07-26T21:44:57.7876824-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-26T21:44:57.7906822-06:00:2021-07-26T21:44:57.7886811-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-26T21:44:57.7916820-06:00:2021-07-26T21:44:57.7916820-06:00:Thread#0:T:}
+2021-07-26T21:44:57.7916820-06:00:2021-07-26T21:44:57.7916820-06:00:Thread#0:T:{
+2021-07-26T21:44:57.7926823-06:00:2021-07-26T21:44:57.7926823-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-26T21:44:57.7936831-06:00:2021-07-26T21:44:57.7926823-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-26T21:44:57.7946835-06:00:2021-07-26T21:44:57.7936831-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-26T21:44:57.7946835-06:00:2021-07-26T21:44:57.7946835-06:00:Thread#0:T:}
+2021-07-26T21:44:57.7956826-06:00:2021-07-26T21:44:57.7956826-06:00:Thread#0:T:{
+2021-07-26T21:44:57.7956826-06:00:2021-07-26T21:44:57.7956826-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T21:44:57.7966832-06:00:2021-07-26T21:44:57.7956826-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-26T21:44:57.7966832-06:00:2021-07-26T21:44:57.7966832-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-26T21:44:57.7976838-06:00:2021-07-26T21:44:57.7966832-06:00:Thread#0:T:}
+2021-07-26T21:45:56.2627869-06:00:2021-07-26T21:45:56.2617868-06:00:Thread#0:T:Line 17
+2021-07-26T21:45:56.3413661-06:00:2021-07-26T21:45:56.3413661-06:00:Thread#0:T:Parsing: maybe you can work on the game in the morning and then work after lunch. from: dstew99
+2021-07-26T22:06:46.4637752-06:00:2021-07-26T22:06:46.4637752-06:00:Thread#0:T:Line 18
+2021-07-26T22:06:46.5417938-06:00:2021-07-26T22:06:46.5407931-06:00:Thread#0:T:Parsing: man you're still working on the gravity issue? from: thatmanrobin
+2021-07-26T22:06:46.5447938-06:00:2021-07-26T22:06:46.5437932-06:00:Thread#0:T:Eyy, its thatmanrobin!
+2021-07-26T22:06:52.6650387-06:00:2021-07-26T22:06:52.6650387-06:00:Thread#0:T:Duration of clip was 6.112653, thanks rabbit_xxxx you're the best!
+2021-07-26T22:06:52.6650387-06:00:2021-07-26T22:06:52.6650387-06:00:Thread#0:T:clip played the old boring way, duration was: 6.112653
+2021-07-26T22:07:19.2637935-06:00:2021-07-26T22:07:19.2627939-06:00:Thread#0:T:Line 19
+2021-07-26T22:07:19.3418112-06:00:2021-07-26T22:07:19.3418112-06:00:Thread#0:T:Parsing: oof from: thatmanrobin
+2021-07-26T22:07:54.8633739-06:00:2021-07-26T22:07:54.8623739-06:00:Thread#0:T:Line 20
+2021-07-26T22:07:54.9469009-06:00:2021-07-26T22:07:54.9459003-06:00:Thread#0:T:Parsing: so basically the moment they're "grounded" gravity reverses? from: thatmanrobin
+2021-07-26T22:12:09.0760561-06:00:2021-07-26T22:12:09.0750572-06:00:Thread#0:T:Line 21
+2021-07-26T22:12:09.2201289-06:00:2021-07-26T22:12:09.2201289-06:00:Thread#0:T:Parsing: i could make some suggestions but my biggest one would just be to write your own control system lol from: thatmanrobin
+2021-07-26T22:12:24.0610106-06:00:2021-07-26T22:12:24.0600102-06:00:Thread#0:T:Line 22
+2021-07-26T22:12:24.1440288-06:00:2021-07-26T22:12:24.1430283-06:00:Thread#0:T:Parsing: seems like this has gotten messy from: thatmanrobin
+2021-07-26T22:13:19.2641358-06:00:2021-07-26T22:13:19.2641358-06:00:Thread#0:T:Line 23
+2021-07-26T22:13:19.3369731-06:00:2021-07-26T22:13:19.3359895-06:00:Thread#0:T:Parsing: i mean you're barely using the charactercontroler anymore from: thatmanrobin
+2021-07-26T22:13:24.2601666-06:00:2021-07-26T22:13:24.2591668-06:00:Thread#0:T:Line 24
+2021-07-26T22:13:24.3356209-06:00:2021-07-26T22:13:24.3356209-06:00:Thread#0:T:Parsing: just for move function from: thatmanrobin
+2021-07-26T22:13:34.6682846-06:00:2021-07-26T22:13:34.6682846-06:00:Thread#0:T:Line 26
+2021-07-26T22:13:34.7443242-06:00:2021-07-26T22:13:34.7443242-06:00:Thread#0:T:Parsing: you could write your own move function from: thatmanrobin
+2021-07-26T22:13:34.7533620-06:00:2021-07-26T22:13:34.7533620-06:00:Thread#0:T:Line 26
+2021-07-26T22:13:34.8191131-06:00:2021-07-26T22:13:34.8191131-06:00:Thread#0:T:Parsing: well our planet got annihilated from: dstew99
+2021-07-26T22:13:55.4784539-06:00:2021-07-26T22:13:55.4784539-06:00:Thread#0:T:Line 27
+2021-07-26T22:13:55.5718409-06:00:2021-07-26T22:13:55.5718409-06:00:Thread#0:T:Parsing: big brain move, start clean on unreal engine from: lonestarhtx
+2021-07-26T22:13:57.0500237-06:00:2021-07-26T22:13:57.0490227-06:00:Thread#0:T:Line 28
+2021-07-26T22:13:57.1179483-06:00:2021-07-26T22:13:57.1179483-06:00:Thread#0:T:Parsing: a bot built a planetary engine sooner than i thought he would from: mrnoah99
+2021-07-26T22:14:21.6631846-06:00:2021-07-26T22:14:21.6631846-06:00:Thread#0:T:Line 29
+2021-07-26T22:14:21.7418035-06:00:2021-07-26T22:14:21.7408022-06:00:Thread#0:T:Parsing: i even knew and tried to get our commanders off-planet but we were seconds too late from: mrnoah99
+2021-07-26T22:14:54.8639412-06:00:2021-07-26T22:14:54.8629399-06:00:Thread#0:T:Line 30
+2021-07-26T22:14:54.9452529-06:00:2021-07-26T22:14:54.9452529-06:00:Thread#0:T:Parsing: lol i know, i had to use some c# code and translate it to c++ because it was the only reference code from: lonestarhtx
+2021-07-26T22:14:55.6426159-06:00:2021-07-26T22:14:55.6426159-06:00:Thread#0:T:Line 31
+2021-07-26T22:14:55.7182622-06:00:2021-07-26T22:14:55.7172629-06:00:Thread#0:T:Parsing: i feel like you could delete the entire control system and rewrite it in less time than you've spent debugging so far from: thatmanrobin
+2021-07-26T22:14:58.8620749-06:00:2021-07-26T22:14:58.8620749-06:00:Thread#0:T:Line 32
+2021-07-26T22:14:58.9452472-06:00:2021-07-26T22:14:58.9452472-06:00:Thread#0:T:Parsing: absolute nightmare from: lonestarhtx
+2021-07-26T22:15:02.2517430-06:00:2021-07-26T22:15:02.2517430-06:00:Thread#0:T:Line 33
+2021-07-26T22:15:02.3357629-06:00:2021-07-26T22:15:02.3347611-06:00:Thread#0:T:Parsing: lol from: thatmanrobin
+2021-07-26T22:16:01.4777071-06:00:2021-07-26T22:16:01.4777071-06:00:Thread#0:T:Line 34
+2021-07-26T22:16:01.5627268-06:00:2021-07-26T22:16:01.5617265-06:00:Thread#0:T:Parsing: gonna try again with the power of ice cream from: mrnoah99
+2021-07-26T22:16:07.4799244-06:00:2021-07-26T22:16:07.4799244-06:00:Thread#0:T:Line 35
+2021-07-26T22:16:07.6079528-06:00:2021-07-26T22:16:07.6079528-06:00:Thread#0:T:Parsing: we're talking to the same guy who listens to eye of the tiger on repeat forever from: lonestarhtx
+2021-07-26T22:16:09.8481194-06:00:2021-07-26T22:16:09.8471184-06:00:Thread#0:T:Line 36
+2021-07-26T22:16:09.9322998-06:00:2021-07-26T22:16:09.9322998-06:00:Thread#0:T:Parsing: that's fair from: thatmanrobin
+2021-07-26T22:16:16.0649363-06:00:2021-07-26T22:16:16.0639349-06:00:Thread#0:T:Line 37
+2021-07-26T22:16:16.1509618-06:00:2021-07-26T22:16:16.1509618-06:00:Thread#0:T:Parsing: @lonestarhtx lmfao from: thatmanrobin
+2021-07-26T22:17:25.4665231-06:00:2021-07-26T22:17:25.4650043-06:00:Thread#0:T:Line 38
+2021-07-26T22:17:25.5590431-06:00:2021-07-26T22:17:25.5590431-06:00:Thread#0:T:Parsing: very true very true from: lonestarhtx
+2021-07-26T22:17:36.0748813-06:00:2021-07-26T22:17:36.0748813-06:00:Thread#0:T:Line 39
+2021-07-26T22:17:36.1598998-06:00:2021-07-26T22:17:36.1588996-06:00:Thread#0:T:Parsing: have you considered starting the project over with improved code and visuals based on everything you've learned in 5 years? from: thatmanrobin
+2021-07-26T22:17:38.6668478-06:00:2021-07-26T22:17:38.6658482-06:00:Thread#0:T:Line 40
+2021-07-26T22:17:38.7578984-06:00:2021-07-26T22:17:38.7578984-06:00:Thread#0:T:Parsing: you can clean it up once it works from: lonestarhtx
+2021-07-26T22:17:55.0668070-06:00:2021-07-26T22:17:55.0668070-06:00:Thread#0:T:Line 41
+2021-07-26T22:17:55.1527620-06:00:2021-07-26T22:17:55.1527620-06:00:Thread#0:T:Parsing: that's true from: thatmanrobin
+2021-07-26T22:18:18.0929803-06:00:2021-07-26T22:18:18.0929803-06:00:Thread#0:T:Line 42
+2021-07-26T22:18:18.2250092-06:00:2021-07-26T22:18:18.2240086-06:00:Thread#0:T:Parsing: i mean a new art pass on ux is not as simple as art pass on 3d from: thatmanrobin
+2021-07-26T22:19:06.6911797-06:00:2021-07-26T22:19:06.6901792-06:00:Thread#0:T:Line 43
+2021-07-26T22:19:06.7752333-06:00:2021-07-26T22:19:06.7752333-06:00:Thread#0:T:Parsing: got back into reading recently, both are uniquely great from: lonestarhtx
+2021-07-26T22:19:16.2521777-06:00:2021-07-26T22:19:16.2521777-06:00:Thread#0:T:Line 44
+2021-07-26T22:19:16.3547098-06:00:2021-07-26T22:19:16.3547098-06:00:Thread#0:T:Parsing: yeah and then i started game dev and it ruined playing games just like books from: thatmanrobin
+2021-07-26T22:19:45.8728633-06:00:2021-07-26T22:19:45.8718622-06:00:Thread#0:T:Line 45
+2021-07-26T22:19:45.9651461-06:00:2021-07-26T22:19:45.9651461-06:00:Thread#0:T:Parsing: gonna travel tomorrow from: sky_acaniadev
+2021-07-26T22:19:45.9682412-06:00:2021-07-26T22:19:45.9682412-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-07-26T22:19:45.9692414-06:00:2021-07-26T22:19:45.9682412-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 0
+2021-07-26T22:19:47.8903705-06:00:2021-07-26T22:19:47.8903705-06:00:Thread#0:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-07-26T22:19:47.8913715-06:00:2021-07-26T22:19:47.8903705-06:00:Thread#0:T:clip played the old boring way, duration was: 1.915646
+2021-07-26T22:19:51.8749258-06:00:2021-07-26T22:19:51.8739239-06:00:Thread#0:T:Line 46
+2021-07-26T22:19:51.9649459-06:00:2021-07-26T22:19:51.9649459-06:00:Thread#0:T:Parsing: one last day working from: sky_acaniadev
+2021-07-26T22:19:52.8509532-06:00:2021-07-26T22:19:52.8509532-06:00:Thread#0:T:Line 47
+2021-07-26T22:19:52.9618473-06:00:2021-07-26T22:19:52.9608467-06:00:Thread#0:T:Parsing: @sky_acaniadev where to? from: thatmanrobin
+2021-07-26T22:20:02.8739280-06:00:2021-07-26T22:20:02.8729277-06:00:Thread#0:T:Line 48
+2021-07-26T22:20:02.9699497-06:00:2021-07-26T22:20:02.9699497-06:00:Thread#0:T:Parsing: washington dc from: sky_acaniadev
+2021-07-26T22:20:26.2728682-06:00:2021-07-26T22:20:26.2718684-06:00:Thread#0:T:Line 49
+2021-07-26T22:20:26.3558873-06:00:2021-07-26T22:20:26.3558873-06:00:Thread#0:T:Parsing: i finally remembered the name of a book i read as a kid and loved hahaha from: lonestarhtx
+2021-07-26T22:20:40.0711268-06:00:2021-07-26T22:20:40.0711268-06:00:Thread#0:T:Line 50
+2021-07-26T22:20:40.1621677-06:00:2021-07-26T22:20:40.1611686-06:00:Thread#0:T:Parsing: city of ember btw from: lonestarhtx
+2021-07-26T22:21:29.8760225-06:00:2021-07-26T22:21:29.8750204-06:00:Thread#0:T:Line 51
+2021-07-26T22:21:29.9760443-06:00:2021-07-26T22:21:29.9760443-06:00:Thread#0:T:Parsing: city of ember is a low level read, i think i finished it in about half a day haha from: lonestarhtx
+2021-07-26T22:21:42.0962001-06:00:2021-07-26T22:21:42.0962001-06:00:Thread#0:T:Line 52
+2021-07-26T22:21:42.1922687-06:00:2021-07-26T22:21:42.1912686-06:00:Thread#0:T:Parsing: lol took a sec to realize you meant a kid on the way haha from: thatmanrobin
+2021-07-26T22:22:50.8729508-06:00:2021-07-26T22:22:50.8719509-06:00:Thread#0:T:Line 53
+2021-07-26T22:22:50.9670322-06:00:2021-07-26T22:22:50.9670322-06:00:Thread#0:T:Parsing: my main reason now to finish finding fern, is i got a friend who's mentoring with a aaa studio artist, who said he'd do finding fern 2 in 3d with me from: thatmanrobin
+2021-07-26T22:24:10.8653035-06:00:2021-07-26T22:24:10.8653035-06:00:Thread#0:T:Line 54
+2021-07-26T22:24:10.9580171-06:00:2021-07-26T22:24:10.9580171-06:00:Thread#0:T:Parsing: don't feel bad about that, some people are just faster or more obsessed from: thatmanrobin
+2021-07-26T22:24:26.4648067-06:00:2021-07-26T22:24:26.4638060-06:00:Thread#0:T:Line 55
+2021-07-26T22:24:26.5561406-06:00:2021-07-26T22:24:26.5561406-06:00:Thread#0:T:Parsing: < more obsessed from: thatmanrobin
+2021-07-26T22:25:35.4640359-06:00:2021-07-26T22:25:35.4640359-06:00:Thread#0:T:Line 56
+2021-07-26T22:25:35.5550763-06:00:2021-07-26T22:25:35.5550763-06:00:Thread#0:T:Parsing: yeah he basically has no life and only works on art and has a job with a clothing design company making 3d clothes, so super ideal for a dev partner haha from: thatmanrobin
+2021-07-26T22:26:51.4628822-06:00:2021-07-26T22:26:51.4618836-06:00:Thread#0:T:Line 57
+2021-07-26T22:26:51.5550786-06:00:2021-07-26T22:26:51.5550786-06:00:Thread#0:T:Parsing: for me i just get bored of projects, i proof-of-concept stuff and after all the difficult stuff is done, i'm bored and give up from: thatmanrobin
+2021-07-26T22:29:39.6669916-06:00:2021-07-26T22:29:39.6659954-06:00:Thread#0:T:Line 58
+2021-07-26T22:29:39.7606837-06:00:2021-07-26T22:29:39.7606837-06:00:Thread#0:T:Parsing: i never thought of monotony as difficulty... hmm, you're not wrong from: thatmanrobin
+2021-07-26T22:30:48.4659891-06:00:2021-07-26T22:30:48.4649907-06:00:Thread#0:T:Line 59
+2021-07-26T22:30:48.5577611-06:00:2021-07-26T22:30:48.5577611-06:00:Thread#0:T:Parsing: i can completely prototype in a game in a week or two, but when i realize it's another like 6 months to actually make the game, i'm like oh screw this lol from: thatmanrobin
+2021-07-26T22:31:34.2639520-06:00:2021-07-26T22:31:34.2629524-06:00:Thread#0:T:Line 60
+2021-07-26T22:31:34.3597377-06:00:2021-07-26T22:31:34.3597377-06:00:Thread#0:T:Parsing: bro why does your unity look like figma? from: nulllptr
+2021-07-26T22:31:34.3652519-06:00:2021-07-26T22:31:34.3642513-06:00:Thread#0:T:{
+2021-07-26T22:31:34.3652519-06:00:2021-07-26T22:31:34.3652519-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-26T22:31:34.3662525-06:00:2021-07-26T22:31:34.3662525-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-26T22:31:34.3662525-06:00:2021-07-26T22:31:34.3662525-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-26T22:31:34.3672515-06:00:2021-07-26T22:31:34.3662525-06:00:Thread#0:T:}
+2021-07-26T22:31:34.3672515-06:00:2021-07-26T22:31:34.3672515-06:00:Thread#0:T:{
+2021-07-26T22:31:34.3682520-06:00:2021-07-26T22:31:34.3672515-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-26T22:31:34.3682520-06:00:2021-07-26T22:31:34.3682520-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-26T22:31:34.3692525-06:00:2021-07-26T22:31:34.3692525-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-26T22:31:34.3692525-06:00:2021-07-26T22:31:34.3692525-06:00:Thread#0:T:}
+2021-07-26T22:31:34.3702529-06:00:2021-07-26T22:31:34.3702529-06:00:Thread#0:T:{
+2021-07-26T22:31:34.3702529-06:00:2021-07-26T22:31:34.3702529-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T22:31:34.3702529-06:00:2021-07-26T22:31:34.3702529-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-26T22:31:34.3712522-06:00:2021-07-26T22:31:34.3712522-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-26T22:31:34.3722523-06:00:2021-07-26T22:31:34.3722523-06:00:Thread#0:T:}
+2021-07-26T22:31:54.6801368-06:00:2021-07-26T22:31:54.6801368-06:00:Thread#0:T:Line 61
+2021-07-26T22:31:54.8001626-06:00:2021-07-26T22:31:54.8001626-06:00:Thread#0:T:Parsing: figma balls from: nulllptr
+2021-07-26T22:32:34.4839470-06:00:2021-07-26T22:32:34.4829465-06:00:Thread#0:T:Line 62
+2021-07-26T22:32:34.5808608-06:00:2021-07-26T22:32:34.5808608-06:00:Thread#0:T:Parsing: i don't know, i just got good at it by obsessively learning everything i possibly could about c#, unity, and software engineering. at points 16+ hours a day from: thatmanrobin
+2021-07-26T22:33:04.2673081-06:00:2021-07-26T22:33:04.2673081-06:00:Thread#0:T:Line 63
+2021-07-26T22:33:04.3659944-06:00:2021-07-26T22:33:04.3649934-06:00:Thread#0:T:Parsing: just don't use unity and it'll run fine from: nulllptr
+2021-07-26T22:34:23.8810886-06:00:2021-07-26T22:34:23.8800885-06:00:Thread#0:T:Line 64
+2021-07-26T22:34:23.9769783-06:00:2021-07-26T22:34:23.9769783-06:00:Thread#0:T:Parsing: yeah, i have crashed for months at a time from: thatmanrobin
+2021-07-26T22:34:58.8747801-06:00:2021-07-26T22:34:58.8737795-06:00:Thread#0:T:Line 65
+2021-07-26T22:34:58.9727110-06:00:2021-07-26T22:34:58.9717110-06:00:Thread#0:T:Parsing: i usually replace my dev habit with playing video games lol from: thatmanrobin
+2021-07-26T22:35:15.2719435-06:00:2021-07-26T22:35:15.2709429-06:00:Thread#0:T:Line 66
+2021-07-26T22:35:15.3656455-06:00:2021-07-26T22:35:15.3646456-06:00:Thread#0:T:Parsing: when i crash from: thatmanrobin
+2021-07-26T22:35:39.8777773-06:00:2021-07-26T22:35:39.8777773-06:00:Thread#0:T:Line 67
+2021-07-26T22:35:39.9838007-06:00:2021-07-26T22:35:39.9828007-06:00:Thread#0:T:Parsing: friend of mine just sent me a new series x from: thatmanrobin
+2021-07-26T22:35:49.2671953-06:00:2021-07-26T22:35:49.2661948-06:00:Thread#0:T:Line 68
+2021-07-26T22:35:49.3571409-06:00:2021-07-26T22:35:49.3571409-06:00:Thread#0:T:Parsing: been playing a plague tale, stunning indie game from: thatmanrobin
+2021-07-26T22:36:09.2812506-06:00:2021-07-26T22:36:09.2802512-06:00:Thread#0:T:Line 69
+2021-07-26T22:36:09.3792167-06:00:2021-07-26T22:36:09.3792167-06:00:Thread#0:T:Parsing: i've been having a great time making an mmo surprisingly from: lonestarhtx
+2021-07-26T22:36:21.6727578-06:00:2021-07-26T22:36:21.6727578-06:00:Thread#0:T:Line 70
+2021-07-26T22:36:21.7733311-06:00:2021-07-26T22:36:21.7723311-06:00:Thread#0:T:Parsing: the mmo genre is a horrible place from: thatmanrobin
+2021-07-26T22:36:24.2730995-06:00:2021-07-26T22:36:24.2730995-06:00:Thread#0:T:Line 71
+2021-07-26T22:36:24.3682946-06:00:2021-07-26T22:36:24.3672961-06:00:Thread#0:T:Parsing: new from: lonestarhtx
+2021-07-26T22:36:32.6969944-06:00:2021-07-26T22:36:32.6969944-06:00:Thread#0:T:Line 72
+2021-07-26T22:36:32.7930141-06:00:2021-07-26T22:36:32.7930141-06:00:Thread#0:T:Parsing: last update i ever gave was that root motion controller nhahaha from: lonestarhtx
+2021-07-26T22:36:42.4741532-06:00:2021-07-26T22:36:42.4731533-06:00:Thread#0:T:Line 73
+2021-07-26T22:36:42.5761760-06:00:2021-07-26T22:36:42.5751759-06:00:Thread#0:T:Parsing: which is completely useless for networked games from: lonestarhtx
+2021-07-26T22:37:22.8744373-06:00:2021-07-26T22:37:22.8734361-06:00:Thread#0:T:Line 74
+2021-07-26T22:37:22.9699665-06:00:2021-07-26T22:37:22.9689653-06:00:Thread#0:T:Parsing: my favorite qoute recently was simpathey she said "saying you want to do game dev over software engineering is like saying you want to drop out of college to join a traveling circus" from: thatmanrobin
+2021-07-26T22:37:50.8730657-06:00:2021-07-26T22:37:50.8720655-06:00:Thread#0:T:Line 75
+2021-07-26T22:37:50.9724990-06:00:2021-07-26T22:37:50.9714997-06:00:Thread#0:T:Parsing: man i spent too much damn money on rift from: thatmanrobin
+2021-07-26T22:38:24.6778474-06:00:2021-07-26T22:38:24.6778474-06:00:Thread#0:T:Line 76
+2021-07-26T22:38:24.7718695-06:00:2021-07-26T22:38:24.7708794-06:00:Thread#0:T:Parsing: i got cosmetics, dimension objects... all kinds of microtransaction from: thatmanrobin
+2021-07-26T22:38:40.2760099-06:00:2021-07-26T22:38:40.2760099-06:00:Thread#0:T:Line 77
+2021-07-26T22:38:40.3730686-06:00:2021-07-26T22:38:40.3730686-06:00:Thread#0:T:Parsing: lmfao i played cleric and there was times my group would wipe and i'd finish the dungeon for them from: thatmanrobin
+2021-07-26T22:38:44.2719703-06:00:2021-07-26T22:38:44.2719703-06:00:Thread#0:T:Line 78
+2021-07-26T22:38:44.3653902-06:00:2021-07-26T22:38:44.3643900-06:00:Thread#0:T:Parsing: clerics op from: thatmanrobin
+2021-07-26T22:39:30.2859717-06:00:2021-07-26T22:39:30.2859717-06:00:Thread#0:T:Line 79
+2021-07-26T22:39:30.3819926-06:00:2021-07-26T22:39:30.3819926-06:00:Thread#0:T:Parsing: yeah justicar healed with attacks lol from: thatmanrobin
+2021-07-26T22:40:35.8729399-06:00:2021-07-26T22:40:35.8729399-06:00:Thread#0:T:Line 80
+2021-07-26T22:40:35.9741142-06:00:2021-07-26T22:40:35.9741142-06:00:Thread#0:T:Parsing: really loved the artifact system in rift from: thatmanrobin
+2021-07-26T22:44:11.2903066-06:00:2021-07-26T22:44:11.2893056-06:00:Thread#0:T:Line 81
+2021-07-26T22:44:11.3928666-06:00:2021-07-26T22:44:11.3928666-06:00:Thread#0:T:Parsing: i didn’t do any game dev recently from: sky_acaniadev
+2021-07-26T22:46:24.2614510-06:00:2021-07-26T22:46:24.2614510-06:00:Thread#0:T:Line 82
+2021-07-26T22:46:24.3856477-06:00:2021-07-26T22:46:24.3856477-06:00:Thread#0:T:Parsing: the work is so exhaustive, i just wanna play some games after work from: sky_acaniadev
+2021-07-26T22:49:37.1519886-06:00:2021-07-26T22:49:37.1509865-06:00:Thread#0:T:Line 83
+2021-07-26T22:49:37.2850173-06:00:2021-07-26T22:49:37.2840168-06:00:Thread#0:T:Parsing: gonna head to bed, see yah user! from: lonestarhtx
+2021-07-26T23:02:17.1916350-06:00:2021-07-26T23:02:17.1906354-06:00:Thread#0:T:Line 84
+2021-07-26T23:02:17.3181764-06:00:2021-07-26T23:02:17.3171767-06:00:Thread#0:T:Parsing: i totally don't remember rifts that would teleport you to another zone hmm from: shablo5
+2021-07-26T23:02:17.3261789-06:00:2021-07-26T23:02:17.3261789-06:00:Thread#0:T:{
+2021-07-26T23:02:17.3271786-06:00:2021-07-26T23:02:17.3271786-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-26T23:02:17.3281795-06:00:2021-07-26T23:02:17.3271786-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-26T23:02:17.3291805-06:00:2021-07-26T23:02:17.3281795-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-26T23:02:17.3291805-06:00:2021-07-26T23:02:17.3291805-06:00:Thread#0:T:}
+2021-07-26T23:02:17.3301794-06:00:2021-07-26T23:02:17.3301794-06:00:Thread#0:T:{
+2021-07-26T23:02:17.3311791-06:00:2021-07-26T23:02:17.3311791-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-26T23:02:17.3321791-06:00:2021-07-26T23:02:17.3311791-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-26T23:02:17.3321791-06:00:2021-07-26T23:02:17.3321791-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-26T23:02:17.3331793-06:00:2021-07-26T23:02:17.3321791-06:00:Thread#0:T:}
+2021-07-26T23:02:17.3331793-06:00:2021-07-26T23:02:17.3331793-06:00:Thread#0:T:{
+2021-07-26T23:02:17.3341798-06:00:2021-07-26T23:02:17.3331793-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T23:02:17.3341798-06:00:2021-07-26T23:02:17.3341798-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-26T23:02:17.3351802-06:00:2021-07-26T23:02:17.3341798-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-26T23:02:17.3351802-06:00:2021-07-26T23:02:17.3351802-06:00:Thread#0:T:}
+2021-07-26T23:03:17.1831109-06:00:2021-07-26T23:03:17.1821101-06:00:Thread#0:T:Line 86
+2021-07-26T23:03:17.2912250-06:00:2021-07-26T23:03:17.2912250-06:00:Thread#0:T:Parsing: aion was a hell of a game too from: shablo5
+2021-07-26T23:03:17.3042277-06:00:2021-07-26T23:03:17.3042277-06:00:Thread#0:T:Line 86
+2021-07-26T23:03:17.4203059-06:00:2021-07-26T23:03:17.4203059-06:00:Thread#0:T:Parsing: i probably played aion as well. is it korean mmo? from: sky_acaniadev
+2021-07-26T23:04:17.1958430-06:00:2021-07-26T23:04:17.1948431-06:00:Thread#0:T:Line 88
+2021-07-26T23:04:17.3069849-06:00:2021-07-26T23:04:17.3059856-06:00:Thread#0:T:Parsing: i hear they took out that huge battleground area from the game later on from: shablo5
+2021-07-26T23:04:17.3314998-06:00:2021-07-26T23:04:17.3314998-06:00:Thread#0:T:Line 88
+2021-07-26T23:04:17.4384594-06:00:2021-07-26T23:04:17.4384594-06:00:Thread#0:T:Parsing: the only place where you could fly and pvp if i remember from: shablo5
+2021-07-26T23:05:17.1734390-06:00:2021-07-26T23:05:17.1724385-06:00:Thread#0:T:Line 89
+2021-07-26T23:05:17.2937794-06:00:2021-07-26T23:05:17.2927782-06:00:Thread#0:T:Parsing: tank are hard to level up solo in most mmo i played from: sky_acaniadev
+2021-07-26T23:06:17.1887572-06:00:2021-07-26T23:06:17.1877555-06:00:Thread#0:T:Line 90
+2021-07-26T23:06:17.3057818-06:00:2021-07-26T23:06:17.3047832-06:00:Thread#0:T:Parsing: cleric was my class too. i loved it. from: shablo5
+2021-07-26T23:07:17.2197430-06:00:2021-07-26T23:07:17.2197430-06:00:Thread#0:T:Line 96
+2021-07-26T23:07:17.3693378-06:00:2021-07-26T23:07:17.3683383-06:00:Thread#0:T:Parsing: i played like 100 or more mmos lol from: thatmanrobin
+2021-07-26T23:07:17.3864762-06:00:2021-07-26T23:07:17.3864762-06:00:Thread#0:T:Line 96
+2021-07-26T23:07:17.5226444-06:00:2021-07-26T23:07:17.5226444-06:00:Thread#0:T:Parsing: spent the most time on wow, eq2, rft, and shadowbane from: thatmanrobin
+2021-07-26T23:07:17.5406478-06:00:2021-07-26T23:07:17.5406478-06:00:Thread#0:T:Line 96
+2021-07-26T23:07:17.7207403-06:00:2021-07-26T23:07:17.7207403-06:00:Thread#0:T:Parsing:  from: sockelo
+2021-07-26T23:07:17.7282508-06:00:2021-07-26T23:07:17.7272510-06:00:Thread#0:T:{
+2021-07-26T23:07:17.7282508-06:00:2021-07-26T23:07:17.7282508-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-26T23:07:17.7292517-06:00:2021-07-26T23:07:17.7292517-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-26T23:07:17.7292517-06:00:2021-07-26T23:07:17.7292517-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-26T23:07:17.7302510-06:00:2021-07-26T23:07:17.7302510-06:00:Thread#0:T:}
+2021-07-26T23:07:17.7312514-06:00:2021-07-26T23:07:17.7312514-06:00:Thread#0:T:{
+2021-07-26T23:07:17.7322522-06:00:2021-07-26T23:07:17.7312514-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-26T23:07:17.7322522-06:00:2021-07-26T23:07:17.7322522-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-26T23:07:17.7332523-06:00:2021-07-26T23:07:17.7332523-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-26T23:07:17.7332523-06:00:2021-07-26T23:07:17.7332523-06:00:Thread#0:T:}
+2021-07-26T23:07:17.7342523-06:00:2021-07-26T23:07:17.7342523-06:00:Thread#0:T:{
+2021-07-26T23:07:17.7357645-06:00:2021-07-26T23:07:17.7347772-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T23:07:17.7377659-06:00:2021-07-26T23:07:17.7367676-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-26T23:07:17.7377659-06:00:2021-07-26T23:07:17.7377659-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-26T23:07:17.7387650-06:00:2021-07-26T23:07:17.7387650-06:00:Thread#0:T:}
+2021-07-26T23:07:18.9887756-06:00:2021-07-26T23:07:18.9877769-06:00:Thread#0:T:Line 96
+2021-07-26T23:07:19.0856895-06:00:2021-07-26T23:07:19.0846896-06:00:Thread#0:T:Parsing: take my lurkers!!!! from: talk2megooseman
+2021-07-26T23:07:19.0896883-06:00:2021-07-26T23:07:19.0896883-06:00:Thread#0:T:{
+2021-07-26T23:07:19.0896883-06:00:2021-07-26T23:07:19.0896883-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-26T23:07:19.0906889-06:00:2021-07-26T23:07:19.0906889-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-26T23:07:19.0906889-06:00:2021-07-26T23:07:19.0906889-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-26T23:07:19.0916896-06:00:2021-07-26T23:07:19.0906889-06:00:Thread#0:T:}
+2021-07-26T23:07:19.0916896-06:00:2021-07-26T23:07:19.0916896-06:00:Thread#0:T:{
+2021-07-26T23:07:19.0916896-06:00:2021-07-26T23:07:19.0916896-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-26T23:07:19.0926895-06:00:2021-07-26T23:07:19.0926895-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-26T23:07:19.0926895-06:00:2021-07-26T23:07:19.0926895-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-26T23:07:19.0936901-06:00:2021-07-26T23:07:19.0936901-06:00:Thread#0:T:}
+2021-07-26T23:07:19.0936901-06:00:2021-07-26T23:07:19.0936901-06:00:Thread#0:T:{
+2021-07-26T23:07:19.0946557-06:00:2021-07-26T23:07:19.0946557-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T23:07:19.0956450-06:00:2021-07-26T23:07:19.0946557-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-26T23:07:19.0956450-06:00:2021-07-26T23:07:19.0956450-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-26T23:07:19.0963580-06:00:2021-07-26T23:07:19.0963580-06:00:Thread#0:T:}
+2021-07-26T23:07:20.3427755-06:00:2021-07-26T23:07:20.3427755-06:00:Thread#0:T:{
+2021-07-26T23:07:20.3437752-06:00:2021-07-26T23:07:20.3427755-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-07-26T23:07:20.3437752-06:00:2021-07-26T23:07:20.3437752-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-07-26T23:07:20.3437752-06:00:2021-07-26T23:07:20.3437752-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-07-26T23:07:20.3447756-06:00:2021-07-26T23:07:20.3447756-06:00:Thread#0:T:}
+2021-07-26T23:07:20.3447756-06:00:2021-07-26T23:07:20.3447756-06:00:Thread#0:T:{
+2021-07-26T23:07:20.3467770-06:00:2021-07-26T23:07:20.3467770-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-07-26T23:07:20.3467770-06:00:2021-07-26T23:07:20.3467770-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-26T23:07:20.3477769-06:00:2021-07-26T23:07:20.3477769-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-07-26T23:07:20.3487783-06:00:2021-07-26T23:07:20.3477769-06:00:Thread#0:T:}
+2021-07-26T23:07:20.3507835-06:00:2021-07-26T23:07:20.3507835-06:00:Thread#0:T:{
+2021-07-26T23:07:20.3517780-06:00:2021-07-26T23:07:20.3517780-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T23:07:20.3517780-06:00:2021-07-26T23:07:20.3517780-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-07-26T23:07:20.3527783-06:00:2021-07-26T23:07:20.3527783-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-07-26T23:07:20.3527783-06:00:2021-07-26T23:07:20.3527783-06:00:Thread#0:T:}
+2021-07-26T23:07:25.9483725-06:00:2021-07-26T23:07:25.9483725-06:00:Thread#0:T:Line 96
+2021-07-26T23:07:26.0560125-06:00:2021-07-26T23:07:26.0554969-06:00:Thread#0:T:Parsing: working on an mmo? crazy from: shablo5
+2021-07-26T23:07:26.0770677-06:00:2021-07-26T23:07:26.0770677-06:00:Thread#0:T:Line 96
+2021-07-26T23:09:17.1895827-06:00:2021-07-26T23:09:17.1890617-06:00:Thread#0:T:Line 99
+2021-07-26T23:09:17.3001261-06:00:2021-07-26T23:09:17.2991264-06:00:Thread#0:T:Parsing: new level? haven't been around in months. from: shablo5
+2021-07-26T23:09:17.3269688-06:00:2021-07-26T23:09:17.3269688-06:00:Thread#0:T:Line 99
+2021-07-26T23:09:17.4341330-06:00:2021-07-26T23:09:17.4341330-06:00:Thread#0:T:Parsing: got a demo out recently? from: shablo5
+2021-07-26T23:09:17.4499653-06:00:2021-07-26T23:09:17.4499653-06:00:Thread#0:T:Line 99
+2021-07-26T23:09:17.5770823-06:00:2021-07-26T23:09:17.5770823-06:00:Thread#0:T:Parsing: are you opposed to purchasing assets? there's a fantastic one called worldstreamer that handles all the streaming, level splitting, positioning, etc from: thatmanrobin
+2021-07-26T23:10:17.2107609-06:00:2021-07-26T23:10:17.2107609-06:00:Thread#0:T:Line 101
+2021-07-26T23:10:17.3928826-06:00:2021-07-26T23:10:17.3918829-06:00:Thread#0:T:Parsing: this is an ambitious level mate, i love it from: shablo5
+2021-07-26T23:10:17.4098867-06:00:2021-07-26T23:10:17.4098867-06:00:Thread#0:T:Line 101
+2021-07-26T23:10:17.5740788-06:00:2021-07-26T23:10:17.5730777-06:00:Thread#0:T:Parsing: also have you seen this? https://assetstore.unity.com/packages/3d/characters/creatures/demons-73517 it has blendshapes like you love so uch from: thatmanrobin
+2021-07-26T23:12:17.1808655-06:00:2021-07-26T23:12:17.1798661-06:00:Thread#0:T:Line 103
+2021-07-26T23:12:17.3065012-06:00:2021-07-26T23:12:17.3065012-06:00:Thread#0:T:Parsing: are you still going with the idea of splitting the campaign into quarters, and having keeps that can be starved of resources from: shablo5
+2021-07-26T23:12:17.3355050-06:00:2021-07-26T23:12:17.3345052-06:00:Thread#0:T:Line 103
+2021-07-26T23:12:17.4535726-06:00:2021-07-26T23:12:17.4525728-06:00:Thread#0:T:Parsing: and each one has it's own weaponry/theme? from: shablo5
+2021-07-26T23:13:17.1760500-06:00:2021-07-26T23:13:17.1750507-06:00:Thread#0:T:Line 104
+2021-07-26T23:13:17.3149156-06:00:2021-07-26T23:13:17.3149156-06:00:Thread#0:T:Parsing: lmfao from: thatmanrobin
+2021-07-26T23:15:17.1810175-06:00:2021-07-26T23:15:17.1800208-06:00:Thread#0:T:Line 106
+2021-07-26T23:15:17.3190949-06:00:2021-07-26T23:15:17.3180946-06:00:Thread#0:T:Parsing: could have one level where you have to force the keep to send out troops in small amounts of soldiers until you weaken their forces enough to siege it from: thatmanrobin
+2021-07-26T23:15:17.3370991-06:00:2021-07-26T23:15:17.3360983-06:00:Thread#0:T:Line 106
+2021-07-26T23:15:17.4641059-06:00:2021-07-26T23:15:17.4631049-06:00:Thread#0:T:Parsing: i love your enthusiasm, truly. i take it you're not looking for another september early access release? from: shablo5
+2021-07-26T23:16:17.1780708-06:00:2021-07-26T23:16:17.1770711-06:00:Thread#0:T:Line 107
+2021-07-26T23:16:17.3431496-06:00:2021-07-26T23:16:17.3431496-06:00:Thread#0:T:Parsing: lol general blowhard, please report the current state of affairs at somenamedkeep from: thatmanrobin
+2021-07-26T23:17:17.1560594-06:00:2021-07-26T23:17:17.1560594-06:00:Thread#0:T:Line 108
+2021-07-26T23:17:17.2756246-06:00:2021-07-26T23:17:17.2746255-06:00:Thread#0:T:Parsing: you're fine. from: shablo5
+2021-07-26T23:18:17.1861280-06:00:2021-07-26T23:18:17.1861280-06:00:Thread#0:T:Line 112
+2021-07-26T23:18:17.3190199-06:00:2021-07-26T23:18:17.3180208-06:00:Thread#0:T:Parsing: no worries. from: shablo5
+2021-07-26T23:18:17.3380249-06:00:2021-07-26T23:18:17.3370240-06:00:Thread#0:T:Line 112
+2021-07-26T23:18:17.4540719-06:00:2021-07-26T23:18:17.4540719-06:00:Thread#0:T:Parsing: i don't know if you remember, we were trying to get out of canada to japan from: shablo5
+2021-07-26T23:18:17.4728916-06:00:2021-07-26T23:18:17.4728916-06:00:Thread#0:T:Line 112
+2021-07-26T23:18:17.5978956-06:00:2021-07-26T23:18:17.5978956-06:00:Thread#0:T:Parsing: but that's off the table. from: shablo5
+2021-07-26T23:18:17.6179008-06:00:2021-07-26T23:18:17.6179008-06:00:Thread#0:T:Line 112
+2021-07-26T23:18:17.7337926-06:00:2021-07-26T23:18:17.7337926-06:00:Thread#0:T:Parsing: borders closed january from: shablo5
+2021-07-26T23:19:17.1688454-06:00:2021-07-26T23:19:17.1688454-06:00:Thread#0:T:Line 117
+2021-07-26T23:19:17.3161769-06:00:2021-07-26T23:19:17.3148866-06:00:Thread#0:T:Parsing: we were so close from: shablo5
+2021-07-26T23:19:17.3422411-06:00:2021-07-26T23:19:17.3422411-06:00:Thread#0:T:Line 117
+2021-07-26T23:19:17.5044030-06:00:2021-07-26T23:19:17.5034023-06:00:Thread#0:T:Parsing: my mom has spine surgery tomorrow from: rabbit_xxxx
+2021-07-26T23:19:17.5064037-06:00:2021-07-26T23:19:17.5064037-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-07-26T23:19:17.5099151-06:00:2021-07-26T23:19:17.5099151-06:00:Thread#0:T:{
+2021-07-26T23:19:17.5109136-06:00:2021-07-26T23:19:17.5109136-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-26T23:19:17.5109136-06:00:2021-07-26T23:19:17.5109136-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-07-26T23:19:17.5119137-06:00:2021-07-26T23:19:17.5119137-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-07-26T23:19:17.5119137-06:00:2021-07-26T23:19:17.5119137-06:00:Thread#0:T:}
+2021-07-26T23:19:17.5129141-06:00:2021-07-26T23:19:17.5129141-06:00:Thread#0:T:{
+2021-07-26T23:19:17.5139143-06:00:2021-07-26T23:19:17.5129141-06:00:Thread#0:T:	CHUNK ID: IPRD
+2021-07-26T23:19:17.5139143-06:00:2021-07-26T23:19:17.5139143-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-07-26T23:19:17.5149137-06:00:2021-07-26T23:19:17.5139143-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-07-26T23:19:17.5149137-06:00:2021-07-26T23:19:17.5149137-06:00:Thread#0:T:}
+2021-07-26T23:19:17.5159148-06:00:2021-07-26T23:19:17.5149137-06:00:Thread#0:T:{
+2021-07-26T23:19:17.5164434-06:00:2021-07-26T23:19:17.5159148-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-07-26T23:19:17.5164434-06:00:2021-07-26T23:19:17.5164434-06:00:Thread#0:T:	CHUNK SIZE: 6
+2021-07-26T23:19:17.5164434-06:00:2021-07-26T23:19:17.5164434-06:00:Thread#0:T:	Text Value: 2009  
+2021-07-26T23:19:17.5174238-06:00:2021-07-26T23:19:17.5174238-06:00:Thread#0:T:}
+2021-07-26T23:19:17.5174238-06:00:2021-07-26T23:19:17.5174238-06:00:Thread#0:T:{
+2021-07-26T23:19:17.5184242-06:00:2021-07-26T23:19:17.5184242-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-26T23:19:17.5184242-06:00:2021-07-26T23:19:17.5184242-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-07-26T23:19:17.5194245-06:00:2021-07-26T23:19:17.5194245-06:00:Thread#0:T:	Text Value: Lavf58.26.101 (libsndfile-1.0.24) 
+2021-07-26T23:19:17.5194245-06:00:2021-07-26T23:19:17.5194245-06:00:Thread#0:T:}
+2021-07-26T23:19:22.5388847-06:00:2021-07-26T23:19:22.5388847-06:00:Thread#0:T:Duration of clip was 5.01551, thanks rabbit_xxxx you're the best!
+2021-07-26T23:19:22.5398857-06:00:2021-07-26T23:19:22.5398857-06:00:Thread#0:T:clip played the old boring way, duration was: 5.01551
+2021-07-26T23:19:22.5567788-06:00:2021-07-26T23:19:22.5567788-06:00:Thread#0:T:Line 117
+2021-07-26T23:19:22.6857828-06:00:2021-07-26T23:19:22.6857828-06:00:Thread#0:T:Parsing: they're doing a lot of thinjgs from: rabbit_xxxx
+2021-07-26T23:19:22.7167894-06:00:2021-07-26T23:19:22.7167894-06:00:Thread#0:T:Line 117
+2021-07-26T23:19:22.8680304-06:00:2021-07-26T23:19:22.8670303-06:00:Thread#0:T:Parsing: you still reclining? from: shablo5
+2021-07-26T23:19:22.8890357-06:00:2021-07-26T23:19:22.8890357-06:00:Thread#0:T:Line 117
+2021-07-26T23:19:23.0470716-06:00:2021-07-26T23:19:23.0470716-06:00:Thread#0:T:Parsing: desk worth it? from: shablo5
+2021-07-26T23:20:17.2030912-06:00:2021-07-26T23:20:17.2030912-06:00:Thread#0:T:Line 118
+2021-07-26T23:20:17.3572537-06:00:2021-07-26T23:20:17.3572537-06:00:Thread#0:T:Parsing: any progress on that front? from: shablo5
+2021-07-26T23:21:17.1907795-06:00:2021-07-26T23:21:17.1897795-06:00:Thread#0:T:Line 120
+2021-07-26T23:21:17.3378660-06:00:2021-07-26T23:21:17.3378660-06:00:Thread#0:T:Parsing: you getting worse and worse? from: shablo5
+2021-07-26T23:21:17.3558691-06:00:2021-07-26T23:21:17.3548690-06:00:Thread#0:T:Line 120
+2021-07-26T23:21:17.4809350-06:00:2021-07-26T23:21:17.4799352-06:00:Thread#0:T:Parsing: sorry to hear it. wife sends her thoughts. from: shablo5
+2021-07-27T06:17:02.1641100-06:00:2021-07-27T06:17:02.1631095-06:00:Thread#0:T:error: unknown error: session deleted because of page crash
+2021-07-27T06:17:02.1651093-06:00:2021-07-27T06:17:02.1651093-06:00:Thread#0:T:from unknown error: cannot determine loading status
+2021-07-27T06:17:02.1651093-06:00:2021-07-27T06:17:02.1651093-06:00:Thread#0:T:from tab crashed
+2021-07-27T06:17:02.1661099-06:00:2021-07-27T06:17:02.1661099-06:00:Thread#0:T:  (Session info: chrome=92.0.4515.107)
+2021-07-27T06:17:02.1891148-06:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2021-07-27T06:17:02.1921156-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-27T06:17:02.1921156-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2021-07-27T06:17:02.1921156-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-07-27T06:17:02.1921156-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-27T06:17:02.1921156-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-07-27T06:17:02.1921156-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-07-27T06:17:02.1921156-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-07-27T06:17:02.1921156-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-07-27T06:17:02.1921156-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-07-27T06:17:02.2561304-06:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 31717.2352497 seconds
+2021-07-27T06:17:02.2591311-06:00:Thread#0: Test #5/1 is started on thread #0
+2021-07-27T06:17:02.2611310-06:00:2021-07-27T06:17:02.2601315-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-27T06:17:02.2621313-06:00:2021-07-27T06:17:02.2611310-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-27T06:17:02.2621313-06:00:2021-07-27T06:17:02.2621313-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-27T06:17:02.3691552-06:00:2021-07-27T06:17:02.3691552-06:00:Thread#0:T:Starting the driver...
+2021-07-27T06:17:05.0917109-06:00:2021-07-27T06:17:05.0907099-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.8s)
+2021-07-27T06:17:05.0917109-06:00:2021-07-27T06:17:05.0917109-06:00:Thread#0:B:Then my Twitch Bot lives!

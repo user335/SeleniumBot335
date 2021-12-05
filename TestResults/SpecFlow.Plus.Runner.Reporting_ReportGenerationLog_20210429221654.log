@@ -1,0 +1,12 @@
+﻿2021-04-29T22:16:54.3296746-06:00;Thread#1;Info;Reading test run result from Json file "C:\Users\user\AppData\Local\Temp\tmpBB67.tmp".
+2021-04-29T22:16:54.3326757-06:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\user\AppData\Local\Temp\tmpBB67.tmp"
+2021-04-29T22:16:54.3326757-06:00;Thread#1;Info;Deserializing test run result
+2021-04-29T22:16:54.9282813-06:00;Thread#1;Info;Successfully deserialized test run result
+2021-04-29T22:16:54.9282813-06:00;Thread#1;Info;Loading test run result
+2021-04-29T22:16:54.9582893-06:00;Thread#1;Info;Successfully loaded test run result
+2021-04-29T22:16:54.9772918-06:00;Thread#1;Info;creating 1 report(s)
+2021-04-29T22:16:54.9782918-06:00;Thread#1;Info;generate Report C:\Users\user\source\repos\PracticingSix\bin\Debug\Report\ReportTemplate.cshtml
+2021-04-29T22:16:54.9942970-06:00;Thread#1;Error;Error when creating report from template "C:\Users\user\source\repos\PracticingSix\bin\Debug\Report\ReportTemplate.cshtml".
+Template could not be loaded.
+2021-04-29T22:16:54.9942970-06:00;Thread#1;Error;Failed generating one or more reports.
+========== End of log file ==========

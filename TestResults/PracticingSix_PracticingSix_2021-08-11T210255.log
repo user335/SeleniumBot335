@@ -1,0 +1,109 @@
+﻿2021-08-11T21:02:55.3138973-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-08-11T21:02:55.3138973-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-08-11T21:02:55.3138973-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-08-11T21:02:55.3138973-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-08-11T21:02:55.4552508-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-11T21:02:55.4552508-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-08-11T21:02:55.4552508-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-08-11T21:02:55.4995259-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-08-11T210255.log
+2021-08-11T21:02:55.5045281-06:00;Thread#13;Info;Checking activation
+2021-08-11T21:02:55.5904582-06:00;Thread#13;Info;Activated.
+2021-08-11T21:02:55.5904582-06:00;Thread#13;Info;Activation check completed
+2021-08-11T21:02:55.5904582-06:00;Thread#13;Info;Starting test run
+2021-08-11T21:02:55.6306538-06:00;Thread#13;Info;Discovering target: Default
+2021-08-11T21:02:55.6306538-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-11T21:02:55.9753894-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-08-11T21:02:55.9753894-06:00:Test Suite Dump
+2021-08-11T21:02:55.9773888-06:00:#0: PracticingSix/PracticingSix - 
+2021-08-11T21:02:55.9773888-06:00:#1: Default - 
+2021-08-11T21:02:55.9773888-06:00:#2: PracticingSix - 
+2021-08-11T21:02:55.9773888-06:00:#4: Twitch Bot! - 
+2021-08-11T21:02:56.0123972-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-08-11T21:02:56.0123972-06:00:End: Test Suite Dump
+2021-08-11T21:02:56.0564072-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-11T21:02:56.0584087-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-08-11T21:02:56.0584087-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-11T21:02:56.0645342-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-11T21:02:56.0645342-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-11T21:02:56.0645342-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-11T21:02:56.0645342-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-11T21:02:56.0655345-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-11T21:02:56.0665347-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-08-11T21:02:56.0665347-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-08-11T21:02:56.0665347-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-08-11T21:02:56.0665347-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-08-11T21:02:56.0665347-06:00:Thread#1:Scheduler: No more tests for thread
+2021-08-11T21:02:56.0685357-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-08-11T21:02:56.0705366-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-11T21:02:56.1105727-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-11T21:02:56.1125730-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-08-11T21:02:56.1155744-06:00:starting Out Of Process Executor
+2021-08-11T21:02:56.1225747-06:00:Starting callback TCP Rpc server
+2021-08-11T21:02:56.1371045-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-08-11T21:02:56.1371045-06:00:Started callback TCP Rpc server on port 32768
+2021-08-11T21:02:56.1371045-06:00:Starting logger TCP Rpc server
+2021-08-11T21:02:56.1406030-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-08-11T21:02:56.1406030-06:00:Started logger TCP Rpc server on port 32769
+2021-08-11T21:02:56.1455971-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 18296 --uniqueId "2021-08-11T210255" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-08-11T21:02:56.2026097-06:00:Executor with PID 17652 has been started successfully.
+2021-08-11T21:02:56.2056118-06:00:Out of Process Executor 17652 started
+2021-08-11T21:02:56.2056118-06:00:Waiting for endpoint
+2021-08-11T21:02:56.9302474-06:00:Remote executor port received: 32770
+2021-08-11T21:02:56.9312467-06:00:Creating executor TCP client on port 32770
+2021-08-11T21:02:56.9312467-06:00:Created executor TCP client on port 32770
+2021-08-11T21:02:56.9312467-06:00:Connecting to remote executor TCP server
+2021-08-11T21:02:56.9322481-06:00:Connected remote executor TCP server
+2021-08-11T21:02:56.9322481-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-08-11T21:02:56.9322481-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-08-11T21:02:57.5102549-06:00:2021-08-11T21:02:57.5092545-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-08-11T21:02:57.5168417-06:00:Endpoint 17652 started
+2021-08-11T21:02:57.5353799-06:00:2021-08-11T21:02:57.5343790-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-08-11T21:02:57.9082896-06:00:2021-08-11T21:02:57.9072921-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-08-11T21:02:57.9527139-06:00:2021-08-11T21:02:57.9527139-06:00:Thread#0:T:-> Using default config
+2021-08-11T21:02:58.9433170-06:00:2021-08-11T21:02:58.9423154-06:00:Thread#0:T:Starting the driver...
+2021-08-11T21:03:00.5943827-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-08-11T21:03:00.6373927-06:00:2021-08-11T21:03:00.6333912-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-11T21:03:00.6844113-06:00:2021-08-11T21:03:00.6844113-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-11T21:03:00.6884051-06:00:2021-08-11T21:03:00.6874050-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-11T21:03:02.3824503-06:00:2021-08-11T21:03:02.3824503-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.7s)
+2021-08-11T21:03:02.3854509-06:00:2021-08-11T21:03:02.3854509-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-11T21:13:12.9495342-06:00:2021-08-11T21:13:12.9485346-06:00:Thread#0:T:Line 2
+2021-08-11T21:13:13.0610784-06:00:2021-08-11T21:13:13.0610784-06:00:Thread#0:T:Parsing: 10 month pog from: hadhacks
+2021-08-11T21:13:13.0700808-06:00:2021-08-11T21:13:13.0690806-06:00:Thread#0:T:Eyy, its hadhacks!
+2021-08-11T21:13:13.0710807-06:00:2021-08-11T21:13:13.0710807-06:00:Thread#0:T:Found 2 clips for user hadhacks and rolled clip #: 1
+2021-08-11T21:13:13.1601009-06:00:2021-08-11T21:13:13.1591006-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\hadhacks1.wav at time: 8/11/2021 9:13:13 PM
+2021-08-11T21:13:13.1641017-06:00:2021-08-11T21:13:13.1621014-06:00:Thread#0:T:Waiting for 2109.333ms ended at time: 8/11/2021 9:13:13 PM
+2021-08-11T21:13:15.2806382-06:00:2021-08-11T21:13:15.2806382-06:00:Thread#0:T:Duration of clip was 2.109333, thanks rabbit_xxxx you're the best!
+2021-08-11T21:13:15.2816294-06:00:2021-08-11T21:13:15.2806382-06:00:Thread#0:T:clip played the old boring way, duration was: 2.109333
+2021-08-11T21:13:15.2914739-06:00:2021-08-11T21:13:15.2914739-06:00:Thread#0:T:Line 2
+2021-08-11T21:13:32.5411853-06:00:2021-08-11T21:13:32.5411853-06:00:Thread#0:T:Line 3
+2021-08-11T21:13:32.6312476-06:00:2021-08-11T21:13:32.6302460-06:00:Thread#0:T:Parsing: dude, you broke my streak from: hadhacks
+2021-08-11T21:14:10.5347802-06:00:2021-08-11T21:14:10.5337790-06:00:Thread#0:T:Line 4
+2021-08-11T21:14:10.6115191-06:00:2021-08-11T21:14:10.6105186-06:00:Thread#0:T:Parsing: let's try it again from: hadhacks
+2021-08-11T21:15:40.3312393-06:00:2021-08-11T21:15:40.3302377-06:00:Thread#0:T:Line 5
+2021-08-11T21:15:40.4030078-06:00:2021-08-11T21:15:40.4020063-06:00:Thread#0:T:Parsing: !irishjohngames from: user335
+2021-08-11T21:15:48.1287072-06:00:2021-08-11T21:15:48.1287072-06:00:Thread#0:T:Line 6
+2021-08-11T21:15:48.1967527-06:00:2021-08-11T21:15:48.1957527-06:00:Thread#0:T:Parsing: !props irishjohngames from: user335
+2021-08-11T21:15:48.3218144-06:00:2021-08-11T21:15:48.3218144-06:00:Thread#0:T:Line 7
+2021-08-11T21:15:56.9400658-06:00:2021-08-11T21:15:56.9400658-06:00:Thread#0:T:Line 8
+2021-08-11T21:15:57.0181311-06:00:2021-08-11T21:15:57.0181311-06:00:Thread#0:T:Parsing: !irishjohngaming from: user335
+2021-08-11T21:17:16.5380626-06:00:2021-08-11T21:17:16.5380626-06:00:Thread#0:T:Line 9
+2021-08-11T21:17:16.6148564-06:00:2021-08-11T21:17:16.6148564-06:00:Thread#0:T:Parsing: boop from: mrnoah99
+2021-08-11T21:17:16.6178565-06:00:2021-08-11T21:17:16.6178565-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-08-11T21:17:16.6198575-06:00:2021-08-11T21:17:16.6198575-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 5
+2021-08-11T21:17:16.6292778-06:00:2021-08-11T21:17:16.6292778-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\mrnoah995.wav at time: 8/11/2021 9:17:16 PM
+2021-08-11T21:17:16.6302777-06:00:2021-08-11T21:17:16.6302777-06:00:Thread#0:T:Waiting for 2054.979ms ended at time: 8/11/2021 9:17:16 PM
+2021-08-11T21:17:18.6980784-06:00:2021-08-11T21:17:18.6980784-06:00:Thread#0:T:Duration of clip was 2.054979, thanks rabbit_xxxx you're the best!
+2021-08-11T21:17:18.6990781-06:00:2021-08-11T21:17:18.6990781-06:00:Thread#0:T:clip played the old boring way, duration was: 2.054979
+2021-08-11T21:17:21.7173459-06:00:2021-08-11T21:17:21.7173459-06:00:Thread#0:T:Line 10
+2021-08-11T21:17:21.7803699-06:00:2021-08-11T21:17:21.7793695-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-08-11T21:17:21.7883725-06:00:2021-08-11T21:17:21.7883725-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\202230__deraj__pop-sound.wav at time: 8/11/2021 9:17:21 PM
+2021-08-11T21:17:21.7893720-06:00:2021-08-11T21:17:21.7893720-06:00:Thread#0:T:Waiting for 650.1587ms ended at time: 8/11/2021 9:17:21 PM
+2021-08-11T21:17:22.4534714-06:00:2021-08-11T21:17:22.4534714-06:00:Thread#0:T:Line 11
+2021-08-11T21:17:33.1263348-06:00:2021-08-11T21:17:33.1253350-06:00:Thread#0:T:Line 12
+2021-08-11T21:17:33.1933561-06:00:2021-08-11T21:17:33.1923568-06:00:Thread#0:T:Parsing: no bot? from: mrnoah99
+2021-08-11T21:17:51.7340689-06:00:2021-08-11T21:17:51.7340689-06:00:Thread#0:T:Line 13
+2021-08-11T21:17:51.8106021-06:00:2021-08-11T21:17:51.8096175-06:00:Thread#0:T:Parsing: !whip from: user335
+2021-08-11T21:17:51.9162199-06:00:2021-08-11T21:17:51.9162199-06:00:Thread#0:T:Line 14
+2021-08-11T21:17:55.5216611-06:00:2021-08-11T21:17:55.5216611-06:00:Thread#0:T:Line 15
+2021-08-11T21:17:55.6156812-06:00:2021-08-11T21:17:55.6156812-06:00:Thread#0:T:Parsing: then yell at it to work from: mrnoah99

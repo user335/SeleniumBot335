@@ -1,0 +1,325 @@
+﻿2021-06-04T20:18:50.5694354-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-04T20:18:50.5694354-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-04T20:18:50.5694354-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-04T20:18:50.5704350-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-04T20:18:50.8613309-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-04T20:18:50.8823361-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-04T20:18:50.8933384-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-04T20:18:51.0063644-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-04T201850.log
+2021-06-04T20:18:51.0723804-06:00;Thread#14;Info;Checking activation
+2021-06-04T20:18:51.3514430-06:00;Thread#14;Info;Activated.
+2021-06-04T20:18:51.3554443-06:00;Thread#14;Info;Activation check completed
+2021-06-04T20:18:51.3624451-06:00;Thread#14;Info;Starting test run
+2021-06-04T20:18:51.4612163-06:00;Thread#14;Info;Discovering target: Default
+2021-06-04T20:18:51.4722192-06:00;Thread#14;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-04T20:18:52.5925417-06:00;Thread#14;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-04T20:18:52.5975438-06:00:Test Suite Dump
+2021-06-04T20:18:52.5995437-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-04T20:18:52.5995437-06:00:#1: Default - 
+2021-06-04T20:18:52.5995437-06:00:#2: PracticingSix - 
+2021-06-04T20:18:52.5995437-06:00:#5: Twitch Bot! - 
+2021-06-04T20:18:52.6625960-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-04T20:18:52.6625960-06:00:End: Test Suite Dump
+2021-06-04T20:18:52.7196259-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-04T20:18:52.7226265-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-04T20:18:52.7226265-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-04T20:18:52.7291456-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-04T20:18:52.7291456-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-04T20:18:52.7291456-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-04T20:18:52.7291456-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-04T20:18:52.7301379-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-04T20:18:52.7311386-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-04T20:18:52.7311386-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-04T20:18:52.7311386-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-04T20:18:52.7311386-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-04T20:18:52.7311386-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-04T20:18:52.7351384-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-04T20:18:52.7381384-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-04T20:18:52.7876797-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-04T20:18:52.7916804-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-04T20:18:52.7946899-06:00:starting Out Of Process Executor
+2021-06-04T20:18:52.8131941-06:00:Starting callback TCP Rpc server
+2021-06-04T20:18:52.8302243-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-04T20:18:52.8302243-06:00:Started callback TCP Rpc server on port 32768
+2021-06-04T20:18:52.8302243-06:00:Starting logger TCP Rpc server
+2021-06-04T20:18:52.8332251-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-04T20:18:52.8332251-06:00:Started logger TCP Rpc server on port 32769
+2021-06-04T20:18:52.8442277-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-06-04T20:18:53.0498754-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-06-04T20:18:53.0979035-06:00:Out of Process Executor 17848 started
+2021-06-04T20:18:53.0979035-06:00:Waiting for endpoint
+2021-06-04T20:18:54.0616069-06:00:Remote executor port received: 32770
+2021-06-04T20:18:54.0626160-06:00:Creating executor TCP client on port 32770
+2021-06-04T20:18:54.0626160-06:00:Created executor TCP client on port 32770
+2021-06-04T20:18:54.0626160-06:00:Connecting to remote executor TCP server
+2021-06-04T20:18:54.0636075-06:00:Connected remote executor TCP server
+2021-06-04T20:18:54.0636075-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-04T20:18:54.0636075-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-04T20:18:54.7595089-06:00:2021-06-04T20:18:54.7575085-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-06-04T20:18:54.7680267-06:00:Endpoint 17848 started
+2021-06-04T20:18:54.7895307-06:00:2021-06-04T20:18:54.7885315-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-04T20:18:55.3149542-06:00:2021-06-04T20:18:55.3139539-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-04T20:18:55.3689840-06:00:2021-06-04T20:18:55.3674744-06:00:Thread#0:T:-> Using default config
+2021-06-04T20:18:56.6458951-06:00:2021-06-04T20:18:56.6458951-06:00:Thread#0:T:Starting the driver...
+2021-06-04T20:18:58.7042454-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-04T20:18:58.7587693-06:00:2021-06-04T20:18:58.7577689-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-04T20:18:58.8248991-06:00:2021-06-04T20:18:58.8228970-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-04T20:18:58.8659517-06:00:2021-06-04T20:18:58.8549474-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-04T20:19:00.8694034-06:00:2021-06-04T20:19:00.8674083-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.0s)
+2021-06-04T20:19:00.8764043-06:00:2021-06-04T20:19:00.8734039-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-04T20:23:42.0220642-06:00:2021-06-04T20:23:42.0200641-06:00:Thread#0:T:Line 1
+2021-06-04T20:23:42.1166338-06:00:2021-06-04T20:23:42.1116318-06:00:Thread#0:T:Parsing: eott echo again from: mrnoah99
+2021-06-04T20:23:42.1291492-06:00:2021-06-04T20:23:42.1276348-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-04T20:23:53.2148125-06:00:2021-06-04T20:23:53.2132992-06:00:Thread#0:T:Line 2
+2021-06-04T20:23:53.2903732-06:00:2021-06-04T20:23:53.2893724-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-06-04T20:23:53.6476344-06:00:2021-06-04T20:23:53.6466349-06:00:Thread#0:T:Line 3
+2021-06-04T20:25:11.8202793-06:00:2021-06-04T20:25:11.8182791-06:00:Thread#0:T:Line 4
+2021-06-04T20:25:11.9093608-06:00:2021-06-04T20:25:11.9073596-06:00:Thread#0:T:Parsing: what song goes with everything? from: zrealbigdeal
+2021-06-04T20:25:11.9173624-06:00:2021-06-04T20:25:11.9143615-06:00:Thread#0:T:Eyy, its zrealbigdeal!
+2021-06-04T20:28:31.2194312-06:00:2021-06-04T20:28:31.2184315-06:00:Thread#0:T:Line 5
+2021-06-04T20:28:31.3265360-06:00:2021-06-04T20:28:31.3245355-06:00:Thread#0:T:Parsing: howdy from: dstew99
+2021-06-04T20:30:52.6088719-06:00:2021-06-04T20:30:52.6058706-06:00:Thread#0:T:Line 6
+2021-06-04T20:30:52.7134050-06:00:2021-06-04T20:30:52.7114046-06:00:Thread#0:T:Parsing: there is a sale on the asset store. my eyes are all over it and my wallet wants nothing to do with it. my brain is 50-50 from: dstew99
+2021-06-04T20:32:41.8123601-06:00:2021-06-04T20:32:41.8113604-06:00:Thread#0:T:Line 7
+2021-06-04T20:32:41.9013964-06:00:2021-06-04T20:32:41.8993961-06:00:Thread#0:T:Parsing: nothing in the cart. but been looking at megafiers from: dstew99
+2021-06-04T20:33:23.2162478-06:00:2021-06-04T20:33:23.2132483-06:00:Thread#0:T:Line 8
+2021-06-04T20:33:23.2972650-06:00:2021-06-04T20:33:23.2952666-06:00:Thread#0:T:Parsing: megafiers 2 from: dstew99
+2021-06-04T20:33:25.9964064-06:00:2021-06-04T20:33:25.9944065-06:00:Thread#0:T:Line 9
+2021-06-04T20:33:26.0984303-06:00:2021-06-04T20:33:26.0974307-06:00:Thread#0:T:Parsing: https://assetstore.unity.com/packages/tools/modeling/megafiers-2-188378 from: dstew99
+2021-06-04T20:34:24.8114372-06:00:2021-06-04T20:34:24.8084361-06:00:Thread#0:T:Line 10
+2021-06-04T20:34:24.9135197-06:00:2021-06-04T20:34:24.9085165-06:00:Thread#0:T:Parsing: are the positions offset somehow? from: dstew99
+2021-06-04T20:39:11.6052655-06:00:2021-06-04T20:39:11.6032654-06:00:Thread#0:T:Line 11
+2021-06-04T20:39:11.6852835-06:00:2021-06-04T20:39:11.6842831-06:00:Thread#0:T:Parsing: i can't get it. more want than need from: dstew99
+2021-06-04T20:40:42.4302555-06:00:2021-06-04T20:40:42.4292563-06:00:Thread#0:T:Line 12
+2021-06-04T20:40:42.5163466-06:00:2021-06-04T20:40:42.5143462-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-06-04T20:40:42.5223493-06:00:2021-06-04T20:40:42.5213500-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-06-04T20:41:27.6075729-06:00:2021-06-04T20:41:27.6055729-06:00:Thread#0:T:Line 13
+2021-06-04T20:41:27.7026542-06:00:2021-06-04T20:41:27.6996541-06:00:Thread#0:T:Parsing: i'm fine. i can just use the door sound from: sky_acaniadev
+2021-06-04T20:41:48.6196128-06:00:2021-06-04T20:41:48.6176114-06:00:Thread#0:T:Line 14
+2021-06-04T20:41:48.7136870-06:00:2021-06-04T20:41:48.7106862-06:00:Thread#0:T:Parsing: put debug logs at each step of the process showing times, locations, everything from: dstew99
+2021-06-04T20:43:23.4173540-06:00:2021-06-04T20:43:23.4153550-06:00:Thread#0:T:Line 15
+2021-06-04T20:43:23.4973722-06:00:2021-06-04T20:43:23.4953720-06:00:Thread#0:T:Parsing: ok then log before entering and after exiting. that may be enough from: dstew99
+2021-06-04T20:56:43.0092776-06:00:2021-06-04T20:56:43.0072781-06:00:Thread#0:T:Line 16
+2021-06-04T20:56:43.1113004-06:00:2021-06-04T20:56:43.1093004-06:00:Thread#0:T:Parsing: there is always from: dstew99
+2021-06-04T20:56:47.8110120-06:00:2021-06-04T20:56:47.8100116-06:00:Thread#0:T:Line 17
+2021-06-04T20:56:47.9095771-06:00:2021-06-04T20:56:47.9085767-06:00:Thread#0:T:Parsing: debug.break(); from: dstew99
+2021-06-04T20:57:04.6552896-06:00:2021-06-04T20:57:04.6422868-06:00:Thread#0:T:Line 18
+2021-06-04T20:57:04.7743354-06:00:2021-06-04T20:57:04.7693145-06:00:Thread#0:T:Parsing: pauses the editor from: dstew99
+2021-06-04T20:57:38.0075764-06:00:2021-06-04T20:57:38.0065763-06:00:Thread#0:T:Line 19
+2021-06-04T20:57:38.0826390-06:00:2021-06-04T20:57:38.0816375-06:00:Thread#0:T:Parsing: you can call it like debug.log from: dstew99
+2021-06-04T20:59:00.0093745-06:00:2021-06-04T20:59:00.0083746-06:00:Thread#0:T:Line 20
+2021-06-04T20:59:00.1053967-06:00:2021-06-04T20:59:00.1023952-06:00:Thread#0:T:Parsing: pauses the unity editor from: dstew99
+2021-06-04T21:02:22.6141330-06:00:2021-06-04T21:02:22.6131320-06:00:Thread#0:T:Line 21
+2021-06-04T21:02:22.6997029-06:00:2021-06-04T21:02:22.6987022-06:00:Thread#0:T:Parsing: how often can it use the aoe? from: dstew99
+2021-06-04T21:04:44.6173478-06:00:2021-06-04T21:04:44.6163487-06:00:Thread#0:T:Line 22
+2021-06-04T21:04:44.7113700-06:00:2021-06-04T21:04:44.7083694-06:00:Thread#0:T:Parsing: is there a way to not count enemy if in a building with door closed? from: dstew99
+2021-06-04T21:06:50.8370982-06:00:2021-06-04T21:06:50.8320968-06:00:Thread#0:T:Line 23
+2021-06-04T21:06:50.9507117-06:00:2021-06-04T21:06:50.9497126-06:00:Thread#0:T:Parsing: is the pathfinding being affected by the aggro list? from: dstew99
+2021-06-04T21:09:01.8102159-06:00:2021-06-04T21:09:01.8077059-06:00:Thread#0:T:Line 24
+2021-06-04T21:09:01.8927941-06:00:2021-06-04T21:09:01.8897919-06:00:Thread#0:T:Parsing: is this too weird? https://cdn.discordapp.com/attachments/768913619554402305/850571834440024084/unknown.png from: sky_acaniadev
+2021-06-04T21:10:48.8219682-06:00:2021-06-04T21:10:48.8209682-06:00:Thread#0:T:Line 25
+2021-06-04T21:10:48.9565463-06:00:2021-06-04T21:10:48.9555460-06:00:Thread#0:T:Parsing: i am too tired to draw patterns today. so i just try the easiest one first. from: sky_acaniadev
+2021-06-04T21:11:18.6272107-06:00:2021-06-04T21:11:18.6252089-06:00:Thread#0:T:Line 26
+2021-06-04T21:11:18.7287824-06:00:2021-06-04T21:11:18.7267829-06:00:Thread#0:T:Parsing: let me get some runic letters for magic stuff from: sky_acaniadev
+2021-06-04T21:11:52.8203958-06:00:2021-06-04T21:11:52.8183953-06:00:Thread#0:T:Line 27
+2021-06-04T21:11:52.9284186-06:00:2021-06-04T21:11:52.9264192-06:00:Thread#0:T:Parsing: is that a temporary lighting effect on the items? from: dstew99
+2021-06-04T21:12:32.4209149-06:00:2021-06-04T21:12:32.4179211-06:00:Thread#0:T:Line 28
+2021-06-04T21:12:32.5245044-06:00:2021-06-04T21:12:32.5235033-06:00:Thread#0:T:Parsing: !props str8griz from: user335
+2021-06-04T21:12:32.8037471-06:00:2021-06-04T21:12:32.8027467-06:00:Thread#0:T:Line 29
+2021-06-04T21:12:47.6213346-06:00:2021-06-04T21:12:47.6203335-06:00:Thread#0:T:Line 30
+2021-06-04T21:12:47.7303605-06:00:2021-06-04T21:12:47.7273575-06:00:Thread#0:T:Parsing: @dstew99 hmm, it is a permanent lighting on that specific item from: sky_acaniadev
+2021-06-04T21:13:03.0459189-06:00:2021-06-04T21:13:03.0449205-06:00:Thread#0:T:Line 31
+2021-06-04T21:13:03.1939526-06:00:2021-06-04T21:13:03.1909527-06:00:Thread#0:T:Parsing: oh.... from: dstew99
+2021-06-04T21:13:14.4219688-06:00:2021-06-04T21:13:14.4209692-06:00:Thread#0:T:Line 32
+2021-06-04T21:13:14.5666215-06:00:2021-06-04T21:13:14.5646229-06:00:Thread#0:T:Parsing: a bit too much from: dstew99
+2021-06-04T21:13:21.0234947-06:00:2021-06-04T21:13:21.0214938-06:00:Thread#0:T:Line 33
+2021-06-04T21:13:21.1225787-06:00:2021-06-04T21:13:21.1215800-06:00:Thread#0:T:Parsing: looks fun over here from: str8griz
+2021-06-04T21:13:37.8203345-06:00:2021-06-04T21:13:37.8193352-06:00:Thread#0:T:Line 34
+2021-06-04T21:13:37.9163561-06:00:2021-06-04T21:13:37.9153562-06:00:Thread#0:T:Parsing: i can write a shade to set the emissive strength in runtime tho from: sky_acaniadev
+2021-06-04T21:13:41.2073653-06:00:2021-06-04T21:13:41.2063647-06:00:Thread#0:T:Line 35
+2021-06-04T21:13:41.3133897-06:00:2021-06-04T21:13:41.3123891-06:00:Thread#0:T:Parsing: shader from: sky_acaniadev
+2021-06-04T21:13:51.6191574-06:00:2021-06-04T21:13:51.6181573-06:00:Thread#0:T:Line 36
+2021-06-04T21:13:51.7137252-06:00:2021-06-04T21:13:51.7127252-06:00:Thread#0:T:Parsing: braid? from: sky_acaniadev
+2021-06-04T21:14:14.8170444-06:00:2021-06-04T21:14:14.8150448-06:00:Thread#0:T:Line 37
+2021-06-04T21:14:14.9341494-06:00:2021-06-04T21:14:14.9311485-06:00:Thread#0:T:Parsing: that was like 2010-ish? from: sky_acaniadev
+2021-06-04T21:14:32.0172204-06:00:2021-06-04T21:14:32.0152201-06:00:Thread#0:T:Line 38
+2021-06-04T21:14:32.1232436-06:00:2021-06-04T21:14:32.1212444-06:00:Thread#0:T:Parsing: did j blow use unity for that? or java? from: sky_acaniadev
+2021-06-04T21:14:53.0100950-06:00:2021-06-04T21:14:53.0075861-06:00:Thread#0:T:Line 39
+2021-06-04T21:14:53.1016625-06:00:2021-06-04T21:14:53.0976743-06:00:Thread#0:T:Parsing: me and a bud, are doing a one month game jam, theme: time is key. day 1 for us from: str8griz
+2021-06-04T21:14:53.1967247-06:00:2021-06-04T21:14:53.1937228-06:00:Thread#0:T:Line 40
+2021-06-04T21:14:53.2857449-06:00:2021-06-04T21:14:53.2847438-06:00:Thread#0:T:Parsing: he did not use unity from: dstew99
+2021-06-04T21:15:24.4224264-06:00:2021-06-04T21:15:24.4204262-06:00:Thread#0:T:Line 41
+2021-06-04T21:15:24.5204639-06:00:2021-06-04T21:15:24.5184640-06:00:Thread#0:T:Parsing: yeah i played a td mini game in unity back in 2010 from: sky_acaniadev
+2021-06-04T21:15:33.2160048-06:00:2021-06-04T21:15:33.2150049-06:00:Thread#0:T:Line 42
+2021-06-04T21:15:33.3135816-06:00:2021-06-04T21:15:33.3125814-06:00:Thread#0:T:Parsing: https://itch.io/jam/one-game-a-month from: str8griz
+2021-06-04T21:15:40.0234278-06:00:2021-06-04T21:15:40.0214270-06:00:Thread#0:T:Line 43
+2021-06-04T21:15:40.1439886-06:00:2021-06-04T21:15:40.1429874-06:00:Thread#0:T:Parsing: and unity was ridiculed by my friends. from: sky_acaniadev
+2021-06-04T21:15:50.4251539-06:00:2021-06-04T21:15:50.4241672-06:00:Thread#0:T:Line 44
+2021-06-04T21:15:50.5257565-06:00:2021-06-04T21:15:50.5247562-06:00:Thread#0:T:Parsing: i was learning udk back then from: sky_acaniadev
+2021-06-04T21:15:59.0184236-06:00:2021-06-04T21:15:59.0174234-06:00:Thread#0:T:Line 45
+2021-06-04T21:15:59.1134688-06:00:2021-06-04T21:15:59.1114681-06:00:Thread#0:T:Parsing: yeah, they were there on day one lol from: str8griz
+2021-06-04T21:16:28.6075631-06:00:2021-06-04T21:16:28.6065631-06:00:Thread#0:T:Line 46
+2021-06-04T21:16:28.7096626-06:00:2021-06-04T21:16:28.7086636-06:00:Thread#0:T:Parsing: i got text on the screen, game jam done... from: zrealbigdeal
+2021-06-04T21:17:26.2233188-06:00:2021-06-04T21:17:26.2223183-06:00:Thread#0:T:Line 47
+2021-06-04T21:17:26.3253406-06:00:2021-06-04T21:17:26.3223419-06:00:Thread#0:T:Parsing: if it crashes, adds replayability, gotta see if you can make it crash again... lol from: zrealbigdeal
+2021-06-04T21:17:56.0079382-06:00:2021-06-04T21:17:56.0069388-06:00:Thread#0:T:Line 48
+2021-06-04T21:17:56.1024856-06:00:2021-06-04T21:17:56.1014851-06:00:Thread#0:T:Parsing: qa simulator from: zrealbigdeal
+2021-06-04T21:20:52.6179815-06:00:2021-06-04T21:20:52.6169821-06:00:Thread#0:T:Line 49
+2021-06-04T21:20:52.7215375-06:00:2021-06-04T21:20:52.7185357-06:00:Thread#0:T:Parsing: hello from: rabbit_xxxx
+2021-06-04T21:20:52.7275373-06:00:2021-06-04T21:20:52.7265365-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-06-04T21:21:07.4199138-06:00:2021-06-04T21:21:07.4189140-06:00:Thread#0:T:Line 50
+2021-06-04T21:21:07.5320372-06:00:2021-06-04T21:21:07.5310367-06:00:Thread#0:T:Parsing: still here from: rabbit_xxxx
+2021-06-04T21:22:06.2573726-06:00:2021-06-04T21:22:06.2553709-06:00:Thread#0:T:Line 51
+2021-06-04T21:22:06.3803992-06:00:2021-06-04T21:22:06.3783989-06:00:Thread#0:T:Parsing: but at least i just finished writing the first phase of my crypto currency client api thing from: rabbit_xxxx
+2021-06-04T21:24:33.6192513-06:00:2021-06-04T21:24:33.6182521-06:00:Thread#0:T:Line 52
+2021-06-04T21:24:33.7173453-06:00:2021-06-04T21:24:33.7148184-06:00:Thread#0:T:Parsing: i only do fridays 6-8 pst alright im out for the night! thanks for the stream, from: str8griz
+2021-06-04T21:24:53.2343376-06:00:2021-06-04T21:24:53.2313370-06:00:Thread#0:T:Line 53
+2021-06-04T21:24:53.3484026-06:00:2021-06-04T21:24:53.3434028-06:00:Thread#0:T:Parsing: i'm good at what i do from: rabbit_xxxx
+2021-06-04T21:25:07.8299460-06:00:2021-06-04T21:25:07.8289459-06:00:Thread#0:T:Line 54
+2021-06-04T21:25:07.9339694-06:00:2021-06-04T21:25:07.9319689-06:00:Thread#0:T:Parsing: yeah, im in and out for the game from: str8griz
+2021-06-04T21:25:14.2311116-06:00:2021-06-04T21:25:14.2301201-06:00:Thread#0:T:Line 55
+2021-06-04T21:25:14.3401371-06:00:2021-06-04T21:25:14.3391365-06:00:Thread#0:T:Parsing: life you know. from: str8griz
+2021-06-04T21:25:47.8455407-06:00:2021-06-04T21:25:47.8415396-06:00:Thread#0:T:Line 56
+2021-06-04T21:25:47.9661357-06:00:2021-06-04T21:25:47.9651353-06:00:Thread#0:T:Parsing: awesome! we will chat soon! have fun from: str8griz
+2021-06-04T21:25:52.2233869-06:00:2021-06-04T21:25:52.2223861-06:00:Thread#0:T:Line 57
+2021-06-04T21:25:52.3274098-06:00:2021-06-04T21:25:52.3254104-06:00:Thread#0:T:Parsing: bye chat! from: str8griz
+2021-06-04T21:26:02.2129614-06:00:2021-06-04T21:26:02.2109615-06:00:Thread#0:T:Line 58
+2021-06-04T21:26:02.3275405-06:00:2021-06-04T21:26:02.3275405-06:00:Thread#0:T:Parsing: !props str8griz from: user335
+2021-06-04T21:26:02.4005887-06:00:2021-06-04T21:26:02.3985877-06:00:Thread#0:T:Line 59
+2021-06-04T21:26:02.6217832-06:00:2021-06-04T21:26:02.6207838-06:00:Thread#0:T:Line 60
+2021-06-04T21:26:02.7489025-06:00:2021-06-04T21:26:02.7479320-06:00:Thread#0:T:Parsing: what about now? i set all glow colors to cyan. https://cdn.discordapp.com/attachments/768913619554402305/850576014652473354/unknown.png from: sky_acaniadev
+2021-06-04T21:26:29.0260609-06:00:2021-06-04T21:26:29.0230588-06:00:Thread#0:T:Line 61
+2021-06-04T21:26:29.1276309-06:00:2021-06-04T21:26:29.1236312-06:00:Thread#0:T:Parsing: probably is the color count from: sky_acaniadev
+2021-06-04T21:26:54.2159452-06:00:2021-06-04T21:26:54.2149458-06:00:Thread#0:T:Line 62
+2021-06-04T21:26:54.3349730-06:00:2021-06-04T21:26:54.3309732-06:00:Thread#0:T:Parsing: basically i can read a bunch of data from and create transactions on kraken, which is one of the big crypto exchanges from: rabbit_xxxx
+2021-06-04T21:26:57.8264277-06:00:2021-06-04T21:26:57.8254278-06:00:Thread#0:T:Line 63
+2021-06-04T21:26:57.9389643-06:00:2021-06-04T21:26:57.9369649-06:00:Thread#0:T:Parsing: seems like you are using old locations from: dstew99
+2021-06-04T21:27:17.0325661-06:00:2021-06-04T21:27:17.0295665-06:00:Thread#0:T:Line 64
+2021-06-04T21:27:17.1415910-06:00:2021-06-04T21:27:17.1395905-06:00:Thread#0:T:Parsing: daytime: https://cdn.discordapp.com/attachments/768913619554402305/850575927347511296/unknown.png from: sky_acaniadev
+2021-06-04T21:28:02.0273671-06:00:2021-06-04T21:28:02.0253656-06:00:Thread#0:T:Line 65
+2021-06-04T21:28:02.1413897-06:00:2021-06-04T21:28:02.1403898-06:00:Thread#0:T:Parsing: next phase is to write something to store that data in a database and analyze it from: rabbit_xxxx
+2021-06-04T21:28:09.8299535-06:00:2021-06-04T21:28:09.8289576-06:00:Thread#0:T:Line 66
+2021-06-04T21:28:09.9420306-06:00:2021-06-04T21:28:09.9410307-06:00:Thread#0:T:Parsing: the colour change helps from: dstew99
+2021-06-04T21:28:37.0218684-06:00:2021-06-04T21:28:37.0208676-06:00:Thread#0:T:Line 67
+2021-06-04T21:28:37.1229482-06:00:2021-06-04T21:28:37.1209481-06:00:Thread#0:T:Parsing: yes from: rabbit_xxxx
+2021-06-04T21:28:43.4229507-06:00:2021-06-04T21:28:43.4219513-06:00:Thread#0:T:Line 68
+2021-06-04T21:28:43.5279753-06:00:2021-06-04T21:28:43.5249744-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-04T21:28:52.8181616-06:00:2021-06-04T21:28:52.8171624-06:00:Thread#0:T:Line 69
+2021-06-04T21:28:52.9231857-06:00:2021-06-04T21:28:52.9211865-06:00:Thread#0:T:Parsing: yep, exactly from: rabbit_xxxx
+2021-06-04T21:29:43.6213315-06:00:2021-06-04T21:29:43.6183306-06:00:Thread#0:T:Line 70
+2021-06-04T21:29:43.7273562-06:00:2021-06-04T21:29:43.7253553-06:00:Thread#0:T:Parsing: my goal is to be able to gain 1% per day, we'll see if it's possible from: rabbit_xxxx
+2021-06-04T21:30:27.2170283-06:00:2021-06-04T21:30:27.2160280-06:00:Thread#0:T:Line 71
+2021-06-04T21:30:27.3216151-06:00:2021-06-04T21:30:27.3206144-06:00:Thread#0:T:Parsing: gonna try from: rabbit_xxxx
+2021-06-04T21:30:37.2203370-06:00:2021-06-04T21:30:37.2163361-06:00:Thread#0:T:Line 72
+2021-06-04T21:30:37.3253605-06:00:2021-06-04T21:30:37.3243607-06:00:Thread#0:T:Parsing: lmao from: rabbit_xxxx
+2021-06-04T21:31:01.0301970-06:00:2021-06-04T21:31:01.0291970-06:00:Thread#0:T:Line 73
+2021-06-04T21:31:01.1483084-06:00:2021-06-04T21:31:01.1463093-06:00:Thread#0:T:Parsing: yeah, i mean if this works i'm quiting my job for sure from: rabbit_xxxx
+2021-06-04T21:31:04.4322923-06:00:2021-06-04T21:31:04.4312921-06:00:Thread#0:T:Line 74
+2021-06-04T21:31:04.5433184-06:00:2021-06-04T21:31:04.5413166-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-04T21:31:12.0112518-06:00:2021-06-04T21:31:12.0082490-06:00:Thread#0:T:Line 75
+2021-06-04T21:31:12.1052730-06:00:2021-06-04T21:31:12.1042721-06:00:Thread#0:T:Parsing: title: i'm righ, you're not! haha from: dstew99
+2021-06-04T21:31:27.2182348-06:00:2021-06-04T21:31:27.2172346-06:00:Thread#0:T:Line 76
+2021-06-04T21:31:27.3452647-06:00:2021-06-04T21:31:27.3432624-06:00:Thread#0:T:Parsing: my code never fails from: rabbit_xxxx
+2021-06-04T21:31:28.0064133-06:00:2021-06-04T21:31:28.0064133-06:00:Thread#0:T:Line 77
+2021-06-04T21:31:28.1014339-06:00:2021-06-04T21:31:28.1004338-06:00:Thread#0:T:Parsing: rich from: dstew99
+2021-06-04T21:32:36.4234336-06:00:2021-06-04T21:32:36.4224327-06:00:Thread#0:T:Line 78
+2021-06-04T21:32:36.5494612-06:00:2021-06-04T21:32:36.5484618-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-04T21:33:14.6141249-06:00:2021-06-04T21:33:14.6131257-06:00:Thread#0:T:Line 79
+2021-06-04T21:33:14.7116917-06:00:2021-06-04T21:33:14.7106920-06:00:Thread#0:T:Parsing: that's a lot from: rabbit_xxxx
+2021-06-04T21:33:38.8429584-06:00:2021-06-04T21:33:38.8399585-06:00:Thread#0:T:Line 80
+2021-06-04T21:33:38.9850309-06:00:2021-06-04T21:33:38.9820289-06:00:Thread#0:T:Parsing: the debug.break is triggering? from: dstew99
+2021-06-04T21:33:50.6554323-06:00:2021-06-04T21:33:50.6524316-06:00:Thread#0:T:Line 81
+2021-06-04T21:33:50.8045321-06:00:2021-06-04T21:33:50.8035325-06:00:Thread#0:T:Parsing: i've worked a lot this week too, but equal parts my job and this crypto thing from: rabbit_xxxx
+2021-06-04T21:35:05.0485685-06:00:2021-06-04T21:35:05.0455689-06:00:Thread#0:T:Line 82
+2021-06-04T21:35:05.2006787-06:00:2021-06-04T21:35:05.1976908-06:00:Thread#0:T:Parsing: btw not sure if you read my message the other day ago, but the two big performance issues you have are the aibase stuff in a*pp and with rendering, lots of draw calls for things that you could probably batch from: rabbit_xxxx
+2021-06-04T21:35:37.2274110-06:00:2021-06-04T21:35:37.2254112-06:00:Thread#0:T:Line 83
+2021-06-04T21:35:37.3409807-06:00:2021-06-04T21:35:37.3399796-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-06-04T21:35:52.0625275-06:00:2021-06-04T21:35:52.0605261-06:00:Thread#0:T:Line 84
+2021-06-04T21:35:52.2046148-06:00:2021-06-04T21:35:52.2026147-06:00:Thread#0:T:Parsing: it's ok from: rabbit_xxxx
+2021-06-04T21:36:29.8566754-06:00:2021-06-04T21:36:29.8556750-06:00:Thread#0:T:Line 85
+2021-06-04T21:36:29.9888243-06:00:2021-06-04T21:36:29.9868226-06:00:Thread#0:T:Parsing: for the rendering stuff, looked like many of the draw calls were gaia things, like trees/grass/leaves, but also some stuff like beds, etc. from: rabbit_xxxx
+2021-06-04T21:37:12.8299877-06:00:2021-06-04T21:37:12.8289878-06:00:Thread#0:T:Line 86
+2021-06-04T21:37:12.9560882-06:00:2021-06-04T21:37:12.9535792-06:00:Thread#0:T:Parsing: i also suspect particles but haven't looked into it yet from: rabbit_xxxx
+2021-06-04T21:44:54.2132950-06:00:2021-06-04T21:44:54.2102953-06:00:Thread#0:T:Line 87
+2021-06-04T21:44:54.3273210-06:00:2021-06-04T21:44:54.3253206-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-04T21:53:08.4362901-06:00:2021-06-04T21:53:08.4342906-06:00:Thread#0:T:Line 88
+2021-06-04T21:53:08.5753229-06:00:2021-06-04T21:53:08.5703230-06:00:Thread#0:T:Parsing: remember that your are using && and || short circuit. are there checks that you need to get calculated as you do the comparison? from: dstew99
+2021-06-04T21:54:27.4750905-06:00:2021-06-04T21:54:27.4610873-06:00:Thread#0:T:Line 89
+2021-06-04T21:54:27.6612849-06:00:2021-06-04T21:54:27.6442814-06:00:Thread#0:T:Parsing: example look at line 1657 and see if calculates the true/false properly from: dstew99
+2021-06-04T21:55:15.2466277-06:00:2021-06-04T21:55:15.2446272-06:00:Thread#0:T:Line 90
+2021-06-04T21:55:15.3857432-06:00:2021-06-04T21:55:15.3832315-06:00:Thread#0:T:Parsing: whats happenin' brother from: irishjohngames
+2021-06-04T21:55:15.3917439-06:00:2021-06-04T21:55:15.3907441-06:00:Thread#0:T:Eyy, its irishjohngames!
+2021-06-04T21:55:34.2670619-06:00:2021-06-04T21:55:34.2640496-06:00:Thread#0:T:Line 92
+2021-06-04T21:55:34.4196504-06:00:2021-06-04T21:55:34.4151413-06:00:Thread#0:T:Parsing: did i just hear an arrrrrr? from: irishjohngames
+2021-06-04T21:55:34.4376877-06:00:2021-06-04T21:55:34.4361595-06:00:Thread#0:T:Line 92
+2021-06-04T21:55:34.5522240-06:00:2021-06-04T21:55:34.5512246-06:00:Thread#0:T:Parsing: !pop from: sky_acaniadev
+2021-06-04T21:55:37.2293382-06:00:2021-06-04T21:55:37.2283385-06:00:Thread#0:T:Line 93
+2021-06-04T21:55:37.3423640-06:00:2021-06-04T21:55:37.3413635-06:00:Thread#0:T:Parsing: pop from: sky_acaniadev
+2021-06-04T21:55:37.7079572-06:00:2021-06-04T21:55:37.7069571-06:00:Thread#0:T:Line 94
+2021-06-04T21:55:39.2313225-06:00:2021-06-04T21:55:39.2303222-06:00:Thread#0:T:Line 95
+2021-06-04T21:55:39.3633511-06:00:2021-06-04T21:55:39.3623505-06:00:Thread#0:T:Parsing:  from: irishjohngames
+2021-06-04T21:55:42.2431900-06:00:2021-06-04T21:55:42.2421901-06:00:Thread#0:T:Line 96
+2021-06-04T21:55:42.3672170-06:00:2021-06-04T21:55:42.3672170-06:00:Thread#0:T:Parsing: fantastic from: irishjohngames
+2021-06-04T21:55:54.4267050-06:00:2021-06-04T21:55:54.4257040-06:00:Thread#0:T:Line 97
+2021-06-04T21:55:54.5687352-06:00:2021-06-04T21:55:54.5677359-06:00:Thread#0:T:Parsing: thanks so much bro
+2021-06-04T21:55:54.5767371-06:00:2021-06-04T21:55:54.5757363-06:00:Thread#0:T:hahahhaha amazing. from: irishjohngames
+2021-06-04T21:56:06.8474330-06:00:2021-06-04T21:56:06.8464353-06:00:Thread#0:T:Line 98
+2021-06-04T21:56:06.9905766-06:00:2021-06-04T21:56:06.9895766-06:00:Thread#0:T:Parsing: beard is lookin' fantastic
+2021-06-04T21:56:06.9925773-06:00:2021-06-04T21:56:06.9915771-06:00:Thread#0:T:hows life? how's baba? from: irishjohngames
+2021-06-04T21:56:20.0310779-06:00:2021-06-04T21:56:20.0310779-06:00:Thread#0:T:Line 99
+2021-06-04T21:56:20.1506661-06:00:2021-06-04T21:56:20.1496657-06:00:Thread#0:T:Parsing: hahahahahah love it. nice man. very nice. from: irishjohngames
+2021-06-04T21:56:34.4503244-06:00:2021-06-04T21:56:34.4483237-06:00:Thread#0:T:Line 100
+2021-06-04T21:56:34.6093586-06:00:2021-06-04T21:56:34.6073589-06:00:Thread#0:T:Parsing:  from: irishjohngames
+2021-06-04T21:56:44.4342488-06:00:2021-06-04T21:56:44.4322476-06:00:Thread#0:T:Line 101
+2021-06-04T21:56:44.5913852-06:00:2021-06-04T21:56:44.5913852-06:00:Thread#0:T:Parsing: hahahaha
+2021-06-04T21:56:44.5943854-06:00:2021-06-04T21:56:44.5943854-06:00:Thread#0:T:thank you. from: irishjohngames
+2021-06-04T21:57:07.8293311-06:00:2021-06-04T21:57:07.8263314-06:00:Thread#0:T:Line 102
+2021-06-04T21:57:08.0064729-06:00:2021-06-04T21:57:08.0054723-06:00:Thread#0:T:Parsing: !props irishjohngames from: user335
+2021-06-04T21:57:08.0279866-06:00:2021-06-04T21:57:08.0259867-06:00:Thread#0:T:Line 103
+2021-06-04T21:57:13.2292940-06:00:2021-06-04T21:57:13.2262938-06:00:Thread#0:T:Line 104
+2021-06-04T21:57:13.3539142-06:00:2021-06-04T21:57:13.3529142-06:00:Thread#0:T:Parsing: !irishjohngames from: user335
+2021-06-04T21:57:16.4489652-06:00:2021-06-04T21:57:16.4479649-06:00:Thread#0:T:Line 105
+2021-06-04T21:57:16.6456012-06:00:2021-06-04T21:57:16.6446013-06:00:Thread#0:T:Parsing: great thank you.
+2021-06-04T21:57:16.6486013-06:00:2021-06-04T21:57:16.6476016-06:00:Thread#0:T:got some playtests done, great feedback so far. getting close! from: irishjohngames
+2021-06-04T21:57:31.2339478-06:00:2021-06-04T21:57:31.2319473-06:00:Thread#0:T:Line 106
+2021-06-04T21:57:31.3639767-06:00:2021-06-04T21:57:31.3629772-06:00:Thread#0:T:Parsing: thats fantastic man. from: irishjohngames
+2021-06-04T21:57:44.0346706-06:00:2021-06-04T21:57:44.0336703-06:00:Thread#0:T:Line 107
+2021-06-04T21:57:44.1556981-06:00:2021-06-04T21:57:44.1546979-06:00:Thread#0:T:Parsing: !irishjohn from: rabbit_xxxx
+2021-06-04T21:57:48.0256127-06:00:2021-06-04T21:57:48.0246132-06:00:Thread#0:T:Line 108
+2021-06-04T21:57:48.1656436-06:00:2021-06-04T21:57:48.1646442-06:00:Thread#0:T:Parsing: always wondered how selenium works. from: irishjohngames
+2021-06-04T21:57:57.2416160-06:00:2021-06-04T21:57:57.2406149-06:00:Thread#0:T:Line 109
+2021-06-04T21:57:57.3818185-06:00:2021-06-04T21:57:57.3808176-06:00:Thread#0:T:Parsing: its interesting it needs a browser. from: irishjohngames
+2021-06-04T21:58:06.6273151-06:00:2021-06-04T21:58:06.6263160-06:00:Thread#0:T:Line 110
+2021-06-04T21:58:06.7723655-06:00:2021-06-04T21:58:06.7693640-06:00:Thread#0:T:Parsing: nono, don't sidetrack on my account from: irishjohngames
+2021-06-04T21:58:21.8843816-06:00:2021-06-04T21:58:21.8833820-06:00:Thread#0:T:Line 111
+2021-06-04T21:58:22.1294374-06:00:2021-06-04T21:58:22.1284360-06:00:Thread#0:T:Parsing: thats cool that it reads html or whatever from a window. from: irishjohngames
+2021-06-04T21:58:31.6483271-06:00:2021-06-04T21:58:31.6473347-06:00:Thread#0:T:Line 112
+2021-06-04T21:58:31.8083637-06:00:2021-06-04T21:58:31.8063643-06:00:Thread#0:T:Parsing: i thought i had adblock on from: rabbit_xxxx
+2021-06-04T21:58:42.4717881-06:00:2021-06-04T21:58:42.4687879-06:00:Thread#0:T:Line 113
+2021-06-04T21:58:42.6289232-06:00:2021-06-04T21:58:42.6279240-06:00:Thread#0:T:Parsing:  from: irishjohngames
+2021-06-04T21:58:48.6695821-06:00:2021-06-04T21:58:48.6646248-06:00:Thread#0:T:Line 114
+2021-06-04T21:58:48.8076701-06:00:2021-06-04T21:58:48.8076701-06:00:Thread#0:T:Parsing: #selenium #ad from: rabbit_xxxx
+2021-06-04T21:59:32.4567712-06:00:2021-06-04T21:59:32.4547717-06:00:Thread#0:T:Line 115
+2021-06-04T21:59:32.6498138-06:00:2021-06-04T21:59:32.6488143-06:00:Thread#0:T:Parsing: miss those days that people just walk on the street without looking at a cellphone or something from: sky_acaniadev
+2021-06-04T21:59:39.8442594-06:00:2021-06-04T21:59:39.8402590-06:00:Thread#0:T:Line 116
+2021-06-04T21:59:39.9912931-06:00:2021-06-04T21:59:39.9912931-06:00:Thread#0:T:Parsing: arse man. total arse. from: irishjohngames
+2021-06-04T22:00:16.4750601-06:00:2021-06-04T22:00:16.4680634-06:00:Thread#0:T:Line 117
+2021-06-04T22:00:16.6211717-06:00:2021-06-04T22:00:16.6191712-06:00:Thread#0:T:Parsing: brb from: sky_acaniadev
+2021-06-04T22:02:30.6825582-06:00:2021-06-04T22:02:30.6805601-06:00:Thread#0:T:Line 118
+2021-06-04T22:02:30.8416765-06:00:2021-06-04T22:02:30.8341578-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-04T22:02:50.6323039-06:00:2021-06-04T22:02:50.6243033-06:00:Thread#0:T:Line 119
+2021-06-04T22:02:51.0333977-06:00:2021-06-04T22:02:51.0323929-06:00:Thread#0:T:Parsing: back from: sky_acaniadev
+2021-06-04T22:02:56.7034060-06:00:2021-06-04T22:02:56.7014046-06:00:Thread#0:T:Line 120
+2021-06-04T22:02:57.1576382-06:00:2021-06-04T22:02:57.1541223-06:00:Thread#0:T:Parsing: bye from: dstew99
+2021-06-04T22:02:57.4212916-06:00:2021-06-04T22:02:57.4202924-06:00:Thread#0:T:Line 121
+2021-06-04T22:02:57.5813492-06:00:2021-06-04T22:02:57.5803492-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-06-04T22:02:57.9974677-06:00:2021-06-04T22:02:57.9954667-06:00:Thread#0:T:Line 122
+2021-06-04T22:02:59.6303692-06:00:2021-06-04T22:02:59.6293691-06:00:Thread#0:T:Line 123
+2021-06-04T22:02:59.9754484-06:00:2021-06-04T22:02:59.9744478-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-06-04T22:03:00.2125023-06:00:2021-06-04T22:03:00.2115031-06:00:Thread#0:T:Line 124
+2021-06-04T22:03:03.4334347-06:00:2021-06-04T22:03:03.4324332-06:00:Thread#0:T:Line 125
+2021-06-04T22:03:03.6434834-06:00:2021-06-04T22:03:03.6394818-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-06-04T22:03:03.6754890-06:00:2021-06-04T22:03:03.6734884-06:00:Thread#0:T:Line 126
+2021-06-04T22:03:06.6556748-06:00:2021-06-04T22:03:06.6546749-06:00:Thread#0:T:Line 127
+2021-06-04T22:03:07.0037538-06:00:2021-06-04T22:03:07.0017534-06:00:Thread#0:T:Parsing: thanks for the stream from: sky_acaniadev
+2021-06-05T01:50:35.5189006-06:00:2021-06-05T01:50:35.5169005-06:00:Thread#0:T:Line 128

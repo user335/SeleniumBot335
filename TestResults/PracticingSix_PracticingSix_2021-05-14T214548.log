@@ -1,0 +1,115 @@
+﻿2021-05-14T21:45:48.6533322-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-14T21:45:48.6533322-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-14T21:45:48.6533322-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-14T21:45:48.6533322-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-14T21:45:48.8574256-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-14T21:45:48.8574256-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-14T21:45:48.8574256-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-14T21:45:48.9274545-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-14T214548.log
+2021-05-14T21:45:48.9389652-06:00;Thread#13;Info;Checking activation
+2021-05-14T21:45:49.0455383-06:00;Thread#13;Info;Activated.
+2021-05-14T21:45:49.0455383-06:00;Thread#13;Info;Activation check completed
+2021-05-14T21:45:49.0465385-06:00;Thread#13;Info;Starting test run
+2021-05-14T21:45:49.0996166-06:00;Thread#13;Info;Discovering target: Default
+2021-05-14T21:45:49.0996166-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-14T21:45:49.5684492-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-14T21:45:49.5699579-06:00:Test Suite Dump
+2021-05-14T21:45:49.5729596-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-14T21:45:49.5729596-06:00:#1: Default - 
+2021-05-14T21:45:49.5729596-06:00:#2: PracticingSix - 
+2021-05-14T21:45:49.5729596-06:00:#3: EyeOfTheTiger - 
+2021-05-14T21:45:49.6249892-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-14T21:45:49.6249892-06:00:End: Test Suite Dump
+2021-05-14T21:45:49.6900439-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-14T21:45:49.6930460-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-14T21:45:49.6930460-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-14T21:45:49.7025590-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-14T21:45:49.7025590-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-14T21:45:49.7025590-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-14T21:45:49.7025590-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-14T21:45:49.7055601-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-14T21:45:49.7075587-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-14T21:45:49.7075587-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-14T21:45:49.7075587-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-14T21:45:49.7075587-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-14T21:45:49.7075587-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-14T21:45:49.7115608-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-14T21:45:49.7125598-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-14T21:45:49.7155605-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-14T21:45:49.7185622-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-14T21:45:49.7215615-06:00:starting Out Of Process Executor
+2021-05-14T21:45:49.7285637-06:00:Starting callback TCP Rpc server
+2021-05-14T21:45:49.7635923-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-14T21:45:49.7635923-06:00:Started callback TCP Rpc server on port 32768
+2021-05-14T21:45:49.7635923-06:00:Starting logger TCP Rpc server
+2021-05-14T21:45:49.7831040-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-14T21:45:49.7831040-06:00:Started logger TCP Rpc server on port 32769
+2021-05-14T21:45:49.7911063-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 28144 --uniqueId "2021-05-14T214548" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-14T21:45:49.7961068-06:00:Executor with PID 29668 has been started successfully.
+2021-05-14T21:45:49.8006203-06:00:Out of Process Executor 29668 started
+2021-05-14T21:45:49.8006203-06:00:Waiting for endpoint
+2021-05-14T21:45:50.4425019-06:00:Remote executor port received: 32770
+2021-05-14T21:45:50.4434998-06:00:Creating executor TCP client on port 32770
+2021-05-14T21:45:50.4434998-06:00:Created executor TCP client on port 32770
+2021-05-14T21:45:50.4434998-06:00:Connecting to remote executor TCP server
+2021-05-14T21:45:50.4434998-06:00:Connected remote executor TCP server
+2021-05-14T21:45:50.4434998-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-14T21:45:50.4434998-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-14T21:45:50.6486469-06:00:2021-05-14T21:45:50.6466456-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-05-14T21:45:50.6561580-06:00:Endpoint 29668 started
+2021-05-14T21:45:50.6796756-06:00:2021-05-14T21:45:50.6786758-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-14T21:45:51.0939365-06:00:2021-05-14T21:45:51.0939365-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-14T21:45:51.1019366-06:00:2021-05-14T21:45:51.1019366-06:00:Thread#0:T:-> Using default config
+2021-05-14T21:45:51.9149109-06:00:2021-05-14T21:45:51.9149109-06:00:Thread#0:T:Starting the driver...
+2021-05-14T21:45:54.6562295-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-05-14T21:45:54.7102419-06:00:2021-05-14T21:45:54.7022391-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-14T21:46:03.9693784-06:00:2021-05-14T21:46:03.9683779-06:00:Thread#0:T:Playing!
+2021-05-14T21:46:04.3934744-06:00:2021-05-14T21:46:04.3924749-06:00:Thread#0:T:sendkeys arrowdown didn't work
+2021-05-14T21:46:04.3954743-06:00:2021-05-14T21:46:04.3954743-06:00:Thread#0:T:Loop: 0
+2021-05-14T21:46:09.8997193-06:00:2021-05-14T21:46:09.8987191-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-05-14T21:46:12.8660785-06:00:2021-05-14T21:46:12.8660785-06:00:Thread#0:T:Finished logging in
+2021-05-14T21:50:15.9211632-06:00:2021-05-14T21:50:15.9201623-06:00:Thread#0:T:error: no such window: window was already closed
+2021-05-14T21:50:15.9221635-06:00:2021-05-14T21:50:15.9221635-06:00:Thread#0:T:  (Session info: chrome=90.0.4430.212)
+2021-05-14T21:50:15.9261632-06:00:2021-05-14T21:50:15.9261632-06:00:Thread#0:B:Then I get what I need
+2021-05-14T21:50:15.9271641-06:00:2021-05-14T21:50:15.9271641-06:00:Thread#0:T:skipped because of previous errors
+2021-05-14T21:50:15.9601721-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-14T21:50:15.9601721-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-14T21:50:15.9601721-06:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-05-14T21:50:15.9601721-06:00:Thread#0:Scheduler: No more tests for thread
+2021-05-14T21:50:16.0231855-06:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 261.3659552 seconds
+2021-05-14T21:50:16.0311875-06:00:2021-05-14T21:50:16.0311875-06:00:Got Deinitialize Signal
+2021-05-14T21:50:16.0351880-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-05-14T21:50:16.0361895-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-14T21:50:16.0371896-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-05-14T21:50:16.0401905-06:00:Trying to cancel thread
+2021-05-14T21:50:16.0401905-06:00:Thread cancelled
+2021-05-14T21:50:16.0401905-06:00:Trying to cancel thread
+2021-05-14T21:50:16.0401905-06:00:Thread cancelled
+2021-05-14T21:50:16.0471912-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-05-14T21:50:16.0471912-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-14T21:50:16.0471912-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-05-14T21:50:16.0491910-06:00;Thread#13;Info;test run finished
+2021-05-14T21:50:16.0501928-06:00;Thread#13;Info;publishing test results
+2021-05-14T21:50:16.0601946-06:00;Thread#13;Info;test results published
+2021-05-14T21:50:16.0601946-06:00;Thread#13;Info;generating reports
+2021-05-14T21:50:16.2202319-06:00;Thread#13;Info;Starting external report generation process
+2021-05-14T21:50:17.3704914-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-05-14T21:50:17.3714913-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-05-14T21:50:17.3714913-06:00;Thread#13;Info;Failed generating reports
+2021-05-14T21:50:17.3834944-06:00:Total: 1
+2021-05-14T21:50:17.3854948-06:00:Succeeded: 0
+2021-05-14T21:50:17.3864949-06:00:Ignored: 0
+2021-05-14T21:50:17.3874942-06:00:Pending: 0
+2021-05-14T21:50:17.3874942-06:00:Skipped: 0
+2021-05-14T21:50:17.3884951-06:00:Failed: 1
+2021-05-14T21:50:17.4074985-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

@@ -1,0 +1,156 @@
+﻿2021-06-22T22:22:12.2862477-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-22T22:22:12.2862477-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-22T22:22:12.2862477-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-22T22:22:12.2862477-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-22T22:22:12.6283257-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-22T22:22:12.6323260-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-22T22:22:12.6343266-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-22T22:22:12.6993416-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-22T222212.log
+2021-06-22T22:22:12.7093432-06:00;Thread#15;Info;Checking activation
+2021-06-22T22:22:12.9403945-06:00;Thread#15;Info;Activated.
+2021-06-22T22:22:12.9433976-06:00;Thread#15;Info;Activation check completed
+2021-06-22T22:22:12.9473978-06:00;Thread#15;Info;Starting test run
+2021-06-22T22:22:13.0044183-06:00;Thread#15;Info;Discovering target: Default
+2021-06-22T22:22:13.0074098-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-22T22:22:13.6565561-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-22T22:22:13.6605569-06:00:Test Suite Dump
+2021-06-22T22:22:13.6625578-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-22T22:22:13.6625578-06:00:#1: Default - 
+2021-06-22T22:22:13.6625578-06:00:#2: PracticingSix - 
+2021-06-22T22:22:13.6625578-06:00:#5: Twitch Bot! - 
+2021-06-22T22:22:13.7095680-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-22T22:22:13.7095680-06:00:End: Test Suite Dump
+2021-06-22T22:22:13.7555876-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-22T22:22:13.7575808-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-22T22:22:13.7575808-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-22T22:22:13.7635811-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-22T22:22:13.7645805-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-22T22:22:13.7645805-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-22T22:22:13.7645805-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-22T22:22:13.7655806-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-22T22:22:13.7665810-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-22T22:22:13.7665810-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-22T22:22:13.7665810-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-22T22:22:13.7665810-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-22T22:22:13.7665810-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-22T22:22:13.7685814-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-22T22:22:13.7715842-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-22T22:22:13.7795843-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-22T22:22:13.7815935-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-22T22:22:13.7835859-06:00:starting Out Of Process Executor
+2021-06-22T22:22:13.7995895-06:00:Starting callback TCP Rpc server
+2021-06-22T22:22:13.8225940-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-22T22:22:13.8225940-06:00:Started callback TCP Rpc server on port 32768
+2021-06-22T22:22:13.8225940-06:00:Starting logger TCP Rpc server
+2021-06-22T22:22:13.8355968-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-22T22:22:13.8355968-06:00:Started logger TCP Rpc server on port 32769
+2021-06-22T22:22:13.8455994-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-06-22T22:22:14.0416439-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-06-22T22:22:14.0726501-06:00:Out of Process Executor 25332 started
+2021-06-22T22:22:14.0726501-06:00:Waiting for endpoint
+2021-06-22T22:22:14.7127947-06:00:Remote executor port received: 32770
+2021-06-22T22:22:14.7137949-06:00:Creating executor TCP client on port 32770
+2021-06-22T22:22:14.7137949-06:00:Created executor TCP client on port 32770
+2021-06-22T22:22:14.7137949-06:00:Connecting to remote executor TCP server
+2021-06-22T22:22:14.7148039-06:00:Connected remote executor TCP server
+2021-06-22T22:22:14.7148039-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-22T22:22:14.7148039-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-22T22:22:14.9218420-06:00:2021-06-22T22:22:14.9188418-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-22T22:22:14.9298459-06:00:Endpoint 25332 started
+2021-06-22T22:22:14.9548501-06:00:2021-06-22T22:22:14.9548501-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-22T22:22:15.3719453-06:00:2021-06-22T22:22:15.3699432-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-22T22:22:15.3859479-06:00:2021-06-22T22:22:15.3849468-06:00:Thread#0:T:-> Using default config
+2021-06-22T22:22:16.2046407-06:00:2021-06-22T22:22:16.2036410-06:00:Thread#0:T:Starting the driver...
+2021-06-22T22:22:17.8585258-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-22T22:22:17.9155374-06:00:2021-06-22T22:22:17.9135378-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-22T22:22:17.9805528-06:00:2021-06-22T22:22:17.9795524-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-22T22:22:17.9885543-06:00:2021-06-22T22:22:17.9845550-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-22T22:22:20.6557823-06:00:2021-06-22T22:22:20.6457801-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.7s)
+2021-06-22T22:22:20.6597837-06:00:2021-06-22T22:22:20.6587836-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-22T22:22:26.5242671-06:00:2021-06-22T22:22:26.5222662-06:00:Thread#0:T:Line 1
+2021-06-22T22:22:26.6272902-06:00:2021-06-22T22:22:26.6252897-06:00:Thread#0:T:Parsing: test from: user335
+2021-06-22T22:22:26.6422931-06:00:2021-06-22T22:22:26.6412929-06:00:Thread#0:T:Eyy, its user335!
+2021-06-22T22:22:26.6572965-06:00:2021-06-22T22:22:26.6562957-06:00:Thread#0:T:clip played the old boring way, duration was: 0.6
+2021-06-22T22:22:35.9546039-06:00:2021-06-22T22:22:35.9526046-06:00:Thread#0:T:Line 2
+2021-06-22T22:22:36.0851445-06:00:2021-06-22T22:22:36.0841446-06:00:Thread#0:T:Parsing:  from: irishjohngames
+2021-06-22T22:22:36.0936558-06:00:2021-06-22T22:22:36.0896536-06:00:Thread#0:T:Eyy, its irishjohngames!
+2021-06-22T22:22:36.0991655-06:00:2021-06-22T22:22:36.0966554-06:00:Thread#0:T:clip played the old boring way, duration was: 3
+2021-06-22T22:22:40.7089650-06:00:2021-06-22T22:22:40.7079653-06:00:Thread#0:T:Line 3
+2021-06-22T22:22:40.8069897-06:00:2021-06-22T22:22:40.8039861-06:00:Thread#0:T:Parsing: amazing. from: irishjohngames
+2021-06-22T22:22:51.3266778-06:00:2021-06-22T22:22:51.3256764-06:00:Thread#0:T:Line 4
+2021-06-22T22:22:51.4347020-06:00:2021-06-22T22:22:51.4337022-06:00:Thread#0:T:Parsing: test from: almightygamesdev
+2021-06-22T22:22:51.4427053-06:00:2021-06-22T22:22:51.4407042-06:00:Thread#0:T:Eyy, its almightygamesdev!
+2021-06-22T22:22:51.4457045-06:00:2021-06-22T22:22:51.4447047-06:00:Thread#0:T:Found 2 clips for user almightygamesdev and rolled clip #: 1
+2021-06-22T22:22:51.4487050-06:00:2021-06-22T22:22:51.4477046-06:00:Thread#0:T:clip played the old boring way, duration was: 3
+2021-06-22T22:23:22.7450417-06:00:2021-06-22T22:23:22.7420404-06:00:Thread#0:T:Line 5
+2021-06-22T22:23:22.8600663-06:00:2021-06-22T22:23:22.8590670-06:00:Thread#0:T:Parsing: amazing bud. from: irishjohngames
+2021-06-22T22:23:29.9222489-06:00:2021-06-22T22:23:29.9202507-06:00:Thread#0:T:Line 6
+2021-06-22T22:23:30.0472762-06:00:2021-06-22T22:23:30.0462761-06:00:Thread#0:T:Parsing: why does all of the metadata on this file you sent me say "eye of the tiger --"? from: rabbit_xxxx
+2021-06-22T22:23:30.0522783-06:00:2021-06-22T22:23:30.0512783-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-06-22T22:23:30.0582795-06:00:2021-06-22T22:23:30.0562788-06:00:Thread#0:T:clip played the old boring way, duration was: 3
+2021-06-22T22:23:52.7406172-06:00:2021-06-22T22:23:52.7396164-06:00:Thread#0:T:Line 7
+2021-06-22T22:23:52.8446418-06:00:2021-06-22T22:23:52.8416406-06:00:Thread#0:T:Parsing: that makes no sense from: rabbit_xxxx
+2021-06-22T22:24:01.5237887-06:00:2021-06-22T22:24:01.5227887-06:00:Thread#0:T:Line 8
+2021-06-22T22:24:01.6598205-06:00:2021-06-22T22:24:01.6588189-06:00:Thread#0:T:Parsing: did you use audacity or something from: rabbit_xxxx
+2021-06-22T22:24:20.1738061-06:00:2021-06-22T22:24:20.1708057-06:00:Thread#0:T:Line 9
+2021-06-22T22:24:20.3048740-06:00:2021-06-22T22:24:20.2948709-06:00:Thread#0:T:Parsing: maybe you forgot to change the stuff when it exports from: rabbit_xxxx
+2021-06-22T22:24:37.1382419-06:00:2021-06-22T22:24:37.1332409-06:00:Thread#0:T:Line 10
+2021-06-22T22:24:37.2837861-06:00:2021-06-22T22:24:37.2762727-06:00:Thread#0:T:Parsing: don't worry about it, i was just curious from: rabbit_xxxx
+2021-06-22T22:24:40.1549646-06:00:2021-06-22T22:24:40.1539658-06:00:Thread#0:T:Line 11
+2021-06-22T22:24:40.2869936-06:00:2021-06-22T22:24:40.2859941-06:00:Thread#0:T:Parsing: its 5:30 am almost. imma lurk and probably pass out
+2021-06-22T22:24:40.2899978-06:00:2021-06-22T22:24:40.2879941-06:00:Thread#0:T:see you wonderful people again soon! from: irishjohngames
+2021-06-22T22:24:56.7781307-06:00:2021-06-22T22:24:56.7741311-06:00:Thread#0:T:Line 12
+2021-06-22T22:24:56.9026867-06:00:2021-06-22T22:24:56.8991752-06:00:Thread#0:T:Parsing: good to see ya @irishjohngames from: almightygamesdev
+2021-06-22T22:24:57.3140096-06:00:2021-06-22T22:24:57.3130103-06:00:Thread#0:T:Line 13
+2021-06-22T22:24:57.3940653-06:00:2021-06-22T22:24:57.3930651-06:00:Thread#0:T:Parsing: !props irishjohngames from: user335
+2021-06-22T22:24:57.5281658-06:00:2021-06-22T22:24:57.5261657-06:00:Thread#0:T:Line 14
+2021-06-22T22:27:24.6318255-06:00:2021-06-22T22:27:24.6288258-06:00:Thread#0:T:Line 15
+2021-06-22T22:27:24.9253982-06:00:2021-06-22T22:27:24.8993924-06:00:Thread#0:T:Parsing: apparently that file has a strange chunk from: rabbit_xxxx
+2021-06-22T22:27:36.9928676-06:00:2021-06-22T22:27:36.9628610-06:00:Thread#0:T:Line 16
+2021-06-22T22:27:37.4029605-06:00:2021-06-22T22:27:37.3969595-06:00:Thread#0:T:Parsing: gotta put logic in to handle unexpected chunk types from: rabbit_xxxx
+2021-06-22T22:27:47.6346580-06:00:2021-06-22T22:27:47.6336578-06:00:Thread#0:T:Line 17
+2021-06-22T22:27:47.8827435-06:00:2021-06-22T22:27:47.8597388-06:00:Thread#0:T:Parsing: not that simple unfortunately from: rabbit_xxxx
+2021-06-22T22:28:02.9233426-06:00:2021-06-22T22:28:02.9223427-06:00:Thread#0:T:Line 18
+2021-06-22T22:28:03.0193645-06:00:2021-06-22T22:28:03.0183639-06:00:Thread#0:T:Parsing: chunks have different types of data in them from: rabbit_xxxx
+2021-06-22T22:28:10.1509927-06:00:2021-06-22T22:28:10.1499953-06:00:Thread#0:T:Line 19
+2021-06-22T22:28:10.2830219-06:00:2021-06-22T22:28:10.2790223-06:00:Thread#0:T:Parsing: there is a data chunk, that is the one that has the audio from: rabbit_xxxx
+2021-06-22T22:28:18.9564896-06:00:2021-06-22T22:28:18.9544880-06:00:Thread#0:T:Line 20
+2021-06-22T22:28:19.1055229-06:00:2021-06-22T22:28:19.1015210-06:00:Thread#0:T:Parsing: but you have to read all the other chunks to get to that from: rabbit_xxxx
+2021-06-22T22:29:04.3431496-06:00:2021-06-22T22:29:04.3406413-06:00:Thread#0:T:Line 21
+2021-06-22T22:29:04.4608327-06:00:2021-06-22T22:29:04.4588324-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-22T22:30:08.2193598-06:00:2021-06-22T22:30:08.2173586-06:00:Thread#0:T:Line 22
+2021-06-22T22:30:08.3503879-06:00:2021-06-22T22:30:08.3493885-06:00:Thread#0:T:Parsing: very from: rabbit_xxxx
+2021-06-22T22:30:16.1587044-06:00:2021-06-22T22:30:16.1547026-06:00:Thread#0:T:Line 23
+2021-06-22T22:30:16.3277988-06:00:2021-06-22T22:30:16.3257988-06:00:Thread#0:T:Parsing: they use a lot of external libraries though i'm sure from: rabbit_xxxx
+2021-06-22T22:33:44.9919085-06:00:2021-06-22T22:33:44.8978877-06:00:Thread#0:T:Line 24
+2021-06-22T22:33:45.8441207-06:00:2021-06-22T22:33:45.7150927-06:00:Thread#0:T:Parsing: alright, i'm out. good night guys from: almightygamesdev
+2021-06-22T22:33:50.8704549-06:00:2021-06-22T22:33:50.8594528-06:00:Thread#0:T:Line 25
+2021-06-22T22:33:51.5926173-06:00:2021-06-22T22:33:51.4045750-06:00:Thread#0:T:Parsing: i'm fixing it from: rabbit_xxxx
+2021-06-22T22:33:55.1530755-06:00:2021-06-22T22:33:55.1520761-06:00:Thread#0:T:Line 26
+2021-06-22T22:33:55.4777359-06:00:2021-06-22T22:33:55.4747354-06:00:Thread#0:T:Parsing: !almightygamesdev from: user335
+2021-06-22T22:33:55.7377948-06:00:2021-06-22T22:33:55.7357938-06:00:Thread#0:T:Line 27
+2021-06-22T22:34:41.3271593-06:00:2021-06-22T22:34:41.3261598-06:00:Thread#0:T:Line 28
+2021-06-22T22:34:41.4441850-06:00:2021-06-22T22:34:41.4421865-06:00:Thread#0:T:Parsing: !user335 from: almightygamesdev
+2021-06-22T22:34:41.5272047-06:00:2021-06-22T22:34:41.5232047-06:00:Thread#0:T:Line 29
+2021-06-22T22:35:09.1398177-06:00:2021-06-22T22:35:09.1378173-06:00:Thread#0:T:Line 30
+2021-06-22T22:35:09.2469698-06:00:2021-06-22T22:35:09.2459689-06:00:Thread#0:T:Parsing: error is before it ever gets to that point from: rabbit_xxxx
+2021-06-22T22:35:22.3497176-06:00:2021-06-22T22:35:22.3487179-06:00:Thread#0:T:Line 31
+2021-06-22T22:35:22.4677445-06:00:2021-06-22T22:35:22.4667452-06:00:Thread#0:T:Parsing: in wavereader from: rabbit_xxxx
+2021-06-22T22:35:42.5276416-06:00:2021-06-22T22:35:42.5266407-06:00:Thread#0:T:Line 32
+2021-06-22T22:35:42.6476683-06:00:2021-06-22T22:35:42.6466685-06:00:Thread#0:T:Parsing: scroll down from: rabbit_xxxx
+2021-06-22T22:35:47.7820838-06:00:2021-06-22T22:35:47.7800823-06:00:Thread#0:T:Line 33
+2021-06-22T22:35:47.9411186-06:00:2021-06-22T22:35:47.9401182-06:00:Thread#0:T:Parsing: see readchunk from: rabbit_xxxx
+2021-06-22T22:35:53.3258895-06:00:2021-06-22T22:35:53.3248885-06:00:Thread#0:T:Line 34
+2021-06-22T22:35:53.4375097-06:00:2021-06-22T22:35:53.4355084-06:00:Thread#0:T:Parsing: all those chunk types in the switch statement from: rabbit_xxxx
+2021-06-22T22:35:59.3774890-06:00:2021-06-22T22:35:59.3764908-06:00:Thread#0:T:Line 35
+2021-06-22T22:35:59.4875143-06:00:2021-06-22T22:35:59.4865147-06:00:Thread#0:T:Parsing: that file has an unknown chunk type from: rabbit_xxxx
+2021-06-22T22:39:35.3813907-06:00:2021-06-22T22:39:35.3133759-06:00:Thread#0:T:Line 36
+2021-06-22T22:39:36.8577520-06:00:2021-06-22T22:39:36.7797344-06:00:Thread#0:T:Parsing: i fixed it from: rabbit_xxxx
+2021-06-22T22:40:19.5430180-06:00:2021-06-22T22:40:19.5410185-06:00:Thread#0:T:Line 37
+2021-06-22T22:40:19.7000519-06:00:2021-06-22T22:40:19.6910518-06:00:Thread#0:T:Parsing: about to push from: rabbit_xxxx
+2021-06-22T22:41:07.9577364-06:00:2021-06-22T22:41:07.9537342-06:00:Thread#0:T:Line 38
+2021-06-22T22:41:08.0907656-06:00:2021-06-22T22:41:08.0857640-06:00:Thread#0:T:Parsing: it's pushed from: rabbit_xxxx
+2021-06-22T22:42:00.5704806-06:00:2021-06-22T22:42:00.5674791-06:00:Thread#0:T:Line 39
+2021-06-22T22:42:00.7125113-06:00:2021-06-22T22:42:00.7095103-06:00:Thread#0:T:Parsing: wavhello_nf from: rabbit_xxxx
+2021-06-22T22:42:48.7628103-06:00:2021-06-22T22:42:48.7598097-06:00:Thread#0:T:Line 40
+2021-06-22T22:42:48.9388507-06:00:2021-06-22T22:42:48.9298500-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx

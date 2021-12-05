@@ -1,0 +1,310 @@
+
+-> -> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+-> -> Using default config
+-> Starting the driver...
+
+Given I want a Twitch Bot running in Selenium just for the heck of it
+-> done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+
+When I send a browser to snoop on my own chat channel
+-> done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.1s)
+
+Then my Twitch Bot lives!
+-> Line 1
+-> Parsing: pop from: mrnoah99
+-> Eyy, its mrnoah99!
+-> Line 2
+-> Line 3
+-> Parsing: stream echo again from: mrnoah99
+-> Line 6
+-> Parsing: hi from singapore from: bhamadicharef
+-> Line 6
+-> Parsing: you feel ok to have hard coded values in your code ? i usually have them all in an header from: bhamadicharef
+-> Line 6
+-> Parsing: during debug from: bhamadicharef
+-> Line 7
+-> Parsing: yeah from: bhamadicharef
+-> Line 8
+-> Parsing: knock knock from: dstew99
+-> Eyy, its dstew99!
+-> Line 9
+-> Line 10
+-> Parsing: !spherous from: user335
+-> Line 11
+-> Line 12
+-> Parsing: doing well from: spherous
+-> Line 13
+-> Parsing: working on ml ai from: spherous
+-> Line 14
+-> Parsing: yeah from: spherous
+-> Line 15
+-> Parsing: that's not hexachessagon though from: spherous
+-> Line 16
+-> Parsing: lol from: spherous
+-> Line 17
+-> Parsing: hexachessagon isn't finished. i'm working on the ai for it from: spherous
+-> Line 18
+-> Parsing: heh. well hexachessagon has match making, so anytime you want to play, let me know from: spherous
+-> Line 19
+-> Parsing: frostpunk is sooooo good from: spherous
+-> Line 20
+-> Parsing: great game from: spherous
+-> Line 21
+-> Parsing: dude that game is hard af on the easy mode even from: spherous
+-> Line 22
+-> Parsing: lol from: spherous
+-> Line 23
+-> Parsing: wood chips in the soup from: spherous
+-> Line 24
+-> Parsing: it really tackles morality in an interesting way from: spherous
+-> Line 25
+-> Parsing:  from: sky_acaniadev
+-> Eyy, its sky_acaniadev!
+-> Line 26
+-> Parsing: just took a cold shower to cool myself a little bit from: sky_acaniadev
+-> Line 27
+-> Parsing: probably another one from: sky_acaniadev
+-> Line 28
+-> Parsing: oh the fan is so old from: sky_acaniadev
+-> Line 29
+-> Parsing: otherwise i should be fine from: sky_acaniadev
+-> Line 30
+-> Parsing: but the fan in my room barely produces any perceivable wind... from: sky_acaniadev
+-> Line 31
+-> Parsing: ceiling fan from: sky_acaniadev
+-> Line 32
+-> Parsing: plug it in. it works better from: dstew99
+-> Line 33
+-> Parsing: no backwards from: sky_acaniadev
+-> Line 34
+-> Parsing: just too weak from: sky_acaniadev
+-> Line 35
+-> Parsing: i have to feel the wind by placing my hand right beneath it. from: sky_acaniadev
+-> Line 36
+-> Parsing: hello from: rabbit_xxxx
+-> Eyy, its rabbit_xxxx!
+-> Line 37
+-> Parsing:  from: pflanzenritter29
+-> Line 38
+-> Parsing: i'm okay i guess, how about you? from: rabbit_xxxx
+-> Line 39
+-> Parsing:  from: rabbit_xxxx
+-> Line 40
+-> Parsing:  from: pflanzenritter29
+-> Line 41
+-> Parsing: did you figure out the navmesh graph switching thing? from: rabbit_xxxx
+-> Line 42
+-> Parsing: is it faster? from: rabbit_xxxx
+-> Line 43
+-> Parsing: ah okay from: rabbit_xxxx
+-> Line 44
+-> Parsing: only in the editor at runtime? from: pflanzenritter29
+-> Line 45
+-> Parsing: or even if it's compiled? from: pflanzenritter29
+-> Line 46
+-> Parsing: what should i work on tonight on my game? 🤔 from: sky_acaniadev
+-> Line 47
+-> Parsing: yep from: rabbit_xxxx
+-> Line 48
+-> Parsing: far from finishing it. but i got enough to replace all the old placeholders. from: sky_acaniadev
+-> Line 49
+-> Parsing: public demo is still far. from: sky_acaniadev
+-> Line 50
+-> Parsing: computer says no from: pflanzenritter29
+-> Line 51
+-> Line 52
+-> Parsing: i need someone reasonably good at souls game and monster hunter game to test the pvp balance, and a few players like souls-like or monster hunter games to test pve experiences. but i need to do data persistence and basic steam integration before that. from: sky_acaniadev
+-> Line 53
+-> Parsing: no, i completely rekt previous testers in pvp (except a few) from: sky_acaniadev
+-> Line 54
+-> Parsing: i need those few from: sky_acaniadev
+-> Line 55
+-> Parsing: 1 children from: rabbit_xxxx
+-> Line 56
+-> Parsing: 2 child from: rabbit_xxxx
+-> Line 57
+-> Parsing: well, at least some one likes my weapon and made a meme (i guess): https://media.discordapp.net/attachments/552836727929044993/853002422149709824/1.jpg?width=390&height=487 from: sky_acaniadev
+-> Line 58
+-> Parsing: i just randomly scrolled thru discord where i posted my weapons and found that thing from: sky_acaniadev
+-> Line 59
+-> Parsing: yeah, not me. i was surprised... from: sky_acaniadev
+-> Line 60
+-> Parsing: too hot, i don't want to work on anything... from: sky_acaniadev
+-> Line 61
+-> Parsing: i need to finish the projectile prefabs for all the weapons tho... from: sky_acaniadev
+-> Line 62
+-> Parsing: ah... i am missing pickaxe and axe from: sky_acaniadev
+-> Line 63
+-> Parsing: i mean, i miss 40-ish from: sky_acaniadev
+-> Line 64
+-> Parsing: but i have at least 1 prefab for each major weapon type from: sky_acaniadev
+-> Line 65
+-> Parsing: 40 for all wepaons from: sky_acaniadev
+-> Line 66
+-> Parsing:  from: rabbit_xxxx
+-> Line 67
+-> Parsing: i have enough hammer (5 variants), magic scepter (8 variants), still need a lot of variants for many other weapons (currently only 1 or 2 variants) from: sky_acaniadev
+-> Line 68
+-> Parsing: new invisible type demon, aka a ghost from: rabbit_xxxx
+-> Line 69
+-> Parsing: and more weapon parts for them as well from: sky_acaniadev
+-> Line 70
+-> Parsing:  from: rabbit_xxxx
+-> Line 71
+-> Parsing: yeah, especially crossbows from: sky_acaniadev
+-> Line 72
+-> Parsing: swords and shields have a few parts but not as crazy as crossbows... from: sky_acaniadev
+-> Line 73
+-> Parsing: i need to figure out what parts can i make for bows... currently only the string and bow arms... from: sky_acaniadev
+-> Line 74
+-> Parsing: and a bow wrap from: sky_acaniadev
+-> Line 75
+-> Parsing: and i still need to finish the remaining 4 weapon types: magic staff, summoner book, fist weapon, two-hand polearms (probably after this year tho) from: sky_acaniadev
+-> Line 76
+-> Parsing: does anyone hear music or something? from: dstew99
+-> Line 77
+-> Parsing: yes, probably his son's kidsmusic? from: sky_acaniadev
+-> Line 78
+-> Parsing: maybe from: dstew99
+-> Line 79
+-> Parsing: baby monitor probably... from: sky_acaniadev
+-> Line 80
+-> Parsing: not now tho from: sky_acaniadev
+-> Line 81
+-> Parsing: a while ago from: sky_acaniadev
+-> Line 82
+-> Parsing: i probably should by a standing fan and a sleeping mat from: sky_acaniadev
+-> Line 83
+-> Parsing: concerndoge to the moon concerndoge to the moon concerndoge to the moon from: ccgamedev
+-> Line 84
+-> Parsing: no, i can't use the square fan from: sky_acaniadev
+-> Line 85
+-> Parsing: no place to hold them from: sky_acaniadev
+-> Line 86
+-> Parsing: i like those square fans from: sky_acaniadev
+-> Line 87
+-> Parsing: cheap and effective from: sky_acaniadev
+-> Line 88
+-> Parsing: why do you have a switch statement if all values call the same method? from: ccgamedev
+-> Line 89
+-> Parsing: ah, i didnt notice the differences from: ccgamedev
+-> Line 90
+-> Parsing: uhh yeah sure let me make something real quick from: ccgamedev
+-> Line 91
+-> Parsing: evening @user335! from: bokeh_joe
+-> Line 92
+-> Parsing: oh, i forgot i need to refactor my ai to use panda as well from: sky_acaniadev
+-> Line 93
+-> Parsing: was gonna do some tts thing but maybe some other time. btw ive been doing okay, i have 4 days to get 3 classes to a passing grade so ive been dumping hours into this career presentation about software development from: ccgamedev
+-> Line 94
+-> Parsing: does vs generate the dashed line to show hierarchy for panda script as well? from: sky_acaniadev
+-> Line 95
+-> Parsing: seems not... from: sky_acaniadev
+-> Line 96
+-> Parsing: i would appreciate the tips but its pretty easy right now, i just have to match the criteria and most of it is basic stuff i can look up and put into my own words. required skills, education, and training. outlook for software development careers in the future, etc. from: ccgamedev
+-> Line 97
+-> Parsing: it will definitely be a while till the robots build and program the robots from: ccgamedev
+-> Line 98
+-> Parsing: i am yawning as well... from: sky_acaniadev
+-> Line 99
+-> Parsing: le_alchemist from: sky_acaniadev
+-> Line 100
+-> Parsing: doing unity game jam from: sky_acaniadev
+-> Line 101
+-> Parsing: !discord from: user335
+-> Line 102
+-> Line 103
+-> Parsing: !demo from: user335
+-> Line 104
+-> Line 105
+-> Parsing: !steam from: user335
+-> Line 106
+-> Line 107
+-> Parsing: thanks! bye! from: sky_acaniadev
+-> Line 108
+-> Parsing:  from: sky_acaniadev
+-> Line 109
+-> Parsing: exp gained from: snax_drumstep
+-> Line 110
+-> Parsing: yeppppp from: snax_drumstep
+-> Line 111
+-> Parsing: thats riiight from: snax_drumstep
+-> Line 112
+-> Parsing: or sound effects bank from: snax_drumstep
+-> Line 113
+-> Parsing: lets say u jump and you get 1 of 3 sound effe4cts at random from: streamelements
+-> Line 114
+-> Parsing: yep truuu from: snax_drumstep
+-> Line 115
+-> Parsing: do you like vr? i do too :3 if i get 10+ subscribers, ill start planning a 4 hour vr stream... maybe some "beat saber", "until you fall", or "pistol whip". this is something that i want to be able to do each month. from: streamelements
+-> Line 116
+-> Parsing: nice from: snax_drumstep
+-> Line 117
+-> Parsing: do you enjoy what i'm doing here, wanna see some of my projects before i post em to social media? what about some exclusive break downs of my projects? then join my patreonhttps://www.patreon.com/nicholasross from: snax_drumstep
+-> Line 118
+-> Parsing: xddddd from: snax_drumstep
+-> Line 119
+-> Parsing: lmnaooo from: snax_drumstep
+-> Line 120
+-> Parsing: let em know man from: snax_drumstep
+-> Line 121
+-> Parsing: roast him from: snax_drumstep
+-> Line 122
+-> Parsing: yep from: snax_drumstep
+-> Line 123
+-> Parsing: im an old frog from: streamelements
+-> Line 124
+-> Parsing: kenny is a big alt account andy from: snax_drumstep
+-> Line 125
+-> Parsing: wanna see me sweat and suffer? once i reach 100 followers, ill start planning a 4 hour vr stream... maybe some "beat saber", "until you fall", or "pistol whip" from: snax_drumstep
+-> Line 126
+-> Parsing: yep from: le_alchemist
+-> Line 127
+-> Parsing: best way from: snax_drumstep
+-> Line 128
+-> Parsing: hey :3 from: snax_drumstep
+-> Line 129
+-> Parsing: 2013 holy shit from: snax_drumstep
+-> Line 130
+-> Parsing: pogu og guy from: snax_drumstep
+-> Line 131
+-> Parsing: daaaaaaam from: snax_drumstep
+-> Line 132
+-> Parsing: good times from: snax_drumstep
+-> Line 133
+-> Parsing: youre young still m8 from: snax_drumstep
+-> Line 134
+-> Parsing: fair enough from: snax_drumstep
+-> Line 135
+-> Parsing: im like 28 from: snax_drumstep
+-> Line 136
+-> Parsing: i actually tuend 28 yesterday from: snax_drumstep
+-> Line 137
+-> Parsing: and i dont feel old yet from: snax_drumstep
+-> Line 138
+-> Parsing: 20s are weird man from: snax_drumstep
+-> Line 139
+-> Parsing: yea i see from: snax_drumstep
+-> Line 140
+-> Parsing: its all weird from: snax_drumstep
+-> Line 141
+-> Parsing: were just stuck tying to make sense of it all xd from: snax_drumstep
+-> Line 142
+-> Parsing: !!!! from: snax_drumstep
+-> Line 143
+-> Parsing: hell ye from: snax_drumstep
+-> Line 144
+-> Parsing: credits from: snax_drumstep
+-> Line 145
+-> Parsing: ah ye good idea from: snax_drumstep
+-> Line 146
+-> Parsing: not sure . probably from: snax_drumstep
+-> Line 147
+-> Parsing: sadge from: snax_drumstep
+-> Line 148
+-> Parsing: very niceeee from: snax_drumstep
+-> Line 149
+-> Parsing: ah from: snax_drumstep
+-> Line 150
+-> Parsing: wait what pets? from: snax_drumstep
+-> error: That's the max! Restart this bot or it's done!

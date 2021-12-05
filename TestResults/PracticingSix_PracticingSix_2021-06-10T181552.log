@@ -1,0 +1,115 @@
+﻿2021-06-10T18:15:51.8544883-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-10T18:15:51.8544883-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-10T18:15:51.8544883-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-10T18:15:51.8554897-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-10T18:15:52.0515408-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-10T18:15:52.0555417-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-10T18:15:52.0575413-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-10T18:15:52.1195557-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-10T181552.log
+2021-06-10T18:15:52.1295576-06:00;Thread#15;Info;Checking activation
+2021-06-10T18:15:52.2525867-06:00;Thread#15;Info;Activated.
+2021-06-10T18:15:52.2565865-06:00;Thread#15;Info;Activation check completed
+2021-06-10T18:15:52.2595869-06:00;Thread#15;Info;Starting test run
+2021-06-10T18:15:52.3165998-06:00;Thread#15;Info;Discovering target: Default
+2021-06-10T18:15:52.3206009-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-10T18:15:52.8502819-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-10T18:15:52.8552827-06:00:Test Suite Dump
+2021-06-10T18:15:52.8572842-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-10T18:15:52.8572842-06:00:#1: Default - 
+2021-06-10T18:15:52.8572842-06:00:#2: PracticingSix - 
+2021-06-10T18:15:52.8572842-06:00:#5: Twitch Bot! - 
+2021-06-10T18:15:52.8999373-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-10T18:15:52.8999373-06:00:End: Test Suite Dump
+2021-06-10T18:15:52.9525171-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-10T18:15:52.9545175-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-10T18:15:52.9545175-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-10T18:15:52.9605202-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-10T18:15:52.9605202-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-10T18:15:52.9605202-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-10T18:15:52.9605202-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-10T18:15:52.9615196-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-10T18:15:52.9625202-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-10T18:15:52.9625202-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-10T18:15:52.9625202-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-10T18:15:52.9625202-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-10T18:15:52.9625202-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-10T18:15:52.9665214-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-10T18:15:52.9675223-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-10T18:15:52.9765287-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-10T18:15:52.9785377-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-10T18:15:52.9805288-06:00:starting Out Of Process Executor
+2021-06-10T18:15:52.9945326-06:00:Starting callback TCP Rpc server
+2021-06-10T18:15:53.0095349-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-10T18:15:53.0095349-06:00:Started callback TCP Rpc server on port 32768
+2021-06-10T18:15:53.0095349-06:00:Starting logger TCP Rpc server
+2021-06-10T18:15:53.0125375-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-10T18:15:53.0125375-06:00:Started logger TCP Rpc server on port 32769
+2021-06-10T18:15:53.0205376-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-06-10T18:15:53.0985542-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-06-10T18:15:53.1225689-06:00:Out of Process Executor 16208 started
+2021-06-10T18:15:53.1225689-06:00:Waiting for endpoint
+2021-06-10T18:15:53.7376133-06:00:Remote executor port received: 32770
+2021-06-10T18:15:53.7386122-06:00:Creating executor TCP client on port 32770
+2021-06-10T18:15:53.7386122-06:00:Created executor TCP client on port 32770
+2021-06-10T18:15:53.7386122-06:00:Connecting to remote executor TCP server
+2021-06-10T18:15:53.7396122-06:00:Connected remote executor TCP server
+2021-06-10T18:15:53.7396122-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-10T18:15:53.7396122-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-10T18:15:53.9500042-06:00:2021-06-10T18:15:53.9490048-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-10T18:15:53.9580063-06:00:Endpoint 16208 started
+2021-06-10T18:15:53.9850130-06:00:2021-06-10T18:15:53.9840131-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-10T18:15:54.4176456-06:00:2021-06-10T18:15:54.4166458-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-10T18:15:54.4316486-06:00:2021-06-10T18:15:54.4306492-06:00:Thread#0:T:-> Using default config
+2021-06-10T18:15:55.3070706-06:00:2021-06-10T18:15:55.3060712-06:00:Thread#0:T:Starting the driver...
+2021-06-10T18:15:56.9632314-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-10T18:15:57.0092411-06:00:2021-06-10T18:15:57.0072417-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-10T18:15:57.0612544-06:00:2021-06-10T18:15:57.0602529-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-10T18:15:57.0652549-06:00:2021-06-10T18:15:57.0632534-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-10T18:15:58.7956636-06:00:2021-06-10T18:15:58.7936618-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.7s)
+2021-06-10T18:15:58.8006637-06:00:2021-06-10T18:15:58.7986630-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-10T18:28:01.7409615-06:00:2021-06-10T18:28:01.7389620-06:00:Thread#0:T:Line 1
+2021-06-10T18:28:01.8559879-06:00:2021-06-10T18:28:01.8509882-06:00:Thread#0:T:Parsing: wow we early from: hadhacks
+2021-06-10T18:28:12.5518187-06:00:2021-06-10T18:28:12.5508184-06:00:Thread#0:T:Line 2
+2021-06-10T18:28:12.6548419-06:00:2021-06-10T18:28:12.6528410-06:00:Thread#0:T:Parsing: i still love it from: hadhacks
+2021-06-10T18:28:35.7365139-06:00:2021-06-10T18:28:35.7325144-06:00:Thread#0:T:Line 3
+2021-06-10T18:28:35.8535410-06:00:2021-06-10T18:28:35.8485384-06:00:Thread#0:T:Parsing: oh, had one of those 2 sundays ago from: hadhacks
+2021-06-10T18:30:50.3421254-06:00:2021-06-10T18:30:50.3401244-06:00:Thread#0:T:Line 4
+2021-06-10T18:30:50.4616146-06:00:2021-06-10T18:30:50.4586148-06:00:Thread#0:T:Parsing: ours went fine, but the pieces left are still being cleaned from: hadhacks
+2021-06-10T18:32:07.7653261-06:00:2021-06-10T18:32:07.7623245-06:00:Thread#0:T:Line 5
+2021-06-10T18:32:07.8583464-06:00:2021-06-10T18:32:07.8573451-06:00:Thread#0:T:Parsing: the worst is when the compiler doesn't give you what is wrong from: hadhacks
+2021-06-10T18:32:58.5336158-06:00:2021-06-10T18:32:58.5286105-06:00:Thread#0:T:Line 6
+2021-06-10T18:32:58.6306336-06:00:2021-06-10T18:32:58.6296332-06:00:Thread#0:T:Parsing: fun from: hadhacks
+2021-06-10T18:34:32.7496829-06:00:2021-06-10T18:34:32.7426819-06:00:Thread#0:T:Line 7
+2021-06-10T18:34:32.9787346-06:00:2021-06-10T18:34:32.9687317-06:00:Thread#0:T:Parsing: what, do i use emote every sentence? from: hadhacks
+2021-06-10T18:35:15.3647233-06:00:2021-06-10T18:35:15.3547227-06:00:Thread#0:T:Line 8
+2021-06-10T18:35:15.4837500-06:00:2021-06-10T18:35:15.4817495-06:00:Thread#0:T:Parsing: :))))) from: user335
+2021-06-10T18:35:15.4877502-06:00:2021-06-10T18:35:15.4867508-06:00:Thread#0:T:Eyy, its user335!
+2021-06-10T18:35:18.9973638-06:00:2021-06-10T18:35:18.9963621-06:00:Thread#0:T:Line 9
+2021-06-10T18:35:19.0863819-06:00:2021-06-10T18:35:19.0853816-06:00:Thread#0:T:Parsing: yeah, i've been using giphy at work a lot from: hadhacks
+2021-06-10T18:35:50.1594089-06:00:2021-06-10T18:35:50.1554078-06:00:Thread#0:T:Line 10
+2021-06-10T18:35:50.2739449-06:00:2021-06-10T18:35:50.2729443-06:00:Thread#0:T:Parsing: i have no idea how to pronounce it lol from: hadhacks
+2021-06-10T18:38:44.1438027-06:00:2021-06-10T18:38:44.1407999-06:00:Thread#0:T:Line 11
+2021-06-10T18:38:44.2748309-06:00:2021-06-10T18:38:44.2708286-06:00:Thread#0:T:Parsing: i was thinking about simplifying pathfinding as well... do you use one graph per entity? from: hadhacks
+2021-06-10T18:41:42.1314718-06:00:2021-06-10T18:41:42.1294706-06:00:Thread#0:T:Line 12
+2021-06-10T18:41:42.2284929-06:00:2021-06-10T18:41:42.2224912-06:00:Thread#0:T:Parsing: actually, one graph sure... but i guess one "solver" per entity... like moving a group technically doesn't need to have pathfinding for each entity, looking from a far from: hadhacks
+2021-06-10T18:42:34.7800500-06:00:2021-06-10T18:42:34.7750482-06:00:Thread#0:T:Line 13
+2021-06-10T18:42:34.8820720-06:00:2021-06-10T18:42:34.8780711-06:00:Thread#0:T:Parsing: i'm trying to recycle the pathfinding made by the party leader on my case... but still thinking from: hadhacks
+2021-06-10T18:51:51.5422096-06:00:2021-06-10T18:51:51.5402091-06:00:Thread#0:T:Line 14
+2021-06-10T18:51:51.6572355-06:00:2021-06-10T18:51:51.6532356-06:00:Thread#0:T:Parsing: exactly from: hadhacks
+2021-06-10T18:52:09.3919848-06:00:2021-06-10T18:52:09.3879834-06:00:Thread#0:T:Line 15
+2021-06-10T18:52:09.5120116-06:00:2021-06-10T18:52:09.5110118-06:00:Thread#0:T:Parsing: but sometimes people been jumping of cliffs for no reason over here from: hadhacks
+2021-06-10T18:52:22.5624780-06:00:2021-06-10T18:52:22.5564697-06:00:Thread#0:T:Line 16
+2021-06-10T18:52:22.6814991-06:00:2021-06-10T18:52:22.6804995-06:00:Thread#0:T:Parsing: not always tho from: hadhacks
+2021-06-10T18:57:34.3411050-06:00:2021-06-10T18:57:34.3361041-06:00:Thread#0:T:Line 17
+2021-06-10T18:57:34.4561317-06:00:2021-06-10T18:57:34.4511316-06:00:Thread#0:T:Parsing: there is no emote for crossing fingers, sorry from: hadhacks
+2021-06-10T19:06:32.7553255-06:00:2021-06-10T19:06:32.7513249-06:00:Thread#0:T:Line 18
+2021-06-10T19:06:32.9143612-06:00:2021-06-10T19:06:32.9113606-06:00:Thread#0:T:Parsing: gotta lurk, but keep up the fun of pathfinding debug from: hadhacks
+2021-06-10T19:36:47.9497029-06:00:2021-06-10T19:36:47.9416996-06:00:Thread#0:T:Line 19
+2021-06-10T19:36:48.0857320-06:00:2021-06-10T19:36:48.0837325-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-06-10T19:36:48.1287420-06:00:2021-06-10T19:36:48.1267415-06:00:Thread#0:T:Line 20
+2021-06-10T19:36:49.9181440-06:00:2021-06-10T19:36:49.9171444-06:00:Thread#0:T:Line 21
+2021-06-10T19:36:50.0191655-06:00:2021-06-10T19:36:50.0181650-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-06-10T19:36:50.1241887-06:00:2021-06-10T19:36:50.1231892-06:00:Thread#0:T:Line 22
+2021-06-10T19:36:51.1244131-06:00:2021-06-10T19:36:51.1234133-06:00:Thread#0:T:Line 23
+2021-06-10T19:36:51.2134336-06:00:2021-06-10T19:36:51.2124330-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-06-10T19:36:51.5915179-06:00:2021-06-10T19:36:51.5895185-06:00:Thread#0:T:Line 24

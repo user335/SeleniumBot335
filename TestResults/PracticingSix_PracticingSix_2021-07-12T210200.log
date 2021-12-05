@@ -1,0 +1,390 @@
+﻿2021-07-12T21:02:00.1140110-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-07-12T21:02:00.1150112-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-07-12T21:02:00.1150112-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-07-12T21:02:00.1150112-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-07-12T21:02:00.3106144-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-12T21:02:00.3111925-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-07-12T21:02:00.3111925-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-07-12T21:02:00.3696796-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-07-12T210200.log
+2021-07-12T21:02:00.3757064-06:00;Thread#13;Info;Checking activation
+2021-07-12T21:02:00.4907907-06:00;Thread#13;Info;Activated.
+2021-07-12T21:02:00.4917907-06:00;Thread#13;Info;Activation check completed
+2021-07-12T21:02:00.4917907-06:00;Thread#13;Info;Starting test run
+2021-07-12T21:02:00.5368182-06:00;Thread#13;Info;Discovering target: Default
+2021-07-12T21:02:00.5368182-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-12T21:02:00.8878703-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-12T21:02:00.8898706-06:00:Test Suite Dump
+2021-07-12T21:02:00.8918713-06:00:#0: PracticingSix/PracticingSix - 
+2021-07-12T21:02:00.8918713-06:00:#1: Default - 
+2021-07-12T21:02:00.8918713-06:00:#2: PracticingSix - 
+2021-07-12T21:02:00.8918713-06:00:#5: Twitch Bot! - 
+2021-07-12T21:02:00.9218775-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-07-12T21:02:00.9218775-06:00:End: Test Suite Dump
+2021-07-12T21:02:00.9774178-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-07-12T21:02:00.9809260-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-07-12T21:02:00.9809260-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-07-12T21:02:00.9899282-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-07-12T21:02:00.9899282-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-07-12T21:02:00.9899282-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-07-12T21:02:00.9899282-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-07-12T21:02:00.9919285-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-07-12T21:02:00.9929286-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-07-12T21:02:00.9929286-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-07-12T21:02:00.9929286-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-07-12T21:02:00.9929286-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-07-12T21:02:00.9929286-06:00:Thread#1:Scheduler: No more tests for thread
+2021-07-12T21:02:00.9959307-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-07-12T21:02:01.0029322-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-12T21:02:01.0619667-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-07-12T21:02:01.0649669-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-07-12T21:02:01.0679677-06:00:starting Out Of Process Executor
+2021-07-12T21:02:01.2541225-06:00:Starting callback TCP Rpc server
+2021-07-12T21:02:01.2721449-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-07-12T21:02:01.2721449-06:00:Started callback TCP Rpc server on port 32768
+2021-07-12T21:02:01.2721449-06:00:Starting logger TCP Rpc server
+2021-07-12T21:02:01.2761466-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-07-12T21:02:01.2761466-06:00:Started logger TCP Rpc server on port 32769
+2021-07-12T21:02:01.2826562-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 6168 --uniqueId "2021-07-12T210200" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-07-12T21:02:01.3552358-06:00:Executor with PID 8752 has been started successfully.
+2021-07-12T21:02:01.3582372-06:00:Out of Process Executor 8752 started
+2021-07-12T21:02:01.3592378-06:00:Waiting for endpoint
+2021-07-12T21:02:02.3260904-06:00:Remote executor port received: 32770
+2021-07-12T21:02:02.3270906-06:00:Creating executor TCP client on port 32770
+2021-07-12T21:02:02.3270906-06:00:Created executor TCP client on port 32770
+2021-07-12T21:02:02.3270906-06:00:Connecting to remote executor TCP server
+2021-07-12T21:02:02.3270906-06:00:Connected remote executor TCP server
+2021-07-12T21:02:02.3280911-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-07-12T21:02:02.3280911-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-07-12T21:02:03.3769995-06:00:2021-07-12T21:02:03.3749989-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-07-12T21:02:03.3830021-06:00:Endpoint 8752 started
+2021-07-12T21:02:03.4040053-06:00:2021-07-12T21:02:03.4040053-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-07-12T21:02:03.8550554-06:00:2021-07-12T21:02:03.8540557-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-07-12T21:02:03.9280726-06:00:2021-07-12T21:02:03.9280726-06:00:Thread#0:T:-> Using default config
+2021-07-12T21:02:05.9771250-06:00:2021-07-12T21:02:05.9771250-06:00:Thread#0:T:Starting the driver...
+2021-07-12T21:02:08.0904995-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-07-12T21:02:08.1485123-06:00:2021-07-12T21:02:08.1445125-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-07-12T21:02:08.2140345-06:00:2021-07-12T21:02:08.2140345-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-07-12T21:02:08.2220363-06:00:2021-07-12T21:02:08.2210358-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-07-12T21:02:10.4243132-06:00:2021-07-12T21:02:10.4223203-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.2s)
+2021-07-12T21:02:10.4263133-06:00:2021-07-12T21:02:10.4263133-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-07-12T21:03:27.0141526-06:00:2021-07-12T21:03:27.0071513-06:00:Thread#0:T:Line 1
+2021-07-12T21:03:27.2082163-06:00:2021-07-12T21:03:27.2082163-06:00:Thread#0:T:Parsing: man i've been thinking about your framerate problem, it has to be something with rendering, and your profiler reflects that from: thatmanrobin
+2021-07-12T21:03:27.3232410-06:00:2021-07-12T21:03:27.3222412-06:00:Thread#0:T:{
+2021-07-12T21:03:27.3232410-06:00:2021-07-12T21:03:27.3232410-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-12T21:03:27.3232410-06:00:2021-07-12T21:03:27.3232410-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-12T21:03:27.3252422-06:00:2021-07-12T21:03:27.3242414-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-12T21:03:27.3272423-06:00:2021-07-12T21:03:27.3272423-06:00:Thread#0:T:}
+2021-07-12T21:03:27.3282437-06:00:2021-07-12T21:03:27.3282437-06:00:Thread#0:T:{
+2021-07-12T21:03:27.3282437-06:00:2021-07-12T21:03:27.3282437-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-12T21:03:27.3292430-06:00:2021-07-12T21:03:27.3282437-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-12T21:03:27.3312430-06:00:2021-07-12T21:03:27.3312430-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-12T21:03:27.3322439-06:00:2021-07-12T21:03:27.3312430-06:00:Thread#0:T:}
+2021-07-12T21:03:27.3322439-06:00:2021-07-12T21:03:27.3322439-06:00:Thread#0:T:{
+2021-07-12T21:03:27.3342448-06:00:2021-07-12T21:03:27.3342448-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-12T21:03:27.3352441-06:00:2021-07-12T21:03:27.3352441-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-12T21:03:27.3352441-06:00:2021-07-12T21:03:27.3352441-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-12T21:03:27.3362453-06:00:2021-07-12T21:03:27.3362453-06:00:Thread#0:T:}
+2021-07-12T21:04:10.9558303-06:00:2021-07-12T21:04:10.9558303-06:00:Thread#0:T:Line 2
+2021-07-12T21:04:11.0318474-06:00:2021-07-12T21:04:11.0318474-06:00:Thread#0:T:Parsing: well, you got all 3 cameras. make sure the 2 secondary ones aren't culling, only rendering proper layers, and clip plane is low from: thatmanrobin
+2021-07-12T21:04:40.9639707-06:00:2021-07-12T21:04:40.9639707-06:00:Thread#0:T:Line 3
+2021-07-12T21:04:41.0459887-06:00:2021-07-12T21:04:41.0459887-06:00:Thread#0:T:Parsing: yeah from: thatmanrobin
+2021-07-12T21:05:48.1648105-06:00:2021-07-12T21:05:48.1638199-06:00:Thread#0:T:Line 4
+2021-07-12T21:05:48.2458289-06:00:2021-07-12T21:05:48.2458289-06:00:Thread#0:T:Parsing: there is some editor api stuff for docking editor windows from: thatmanrobin
+2021-07-12T21:06:18.7638390-06:00:2021-07-12T21:06:18.7628385-06:00:Thread#0:T:Line 5
+2021-07-12T21:06:18.8638621-06:00:2021-07-12T21:06:18.8628623-06:00:Thread#0:T:Parsing: it's on for main cam though? from: thatmanrobin
+2021-07-12T21:06:34.7582698-06:00:2021-07-12T21:06:34.7582698-06:00:Thread#0:T:Line 6
+2021-07-12T21:06:34.8458306-06:00:2021-07-12T21:06:34.8448311-06:00:Thread#0:T:Parsing: that's huge from: thatmanrobin
+2021-07-12T21:06:45.5630549-06:00:2021-07-12T21:06:45.5630549-06:00:Thread#0:T:Line 7
+2021-07-12T21:06:45.6455846-06:00:2021-07-12T21:06:45.6455846-06:00:Thread#0:T:Parsing: you've not been occluding this whole time from: thatmanrobin
+2021-07-12T21:06:54.9632326-06:00:2021-07-12T21:06:54.9632326-06:00:Thread#0:T:Line 8
+2021-07-12T21:06:55.0502521-06:00:2021-07-12T21:06:55.0502521-06:00:Thread#0:T:Parsing: yeah from: thatmanrobin
+2021-07-12T21:09:30.7542198-06:00:2021-07-12T21:09:30.7542198-06:00:Thread#0:T:Line 9
+2021-07-12T21:09:30.8411458-06:00:2021-07-12T21:09:30.8401461-06:00:Thread#0:T:Parsing: skinned meshes should automatically be occluded, they have a flag on them "update when offscreen" from: thatmanrobin
+2021-07-12T21:10:17.5636544-06:00:2021-07-12T21:10:17.5626543-06:00:Thread#0:T:Line 10
+2021-07-12T21:10:17.6526743-06:00:2021-07-12T21:10:17.6516752-06:00:Thread#0:T:Parsing: i've experienced that and had to do the same from: thatmanrobin
+2021-07-12T21:10:59.7622349-06:00:2021-07-12T21:10:59.7622349-06:00:Thread#0:T:Line 11
+2021-07-12T21:10:59.8377991-06:00:2021-07-12T21:10:59.8377991-06:00:Thread#0:T:Parsing: actually all skinned meshes have a "bounds" from: thatmanrobin
+2021-07-12T21:11:09.9635754-06:00:2021-07-12T21:11:09.9635754-06:00:Thread#0:T:Line 12
+2021-07-12T21:11:10.0535959-06:00:2021-07-12T21:11:10.0535959-06:00:Thread#0:T:Parsing: it's just innacurate from: thatmanrobin
+2021-07-12T21:11:21.7615462-06:00:2021-07-12T21:11:21.7615462-06:00:Thread#0:T:Line 13
+2021-07-12T21:11:21.8455645-06:00:2021-07-12T21:11:21.8445645-06:00:Thread#0:T:Parsing: i think it's convex from: thatmanrobin
+2021-07-12T21:13:14.9616150-06:00:2021-07-12T21:13:14.9601135-06:00:Thread#0:T:Line 14
+2021-07-12T21:13:15.0395727-06:00:2021-07-12T21:13:15.0385716-06:00:Thread#0:T:Parsing: you can see convex if you toggle the "convex" flag on mesh colliders, it doesn't leave any open spaces or curves. just connects all the farthest areas from: thatmanrobin
+2021-07-12T21:16:19.5595299-06:00:2021-07-12T21:16:19.5575286-06:00:Thread#0:T:Line 15
+2021-07-12T21:16:19.6725238-06:00:2021-07-12T21:16:19.6715225-06:00:Thread#0:T:Parsing: btw, if you did want to use rigidbodies, i know you're not because of collision issues, but rigidbodies don't detect every frame unless you change collision detection from discrete to continuous from: thatmanrobin
+2021-07-12T21:17:06.3641400-06:00:2021-07-12T21:17:06.3631398-06:00:Thread#0:T:Line 16
+2021-07-12T21:17:06.4511610-06:00:2021-07-12T21:17:06.4511610-06:00:Thread#0:T:Parsing: they tend to pass through stuff at high speeds if you don't from: thatmanrobin
+2021-07-12T21:17:48.9636186-06:00:2021-07-12T21:17:48.9636186-06:00:Thread#0:T:Line 17
+2021-07-12T21:17:49.0539669-06:00:2021-07-12T21:17:49.0539669-06:00:Thread#0:T:Parsing: i use rigidbody + rootmotion for my enemy systems, works and feels great from: thatmanrobin
+2021-07-12T21:18:51.9739561-06:00:2021-07-12T21:18:51.9719557-06:00:Thread#0:T:Line 18
+2021-07-12T21:18:52.0629766-06:00:2021-07-12T21:18:52.0619760-06:00:Thread#0:T:Parsing: haven't had too much issue with it, but with root motion, they don't shove as much from: thatmanrobin
+2021-07-12T21:19:51.1632397-06:00:2021-07-12T21:19:51.1632397-06:00:Thread#0:T:Line 19
+2021-07-12T21:19:51.2502607-06:00:2021-07-12T21:19:51.2502607-06:00:Thread#0:T:Parsing: i mean, really depends. if your animations don't have root motion you'd need to fake it with a curve from: thatmanrobin
+2021-07-12T21:20:16.3854744-06:00:2021-07-12T21:20:16.3854744-06:00:Thread#0:T:Line 20
+2021-07-12T21:20:16.4814972-06:00:2021-07-12T21:20:16.4804970-06:00:Thread#0:T:Parsing: mixamo has root motion options from: thatmanrobin
+2021-07-12T21:20:42.7694477-06:00:2021-07-12T21:20:42.7684478-06:00:Thread#0:T:Line 21
+2021-07-12T21:20:42.8595086-06:00:2021-07-12T21:20:42.8595086-06:00:Thread#0:T:Parsing: yeah if you clicked "in-place" it removes root motion from: thatmanrobin
+2021-07-12T21:21:55.3660926-06:00:2021-07-12T21:21:55.3650929-06:00:Thread#0:T:Line 22
+2021-07-12T21:21:55.4431101-06:00:2021-07-12T21:21:55.4431101-06:00:Thread#0:T:Parsing: well you'd want to rebuild your animation trees for root motion because if you use blendtree you can seamleslly blend rotation/moving/running/idle and even combining them from: thatmanrobin
+2021-07-12T21:22:23.5749861-06:00:2021-07-12T21:22:23.5729865-06:00:Thread#0:T:Line 23
+2021-07-12T21:22:23.6869335-06:00:2021-07-12T21:22:23.6869335-06:00:Thread#0:T:Parsing: this is root motion for character and enemies https://www.youtube.com/watch?v=dnmv6qyrlty from: thatmanrobin
+2021-07-12T21:23:49.7626250-06:00:2021-07-12T21:23:49.7626250-06:00:Thread#0:T:Line 24
+2021-07-12T21:23:49.8550619-06:00:2021-07-12T21:23:49.8550619-06:00:Thread#0:T:Parsing: i'd say yeah, if it looks and feels better from: thatmanrobin
+2021-07-12T21:24:13.1669048-06:00:2021-07-12T21:24:13.1669048-06:00:Thread#0:T:Line 25
+2021-07-12T21:24:13.2609255-06:00:2021-07-12T21:24:13.2599255-06:00:Thread#0:T:Parsing: it does if it's done right from: thatmanrobin
+2021-07-12T21:24:26.9615157-06:00:2021-07-12T21:24:26.9605152-06:00:Thread#0:T:Line 26
+2021-07-12T21:24:27.0595807-06:00:2021-07-12T21:24:27.0595807-06:00:Thread#0:T:Parsing: also root motion https://www.youtube.com/watch?v=paexefok3by from: thatmanrobin
+2021-07-12T21:25:10.7654174-06:00:2021-07-12T21:25:10.7644165-06:00:Thread#0:T:Line 27
+2021-07-12T21:25:10.8534371-06:00:2021-07-12T21:25:10.8524365-06:00:Thread#0:T:Parsing: yeah sorry hard to see feet there from: thatmanrobin
+2021-07-12T21:25:14.7660490-06:00:2021-07-12T21:25:14.7660490-06:00:Thread#0:T:Line 28
+2021-07-12T21:25:14.8556888-06:00:2021-07-12T21:25:14.8556888-06:00:Thread#0:T:Parsing: he casts darkness from: thatmanrobin
+2021-07-12T21:26:11.1649291-06:00:2021-07-12T21:26:11.1639350-06:00:Thread#0:T:Line 29
+2021-07-12T21:26:11.2515270-06:00:2021-07-12T21:26:11.2505269-06:00:Thread#0:T:Parsing: that event is pretty cool, the coffin explodes, an orb of energy comes out, enters a statue, and it comes to life, then when you defeat it, the orb leaves the statue and moves to the next, till you defeat all 3 from: thatmanrobin
+2021-07-12T21:26:28.9559780-06:00:2021-07-12T21:26:28.9559780-06:00:Thread#0:T:Line 30
+2021-07-12T21:26:29.0429981-06:00:2021-07-12T21:26:29.0429981-06:00:Thread#0:T:Parsing: then a spirit say all right! all right! i'm awake! and appears from the coffin from: thatmanrobin
+2021-07-12T21:26:56.9557497-06:00:2021-07-12T21:26:56.9547495-06:00:Thread#0:T:Line 31
+2021-07-12T21:26:57.0397907-06:00:2021-07-12T21:26:57.0397907-06:00:Thread#0:T:Parsing: took a few hours from: thatmanrobin
+2021-07-12T21:27:24.5598110-06:00:2021-07-12T21:27:24.5598110-06:00:Thread#0:T:Line 32
+2021-07-12T21:27:24.6598331-06:00:2021-07-12T21:27:24.6598331-06:00:Thread#0:T:Parsing: lol pretty much from: thatmanrobin
+2021-07-12T21:27:33.1646496-06:00:2021-07-12T21:27:33.1636495-06:00:Thread#0:T:Line 33
+2021-07-12T21:27:33.2565009-06:00:2021-07-12T21:27:33.2565009-06:00:Thread#0:T:Parsing: i just don't finish stuff from: thatmanrobin
+2021-07-12T21:27:55.9774278-06:00:2021-07-12T21:27:55.9764278-06:00:Thread#0:T:Line 34
+2021-07-12T21:27:56.0610075-06:00:2021-07-12T21:27:56.0600074-06:00:Thread#0:T:Parsing: i did last ludum dare, made an entire game and all the models, graphics, audio, everything in 48 hours from: thatmanrobin
+2021-07-12T21:28:24.5693093-06:00:2021-07-12T21:28:24.5673090-06:00:Thread#0:T:Line 35
+2021-07-12T21:28:24.6663322-06:00:2021-07-12T21:28:24.6653317-06:00:Thread#0:T:Parsing: sure, https://ronnon22.itch.io/gold-digger-ld48 from: thatmanrobin
+2021-07-12T21:28:54.7732706-06:00:2021-07-12T21:28:54.7732706-06:00:Thread#0:T:Line 36
+2021-07-12T21:28:54.8532891-06:00:2021-07-12T21:28:54.8532891-06:00:Thread#0:T:Parsing: eh, like 400th place from: thatmanrobin
+2021-07-12T21:29:17.3682103-06:00:2021-07-12T21:29:17.3672108-06:00:Thread#0:T:Line 37
+2021-07-12T21:29:17.4597730-06:00:2021-07-12T21:29:17.4587726-06:00:Thread#0:T:Parsing: 3800 entries from: thatmanrobin
+2021-07-12T21:29:31.7878271-06:00:2021-07-12T21:29:31.7878271-06:00:Thread#0:T:Line 38
+2021-07-12T21:29:31.8848498-06:00:2021-07-12T21:29:31.8848498-06:00:Thread#0:T:Parsing: gotta hold w still from: thatmanrobin
+2021-07-12T21:29:48.5884669-06:00:2021-07-12T21:29:48.5844657-06:00:Thread#0:T:Line 39
+2021-07-12T21:29:48.6924890-06:00:2021-07-12T21:29:48.6914893-06:00:Thread#0:T:Parsing: is it not driving? from: thatmanrobin
+2021-07-12T21:30:11.1677811-06:00:2021-07-12T21:30:11.1677811-06:00:Thread#0:T:Line 40
+2021-07-12T21:30:11.2798071-06:00:2021-07-12T21:30:11.2798071-06:00:Thread#0:T:Parsing: and space doesn't work either? from: thatmanrobin
+2021-07-12T21:30:24.2111664-06:00:2021-07-12T21:30:24.2101658-06:00:Thread#0:T:Line 41
+2021-07-12T21:30:24.3913358-06:00:2021-07-12T21:30:24.3913358-06:00:Thread#0:T:Parsing: strange... from: thatmanrobin
+2021-07-12T21:30:34.9692010-06:00:2021-07-12T21:30:34.9682012-06:00:Thread#0:T:Line 42
+2021-07-12T21:30:35.0812546-06:00:2021-07-12T21:30:35.0812546-06:00:Thread#0:T:Parsing: had 100+ people play it without having that issue from: thatmanrobin
+2021-07-12T21:31:52.1831823-06:00:2021-07-12T21:31:52.1831823-06:00:Thread#0:T:Line 43
+2021-07-12T21:31:52.3022082-06:00:2021-07-12T21:31:52.3012084-06:00:Thread#0:T:Parsing: yeeah the gold is deep in there from: thatmanrobin
+2021-07-12T21:32:54.3777295-06:00:2021-07-12T21:32:54.3767164-06:00:Thread#0:T:Line 44
+2021-07-12T21:32:54.4747377-06:00:2021-07-12T21:32:54.4747377-06:00:Thread#0:T:Parsing: can't reverse while holding space i think from: thatmanrobin
+2021-07-12T21:33:36.5688306-06:00:2021-07-12T21:33:36.5678301-06:00:Thread#0:T:Line 45
+2021-07-12T21:33:36.6838566-06:00:2021-07-12T21:33:36.6838566-06:00:Thread#0:T:Parsing: lol it's a physics disaster from: thatmanrobin
+2021-07-12T21:34:30.7625419-06:00:2021-07-12T21:34:30.7615430-06:00:Thread#0:T:Line 46
+2021-07-12T21:34:30.8496075-06:00:2021-07-12T21:34:30.8486064-06:00:Thread#0:T:Parsing: it's not great haha but yeah from: thatmanrobin
+2021-07-12T21:34:41.5687455-06:00:2021-07-12T21:34:41.5687455-06:00:Thread#0:T:Line 47
+2021-07-12T21:34:41.6707676-06:00:2021-07-12T21:34:41.6697679-06:00:Thread#0:T:Parsing: i threw the vehicle controller together in a couple hours from: thatmanrobin
+2021-07-12T21:34:46.7647901-06:00:2021-07-12T21:34:46.7647901-06:00:Thread#0:T:Line 48
+2021-07-12T21:34:46.8525681-06:00:2021-07-12T21:34:46.8515678-06:00:Thread#0:T:Parsing: planned to refine it but never had time from: thatmanrobin
+2021-07-12T21:35:10.9652911-06:00:2021-07-12T21:35:10.9641957-06:00:Thread#0:T:Line 49
+2021-07-12T21:35:11.0545570-06:00:2021-07-12T21:35:11.0545570-06:00:Thread#0:T:Parsing: level design from: thatmanrobin
+2021-07-12T21:35:46.7643275-06:00:2021-07-12T21:35:46.7643275-06:00:Thread#0:T:Line 50
+2021-07-12T21:35:46.8643498-06:00:2021-07-12T21:35:46.8633501-06:00:Thread#0:T:Parsing: i had to speed it up by making large blocks i split into small blocks, and split those into smaller ones with blender from: thatmanrobin
+2021-07-12T21:37:11.5749756-06:00:2021-07-12T21:37:11.5749756-06:00:Thread#0:T:Line 51
+2021-07-12T21:37:11.6739964-06:00:2021-07-12T21:37:11.6739964-06:00:Thread#0:T:Parsing: it was nice to do, because it's been years since i finished anything from: thatmanrobin
+2021-07-12T21:38:03.9782874-06:00:2021-07-12T21:38:03.9772867-06:00:Thread#0:T:Line 52
+2021-07-12T21:38:04.0893655-06:00:2021-07-12T21:38:04.0883638-06:00:Thread#0:T:Parsing: actually i have an entire arena game i 100% completed, just never packaged it up and released it. https://www.youtube.com/watch?v=qqtsoy6fk48 from: thatmanrobin
+2021-07-12T21:39:46.1762254-06:00:2021-07-12T21:39:46.1752255-06:00:Thread#0:T:Line 53
+2021-07-12T21:39:46.2892508-06:00:2021-07-12T21:39:46.2882506-06:00:Thread#0:T:Parsing: don't you want floor for gravity, not max? from: thatmanrobin
+2021-07-12T21:40:24.7884629-06:00:2021-07-12T21:40:24.7874627-06:00:Thread#0:T:Line 54
+2021-07-12T21:40:24.8851718-06:00:2021-07-12T21:40:24.8851718-06:00:Thread#0:T:Parsing: nvm haha you deleted it from: thatmanrobin
+2021-07-12T21:41:05.7045743-06:00:2021-07-12T21:41:05.7025731-06:00:Thread#0:T:Line 55
+2021-07-12T21:41:06.1006643-06:00:2021-07-12T21:41:06.0986621-06:00:Thread#0:T:Parsing: boop. from: mrnoah99
+2021-07-12T21:41:06.1046639-06:00:2021-07-12T21:41:06.1036641-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-07-12T21:41:06.1056637-06:00:2021-07-12T21:41:06.1056637-06:00:Thread#0:T:Found 9 clips for user mrnoah99 and rolled clip #: 6
+2021-07-12T21:41:11.4765374-06:00:2021-07-12T21:41:11.4755374-06:00:Thread#0:T:Duration of clip was 5.352208, thanks rabbit_xxxx you're the best!
+2021-07-12T21:41:11.4775375-06:00:2021-07-12T21:41:11.4765374-06:00:Thread#0:T:clip played the old boring way, duration was: 5.352208
+2021-07-12T21:42:13.9645958-06:00:2021-07-12T21:42:13.9635949-06:00:Thread#0:T:Line 56
+2021-07-12T21:42:14.0551249-06:00:2021-07-12T21:42:14.0551249-06:00:Thread#0:T:Parsing: i don't know, i think i was just bored of the project from: thatmanrobin
+2021-07-12T21:42:49.7669151-06:00:2021-07-12T21:42:49.7659139-06:00:Thread#0:T:Line 57
+2021-07-12T21:42:49.8809409-06:00:2021-07-12T21:42:49.8809409-06:00:Thread#0:T:Parsing: it has a whole ai enemy system, you can actually "hire" champions to fight for you, and watch ai vs ai from: thatmanrobin
+2021-07-12T21:43:10.9738720-06:00:2021-07-12T21:43:10.9728718-06:00:Thread#0:T:Line 58
+2021-07-12T21:43:11.0668945-06:00:2021-07-12T21:43:11.0658930-06:00:Thread#0:T:Parsing: but also can fight your own battles from: thatmanrobin
+2021-07-12T21:44:27.3617983-06:00:2021-07-12T21:44:27.3617983-06:00:Thread#0:T:Line 59
+2021-07-12T21:44:27.4553736-06:00:2021-07-12T21:44:27.4543737-06:00:Thread#0:T:Parsing: it's focused around a weapon system that you equip weapons in the menu, and it completely changes your combat style from: thatmanrobin
+2021-07-12T21:45:00.7764450-06:00:2021-07-12T21:45:00.7764450-06:00:Thread#0:T:Line 60
+2021-07-12T21:45:00.8724668-06:00:2021-07-12T21:45:00.8714670-06:00:Thread#0:T:Parsing: ai champions don't switch weapons from: thatmanrobin
+2021-07-12T21:45:25.5651619-06:00:2021-07-12T21:45:25.5641619-06:00:Thread#0:T:Line 61
+2021-07-12T21:45:25.6583306-06:00:2021-07-12T21:45:25.6573302-06:00:Thread#0:T:Parsing: yeah from: thatmanrobin
+2021-07-12T21:46:18.9674859-06:00:2021-07-12T21:46:18.9664855-06:00:Thread#0:T:Line 62
+2021-07-12T21:46:19.0661454-06:00:2021-07-12T21:46:19.0648627-06:00:Thread#0:T:Parsing: i have lots of projects at many stages. usually i just proof-of-concept something and move on lol from: thatmanrobin
+2021-07-12T21:46:35.7816871-06:00:2021-07-12T21:46:35.7806886-06:00:Thread#0:T:Line 63
+2021-07-12T21:46:35.8887288-06:00:2021-07-12T21:46:35.8877277-06:00:Thread#0:T:Parsing: so i have like 20 frameworks if i felt like continueing one of them from: thatmanrobin
+2021-07-12T21:46:50.7665055-06:00:2021-07-12T21:46:50.7665055-06:00:Thread#0:T:Line 64
+2021-07-12T21:46:50.8815319-06:00:2021-07-12T21:46:50.8815319-06:00:Thread#0:T:Parsing: actually finding fern was one of those projects, it used to be a terrible 2d platformer from: thatmanrobin
+2021-07-12T21:46:53.1653010-06:00:2021-07-12T21:46:53.1653010-06:00:Thread#0:T:Line 65
+2021-07-12T21:46:53.2878391-06:00:2021-07-12T21:46:53.2868386-06:00:Thread#0:T:Parsing: 👀 from: sky_acaniadev
+2021-07-12T21:46:53.2908400-06:00:2021-07-12T21:46:53.2898398-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-07-12T21:46:53.2918399-06:00:2021-07-12T21:46:53.2918399-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 1
+2021-07-12T21:46:56.3163894-06:00:2021-07-12T21:46:56.3153889-06:00:Thread#0:T:Duration of clip was 2.999252, thanks rabbit_xxxx you're the best!
+2021-07-12T21:46:56.3173897-06:00:2021-07-12T21:46:56.3173897-06:00:Thread#0:T:clip played the old boring way, duration was: 2.999252
+2021-07-12T21:47:24.7716262-06:00:2021-07-12T21:47:24.7706257-06:00:Thread#0:T:Line 66
+2021-07-12T21:47:24.8867125-06:00:2021-07-12T21:47:24.8867125-06:00:Thread#0:T:Parsing: can't control myself... i am working on my game again from: sky_acaniadev
+2021-07-12T21:47:45.9632802-06:00:2021-07-12T21:47:45.9622807-06:00:Thread#0:T:Line 67
+2021-07-12T21:47:46.0603017-06:00:2021-07-12T21:47:46.0593223-06:00:Thread#0:T:Parsing: got some time extension from: sky_acaniadev
+2021-07-12T21:48:31.0176796-06:00:2021-07-12T21:48:31.0176796-06:00:Thread#0:T:Line 68
+2021-07-12T21:48:31.2757378-06:00:2021-07-12T21:48:31.2747372-06:00:Thread#0:T:Parsing: take care man! from: thatmanrobin
+2021-07-12T21:48:43.3951571-06:00:2021-07-12T21:48:43.3941567-06:00:Thread#0:T:Line 69
+2021-07-12T21:48:43.5591937-06:00:2021-07-12T21:48:43.5581940-06:00:Thread#0:T:Parsing: try it with occlusion culling now! from: thatmanrobin
+2021-07-12T21:49:47.3865071-06:00:2021-07-12T21:49:47.3855168-06:00:Thread#0:T:Line 70
+2021-07-12T21:49:47.4837671-06:00:2021-07-12T21:49:47.4837671-06:00:Thread#0:T:Parsing: @sky_acaniadev turns out occlusion culling on main camera was off from: thatmanrobin
+2021-07-12T21:50:38.7795496-06:00:2021-07-12T21:50:38.7785505-06:00:Thread#0:T:Line 71
+2021-07-12T21:50:38.8785724-06:00:2021-07-12T21:50:38.8785724-06:00:Thread#0:T:Parsing: lol gravity rip from: thatmanrobin
+2021-07-12T21:51:50.9870421-06:00:2021-07-12T21:51:50.9860429-06:00:Thread#0:T:Line 72
+2021-07-12T21:51:51.0973538-06:00:2021-07-12T21:51:51.0973538-06:00:Thread#0:T:Parsing: two wrongs do make a right in math xd from: thatmanrobin
+2021-07-12T21:53:29.7821101-06:00:2021-07-12T21:53:29.7821101-06:00:Thread#0:T:Line 73
+2021-07-12T21:53:29.8936698-06:00:2021-07-12T21:53:29.8926697-06:00:Thread#0:T:Parsing: get one of those m2 ssd's, you don't notice that recompile time from: thatmanrobin
+2021-07-12T21:54:19.7696711-06:00:2021-07-12T21:54:19.7686699-06:00:Thread#0:T:Line 74
+2021-07-12T21:54:19.8986982-06:00:2021-07-12T21:54:19.8986982-06:00:Thread#0:T:Parsing: i have a 160gb project from: thatmanrobin
+2021-07-12T21:54:33.1927830-06:00:2021-07-12T21:54:33.1917844-06:00:Thread#0:T:Line 75
+2021-07-12T21:54:33.3238128-06:00:2021-07-12T21:54:33.3228128-06:00:Thread#0:T:Parsing: the last ryan from: thatmanrobin
+2021-07-12T21:54:46.6023891-06:00:2021-07-12T21:54:46.6013894-06:00:Thread#0:T:Line 76
+2021-07-12T21:54:46.7064101-06:00:2021-07-12T21:54:46.7064101-06:00:Thread#0:T:Parsing: scripts are small from: sky_acaniadev
+2021-07-12T21:55:02.9907363-06:00:2021-07-12T21:55:02.9897367-06:00:Thread#0:T:Line 77
+2021-07-12T21:55:03.1017619-06:00:2021-07-12T21:55:03.1017619-06:00:Thread#0:T:Parsing: nah it's like 112k lines from: thatmanrobin
+2021-07-12T21:55:05.9911044-06:00:2021-07-12T21:55:05.9911044-06:00:Thread#0:T:Line 78
+2021-07-12T21:55:06.1066366-06:00:2021-07-12T21:55:06.1066366-06:00:Thread#0:T:Parsing: texture, high poly models, audio from: sky_acaniadev
+2021-07-12T21:55:51.3942172-06:00:2021-07-12T21:55:51.3932176-06:00:Thread#0:T:Line 79
+2021-07-12T21:55:51.5382495-06:00:2021-07-12T21:55:51.5382495-06:00:Thread#0:T:Parsing: mainly textures and audio from: thatmanrobin
+2021-07-12T21:56:20.7870400-06:00:2021-07-12T21:56:20.7860401-06:00:Thread#0:T:Line 80
+2021-07-12T21:56:20.8990644-06:00:2021-07-12T21:56:20.8990644-06:00:Thread#0:T:Parsing: unity has some decent compression but you don't want to lose too much quality from: thatmanrobin
+2021-07-12T21:57:37.7818482-06:00:2021-07-12T21:57:37.7808478-06:00:Thread#0:T:Line 81
+2021-07-12T21:57:37.9088766-06:00:2021-07-12T21:57:37.9088766-06:00:Thread#0:T:Parsing: nah that shouldn't be an issue from: thatmanrobin
+2021-07-12T21:57:52.4394574-06:00:2021-07-12T21:57:52.4384577-06:00:Thread#0:T:Line 82
+2021-07-12T21:57:52.5614846-06:00:2021-07-12T21:57:52.5604840-06:00:Thread#0:T:Parsing: did you ever clear your caches? from: thatmanrobin
+2021-07-12T21:58:21.3841799-06:00:2021-07-12T21:58:21.3831789-06:00:Thread#0:T:Line 83
+2021-07-12T21:58:21.5582189-06:00:2021-07-12T21:58:21.5572180-06:00:Thread#0:T:Parsing: haha all good, you're a busy man from: thatmanrobin
+2021-07-12T21:59:18.9755205-06:00:2021-07-12T21:59:18.9745193-06:00:Thread#0:T:Line 84
+2021-07-12T21:59:19.1175523-06:00:2021-07-12T21:59:19.1175523-06:00:Thread#0:T:Parsing: yeah it caches gi too from: thatmanrobin
+2021-07-12T21:59:21.1780873-06:00:2021-07-12T21:59:21.1770860-06:00:Thread#0:T:Line 85
+2021-07-12T21:59:21.3021144-06:00:2021-07-12T21:59:21.3011145-06:00:Thread#0:T:Parsing: lol from: thatmanrobin
+2021-07-12T21:59:56.5786330-06:00:2021-07-12T21:59:56.5776330-06:00:Thread#0:T:Line 86
+2021-07-12T21:59:56.7086624-06:00:2021-07-12T21:59:56.7076625-06:00:Thread#0:T:Parsing: you're likely doing some sort of gi, unity has license to enlighten, realtime gi from: thatmanrobin
+2021-07-12T21:59:58.7862219-06:00:2021-07-12T21:59:58.7852212-06:00:Thread#0:T:Line 87
+2021-07-12T21:59:58.9072482-06:00:2021-07-12T21:59:58.9072482-06:00:Thread#0:T:Parsing: i try to refactor some of my old scripts into oop but it is not going very smooth from: sky_acaniadev
+2021-07-12T22:00:11.5891529-06:00:2021-07-12T22:00:11.5881540-06:00:Thread#0:T:Line 88
+2021-07-12T22:00:11.7142047-06:00:2021-07-12T22:00:11.7142047-06:00:Thread#0:T:Parsing: i only write oop from: thatmanrobin
+2021-07-12T22:00:21.5724261-06:00:2021-07-12T22:00:21.5724261-06:00:Thread#0:T:Line 89
+2021-07-12T22:00:21.6884519-06:00:2021-07-12T22:00:21.6884519-06:00:Thread#0:T:Parsing: they are all very different from: sky_acaniadev
+2021-07-12T22:00:45.7835438-06:00:2021-07-12T22:00:45.7835438-06:00:Thread#0:T:Line 90
+2021-07-12T22:00:45.9066089-06:00:2021-07-12T22:00:45.9056094-06:00:Thread#0:T:Parsing: i ended up writing objects way to complicate to encompass all of them from: sky_acaniadev
+2021-07-12T22:01:52.9982155-06:00:2021-07-12T22:01:52.9972155-06:00:Thread#0:T:Line 91
+2021-07-12T22:01:53.1278129-06:00:2021-07-12T22:01:53.1278129-06:00:Thread#0:T:Parsing: caches from: thatmanrobin
+2021-07-12T22:02:31.7948968-06:00:2021-07-12T22:02:31.7948968-06:00:Thread#0:T:Line 92
+2021-07-12T22:02:31.9275359-06:00:2021-07-12T22:02:31.9275359-06:00:Thread#0:T:Parsing: nothin from your project is stored in there from: thatmanrobin
+2021-07-12T22:02:46.5982120-06:00:2021-07-12T22:02:46.5982120-06:00:Thread#0:T:Line 93
+2021-07-12T22:02:46.7402432-06:00:2021-07-12T22:02:46.7392437-06:00:Thread#0:T:Parsing: the local has the real caches from: thatmanrobin
+2021-07-12T22:03:32.3900318-06:00:2021-07-12T22:03:32.3890325-06:00:Thread#0:T:Line 94
+2021-07-12T22:03:32.5451015-06:00:2021-07-12T22:03:32.5451015-06:00:Thread#0:T:Parsing: delete asset store files from roaming from: thatmanrobin
+2021-07-12T22:04:05.5835306-06:00:2021-07-12T22:04:05.5825292-06:00:Thread#0:T:Line 95
+2021-07-12T22:04:05.7536077-06:00:2021-07-12T22:04:05.7526076-06:00:Thread#0:T:Parsing: yeah you can delete local from: thatmanrobin
+2021-07-12T22:05:15.9697054-06:00:2021-07-12T22:05:15.9687044-06:00:Thread#0:T:Line 96
+2021-07-12T22:05:16.0862698-06:00:2021-07-12T22:05:16.0852701-06:00:Thread#0:T:Parsing: finally in your project/library from: thatmanrobin
+2021-07-12T22:05:21.1905173-06:00:2021-07-12T22:05:21.1905173-06:00:Thread#0:T:Line 97
+2021-07-12T22:05:21.3840675-06:00:2021-07-12T22:05:21.3840675-06:00:Thread#0:T:Parsing: thereis a folder called shadercache from: thatmanrobin
+2021-07-12T22:06:33.9880836-06:00:2021-07-12T22:06:33.9880836-06:00:Thread#0:T:Line 98
+2021-07-12T22:06:34.1071115-06:00:2021-07-12T22:06:34.1071115-06:00:Thread#0:T:Parsing: so basically when you import a new shader, it "caches" a every possible variation of that shader from: thatmanrobin
+2021-07-12T22:07:32.0741127-06:00:2021-07-12T22:07:32.0731127-06:00:Thread#0:T:Line 99
+2021-07-12T22:07:32.3007592-06:00:2021-07-12T22:07:32.2997588-06:00:Thread#0:T:Parsing: lol hundreds of thousands of files in there from: thatmanrobin
+2021-07-12T22:07:57.0145361-06:00:2021-07-12T22:07:57.0135353-06:00:Thread#0:T:Line 100
+2021-07-12T22:07:57.2546102-06:00:2021-07-12T22:07:57.2536083-06:00:Thread#0:T:Parsing: have a good night man, hope all that helps from: thatmanrobin
+2021-07-12T22:09:08.7550240-06:00:2021-07-12T22:09:08.7540234-06:00:Thread#0:T:Line 102
+2021-07-12T22:09:09.0180839-06:00:2021-07-12T22:09:09.0130830-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-07-12T22:09:09.0590921-06:00:2021-07-12T22:09:09.0580952-06:00:Thread#0:T:Line 102
+2021-07-12T22:09:10.7187954-06:00:2021-07-12T22:09:10.7157944-06:00:Thread#0:T:Line 103
+2021-07-12T22:09:11.0068782-06:00:2021-07-12T22:09:11.0068782-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-07-12T22:09:11.0588909-06:00:2021-07-12T22:09:11.0588909-06:00:Thread#0:T:Line 104
+2021-07-12T22:09:12.7088833-06:00:2021-07-12T22:09:12.7078834-06:00:Thread#0:T:Line 105
+2021-07-12T22:09:12.9609417-06:00:2021-07-12T22:09:12.9599411-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-07-12T22:09:12.9929477-06:00:2021-07-12T22:09:12.9929477-06:00:Thread#0:T:Line 106
+2021-07-12T22:27:15.0983807-06:00:2021-07-12T22:27:15.0973803-06:00:Thread#0:T:Line 107
+2021-07-12T22:27:15.1904098-06:00:2021-07-12T22:27:15.1904098-06:00:Thread#0:T:Parsing:  from: theladyhazel
+2021-07-12T22:27:15.1954021-06:00:2021-07-12T22:27:15.1944017-06:00:Thread#0:T:{
+2021-07-12T22:27:15.1954021-06:00:2021-07-12T22:27:15.1954021-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-12T22:27:15.1964026-06:00:2021-07-12T22:27:15.1964026-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-12T22:27:15.1974040-06:00:2021-07-12T22:27:15.1974040-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-12T22:27:15.1984037-06:00:2021-07-12T22:27:15.1974040-06:00:Thread#0:T:}
+2021-07-12T22:27:15.1994031-06:00:2021-07-12T22:27:15.1994031-06:00:Thread#0:T:{
+2021-07-12T22:27:15.2004028-06:00:2021-07-12T22:27:15.1994031-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-12T22:27:15.2004028-06:00:2021-07-12T22:27:15.2004028-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-12T22:27:15.2024040-06:00:2021-07-12T22:27:15.2014036-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-12T22:27:15.2024040-06:00:2021-07-12T22:27:15.2024040-06:00:Thread#0:T:}
+2021-07-12T22:27:15.2034051-06:00:2021-07-12T22:27:15.2024040-06:00:Thread#0:T:{
+2021-07-12T22:27:15.2034051-06:00:2021-07-12T22:27:15.2034051-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-12T22:27:15.2034051-06:00:2021-07-12T22:27:15.2034051-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-12T22:27:15.2044047-06:00:2021-07-12T22:27:15.2044047-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-12T22:27:15.2054055-06:00:2021-07-12T22:27:15.2044047-06:00:Thread#0:T:}
+2021-07-12T22:27:27.6927485-06:00:2021-07-12T22:27:27.6917526-06:00:Thread#0:T:Line 108
+2021-07-12T22:27:27.7817667-06:00:2021-07-12T22:27:27.7817667-06:00:Thread#0:T:Parsing:  from: roaminroo
+2021-07-12T22:27:27.7867679-06:00:2021-07-12T22:27:27.7867679-06:00:Thread#0:T:{
+2021-07-12T22:27:27.7887686-06:00:2021-07-12T22:27:27.7867679-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-12T22:27:27.7887686-06:00:2021-07-12T22:27:27.7887686-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-12T22:27:27.7897678-06:00:2021-07-12T22:27:27.7897678-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-12T22:27:27.7897678-06:00:2021-07-12T22:27:27.7897678-06:00:Thread#0:T:}
+2021-07-12T22:27:27.7897678-06:00:2021-07-12T22:27:27.7897678-06:00:Thread#0:T:{
+2021-07-12T22:27:27.7907671-06:00:2021-07-12T22:27:27.7907671-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-12T22:27:27.7907671-06:00:2021-07-12T22:27:27.7907671-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-12T22:27:27.7917686-06:00:2021-07-12T22:27:27.7907671-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-12T22:27:27.7917686-06:00:2021-07-12T22:27:27.7917686-06:00:Thread#0:T:}
+2021-07-12T22:27:27.7917686-06:00:2021-07-12T22:27:27.7917686-06:00:Thread#0:T:{
+2021-07-12T22:27:27.7927687-06:00:2021-07-12T22:27:27.7927687-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-12T22:27:27.7927687-06:00:2021-07-12T22:27:27.7927687-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-12T22:27:27.7937685-06:00:2021-07-12T22:27:27.7927687-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-12T22:27:27.7937685-06:00:2021-07-12T22:27:27.7937685-06:00:Thread#0:T:}
+2021-07-12T22:27:56.0954720-06:00:2021-07-12T22:27:56.0944730-06:00:Thread#0:T:Line 109
+2021-07-12T22:27:56.2177862-06:00:2021-07-12T22:27:56.2167924-06:00:Thread#0:T:Parsing: !paging @thunderbecca from: composey
+2021-07-12T22:27:56.2217863-06:00:2021-07-12T22:27:56.2217863-06:00:Thread#0:T:{
+2021-07-12T22:27:56.2227872-06:00:2021-07-12T22:27:56.2227872-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-12T22:27:56.2237870-06:00:2021-07-12T22:27:56.2237870-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-12T22:27:56.2247875-06:00:2021-07-12T22:27:56.2237870-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-12T22:27:56.2257890-06:00:2021-07-12T22:27:56.2257890-06:00:Thread#0:T:}
+2021-07-12T22:27:56.2267884-06:00:2021-07-12T22:27:56.2267884-06:00:Thread#0:T:{
+2021-07-12T22:27:56.2267884-06:00:2021-07-12T22:27:56.2267884-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-12T22:27:56.2267884-06:00:2021-07-12T22:27:56.2267884-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-12T22:27:56.2277881-06:00:2021-07-12T22:27:56.2277881-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-12T22:27:56.2277881-06:00:2021-07-12T22:27:56.2277881-06:00:Thread#0:T:}
+2021-07-12T22:27:56.2277881-06:00:2021-07-12T22:27:56.2277881-06:00:Thread#0:T:{
+2021-07-12T22:27:56.2287877-06:00:2021-07-12T22:27:56.2287877-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-12T22:27:56.2287877-06:00:2021-07-12T22:27:56.2287877-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-12T22:27:56.2297890-06:00:2021-07-12T22:27:56.2287877-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-12T22:27:56.2297890-06:00:2021-07-12T22:27:56.2297890-06:00:Thread#0:T:}
+2021-07-12T22:28:02.8901810-06:00:2021-07-12T22:28:02.8891793-06:00:Thread#0:T:Line 110
+2021-07-12T22:28:03.0102076-06:00:2021-07-12T22:28:03.0092065-06:00:Thread#0:T:Parsing: @thatmanrobin from: casey9702
+2021-07-12T22:28:03.0152084-06:00:2021-07-12T22:28:03.0152084-06:00:Thread#0:T:{
+2021-07-12T22:28:03.0162086-06:00:2021-07-12T22:28:03.0152084-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-12T22:28:03.0162086-06:00:2021-07-12T22:28:03.0162086-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-12T22:28:03.0172100-06:00:2021-07-12T22:28:03.0162086-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-12T22:28:03.0172100-06:00:2021-07-12T22:28:03.0172100-06:00:Thread#0:T:}
+2021-07-12T22:28:03.0182088-06:00:2021-07-12T22:28:03.0182088-06:00:Thread#0:T:{
+2021-07-12T22:28:03.0182088-06:00:2021-07-12T22:28:03.0182088-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-12T22:28:03.0192095-06:00:2021-07-12T22:28:03.0192095-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-12T22:28:03.0202095-06:00:2021-07-12T22:28:03.0202095-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-12T22:28:03.0202095-06:00:2021-07-12T22:28:03.0202095-06:00:Thread#0:T:}
+2021-07-12T22:28:03.0212103-06:00:2021-07-12T22:28:03.0212103-06:00:Thread#0:T:{
+2021-07-12T22:28:03.0212103-06:00:2021-07-12T22:28:03.0212103-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-12T22:28:03.0222094-06:00:2021-07-12T22:28:03.0222094-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-12T22:28:03.0232103-06:00:2021-07-12T22:28:03.0222094-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-12T22:28:03.0242106-06:00:2021-07-12T22:28:03.0232103-06:00:Thread#0:T:}
+2021-07-12T22:28:04.2744346-06:00:2021-07-12T22:28:04.2744346-06:00:Thread#0:T:Line 111
+2021-07-12T22:28:04.3876600-06:00:2021-07-12T22:28:04.3876600-06:00:Thread#0:T:Parsing: today has been pretty good from: theladyhazel
+2021-07-12T22:28:24.0963269-06:00:2021-07-12T22:28:24.0963269-06:00:Thread#0:T:Line 112
+2021-07-12T22:28:24.2253821-06:00:2021-07-12T22:28:24.2212293-06:00:Thread#0:T:Parsing: thunderbecca is still in chat list. from: casey9702
+2021-07-12T22:29:45.4890223-06:00:2021-07-12T22:29:45.4880233-06:00:Thread#0:T:Line 113
+2021-07-12T22:29:45.6590603-06:00:2021-07-12T22:29:45.6590603-06:00:Thread#0:T:Parsing:  from: yorkiedogs
+2021-07-12T22:29:45.6630613-06:00:2021-07-12T22:29:45.6630613-06:00:Thread#0:T:{
+2021-07-12T22:29:45.6640619-06:00:2021-07-12T22:29:45.6640619-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-07-12T22:29:45.6650619-06:00:2021-07-12T22:29:45.6650619-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-07-12T22:29:45.6660632-06:00:2021-07-12T22:29:45.6660632-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-07-12T22:29:45.6670620-06:00:2021-07-12T22:29:45.6660632-06:00:Thread#0:T:}
+2021-07-12T22:29:45.6670620-06:00:2021-07-12T22:29:45.6670620-06:00:Thread#0:T:{
+2021-07-12T22:29:45.6690635-06:00:2021-07-12T22:29:45.6680639-06:00:Thread#0:T:	CHUNK ID: IART
+2021-07-12T22:29:45.6700626-06:00:2021-07-12T22:29:45.6690635-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-07-12T22:29:45.6710632-06:00:2021-07-12T22:29:45.6710632-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-07-12T22:29:45.6710632-06:00:2021-07-12T22:29:45.6710632-06:00:Thread#0:T:}
+2021-07-12T22:29:45.6720639-06:00:2021-07-12T22:29:45.6720639-06:00:Thread#0:T:{
+2021-07-12T22:29:45.6720639-06:00:2021-07-12T22:29:45.6720639-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-07-12T22:29:45.6720639-06:00:2021-07-12T22:29:45.6720639-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-07-12T22:29:45.6730635-06:00:2021-07-12T22:29:45.6730635-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-07-12T22:29:45.6730635-06:00:2021-07-12T22:29:45.6730635-06:00:Thread#0:T:}

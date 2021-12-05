@@ -1,0 +1,477 @@
+﻿2021-06-19T21:10:40.1202692-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-19T21:10:40.1202692-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-19T21:10:40.1202692-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-19T21:10:40.1202692-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-19T21:10:40.3873293-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-19T21:10:40.3903290-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-19T21:10:40.3943309-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-19T21:10:40.4513437-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-19T211040.log
+2021-06-19T21:10:40.4603452-06:00;Thread#15;Info;Checking activation
+2021-06-19T21:10:40.6263834-06:00;Thread#15;Info;Activated.
+2021-06-19T21:10:40.6283834-06:00;Thread#15;Info;Activation check completed
+2021-06-19T21:10:40.6313840-06:00;Thread#15;Info;Starting test run
+2021-06-19T21:10:40.6836470-06:00;Thread#15;Info;Discovering target: Default
+2021-06-19T21:10:40.6866476-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-19T21:10:41.2344867-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-19T21:10:41.2384882-06:00:Test Suite Dump
+2021-06-19T21:10:41.2414892-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-19T21:10:41.2414892-06:00:#1: Default - 
+2021-06-19T21:10:41.2414892-06:00:#2: PracticingSix - 
+2021-06-19T21:10:41.2414892-06:00:#5: Twitch Bot! - 
+2021-06-19T21:10:41.2844975-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-19T21:10:41.2844975-06:00:End: Test Suite Dump
+2021-06-19T21:10:41.3275078-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:10:41.3305085-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-19T21:10:41.3305085-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:10:41.3395100-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:10:41.3395100-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:10:41.3395100-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:10:41.3395100-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:10:41.3405101-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:10:41.3415199-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-19T21:10:41.3415199-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-19T21:10:41.3415199-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-19T21:10:41.3415199-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-19T21:10:41.3415199-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-19T21:10:41.3445114-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-19T21:10:41.3465122-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-19T21:10:41.3535135-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-19T21:10:41.3555139-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-19T21:10:41.3575147-06:00:starting Out Of Process Executor
+2021-06-19T21:10:41.3715180-06:00:Starting callback TCP Rpc server
+2021-06-19T21:10:41.3845209-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-19T21:10:41.3845209-06:00:Started callback TCP Rpc server on port 32768
+2021-06-19T21:10:41.3845209-06:00:Starting logger TCP Rpc server
+2021-06-19T21:10:41.3875212-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-19T21:10:41.3875212-06:00:Started logger TCP Rpc server on port 32769
+2021-06-19T21:10:41.3945225-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-06-19T21:10:41.5015471-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-06-19T21:10:41.5315536-06:00:Out of Process Executor 29404 started
+2021-06-19T21:10:41.5315536-06:00:Waiting for endpoint
+2021-06-19T21:10:42.3175168-06:00:Remote executor port received: 32770
+2021-06-19T21:10:42.3175168-06:00:Creating executor TCP client on port 32770
+2021-06-19T21:10:42.3185168-06:00:Created executor TCP client on port 32770
+2021-06-19T21:10:42.3185168-06:00:Connecting to remote executor TCP server
+2021-06-19T21:10:42.3185168-06:00:Connected remote executor TCP server
+2021-06-19T21:10:42.3185168-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-19T21:10:42.3185168-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-19T21:10:42.5115607-06:00:2021-06-19T21:10:42.5095693-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-19T21:10:42.5205628-06:00:Endpoint 29404 started
+2021-06-19T21:10:42.5408091-06:00:2021-06-19T21:10:42.5408091-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-19T21:10:42.9474921-06:00:2021-06-19T21:10:42.9454898-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-19T21:10:42.9594923-06:00:2021-06-19T21:10:42.9584918-06:00:Thread#0:T:-> Using default config
+2021-06-19T21:10:43.8494834-06:00:2021-06-19T21:10:43.8484825-06:00:Thread#0:T:Starting the driver...
+2021-06-19T21:10:45.5231281-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-19T21:10:45.5751402-06:00:2021-06-19T21:10:45.5741402-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:10:45.6356753-06:00:2021-06-19T21:10:45.6346753-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:10:45.6396774-06:00:2021-06-19T21:10:45.6376765-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:10:47.2432464-06:00:2021-06-19T21:10:47.2422464-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.6s)
+2021-06-19T21:10:47.2482483-06:00:2021-06-19T21:10:47.2462479-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:12:39.6047833-06:00:2021-06-19T21:12:39.5957811-06:00:Thread#0:T:Line 2
+2021-06-19T21:12:39.6908035-06:00:2021-06-19T21:12:39.6878013-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-06-19T21:12:39.7048062-06:00:2021-06-19T21:12:39.7028134-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-19T21:12:43.0892677-06:00:2021-06-19T21:12:43.0882675-06:00:Thread#0:T:Line 2
+2021-06-19T21:15:41.9740558-06:00:2021-06-19T21:15:41.9710545-06:00:Thread#0:T:Line 3
+2021-06-19T21:15:42.0715864-06:00:2021-06-19T21:15:42.0666108-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-06-19T21:15:42.0775860-06:00:2021-06-19T21:15:42.0755854-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-19T21:15:45.4405920-06:00:2021-06-19T21:15:45.4395917-06:00:Thread#0:T:Line 4
+2021-06-19T21:16:04.3658561-06:00:2021-06-19T21:16:04.3648557-06:00:Thread#0:T:Line 5
+2021-06-19T21:16:04.4493833-06:00:2021-06-19T21:16:04.4473823-06:00:Thread#0:T:Parsing: i didn't hear an intro sound from: mrnoah99
+2021-06-19T21:19:08.7820050-06:00:2021-06-19T21:19:08.7810048-06:00:Thread#0:T:Line 6
+2021-06-19T21:19:08.8780271-06:00:2021-06-19T21:19:08.8750256-06:00:Thread#0:T:Parsing:  from: rgntnstudiotr_nc
+2021-06-19T21:19:57.2835907-06:00:2021-06-19T21:19:57.2815895-06:00:Thread#0:T:Line 7
+2021-06-19T21:19:57.3656083-06:00:2021-06-19T21:19:57.3626078-06:00:Thread#0:T:Parsing: test from: mrnoah99
+2021-06-19T21:20:38.1995683-06:00:2021-06-19T21:20:38.1965675-06:00:Thread#0:T:Line 8
+2021-06-19T21:20:38.2795854-06:00:2021-06-19T21:20:38.2775844-06:00:Thread#0:T:Parsing: gud from: rgntnstudiotr_nc
+2021-06-19T21:21:11.5689602-06:00:2021-06-19T21:21:11.5679601-06:00:Thread#0:T:Line 9
+2021-06-19T21:21:11.6849862-06:00:2021-06-19T21:21:11.6829862-06:00:Thread#0:T:Parsing: the giants game right? from: rgntnstudiotr_nc
+2021-06-19T21:22:49.1650519-06:00:2021-06-19T21:22:49.1640516-06:00:Thread#0:T:Line 10
+2021-06-19T21:22:49.2500708-06:00:2021-06-19T21:22:49.2480696-06:00:Thread#0:T:Parsing: that's what i figured. giant demons from: rgntnstudiotr_nc
+2021-06-19T21:26:46.9889790-06:00:2021-06-19T21:26:46.9839773-06:00:Thread#0:T:Line 11
+2021-06-19T21:26:47.1000236-06:00:2021-06-19T21:26:47.0960235-06:00:Thread#0:T:Parsing: i still love it from: hadhacks
+2021-06-19T21:27:07.7689658-06:00:2021-06-19T21:27:07.7659648-06:00:Thread#0:T:Line 12
+2021-06-19T21:27:07.8659883-06:00:2021-06-19T21:27:07.8629865-06:00:Thread#0:T:Parsing: i was wondering about multiple from: hadhacks
+2021-06-19T21:27:27.6203611-06:00:2021-06-19T21:27:27.6123614-06:00:Thread#0:T:Line 13
+2021-06-19T21:27:27.7803976-06:00:2021-06-19T21:27:27.7753972-06:00:Thread#0:T:Parsing: i have 2 that i can send you, how do i do it? from: hadhacks
+2021-06-19T21:27:57.1825240-06:00:2021-06-19T21:27:57.1795244-06:00:Thread#0:T:Line 14
+2021-06-19T21:27:57.2695440-06:00:2021-06-19T21:27:57.2665431-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-06-19T21:27:57.3595659-06:00:2021-06-19T21:27:57.3545630-06:00:Thread#0:T:Line 15
+2021-06-19T21:27:59.1700271-06:00:2021-06-19T21:27:59.1690274-06:00:Thread#0:T:Line 16
+2021-06-19T21:27:59.2605700-06:00:2021-06-19T21:27:59.2605700-06:00:Thread#0:T:Parsing: actually i need to find it on google drive, but by the end of the day it will be on your table from: hadhacks
+2021-06-19T21:28:26.7683564-06:00:2021-06-19T21:28:26.7663560-06:00:Thread#0:T:Line 17
+2021-06-19T21:28:26.8573905-06:00:2021-06-19T21:28:26.8543908-06:00:Thread#0:T:Parsing: badcopworsecopstudios@gmail.com from: user335
+2021-06-19T21:28:26.8613911-06:00:2021-06-19T21:28:26.8613911-06:00:Thread#0:T:Eyy, its user335!
+2021-06-19T21:31:25.3887345-06:00:2021-06-19T21:31:25.3857328-06:00:Thread#0:T:Line 18
+2021-06-19T21:31:25.5037597-06:00:2021-06-19T21:31:25.5007586-06:00:Thread#0:T:Parsing: !rabbit_xxxx from: user335
+2021-06-19T21:31:25.5627728-06:00:2021-06-19T21:31:25.5567709-06:00:Thread#0:T:Line 19
+2021-06-19T21:35:04.9004024-06:00:2021-06-19T21:35:04.8984026-06:00:Thread#0:T:error: unknown error: session deleted because of page crash
+2021-06-19T21:35:04.9064040-06:00:2021-06-19T21:35:04.9044047-06:00:Thread#0:T:from unknown error: cannot determine loading status
+2021-06-19T21:35:04.9104043-06:00:2021-06-19T21:35:04.9094046-06:00:Thread#0:T:from tab crashed
+2021-06-19T21:35:04.9124050-06:00:2021-06-19T21:35:04.9114049-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.106)
+2021-06-19T21:35:06.9086874-06:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2021-06-19T21:35:06.9126879-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:35:06.9126879-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:35:06.9126879-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:35:06.9126879-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:35:06.9126879-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:35:06.9126879-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:35:06.9126879-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:35:06.9126879-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:35:06.9126879-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-06-19T21:35:06.9757023-06:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 1461.451573 seconds
+2021-06-19T21:35:06.9797033-06:00:Thread#0: Test #6/1 is started on thread #0
+2021-06-19T21:35:06.9817040-06:00:2021-06-19T21:35:06.9807035-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:35:06.9837043-06:00:2021-06-19T21:35:06.9827038-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:35:06.9867057-06:00:2021-06-19T21:35:06.9857058-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:35:09.2274402-06:00:2021-06-19T21:35:09.2229307-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:35:09.2354421-06:00:2021-06-19T21:35:09.2344417-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:35:09.2389516-06:00:2021-06-19T21:35:09.2369589-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:35:10.4866708-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:35:10.4866708-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:35:10.4866708-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:35:10.4876712-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:35:10.4876712-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:35:10.4876712-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:35:10.4876712-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:35:10.4876712-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:35:10.4876712-06:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-06-19T21:35:10.4941846-06:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 3.5144813 seconds
+2021-06-19T21:35:10.4981860-06:00:Thread#0: Test #6/2 is started on thread #0
+2021-06-19T21:35:10.5046959-06:00:2021-06-19T21:35:10.5021862-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:35:10.5132065-06:00:2021-06-19T21:35:10.5086970-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:35:10.5332109-06:00:2021-06-19T21:35:10.5202094-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:35:11.4057493-06:00:2021-06-19T21:35:11.4047491-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:35:11.4077498-06:00:2021-06-19T21:35:11.4067499-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:35:11.4097502-06:00:2021-06-19T21:35:11.4087503-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:35:12.1735125-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:35:12.1735125-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:35:12.1735125-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:35:12.1735125-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:35:12.1735125-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:35:12.1735125-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:35:12.1745145-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:35:12.1745145-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:35:12.1745145-06:00:Thread#0:Scheduler: with testItemExecutionIndex 3
+2021-06-19T21:35:12.1785138-06:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 1.6803278 seconds
+2021-06-19T21:35:12.1825134-06:00:Thread#0: Test #6/3 is started on thread #0
+2021-06-19T21:35:12.1895160-06:00:2021-06-19T21:35:12.1865155-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:35:12.1945831-06:00:2021-06-19T21:35:12.1915173-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:35:12.2025748-06:00:2021-06-19T21:35:12.1995734-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:35:12.9016221-06:00:2021-06-19T21:35:12.9006219-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:35:12.9036227-06:00:2021-06-19T21:35:12.9026215-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:35:12.9066239-06:00:2021-06-19T21:35:12.9056228-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:35:13.5474043-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:35:13.5474043-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:35:13.5474043-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:35:13.5474043-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:35:13.5474043-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:35:13.5474043-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:35:13.5474043-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:35:13.5474043-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:35:13.5474043-06:00:Thread#0:Scheduler: with testItemExecutionIndex 4
+2021-06-19T21:35:13.5514060-06:00:Thread#0: Test #6/3 is finished on thread #0 as Failed within 1.3688926 seconds
+2021-06-19T21:35:13.5574076-06:00:Thread#0: Test #6/4 is started on thread #0
+2021-06-19T21:35:13.5654086-06:00:2021-06-19T21:35:13.5624081-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:35:13.5704096-06:00:2021-06-19T21:35:13.5674093-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:35:13.5814129-06:00:2021-06-19T21:35:13.5734107-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:35:14.2604104-06:00:2021-06-19T21:35:14.2594102-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:35:14.2624100-06:00:2021-06-19T21:35:14.2614101-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:35:14.2684127-06:00:2021-06-19T21:35:14.2674124-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:35:14.9266071-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:35:14.9266071-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:35:14.9266071-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:35:14.9266071-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:35:14.9266071-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:35:14.9266071-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:35:14.9266071-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:35:14.9266071-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:35:14.9266071-06:00:Thread#0:Scheduler: with testItemExecutionIndex 5
+2021-06-19T21:35:14.9296078-06:00:Thread#0: Test #6/4 is finished on thread #0 as Failed within 1.3722002 seconds
+2021-06-19T21:35:14.9346086-06:00:Thread#0: Test #6/5 is started on thread #0
+2021-06-19T21:35:14.9456117-06:00:2021-06-19T21:35:14.9416104-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:35:14.9526135-06:00:2021-06-19T21:35:14.9496136-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:35:14.9576151-06:00:2021-06-19T21:35:14.9546133-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:38:00.0416252-06:00:2021-06-19T21:38:00.0356244-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:38:00.0456263-06:00:2021-06-19T21:38:00.0436263-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:38:00.0466266-06:00:2021-06-19T21:38:00.0466266-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:38:01.2611329-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:38:01.2611329-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:38:01.2611329-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:38:01.2611329-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:38:01.2611329-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:38:01.2611329-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:38:01.2611329-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:38:01.2611329-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:38:01.2611329-06:00:Thread#0:Scheduler: with testItemExecutionIndex 6
+2021-06-19T21:38:01.2641336-06:00:Thread#0: Test #6/5 is finished on thread #0 as Failed within 166.329525 seconds
+2021-06-19T21:38:01.2686464-06:00:Thread#0: Test #6/6 is started on thread #0
+2021-06-19T21:38:01.2746466-06:00:2021-06-19T21:38:01.2706467-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:38:01.2966535-06:00:2021-06-19T21:38:01.2886599-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:38:01.3016540-06:00:2021-06-19T21:38:01.2976522-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:38:12.4974183-06:00:2021-06-19T21:38:12.4964173-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:38:12.4994166-06:00:2021-06-19T21:38:12.4984173-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:38:12.5014174-06:00:2021-06-19T21:38:12.5004173-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:38:13.7169897-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:38:13.7169897-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:38:13.7169897-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:38:13.7169897-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:38:13.7169897-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:38:13.7169897-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:38:13.7169897-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:38:13.7169897-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:38:13.7169897-06:00:Thread#0:Scheduler: with testItemExecutionIndex 7
+2021-06-19T21:38:13.7219923-06:00:Thread#0: Test #6/6 is finished on thread #0 as Failed within 12.4523461 seconds
+2021-06-19T21:38:13.7269922-06:00:Thread#0: Test #6/7 is started on thread #0
+2021-06-19T21:38:13.7329936-06:00:2021-06-19T21:38:13.7299932-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:38:13.7359945-06:00:2021-06-19T21:38:13.7359945-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:38:13.7409952-06:00:2021-06-19T21:38:13.7389942-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:38:17.0381165-06:00:2021-06-19T21:38:17.0361161-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:38:17.0411173-06:00:2021-06-19T21:38:17.0401162-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:38:17.0461187-06:00:2021-06-19T21:38:17.0441168-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:38:17.4757372-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:38:17.4757372-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:38:17.4757372-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:38:17.4757372-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:38:17.4757372-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:38:17.4757372-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:38:17.4757372-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:38:17.4757372-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:38:17.4757372-06:00:Thread#0:Scheduler: with testItemExecutionIndex 8
+2021-06-19T21:38:17.4797385-06:00:Thread#0: Test #6/7 is finished on thread #0 as Failed within 3.7527463 seconds
+2021-06-19T21:38:17.4877406-06:00:Thread#0: Test #6/8 is started on thread #0
+2021-06-19T21:38:17.4977427-06:00:2021-06-19T21:38:17.4937441-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:38:17.5077459-06:00:2021-06-19T21:38:17.5027445-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:38:17.5157465-06:00:2021-06-19T21:38:17.5117478-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:40:50.5669658-06:00:2021-06-19T21:40:50.5649664-06:00:Thread#0:T:error: invalid session id
+2021-06-19T21:40:50.5709670-06:00:2021-06-19T21:40:50.5699658-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:40:50.5779686-06:00:2021-06-19T21:40:50.5739675-06:00:Thread#0:T:skipped because of previous errors
+2021-06-19T21:40:51.6754233-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-19T21:40:51.6754233-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-06-19T21:40:51.6754233-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-19T21:40:51.6754233-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-19T21:40:51.6754233-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-19T21:40:51.6754233-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-19T21:40:51.6754233-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-19T21:40:51.6754233-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-19T21:40:51.6754233-06:00:Thread#0:Scheduler: with testItemExecutionIndex 9
+2021-06-19T21:40:51.6814260-06:00:Thread#0: Test #6/8 is finished on thread #0 as Failed within 154.1936854 seconds
+2021-06-19T21:40:51.6864258-06:00:Thread#0: Test #6/9 is started on thread #0
+2021-06-19T21:40:51.7004290-06:00:2021-06-19T21:40:51.6954289-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-19T21:40:51.7139438-06:00:2021-06-19T21:40:51.7079481-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-19T21:40:51.7179457-06:00:2021-06-19T21:40:51.7159438-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-19T21:40:56.1098577-06:00:2021-06-19T21:40:56.1088582-06:00:Thread#0:T:Starting the driver...
+2021-06-19T21:41:01.6360852-06:00:2021-06-19T21:41:01.6350843-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (9.9s)
+2021-06-19T21:41:01.6390872-06:00:2021-06-19T21:41:01.6370849-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-19T21:42:12.4493864-06:00:2021-06-19T21:42:12.4483851-06:00:Thread#0:T:Line 1
+2021-06-19T21:42:12.5424072-06:00:2021-06-19T21:42:12.5414065-06:00:Thread#0:T:Parsing: unity? from: rgntnstudiotr_nc
+2021-06-19T21:48:33.4694453-06:00:2021-06-19T21:48:33.4684452-06:00:Thread#0:T:Line 2
+2021-06-19T21:48:33.5590175-06:00:2021-06-19T21:48:33.5570228-06:00:Thread#0:T:Parsing: hello from: rabbit_xxxx
+2021-06-19T21:48:33.5650177-06:00:2021-06-19T21:48:33.5620175-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-06-19T21:48:43.7771921-06:00:2021-06-19T21:48:43.7761916-06:00:Thread#0:T:Line 5
+2021-06-19T21:48:43.9022207-06:00:2021-06-19T21:48:43.9012202-06:00:Thread#0:T:Parsing: i'm meh from: rabbit_xxxx
+2021-06-19T21:48:43.9142233-06:00:2021-06-19T21:48:43.9132235-06:00:Thread#0:T:Line 5
+2021-06-19T21:48:44.0052429-06:00:2021-06-19T21:48:44.0042433-06:00:Thread#0:T:Parsing: uhoh from: rabbit_xxxx
+2021-06-19T21:48:44.0182469-06:00:2021-06-19T21:48:44.0172461-06:00:Thread#0:T:Line 5
+2021-06-19T21:48:44.1012646-06:00:2021-06-19T21:48:44.1002644-06:00:Thread#0:T:Parsing: i don't know the difference in .net core, etc from: rabbit_xxxx
+2021-06-19T21:49:10.1820076-06:00:2021-06-19T21:49:10.1800074-06:00:Thread#0:T:Line 7
+2021-06-19T21:49:10.2760286-06:00:2021-06-19T21:49:10.2750287-06:00:Thread#0:T:Parsing: i would think you could just use your .net version from: rabbit_xxxx
+2021-06-19T21:49:10.2850305-06:00:2021-06-19T21:49:10.2840302-06:00:Thread#0:T:Line 7
+2021-06-19T21:49:10.3585688-06:00:2021-06-19T21:49:10.3560472-06:00:Thread#0:T:Parsing: but i dunno from: rabbit_xxxx
+2021-06-19T21:49:59.6351119-06:00:2021-06-19T21:49:59.6310835-06:00:Thread#0:T:Line 8
+2021-06-19T21:49:59.7652053-06:00:2021-06-19T21:49:59.7622018-06:00:Thread#0:T:Parsing: did you try changing the target version to your version? from: rabbit_xxxx
+2021-06-19T21:50:29.9902804-06:00:2021-06-19T21:50:29.9862810-06:00:Thread#0:T:Line 9
+2021-06-19T21:50:30.0893020-06:00:2021-06-19T21:50:30.0873021-06:00:Thread#0:T:Parsing: hmm from: rabbit_xxxx
+2021-06-19T21:51:05.8292647-06:00:2021-06-19T21:51:05.8262657-06:00:Thread#0:T:Line 10
+2021-06-19T21:51:05.9162850-06:00:2021-06-19T21:51:05.9132841-06:00:Thread#0:T:Parsing: well, if you just open the project and build you should get a dll you can use from: rabbit_xxxx
+2021-06-19T21:51:13.1944200-06:00:2021-06-19T21:51:13.1924188-06:00:Thread#0:T:Line 11
+2021-06-19T21:51:13.2854397-06:00:2021-06-19T21:51:13.2844399-06:00:Thread#0:T:Parsing: assuming you have .net core 3.1 from: rabbit_xxxx
+2021-06-19T21:51:21.3868021-06:00:2021-06-19T21:51:21.3838017-06:00:Thread#0:T:Line 12
+2021-06-19T21:51:21.4988404-06:00:2021-06-19T21:51:21.4948275-06:00:Thread#0:T:Parsing: or i can just build it and try to send it to you from: rabbit_xxxx
+2021-06-19T21:51:31.1934664-06:00:2021-06-19T21:51:31.1914647-06:00:Thread#0:T:Line 13
+2021-06-19T21:51:31.3124924-06:00:2021-06-19T21:51:31.3114910-06:00:Thread#0:T:Parsing: ah from: rabbit_xxxx
+2021-06-19T21:51:32.7934613-06:00:2021-06-19T21:51:32.7924613-06:00:Thread#0:T:Line 14
+2021-06-19T21:51:32.8975922-06:00:2021-06-19T21:51:32.8965927-06:00:Thread#0:T:Parsing: i see from: rabbit_xxxx
+2021-06-19T21:52:12.6095877-06:00:2021-06-19T21:52:12.6075883-06:00:Thread#0:T:Line 15
+2021-06-19T21:52:12.7056511-06:00:2021-06-19T21:52:12.7036496-06:00:Thread#0:T:Parsing: i don't exactly, i've had to use docker recently for some stuff at work, but still not sure i understand it from: rabbit_xxxx
+2021-06-19T21:53:11.9900200-06:00:2021-06-19T21:53:11.9890205-06:00:Thread#0:T:Line 16
+2021-06-19T21:53:12.1240508-06:00:2021-06-19T21:53:12.1200489-06:00:Thread#0:T:Parsing: yeah it's like a lightweight vm or something from: rabbit_xxxx
+2021-06-19T21:53:58.9810277-06:00:2021-06-19T21:53:58.9800279-06:00:Thread#0:T:Line 17
+2021-06-19T21:53:59.0669558-06:00:2021-06-19T21:53:59.0659552-06:00:Thread#0:T:Parsing: i'd rather just run docker on a vm on my own computer from: rgntnstudiotr_nc
+2021-06-19T21:55:35.9956322-06:00:2021-06-19T21:55:35.9946516-06:00:Thread#0:T:Line 18
+2021-06-19T21:55:36.1031724-06:00:2021-06-19T21:55:36.1011720-06:00:Thread#0:T:Parsing: it would not start the os. trust me i've tried. vm allows your pc to restart from: rgntnstudiotr_nc
+2021-06-19T21:56:21.0221746-06:00:2021-06-19T21:56:21.0211738-06:00:Thread#0:T:Line 19
+2021-06-19T21:56:21.1191973-06:00:2021-06-19T21:56:21.1181970-06:00:Thread#0:T:Parsing: docker is a blessing for dealing with version of applications... and not having to install a bunch of frameworks that are a hassle to update/uninstall, you will never go back from it from: hadhacks
+2021-06-19T21:56:51.5936480-06:00:2021-06-19T21:56:51.5906491-06:00:Thread#0:T:Line 20
+2021-06-19T21:56:51.6866757-06:00:2021-06-19T21:56:51.6846766-06:00:Thread#0:T:Parsing: how can i send you a dll? from: rabbit_xxxx
+2021-06-19T21:58:01.4424746-06:00:2021-06-19T21:58:01.4218991-06:00:Thread#0:T:Line 21
+2021-06-19T21:58:01.6452007-06:00:2021-06-19T21:58:01.6432009-06:00:Thread#0:T:Parsing: github or pastebin or maybe 7z it and hope google drive doesn't flag it from: rgntnstudiotr_nc
+2021-06-19T21:58:19.4098690-06:00:2021-06-19T21:58:19.3958643-06:00:Thread#0:T:Line 22
+2021-06-19T21:58:19.5164445-06:00:2021-06-19T21:58:19.5144441-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-06-19T21:58:21.6019705-06:00:2021-06-19T21:58:21.5969685-06:00:Thread#0:T:Line 23
+2021-06-19T21:58:21.7019927-06:00:2021-06-19T21:58:21.6929901-06:00:Thread#0:T:Parsing: should be from: rabbit_xxxx
+2021-06-19T21:58:36.9957788-06:00:2021-06-19T21:58:36.9947787-06:00:Thread#0:T:Line 24
+2021-06-19T21:58:37.0988020-06:00:2021-06-19T21:58:37.0968018-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-06-19T21:59:45.8204142-06:00:2021-06-19T21:59:45.8174137-06:00:Thread#0:T:Line 25
+2021-06-19T21:59:45.9424418-06:00:2021-06-19T21:59:45.9404412-06:00:Thread#0:T:Parsing: browse from: rabbit_xxxx
+2021-06-19T22:01:08.4218076-06:00:2021-06-19T22:01:08.4118824-06:00:Thread#0:T:Line 26
+2021-06-19T22:01:08.5673476-06:00:2021-06-19T22:01:08.5643466-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:01:30.8219786-06:00:2021-06-19T22:01:30.8209784-06:00:Thread#0:T:Line 27
+2021-06-19T22:01:30.9940177-06:00:2021-06-19T22:01:30.9930168-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:03:55.8171006-06:00:2021-06-19T22:03:55.8140994-06:00:Thread#0:T:Line 28
+2021-06-19T22:03:55.9301254-06:00:2021-06-19T22:03:55.9271256-06:00:Thread#0:T:Parsing: yeah from: rabbit_xxxx
+2021-06-19T22:04:58.2214264-06:00:2021-06-19T22:04:58.2164267-06:00:Thread#0:T:Line 29
+2021-06-19T22:04:58.3524557-06:00:2021-06-19T22:04:58.3514548-06:00:Thread#0:T:Parsing: i think for your scrobbler you're gonna have to run a separate project though because you want to be able to separate audio between things we hear (notifications for the wav files you play for chat), and eye of the tiger from: rabbit_xxxx
+2021-06-19T22:05:49.6387120-06:00:2021-06-19T22:05:49.6357120-06:00:Thread#0:T:Line 30
+2021-06-19T22:05:49.7467360-06:00:2021-06-19T22:05:49.7437354-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:07:29.8367866-06:00:2021-06-19T22:07:29.8307879-06:00:Thread#0:T:Line 31
+2021-06-19T22:07:29.9828218-06:00:2021-06-19T22:07:29.9828218-06:00:Thread#0:T:Parsing: yeah, the way you would need to do it is you would have that banana phone thing do the same thing, but instead of chrome you would point it at your other project from: rabbit_xxxx
+2021-06-19T22:07:42.2030553-06:00:2021-06-19T22:07:42.2010541-06:00:Thread#0:T:Line 32
+2021-06-19T22:07:42.2916578-06:00:2021-06-19T22:07:42.2896565-06:00:Thread#0:T:Parsing: there's no easy way to separate the audio channels in c# from: rabbit_xxxx
+2021-06-19T22:07:53.9922714-06:00:2021-06-19T22:07:53.9902708-06:00:Thread#0:T:Line 33
+2021-06-19T22:07:54.1097340-06:00:2021-06-19T22:07:54.1087338-06:00:Thread#0:T:Parsing: have i been intro'd yet? from: mrnoah99
+2021-06-19T22:07:54.1137343-06:00:2021-06-19T22:07:54.1127339-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-19T22:08:31.4635374-06:00:2021-06-19T22:08:31.4615370-06:00:Thread#0:T:Line 34
+2021-06-19T22:08:31.5695603-06:00:2021-06-19T22:08:31.5675608-06:00:Thread#0:T:Parsing: test from: mrnoah99
+2021-06-19T22:08:31.5745617-06:00:2021-06-19T22:08:31.5725618-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-19T22:09:15.4509634-06:00:2021-06-19T22:09:15.4489624-06:00:Thread#0:T:Line 35
+2021-06-19T22:09:15.5450024-06:00:2021-06-19T22:09:15.5430021-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:09:42.4780233-06:00:2021-06-19T22:09:42.4760221-06:00:Thread#0:T:Line 36
+2021-06-19T22:09:42.5940491-06:00:2021-06-19T22:09:42.5920492-06:00:Thread#0:T:Parsing: niggardly from: rgntnstudiotr_nc
+2021-06-19T22:10:05.4506820-06:00:2021-06-19T22:10:05.4486817-06:00:Thread#0:T:Line 37
+2021-06-19T22:10:05.5417025-06:00:2021-06-19T22:10:05.5407023-06:00:Thread#0:T:Parsing: easiest thing would be to just create a separate project that runs your eye of the tiger stuff from: rabbit_xxxx
+2021-06-19T22:12:32.4876014-06:00:2021-06-19T22:12:32.4866016-06:00:Thread#0:T:Line 38
+2021-06-19T22:12:32.6096289-06:00:2021-06-19T22:12:32.6076280-06:00:Thread#0:T:Parsing: but do you need tests for your eye of the tiger playing? from: rabbit_xxxx
+2021-06-19T22:12:53.4962048-06:00:2021-06-19T22:12:53.4942037-06:00:Thread#0:T:Line 39
+2021-06-19T22:12:53.6202869-06:00:2021-06-19T22:12:53.6192864-06:00:Thread#0:T:Parsing: oh i see from: rabbit_xxxx
+2021-06-19T22:13:30.4994616-06:00:2021-06-19T22:13:30.4984599-06:00:Thread#0:T:Line 40
+2021-06-19T22:13:30.6445499-06:00:2021-06-19T22:13:30.6415496-06:00:Thread#0:T:Parsing: soundplayer also doesn't have a pause method from: rabbit_xxxx
+2021-06-19T22:13:36.4614313-06:00:2021-06-19T22:13:36.4604298-06:00:Thread#0:T:Line 41
+2021-06-19T22:13:36.5674535-06:00:2021-06-19T22:13:36.5654530-06:00:Thread#0:T:Parsing: hello from: dstew99
+2021-06-19T22:13:36.5714568-06:00:2021-06-19T22:13:36.5704536-06:00:Thread#0:T:Eyy, its dstew99!
+2021-06-19T22:14:08.4035882-06:00:2021-06-19T22:14:08.3965913-06:00:Thread#0:T:Line 42
+2021-06-19T22:14:08.5296156-06:00:2021-06-19T22:14:08.5276158-06:00:Thread#0:T:Parsing: but if you're pausing the entire program when you pause through selenium, then it should pause effectively from: rabbit_xxxx
+2021-06-19T22:15:14.4853585-06:00:2021-06-19T22:15:14.4843593-06:00:Thread#0:T:Line 43
+2021-06-19T22:15:14.6233899-06:00:2021-06-19T22:15:14.6213891-06:00:Thread#0:T:Parsing: eott video has got to be one of the lamest. from: dstew99
+2021-06-19T22:16:11.4604902-06:00:2021-06-19T22:16:11.4594912-06:00:Thread#0:T:Line 44
+2021-06-19T22:16:11.5675130-06:00:2021-06-19T22:16:11.5665140-06:00:Thread#0:T:Parsing: can i send you the song that hypes me up? it's also what i've been testing my wav library with btw from: rabbit_xxxx
+2021-06-19T22:16:30.4613941-06:00:2021-06-19T22:16:30.4603954-06:00:Thread#0:T:Line 45
+2021-06-19T22:16:30.5994273-06:00:2021-06-19T22:16:30.5954247-06:00:Thread#0:T:Parsing: the walking down the street is horrendous from: dstew99
+2021-06-19T22:17:06.4755005-06:00:2021-06-19T22:17:06.4745002-06:00:Thread#0:T:Line 46
+2021-06-19T22:17:06.6055291-06:00:2021-06-19T22:17:06.6035296-06:00:Thread#0:T:Parsing: https://www.youtube.com/watch?v=pevk24lozx4 from: rabbit_xxxx
+2021-06-19T22:17:11.4844971-06:00:2021-06-19T22:17:11.4834968-06:00:Thread#0:T:Line 47
+2021-06-19T22:17:11.6396132-06:00:2021-06-19T22:17:11.6356122-06:00:Thread#0:T:Parsing: my song is just as 80s from: rabbit_xxxx
+2021-06-19T22:18:10.5155296-06:00:2021-06-19T22:18:10.5135298-06:00:Thread#0:T:Line 48
+2021-06-19T22:18:10.7490899-06:00:2021-06-19T22:18:10.7420893-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:18:42.4997754-06:00:2021-06-19T22:18:42.4977755-06:00:Thread#0:T:Line 49
+2021-06-19T22:18:42.6638143-06:00:2021-06-19T22:18:42.6618127-06:00:Thread#0:T:Parsing: still working on animations? from: dstew99
+2021-06-19T22:19:21.6590835-06:00:2021-06-19T22:19:21.6570825-06:00:Thread#0:T:Line 50
+2021-06-19T22:19:21.8211193-06:00:2021-06-19T22:19:21.8181182-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:19:35.6153864-06:00:2021-06-19T22:19:35.6093836-06:00:Thread#0:T:Line 51
+2021-06-19T22:19:35.7454160-06:00:2021-06-19T22:19:35.7444194-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:19:48.1962183-06:00:2021-06-19T22:19:48.1942186-06:00:Thread#0:T:Line 52
+2021-06-19T22:19:48.3142454-06:00:2021-06-19T22:19:48.3132444-06:00:Thread#0:T:Parsing: the zone? the danger zone? from: dstew99
+2021-06-19T22:20:55.6482636-06:00:2021-06-19T22:20:55.6452632-06:00:Thread#0:T:Line 53
+2021-06-19T22:20:55.8563109-06:00:2021-06-19T22:20:55.8493093-06:00:Thread#0:T:Parsing: nope from: rabbit_xxxx
+2021-06-19T22:21:00.6213806-06:00:2021-06-19T22:21:00.6073769-06:00:Thread#0:T:Line 54
+2021-06-19T22:21:00.7624128-06:00:2021-06-19T22:21:00.7614124-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:21:11.4093509-06:00:2021-06-19T22:21:11.4083509-06:00:Thread#0:T:Line 55
+2021-06-19T22:21:11.5173759-06:00:2021-06-19T22:21:11.5153745-06:00:Thread#0:T:Parsing: this is what happens when you listen to two songs at once from: rabbit_xxxx
+2021-06-19T22:22:22.8412974-06:00:2021-06-19T22:22:22.8362961-06:00:Thread#0:T:Line 56
+2021-06-19T22:22:22.9533227-06:00:2021-06-19T22:22:22.9523225-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:32:19.5465544-06:00:2021-06-19T22:32:19.3715152-06:00:Thread#0:T:Line 57
+2021-06-19T22:32:20.9271013-06:00:2021-06-19T22:32:20.9150724-06:00:Thread#0:T:Parsing: i'm trying to wrap up this wav library from: rabbit_xxxx
+2021-06-19T22:36:20.4333341-06:00:2021-06-19T22:36:20.4293321-06:00:Thread#0:T:Line 58
+2021-06-19T22:36:20.5463579-06:00:2021-06-19T22:36:20.5423571-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-19T22:36:56.0066902-06:00:2021-06-19T22:36:56.0046892-06:00:Thread#0:T:Line 59
+2021-06-19T22:36:56.1237175-06:00:2021-06-19T22:36:56.1217168-06:00:Thread#0:T:Parsing: i think what i would do is create a simple test scene, with just a giant flat plane from: rabbit_xxxx
+2021-06-19T22:37:04.8327965-06:00:2021-06-19T22:37:04.8307972-06:00:Thread#0:T:Line 60
+2021-06-19T22:37:04.9418212-06:00:2021-06-19T22:37:04.9408212-06:00:Thread#0:T:Parsing: create a bunch of people, and have them go somewhere from: rabbit_xxxx
+2021-06-19T22:37:16.0140331-06:00:2021-06-19T22:37:16.0115227-06:00:Thread#0:T:Line 61
+2021-06-19T22:37:16.1606391-06:00:2021-06-19T22:37:16.1596398-06:00:Thread#0:T:Parsing: then see how the performance is from: rabbit_xxxx
+2021-06-19T22:38:15.4096974-06:00:2021-06-19T22:38:15.4066960-06:00:Thread#0:T:Line 62
+2021-06-19T22:38:15.5347260-06:00:2021-06-19T22:38:15.5327243-06:00:Thread#0:T:Parsing: i just realized i think i can sort of make a fake pause functionality for the soundplayer due to the way i'm doing things from: rabbit_xxxx
+2021-06-19T22:43:32.4653612-06:00:2021-06-19T22:43:32.4603598-06:00:Thread#0:T:Line 63
+2021-06-19T22:43:47.0289036-06:00:2021-06-19T22:43:47.0269031-06:00:Thread#0:T:Line 64
+2021-06-19T22:43:47.1409265-06:00:2021-06-19T22:43:47.1399268-06:00:Thread#0:T:Parsing: !almightygamesdev from: user335
+2021-06-19T22:43:47.1799361-06:00:2021-06-19T22:43:47.1789360-06:00:Thread#0:T:Line 65
+2021-06-19T22:43:50.4120474-06:00:2021-06-19T22:43:50.4100449-06:00:Thread#0:T:Line 66
+2021-06-19T22:43:50.5370744-06:00:2021-06-19T22:43:50.5370744-06:00:Thread#0:T:Parsing: hey bud from: almightygamesdev
+2021-06-19T22:43:50.5410747-06:00:2021-06-19T22:43:50.5410747-06:00:Thread#0:T:Eyy, its almightygamesdev!
+2021-06-19T22:44:16.4184724-06:00:2021-06-19T22:44:16.4154734-06:00:Thread#0:T:Line 67
+2021-06-19T22:44:16.5465022-06:00:2021-06-19T22:44:16.5425004-06:00:Thread#0:T:Parsing: had a decent stream. tonight working on almighty controller system. from: almightygamesdev
+2021-06-19T22:45:19.7933815-06:00:2021-06-19T22:45:19.7913813-06:00:Thread#0:T:Line 68
+2021-06-19T22:45:19.9494163-06:00:2021-06-19T22:45:19.9474164-06:00:Thread#0:T:Parsing: what is the size of your pathfinding area? from: almightygamesdev
+2021-06-19T22:45:55.4178792-06:00:2021-06-19T22:45:55.4158805-06:00:Thread#0:T:Line 69
+2021-06-19T22:45:55.5559105-06:00:2021-06-19T22:45:55.5529096-06:00:Thread#0:T:Parsing: and you are no longer using unity's navmesh, correct? it's a*? from: almightygamesdev
+2021-06-19T22:47:25.0144607-06:00:2021-06-19T22:47:25.0094590-06:00:Thread#0:T:Line 70
+2021-06-19T22:47:25.1164833-06:00:2021-06-19T22:47:25.1154829-06:00:Thread#0:T:Parsing: if you want to save something that is generated at runtime (temporarily for evaluation), you can copy while running with ctrl + c and then paste in editor ctrl + v from: almightygamesdev
+2021-06-19T22:50:23.6544235-06:00:2021-06-19T22:50:23.5562999-06:00:Thread#0:T:Line 71
+2021-06-19T22:50:28.8533810-06:00:2021-06-19T22:50:28.8333760-06:00:Thread#0:T:Parsing: let's consider that gps systems use a* pathfinding, and they are able to produce a path clear across the entire contiment in practically the same time as any local destination from: almightygamesdev
+2021-06-19T22:50:57.8000195-06:00:2021-06-19T22:50:57.7940174-06:00:Thread#0:T:Line 72
+2021-06-19T22:50:57.9340492-06:00:2021-06-19T22:50:57.9310488-06:00:Thread#0:T:Parsing: try it. go to google maps and set a destination between two points from: almightygamesdev
+2021-06-19T22:51:21.2078050-06:00:2021-06-19T22:51:21.2068043-06:00:Thread#0:T:Line 73
+2021-06-19T22:51:21.3298312-06:00:2021-06-19T22:51:21.3278307-06:00:Thread#0:T:Parsing: a* is a list of nodes my friend from: almightygamesdev
+2021-06-19T22:52:10.6095337-06:00:2021-06-19T22:52:10.6085343-06:00:Thread#0:T:Line 74
+2021-06-19T22:52:10.7305609-06:00:2021-06-19T22:52:10.7295604-06:00:Thread#0:T:Parsing: google maps uses dijkstra's algorithm from: almightygamesdev
+2021-06-19T22:53:56.0127847-06:00:2021-06-19T22:53:56.0117855-06:00:Thread#0:T:Line 75
+2021-06-19T22:53:56.1007645-06:00:2021-06-19T22:53:56.0997645-06:00:Thread#0:T:Parsing: they are basically the same thing. i mean, we can use either/or and achieve the same thing from: almightygamesdev
+2021-06-19T22:54:41.0005213-06:00:2021-06-19T22:54:40.9975231-06:00:Thread#0:T:Line 76
+2021-06-19T22:54:41.0995428-06:00:2021-06-19T22:54:41.0985421-06:00:Thread#0:T:Parsing: i'll share some pathfinding experience i have with you from: almightygamesdev
+2021-06-19T22:55:31.9970727-06:00:2021-06-19T22:55:31.9944941-06:00:Thread#0:T:Line 77
+2021-06-19T22:55:32.0851179-06:00:2021-06-19T22:55:32.0841190-06:00:Thread#0:T:Parsing: 1. if an ai sees or hears the target, then it ought to use pathfinding to try and find a path to the target. otherwise, it should result to some patrolling solution that doesn't bog down the system at all. from: almightygamesdev
+2021-06-19T22:56:08.5968944-06:00:2021-06-19T22:56:08.5959000-06:00:Thread#0:T:Line 78
+2021-06-19T22:56:08.6892574-06:00:2021-06-19T22:56:08.6882566-06:00:Thread#0:T:Parsing: 2. in order to determine if the ai sees/hears the target, you can check distance and line of sight, which doesn't use pathfinding at all. from: almightygamesdev
+2021-06-19T22:57:31.4272479-06:00:2021-06-19T22:57:31.4242473-06:00:Thread#0:T:Line 79
+2021-06-19T22:57:31.5612782-06:00:2021-06-19T22:57:31.5542770-06:00:Thread#0:T:Parsing: so basically, we're trying to reduce the number of agents doing any pathfinding. if they are out of range, or unaware of the player, they can resort to something simpler for movement strategy from: almightygamesdev
+2021-06-19T22:58:20.6086948-06:00:2021-06-19T22:58:20.6066947-06:00:Thread#0:T:Line 80
+2021-06-19T22:58:20.7387243-06:00:2021-06-19T22:58:20.7367230-06:00:Thread#0:T:Parsing: if you have a 1 km area that is filled with agents, there's no need in having agents who are located a half mile away to do anything. they can literally be turned off until they are within range. from: almightygamesdev
+2021-06-19T23:00:16.8054175-06:00:2021-06-19T23:00:16.8014175-06:00:Thread#0:T:Line 81
+2021-06-19T23:00:16.9084405-06:00:2021-06-19T23:00:16.9054406-06:00:Thread#0:T:Parsing: think about what you're saying. there's no need for them to follow a path, if all they are doing is idling, patrolling or even running tasks such as building, or walking back and forth between a couple of buildings. you could simply tell those ai to wait x seconds and then teleport to other destination and wait and repeat. rather than having them literally walk with animations and using an expensive a* algorithm from: almightygamesdev
+2021-06-19T23:01:04.2082045-06:00:2021-06-19T23:01:04.2072058-06:00:Thread#0:T:Line 82
+2021-06-19T23:01:04.3381555-06:00:2021-06-19T23:01:04.3326427-06:00:Thread#0:T:Parsing: if nobody is there to see them, all you need is the destination. wait... then teleport. nobody knows that they didn't walk but you the developer. from: almightygamesdev
+2021-06-19T23:01:53.2085427-06:00:2021-06-19T23:01:53.2065416-06:00:Thread#0:T:Line 83
+2021-06-19T23:01:53.3465729-06:00:2021-06-19T23:01:53.3435724-06:00:Thread#0:T:Parsing: in my game pawnshop tycoon. i plan to do this exact same thing. the people in the city each have a home and a job and they have hours of the day that they shop. from: almightygamesdev
+2021-06-19T23:03:01.4070447-06:00:2021-06-19T23:03:01.4050448-06:00:Thread#0:T:Line 84
+2021-06-19T23:03:01.5300720-06:00:2021-06-19T23:03:01.5280716-06:00:Thread#0:T:Parsing: when they are home or at work, they are literally just absent. the player doesn't need to know anything about them. when they walk from their job to home, if they are nowhere near the player (like a half mile away) then there's no reason to have them follow a path and animate their movement. just teleport them after waiting a short time. from: almightygamesdev
+2021-06-19T23:03:46.4020440-06:00:2021-06-19T23:03:46.3990459-06:00:Thread#0:T:Line 85
+2021-06-19T23:03:46.5295173-06:00:2021-06-19T23:03:46.5265156-06:00:Thread#0:T:Parsing: i mean, i would seriously consider these tactics. it will cut down on your useage of a* dramatically which could very well solve your problem entirely. from: almightygamesdev
+2021-06-19T23:04:10.0024963-06:00:2021-06-19T23:04:10.0014955-06:00:Thread#0:T:Line 86
+2021-06-19T23:04:10.1292085-06:00:2021-06-19T23:04:10.1282084-06:00:Thread#0:T:Parsing: how many agents are currently using pathfinding? from: almightygamesdev
+2021-06-19T23:04:38.0073436-06:00:2021-06-19T23:04:38.0063429-06:00:Thread#0:T:Line 87
+2021-06-19T23:04:38.1403739-06:00:2021-06-19T23:04:38.1363729-06:00:Thread#0:T:Parsing: for my game, it's about 25 from: almightygamesdev
+2021-06-19T23:04:52.8169300-06:00:2021-06-19T23:04:52.8139310-06:00:Thread#0:T:Line 88
+2021-06-19T23:04:52.9799684-06:00:2021-06-19T23:04:52.9789679-06:00:Thread#0:T:Parsing: 100 is not bad to be honest from: almightygamesdev
+2021-06-19T23:05:09.8371381-06:00:2021-06-19T23:05:09.8341374-06:00:Thread#0:T:Line 89
+2021-06-19T23:05:09.9721882-06:00:2021-06-19T23:05:09.9691875-06:00:Thread#0:T:Parsing: i have tested 100 and it was fine. from: almightygamesdev
+2021-06-19T23:06:04.2541046-06:00:2021-06-19T23:06:04.2531038-06:00:Thread#0:T:Line 90
+2021-06-19T23:06:04.4221412-06:00:2021-06-19T23:06:04.4201416-06:00:Thread#0:T:Parsing: wav library https://github.com/l337rabbit/wavhello from: rabbit_xxxx
+2021-06-19T23:06:07.2597799-06:00:2021-06-19T23:06:07.2547786-06:00:Thread#0:T:Line 91
+2021-06-19T23:06:07.4608248-06:00:2021-06-19T23:06:07.4568240-06:00:Thread#0:T:Parsing: another thing you could try is making the new path happen in a coroutine that is frame independent from: almightygamesdev
+2021-06-19T23:06:23.2036681-06:00:2021-06-19T23:06:23.2026668-06:00:Thread#0:T:Line 92
+2021-06-19T23:06:23.3119027-06:00:2021-06-19T23:06:23.3106284-06:00:Thread#0:T:Parsing: so whenever you want to add your stuff for checking file lengths, you can do that from: rabbit_xxxx
+2021-06-19T23:06:40.9970320-06:00:2021-06-19T23:06:40.9950309-06:00:Thread#0:T:Line 93
+2021-06-19T23:06:41.1350627-06:00:2021-06-19T23:06:41.1330623-06:00:Thread#0:T:Parsing: alright man, have a good night. from: almightygamesdev
+2021-06-19T23:06:49.4093181-06:00:2021-06-19T23:06:49.4043177-06:00:Thread#0:T:Line 94
+2021-06-19T23:06:49.5426051-06:00:2021-06-19T23:06:49.5416043-06:00:Thread#0:T:Parsing: hope my tips were helpful from: almightygamesdev
+2021-06-19T23:06:51.4212182-06:00:2021-06-19T23:06:51.4202184-06:00:Thread#0:T:Line 95
+2021-06-19T23:06:51.5312435-06:00:2021-06-19T23:06:51.5302430-06:00:Thread#0:T:Parsing: / from: rabbit_xxxx
+2021-06-19T23:07:35.4121381-06:00:2021-06-19T23:07:35.4096280-06:00:Thread#0:T:Line 96
+2021-06-19T23:07:35.5432288-06:00:2021-06-19T23:07:35.5412280-06:00:Thread#0:T:Parsing: the floating thing is ok, so long as they aren't using pathfinding from: almightygamesdev
+2021-06-19T23:08:04.6680147-06:00:2021-06-19T23:08:04.6600132-06:00:Thread#0:T:Line 97
+2021-06-19T23:08:04.9030678-06:00:2021-06-19T23:08:04.9010668-06:00:Thread#0:T:Parsing: if during the floating, they are suddently able to be seen, you could invoke pathfinding and change from float to pathfinding from: almightygamesdev
+2021-06-19T23:08:30.9965834-06:00:2021-06-19T23:08:30.9945818-06:00:Thread#0:T:Line 98
+2021-06-19T23:08:31.1356136-06:00:2021-06-19T23:08:31.1326136-06:00:Thread#0:T:Parsing: song lengths i meant from: rabbit_xxxx
+2021-06-19T23:08:33.8167945-06:00:2021-06-19T23:08:33.8077924-06:00:Thread#0:T:Line 99
+2021-06-19T23:08:33.9628266-06:00:2021-06-19T23:08:33.9568250-06:00:Thread#0:T:Parsing: in seconds from: rabbit_xxxx
+2021-06-19T23:08:34.5821022-06:00:2021-06-19T23:08:34.5811002-06:00:Thread#0:T:Line 100
+2021-06-19T23:08:34.7031276-06:00:2021-06-19T23:08:34.7021279-06:00:Thread#0:T:Parsing: the problem with floating is that they could float over somethign that has no pathfinding solution from: almightygamesdev
+2021-06-19T23:08:41.4043267-06:00:2021-06-19T23:08:41.4033281-06:00:Thread#0:T:Line 102
+2021-06-19T23:08:41.6313570-06:00:2021-06-19T23:08:41.6303578-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-06-19T23:08:41.6483590-06:00:2021-06-19T23:08:41.6473600-06:00:Thread#0:T:Line 102
+2021-06-19T23:08:43.9888224-06:00:2021-06-19T23:08:43.9878237-06:00:Thread#0:T:Line 103
+2021-06-19T23:08:44.1415150-06:00:2021-06-19T23:08:44.1405142-06:00:Thread#0:T:Parsing: !stream from: user335
+2021-06-19T23:08:49.9934996-06:00:2021-06-19T23:08:49.9924988-06:00:Thread#0:T:Line 104
+2021-06-19T23:08:50.1156392-06:00:2021-06-19T23:08:50.1146391-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-06-19T23:08:50.1961711-06:00:2021-06-19T23:08:50.1951715-06:00:Thread#0:T:Line 105
+2021-06-19T23:09:00.0185633-06:00:2021-06-19T23:09:00.0145620-06:00:Thread#0:T:Line 106
+2021-06-19T23:09:00.1725977-06:00:2021-06-19T23:09:00.1715973-06:00:Thread#0:T:Parsing: / from: rabbit_xxxx

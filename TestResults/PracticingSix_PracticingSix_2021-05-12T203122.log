@@ -1,0 +1,144 @@
+﻿2021-05-12T20:31:22.6338447-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-12T20:31:22.6348449-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-12T20:31:22.6348449-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-12T20:31:22.6348449-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-12T20:31:22.7798776-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-12T20:31:22.7808778-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-12T20:31:22.7808778-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-12T20:31:22.8398925-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-12T203122.log
+2021-05-12T20:31:22.8478932-06:00;Thread#13;Info;Checking activation
+2021-05-12T20:31:22.9679198-06:00;Thread#13;Info;Activated.
+2021-05-12T20:31:22.9679198-06:00;Thread#13;Info;Activation check completed
+2021-05-12T20:31:22.9679198-06:00;Thread#13;Info;Starting test run
+2021-05-12T20:31:23.0099372-06:00;Thread#13;Info;Discovering target: Default
+2021-05-12T20:31:23.0109296-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-12T20:31:23.3840144-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-12T20:31:23.3860155-06:00:Test Suite Dump
+2021-05-12T20:31:23.3880156-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-12T20:31:23.3880156-06:00:#1: Default - 
+2021-05-12T20:31:23.3880156-06:00:#2: PracticingSix - 
+2021-05-12T20:31:23.3880156-06:00:#3: EyeOfTheTiger - 
+2021-05-12T20:31:23.3890160-06:00:#5: Twitch Bot! - 
+2021-05-12T20:31:23.4220226-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-12T20:31:23.4220226-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-05-12T20:31:23.4220226-06:00:End: Test Suite Dump
+2021-05-12T20:31:23.4630322-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-12T20:31:23.4670335-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-05-12T20:31:23.4670335-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-12T20:31:23.4730347-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-12T20:31:23.4730347-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-12T20:31:23.4730347-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-12T20:31:23.4730347-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-12T20:31:23.4740344-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-12T20:31:23.4750349-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-12T20:31:23.4750349-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-12T20:31:23.4750349-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-12T20:31:23.4750349-06:00:Thread#1:Scheduler: considering testitem #4 for thread 1
+2021-05-12T20:31:23.4750349-06:00:Thread#1:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-12T20:31:23.4750349-06:00:Thread#1:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-12T20:31:23.4750349-06:00:Thread#1:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-12T20:31:23.4750349-06:00:Thread#1:Scheduler: using testitem #4 for thread 1
+2021-05-12T20:31:23.4750349-06:00:Thread#1:Scheduler: Test #4 is scheduled for thread
+2021-05-12T20:31:23.4750349-06:00:Thread#1:Scheduler: with testItemExecutionIndex 0
+2021-05-12T20:31:23.4800371-06:00:Thread #1: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-12T20:31:23.4800371-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-12T20:31:23.4830372-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-12T20:31:23.4830372-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-05-12T20:31:23.5310487-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-05-12T20:31:23.5310487-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-12T20:31:23.5340490-06:00:Thread #1: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-12T20:31:23.5340490-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-12T20:31:23.5370488-06:00:starting Out Of Process Executor
+2021-05-12T20:31:23.5370488-06:00:starting Out Of Process Executor
+2021-05-12T20:31:23.5430504-06:00:Starting callback TCP Rpc server
+2021-05-12T20:31:23.5430504-06:00:Starting callback TCP Rpc server
+2021-05-12T20:31:23.5600550-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-12T20:31:23.5600550-06:00:Started callback TCP Rpc server on port 32768
+2021-05-12T20:31:23.5600550-06:00:Starting logger TCP Rpc server
+2021-05-12T20:31:23.5640552-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-12T20:31:23.5640552-06:00:Started callback TCP Rpc server on port 32769
+2021-05-12T20:31:23.5640552-06:00:Starting logger TCP Rpc server
+2021-05-12T20:31:23.5670556-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-05-12T20:31:23.5670556-06:00:Started logger TCP Rpc server on port 32770
+2021-05-12T20:31:23.5700565-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-05-12T20:31:23.5700565-06:00:Started logger TCP Rpc server on port 32771
+2021-05-12T20:31:23.5750578-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 16960 --uniqueId "2021-05-12T203122" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32769 --loggerPort 32770' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-12T20:31:23.5750578-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 16960 --uniqueId "2021-05-12T203122" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32771' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-12T20:31:23.6510764-06:00:Executor with PID 14684 has been started successfully.
+2021-05-12T20:31:23.6540762-06:00:Executor with PID 17396 has been started successfully.
+2021-05-12T20:31:23.6550780-06:00:Out of Process Executor 14684 started
+2021-05-12T20:31:23.6550780-06:00:Waiting for endpoint
+2021-05-12T20:31:23.6550780-06:00:Out of Process Executor 17396 started
+2021-05-12T20:31:23.6560774-06:00:Waiting for endpoint
+2021-05-12T20:31:24.5012670-06:00:Remote executor port received: 32773
+2021-05-12T20:31:24.5012670-06:00:Remote executor port received: 32772
+2021-05-12T20:31:24.5012670-06:00:Creating executor TCP client on port 32773
+2021-05-12T20:31:24.5012670-06:00:Creating executor TCP client on port 32772
+2021-05-12T20:31:24.5012670-06:00:Created executor TCP client on port 32773
+2021-05-12T20:31:24.5012670-06:00:Connecting to remote executor TCP server
+2021-05-12T20:31:24.5012670-06:00:Created executor TCP client on port 32772
+2021-05-12T20:31:24.5012670-06:00:Connecting to remote executor TCP server
+2021-05-12T20:31:24.5022700-06:00:Connected remote executor TCP server
+2021-05-12T20:31:24.5022700-06:00:Connected remote executor TCP server
+2021-05-12T20:31:24.5022700-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-12T20:31:24.5022700-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-12T20:31:24.5022700-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-12T20:31:24.5022700-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-12T20:31:25.1674182-06:00:2021-05-12T20:31:25.1664182-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #1
+2021-05-12T20:31:25.1674182-06:00:2021-05-12T20:31:25.1674182-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-05-12T20:31:25.1754199-06:00:Endpoint 17396 started
+2021-05-12T20:31:25.1754199-06:00:Endpoint 14684 started
+2021-05-12T20:31:25.1984266-06:00:2021-05-12T20:31:25.1974246-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-12T20:31:25.1994264-06:00:2021-05-12T20:31:25.1984266-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-12T20:31:25.6565292-06:00:2021-05-12T20:31:25.6565292-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-12T20:31:25.6605298-06:00:2021-05-12T20:31:25.6595300-06:00:Thread#1:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-12T20:31:25.7205439-06:00:2021-05-12T20:31:25.7195437-06:00:Thread#0:T:-> Using default config
+2021-05-12T20:31:25.7205439-06:00:2021-05-12T20:31:25.7195437-06:00:Thread#1:T:-> Using default config
+2021-05-12T20:31:26.8598010-06:00:2021-05-12T20:31:26.8588011-06:00:Thread#0:T:Starting the driver...
+2021-05-12T20:31:26.8608010-06:00:2021-05-12T20:31:26.8608010-06:00:Thread#1:T:Starting the driver...
+2021-05-12T20:31:29.2493643-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-05-12T20:31:29.3003758-06:00:2021-05-12T20:31:29.3003758-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-12T20:31:29.3273809-06:00:Thread#1: Test #4/0 is started on thread #1
+2021-05-12T20:31:29.3653892-06:00:2021-05-12T20:31:29.3653892-06:00:Thread#1:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-12T20:31:29.3673901-06:00:2021-05-12T20:31:29.3673901-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-12T20:31:29.3693907-06:00:2021-05-12T20:31:29.3693907-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-12T20:31:31.9637943-06:00:2021-05-12T20:31:31.9627935-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.6s)
+2021-05-12T20:31:31.9657934-06:00:2021-05-12T20:31:31.9657934-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-12T20:31:47.2216721-06:00:2021-05-12T20:31:47.2206718-06:00:Thread#1:T:Playing!
+2021-05-12T20:31:48.1989207-06:00:2021-05-12T20:31:48.1989207-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T20:36:20.1542864-06:00:2021-05-12T20:36:20.1522862-06:00:Thread#1:T:Playing!
+2021-05-12T20:36:21.0886294-06:00:2021-05-12T20:36:21.0876292-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T20:40:26.5523859-06:00:2021-05-12T20:40:26.5513866-06:00:Thread#1:T:Playing!
+2021-05-12T20:40:27.2985559-06:00:2021-05-12T20:40:27.2985559-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T20:44:37.4771355-06:00:2021-05-12T20:44:37.4761356-06:00:Thread#1:T:Playing!
+2021-05-12T20:44:37.8998235-06:00:2021-05-12T20:44:37.8998235-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T20:48:43.2744455-06:00:2021-05-12T20:48:43.2734455-06:00:Thread#1:T:Playing!
+2021-05-12T20:48:43.8753381-06:00:2021-05-12T20:48:43.8743385-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T20:52:52.5278067-06:00:2021-05-12T20:52:52.5268072-06:00:Thread#1:T:Playing!
+2021-05-12T20:52:52.5578142-06:00:2021-05-12T20:52:52.5568136-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T20:56:57.7339335-06:00:2021-05-12T20:56:57.7329316-06:00:Thread#1:T:Playing!
+2021-05-12T20:56:58.4040994-06:00:2021-05-12T20:56:58.4040994-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:01:04.2477493-06:00:2021-05-12T21:01:04.2467491-06:00:Thread#1:T:Playing!
+2021-05-12T21:01:04.7328588-06:00:2021-05-12T21:01:04.7298581-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:05:09.5843439-06:00:2021-05-12T21:05:09.5833433-06:00:Thread#1:T:Playing!
+2021-05-12T21:05:10.3995284-06:00:2021-05-12T21:05:10.3995284-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:09:15.9845563-06:00:2021-05-12T21:09:15.9835560-06:00:Thread#1:T:Playing!
+2021-05-12T21:09:16.2976262-06:00:2021-05-12T21:09:16.2966279-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:13:22.1910215-06:00:2021-05-12T21:13:22.1860211-06:00:Thread#1:T:Playing!
+2021-05-12T21:13:22.6191185-06:00:2021-05-12T21:13:22.6181196-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:17:27.2709814-06:00:2021-05-12T21:17:27.2709814-06:00:Thread#1:T:Playing!
+2021-05-12T21:17:27.8411120-06:00:2021-05-12T21:17:27.8371107-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:21:33.7292908-06:00:2021-05-12T21:21:33.7292908-06:00:Thread#1:T:Playing!
+2021-05-12T21:21:34.0223572-06:00:2021-05-12T21:21:34.0223572-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:25:39.4375613-06:00:2021-05-12T21:25:39.4365547-06:00:Thread#1:T:Playing!
+2021-05-12T21:25:39.8046378-06:00:2021-05-12T21:25:39.8036384-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:29:44.8634871-06:00:2021-05-12T21:29:44.8624874-06:00:Thread#1:T:Playing!
+2021-05-12T21:29:45.8117025-06:00:2021-05-12T21:29:45.8107037-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:33:51.2459352-06:00:2021-05-12T21:33:51.2449345-06:00:Thread#1:T:Playing!
+2021-05-12T21:33:51.5440015-06:00:2021-05-12T21:33:51.5440015-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:38:10.5732166-06:00:2021-05-12T21:38:10.5712176-06:00:Thread#1:T:Playing!
+2021-05-12T21:38:10.8912891-06:00:2021-05-12T21:38:10.8912891-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:42:19.7660598-06:00:2021-05-12T21:42:19.7660598-06:00:Thread#1:T:Playing!
+2021-05-12T21:42:20.0621267-06:00:2021-05-12T21:42:20.0621267-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-12T21:46:31.1791366-06:00:2021-05-12T21:46:31.1791366-06:00:Thread#1:T:Playing!
+2021-05-12T21:46:31.6583033-06:00:2021-05-12T21:46:31.6583033-06:00:Thread#1:T:sendkeys arrowdown didn't work

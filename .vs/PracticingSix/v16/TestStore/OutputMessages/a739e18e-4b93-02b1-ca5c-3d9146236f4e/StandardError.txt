@@ -1,0 +1,43 @@
+chrome not reachable
+  (Session info: chrome=90.0.4430.93)OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=90.0.4430.93)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 28
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at PracticingSix.EyeOfTheTiger.GiveMeEyeOfTheTigerEveryInterval(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 52
+   at lambda_method(Closure , IContextManager , Double )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at PracticingSix.Features.EyeOfTheTigerFeature.ScenarioCleanup()
+   at PracticingSix.Features.EyeOfTheTigerFeature.HitMeAndDontStop() in C:\Users\user\source\repos\PracticingSix\Features\EyeOfTheTiger.feature:line 5
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()

@@ -1,0 +1,417 @@
+﻿2021-06-10T18:18:05.7196248-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-10T18:18:05.7196248-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-10T18:18:05.7196248-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-10T18:18:05.7196248-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-10T18:18:05.9016647-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-10T18:18:05.9016647-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-10T18:18:05.9016647-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-10T18:18:05.9616784-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-10T181805.log
+2021-06-10T18:18:05.9816827-06:00;Thread#13;Info;Checking activation
+2021-06-10T18:18:06.0877071-06:00;Thread#13;Info;Activated.
+2021-06-10T18:18:06.0887065-06:00;Thread#13;Info;Activation check completed
+2021-06-10T18:18:06.0887065-06:00;Thread#13;Info;Starting test run
+2021-06-10T18:18:06.1437205-06:00;Thread#13;Info;Discovering target: Default
+2021-06-10T18:18:06.1447200-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-10T18:18:06.6258279-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-10T18:18:06.6278285-06:00:Test Suite Dump
+2021-06-10T18:18:06.6308292-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-10T18:18:06.6308292-06:00:#1: Default - 
+2021-06-10T18:18:06.6308292-06:00:#2: PracticingSix - 
+2021-06-10T18:18:06.6308292-06:00:#3: EyeOfTheTiger - 
+2021-06-10T18:18:06.6758383-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-06-10T18:18:06.6758383-06:00:End: Test Suite Dump
+2021-06-10T18:18:06.7208489-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-10T18:18:06.7218487-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-10T18:18:06.7218487-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-10T18:18:06.7278502-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-10T18:18:06.7278502-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-10T18:18:06.7278502-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-10T18:18:06.7278502-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-10T18:18:06.7298499-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-10T18:18:06.7318512-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-10T18:18:06.7318512-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-10T18:18:06.7318512-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-10T18:18:06.7318512-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-10T18:18:06.7318512-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-10T18:18:06.7358526-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-10T18:18:06.7388539-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-10T18:18:06.7448561-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-10T18:18:06.7493673-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-10T18:18:06.7533677-06:00:starting Out Of Process Executor
+2021-06-10T18:18:06.7613693-06:00:Starting callback TCP Rpc server
+2021-06-10T18:18:06.7828839-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-06-10T18:18:06.7838846-06:00:Started callback TCP Rpc server on port 32771
+2021-06-10T18:18:06.7838846-06:00:Starting logger TCP Rpc server
+2021-06-10T18:18:06.7898842-06:00:Asynchronously starting background TCP Rpc Server on port 32772
+2021-06-10T18:18:06.7898842-06:00:Started logger TCP Rpc server on port 32772
+2021-06-10T18:18:06.7948856-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 13360 --uniqueId "2021-06-10T181805" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32771 --loggerPort 32772' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-10T18:18:06.7998885-06:00:Executor with PID 18544 has been started successfully.
+2021-06-10T18:18:06.8048884-06:00:Out of Process Executor 18544 started
+2021-06-10T18:18:06.8048884-06:00:Waiting for endpoint
+2021-06-10T18:18:07.5230490-06:00:Remote executor port received: 32773
+2021-06-10T18:18:07.5240486-06:00:Creating executor TCP client on port 32773
+2021-06-10T18:18:07.5240486-06:00:Created executor TCP client on port 32773
+2021-06-10T18:18:07.5240486-06:00:Connecting to remote executor TCP server
+2021-06-10T18:18:07.5250507-06:00:Connected remote executor TCP server
+2021-06-10T18:18:07.5250507-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-10T18:18:07.5250507-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-10T18:18:08.2557633-06:00:2021-06-10T18:18:08.2547632-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-06-10T18:18:08.2617643-06:00:Endpoint 18544 started
+2021-06-10T18:18:08.2857699-06:00:2021-06-10T18:18:08.2847718-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-10T18:18:08.8558971-06:00:2021-06-10T18:18:08.8548972-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-10T18:18:08.9269135-06:00:2021-06-10T18:18:08.9269135-06:00:Thread#0:T:-> Using default config
+2021-06-10T18:18:10.2979233-06:00:2021-06-10T18:18:10.2969229-06:00:Thread#0:T:Starting the driver...
+2021-06-10T18:18:12.2136342-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-10T18:18:12.2656451-06:00:2021-06-10T18:18:12.2576436-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-10T18:18:44.3893711-06:00:2021-06-10T18:18:44.3873693-06:00:Thread#0:T:Playing!
+2021-06-10T18:18:45.5255791-06:00:2021-06-10T18:18:45.5245784-06:00:Thread#0:T:Loop: 0
+2021-06-10T18:18:50.8479029-06:00:2021-06-10T18:18:50.8469029-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-06-10T18:18:53.9023168-06:00:2021-06-10T18:18:53.9023168-06:00:Thread#0:T:Finished logging in
+2021-06-10T18:19:12.9113743-06:00:2021-06-10T18:19:12.9113743-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 1
+2021-06-10T18:19:13.3659861-06:00:2021-06-10T18:19:13.3659861-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 2
+2021-06-10T18:19:13.7960835-06:00:2021-06-10T18:19:13.7950825-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 3
+2021-06-10T18:19:14.2872318-06:00:2021-06-10T18:19:14.2872318-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 4
+2021-06-10T18:19:14.7413341-06:00:2021-06-10T18:19:14.7403336-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 5
+2021-06-10T18:19:15.1694310-06:00:2021-06-10T18:19:15.1684296-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 6
+2021-06-10T18:19:15.5755596-06:00:2021-06-10T18:19:15.5745592-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 7
+2021-06-10T18:19:16.0136960-06:00:2021-06-10T18:19:16.0106951-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 8
+2021-06-10T18:19:16.5023169-06:00:2021-06-10T18:19:16.5023169-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 9
+2021-06-10T18:19:16.9264089-06:00:2021-06-10T18:19:16.9264089-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 10
+2021-06-10T18:19:17.3405446-06:00:2021-06-10T18:19:17.3405446-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 11
+2021-06-10T18:19:17.7736860-06:00:2021-06-10T18:19:17.7726842-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 12
+2021-06-10T18:19:18.2143713-06:00:2021-06-10T18:19:18.2143713-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 13
+2021-06-10T18:19:18.6781902-06:00:2021-06-10T18:19:18.6771889-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 14
+2021-06-10T18:19:19.1682974-06:00:2021-06-10T18:19:19.1672977-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 15
+2021-06-10T18:19:19.5943941-06:00:2021-06-10T18:19:19.5943941-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 16
+2021-06-10T18:19:20.0264914-06:00:2021-06-10T18:19:20.0254910-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 17
+2021-06-10T18:19:20.4475846-06:00:2021-06-10T18:19:20.4475846-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 18
+2021-06-10T18:19:20.9146893-06:00:2021-06-10T18:19:20.9146893-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 19
+2021-06-10T18:19:21.3393560-06:00:2021-06-10T18:19:21.3383549-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 20
+2021-06-10T18:19:21.7715605-06:00:2021-06-10T18:19:21.7675606-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 21
+2021-06-10T18:19:22.2467073-06:00:2021-06-10T18:19:22.2457070-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 22
+2021-06-10T18:19:22.6634580-06:00:2021-06-10T18:19:22.6624583-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 23
+2021-06-10T18:19:23.0765682-06:00:2021-06-10T18:19:23.0755690-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 24
+2021-06-10T18:19:23.5046653-06:00:2021-06-10T18:19:23.5036653-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 25
+2021-06-10T18:19:23.9278476-06:00:2021-06-10T18:19:23.9278476-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 26
+2021-06-10T18:19:24.3446007-06:00:2021-06-10T18:19:24.3446007-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 27
+2021-06-10T18:19:24.7537124-06:00:2021-06-10T18:19:24.7537124-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 28
+2021-06-10T18:19:25.1649514-06:00:2021-06-10T18:19:25.1649514-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 29
+2021-06-10T18:19:25.6468091-06:00:2021-06-10T18:19:25.6468091-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 30
+2021-06-10T18:19:26.0586098-06:00:2021-06-10T18:19:26.0586098-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 31
+2021-06-10T18:19:26.4778922-06:00:2021-06-10T18:19:26.4778922-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 32
+2021-06-10T18:19:26.8981953-06:00:2021-06-10T18:19:26.8981953-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 33
+2021-06-10T18:19:27.3013003-06:00:2021-06-10T18:19:27.3013003-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 34
+2021-06-10T18:19:27.7259627-06:00:2021-06-10T18:19:27.7259627-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 35
+2021-06-10T18:19:28.1402610-06:00:2021-06-10T18:19:28.1392611-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 36
+2021-06-10T18:19:28.5793606-06:00:2021-06-10T18:19:28.5783606-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 37
+2021-06-10T18:19:29.0199699-06:00:2021-06-10T18:19:29.0199699-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 38
+2021-06-10T18:19:29.4356134-06:00:2021-06-10T18:19:29.4356134-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 39
+2021-06-10T18:19:29.8873526-06:00:2021-06-10T18:19:29.8873526-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 40
+2021-06-10T18:19:30.3014458-06:00:2021-06-10T18:19:30.3014458-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 41
+2021-06-10T18:19:30.7515460-06:00:2021-06-10T18:19:30.7515460-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 42
+2021-06-10T18:19:31.1691568-06:00:2021-06-10T18:19:31.1691568-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 43
+2021-06-10T18:19:31.6083297-06:00:2021-06-10T18:19:31.6083297-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 44
+2021-06-10T18:19:32.0204211-06:00:2021-06-10T18:19:32.0204211-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 45
+2021-06-10T18:19:32.4840343-06:00:2021-06-10T18:19:32.4810333-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 46
+2021-06-10T18:19:32.9271555-06:00:2021-06-10T18:19:32.9261564-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 47
+2021-06-10T18:19:33.3772575-06:00:2021-06-10T18:19:33.3762577-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 48
+2021-06-10T18:19:33.8083532-06:00:2021-06-10T18:19:33.8083532-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 49
+2021-06-10T18:19:34.2574552-06:00:2021-06-10T18:19:34.2574552-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 50
+2021-06-10T18:19:34.6885509-06:00:2021-06-10T18:19:34.6885509-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 51
+2021-06-10T18:19:35.1286484-06:00:2021-06-10T18:19:35.1286484-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 52
+2021-06-10T18:19:35.5538074-06:00:2021-06-10T18:19:35.5538074-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 53
+2021-06-10T18:19:35.9829944-06:00:2021-06-10T18:19:35.9829944-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 54
+2021-06-10T18:19:36.4080913-06:00:2021-06-10T18:19:36.4070896-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 55
+2021-06-10T18:19:36.8336921-06:00:2021-06-10T18:19:36.8336921-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 56
+2021-06-10T18:19:37.2607883-06:00:2021-06-10T18:19:37.2607883-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 57
+2021-06-10T18:19:37.6808825-06:00:2021-06-10T18:19:37.6808825-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 58
+2021-06-10T18:19:38.1149802-06:00:2021-06-10T18:19:38.1149802-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 59
+2021-06-10T18:19:38.5530775-06:00:2021-06-10T18:19:38.5520779-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 60
+2021-06-10T18:19:38.9821930-06:00:2021-06-10T18:19:38.9811933-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 61
+2021-06-10T18:19:39.4212916-06:00:2021-06-10T18:19:39.4212916-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 62
+2021-06-10T18:19:39.8483872-06:00:2021-06-10T18:19:39.8473870-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 63
+2021-06-10T18:19:40.2764838-06:00:2021-06-10T18:19:40.2754828-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 64
+2021-06-10T18:19:40.6865746-06:00:2021-06-10T18:19:40.6865746-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 65
+2021-06-10T18:19:41.0976680-06:00:2021-06-10T18:19:41.0966666-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 66
+2021-06-10T18:19:41.5142727-06:00:2021-06-10T18:19:41.5132713-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 67
+2021-06-10T18:19:41.9393678-06:00:2021-06-10T18:19:41.9393678-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 68
+2021-06-10T18:19:42.4074998-06:00:2021-06-10T18:19:42.4074998-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 69
+2021-06-10T18:19:42.8215922-06:00:2021-06-10T18:19:42.8205924-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 70
+2021-06-10T18:19:43.2326844-06:00:2021-06-10T18:19:43.2316846-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 71
+2021-06-10T18:19:43.6857860-06:00:2021-06-10T18:19:43.6857860-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 72
+2021-06-10T18:19:44.0983866-06:00:2021-06-10T18:19:44.0983866-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 73
+2021-06-10T18:19:44.5449995-06:00:2021-06-10T18:19:44.5429974-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 74
+2021-06-10T18:19:44.9866064-06:00:2021-06-10T18:19:44.9856070-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 75
+2021-06-10T18:19:45.4472593-06:00:2021-06-10T18:19:45.4462593-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 76
+2021-06-10T18:19:45.8994050-06:00:2021-06-10T18:19:45.8994050-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 77
+2021-06-10T18:19:46.3275472-06:00:2021-06-10T18:19:46.3275472-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 78
+2021-06-10T18:19:46.7466653-06:00:2021-06-10T18:19:46.7466653-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 79
+2021-06-10T18:19:47.2337938-06:00:2021-06-10T18:19:47.2337938-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 80
+2021-06-10T18:19:47.6488872-06:00:2021-06-10T18:19:47.6488872-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 81
+2021-06-10T18:19:48.0869860-06:00:2021-06-10T18:19:48.0869860-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 82
+2021-06-10T18:19:48.5260839-06:00:2021-06-10T18:19:48.5260839-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 83
+2021-06-10T18:19:48.9792273-06:00:2021-06-10T18:19:48.9792273-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 84
+2021-06-10T18:19:49.4473319-06:00:2021-06-10T18:19:49.4473319-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 85
+2021-06-10T18:19:49.8594235-06:00:2021-06-10T18:19:49.8594235-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 86
+2021-06-10T18:19:50.3295294-06:00:2021-06-10T18:19:50.3295294-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 87
+2021-06-10T18:19:50.7816320-06:00:2021-06-10T18:19:50.7816320-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 88
+2021-06-10T18:19:51.2747424-06:00:2021-06-10T18:19:51.2737419-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 89
+2021-06-10T18:19:51.7333538-06:00:2021-06-10T18:19:51.7313538-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 90
+2021-06-10T18:19:52.1849677-06:00:2021-06-10T18:19:52.1849677-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 91
+2021-06-10T18:19:52.6320662-06:00:2021-06-10T18:19:52.6320662-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 92
+2021-06-10T18:19:53.0632019-06:00:2021-06-10T18:19:53.0622036-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 93
+2021-06-10T18:19:53.4992992-06:00:2021-06-10T18:19:53.4992992-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 94
+2021-06-10T18:19:53.9464000-06:00:2021-06-10T18:19:53.9444002-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 95
+2021-06-10T18:19:54.3814968-06:00:2021-06-10T18:19:54.3814968-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 96
+2021-06-10T18:19:54.7935908-06:00:2021-06-10T18:19:54.7935908-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 97
+2021-06-10T18:19:55.2096825-06:00:2021-06-10T18:19:55.2096825-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 98
+2021-06-10T18:19:55.5967700-06:00:2021-06-10T18:19:55.5957691-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 99
+2021-06-10T18:19:56.0118638-06:00:2021-06-10T18:19:56.0108629-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 100
+2021-06-10T18:19:56.4459606-06:00:2021-06-10T18:19:56.4459606-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 101
+2021-06-10T18:19:56.8910604-06:00:2021-06-10T18:19:56.8900590-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 102
+2021-06-10T18:19:57.2886579-06:00:2021-06-10T18:19:57.2886579-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 103
+2021-06-10T18:19:57.7107811-06:00:2021-06-10T18:19:57.7107811-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 104
+2021-06-10T18:19:58.1248723-06:00:2021-06-10T18:19:58.1238709-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 105
+2021-06-10T18:19:58.5429659-06:00:2021-06-10T18:19:58.5419657-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 106
+2021-06-10T18:19:58.9660605-06:00:2021-06-10T18:19:58.9650602-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 107
+2021-06-10T18:19:59.3657746-06:00:2021-06-10T18:19:59.3657746-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 108
+2021-06-10T18:19:59.8269363-06:00:2021-06-10T18:19:59.8259351-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 109
+2021-06-10T18:20:00.3550543-06:00:2021-06-10T18:20:00.3540535-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 110
+2021-06-10T18:20:00.7708998-06:00:2021-06-10T18:20:00.7693719-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 111
+2021-06-10T18:20:01.2049832-06:00:2021-06-10T18:20:01.2049832-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 112
+2021-06-10T18:20:01.6236100-06:00:2021-06-10T18:20:01.6226089-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 113
+2021-06-10T18:20:02.0480149-06:00:2021-06-10T18:20:02.0480149-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 114
+2021-06-10T18:20:02.4785464-06:00:2021-06-10T18:20:02.4765453-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 115
+2021-06-10T18:20:02.9254756-06:00:2021-06-10T18:20:02.9254756-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 116
+2021-06-10T18:20:03.3529334-06:00:2021-06-10T18:20:03.3519331-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 117
+2021-06-10T18:20:03.7689338-06:00:2021-06-10T18:20:03.7679329-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 118
+2021-06-10T18:20:04.2063296-06:00:2021-06-10T18:20:04.2053308-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 119
+2021-06-10T18:20:04.6236230-06:00:2021-06-10T18:20:04.6226229-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 120
+2021-06-10T18:20:05.0607205-06:00:2021-06-10T18:20:05.0607205-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 121
+2021-06-10T18:20:05.4729636-06:00:2021-06-10T18:20:05.4729636-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 122
+2021-06-10T18:20:05.9146423-06:00:2021-06-10T18:20:05.9146423-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 123
+2021-06-10T18:20:06.3157321-06:00:2021-06-10T18:20:06.3157321-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 124
+2021-06-10T18:20:06.7948632-06:00:2021-06-10T18:20:06.7948632-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 125
+2021-06-10T18:20:07.2230859-06:00:2021-06-10T18:20:07.2220858-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 126
+2021-06-10T18:20:07.6727259-06:00:2021-06-10T18:20:07.6717254-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 127
+2021-06-10T18:20:08.1848999-06:00:2021-06-10T18:20:08.1838993-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 128
+2021-06-10T18:20:08.6395778-06:00:2021-06-10T18:20:08.6375749-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 129
+2021-06-10T18:20:09.0607076-06:00:2021-06-10T18:20:09.0607076-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 130
+2021-06-10T18:20:09.4878877-06:00:2021-06-10T18:20:09.4878877-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 131
+2021-06-10T18:20:09.9260042-06:00:2021-06-10T18:20:09.9260042-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 132
+2021-06-10T18:20:10.3536337-06:00:2021-06-10T18:20:10.3536337-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 133
+2021-06-10T18:20:10.7927312-06:00:2021-06-10T18:20:10.7927312-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 134
+2021-06-10T18:20:11.1938578-06:00:2021-06-10T18:20:11.1928574-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 135
+2021-06-10T18:20:11.6330191-06:00:2021-06-10T18:20:11.6330191-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 136
+2021-06-10T18:20:12.0827433-06:00:2021-06-10T18:20:12.0827433-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 137
+2021-06-10T18:20:12.5320067-06:00:2021-06-10T18:20:12.5310063-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 138
+2021-06-10T18:20:12.9546305-06:00:2021-06-10T18:20:12.9546305-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 139
+2021-06-10T18:20:13.3537384-06:00:2021-06-10T18:20:13.3537384-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 140
+2021-06-10T18:20:13.7688318-06:00:2021-06-10T18:20:13.7678312-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 141
+2021-06-10T18:20:14.1949425-06:00:2021-06-10T18:20:14.1939414-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 142
+2021-06-10T18:20:14.6080523-06:00:2021-06-10T18:20:14.6070530-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 143
+2021-06-10T18:20:15.0756702-06:00:2021-06-10T18:20:15.0746696-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 144
+2021-06-10T18:20:15.4732692-06:00:2021-06-10T18:20:15.4732692-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 145
+2021-06-10T18:20:15.8863612-06:00:2021-06-10T18:20:15.8853615-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 146
+2021-06-10T18:20:16.3554679-06:00:2021-06-10T18:20:16.3544672-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 147
+2021-06-10T18:20:16.7595574-06:00:2021-06-10T18:20:16.7595574-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 148
+2021-06-10T18:20:17.1821599-06:00:2021-06-10T18:20:17.1821599-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 149
+2021-06-10T18:20:17.6247914-06:00:2021-06-10T18:20:17.6237913-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 150
+2021-06-10T18:20:18.0894031-06:00:2021-06-10T18:20:18.0884035-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 151
+2021-06-10T18:20:18.5155437-06:00:2021-06-10T18:20:18.5155437-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 152
+2021-06-10T18:20:18.9676467-06:00:2021-06-10T18:20:18.9676467-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 153
+2021-06-10T18:20:19.3787374-06:00:2021-06-10T18:20:19.3787374-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 154
+2021-06-10T18:20:19.7938463-06:00:2021-06-10T18:20:19.7928456-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 155
+2021-06-10T18:20:20.1809336-06:00:2021-06-10T18:20:20.1809336-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 156
+2021-06-10T18:20:20.5650191-06:00:2021-06-10T18:20:20.5650191-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 157
+2021-06-10T18:20:20.9421032-06:00:2021-06-10T18:20:20.9421032-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 158
+2021-06-10T18:20:21.3321915-06:00:2021-06-10T18:20:21.3311909-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 159
+2021-06-10T18:20:21.7032740-06:00:2021-06-10T18:20:21.7032740-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 160
+2021-06-10T18:20:22.0913613-06:00:2021-06-10T18:20:22.0903609-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 161
+2021-06-10T18:20:22.4774477-06:00:2021-06-10T18:20:22.4774477-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 162
+2021-06-10T18:20:22.8595325-06:00:2021-06-10T18:20:22.8585321-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 163
+2021-06-10T18:20:23.2376190-06:00:2021-06-10T18:20:23.2366180-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 164
+2021-06-10T18:20:23.6317055-06:00:2021-06-10T18:20:23.6317055-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 165
+2021-06-10T18:20:24.0217933-06:00:2021-06-10T18:20:24.0217933-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 166
+2021-06-10T18:20:24.3958768-06:00:2021-06-10T18:20:24.3948768-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 167
+2021-06-10T18:20:24.7929659-06:00:2021-06-10T18:20:24.7919653-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 168
+2021-06-10T18:20:25.1800529-06:00:2021-06-10T18:20:25.1800529-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 169
+2021-06-10T18:20:25.5681408-06:00:2021-06-10T18:20:25.5671402-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 170
+2021-06-10T18:20:25.9582280-06:00:2021-06-10T18:20:25.9572278-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 171
+2021-06-10T18:20:26.3413123-06:00:2021-06-10T18:20:26.3413123-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 172
+2021-06-10T18:20:26.7163977-06:00:2021-06-10T18:20:26.7163977-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 173
+2021-06-10T18:20:27.0864800-06:00:2021-06-10T18:20:27.0854790-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 174
+2021-06-10T18:20:27.4745663-06:00:2021-06-10T18:20:27.4745663-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 175
+2021-06-10T18:20:27.8506527-06:00:2021-06-10T18:20:27.8496507-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 176
+2021-06-10T18:20:28.2477395-06:00:2021-06-10T18:20:28.2477395-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 177
+2021-06-10T18:20:28.6203313-06:00:2021-06-10T18:20:28.6203313-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 178
+2021-06-10T18:20:29.0084184-06:00:2021-06-10T18:20:29.0084184-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 179
+2021-06-10T18:20:29.3835033-06:00:2021-06-10T18:20:29.3825014-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 180
+2021-06-10T18:20:29.7685892-06:00:2021-06-10T18:20:29.7675908-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 181
+2021-06-10T18:20:30.1396714-06:00:2021-06-10T18:20:30.1386713-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 182
+2021-06-10T18:20:30.5162641-06:00:2021-06-10T18:20:30.5152642-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 183
+2021-06-10T18:20:30.8903486-06:00:2021-06-10T18:20:30.8893477-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 184
+2021-06-10T18:20:31.2859453-06:00:2021-06-10T18:20:31.2859453-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 185
+2021-06-10T18:20:31.6740329-06:00:2021-06-10T18:20:31.6740329-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 186
+2021-06-10T18:20:32.0621194-06:00:2021-06-10T18:20:32.0611189-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 187
+2021-06-10T18:20:32.4512071-06:00:2021-06-10T18:20:32.4512071-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 188
+2021-06-10T18:20:32.8653000-06:00:2021-06-10T18:20:32.8642995-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 189
+2021-06-10T18:20:33.2363819-06:00:2021-06-10T18:20:33.2353821-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 190
+2021-06-10T18:20:33.6219781-06:00:2021-06-10T18:20:33.6209781-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 191
+2021-06-10T18:20:34.0080647-06:00:2021-06-10T18:20:34.0080647-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 192
+2021-06-10T18:20:34.4191563-06:00:2021-06-10T18:20:34.4191563-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 193
+2021-06-10T18:20:34.8062437-06:00:2021-06-10T18:20:34.8052428-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 194
+2021-06-10T18:20:35.1943309-06:00:2021-06-10T18:20:35.1943309-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 195
+2021-06-10T18:20:35.5794381-06:00:2021-06-10T18:20:35.5794381-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 196
+2021-06-10T18:20:35.9671181-06:00:2021-06-10T18:20:35.9661171-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 197
+2021-06-10T18:20:36.3422702-06:00:2021-06-10T18:20:36.3422702-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 198
+2021-06-10T18:20:36.7704026-06:00:2021-06-10T18:20:36.7694000-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 199
+2021-06-10T18:20:37.1549946-06:00:2021-06-10T18:20:37.1539936-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 200
+2021-06-10T18:20:37.5400800-06:00:2021-06-10T18:20:37.5400800-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 201
+2021-06-10T18:20:37.9272449-06:00:2021-06-10T18:20:37.9262448-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 202
+2021-06-10T18:20:38.3153329-06:00:2021-06-10T18:20:38.3143324-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 203
+2021-06-10T18:20:38.7279347-06:00:2021-06-10T18:20:38.7279347-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 204
+2021-06-10T18:20:39.1140218-06:00:2021-06-10T18:20:39.1140218-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 205
+2021-06-10T18:20:39.5041110-06:00:2021-06-10T18:20:39.5031087-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 206
+2021-06-10T18:20:39.8881949-06:00:2021-06-10T18:20:39.8881949-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 207
+2021-06-10T18:20:40.3539426-06:00:2021-06-10T18:20:40.3539426-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 208
+2021-06-10T18:20:40.7430498-06:00:2021-06-10T18:20:40.7420493-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 209
+2021-06-10T18:20:41.1296615-06:00:2021-06-10T18:20:41.1286613-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 210
+2021-06-10T18:20:41.5259275-06:00:2021-06-10T18:20:41.5249275-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 211
+2021-06-10T18:20:41.9140139-06:00:2021-06-10T18:20:41.9140139-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 212
+2021-06-10T18:20:42.2900978-06:00:2021-06-10T18:20:42.2890989-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 213
+2021-06-10T18:20:42.6738235-06:00:2021-06-10T18:20:42.6738235-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 214
+2021-06-10T18:20:43.0599708-06:00:2021-06-10T18:20:43.0599708-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 215
+2021-06-10T18:20:43.4370556-06:00:2021-06-10T18:20:43.4360547-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 216
+2021-06-10T18:20:43.8211405-06:00:2021-06-10T18:20:43.8201405-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 217
+2021-06-10T18:20:44.2062268-06:00:2021-06-10T18:20:44.2062268-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 218
+2021-06-10T18:20:44.5813109-06:00:2021-06-10T18:20:44.5803103-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 219
+2021-06-10T18:20:45.0039666-06:00:2021-06-10T18:20:45.0039666-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 220
+2021-06-10T18:20:45.3950555-06:00:2021-06-10T18:20:45.3950555-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 221
+2021-06-10T18:20:45.7801408-06:00:2021-06-10T18:20:45.7801408-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 222
+2021-06-10T18:20:46.1552247-06:00:2021-06-10T18:20:46.1552247-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 223
+2021-06-10T18:20:46.5393099-06:00:2021-06-10T18:20:46.5383103-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 224
+2021-06-10T18:20:46.9534047-06:00:2021-06-10T18:20:46.9534047-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 225
+2021-06-10T18:20:47.3254858-06:00:2021-06-10T18:20:47.3254858-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 226
+2021-06-10T18:20:47.7025726-06:00:2021-06-10T18:20:47.7015718-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 227
+2021-06-10T18:20:48.0882088-06:00:2021-06-10T18:20:48.0882088-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 228
+2021-06-10T18:20:48.4743385-06:00:2021-06-10T18:20:48.4733372-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 229
+2021-06-10T18:20:48.8654719-06:00:2021-06-10T18:20:48.8644701-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 230
+2021-06-10T18:20:49.3156121-06:00:2021-06-10T18:20:49.3156121-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 231
+2021-06-10T18:20:49.7147016-06:00:2021-06-10T18:20:49.7147016-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 232
+2021-06-10T18:20:50.1958103-06:00:2021-06-10T18:20:50.1958103-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 233
+2021-06-10T18:20:50.6685555-06:00:2021-06-10T18:20:50.6655484-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 234
+2021-06-10T18:20:51.0596792-06:00:2021-06-10T18:20:51.0586792-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 235
+2021-06-10T18:20:51.4337640-06:00:2021-06-10T18:20:51.4327634-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 236
+2021-06-10T18:20:51.9108943-06:00:2021-06-10T18:20:51.9108943-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 237
+2021-06-10T18:20:52.4110072-06:00:2021-06-10T18:20:52.4110072-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 238
+2021-06-10T18:20:52.8516437-06:00:2021-06-10T18:20:52.8516437-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 239
+2021-06-10T18:20:53.2757379-06:00:2021-06-10T18:20:53.2747368-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 240
+2021-06-10T18:20:53.6578420-06:00:2021-06-10T18:20:53.6568412-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 241
+2021-06-10T18:20:54.0759351-06:00:2021-06-10T18:20:54.0759351-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 242
+2021-06-10T18:20:54.4840260-06:00:2021-06-10T18:20:54.4840260-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 243
+2021-06-10T18:20:54.8651130-06:00:2021-06-10T18:20:54.8641128-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 244
+2021-06-10T18:20:55.3292151-06:00:2021-06-10T18:20:55.3292151-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 245
+2021-06-10T18:20:55.7123011-06:00:2021-06-10T18:20:55.7123011-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 246
+2021-06-10T18:20:56.0773846-06:00:2021-06-10T18:20:56.0763831-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 247
+2021-06-10T18:20:56.4874746-06:00:2021-06-10T18:20:56.4874746-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 248
+2021-06-10T18:20:56.8765628-06:00:2021-06-10T18:20:56.8755625-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 249
+2021-06-10T18:20:57.2586481-06:00:2021-06-10T18:20:57.2586481-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 250
+2021-06-10T18:20:57.6477351-06:00:2021-06-10T18:20:57.6477351-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 251
+2021-06-10T18:20:58.0228191-06:00:2021-06-10T18:20:58.0228191-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 252
+2021-06-10T18:20:58.4109077-06:00:2021-06-10T18:20:58.4099060-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 253
+2021-06-10T18:20:58.7931016-06:00:2021-06-10T18:20:58.7931016-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 254
+2021-06-10T18:20:59.1711877-06:00:2021-06-10T18:20:59.1711877-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 255
+2021-06-10T18:20:59.5802790-06:00:2021-06-10T18:20:59.5802790-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 256
+2021-06-10T18:20:59.9523616-06:00:2021-06-10T18:20:59.9513616-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 257
+2021-06-10T18:21:00.3544517-06:00:2021-06-10T18:21:00.3544517-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 258
+2021-06-10T18:21:00.7415388-06:00:2021-06-10T18:21:00.7415388-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 259
+2021-06-10T18:21:01.1176235-06:00:2021-06-10T18:21:01.1166223-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 260
+2021-06-10T18:21:01.5297149-06:00:2021-06-10T18:21:01.5287158-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 261
+2021-06-10T18:21:01.9017994-06:00:2021-06-10T18:21:01.9007983-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 262
+2021-06-10T18:21:02.2778830-06:00:2021-06-10T18:21:02.2778830-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 263
+2021-06-10T18:21:02.6599674-06:00:2021-06-10T18:21:02.6589681-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 264
+2021-06-10T18:21:03.0330522-06:00:2021-06-10T18:21:03.0330522-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 265
+2021-06-10T18:21:03.4221396-06:00:2021-06-10T18:21:03.4171374-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 266
+2021-06-10T18:21:03.7972240-06:00:2021-06-10T18:21:03.7972240-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 267
+2021-06-10T18:21:04.1793091-06:00:2021-06-10T18:21:04.1783089-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 268
+2021-06-10T18:21:04.6094053-06:00:2021-06-10T18:21:04.6084050-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 269
+2021-06-10T18:21:05.0074952-06:00:2021-06-10T18:21:05.0074952-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 270
+2021-06-10T18:21:05.3805776-06:00:2021-06-10T18:21:05.3795780-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 271
+2021-06-10T18:21:05.7796674-06:00:2021-06-10T18:21:05.7796674-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 272
+2021-06-10T18:21:06.1562643-06:00:2021-06-10T18:21:06.1552647-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 273
+2021-06-10T18:21:06.5403508-06:00:2021-06-10T18:21:06.5393507-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 274
+2021-06-10T18:21:06.9174361-06:00:2021-06-10T18:21:06.9174361-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 275
+2021-06-10T18:21:07.3135236-06:00:2021-06-10T18:21:07.3135236-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 276
+2021-06-10T18:21:07.6896083-06:00:2021-06-10T18:21:07.6896083-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 277
+2021-06-10T18:21:08.0606917-06:00:2021-06-10T18:21:08.0606917-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 278
+2021-06-10T18:21:08.4573327-06:00:2021-06-10T18:21:08.4573327-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 279
+2021-06-10T18:21:08.8475524-06:00:2021-06-10T18:21:08.8465522-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 280
+2021-06-10T18:21:09.2227293-06:00:2021-06-10T18:21:09.2227293-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 281
+2021-06-10T18:21:09.6743409-06:00:2021-06-10T18:21:09.6743409-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 282
+2021-06-10T18:21:10.0594260-06:00:2021-06-10T18:21:10.0594260-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 283
+2021-06-10T18:21:10.4345116-06:00:2021-06-10T18:21:10.4335098-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 284
+2021-06-10T18:21:10.8195964-06:00:2021-06-10T18:21:10.8195964-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 285
+2021-06-10T18:21:11.1956812-06:00:2021-06-10T18:21:11.1956812-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 286
+2021-06-10T18:21:11.5813015-06:00:2021-06-10T18:21:11.5813015-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 287
+2021-06-10T18:21:11.9544015-06:00:2021-06-10T18:21:11.9544015-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 288
+2021-06-10T18:21:12.3414884-06:00:2021-06-10T18:21:12.3404893-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 289
+2021-06-10T18:21:12.7405789-06:00:2021-06-10T18:21:12.7405789-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 290
+2021-06-10T18:21:13.1256648-06:00:2021-06-10T18:21:13.1256648-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 291
+2021-06-10T18:21:13.4877836-06:00:2021-06-10T18:21:13.4867833-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 292
+2021-06-10T18:21:13.9125427-06:00:2021-06-10T18:21:13.9115423-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 293
+2021-06-10T18:21:14.2876495-06:00:2021-06-10T18:21:14.2876495-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 294
+2021-06-10T18:21:14.6637352-06:00:2021-06-10T18:21:14.6637352-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 295
+2021-06-10T18:21:15.0489859-06:00:2021-06-10T18:21:15.0479864-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 296
+2021-06-10T18:21:15.4206467-06:00:2021-06-10T18:21:15.4206467-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 297
+2021-06-10T18:21:15.8213036-06:00:2021-06-10T18:21:15.8213036-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 298
+2021-06-10T18:21:16.1990630-06:00:2021-06-10T18:21:16.1975500-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 299
+2021-06-10T18:21:16.5843371-06:00:2021-06-10T18:21:16.5843371-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 300
+2021-06-10T18:21:16.9690937-06:00:2021-06-10T18:21:16.9680957-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 301
+2021-06-10T18:21:17.3572896-06:00:2021-06-10T18:21:17.3562879-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 302
+2021-06-10T18:21:17.7650440-06:00:2021-06-10T18:21:17.7650440-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 303
+2021-06-10T18:21:18.1542785-06:00:2021-06-10T18:21:18.1542785-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 304
+2021-06-10T18:21:18.5413652-06:00:2021-06-10T18:21:18.5403643-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 305
+2021-06-10T18:21:18.9295370-06:00:2021-06-10T18:21:18.9290180-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 306
+2021-06-10T18:21:19.3242590-06:00:2021-06-10T18:21:19.3242590-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 307
+2021-06-10T18:21:19.7003418-06:00:2021-06-10T18:21:19.6993416-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 308
+2021-06-10T18:21:20.0754266-06:00:2021-06-10T18:21:20.0754266-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 309
+2021-06-10T18:21:20.4585114-06:00:2021-06-10T18:21:20.4575118-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 310
+2021-06-10T18:21:20.8385981-06:00:2021-06-10T18:21:20.8375981-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 311
+2021-06-10T18:21:21.3143003-06:00:2021-06-10T18:21:21.3133006-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 312
+2021-06-10T18:21:21.6903854-06:00:2021-06-10T18:21:21.6903854-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 313
+2021-06-10T18:21:22.0859819-06:00:2021-06-10T18:21:22.0859819-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 314
+2021-06-10T18:21:22.4750693-06:00:2021-06-10T18:21:22.4750693-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 315
+2021-06-10T18:21:22.8471520-06:00:2021-06-10T18:21:22.8471520-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 316
+2021-06-10T18:21:23.2372413-06:00:2021-06-10T18:21:23.2362395-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 317
+2021-06-10T18:21:23.6073227-06:00:2021-06-10T18:21:23.6073227-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 318
+2021-06-10T18:21:23.9964102-06:00:2021-06-10T18:21:23.9954097-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 319
+2021-06-10T18:21:24.3930086-06:00:2021-06-10T18:21:24.3930086-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 320
+2021-06-10T18:21:24.7810954-06:00:2021-06-10T18:21:24.7800949-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 321
+2021-06-10T18:21:25.1561784-06:00:2021-06-10T18:21:25.1551795-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 322
+2021-06-10T18:21:25.5302648-06:00:2021-06-10T18:21:25.5302648-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 323
+2021-06-10T18:21:25.9123494-06:00:2021-06-10T18:21:25.9113488-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 324
+2021-06-10T18:21:26.3034369-06:00:2021-06-10T18:21:26.3024366-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 325
+2021-06-10T18:21:26.7315344-06:00:2021-06-10T18:21:26.7305340-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 326
+2021-06-10T18:21:27.1526276-06:00:2021-06-10T18:21:27.1526276-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 327
+2021-06-10T18:21:27.5457154-06:00:2021-06-10T18:21:27.5447160-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 328
+2021-06-10T18:21:27.9548075-06:00:2021-06-10T18:21:27.9538064-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 329
+2021-06-10T18:21:28.4359150-06:00:2021-06-10T18:21:28.4349148-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 330
+2021-06-10T18:21:28.9030195-06:00:2021-06-10T18:21:28.9020200-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 331
+2021-06-10T18:21:29.2851233-06:00:2021-06-10T18:21:29.2851233-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 332
+2021-06-10T18:21:29.9013253-06:00:2021-06-10T18:21:29.9013253-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 333
+2021-06-10T18:21:31.6167950-06:00:2021-06-10T18:21:31.6157944-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 334
+2021-06-10T18:21:32.7170406-06:00:2021-06-10T18:21:32.7160400-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 335
+2021-06-10T18:25:33.6747248-06:00:2021-06-10T18:25:33.6737237-06:00:Thread#0:T:Playing!
+2021-06-10T18:29:42.0482185-06:00:2021-06-10T18:29:42.0472205-06:00:Thread#0:T:Playing!
+2021-06-10T18:33:50.4174717-06:00:2021-06-10T18:33:50.4154720-06:00:Thread#0:T:Playing!
+2021-06-10T18:37:59.0400291-06:00:2021-06-10T18:37:59.0390284-06:00:Thread#0:T:Playing!
+2021-06-10T18:42:07.5923821-06:00:2021-06-10T18:42:07.5923821-06:00:Thread#0:T:Playing!
+2021-06-10T18:46:16.4332145-06:00:2021-06-10T18:46:16.4322142-06:00:Thread#0:T:Playing!
+2021-06-10T18:50:25.3792567-06:00:2021-06-10T18:50:25.3782556-06:00:Thread#0:T:Playing!
+2021-06-10T18:54:33.8981897-06:00:2021-06-10T18:54:33.8971892-06:00:Thread#0:T:Playing!
+2021-06-10T18:58:42.6196468-06:00:2021-06-10T18:58:42.6186458-06:00:Thread#0:T:Playing!
+2021-06-10T19:02:51.8430143-06:00:2021-06-10T19:02:51.8430143-06:00:Thread#0:T:Playing!
+2021-06-10T19:07:01.0866859-06:00:2021-06-10T19:07:01.0856855-06:00:Thread#0:T:Playing!
+2021-06-10T19:11:14.4212045-06:00:2021-06-10T19:11:14.4202028-06:00:Thread#0:T:Playing!
+2021-06-10T19:15:27.4290598-06:00:2021-06-10T19:15:27.4280591-06:00:Thread#0:T:Playing!

@@ -1,0 +1,112 @@
+﻿2021-05-04T23:03:53.1252881-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-04T23:03:53.1252881-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-04T23:03:53.1252881-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-04T23:03:53.1262880-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-04T23:03:53.2960500-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-04T23:03:53.2980514-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-04T23:03:53.3010523-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-04T23:03:53.3549332-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-04T230353.log
+2021-05-04T23:03:53.3667110-06:00;Thread#15;Info;Checking activation
+2021-05-04T23:03:53.4771683-06:00;Thread#15;Info;Activated.
+2021-05-04T23:03:53.4801687-06:00;Thread#15;Info;Activation check completed
+2021-05-04T23:03:53.4831690-06:00;Thread#15;Info;Starting test run
+2021-05-04T23:03:53.5379454-06:00;Thread#15;Info;Discovering target: Default
+2021-05-04T23:03:53.5426528-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-04T23:03:54.1346695-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-04T23:03:54.1396709-06:00:Test Suite Dump
+2021-05-04T23:03:54.1416704-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-04T23:03:54.1416704-06:00:#1: Default - 
+2021-05-04T23:03:54.1416704-06:00:#2: PracticingSix - 
+2021-05-04T23:03:54.1416704-06:00:#3: EyeOfTheTiger - 
+2021-05-04T23:03:54.1416704-06:00:#5: Twitch Bot! - 
+2021-05-04T23:03:54.1866801-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-04T23:03:54.1866801-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-05-04T23:03:54.1866801-06:00:End: Test Suite Dump
+2021-05-04T23:03:54.2296904-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-04T23:03:54.2316907-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-05-04T23:03:54.2316907-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-04T23:03:54.2366920-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-04T23:03:54.2366920-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-04T23:03:54.2366920-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-04T23:03:54.2366920-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-04T23:03:54.2386925-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-04T23:03:54.2396927-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-04T23:03:54.2396927-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-04T23:03:54.2396927-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-04T23:03:54.2396927-06:00:Thread#1:Scheduler: considering testitem #4 for thread 1
+2021-05-04T23:03:54.2396927-06:00:Thread#1:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-04T23:03:54.2396927-06:00:Thread#1:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-04T23:03:54.2396927-06:00:Thread#1:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-04T23:03:54.2396927-06:00:Thread#1:Scheduler: using testitem #4 for thread 1
+2021-05-04T23:03:54.2396927-06:00:Thread#1:Scheduler: Test #4 is scheduled for thread
+2021-05-04T23:03:54.2396927-06:00:Thread#1:Scheduler: with testItemExecutionIndex 0
+2021-05-04T23:03:54.2416932-06:00:Thread #1: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-04T23:03:54.2426935-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-04T23:03:54.2436935-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-05-04T23:03:54.2436935-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-04T23:03:54.2512324-06:00:Thread #1: Creating test assembly executor for execution model OutProc
+2021-05-04T23:03:54.2512324-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-04T23:03:54.2532334-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-04T23:03:54.2532334-06:00:Thread #1: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-04T23:03:54.2562338-06:00:starting Out Of Process Executor
+2021-05-04T23:03:54.2562338-06:00:starting Out Of Process Executor
+2021-05-04T23:03:54.2692358-06:00:Starting callback TCP Rpc server
+2021-05-04T23:03:54.2692358-06:00:Starting callback TCP Rpc server
+2021-05-04T23:03:54.2907493-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-04T23:03:54.2907493-06:00:Started callback TCP Rpc server on port 32768
+2021-05-04T23:03:54.2907493-06:00:Starting logger TCP Rpc server
+2021-05-04T23:03:54.2997503-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-04T23:03:54.2997503-06:00:Started callback TCP Rpc server on port 32769
+2021-05-04T23:03:54.2997503-06:00:Starting logger TCP Rpc server
+2021-05-04T23:03:54.3167546-06:00:Asynchronously starting background TCP Rpc Server on port 32770
+2021-05-04T23:03:54.3167546-06:00:Started logger TCP Rpc server on port 32770
+2021-05-04T23:03:54.3247570-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-05-04T23:03:54.3597640-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-05-04T23:03:54.3607650-06:00:Started logger TCP Rpc server on port 32771
+2021-05-04T23:03:54.3617648-06:00;Test Thread #1;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-05-04T23:03:54.4912611-06:00;Test Thread #1;Info;Successfully started SpecFlow+ Runner executor process
+2021-05-04T23:03:54.5164965-06:00:Out of Process Executor 20928 started
+2021-05-04T23:03:54.5164965-06:00:Waiting for endpoint
+2021-05-04T23:03:55.1185729-06:00:Remote executor port received: 32772
+2021-05-04T23:03:55.1185729-06:00:Creating executor TCP client on port 32772
+2021-05-04T23:03:55.1195733-06:00:Created executor TCP client on port 32772
+2021-05-04T23:03:55.1195733-06:00:Connecting to remote executor TCP server
+2021-05-04T23:03:55.1195733-06:00:Connected remote executor TCP server
+2021-05-04T23:03:55.2941398-06:00:Remote executor port received: 32773
+2021-05-04T23:03:55.2941398-06:00:Creating executor TCP client on port 32773
+2021-05-04T23:03:55.2941398-06:00:Created executor TCP client on port 32773
+2021-05-04T23:03:55.2941398-06:00:Connecting to remote executor TCP server
+2021-05-04T23:03:55.2951387-06:00:Connected remote executor TCP server
+2021-05-04T23:03:55.2951387-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-04T23:03:55.2951387-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-04T23:03:56.1577387-06:00:2021-05-04T23:03:56.1557373-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #1
+2021-05-04T23:03:56.1655817-06:00:Endpoint 20928 started
+2021-05-04T23:03:56.1884246-06:00:2021-05-04T23:03:56.1874270-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-04T23:03:56.6263928-06:00:2021-05-04T23:03:56.6253940-06:00:Thread#1:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-04T23:03:56.6873687-06:00:2021-05-04T23:03:56.6873687-06:00:Thread#1:T:-> Using default config
+2021-05-04T23:03:58.3950062-06:00:2021-05-04T23:03:58.3940061-06:00:Thread#1:T:Starting the driver...
+2021-05-04T23:04:00.2583341-06:00:Thread#1: Test #4/0 is started on thread #1
+2021-05-04T23:04:00.2983627-06:00:2021-05-04T23:04:00.2943619-06:00:Thread#1:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-04T23:04:21.7242593-06:00:2021-05-04T23:04:21.7217505-06:00:Thread#1:T:Playing!
+2021-05-04T23:04:21.7802908-06:00:2021-05-04T23:04:21.7782995-06:00:Thread#1:T:sendkeys arrowdown didn't work
+2021-05-04T23:11:24.8565094-06:00:2021-05-04T23:11:24.8555086-06:00:Thread#1:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:8699/session/a128a29486859112f6a87843ea8a981c/url timed out after 180 seconds.
+2021-05-04T23:11:24.8635116-06:00:2021-05-04T23:11:24.8605101-06:00:Thread#1:B:Then I get what I need
+2021-05-04T23:11:24.8665114-06:00:2021-05-04T23:11:24.8655109-06:00:Thread#1:T:skipped because of previous errors
+2021-05-04T23:11:24.9305260-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-04T23:11:24.9305260-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-04T23:11:24.9305260-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-04T23:11:24.9305260-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-04T23:11:24.9895388-06:00:Thread#1: Test #4/0 is finished on thread #1 as Failed within 444.7302042 seconds
+2021-05-04T23:11:25.0075427-06:00:2021-05-04T23:11:25.0055420-06:00:Got Deinitialize Signal
+2021-05-04T23:11:25.0175451-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-04T23:11:25.0175451-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-05-04T23:11:25.0185461-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>

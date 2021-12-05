@@ -1,0 +1,1730 @@
+﻿2021-06-01T20:21:44.6217875-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-01T20:21:44.6227876-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-01T20:21:44.6227876-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-01T20:21:44.6227876-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-01T20:21:44.8449469-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-01T20:21:44.8449469-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-01T20:21:44.8449469-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-01T20:21:44.9119620-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-01T202144.log
+2021-06-01T20:21:44.9279664-06:00;Thread#13;Info;Checking activation
+2021-06-01T20:21:45.0269875-06:00;Thread#13;Info;Activated.
+2021-06-01T20:21:45.0279883-06:00;Thread#13;Info;Activation check completed
+2021-06-01T20:21:45.0279883-06:00;Thread#13;Info;Starting test run
+2021-06-01T20:21:45.0709971-06:00;Thread#13;Info;Discovering target: Default
+2021-06-01T20:21:45.0709971-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-01T20:21:45.4800899-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-06-01T20:21:45.4810902-06:00:Test Suite Dump
+2021-06-01T20:21:45.4830913-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-01T20:21:45.4830913-06:00:#1: Default - 
+2021-06-01T20:21:45.4830913-06:00:#2: PracticingSix - 
+2021-06-01T20:21:45.4830913-06:00:#3: EyeOfTheTiger - 
+2021-06-01T20:21:45.5391038-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-06-01T20:21:45.5391038-06:00:End: Test Suite Dump
+2021-06-01T20:21:45.5931166-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T20:21:45.5981173-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-01T20:21:45.5981173-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T20:21:45.6031175-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T20:21:45.6031175-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T20:21:45.6031175-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T20:21:45.6031175-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T20:21:45.6051184-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T20:21:45.6061185-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-01T20:21:45.6061185-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-01T20:21:45.6061185-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-01T20:21:45.6061185-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-01T20:21:45.6061185-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-01T20:21:45.6091189-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-01T20:21:45.6111200-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-01T20:21:45.6171244-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-01T20:21:45.6221234-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-01T20:21:45.6251240-06:00:starting Out Of Process Executor
+2021-06-01T20:21:45.6331254-06:00:Starting callback TCP Rpc server
+2021-06-01T20:21:45.6641314-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-06-01T20:21:45.6641314-06:00:Started callback TCP Rpc server on port 32771
+2021-06-01T20:21:45.6641314-06:00:Starting logger TCP Rpc server
+2021-06-01T20:21:45.6711332-06:00:Asynchronously starting background TCP Rpc Server on port 32772
+2021-06-01T20:21:45.6711332-06:00:Started logger TCP Rpc server on port 32772
+2021-06-01T20:21:45.6801355-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 18136 --uniqueId "2021-06-01T202144" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32771 --loggerPort 32772' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-01T20:21:45.6851391-06:00:Executor with PID 21512 has been started successfully.
+2021-06-01T20:21:45.6881381-06:00:Out of Process Executor 21512 started
+2021-06-01T20:21:45.6881381-06:00:Waiting for endpoint
+2021-06-01T20:21:47.0044520-06:00:Remote executor port received: 32773
+2021-06-01T20:21:47.0064533-06:00:Creating executor TCP client on port 32773
+2021-06-01T20:21:47.0064533-06:00:Created executor TCP client on port 32773
+2021-06-01T20:21:47.0064533-06:00:Connecting to remote executor TCP server
+2021-06-01T20:21:47.0074550-06:00:Connected remote executor TCP server
+2021-06-01T20:21:47.0074550-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-01T20:21:47.0074550-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-01T20:21:48.2432188-06:00:2021-06-01T20:21:48.2422187-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-06-01T20:21:48.2552211-06:00:Endpoint 21512 started
+2021-06-01T20:21:48.3072330-06:00:2021-06-01T20:21:48.3042323-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-01T20:21:49.3304646-06:00:2021-06-01T20:21:49.3204622-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-01T20:21:49.4524933-06:00:2021-06-01T20:21:49.4284862-06:00:Thread#0:T:-> Using default config
+2021-06-01T20:21:51.4689698-06:00:2021-06-01T20:21:51.4689698-06:00:Thread#0:T:Starting the driver...
+2021-06-01T20:21:54.4507442-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-01T20:21:54.5027574-06:00:2021-06-01T20:21:54.4977553-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T20:22:09.3628170-06:00:2021-06-01T20:22:09.3618181-06:00:Thread#0:T:Playing!
+2021-06-01T20:22:10.1117545-06:00:2021-06-01T20:22:10.1097553-06:00:Thread#0:T:Loop: 0
+2021-06-01T20:22:15.4236853-06:00:2021-06-01T20:22:15.4226851-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-06-01T20:22:18.4031610-06:00:2021-06-01T20:22:18.4031610-06:00:Thread#0:T:Finished logging in
+2021-06-01T20:22:27.5881896-06:00;Thread#27;Error;Unable to connect to the remote server
+2021-06-01T20:30:33.9490015-06:00:2021-06-01T20:30:33.9480013-06:00:Thread#0:T:Playing!
+2021-06-01T20:34:49.5700601-06:00:2021-06-01T20:34:49.5690609-06:00:Thread#0:T:Playing!
+2021-06-01T20:38:55.7410460-06:00:2021-06-01T20:38:55.7400464-06:00:Thread#0:T:Playing!
+2021-06-01T20:43:01.8462907-06:00:2021-06-01T20:43:01.8452913-06:00:Thread#0:T:Playing!
+2021-06-01T20:47:07.8719595-06:00:2021-06-01T20:47:07.8719595-06:00:Thread#0:T:Playing!
+2021-06-01T20:51:13.8040127-06:00:2021-06-01T20:51:13.8030114-06:00:Thread#0:T:Playing!
+2021-06-01T20:55:19.7404803-06:00:2021-06-01T20:55:19.7394790-06:00:Thread#0:T:Playing!
+2021-06-01T20:59:25.9613037-06:00:2021-06-01T20:59:25.9603020-06:00:Thread#0:T:Playing!
+2021-06-01T21:03:32.4930427-06:00:2021-06-01T21:03:32.4920390-06:00:Thread#0:T:Playing!
+2021-06-01T21:07:38.4539764-06:00:2021-06-01T21:07:38.4529763-06:00:Thread#0:T:Playing!
+2021-06-01T21:11:44.2431175-06:00:2021-06-01T21:11:44.2421166-06:00:Thread#0:T:Playing!
+2021-06-01T21:15:50.7247393-06:00:2021-06-01T21:15:50.7237396-06:00:Thread#0:T:Playing!
+2021-06-01T21:19:56.7912218-06:00:2021-06-01T21:19:56.7912218-06:00:Thread#0:T:Playing!
+2021-06-01T21:24:03.1041931-06:00:2021-06-01T21:24:03.1031924-06:00:Thread#0:T:Playing!
+2021-06-01T21:28:09.4304829-06:00:2021-06-01T21:28:09.4294814-06:00:Thread#0:T:Playing!
+2021-06-01T21:32:15.7821421-06:00:2021-06-01T21:32:15.7811423-06:00:Thread#0:T:Playing!
+2021-06-01T21:36:31.3169448-06:00:2021-06-01T21:36:31.3139458-06:00:Thread#0:T:Playing!
+2021-06-01T21:40:48.4158208-06:00:2021-06-01T21:40:48.4158208-06:00:Thread#0:T:Playing!
+2021-06-01T21:44:54.7441040-06:00:2021-06-01T21:44:54.7431046-06:00:Thread#0:T:Playing!
+2021-06-01T21:49:01.0065325-06:00:2021-06-01T21:49:01.0045303-06:00:Thread#0:T:Playing!
+2021-06-01T21:53:07.1843662-06:00:2021-06-01T21:53:07.1833581-06:00:Thread#0:T:Playing!
+2021-06-01T21:57:13.7878070-06:00:2021-06-01T21:57:13.7868066-06:00:Thread#0:T:Playing!
+2021-06-01T22:01:20.4430463-06:00:2021-06-01T22:01:20.4420454-06:00:Thread#0:T:Playing!
+2021-06-01T22:05:26.1028884-06:00:2021-06-01T22:05:26.0998867-06:00:Thread#0:T:Playing!
+2021-06-01T22:09:33.0234660-06:00:2021-06-01T22:09:33.0214659-06:00:Thread#0:T:Playing!
+2021-06-01T22:13:39.1670995-06:00:2021-06-01T22:13:39.1650983-06:00:Thread#0:T:Playing!
+2021-06-01T22:17:48.8197968-06:00:2021-06-01T22:17:48.8187943-06:00:Thread#0:T:Playing!
+2021-06-01T22:21:54.4444589-06:00:2021-06-01T22:21:54.4434573-06:00:Thread#0:T:Playing!
+2021-06-01T22:26:00.2730578-06:00:2021-06-01T22:26:00.2720567-06:00:Thread#0:T:Playing!
+2021-06-01T22:30:06.8657742-06:00:2021-06-01T22:30:06.8657742-06:00:Thread#0:T:Playing!
+2021-06-01T22:34:23.1640234-06:00:2021-06-01T22:34:23.1640234-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:34:23.1650248-06:00:2021-06-01T22:34:23.1650248-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:34:23.1670236-06:00:2021-06-01T22:34:23.1660239-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:34:23.1680263-06:00:2021-06-01T22:34:23.1680263-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:34:23.2030382-06:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2021-06-01T22:34:23.2060338-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:34:23.2060338-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:34:23.2060338-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:34:23.2060338-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:34:23.2060338-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:34:23.2060338-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:34:23.2060338-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:34:23.2060338-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:34:23.2060338-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-06-01T22:34:23.2530433-06:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 7948.8012993 seconds
+2021-06-01T22:34:23.2550442-06:00:Thread#0: Test #4/1 is started on thread #0
+2021-06-01T22:34:23.2560460-06:00:2021-06-01T22:34:23.2560460-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:34:35.3481128-06:00:2021-06-01T22:34:35.3471128-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:34:35.3481128-06:00:2021-06-01T22:34:35.3481128-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:34:35.3481128-06:00:2021-06-01T22:34:35.3481128-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:34:35.3491137-06:00:2021-06-01T22:34:35.3491137-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:34:35.3501134-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:34:35.3501134-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:34:35.3501134-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:34:35.3501134-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:34:35.3501134-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:34:35.3501134-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:34:35.3501134-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:34:35.3501134-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:34:35.3501134-06:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-06-01T22:34:35.3521138-06:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 12.0970696 seconds
+2021-06-01T22:34:35.3521138-06:00:Thread#0: Test #4/2 is started on thread #0
+2021-06-01T22:34:35.3531151-06:00:2021-06-01T22:34:35.3531151-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:34:47.4361139-06:00:2021-06-01T22:34:47.4361139-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:34:47.4381136-06:00:2021-06-01T22:34:47.4361139-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:34:47.4381136-06:00:2021-06-01T22:34:47.4381136-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:34:47.4391146-06:00:2021-06-01T22:34:47.4391146-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:34:47.4401137-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:34:47.4401137-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:34:47.4401137-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:34:47.4401137-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:34:47.4401137-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:34:47.4401137-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:34:47.4401137-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:34:47.4401137-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:34:47.4401137-06:00:Thread#0:Scheduler: with testItemExecutionIndex 3
+2021-06-01T22:34:47.4431144-06:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 12.0910006 seconds
+2021-06-01T22:34:47.4431144-06:00:Thread#0: Test #4/3 is started on thread #0
+2021-06-01T22:34:47.4441143-06:00:2021-06-01T22:34:47.4441143-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:34:59.5396862-06:00:2021-06-01T22:34:59.5396862-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:34:59.5406863-06:00:2021-06-01T22:34:59.5406863-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:34:59.5416865-06:00:2021-06-01T22:34:59.5406863-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:34:59.5416865-06:00:2021-06-01T22:34:59.5416865-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:34:59.5436867-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:34:59.5436867-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:34:59.5436867-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:34:59.5436867-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:34:59.5436867-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:34:59.5436867-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:34:59.5436867-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:34:59.5436867-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:34:59.5436867-06:00:Thread#0:Scheduler: with testItemExecutionIndex 4
+2021-06-01T22:34:59.5446874-06:00:Thread#0: Test #4/3 is finished on thread #0 as Failed within 12.101573 seconds
+2021-06-01T22:34:59.5446874-06:00:Thread#0: Test #4/4 is started on thread #0
+2021-06-01T22:34:59.5456869-06:00:2021-06-01T22:34:59.5456869-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:35:11.6260689-06:00:2021-06-01T22:35:11.6249443-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:35:11.6260689-06:00:2021-06-01T22:35:11.6260689-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:35:11.6270569-06:00:2021-06-01T22:35:11.6260689-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:35:11.6280566-06:00:2021-06-01T22:35:11.6280566-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:35:11.6300563-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:35:11.6300563-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:35:11.6300563-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:35:11.6300563-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:35:11.6300563-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:35:11.6300563-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:35:11.6300563-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:35:11.6300563-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:35:11.6300563-06:00:Thread#0:Scheduler: with testItemExecutionIndex 5
+2021-06-01T22:35:11.6310568-06:00:Thread#0: Test #4/4 is finished on thread #0 as Failed within 12.0863694 seconds
+2021-06-01T22:35:11.6320571-06:00:Thread#0: Test #4/5 is started on thread #0
+2021-06-01T22:35:11.6320571-06:00:2021-06-01T22:35:11.6320571-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:35:23.7470840-06:00:2021-06-01T22:35:23.7461536-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:35:23.7470840-06:00:2021-06-01T22:35:23.7470840-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:35:23.7480727-06:00:2021-06-01T22:35:23.7470840-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:35:23.7480727-06:00:2021-06-01T22:35:23.7480727-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:35:23.7490714-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:35:23.7490714-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:35:23.7490714-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:35:23.7490714-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:35:23.7490714-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:35:23.7490714-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:35:23.7490714-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:35:23.7490714-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:35:23.7490714-06:00:Thread#0:Scheduler: with testItemExecutionIndex 6
+2021-06-01T22:35:23.7500715-06:00:Thread#0: Test #4/5 is finished on thread #0 as Failed within 12.1180144 seconds
+2021-06-01T22:35:23.7510718-06:00:Thread#0: Test #4/6 is started on thread #0
+2021-06-01T22:35:23.7530733-06:00:2021-06-01T22:35:23.7530733-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:35:35.8410360-06:00:2021-06-01T22:35:35.8400362-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:35:35.8410360-06:00:2021-06-01T22:35:35.8410360-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:35:35.8420356-06:00:2021-06-01T22:35:35.8410360-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:35:35.8420356-06:00:2021-06-01T22:35:35.8420356-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:35:35.8440358-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:35:35.8440358-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:35:35.8440358-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:35:35.8440358-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:35:35.8440358-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:35:35.8440358-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:35:35.8440358-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:35:35.8440358-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:35:35.8440358-06:00:Thread#0:Scheduler: with testItemExecutionIndex 7
+2021-06-01T22:35:35.8450362-06:00:Thread#0: Test #4/6 is finished on thread #0 as Failed within 12.0939644 seconds
+2021-06-01T22:35:35.8460372-06:00:Thread#0: Test #4/7 is started on thread #0
+2021-06-01T22:35:35.8465763-06:00:2021-06-01T22:35:35.8465763-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:35:47.9238993-06:00:2021-06-01T22:35:47.9229000-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:35:47.9238993-06:00:2021-06-01T22:35:47.9238993-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:35:47.9238993-06:00:2021-06-01T22:35:47.9238993-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:35:47.9248986-06:00:2021-06-01T22:35:47.9248986-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:35:47.9258992-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:35:47.9258992-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:35:47.9258992-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:35:47.9258992-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:35:47.9258992-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:35:47.9258992-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:35:47.9258992-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:35:47.9258992-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:35:47.9258992-06:00:Thread#0:Scheduler: with testItemExecutionIndex 8
+2021-06-01T22:35:47.9279004-06:00:Thread#0: Test #4/7 is finished on thread #0 as Failed within 12.0818632 seconds
+2021-06-01T22:35:47.9288987-06:00:Thread#0: Test #4/8 is started on thread #0
+2021-06-01T22:35:47.9298991-06:00:2021-06-01T22:35:47.9288987-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:36:00.0061328-06:00:2021-06-01T22:36:00.0051326-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:36:00.0061328-06:00:2021-06-01T22:36:00.0061328-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:36:00.0071331-06:00:2021-06-01T22:36:00.0071331-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:36:00.0081335-06:00:2021-06-01T22:36:00.0081335-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:36:00.0111332-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:36:00.0111332-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:36:00.0111332-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:36:00.0111332-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:36:00.0111332-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:36:00.0111332-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:36:00.0111332-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:36:00.0111332-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:36:00.0111332-06:00:Thread#0:Scheduler: with testItemExecutionIndex 9
+2021-06-01T22:36:00.0131342-06:00:Thread#0: Test #4/8 is finished on thread #0 as Failed within 12.0842355 seconds
+2021-06-01T22:36:00.0131342-06:00:Thread#0: Test #4/9 is started on thread #0
+2021-06-01T22:36:00.0141343-06:00:2021-06-01T22:36:00.0141343-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:36:12.1195466-06:00:2021-06-01T22:36:12.1185458-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:36:12.1195466-06:00:2021-06-01T22:36:12.1195466-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:36:12.1205459-06:00:2021-06-01T22:36:12.1205459-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:36:12.1215481-06:00:2021-06-01T22:36:12.1205459-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:36:12.1225469-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:36:12.1225469-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:36:12.1225469-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:36:12.1225469-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:36:12.1225469-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:36:12.1225469-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:36:12.1225469-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:36:12.1225469-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:36:12.1225469-06:00:Thread#0:Scheduler: with testItemExecutionIndex 10
+2021-06-01T22:36:12.1235472-06:00:Thread#0: Test #4/9 is finished on thread #0 as Failed within 12.110413 seconds
+2021-06-01T22:36:12.1245468-06:00:Thread#0: Test #4/10 is started on thread #0
+2021-06-01T22:36:12.1245468-06:00:2021-06-01T22:36:12.1245468-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:36:24.2132590-06:00:2021-06-01T22:36:24.2132590-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:36:24.2152590-06:00:2021-06-01T22:36:24.2142565-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:36:24.2162586-06:00:2021-06-01T22:36:24.2162586-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:36:24.2162586-06:00:2021-06-01T22:36:24.2162586-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:36:24.2182572-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:36:24.2182572-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:36:24.2182572-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:36:24.2182572-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:36:24.2182572-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:36:24.2182572-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:36:24.2182572-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:36:24.2182572-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:36:24.2182572-06:00:Thread#0:Scheduler: with testItemExecutionIndex 11
+2021-06-01T22:36:24.2212584-06:00:Thread#0: Test #4/10 is finished on thread #0 as Failed within 12.0967116 seconds
+2021-06-01T22:36:24.2219860-06:00:Thread#0: Test #4/11 is started on thread #0
+2021-06-01T22:36:24.2234949-06:00:2021-06-01T22:36:24.2225010-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:36:36.2892399-06:00:2021-06-01T22:36:36.2882385-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:36:36.2892399-06:00:2021-06-01T22:36:36.2892399-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:36:36.2902380-06:00:2021-06-01T22:36:36.2902380-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:36:36.2902380-06:00:2021-06-01T22:36:36.2902380-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:36:36.2912393-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:36:36.2912393-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:36:36.2912393-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:36:36.2912393-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:36:36.2912393-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:36:36.2912393-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:36:36.2912393-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:36:36.2912393-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:36:36.2912393-06:00:Thread#0:Scheduler: with testItemExecutionIndex 12
+2021-06-01T22:36:36.2932403-06:00:Thread#0: Test #4/11 is finished on thread #0 as Failed within 12.0712543 seconds
+2021-06-01T22:36:36.2932403-06:00:Thread#0: Test #4/12 is started on thread #0
+2021-06-01T22:36:36.2962388-06:00:2021-06-01T22:36:36.2962388-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:36:48.4057350-06:00:2021-06-01T22:36:48.4047344-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:36:48.4062727-06:00:2021-06-01T22:36:48.4062727-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:36:48.4062727-06:00:2021-06-01T22:36:48.4062727-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:36:48.4082630-06:00:2021-06-01T22:36:48.4082630-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:36:48.4092634-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:36:48.4092634-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:36:48.4092634-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:36:48.4092634-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:36:48.4092634-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:36:48.4092634-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:36:48.4092634-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:36:48.4092634-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:36:48.4092634-06:00:Thread#0:Scheduler: with testItemExecutionIndex 13
+2021-06-01T22:36:48.4112627-06:00:Thread#0: Test #4/12 is finished on thread #0 as Failed within 12.1180224 seconds
+2021-06-01T22:36:48.4112627-06:00:Thread#0: Test #4/13 is started on thread #0
+2021-06-01T22:36:48.4122632-06:00:2021-06-01T22:36:48.4122632-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:37:00.5242494-06:00:2021-06-01T22:37:00.5242494-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:37:00.5242494-06:00:2021-06-01T22:37:00.5242494-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:37:00.5252481-06:00:2021-06-01T22:37:00.5252481-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:37:00.5258178-06:00:2021-06-01T22:37:00.5258178-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:37:00.5273259-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:37:00.5273259-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:37:00.5273259-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:37:00.5273259-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:37:00.5273259-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:37:00.5273259-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:37:00.5273259-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:37:00.5273259-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:37:00.5273259-06:00:Thread#0:Scheduler: with testItemExecutionIndex 14
+2021-06-01T22:37:00.5293248-06:00:Thread#0: Test #4/13 is finished on thread #0 as Failed within 12.1180621 seconds
+2021-06-01T22:37:00.5293248-06:00:Thread#0: Test #4/14 is started on thread #0
+2021-06-01T22:37:00.5303390-06:00:2021-06-01T22:37:00.5303390-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:37:12.6280251-06:00:2021-06-01T22:37:12.6270264-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:37:12.6290252-06:00:2021-06-01T22:37:12.6280251-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:37:12.6290252-06:00:2021-06-01T22:37:12.6290252-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:37:12.6300238-06:00:2021-06-01T22:37:12.6300238-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:37:12.6310258-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:37:12.6310258-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:37:12.6310258-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:37:12.6310258-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:37:12.6310258-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:37:12.6310258-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:37:12.6310258-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:37:12.6310258-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:37:12.6310258-06:00:Thread#0:Scheduler: with testItemExecutionIndex 15
+2021-06-01T22:37:12.6320252-06:00:Thread#0: Test #4/14 is finished on thread #0 as Failed within 12.1027004 seconds
+2021-06-01T22:37:12.6330247-06:00:Thread#0: Test #4/15 is started on thread #0
+2021-06-01T22:37:12.6330247-06:00:2021-06-01T22:37:12.6330247-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:37:24.7010231-06:00:2021-06-01T22:37:24.7010231-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:37:24.7020236-06:00:2021-06-01T22:37:24.7010231-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:37:24.7020236-06:00:2021-06-01T22:37:24.7020236-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:37:24.7030226-06:00:2021-06-01T22:37:24.7020236-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:37:24.7040226-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:37:24.7040226-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:37:24.7040226-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:37:24.7040226-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:37:24.7040226-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:37:24.7040226-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:37:24.7040226-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:37:24.7040226-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:37:24.7040226-06:00:Thread#0:Scheduler: with testItemExecutionIndex 16
+2021-06-01T22:37:24.7050227-06:00:Thread#0: Test #4/15 is finished on thread #0 as Failed within 12.071998 seconds
+2021-06-01T22:37:24.7060232-06:00:Thread#0: Test #4/16 is started on thread #0
+2021-06-01T22:37:24.7070242-06:00:2021-06-01T22:37:24.7070242-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:37:36.8319482-06:00:2021-06-01T22:37:36.8319482-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:37:36.8329486-06:00:2021-06-01T22:37:36.8319482-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:37:36.8339493-06:00:2021-06-01T22:37:36.8339493-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:37:36.8339493-06:00:2021-06-01T22:37:36.8339493-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:37:36.8359508-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:37:36.8359508-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:37:36.8359508-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:37:36.8359508-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:37:36.8359508-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:37:36.8359508-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:37:36.8359508-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:37:36.8359508-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:37:36.8359508-06:00:Thread#0:Scheduler: with testItemExecutionIndex 17
+2021-06-01T22:37:36.8369498-06:00:Thread#0: Test #4/16 is finished on thread #0 as Failed within 12.1309266 seconds
+2021-06-01T22:37:36.8379492-06:00:Thread#0: Test #4/17 is started on thread #0
+2021-06-01T22:37:36.8379492-06:00:2021-06-01T22:37:36.8379492-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:37:48.9342062-06:00:2021-06-01T22:37:48.9332041-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:37:48.9342062-06:00:2021-06-01T22:37:48.9342062-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:37:48.9352051-06:00:2021-06-01T22:37:48.9352051-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:37:48.9362046-06:00:2021-06-01T22:37:48.9352051-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:37:48.9372057-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:37:48.9372057-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:37:48.9372057-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:37:48.9372057-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:37:48.9372057-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:37:48.9372057-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:37:48.9372057-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:37:48.9372057-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:37:48.9372057-06:00:Thread#0:Scheduler: with testItemExecutionIndex 18
+2021-06-01T22:37:48.9382050-06:00:Thread#0: Test #4/17 is finished on thread #0 as Failed within 12.1002558 seconds
+2021-06-01T22:37:48.9392058-06:00:Thread#0: Test #4/18 is started on thread #0
+2021-06-01T22:37:48.9392058-06:00:2021-06-01T22:37:48.9392058-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:38:01.0443192-06:00:2021-06-01T22:38:01.0423193-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:38:01.0443192-06:00:2021-06-01T22:38:01.0443192-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:38:01.0453193-06:00:2021-06-01T22:38:01.0443192-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:38:01.0453193-06:00:2021-06-01T22:38:01.0453193-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:38:01.0473224-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:38:01.0473224-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:38:01.0473224-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:38:01.0473224-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:38:01.0473224-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:38:01.0473224-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:38:01.0473224-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:38:01.0473224-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:38:01.0473224-06:00:Thread#0:Scheduler: with testItemExecutionIndex 19
+2021-06-01T22:38:01.0483226-06:00:Thread#0: Test #4/18 is finished on thread #0 as Failed within 12.1091168 seconds
+2021-06-01T22:38:01.0493208-06:00:Thread#0: Test #4/19 is started on thread #0
+2021-06-01T22:38:01.0503208-06:00:2021-06-01T22:38:01.0503208-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:38:13.1190403-06:00:2021-06-01T22:38:13.1180405-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:38:13.1190403-06:00:2021-06-01T22:38:13.1190403-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:38:13.1200416-06:00:2021-06-01T22:38:13.1190403-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:38:13.1200416-06:00:2021-06-01T22:38:13.1200416-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:38:13.1210406-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:38:13.1210406-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:38:13.1210406-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:38:13.1210406-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:38:13.1210406-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:38:13.1210406-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:38:13.1210406-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:38:13.1210406-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:38:13.1210406-06:00:Thread#0:Scheduler: with testItemExecutionIndex 20
+2021-06-01T22:38:13.1220407-06:00:Thread#0: Test #4/19 is finished on thread #0 as Failed within 12.0727199 seconds
+2021-06-01T22:38:13.1230436-06:00:Thread#0: Test #4/20 is started on thread #0
+2021-06-01T22:38:13.1230436-06:00:2021-06-01T22:38:13.1230436-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:38:25.2093764-06:00:2021-06-01T22:38:25.2083765-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:38:25.2103773-06:00:2021-06-01T22:38:25.2093764-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:38:25.2103773-06:00:2021-06-01T22:38:25.2103773-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:38:25.2113777-06:00:2021-06-01T22:38:25.2113777-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:38:25.2123778-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:38:25.2123778-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:38:25.2123778-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:38:25.2123778-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:38:25.2123778-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:38:25.2123778-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:38:25.2123778-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:38:25.2123778-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:38:25.2123778-06:00:Thread#0:Scheduler: with testItemExecutionIndex 21
+2021-06-01T22:38:25.2143772-06:00:Thread#0: Test #4/20 is finished on thread #0 as Failed within 12.0913336 seconds
+2021-06-01T22:38:25.2143772-06:00:Thread#0: Test #4/21 is started on thread #0
+2021-06-01T22:38:25.2153771-06:00:2021-06-01T22:38:25.2153771-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:38:37.3385986-06:00:2021-06-01T22:38:37.3375978-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:38:37.3385986-06:00:2021-06-01T22:38:37.3385986-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:38:37.3395993-06:00:2021-06-01T22:38:37.3395993-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:38:37.3395993-06:00:2021-06-01T22:38:37.3395993-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:38:37.3415992-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:38:37.3415992-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:38:37.3415992-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:38:37.3415992-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:38:37.3415992-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:38:37.3415992-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:38:37.3415992-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:38:37.3415992-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:38:37.3415992-06:00:Thread#0:Scheduler: with testItemExecutionIndex 22
+2021-06-01T22:38:37.3436007-06:00:Thread#0: Test #4/21 is finished on thread #0 as Failed within 12.1292235 seconds
+2021-06-01T22:38:37.3436007-06:00:Thread#0: Test #4/22 is started on thread #0
+2021-06-01T22:38:37.3445988-06:00:2021-06-01T22:38:37.3445988-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:38:49.4532661-06:00:2021-06-01T22:38:49.4532661-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:38:49.4542657-06:00:2021-06-01T22:38:49.4542657-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:38:49.4552652-06:00:2021-06-01T22:38:49.4552652-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:38:49.4552652-06:00:2021-06-01T22:38:49.4552652-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:38:49.4572659-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:38:49.4572659-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:38:49.4572659-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:38:49.4572659-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:38:49.4572659-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:38:49.4572659-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:38:49.4572659-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:38:49.4572659-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:38:49.4572659-06:00:Thread#0:Scheduler: with testItemExecutionIndex 23
+2021-06-01T22:38:49.4582671-06:00:Thread#0: Test #4/22 is finished on thread #0 as Failed within 12.1146664 seconds
+2021-06-01T22:38:49.4582671-06:00:Thread#0: Test #4/23 is started on thread #0
+2021-06-01T22:38:49.4592678-06:00:2021-06-01T22:38:49.4592678-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:39:01.5902042-06:00:2021-06-01T22:39:01.5902042-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:39:01.5902042-06:00:2021-06-01T22:39:01.5902042-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:39:01.5912062-06:00:2021-06-01T22:39:01.5912062-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:39:01.5912062-06:00:2021-06-01T22:39:01.5912062-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:39:01.5932060-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:39:01.5932060-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:39:01.5932060-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:39:01.5932060-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:39:01.5932060-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:39:01.5932060-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:39:01.5932060-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:39:01.5932060-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:39:01.5932060-06:00:Thread#0:Scheduler: with testItemExecutionIndex 24
+2021-06-01T22:39:01.5952064-06:00:Thread#0: Test #4/23 is finished on thread #0 as Failed within 12.1369393 seconds
+2021-06-01T22:39:01.5952064-06:00:Thread#0: Test #4/24 is started on thread #0
+2021-06-01T22:39:01.5962060-06:00:2021-06-01T22:39:01.5962060-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:39:13.6909920-06:00:2021-06-01T22:39:13.6909920-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:39:13.6919905-06:00:2021-06-01T22:39:13.6919905-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:39:13.6919905-06:00:2021-06-01T22:39:13.6919905-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:39:13.6929910-06:00:2021-06-01T22:39:13.6929910-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:39:13.6939905-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:39:13.6939905-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:39:13.6939905-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:39:13.6939905-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:39:13.6939905-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:39:13.6939905-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:39:13.6939905-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:39:13.6939905-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:39:13.6939905-06:00:Thread#0:Scheduler: with testItemExecutionIndex 25
+2021-06-01T22:39:13.6949906-06:00:Thread#0: Test #4/24 is finished on thread #0 as Failed within 12.0997842 seconds
+2021-06-01T22:39:13.6959908-06:00:Thread#0: Test #4/25 is started on thread #0
+2021-06-01T22:39:13.6959908-06:00:2021-06-01T22:39:13.6959908-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:39:25.7838646-06:00:2021-06-01T22:39:25.7838646-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:39:25.7838646-06:00:2021-06-01T22:39:25.7838646-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:39:25.7848645-06:00:2021-06-01T22:39:25.7848645-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:39:25.7848645-06:00:2021-06-01T22:39:25.7848645-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:39:25.7868666-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:39:25.7868666-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:39:25.7868666-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:39:25.7868666-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:39:25.7868666-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:39:25.7868666-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:39:25.7868666-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:39:25.7868666-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:39:25.7868666-06:00:Thread#0:Scheduler: with testItemExecutionIndex 26
+2021-06-01T22:39:25.7883806-06:00:Thread#0: Test #4/25 is finished on thread #0 as Failed within 12.0923898 seconds
+2021-06-01T22:39:25.7883806-06:00:Thread#0: Test #4/26 is started on thread #0
+2021-06-01T22:39:25.7893764-06:00:2021-06-01T22:39:25.7893764-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:39:37.8821969-06:00:2021-06-01T22:39:37.8821969-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:39:37.8821969-06:00:2021-06-01T22:39:37.8821969-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:39:37.8831877-06:00:2021-06-01T22:39:37.8831877-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:39:37.8831877-06:00:2021-06-01T22:39:37.8831877-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:39:37.8841888-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:39:37.8841888-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:39:37.8841888-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:39:37.8841888-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:39:37.8841888-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:39:37.8851888-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:39:37.8851888-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:39:37.8851888-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:39:37.8851888-06:00:Thread#0:Scheduler: with testItemExecutionIndex 27
+2021-06-01T22:39:37.8861876-06:00:Thread#0: Test #4/26 is finished on thread #0 as Failed within 12.097807 seconds
+2021-06-01T22:39:37.8861876-06:00:Thread#0: Test #4/27 is started on thread #0
+2021-06-01T22:39:37.8871880-06:00:2021-06-01T22:39:37.8871880-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:39:49.9791790-06:00:2021-06-01T22:39:49.9791790-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:39:49.9801796-06:00:2021-06-01T22:39:49.9791790-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:39:49.9801796-06:00:2021-06-01T22:39:49.9801796-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:39:49.9811801-06:00:2021-06-01T22:39:49.9811801-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:39:49.9821791-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:39:49.9821791-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:39:49.9821791-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:39:49.9821791-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:39:49.9821791-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:39:49.9821791-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:39:49.9821791-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:39:49.9821791-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:39:49.9821791-06:00:Thread#0:Scheduler: with testItemExecutionIndex 28
+2021-06-01T22:39:49.9831798-06:00:Thread#0: Test #4/27 is finished on thread #0 as Failed within 12.0969922 seconds
+2021-06-01T22:39:49.9841805-06:00:Thread#0: Test #4/28 is started on thread #0
+2021-06-01T22:39:49.9841805-06:00:2021-06-01T22:39:49.9841805-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:40:02.1021032-06:00:2021-06-01T22:40:02.1021032-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:40:02.1031036-06:00:2021-06-01T22:40:02.1031036-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:40:02.1031036-06:00:2021-06-01T22:40:02.1031036-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:40:02.1041030-06:00:2021-06-01T22:40:02.1041030-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:40:02.1061035-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:40:02.1061035-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:40:02.1061035-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:40:02.1061035-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:40:02.1061035-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:40:02.1061035-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:40:02.1061035-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:40:02.1061035-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:40:02.1061035-06:00:Thread#0:Scheduler: with testItemExecutionIndex 29
+2021-06-01T22:40:02.1081029-06:00:Thread#0: Test #4/28 is finished on thread #0 as Failed within 12.1239224 seconds
+2021-06-01T22:40:02.1081029-06:00:Thread#0: Test #4/29 is started on thread #0
+2021-06-01T22:40:02.1091043-06:00:2021-06-01T22:40:02.1091043-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:40:14.2067549-06:00:2021-06-01T22:40:14.2067549-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:40:14.2077538-06:00:2021-06-01T22:40:14.2067549-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:40:14.2077538-06:00:2021-06-01T22:40:14.2077538-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:40:14.2087549-06:00:2021-06-01T22:40:14.2087549-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:40:14.2097538-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:40:14.2097538-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:40:14.2097538-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:40:14.2097538-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:40:14.2097538-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:40:14.2097538-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:40:14.2097538-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:40:14.2097538-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:40:14.2097538-06:00:Thread#0:Scheduler: with testItemExecutionIndex 30
+2021-06-01T22:40:14.2117545-06:00:Thread#0: Test #4/29 is finished on thread #0 as Failed within 12.1036516 seconds
+2021-06-01T22:40:14.2117545-06:00:Thread#0: Test #4/30 is started on thread #0
+2021-06-01T22:40:14.2127550-06:00:2021-06-01T22:40:14.2127550-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:40:26.2928459-06:00:2021-06-01T22:40:26.2928459-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:40:26.2938381-06:00:2021-06-01T22:40:26.2938381-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:40:26.2938381-06:00:2021-06-01T22:40:26.2938381-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:40:26.2948389-06:00:2021-06-01T22:40:26.2948389-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:40:26.2958367-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:40:26.2958367-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:40:26.2958367-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:40:26.2958367-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:40:26.2958367-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:40:26.2958367-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:40:26.2958367-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:40:26.2958367-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:40:26.2958367-06:00:Thread#0:Scheduler: with testItemExecutionIndex 31
+2021-06-01T22:40:26.2978381-06:00:Thread#0: Test #4/30 is finished on thread #0 as Failed within 12.0860836 seconds
+2021-06-01T22:40:26.2978381-06:00:Thread#0: Test #4/31 is started on thread #0
+2021-06-01T22:40:26.2988394-06:00:2021-06-01T22:40:26.2988394-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:40:38.4108536-06:00:2021-06-01T22:40:38.4108536-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:40:38.4108536-06:00:2021-06-01T22:40:38.4108536-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:40:38.4118545-06:00:2021-06-01T22:40:38.4118545-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:40:38.4118545-06:00:2021-06-01T22:40:38.4118545-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:40:38.4128547-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:40:38.4128547-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:40:38.4128547-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:40:38.4128547-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:40:38.4128547-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:40:38.4128547-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:40:38.4128547-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:40:38.4128547-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:40:38.4128547-06:00:Thread#0:Scheduler: with testItemExecutionIndex 32
+2021-06-01T22:40:38.4148553-06:00:Thread#0: Test #4/31 is finished on thread #0 as Failed within 12.1170172 seconds
+2021-06-01T22:40:38.4148553-06:00:Thread#0: Test #4/32 is started on thread #0
+2021-06-01T22:40:38.4158550-06:00:2021-06-01T22:40:38.4158550-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:40:50.5055120-06:00:2021-06-01T22:40:50.5045115-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:40:50.5055120-06:00:2021-06-01T22:40:50.5055120-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:40:50.5065121-06:00:2021-06-01T22:40:50.5065121-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:40:50.5065121-06:00:2021-06-01T22:40:50.5065121-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:40:50.5075123-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:40:50.5075123-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:40:50.5075123-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:40:50.5075123-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:40:50.5075123-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:40:50.5075123-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:40:50.5075123-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:40:50.5075123-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:40:50.5075123-06:00:Thread#0:Scheduler: with testItemExecutionIndex 33
+2021-06-01T22:40:50.5095127-06:00:Thread#0: Test #4/32 is finished on thread #0 as Failed within 12.0946574 seconds
+2021-06-01T22:40:50.5095127-06:00:Thread#0: Test #4/33 is started on thread #0
+2021-06-01T22:40:50.5105136-06:00:2021-06-01T22:40:50.5095127-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:41:02.5972028-06:00:2021-06-01T22:41:02.5961826-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:41:02.5972028-06:00:2021-06-01T22:41:02.5972028-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:41:02.5981889-06:00:2021-06-01T22:41:02.5981889-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:41:02.5981889-06:00:2021-06-01T22:41:02.5981889-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:41:02.5991884-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:41:02.5991884-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:41:02.5991884-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:41:02.5991884-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:41:02.5991884-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:41:02.5991884-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:41:02.5991884-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:41:02.5991884-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:41:02.5991884-06:00:Thread#0:Scheduler: with testItemExecutionIndex 34
+2021-06-01T22:41:02.6011880-06:00:Thread#0: Test #4/33 is finished on thread #0 as Failed within 12.0916753 seconds
+2021-06-01T22:41:02.6021885-06:00:Thread#0: Test #4/34 is started on thread #0
+2021-06-01T22:41:02.6021885-06:00:2021-06-01T22:41:02.6021885-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:41:14.7020830-06:00:2021-06-01T22:41:14.7020830-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:41:14.7030827-06:00:2021-06-01T22:41:14.7020830-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:41:14.7030827-06:00:2021-06-01T22:41:14.7030827-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:41:14.7040833-06:00:2021-06-01T22:41:14.7030827-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:41:14.7050828-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:41:14.7050828-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:41:14.7050828-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:41:14.7050828-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:41:14.7050828-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:41:14.7050828-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:41:14.7050828-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:41:14.7050828-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:41:14.7050828-06:00:Thread#0:Scheduler: with testItemExecutionIndex 35
+2021-06-01T22:41:14.7060836-06:00:Thread#0: Test #4/34 is finished on thread #0 as Failed within 12.1038951 seconds
+2021-06-01T22:41:14.7070837-06:00:Thread#0: Test #4/35 is started on thread #0
+2021-06-01T22:41:14.7070837-06:00:2021-06-01T22:41:14.7070837-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:41:26.7863796-06:00:2021-06-01T22:41:26.7853799-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:41:26.7863796-06:00:2021-06-01T22:41:26.7863796-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:41:26.7863796-06:00:2021-06-01T22:41:26.7863796-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:41:26.7873800-06:00:2021-06-01T22:41:26.7873800-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:41:26.7883802-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:41:26.7883802-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:41:26.7883802-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:41:26.7883802-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:41:26.7883802-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:41:26.7883802-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:41:26.7883802-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:41:26.7883802-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:41:26.7893816-06:00:Thread#0:Scheduler: with testItemExecutionIndex 36
+2021-06-01T22:41:26.7903806-06:00:Thread#0: Test #4/35 is finished on thread #0 as Failed within 12.0832969 seconds
+2021-06-01T22:41:26.7903806-06:00:Thread#0: Test #4/36 is started on thread #0
+2021-06-01T22:41:26.7913811-06:00:2021-06-01T22:41:26.7913811-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:41:38.9271079-06:00:2021-06-01T22:41:38.9261087-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:41:38.9271079-06:00:2021-06-01T22:41:38.9271079-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:41:38.9281099-06:00:2021-06-01T22:41:38.9281099-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:41:38.9291085-06:00:2021-06-01T22:41:38.9281099-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:41:38.9301088-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:41:38.9301088-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:41:38.9301088-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:41:38.9301088-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:41:38.9301088-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:41:38.9301088-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:41:38.9301088-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:41:38.9301088-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:41:38.9301088-06:00:Thread#0:Scheduler: with testItemExecutionIndex 37
+2021-06-01T22:41:38.9311097-06:00:Thread#0: Test #4/36 is finished on thread #0 as Failed within 12.1407291 seconds
+2021-06-01T22:41:38.9321102-06:00:Thread#0: Test #4/37 is started on thread #0
+2021-06-01T22:41:38.9331092-06:00:2021-06-01T22:41:38.9331092-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:41:51.0202049-06:00:2021-06-01T22:41:51.0202049-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:41:51.0211706-06:00:2021-06-01T22:41:51.0211706-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:41:51.0211706-06:00:2021-06-01T22:41:51.0211706-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:41:51.0221711-06:00:2021-06-01T22:41:51.0221711-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:41:51.0231703-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:41:51.0231703-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:41:51.0231703-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:41:51.0231703-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:41:51.0231703-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:41:51.0231703-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:41:51.0231703-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:41:51.0231703-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:41:51.0231703-06:00:Thread#0:Scheduler: with testItemExecutionIndex 38
+2021-06-01T22:41:51.0241705-06:00:Thread#0: Test #4/37 is finished on thread #0 as Failed within 12.0920603 seconds
+2021-06-01T22:41:51.0251713-06:00:Thread#0: Test #4/38 is started on thread #0
+2021-06-01T22:41:51.0261721-06:00:2021-06-01T22:41:51.0251713-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:42:03.1068570-06:00:2021-06-01T22:42:03.1068570-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:42:03.1078552-06:00:2021-06-01T22:42:03.1078552-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:42:03.1088551-06:00:2021-06-01T22:42:03.1078552-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:42:03.1088551-06:00:2021-06-01T22:42:03.1088551-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:42:03.1098561-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:42:03.1098561-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:42:03.1098561-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:42:03.1098561-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:42:03.1098561-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:42:03.1098561-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:42:03.1098561-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:42:03.1098561-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:42:03.1098561-06:00:Thread#0:Scheduler: with testItemExecutionIndex 39
+2021-06-01T22:42:03.1118562-06:00:Thread#0: Test #4/38 is finished on thread #0 as Failed within 12.0866849 seconds
+2021-06-01T22:42:03.1128563-06:00:Thread#0: Test #4/39 is started on thread #0
+2021-06-01T22:42:03.1128563-06:00:2021-06-01T22:42:03.1128563-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:42:15.2370719-06:00:2021-06-01T22:42:15.2360713-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:42:15.2370719-06:00:2021-06-01T22:42:15.2370719-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:42:15.2380718-06:00:2021-06-01T22:42:15.2380718-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:42:15.2380718-06:00:2021-06-01T22:42:15.2380718-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:42:15.2390733-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:42:15.2390733-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:42:15.2390733-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:42:15.2390733-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:42:15.2390733-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:42:15.2390733-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:42:15.2390733-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:42:15.2390733-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:42:15.2400723-06:00:Thread#0:Scheduler: with testItemExecutionIndex 40
+2021-06-01T22:42:15.2410718-06:00:Thread#0: Test #4/39 is finished on thread #0 as Failed within 12.1282155 seconds
+2021-06-01T22:42:15.2410718-06:00:Thread#0: Test #4/40 is started on thread #0
+2021-06-01T22:42:15.2420728-06:00:2021-06-01T22:42:15.2420728-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:42:27.3435824-06:00:2021-06-01T22:42:27.3425822-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:42:27.3445836-06:00:2021-06-01T22:42:27.3435824-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:42:27.3445836-06:00:2021-06-01T22:42:27.3445836-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:42:27.3455840-06:00:2021-06-01T22:42:27.3455840-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:42:27.3465862-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:42:27.3465862-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:42:27.3465862-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:42:27.3465862-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:42:27.3465862-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:42:27.3465862-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:42:27.3465862-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:42:27.3465862-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:42:27.3465862-06:00:Thread#0:Scheduler: with testItemExecutionIndex 41
+2021-06-01T22:42:27.3475843-06:00:Thread#0: Test #4/40 is finished on thread #0 as Failed within 12.1055115 seconds
+2021-06-01T22:42:27.3485852-06:00:Thread#0: Test #4/41 is started on thread #0
+2021-06-01T22:42:27.3485852-06:00:2021-06-01T22:42:27.3485852-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:42:39.4342625-06:00:2021-06-01T22:42:39.4342625-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:42:39.4352631-06:00:2021-06-01T22:42:39.4342625-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:42:39.4352631-06:00:2021-06-01T22:42:39.4352631-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:42:39.4362613-06:00:2021-06-01T22:42:39.4352631-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:42:39.4372629-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:42:39.4372629-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:42:39.4372629-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:42:39.4372629-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:42:39.4372629-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:42:39.4372629-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:42:39.4372629-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:42:39.4372629-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:42:39.4372629-06:00:Thread#0:Scheduler: with testItemExecutionIndex 42
+2021-06-01T22:42:39.4392634-06:00:Thread#0: Test #4/41 is finished on thread #0 as Failed within 12.0906782 seconds
+2021-06-01T22:42:39.4392634-06:00:Thread#0: Test #4/42 is started on thread #0
+2021-06-01T22:42:39.4402627-06:00:2021-06-01T22:42:39.4402627-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:42:51.5124580-06:00:2021-06-01T22:42:51.5114580-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:42:51.5134596-06:00:2021-06-01T22:42:51.5134596-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:42:51.5144601-06:00:2021-06-01T22:42:51.5144601-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:42:51.5144601-06:00:2021-06-01T22:42:51.5144601-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:42:51.5154588-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:42:51.5154588-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:42:51.5154588-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:42:51.5154588-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:42:51.5154588-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:42:51.5154588-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:42:51.5154588-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:42:51.5154588-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:42:51.5154588-06:00:Thread#0:Scheduler: with testItemExecutionIndex 43
+2021-06-01T22:42:51.5174767-06:00:Thread#0: Test #4/42 is finished on thread #0 as Failed within 12.0782133 seconds
+2021-06-01T22:42:51.5174767-06:00:Thread#0: Test #4/43 is started on thread #0
+2021-06-01T22:42:51.5184648-06:00:2021-06-01T22:42:51.5184648-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:43:03.6043044-06:00:2021-06-01T22:43:03.6043044-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:43:03.6053054-06:00:2021-06-01T22:43:03.6053054-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:43:03.6053054-06:00:2021-06-01T22:43:03.6053054-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:43:03.6063060-06:00:2021-06-01T22:43:03.6063060-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:43:03.6083070-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:43:03.6083070-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:43:03.6083070-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:43:03.6083070-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:43:03.6083070-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:43:03.6083070-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:43:03.6083070-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:43:03.6083070-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:43:03.6083070-06:00:Thread#0:Scheduler: with testItemExecutionIndex 44
+2021-06-01T22:43:03.6103079-06:00:Thread#0: Test #4/43 is finished on thread #0 as Failed within 12.0928312 seconds
+2021-06-01T22:43:03.6103079-06:00:Thread#0: Test #4/44 is started on thread #0
+2021-06-01T22:43:03.6113059-06:00:2021-06-01T22:43:03.6113059-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:43:15.7495806-06:00:2021-06-01T22:43:15.7495806-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:43:15.7495806-06:00:2021-06-01T22:43:15.7495806-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:43:15.7505801-06:00:2021-06-01T22:43:15.7505801-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:43:15.7505801-06:00:2021-06-01T22:43:15.7505801-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:43:15.7515814-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:43:15.7515814-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:43:15.7525810-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:43:15.7525810-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:43:15.7525810-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:43:15.7525810-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:43:15.7525810-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:43:15.7525810-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:43:15.7525810-06:00:Thread#0:Scheduler: with testItemExecutionIndex 45
+2021-06-01T22:43:15.7535815-06:00:Thread#0: Test #4/44 is finished on thread #0 as Failed within 12.1432736 seconds
+2021-06-01T22:43:15.7545838-06:00:Thread#0: Test #4/45 is started on thread #0
+2021-06-01T22:43:15.7555817-06:00:2021-06-01T22:43:15.7545838-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:43:27.8627946-06:00:2021-06-01T22:43:27.8617950-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:43:27.8627946-06:00:2021-06-01T22:43:27.8627946-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:43:27.8637944-06:00:2021-06-01T22:43:27.8637944-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:43:27.8637944-06:00:2021-06-01T22:43:27.8637944-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:43:27.8647960-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:43:27.8647960-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:43:27.8647960-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:43:27.8647960-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:43:27.8647960-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:43:27.8647960-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:43:27.8647960-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:43:27.8647960-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:43:27.8647960-06:00:Thread#0:Scheduler: with testItemExecutionIndex 46
+2021-06-01T22:43:27.8667953-06:00:Thread#0: Test #4/45 is finished on thread #0 as Failed within 12.1122115 seconds
+2021-06-01T22:43:27.8667953-06:00:Thread#0: Test #4/46 is started on thread #0
+2021-06-01T22:43:27.8677974-06:00:2021-06-01T22:43:27.8677974-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:43:39.9634649-06:00:2021-06-01T22:43:39.9614628-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:43:39.9634649-06:00:2021-06-01T22:43:39.9634649-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:43:39.9644646-06:00:2021-06-01T22:43:39.9634649-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:43:39.9644646-06:00:2021-06-01T22:43:39.9644646-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:43:39.9660304-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:43:39.9660304-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:43:39.9660304-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:43:39.9660304-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:43:39.9660304-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:43:39.9660304-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:43:39.9660304-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:43:39.9660304-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:43:39.9660304-06:00:Thread#0:Scheduler: with testItemExecutionIndex 47
+2021-06-01T22:43:39.9680207-06:00:Thread#0: Test #4/46 is finished on thread #0 as Failed within 12.1012254 seconds
+2021-06-01T22:43:39.9690189-06:00:Thread#0: Test #4/47 is started on thread #0
+2021-06-01T22:43:39.9690189-06:00:2021-06-01T22:43:39.9690189-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:43:52.0630572-06:00:2021-06-01T22:43:52.0620566-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:43:52.0630572-06:00:2021-06-01T22:43:52.0630572-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:43:52.0640567-06:00:2021-06-01T22:43:52.0630572-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:43:52.0640567-06:00:2021-06-01T22:43:52.0640567-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:43:52.0650568-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:43:52.0660571-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:43:52.0660571-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:43:52.0660571-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:43:52.0660571-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:43:52.0660571-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:43:52.0660571-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:43:52.0660571-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:43:52.0660571-06:00:Thread#0:Scheduler: with testItemExecutionIndex 48
+2021-06-01T22:43:52.0670587-06:00:Thread#0: Test #4/47 is finished on thread #0 as Failed within 12.0980398 seconds
+2021-06-01T22:43:52.0670587-06:00:Thread#0: Test #4/48 is started on thread #0
+2021-06-01T22:43:52.0680566-06:00:2021-06-01T22:43:52.0680566-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:44:04.1722318-06:00:2021-06-01T22:44:04.1712312-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:44:04.1732316-06:00:2021-06-01T22:44:04.1732316-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:44:04.1732316-06:00:2021-06-01T22:44:04.1732316-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:44:04.1742318-06:00:2021-06-01T22:44:04.1742318-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:44:04.1752311-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:44:04.1752311-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:44:04.1752311-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:44:04.1752311-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:44:04.1752311-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:44:04.1752311-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:44:04.1752311-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:44:04.1752311-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:44:04.1752311-06:00:Thread#0:Scheduler: with testItemExecutionIndex 49
+2021-06-01T22:44:04.1772319-06:00:Thread#0: Test #4/48 is finished on thread #0 as Failed within 12.1101732 seconds
+2021-06-01T22:44:04.1772319-06:00:Thread#0: Test #4/49 is started on thread #0
+2021-06-01T22:44:04.1782317-06:00:2021-06-01T22:44:04.1782317-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:44:16.3130079-06:00:2021-06-01T22:44:16.3120084-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:44:16.3130079-06:00:2021-06-01T22:44:16.3130079-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:44:16.3140083-06:00:2021-06-01T22:44:16.3130079-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:44:16.3140083-06:00:2021-06-01T22:44:16.3140083-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:44:16.3150084-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:44:16.3150084-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:44:16.3150084-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:44:16.3150084-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:44:16.3150084-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:44:16.3150084-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:44:16.3150084-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:44:16.3150084-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:44:16.3150084-06:00:Thread#0:Scheduler: with testItemExecutionIndex 50
+2021-06-01T22:44:16.3160088-06:00:Thread#0: Test #4/49 is finished on thread #0 as Failed within 12.1387769 seconds
+2021-06-01T22:44:16.3170093-06:00:Thread#0: Test #4/50 is started on thread #0
+2021-06-01T22:44:16.3180084-06:00:2021-06-01T22:44:16.3180084-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:44:28.4413060-06:00:2021-06-01T22:44:28.4403065-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:44:28.4423065-06:00:2021-06-01T22:44:28.4413060-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:44:28.4423065-06:00:2021-06-01T22:44:28.4423065-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:44:28.4433066-06:00:2021-06-01T22:44:28.4433066-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:44:28.4443065-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:44:28.4443065-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:44:28.4443065-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:44:28.4443065-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:44:28.4443065-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:44:28.4443065-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:44:28.4443065-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:44:28.4443065-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:44:28.4443065-06:00:Thread#0:Scheduler: with testItemExecutionIndex 51
+2021-06-01T22:44:28.4453065-06:00:Thread#0: Test #4/50 is finished on thread #0 as Failed within 12.1282972 seconds
+2021-06-01T22:44:28.4463071-06:00:Thread#0: Test #4/51 is started on thread #0
+2021-06-01T22:44:28.4473073-06:00:2021-06-01T22:44:28.4463071-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:44:40.5831049-06:00:2021-06-01T22:44:40.5831049-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:44:40.5831049-06:00:2021-06-01T22:44:40.5831049-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:44:40.5841050-06:00:2021-06-01T22:44:40.5841050-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:44:40.5841050-06:00:2021-06-01T22:44:40.5841050-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:44:40.5851052-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:44:40.5851052-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:44:40.5851052-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:44:40.5851052-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:44:40.5851052-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:44:40.5851052-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:44:40.5851052-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:44:40.5851052-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:44:40.5851052-06:00:Thread#0:Scheduler: with testItemExecutionIndex 52
+2021-06-01T22:44:40.5875670-06:00:Thread#0: Test #4/51 is finished on thread #0 as Failed within 12.1412599 seconds
+2021-06-01T22:44:40.5875670-06:00:Thread#0: Test #4/52 is started on thread #0
+2021-06-01T22:44:40.5885559-06:00:2021-06-01T22:44:40.5885559-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:44:52.6932988-06:00:2021-06-01T22:44:52.6922984-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:44:52.6942978-06:00:2021-06-01T22:44:52.6942978-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:44:52.6942978-06:00:2021-06-01T22:44:52.6942978-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:44:52.6952981-06:00:2021-06-01T22:44:52.6952981-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:44:52.6962990-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:44:52.6962990-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:44:52.6962990-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:44:52.6962990-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:44:52.6962990-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:44:52.6962990-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:44:52.6962990-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:44:52.6962990-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:44:52.6962990-06:00:Thread#0:Scheduler: with testItemExecutionIndex 53
+2021-06-01T22:44:52.6982988-06:00:Thread#0: Test #4/52 is finished on thread #0 as Failed within 12.1107318 seconds
+2021-06-01T22:44:52.6982988-06:00:Thread#0: Test #4/53 is started on thread #0
+2021-06-01T22:44:52.6992995-06:00:2021-06-01T22:44:52.6992995-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:45:04.7967539-06:00:2021-06-01T22:45:04.7967539-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:45:04.7977549-06:00:2021-06-01T22:45:04.7977549-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:45:04.7987542-06:00:2021-06-01T22:45:04.7987542-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:45:04.7987542-06:00:2021-06-01T22:45:04.7987542-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:45:04.8007600-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:45:04.8007600-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:45:04.8007600-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:45:04.8007600-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:45:04.8007600-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:45:04.8007600-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:45:04.8007600-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:45:04.8007600-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:45:04.8007600-06:00:Thread#0:Scheduler: with testItemExecutionIndex 54
+2021-06-01T22:45:04.8017557-06:00:Thread#0: Test #4/53 is finished on thread #0 as Failed within 12.1034569 seconds
+2021-06-01T22:45:04.8027547-06:00:Thread#0: Test #4/54 is started on thread #0
+2021-06-01T22:45:04.8037548-06:00:2021-06-01T22:45:04.8027547-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:45:16.8961179-06:00:2021-06-01T22:45:16.8951171-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:45:16.8961179-06:00:2021-06-01T22:45:16.8961179-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:45:16.8971185-06:00:2021-06-01T22:45:16.8971185-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:45:16.8971185-06:00:2021-06-01T22:45:16.8971185-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:45:16.8981178-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:45:16.8981178-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:45:16.8981178-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:45:16.8991180-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:45:16.8991180-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:45:16.8991180-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:45:16.8991180-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:45:16.8991180-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:45:16.8991180-06:00:Thread#0:Scheduler: with testItemExecutionIndex 55
+2021-06-01T22:45:16.9011181-06:00:Thread#0: Test #4/54 is finished on thread #0 as Failed within 12.0983634 seconds
+2021-06-01T22:45:16.9021197-06:00:Thread#0: Test #4/55 is started on thread #0
+2021-06-01T22:45:16.9021197-06:00:2021-06-01T22:45:16.9021197-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:45:28.9922980-06:00:2021-06-01T22:45:28.9912978-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:45:28.9922980-06:00:2021-06-01T22:45:28.9922980-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:45:28.9932993-06:00:2021-06-01T22:45:28.9932993-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:45:28.9942998-06:00:2021-06-01T22:45:28.9932993-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:45:28.9952993-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:45:28.9952993-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:45:28.9952993-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:45:28.9952993-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:45:28.9952993-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:45:28.9952993-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:45:28.9952993-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:45:28.9952993-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:45:28.9952993-06:00:Thread#0:Scheduler: with testItemExecutionIndex 56
+2021-06-01T22:45:28.9962985-06:00:Thread#0: Test #4/55 is finished on thread #0 as Failed within 12.0941788 seconds
+2021-06-01T22:45:28.9972986-06:00:Thread#0: Test #4/56 is started on thread #0
+2021-06-01T22:45:28.9972986-06:00:2021-06-01T22:45:28.9972986-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:45:41.1170731-06:00:2021-06-01T22:45:41.1170731-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:45:41.1180736-06:00:2021-06-01T22:45:41.1180736-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:45:41.1180736-06:00:2021-06-01T22:45:41.1180736-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:45:41.1190739-06:00:2021-06-01T22:45:41.1190739-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:45:41.1210751-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:45:41.1210751-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:45:41.1210751-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:45:41.1210751-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:45:41.1210751-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:45:41.1210751-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:45:41.1210751-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:45:41.1210751-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:45:41.1210751-06:00:Thread#0:Scheduler: with testItemExecutionIndex 57
+2021-06-01T22:45:41.1220756-06:00:Thread#0: Test #4/56 is finished on thread #0 as Failed within 12.124777 seconds
+2021-06-01T22:45:41.1230762-06:00:Thread#0: Test #4/57 is started on thread #0
+2021-06-01T22:45:41.1240749-06:00:2021-06-01T22:45:41.1230762-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:45:53.2725778-06:00:2021-06-01T22:45:53.2715777-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:45:53.2725778-06:00:2021-06-01T22:45:53.2725778-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:45:53.2735780-06:00:2021-06-01T22:45:53.2735780-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:45:53.2745796-06:00:2021-06-01T22:45:53.2735780-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:45:53.2755775-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:45:53.2755775-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:45:53.2755775-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:45:53.2755775-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:45:53.2755775-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:45:53.2755775-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:45:53.2755775-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:45:53.2755775-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:45:53.2755775-06:00:Thread#0:Scheduler: with testItemExecutionIndex 58
+2021-06-01T22:45:53.2765792-06:00:Thread#0: Test #4/57 is finished on thread #0 as Failed within 12.153503 seconds
+2021-06-01T22:45:53.2775795-06:00:Thread#0: Test #4/58 is started on thread #0
+2021-06-01T22:45:53.2785780-06:00:2021-06-01T22:45:53.2775795-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:46:05.3692515-06:00:2021-06-01T22:46:05.3682513-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:46:05.3702516-06:00:2021-06-01T22:46:05.3702516-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:46:05.3702516-06:00:2021-06-01T22:46:05.3702516-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:46:05.3712516-06:00:2021-06-01T22:46:05.3712516-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:46:05.3722530-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:46:05.3722530-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:46:05.3722530-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:46:05.3722530-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:46:05.3722530-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:46:05.3722530-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:46:05.3722530-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:46:05.3722530-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:46:05.3722530-06:00:Thread#0:Scheduler: with testItemExecutionIndex 59
+2021-06-01T22:46:05.3732528-06:00:Thread#0: Test #4/58 is finished on thread #0 as Failed within 12.0956733 seconds
+2021-06-01T22:46:05.3742527-06:00:Thread#0: Test #4/59 is started on thread #0
+2021-06-01T22:46:05.3742527-06:00:2021-06-01T22:46:05.3742527-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:46:17.4525199-06:00:2021-06-01T22:46:17.4515199-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:46:17.4525199-06:00:2021-06-01T22:46:17.4525199-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:46:17.4525199-06:00:2021-06-01T22:46:17.4525199-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:46:17.4535196-06:00:2021-06-01T22:46:17.4535196-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:46:17.4545214-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:46:17.4545214-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:46:17.4545214-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:46:17.4545214-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:46:17.4545214-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:46:17.4545214-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:46:17.4545214-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:46:17.4545214-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:46:17.4545214-06:00:Thread#0:Scheduler: with testItemExecutionIndex 60
+2021-06-01T22:46:17.4565382-06:00:Thread#0: Test #4/59 is finished on thread #0 as Failed within 12.0822855 seconds
+2021-06-01T22:46:17.4565382-06:00:Thread#0: Test #4/60 is started on thread #0
+2021-06-01T22:46:17.4575326-06:00:2021-06-01T22:46:17.4575326-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:46:29.5466868-06:00:2021-06-01T22:46:29.5456864-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:46:29.5476849-06:00:2021-06-01T22:46:29.5476849-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:46:29.5476849-06:00:2021-06-01T22:46:29.5476849-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:46:29.5486862-06:00:2021-06-01T22:46:29.5486862-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:46:29.5496860-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:46:29.5496860-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:46:29.5496860-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:46:29.5496860-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:46:29.5496860-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:46:29.5496860-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:46:29.5496860-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:46:29.5496860-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:46:29.5496860-06:00:Thread#0:Scheduler: with testItemExecutionIndex 61
+2021-06-01T22:46:29.5516866-06:00:Thread#0: Test #4/60 is finished on thread #0 as Failed within 12.0951484 seconds
+2021-06-01T22:46:29.5516866-06:00:Thread#0: Test #4/61 is started on thread #0
+2021-06-01T22:46:29.5526859-06:00:2021-06-01T22:46:29.5526859-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:46:41.6262474-06:00:2021-06-01T22:46:41.6252481-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:46:41.6262474-06:00:2021-06-01T22:46:41.6262474-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:46:41.6272473-06:00:2021-06-01T22:46:41.6262474-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:46:41.6272473-06:00:2021-06-01T22:46:41.6272473-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:46:41.6282471-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:46:41.6282471-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:46:41.6282471-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:46:41.6282471-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:46:41.6282471-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:46:41.6282471-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:46:41.6282471-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:46:41.6282471-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:46:41.6282471-06:00:Thread#0:Scheduler: with testItemExecutionIndex 62
+2021-06-01T22:46:41.6302476-06:00:Thread#0: Test #4/61 is finished on thread #0 as Failed within 12.078561 seconds
+2021-06-01T22:46:41.6302476-06:00:Thread#0: Test #4/62 is started on thread #0
+2021-06-01T22:46:41.6312481-06:00:2021-06-01T22:46:41.6312481-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:46:53.7090486-06:00:2021-06-01T22:46:53.7080481-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:46:53.7100482-06:00:2021-06-01T22:46:53.7100482-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:46:53.7100482-06:00:2021-06-01T22:46:53.7100482-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:46:53.7110488-06:00:2021-06-01T22:46:53.7110488-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:46:53.7120486-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:46:53.7120486-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:46:53.7120486-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:46:53.7120486-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:46:53.7120486-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:46:53.7120486-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:46:53.7120486-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:46:53.7120486-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:46:53.7120486-06:00:Thread#0:Scheduler: with testItemExecutionIndex 63
+2021-06-01T22:46:53.7140503-06:00:Thread#0: Test #4/62 is finished on thread #0 as Failed within 12.0838027 seconds
+2021-06-01T22:46:53.7150507-06:00:Thread#0: Test #4/63 is started on thread #0
+2021-06-01T22:46:53.7150507-06:00:2021-06-01T22:46:53.7150507-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:47:05.8080582-06:00:2021-06-01T22:47:05.8080582-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:47:05.8090601-06:00:2021-06-01T22:47:05.8090601-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:47:05.8090601-06:00:2021-06-01T22:47:05.8090601-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:47:05.8100613-06:00:2021-06-01T22:47:05.8100613-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:47:05.8110595-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:47:05.8110595-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:47:05.8110595-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:47:05.8110595-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:47:05.8110595-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:47:05.8110595-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:47:05.8110595-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:47:05.8110595-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:47:05.8110595-06:00:Thread#0:Scheduler: with testItemExecutionIndex 64
+2021-06-01T22:47:05.8130603-06:00:Thread#0: Test #4/63 is finished on thread #0 as Failed within 12.0980096 seconds
+2021-06-01T22:47:05.8130603-06:00:Thread#0: Test #4/64 is started on thread #0
+2021-06-01T22:47:05.8140594-06:00:2021-06-01T22:47:05.8130603-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:47:17.8803287-06:00:2021-06-01T22:47:17.8793286-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:47:17.8803287-06:00:2021-06-01T22:47:17.8803287-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:47:17.8813276-06:00:2021-06-01T22:47:17.8803287-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:47:17.8813276-06:00:2021-06-01T22:47:17.8813276-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:47:17.8823279-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:47:17.8823279-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:47:17.8823279-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:47:17.8823279-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:47:17.8823279-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:47:17.8823279-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:47:17.8823279-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:47:17.8823279-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:47:17.8823279-06:00:Thread#0:Scheduler: with testItemExecutionIndex 65
+2021-06-01T22:47:17.8843278-06:00:Thread#0: Test #4/64 is finished on thread #0 as Failed within 12.0712675 seconds
+2021-06-01T22:47:17.8853287-06:00:Thread#0: Test #4/65 is started on thread #0
+2021-06-01T22:47:17.8853287-06:00:2021-06-01T22:47:17.8853287-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:47:29.9712974-06:00:2021-06-01T22:47:29.9712974-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:47:29.9722967-06:00:2021-06-01T22:47:29.9712974-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:47:29.9722967-06:00:2021-06-01T22:47:29.9722967-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:47:29.9732964-06:00:2021-06-01T22:47:29.9722967-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:47:29.9742971-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:47:29.9742971-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:47:29.9742971-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:47:29.9742971-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:47:29.9742971-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:47:29.9742971-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:47:29.9742971-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:47:29.9742971-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:47:29.9742971-06:00:Thread#0:Scheduler: with testItemExecutionIndex 66
+2021-06-01T22:47:29.9752961-06:00:Thread#0: Test #4/65 is finished on thread #0 as Failed within 12.0899674 seconds
+2021-06-01T22:47:29.9752961-06:00:Thread#0: Test #4/66 is started on thread #0
+2021-06-01T22:47:29.9762957-06:00:2021-06-01T22:47:29.9762957-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:47:42.0601021-06:00:2021-06-01T22:47:42.0601021-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:47:42.0611134-06:00:2021-06-01T22:47:42.0601021-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:47:42.0611134-06:00:2021-06-01T22:47:42.0611134-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:47:42.0621034-06:00:2021-06-01T22:47:42.0621034-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:47:42.0641029-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:47:42.0641029-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:47:42.0641029-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:47:42.0641029-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:47:42.0641029-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:47:42.0641029-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:47:42.0641029-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:47:42.0651036-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:47:42.0651036-06:00:Thread#0:Scheduler: with testItemExecutionIndex 67
+2021-06-01T22:47:42.0660156-06:00:Thread#0: Test #4/66 is finished on thread #0 as Failed within 12.0907195 seconds
+2021-06-01T22:47:42.0670022-06:00:Thread#0: Test #4/67 is started on thread #0
+2021-06-01T22:47:42.0680030-06:00:2021-06-01T22:47:42.0680030-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:47:54.1531920-06:00:2021-06-01T22:47:54.1531920-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:47:54.1541915-06:00:2021-06-01T22:47:54.1541915-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:47:54.1541915-06:00:2021-06-01T22:47:54.1541915-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:47:54.1551915-06:00:2021-06-01T22:47:54.1541915-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:47:54.1561920-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:47:54.1561920-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:47:54.1561920-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:47:54.1561920-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:47:54.1561920-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:47:54.1561920-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:47:54.1561920-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:47:54.1561920-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:47:54.1561920-06:00:Thread#0:Scheduler: with testItemExecutionIndex 68
+2021-06-01T22:47:54.1571938-06:00:Thread#0: Test #4/67 is finished on thread #0 as Failed within 12.0901916 seconds
+2021-06-01T22:47:54.1571938-06:00:Thread#0: Test #4/68 is started on thread #0
+2021-06-01T22:47:54.1591913-06:00:2021-06-01T22:47:54.1581923-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:48:06.2361608-06:00:2021-06-01T22:48:06.2351605-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:48:06.2367312-06:00:2021-06-01T22:48:06.2367312-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:48:06.2367312-06:00:2021-06-01T22:48:06.2367312-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:48:06.2377171-06:00:2021-06-01T22:48:06.2377171-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:48:06.2387146-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:48:06.2387146-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:48:06.2387146-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:48:06.2387146-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:48:06.2387146-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:48:06.2387146-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:48:06.2387146-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:48:06.2387146-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:48:06.2387146-06:00:Thread#0:Scheduler: with testItemExecutionIndex 69
+2021-06-01T22:48:06.2407157-06:00:Thread#0: Test #4/68 is finished on thread #0 as Failed within 12.0835219 seconds
+2021-06-01T22:48:06.2407157-06:00:Thread#0: Test #4/69 is started on thread #0
+2021-06-01T22:48:06.2417156-06:00:2021-06-01T22:48:06.2417156-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:48:18.3538362-06:00:2021-06-01T22:48:18.3528352-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:48:18.3538362-06:00:2021-06-01T22:48:18.3538362-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:48:18.3548367-06:00:2021-06-01T22:48:18.3548367-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:48:18.3558370-06:00:2021-06-01T22:48:18.3548367-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:48:18.3568358-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:48:18.3568358-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:48:18.3568358-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:48:18.3568358-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:48:18.3568358-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:48:18.3568358-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:48:18.3568358-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:48:18.3568358-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:48:18.3568358-06:00:Thread#0:Scheduler: with testItemExecutionIndex 70
+2021-06-01T22:48:18.3588362-06:00:Thread#0: Test #4/69 is finished on thread #0 as Failed within 12.1181205 seconds
+2021-06-01T22:48:18.3588362-06:00:Thread#0: Test #4/70 is started on thread #0
+2021-06-01T22:48:18.3598368-06:00:2021-06-01T22:48:18.3598368-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:48:30.4651574-06:00:2021-06-01T22:48:30.4651574-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:48:30.4651574-06:00:2021-06-01T22:48:30.4651574-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:48:30.4661569-06:00:2021-06-01T22:48:30.4661569-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:48:30.4661569-06:00:2021-06-01T22:48:30.4661569-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:48:30.4671556-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:48:30.4671556-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:48:30.4671556-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:48:30.4671556-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:48:30.4671556-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:48:30.4671556-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:48:30.4671556-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:48:30.4671556-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:48:30.4671556-06:00:Thread#0:Scheduler: with testItemExecutionIndex 71
+2021-06-01T22:48:30.4691582-06:00:Thread#0: Test #4/70 is finished on thread #0 as Failed within 12.110322 seconds
+2021-06-01T22:48:30.4691582-06:00:Thread#0: Test #4/71 is started on thread #0
+2021-06-01T22:48:30.4701563-06:00:2021-06-01T22:48:30.4701563-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:48:42.5581050-06:00:2021-06-01T22:48:42.5571054-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:48:42.5581050-06:00:2021-06-01T22:48:42.5581050-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:48:42.5591054-06:00:2021-06-01T22:48:42.5591054-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:48:42.5601062-06:00:2021-06-01T22:48:42.5591054-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:48:42.5611053-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:48:42.5611053-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:48:42.5611053-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:48:42.5611053-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:48:42.5611053-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:48:42.5611053-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:48:42.5611053-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:48:42.5611053-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:48:42.5611053-06:00:Thread#0:Scheduler: with testItemExecutionIndex 72
+2021-06-01T22:48:42.5621056-06:00:Thread#0: Test #4/71 is finished on thread #0 as Failed within 12.0929474 seconds
+2021-06-01T22:48:42.5631068-06:00:Thread#0: Test #4/72 is started on thread #0
+2021-06-01T22:48:42.5641054-06:00:2021-06-01T22:48:42.5631068-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:48:54.7022259-06:00:2021-06-01T22:48:54.7022259-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:48:54.7032276-06:00:2021-06-01T22:48:54.7032276-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:48:54.7032276-06:00:2021-06-01T22:48:54.7032276-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:48:54.7042268-06:00:2021-06-01T22:48:54.7032276-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:48:54.7052273-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:48:54.7052273-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:48:54.7052273-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:48:54.7052273-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:48:54.7052273-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:48:54.7052273-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:48:54.7052273-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:48:54.7052273-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:48:54.7052273-06:00:Thread#0:Scheduler: with testItemExecutionIndex 73
+2021-06-01T22:48:54.7062265-06:00:Thread#0: Test #4/72 is finished on thread #0 as Failed within 12.1431197 seconds
+2021-06-01T22:48:54.7082268-06:00:Thread#0: Test #4/73 is started on thread #0
+2021-06-01T22:48:54.7092274-06:00:2021-06-01T22:48:54.7082268-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:49:06.7919228-06:00:2021-06-01T22:49:06.7909231-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:49:06.7919228-06:00:2021-06-01T22:49:06.7919228-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:49:06.7929225-06:00:2021-06-01T22:49:06.7919228-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:49:06.7929225-06:00:2021-06-01T22:49:06.7929225-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:49:06.7949230-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:49:06.7949230-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:49:06.7949230-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:49:06.7949230-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:49:06.7949230-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:49:06.7949230-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:49:06.7949230-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:49:06.7949230-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:49:06.7949230-06:00:Thread#0:Scheduler: with testItemExecutionIndex 74
+2021-06-01T22:49:06.7959243-06:00:Thread#0: Test #4/73 is finished on thread #0 as Failed within 12.0876975 seconds
+2021-06-01T22:49:06.7969229-06:00:Thread#0: Test #4/74 is started on thread #0
+2021-06-01T22:49:06.7979228-06:00:2021-06-01T22:49:06.7969229-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:49:18.9001718-06:00:2021-06-01T22:49:18.8991699-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:49:18.9011706-06:00:2021-06-01T22:49:18.9001718-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:49:18.9011706-06:00:2021-06-01T22:49:18.9011706-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:49:18.9021713-06:00:2021-06-01T22:49:18.9021713-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:49:18.9041722-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:49:18.9041722-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:49:18.9041722-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:49:18.9041722-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:49:18.9041722-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:49:18.9041722-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:49:18.9041722-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:49:18.9041722-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:49:18.9041722-06:00:Thread#0:Scheduler: with testItemExecutionIndex 75
+2021-06-01T22:49:18.9051712-06:00:Thread#0: Test #4/74 is finished on thread #0 as Failed within 12.1082483 seconds
+2021-06-01T22:49:18.9061715-06:00:Thread#0: Test #4/75 is started on thread #0
+2021-06-01T22:49:18.9061715-06:00:2021-06-01T22:49:18.9061715-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:49:30.9743489-06:00:2021-06-01T22:49:30.9743489-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:49:30.9753491-06:00:2021-06-01T22:49:30.9743489-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:49:30.9753491-06:00:2021-06-01T22:49:30.9753491-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:49:30.9763471-06:00:2021-06-01T22:49:30.9753491-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:49:30.9773483-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:49:30.9773483-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:49:30.9773483-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:49:30.9773483-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:49:30.9773483-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:49:30.9773483-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:49:30.9773483-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:49:30.9773483-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:49:30.9773483-06:00:Thread#0:Scheduler: with testItemExecutionIndex 76
+2021-06-01T22:49:30.9783483-06:00:Thread#0: Test #4/75 is finished on thread #0 as Failed within 12.0721768 seconds
+2021-06-01T22:49:30.9783483-06:00:Thread#0: Test #4/76 is started on thread #0
+2021-06-01T22:49:30.9793479-06:00:2021-06-01T22:49:30.9793479-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:49:43.0870622-06:00:2021-06-01T22:49:43.0870622-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:49:43.0880607-06:00:2021-06-01T22:49:43.0880607-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:49:43.0880607-06:00:2021-06-01T22:49:43.0880607-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:49:43.0890608-06:00:2021-06-01T22:49:43.0890608-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:49:43.0900613-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:49:43.0900613-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:49:43.0900613-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:49:43.0900613-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:49:43.0900613-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:49:43.0900613-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:49:43.0900613-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:49:43.0900613-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:49:43.0900613-06:00:Thread#0:Scheduler: with testItemExecutionIndex 77
+2021-06-01T22:49:43.0920608-06:00:Thread#0: Test #4/76 is finished on thread #0 as Failed within 12.1137125 seconds
+2021-06-01T22:49:43.0920608-06:00:Thread#0: Test #4/77 is started on thread #0
+2021-06-01T22:49:43.0930623-06:00:2021-06-01T22:49:43.0930623-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:49:55.1999876-06:00:2021-06-01T22:49:55.1989878-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:49:55.1999876-06:00:2021-06-01T22:49:55.1999876-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:49:55.2009880-06:00:2021-06-01T22:49:55.2009880-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:49:55.2009880-06:00:2021-06-01T22:49:55.2009880-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:49:55.2019884-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:49:55.2019884-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:49:55.2019884-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:49:55.2019884-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:49:55.2019884-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:49:55.2019884-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:49:55.2019884-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:49:55.2019884-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:49:55.2019884-06:00:Thread#0:Scheduler: with testItemExecutionIndex 78
+2021-06-01T22:49:55.2039897-06:00:Thread#0: Test #4/77 is finished on thread #0 as Failed within 12.1119289 seconds
+2021-06-01T22:49:55.2039897-06:00:Thread#0: Test #4/78 is started on thread #0
+2021-06-01T22:49:55.2049893-06:00:2021-06-01T22:49:55.2049893-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:50:07.3378411-06:00:2021-06-01T22:50:07.3368396-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:50:07.3378411-06:00:2021-06-01T22:50:07.3378411-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:50:07.3388396-06:00:2021-06-01T22:50:07.3388396-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:50:07.3388396-06:00:2021-06-01T22:50:07.3388396-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:50:07.3408408-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:50:07.3408408-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:50:07.3408408-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:50:07.3408408-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:50:07.3408408-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:50:07.3408408-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:50:07.3408408-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:50:07.3408408-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:50:07.3408408-06:00:Thread#0:Scheduler: with testItemExecutionIndex 79
+2021-06-01T22:50:07.3428419-06:00:Thread#0: Test #4/78 is finished on thread #0 as Failed within 12.1388522 seconds
+2021-06-01T22:50:07.3428419-06:00:Thread#0: Test #4/79 is started on thread #0
+2021-06-01T22:50:07.3438406-06:00:2021-06-01T22:50:07.3438406-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:50:19.4503003-06:00:2021-06-01T22:50:19.4503003-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:50:19.4513010-06:00:2021-06-01T22:50:19.4503003-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:50:19.4513010-06:00:2021-06-01T22:50:19.4513010-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:50:19.4523002-06:00:2021-06-01T22:50:19.4523002-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:50:19.4533009-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:50:19.4533009-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:50:19.4533009-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:50:19.4533009-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:50:19.4533009-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:50:19.4533009-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:50:19.4533009-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:50:19.4533009-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:50:19.4533009-06:00:Thread#0:Scheduler: with testItemExecutionIndex 80
+2021-06-01T22:50:19.4553007-06:00:Thread#0: Test #4/79 is finished on thread #0 as Failed within 12.1124588 seconds
+2021-06-01T22:50:19.4553007-06:00:Thread#0: Test #4/80 is started on thread #0
+2021-06-01T22:50:19.4563006-06:00:2021-06-01T22:50:19.4563006-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:50:31.5733250-06:00:2021-06-01T22:50:31.5733250-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:50:31.5743253-06:00:2021-06-01T22:50:31.5733250-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:50:31.5743253-06:00:2021-06-01T22:50:31.5743253-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:50:31.5753256-06:00:2021-06-01T22:50:31.5743253-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:50:31.5763254-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:50:31.5763254-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:50:31.5763254-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:50:31.5763254-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:50:31.5763254-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:50:31.5763254-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:50:31.5763254-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:50:31.5763254-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:50:31.5763254-06:00:Thread#0:Scheduler: with testItemExecutionIndex 81
+2021-06-01T22:50:31.5773258-06:00:Thread#0: Test #4/80 is finished on thread #0 as Failed within 12.1220251 seconds
+2021-06-01T22:50:31.5783263-06:00:Thread#0: Test #4/81 is started on thread #0
+2021-06-01T22:50:31.5783263-06:00:2021-06-01T22:50:31.5783263-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:50:43.6852873-06:00:2021-06-01T22:50:43.6842858-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:50:43.6852873-06:00:2021-06-01T22:50:43.6852873-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:50:43.6862860-06:00:2021-06-01T22:50:43.6862860-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:50:43.6862860-06:00:2021-06-01T22:50:43.6862860-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:50:43.6882870-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:50:43.6882870-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:50:43.6882870-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:50:43.6882870-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:50:43.6882870-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:50:43.6882870-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:50:43.6882870-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:50:43.6882870-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:50:43.6882870-06:00:Thread#0:Scheduler: with testItemExecutionIndex 82
+2021-06-01T22:50:43.6902859-06:00:Thread#0: Test #4/81 is finished on thread #0 as Failed within 12.1119596 seconds
+2021-06-01T22:50:43.6912871-06:00:Thread#0: Test #4/82 is started on thread #0
+2021-06-01T22:50:43.6912871-06:00:2021-06-01T22:50:43.6912871-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:50:55.7648626-06:00:2021-06-01T22:50:55.7648626-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:50:55.7648626-06:00:2021-06-01T22:50:55.7648626-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:50:55.7658634-06:00:2021-06-01T22:50:55.7658634-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:50:55.7668653-06:00:2021-06-01T22:50:55.7658634-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:50:55.7678650-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:50:55.7678650-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:50:55.7678650-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:50:55.7678650-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:50:55.7678650-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:50:55.7688635-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:50:55.7688635-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:50:55.7688635-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:50:55.7688635-06:00:Thread#0:Scheduler: with testItemExecutionIndex 83
+2021-06-01T22:50:55.7708629-06:00:Thread#0: Test #4/82 is finished on thread #0 as Failed within 12.0795758 seconds
+2021-06-01T22:50:55.7718642-06:00:Thread#0: Test #4/83 is started on thread #0
+2021-06-01T22:50:55.7728643-06:00:2021-06-01T22:50:55.7718642-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:51:07.8622061-06:00:2021-06-01T22:51:07.8622061-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:51:07.8632049-06:00:2021-06-01T22:51:07.8632049-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:51:07.8632049-06:00:2021-06-01T22:51:07.8632049-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:51:07.8642060-06:00:2021-06-01T22:51:07.8642060-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:51:07.8652059-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:51:07.8652059-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:51:07.8652059-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:51:07.8652059-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:51:07.8652059-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:51:07.8652059-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:51:07.8652059-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:51:07.8652059-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:51:07.8652059-06:00:Thread#0:Scheduler: with testItemExecutionIndex 84
+2021-06-01T22:51:07.8662059-06:00:Thread#0: Test #4/83 is finished on thread #0 as Failed within 12.0943417 seconds
+2021-06-01T22:51:07.8662059-06:00:Thread#0: Test #4/84 is started on thread #0
+2021-06-01T22:51:07.8672065-06:00:2021-06-01T22:51:07.8672065-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:51:19.9860336-06:00:2021-06-01T22:51:19.9860336-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:51:19.9870219-06:00:2021-06-01T22:51:19.9860336-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:51:19.9870219-06:00:2021-06-01T22:51:19.9870219-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:51:19.9870219-06:00:2021-06-01T22:51:19.9870219-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:51:19.9890217-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:51:19.9890217-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:51:19.9890217-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:51:19.9890217-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:51:19.9890217-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:51:19.9890217-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:51:19.9890217-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:51:19.9890217-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:51:19.9890217-06:00:Thread#0:Scheduler: with testItemExecutionIndex 85
+2021-06-01T22:51:19.9910225-06:00:Thread#0: Test #4/84 is finished on thread #0 as Failed within 12.1228151 seconds
+2021-06-01T22:51:19.9910225-06:00:Thread#0: Test #4/85 is started on thread #0
+2021-06-01T22:51:19.9920215-06:00:2021-06-01T22:51:19.9910225-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:51:32.0842240-06:00:2021-06-01T22:51:32.0842240-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:51:32.0852244-06:00:2021-06-01T22:51:32.0842240-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:51:32.0852244-06:00:2021-06-01T22:51:32.0852244-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:51:32.0862251-06:00:2021-06-01T22:51:32.0852244-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:51:32.0872261-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:51:32.0872261-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:51:32.0872261-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:51:32.0872261-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:51:32.0872261-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:51:32.0872261-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:51:32.0872261-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:51:32.0872261-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:51:32.0872261-06:00:Thread#0:Scheduler: with testItemExecutionIndex 86
+2021-06-01T22:51:32.0892269-06:00:Thread#0: Test #4/85 is finished on thread #0 as Failed within 12.0982044 seconds
+2021-06-01T22:51:32.0902250-06:00:Thread#0: Test #4/86 is started on thread #0
+2021-06-01T22:51:32.0912247-06:00:2021-06-01T22:51:32.0912247-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:51:44.2023332-06:00:2021-06-01T22:51:44.2013337-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:51:44.2023332-06:00:2021-06-01T22:51:44.2023332-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:51:44.2033343-06:00:2021-06-01T22:51:44.2033343-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:51:44.2033343-06:00:2021-06-01T22:51:44.2033343-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:51:44.2043336-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:51:44.2043336-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:51:44.2043336-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:51:44.2043336-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:51:44.2043336-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:51:44.2043336-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:51:44.2043336-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:51:44.2043336-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:51:44.2043336-06:00:Thread#0:Scheduler: with testItemExecutionIndex 87
+2021-06-01T22:51:44.2063339-06:00:Thread#0: Test #4/86 is finished on thread #0 as Failed within 12.1161089 seconds
+2021-06-01T22:51:44.2063339-06:00:Thread#0: Test #4/87 is started on thread #0
+2021-06-01T22:51:44.2073342-06:00:2021-06-01T22:51:44.2073342-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:51:56.2900732-06:00:2021-06-01T22:51:56.2900732-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:51:56.2900732-06:00:2021-06-01T22:51:56.2900732-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:51:56.2910724-06:00:2021-06-01T22:51:56.2910724-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:51:56.2910724-06:00:2021-06-01T22:51:56.2910724-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:51:56.2920711-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:51:56.2920711-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:51:56.2920711-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:51:56.2920711-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:51:56.2920711-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:51:56.2920711-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:51:56.2920711-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:51:56.2920711-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:51:56.2920711-06:00:Thread#0:Scheduler: with testItemExecutionIndex 88
+2021-06-01T22:51:56.2940716-06:00:Thread#0: Test #4/87 is finished on thread #0 as Failed within 12.0877377 seconds
+2021-06-01T22:51:56.2950727-06:00:Thread#0: Test #4/88 is started on thread #0
+2021-06-01T22:51:56.2950727-06:00:2021-06-01T22:51:56.2950727-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:52:08.4140285-06:00:2021-06-01T22:52:08.4140285-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:52:08.4150291-06:00:2021-06-01T22:52:08.4140285-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:52:08.4150291-06:00:2021-06-01T22:52:08.4150291-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:52:08.4160292-06:00:2021-06-01T22:52:08.4150291-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:52:08.4170285-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:52:08.4170285-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:52:08.4170285-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:52:08.4170285-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:52:08.4170285-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:52:08.4170285-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:52:08.4170285-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:52:08.4170285-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:52:08.4170285-06:00:Thread#0:Scheduler: with testItemExecutionIndex 89
+2021-06-01T22:52:08.4180294-06:00:Thread#0: Test #4/88 is finished on thread #0 as Failed within 12.1229567 seconds
+2021-06-01T22:52:08.4190289-06:00:Thread#0: Test #4/89 is started on thread #0
+2021-06-01T22:52:08.4200304-06:00:2021-06-01T22:52:08.4190289-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:52:20.5350697-06:00:2021-06-01T22:52:20.5340687-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:52:20.5350697-06:00:2021-06-01T22:52:20.5350697-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:52:20.5360692-06:00:2021-06-01T22:52:20.5360692-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:52:20.5370694-06:00:2021-06-01T22:52:20.5370694-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:52:20.5380695-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:52:20.5380695-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:52:20.5380695-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:52:20.5380695-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:52:20.5380695-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:52:20.5380695-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:52:20.5380695-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:52:20.5380695-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:52:20.5380695-06:00:Thread#0:Scheduler: with testItemExecutionIndex 90
+2021-06-01T22:52:20.5390696-06:00:Thread#0: Test #4/89 is finished on thread #0 as Failed within 12.1200407 seconds
+2021-06-01T22:52:20.5400703-06:00:Thread#0: Test #4/90 is started on thread #0
+2021-06-01T22:52:20.5410704-06:00:2021-06-01T22:52:20.5410704-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:52:32.6381701-06:00:2021-06-01T22:52:32.6371692-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:52:32.6391693-06:00:2021-06-01T22:52:32.6381701-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:52:32.6391693-06:00:2021-06-01T22:52:32.6391693-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:52:32.6401699-06:00:2021-06-01T22:52:32.6401699-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:52:32.6411715-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:52:32.6411715-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:52:32.6411715-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:52:32.6411715-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:52:32.6411715-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:52:32.6411715-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:52:32.6411715-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:52:32.6411715-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:52:32.6411715-06:00:Thread#0:Scheduler: with testItemExecutionIndex 91
+2021-06-01T22:52:32.6431714-06:00:Thread#0: Test #4/90 is finished on thread #0 as Failed within 12.1031011 seconds
+2021-06-01T22:52:32.6441779-06:00:Thread#0: Test #4/91 is started on thread #0
+2021-06-01T22:52:32.6451708-06:00:2021-06-01T22:52:32.6451708-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:52:44.7519390-06:00:2021-06-01T22:52:44.7509372-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:52:44.7519390-06:00:2021-06-01T22:52:44.7519390-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:52:44.7529395-06:00:2021-06-01T22:52:44.7519390-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:52:44.7529395-06:00:2021-06-01T22:52:44.7529395-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:52:44.7549388-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:52:44.7549388-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:52:44.7549388-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:52:44.7549388-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:52:44.7549388-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:52:44.7549388-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:52:44.7549388-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:52:44.7549388-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:52:44.7549388-06:00:Thread#0:Scheduler: with testItemExecutionIndex 92
+2021-06-01T22:52:44.7569393-06:00:Thread#0: Test #4/91 is finished on thread #0 as Failed within 12.1127614 seconds
+2021-06-01T22:52:44.7569393-06:00:Thread#0: Test #4/92 is started on thread #0
+2021-06-01T22:52:44.7579394-06:00:2021-06-01T22:52:44.7579394-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:52:56.8456590-06:00:2021-06-01T22:52:56.8451467-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:52:56.8461746-06:00:2021-06-01T22:52:56.8461746-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:52:56.8461746-06:00:2021-06-01T22:52:56.8461746-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:52:56.8471665-06:00:2021-06-01T22:52:56.8471665-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:52:56.8481657-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:52:56.8481657-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:52:56.8481657-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:52:56.8481657-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:52:56.8481657-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:52:56.8481657-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:52:56.8481657-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:52:56.8481657-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:52:56.8481657-06:00:Thread#0:Scheduler: with testItemExecutionIndex 93
+2021-06-01T22:52:56.8501761-06:00:Thread#0: Test #4/92 is finished on thread #0 as Failed within 12.0932368 seconds
+2021-06-01T22:52:56.8501761-06:00:Thread#0: Test #4/93 is started on thread #0
+2021-06-01T22:52:56.8511665-06:00:2021-06-01T22:52:56.8511665-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:53:08.9568774-06:00:2021-06-01T22:53:08.9568774-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:53:08.9578773-06:00:2021-06-01T22:53:08.9568774-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:53:08.9578773-06:00:2021-06-01T22:53:08.9578773-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:53:08.9578773-06:00:2021-06-01T22:53:08.9578773-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:53:08.9598781-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:53:08.9598781-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:53:08.9598781-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:53:08.9598781-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:53:08.9598781-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:53:08.9598781-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:53:08.9598781-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:53:08.9598781-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:53:08.9598781-06:00:Thread#0:Scheduler: with testItemExecutionIndex 94
+2021-06-01T22:53:08.9608776-06:00:Thread#0: Test #4/93 is finished on thread #0 as Failed within 12.1097111 seconds
+2021-06-01T22:53:08.9608776-06:00:Thread#0: Test #4/94 is started on thread #0
+2021-06-01T22:53:08.9618788-06:00:2021-06-01T22:53:08.9618788-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:53:21.0862965-06:00:2021-06-01T22:53:21.0862965-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:53:21.0872978-06:00:2021-06-01T22:53:21.0872978-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:53:21.0872978-06:00:2021-06-01T22:53:21.0872978-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:53:21.0882971-06:00:2021-06-01T22:53:21.0882971-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:53:21.0892975-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:53:21.0892975-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:53:21.0892975-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:53:21.0892975-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:53:21.0892975-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:53:21.0892975-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:53:21.0892975-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:53:21.0892975-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:53:21.0892975-06:00:Thread#0:Scheduler: with testItemExecutionIndex 95
+2021-06-01T22:53:21.0912980-06:00:Thread#0: Test #4/94 is finished on thread #0 as Failed within 12.1304204 seconds
+2021-06-01T22:53:21.0912980-06:00:Thread#0: Test #4/95 is started on thread #0
+2021-06-01T22:53:21.0922975-06:00:2021-06-01T22:53:21.0912980-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:53:33.1602778-06:00:2021-06-01T22:53:33.1592767-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:53:33.1602778-06:00:2021-06-01T22:53:33.1602778-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:53:33.1612786-06:00:2021-06-01T22:53:33.1612786-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:53:33.1612786-06:00:2021-06-01T22:53:33.1612786-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:53:33.1622770-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:53:33.1622770-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:53:33.1622770-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:53:33.1622770-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:53:33.1622770-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:53:33.1622770-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:53:33.1622770-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:53:33.1622770-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:53:33.1622770-06:00:Thread#0:Scheduler: with testItemExecutionIndex 96
+2021-06-01T22:53:33.1642761-06:00:Thread#0: Test #4/95 is finished on thread #0 as Failed within 12.0729781 seconds
+2021-06-01T22:53:33.1652763-06:00:Thread#0: Test #4/96 is started on thread #0
+2021-06-01T22:53:33.1662769-06:00:2021-06-01T22:53:33.1652763-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:53:45.2670637-06:00:2021-06-01T22:53:45.2660726-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:53:45.2670637-06:00:2021-06-01T22:53:45.2670637-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:53:45.2680637-06:00:2021-06-01T22:53:45.2680637-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:53:45.2680637-06:00:2021-06-01T22:53:45.2680637-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:53:45.2690636-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:53:45.2690636-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:53:45.2690636-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:53:45.2690636-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:53:45.2690636-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:53:45.2690636-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:53:45.2690636-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:53:45.2690636-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:53:45.2690636-06:00:Thread#0:Scheduler: with testItemExecutionIndex 97
+2021-06-01T22:53:45.2710638-06:00:Thread#0: Test #4/96 is finished on thread #0 as Failed within 12.1057875 seconds
+2021-06-01T22:53:45.2710638-06:00:Thread#0: Test #4/97 is started on thread #0
+2021-06-01T22:53:45.2720646-06:00:2021-06-01T22:53:45.2720646-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:53:57.3645948-06:00:2021-06-01T22:53:57.3635940-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:53:57.3645948-06:00:2021-06-01T22:53:57.3645948-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:53:57.3655947-06:00:2021-06-01T22:53:57.3645948-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:53:57.3655947-06:00:2021-06-01T22:53:57.3655947-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:53:57.3675960-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:53:57.3675960-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:53:57.3675960-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:53:57.3675960-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:53:57.3675960-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:53:57.3675960-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:53:57.3675960-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:53:57.3675960-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:53:57.3675960-06:00:Thread#0:Scheduler: with testItemExecutionIndex 98
+2021-06-01T22:53:57.3685954-06:00:Thread#0: Test #4/97 is finished on thread #0 as Failed within 12.0975316 seconds
+2021-06-01T22:53:57.3695947-06:00:Thread#0: Test #4/98 is started on thread #0
+2021-06-01T22:53:57.3695947-06:00:2021-06-01T22:53:57.3695947-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:54:09.4662820-06:00:2021-06-01T22:54:09.4652821-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:54:09.4662820-06:00:2021-06-01T22:54:09.4662820-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:54:09.4672813-06:00:2021-06-01T22:54:09.4672813-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:54:09.4672813-06:00:2021-06-01T22:54:09.4672813-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:54:09.4692835-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:54:09.4692835-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-01T22:54:09.4692835-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-01T22:54:09.4692835-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-01T22:54:09.4692835-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-01T22:54:09.4692835-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-06-01T22:54:09.4692835-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-01T22:54:09.4692835-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-01T22:54:09.4692835-06:00:Thread#0:Scheduler: with testItemExecutionIndex 99
+2021-06-01T22:54:09.4702833-06:00:Thread#0: Test #4/98 is finished on thread #0 as Failed within 12.1006886 seconds
+2021-06-01T22:54:09.4702833-06:00:Thread#0: Test #4/99 is started on thread #0
+2021-06-01T22:54:09.4722827-06:00:2021-06-01T22:54:09.4712831-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-06-01T22:54:21.5502011-06:00:2021-06-01T22:54:21.5491996-06:00:Thread#0:T:error: chrome not reachable
+2021-06-01T22:54:21.5502011-06:00:2021-06-01T22:54:21.5502011-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-06-01T22:54:21.5502011-06:00:2021-06-01T22:54:21.5502011-06:00:Thread#0:B:Then I get what I need
+2021-06-01T22:54:21.5512005-06:00:2021-06-01T22:54:21.5512005-06:00:Thread#0:T:skipped because of previous errors
+2021-06-01T22:54:21.5522007-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-01T22:54:21.5522007-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-01T22:54:21.5522007-06:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-06-01T22:54:21.5522007-06:00:Thread#0:Scheduler: No more tests for thread
+2021-06-01T22:54:21.5552007-06:00:Thread#0: Test #4/99 is finished on thread #0 as Failed within 12.0849174 seconds
+2021-06-01T22:54:21.5602030-06:00:2021-06-01T22:54:21.5602030-06:00:Got Deinitialize Signal
+2021-06-01T22:54:21.5632044-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-01T22:54:21.5642028-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-01T22:54:21.5652032-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-01T22:54:21.5672047-06:00:Trying to cancel thread
+2021-06-01T22:54:21.5672047-06:00:Thread cancelled
+2021-06-01T22:54:21.5672047-06:00:Trying to cancel thread
+2021-06-01T22:54:21.5672047-06:00:Thread cancelled
+2021-06-01T22:54:21.5722057-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-06-01T22:54:21.5722057-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-01T22:54:21.5722057-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-01T22:54:21.5772086-06:00;Thread#13;Info;test run finished
+2021-06-01T22:54:21.5772086-06:00;Thread#13;Info;publishing test results
+2021-06-01T22:54:21.6672258-06:00;Thread#13;Info;test results published
+2021-06-01T22:54:21.6672258-06:00;Thread#13;Info;generating reports
+2021-06-01T22:54:21.7782511-06:00;Thread#13;Info;Starting external report generation process
+2021-06-01T22:54:22.7571469-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-06-01T22:54:22.7571469-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-06-01T22:54:22.7581457-06:00;Thread#13;Info;Failed generating reports
+2021-06-01T22:54:22.7661478-06:00:Total: 1 (test executions: 100)
+2021-06-01T22:54:22.7681476-06:00:Succeeded: 0
+2021-06-01T22:54:22.7681476-06:00:Ignored: 0
+2021-06-01T22:54:22.7691478-06:00:Pending: 0
+2021-06-01T22:54:22.7691478-06:00:Skipped: 0
+2021-06-01T22:54:22.7691478-06:00:Failed: 1
+2021-06-01T22:54:22.7781509-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

@@ -1,0 +1,200 @@
+﻿2021-05-28T17:06:56.9630238-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-28T17:06:56.9630238-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-28T17:06:56.9630238-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-28T17:06:56.9630238-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-28T17:06:57.0901609-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-28T17:06:57.0901609-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-28T17:06:57.0911608-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-28T17:06:57.1351585-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-28T170657.log
+2021-05-28T17:06:57.1401507-06:00;Thread#13;Info;Checking activation
+2021-05-28T17:06:57.2184473-06:00;Thread#13;Info;Activated.
+2021-05-28T17:06:57.2194474-06:00;Thread#13;Info;Activation check completed
+2021-05-28T17:06:57.2194474-06:00;Thread#13;Info;Starting test run
+2021-05-28T17:06:57.2574189-06:00;Thread#13;Info;Discovering target: Default
+2021-05-28T17:06:57.2574189-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-28T17:06:57.5619390-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-28T17:06:57.5629274-06:00:Test Suite Dump
+2021-05-28T17:06:57.5639275-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-28T17:06:57.5639275-06:00:#1: Default - 
+2021-05-28T17:06:57.5639275-06:00:#2: PracticingSix - 
+2021-05-28T17:06:57.5639275-06:00:#3: EyeOfTheTiger - 
+2021-05-28T17:06:57.5949339-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-28T17:06:57.5949339-06:00:End: Test Suite Dump
+2021-05-28T17:06:57.6279557-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-28T17:06:57.6299568-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-28T17:06:57.6299568-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-28T17:06:57.6349578-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-28T17:06:57.6349578-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-28T17:06:57.6349578-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-28T17:06:57.6349578-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-28T17:06:57.6359580-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-28T17:06:57.6369582-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-28T17:06:57.6369582-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-28T17:06:57.6369582-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-28T17:06:57.6369582-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-28T17:06:57.6369582-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-28T17:06:57.6389597-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-28T17:06:57.6409589-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-28T17:06:57.6429874-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-28T17:06:57.6459695-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-28T17:06:57.6479694-06:00:starting Out Of Process Executor
+2021-05-28T17:06:57.6529711-06:00:Starting callback TCP Rpc server
+2021-05-28T17:06:57.6659728-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-28T17:06:57.6659728-06:00:Started callback TCP Rpc server on port 32768
+2021-05-28T17:06:57.6659728-06:00:Starting logger TCP Rpc server
+2021-05-28T17:06:57.6679734-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-28T17:06:57.6679734-06:00:Started logger TCP Rpc server on port 32769
+2021-05-28T17:06:57.6729742-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15660 --uniqueId "2021-05-28T170657" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-28T17:06:57.6769765-06:00:Executor with PID 10876 has been started successfully.
+2021-05-28T17:06:57.6799763-06:00:Out of Process Executor 10876 started
+2021-05-28T17:06:57.6799763-06:00:Waiting for endpoint
+2021-05-28T17:06:58.1480113-06:00:Remote executor port received: 32770
+2021-05-28T17:06:58.1490107-06:00:Creating executor TCP client on port 32770
+2021-05-28T17:06:58.1490107-06:00:Created executor TCP client on port 32770
+2021-05-28T17:06:58.1490107-06:00:Connecting to remote executor TCP server
+2021-05-28T17:06:58.1500110-06:00:Connected remote executor TCP server
+2021-05-28T17:06:58.1500110-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-28T17:06:58.1500110-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-28T17:06:58.8780747-06:00:2021-05-28T17:06:58.8770743-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-05-28T17:06:58.8840914-06:00:Endpoint 10876 started
+2021-05-28T17:06:58.9011018-06:00:2021-05-28T17:06:58.9001006-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-28T17:06:59.2302695-06:00:2021-05-28T17:06:59.2302695-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-28T17:06:59.2372713-06:00:2021-05-28T17:06:59.2362712-06:00:Thread#0:T:-> Using default config
+2021-05-28T17:06:59.8464166-06:00:2021-05-28T17:06:59.8454177-06:00:Thread#0:T:Starting the driver...
+2021-05-28T17:07:01.8166753-06:00:2021-05-28T17:07:01.8166753-06:00:OutOfProcessTestAssemblyExecutor: RunTest error: System.InvalidOperationException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.77 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+
+Server stack trace: 
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at PracticingSix.Browser.StartWebDriver() in C:\Users\user\source\repos\PracticingSix\Browser.cs:line 41
+   at PracticingSix.Setup.BeforeTestRun() in C:\Users\user\source\repos\PracticingSix\Setup.cs:line 25
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnTestRunStart()
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnTestRunStart()
+   at TechTalk.SpecFlow.TestRunner.OnTestRunStart()
+   at TechTalk.SpecFlow.TestRunnerManager.FireTestRunStart()
+   at TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at PracticingSix_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in C:\Users\user\source\repos\PracticingSix\obj\Debug\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 10
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+2021-05-28T17:07:01.8176763-06:00:2021-05-28T17:07:01.8166753-06:00:OutOfProcessTestAssemblyExecutorReceiver - Error at RunTests - System.InvalidOperationException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.77 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+
+Server stack trace: 
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at PracticingSix.Browser.StartWebDriver() in C:\Users\user\source\repos\PracticingSix\Browser.cs:line 41
+   at PracticingSix.Setup.BeforeTestRun() in C:\Users\user\source\repos\PracticingSix\Setup.cs:line 25
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.InvokeHook(IBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.FireEvents(HookType hookType)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnTestRunStart()
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnTestRunStart()
+   at TechTalk.SpecFlow.TestRunner.OnTestRunStart()
+   at TechTalk.SpecFlow.TestRunnerManager.FireTestRunStart()
+   at TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(Assembly testAssembly, IContainerBuilder containerBuilder)
+   at PracticingSix_SpecFlowPlusRunnerAssemblyHooks.AssemblyInitialize() in C:\Users\user\source\repos\PracticingSix\obj\Debug\SpecFlow.Plus.Runner.AssemblyHooks.cs:line 10
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutorReceiver.RunTests(TestThreadState testThreadState)
+2021-05-28T17:07:01.8393883-06:00:test thread #0 error: StreamJsonRpc.RemoteInvocationException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.77 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2021-05-28T17:07:01.8393883-06:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> StreamJsonRpc.RemoteInvocationException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 91.0.4472.77 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2021-05-28T17:07:01.8403895-06:00:Trying to cancel thread
+2021-05-28T17:07:01.8403895-06:00:Thread cancelled
+2021-05-28T17:07:01.8403895-06:00:Trying to cancel thread
+2021-05-28T17:07:01.8403895-06:00:Thread cancelled
+2021-05-28T17:07:01.8463953-06:00:Thread#-1: Test #4/0 is started on thread #-1
+2021-05-28T17:07:01.8483962-06:00:Thread#-1: Test #4/0 is finished on thread #-1 as Skipped within 0.0010009 seconds
+2021-05-28T17:07:01.8493966-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-05-28T17:07:01.8493966-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-28T17:07:01.8493966-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-05-28T17:07:01.8943528-06:00;Thread#13;Info;test run finished
+2021-05-28T17:07:01.8943528-06:00;Thread#13;Info;publishing test results
+2021-05-28T17:07:01.9003541-06:00;Thread#13;Info;test results published
+2021-05-28T17:07:01.9013637-06:00;Thread#13;Info;generating reports
+2021-05-28T17:07:01.9803888-06:00;Thread#13;Info;Starting external report generation process
+2021-05-28T17:07:02.9004783-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-05-28T17:07:02.9014786-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-05-28T17:07:02.9014786-06:00;Thread#13;Info;Failed generating reports
+2021-05-28T17:07:02.9106575-06:00:Total: 1
+2021-05-28T17:07:02.9116578-06:00:Succeeded: 0
+2021-05-28T17:07:02.9126581-06:00:Ignored: 0
+2021-05-28T17:07:02.9126581-06:00:Pending: 0
+2021-05-28T17:07:02.9126581-06:00:Skipped: 1
+2021-05-28T17:07:02.9136598-06:00:Failed: 0
+2021-05-28T17:07:02.9156689-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

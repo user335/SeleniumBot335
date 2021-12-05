@@ -1,0 +1,37 @@
+invalid session idOpenQA.Selenium.WebDriverException: invalid session id
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at PracticingSix.Browser.IsVideoTitleCorrect() in C:\Users\user\source\repos\PracticingSix\Browser.cs:line 115
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 31
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTiger.EyeMeEveryIntervalFromYoutube(Double time) in C:\Users\user\source\repos\PracticingSix\EyeOfTheTiger.cs:line 75
+   at PracticingSix.EyeOfTheTigerSteps.WhenINeedEyeOfTheTigerEveryMinutes(Double time) in C:\Users\user\source\repos\PracticingSix\Steps\EyeOfTheTigerSteps.cs:line 23
+   at lambda_method(Closure , IContextManager , Double )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at PracticingSix.Features.EyeOfTheTigerFeature.ScenarioCleanup()
+   at PracticingSix.Features.EyeOfTheTigerFeature.HitMeAndDontStop() in C:\Users\user\source\repos\PracticingSix\Features\EyeOfTheTiger.feature:line 6
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()

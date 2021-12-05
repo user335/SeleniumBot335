@@ -1,0 +1,273 @@
+﻿2021-06-15T21:01:58.2067071-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-15T21:01:58.2067071-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-15T21:01:58.2067071-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-15T21:01:58.2067071-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-15T21:01:58.4025577-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-15T21:01:58.4025577-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-15T21:01:58.4035571-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-15T21:01:58.4566139-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-15T210158.log
+2021-06-15T21:01:58.4631251-06:00;Thread#13;Info;Checking activation
+2021-06-15T21:01:58.5747514-06:00;Thread#13;Info;Activated.
+2021-06-15T21:01:58.5747514-06:00;Thread#13;Info;Activation check completed
+2021-06-15T21:01:58.5747514-06:00;Thread#13;Info;Starting test run
+2021-06-15T21:01:58.6162680-06:00;Thread#13;Info;Discovering target: Default
+2021-06-15T21:01:58.6172680-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-15T21:01:58.9883597-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-15T21:01:58.9893507-06:00:Test Suite Dump
+2021-06-15T21:01:58.9913514-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-15T21:01:58.9913514-06:00:#1: Default - 
+2021-06-15T21:01:58.9913514-06:00:#2: PracticingSix - 
+2021-06-15T21:01:58.9913514-06:00:#5: Twitch Bot! - 
+2021-06-15T21:01:59.0293600-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-15T21:01:59.0293600-06:00:End: Test Suite Dump
+2021-06-15T21:01:59.0693693-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-15T21:01:59.0713699-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-15T21:01:59.0713699-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-15T21:01:59.0783711-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-15T21:01:59.0783711-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-15T21:01:59.0783711-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-15T21:01:59.0783711-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-15T21:01:59.0793710-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-15T21:01:59.0813716-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-15T21:01:59.0813716-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-15T21:01:59.0813716-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-15T21:01:59.0813716-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-15T21:01:59.0813716-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-15T21:01:59.0833716-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-15T21:01:59.0853725-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-15T21:01:59.1323833-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-15T21:01:59.1343831-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-15T21:01:59.1363837-06:00:starting Out Of Process Executor
+2021-06-15T21:01:59.1423856-06:00:Starting callback TCP Rpc server
+2021-06-15T21:01:59.1663920-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-15T21:01:59.1663920-06:00:Started callback TCP Rpc server on port 32768
+2021-06-15T21:01:59.1663920-06:00:Starting logger TCP Rpc server
+2021-06-15T21:01:59.1793941-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-15T21:01:59.1803944-06:00:Started logger TCP Rpc server on port 32769
+2021-06-15T21:01:59.1923983-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 27364 --uniqueId "2021-06-15T210158" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-06-15T21:01:59.2594121-06:00:Executor with PID 13120 has been started successfully.
+2021-06-15T21:01:59.2624130-06:00:Out of Process Executor 13120 started
+2021-06-15T21:01:59.2624130-06:00:Waiting for endpoint
+2021-06-15T21:01:59.9885756-06:00:Remote executor port received: 32772
+2021-06-15T21:01:59.9885756-06:00:Creating executor TCP client on port 32772
+2021-06-15T21:01:59.9895752-06:00:Created executor TCP client on port 32772
+2021-06-15T21:01:59.9895752-06:00:Connecting to remote executor TCP server
+2021-06-15T21:01:59.9895752-06:00:Connected remote executor TCP server
+2021-06-15T21:01:59.9895752-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-15T21:01:59.9895752-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-15T21:02:00.6287530-06:00:2021-06-15T21:02:00.6277532-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-06-15T21:02:00.6357554-06:00:Endpoint 13120 started
+2021-06-15T21:02:00.6547766-06:00:2021-06-15T21:02:00.6547766-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-15T21:02:01.1075616-06:00:2021-06-15T21:02:01.1075616-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-15T21:02:01.1615734-06:00:2021-06-15T21:02:01.1605818-06:00:Thread#0:T:-> Using default config
+2021-06-15T21:02:02.2748243-06:00:2021-06-15T21:02:02.2738234-06:00:Thread#0:T:Starting the driver...
+2021-06-15T21:02:03.9777325-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-15T21:02:04.0187921-06:00:2021-06-15T21:02:04.0187921-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-15T21:02:04.0848908-06:00:2021-06-15T21:02:04.0843570-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-15T21:02:04.0868654-06:00:2021-06-15T21:02:04.0868654-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-15T21:02:06.1182626-06:00:2021-06-15T21:02:06.1182626-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.0s)
+2021-06-15T21:02:06.1212625-06:00:2021-06-15T21:02:06.1202627-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-15T21:02:07.5002170-06:00:2021-06-15T21:02:07.4982162-06:00:Thread#0:T:Line 1
+2021-06-15T21:02:07.7602750-06:00:2021-06-15T21:02:07.7602750-06:00:Thread#0:T:Parsing: the compiler is smart enough to ignore them from: voidvenom777
+2021-06-15T21:02:07.7752789-06:00:2021-06-15T21:02:07.7712766-06:00:Thread#0:T:Eyy, its voidvenom777!
+2021-06-15T21:02:24.0588846-06:00:2021-06-15T21:02:24.0578834-06:00:Thread#0:T:Line 2
+2021-06-15T21:02:24.1529055-06:00:2021-06-15T21:02:24.1529055-06:00:Thread#0:T:Parsing: i been spending my time in bed and at school from: voidvenom777
+2021-06-15T21:02:31.0316221-06:00:2021-06-15T21:02:31.0316221-06:00:Thread#0:T:Line 3
+2021-06-15T21:02:31.1186407-06:00:2021-06-15T21:02:31.1176410-06:00:Thread#0:T:Parsing: hey bot why we replaying my intro from: voidvenom777
+2021-06-15T21:02:34.6479446-06:00:2021-06-15T21:02:34.6469467-06:00:Thread#0:T:Line 4
+2021-06-15T21:02:34.8559901-06:00:2021-06-15T21:02:34.8559901-06:00:Thread#0:T:Parsing:  from: voidvenom777
+2021-06-15T21:02:56.0608401-06:00:2021-06-15T21:02:56.0598392-06:00:Thread#0:T:Line 5
+2021-06-15T21:02:56.1524096-06:00:2021-06-15T21:02:56.1514083-06:00:Thread#0:T:Parsing: test from: user335
+2021-06-15T21:02:56.1549182-06:00:2021-06-15T21:02:56.1549182-06:00:Thread#0:T:Eyy, its user335!
+2021-06-15T21:03:07.2671570-06:00:2021-06-15T21:03:07.2671570-06:00:Thread#0:T:Line 6
+2021-06-15T21:03:07.3641778-06:00:2021-06-15T21:03:07.3641778-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-06-15T21:03:07.3671789-06:00:2021-06-15T21:03:07.3661790-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-06-15T21:03:28.2541089-06:00:2021-06-15T21:03:28.2531087-06:00:Thread#0:T:Line 7
+2021-06-15T21:03:28.3561531-06:00:2021-06-15T21:03:28.3531536-06:00:Thread#0:T:Parsing: !whip from: user335
+2021-06-15T21:03:31.2337198-06:00:2021-06-15T21:03:31.2327196-06:00:Thread#0:T:Line 8
+2021-06-15T21:07:25.2613898-06:00:2021-06-15T21:07:25.2603888-06:00:Thread#0:T:Line 9
+2021-06-15T21:07:25.3504087-06:00:2021-06-15T21:07:25.3504087-06:00:Thread#0:T:Parsing: animation day! from: sky_acaniadev
+2021-06-15T21:08:54.2565030-06:00:2021-06-15T21:08:54.2555031-06:00:Thread#0:T:Line 10
+2021-06-15T21:08:54.3485240-06:00:2021-06-15T21:08:54.3485240-06:00:Thread#0:T:Parsing: knock knock. wassup? from: dstew99
+2021-06-15T21:08:54.3515240-06:00:2021-06-15T21:08:54.3505243-06:00:Thread#0:T:Eyy, its dstew99!
+2021-06-15T21:11:38.0515726-06:00:2021-06-15T21:11:38.0505727-06:00:Thread#0:T:Line 11
+2021-06-15T21:11:38.1336252-06:00:2021-06-15T21:11:38.1336252-06:00:Thread#0:T:Parsing: did the buy do something wrong? why is he doing puch-ups? from: dstew99
+2021-06-15T21:11:49.2928851-06:00:2021-06-15T21:11:49.2918846-06:00:Thread#0:T:Line 12
+2021-06-15T21:11:49.3899062-06:00:2021-06-15T21:11:49.3899062-06:00:Thread#0:T:Parsing: @user335 today i found a really cool monospace font called fira code. it has ligatures for programming symbols, such as <=, >=, !=, etc that make it easier to read (in my opinion) from: voidvenom777
+2021-06-15T21:12:08.2790210-06:00:2021-06-15T21:12:08.2770178-06:00:Thread#0:T:Line 13
+2021-06-15T21:12:08.3740396-06:00:2021-06-15T21:12:08.3740396-06:00:Thread#0:T:Parsing: ian is just keeping fit during the lockdown lol from: voidvenom777
+2021-06-15T21:12:13.6585850-06:00:2021-06-15T21:12:13.6575827-06:00:Thread#0:T:Line 14
+2021-06-15T21:12:13.7576047-06:00:2021-06-15T21:12:13.7576047-06:00:Thread#0:T:Parsing: oh wait from: voidvenom777
+2021-06-15T21:12:16.4403579-06:00:2021-06-15T21:12:16.4403579-06:00:Thread#0:T:Line 15
+2021-06-15T21:12:16.5183745-06:00:2021-06-15T21:12:16.5183745-06:00:Thread#0:T:Parsing: nvm i dumb from: voidvenom777
+2021-06-15T21:12:31.0521801-06:00:2021-06-15T21:12:31.0511808-06:00:Thread#0:T:Line 16
+2021-06-15T21:12:31.1392009-06:00:2021-06-15T21:12:31.1381979-06:00:Thread#0:T:Parsing: lol from: dstew99
+2021-06-15T21:12:35.2422564-06:00:2021-06-15T21:12:35.2422564-06:00:Thread#0:T:Line 17
+2021-06-15T21:12:35.3592848-06:00:2021-06-15T21:12:35.3582820-06:00:Thread#0:T:Parsing: you are working on animations for two days! does that mean you fixed all the bugs? from: sky_acaniadev
+2021-06-15T21:12:49.8667226-06:00:2021-06-15T21:12:49.8667226-06:00:Thread#0:T:Line 18
+2021-06-15T21:12:49.9572859-06:00:2021-06-15T21:12:49.9562858-06:00:Thread#0:T:Parsing: https://imgur.com/a/xq7djsk yea that's not creepy from: voidvenom777
+2021-06-15T21:13:27.6605579-06:00:2021-06-15T21:13:27.6595579-06:00:Thread#0:T:Line 19
+2021-06-15T21:13:27.7656442-06:00:2021-06-15T21:13:27.7646489-06:00:Thread#0:T:Parsing: the == are merged to look like one, for example. (ligatures) from: dstew99
+2021-06-15T21:14:08.0613511-06:00:2021-06-15T21:14:08.0603521-06:00:Thread#0:T:Line 20
+2021-06-15T21:14:08.1483699-06:00:2021-06-15T21:14:08.1473698-06:00:Thread#0:T:Parsing: @user335 example https://imgur.com/a/ouj9cis from: voidvenom777
+2021-06-15T21:15:00.0603730-06:00:2021-06-15T21:15:00.0593752-06:00:Thread#0:T:Line 21
+2021-06-15T21:15:00.1559039-06:00:2021-06-15T21:15:00.1559039-06:00:Thread#0:T:Parsing: +> looks more like an arrow. != turns into = with a strike through it from: dstew99
+2021-06-15T21:17:05.2573036-06:00:2021-06-15T21:17:05.2573036-06:00:Thread#0:T:Line 22
+2021-06-15T21:17:05.3578785-06:00:2021-06-15T21:17:05.3568790-06:00:Thread#0:T:Parsing: @user335 where are these tools from? from: voidvenom777
+2021-06-15T21:17:47.4667765-06:00:2021-06-15T21:17:47.4657760-06:00:Thread#0:T:Line 23
+2021-06-15T21:17:47.5698041-06:00:2021-06-15T21:17:47.5687997-06:00:Thread#0:T:Parsing: $60 what from: voidvenom777
+2021-06-15T21:19:11.6565060-06:00:2021-06-15T21:19:11.6555049-06:00:Thread#0:T:Line 24
+2021-06-15T21:19:11.7435259-06:00:2021-06-15T21:19:11.7435259-06:00:Thread#0:T:Parsing: https://assetstore.unity.com/packages/tools/animation/umotion-pro-animation-editor-95991 from: dstew99
+2021-06-15T21:19:42.6564537-06:00:2021-06-15T21:19:42.6564537-06:00:Thread#0:T:Line 25
+2021-06-15T21:19:42.7394741-06:00:2021-06-15T21:19:42.7384724-06:00:Thread#0:T:Parsing: looks a little x-rated from: dstew99
+2021-06-15T21:21:33.6775526-06:00:2021-06-15T21:21:33.6765520-06:00:Thread#0:T:Line 26
+2021-06-15T21:21:33.7735741-06:00:2021-06-15T21:21:33.7725740-06:00:Thread#0:T:Parsing: could grab some dances from mixamo from: dstew99
+2021-06-15T21:22:08.6646684-06:00:2021-06-15T21:22:08.6636676-06:00:Thread#0:T:Line 27
+2021-06-15T21:22:08.7526871-06:00:2021-06-15T21:22:08.7526871-06:00:Thread#0:T:Parsing: arms need to stay out from: dstew99
+2021-06-15T21:22:58.0711559-06:00:2021-06-15T21:22:58.0701559-06:00:Thread#0:T:Line 28
+2021-06-15T21:22:58.1731793-06:00:2021-06-15T21:22:58.1731793-06:00:Thread#0:T:Parsing: can you possess an ant person? i wanna do that then flirting with other ant people. from: sky_acaniadev
+2021-06-15T21:23:58.6533445-06:00:2021-06-15T21:23:58.6523455-06:00:Thread#0:T:Line 29
+2021-06-15T21:23:58.7774316-06:00:2021-06-15T21:23:58.7764319-06:00:Thread#0:T:Parsing: oh if that is a lot of work, then forget about it. from: sky_acaniadev
+2021-06-15T21:24:16.6945600-06:00:2021-06-15T21:24:16.6935593-06:00:Thread#0:T:Line 30
+2021-06-15T21:24:16.8365899-06:00:2021-06-15T21:24:16.8345902-06:00:Thread#0:T:Parsing: spying the village from: sky_acaniadev
+2021-06-15T21:24:39.2611982-06:00:2021-06-15T21:24:39.2601969-06:00:Thread#0:T:Line 31
+2021-06-15T21:24:39.3747326-06:00:2021-06-15T21:24:39.3737324-06:00:Thread#0:T:Parsing: demons will still follow you (while you standing there) from: sky_acaniadev
+2021-06-15T21:24:59.4602461-06:00:2021-06-15T21:24:59.4582439-06:00:Thread#0:T:Line 32
+2021-06-15T21:24:59.5512648-06:00:2021-06-15T21:24:59.5502644-06:00:Thread#0:T:Parsing: and maybe flip a few switch to disarm the village from: sky_acaniadev
+2021-06-15T21:25:49.4652740-06:00:2021-06-15T21:25:49.4642753-06:00:Thread#0:T:Line 33
+2021-06-15T21:25:49.5662978-06:00:2021-06-15T21:25:49.5662978-06:00:Thread#0:T:Parsing: no, possess the ant people from: sky_acaniadev
+2021-06-15T21:26:18.0800812-06:00:2021-06-15T21:26:18.0800812-06:00:Thread#0:T:Line 34
+2021-06-15T21:26:18.1856523-06:00:2021-06-15T21:26:18.1846510-06:00:Thread#0:T:Parsing: and open a gate, or ring a wrong bell from: sky_acaniadev
+2021-06-15T21:26:31.4533013-06:00:2021-06-15T21:26:31.4533013-06:00:Thread#0:T:Line 35
+2021-06-15T21:26:31.5593253-06:00:2021-06-15T21:26:31.5583267-06:00:Thread#0:T:Parsing: i thought you use the same base controller for all units from: sky_acaniadev
+2021-06-15T21:26:59.6571097-06:00:2021-06-15T21:26:59.6571097-06:00:Thread#0:T:Line 36
+2021-06-15T21:26:59.7471296-06:00:2021-06-15T21:26:59.7461299-06:00:Thread#0:T:Parsing: attract the guard to another position from: sky_acaniadev
+2021-06-15T21:27:02.2396900-06:00:2021-06-15T21:27:02.2386900-06:00:Thread#0:T:Line 37
+2021-06-15T21:27:02.3357106-06:00:2021-06-15T21:27:02.3347100-06:00:Thread#0:T:Parsing: hey from: nallewins
+2021-06-15T21:27:02.3427112-06:00:2021-06-15T21:27:02.3397131-06:00:Thread#0:T:Eyy, its nallewins!
+2021-06-15T21:27:05.4419336-06:00:2021-06-15T21:27:05.4419336-06:00:Thread#0:T:Line 38
+2021-06-15T21:27:05.5319544-06:00:2021-06-15T21:27:05.5309549-06:00:Thread#0:T:Parsing: away from your army from: sky_acaniadev
+2021-06-15T21:29:10.4750732-06:00:2021-06-15T21:29:10.4740729-06:00:Thread#0:T:Line 39
+2021-06-15T21:29:10.5740953-06:00:2021-06-15T21:29:10.5740953-06:00:Thread#0:T:Parsing: lurk from: sky_acaniadev
+2021-06-15T21:30:31.0582098-06:00:2021-06-15T21:30:31.0572074-06:00:Thread#0:T:Line 40
+2021-06-15T21:30:31.1592302-06:00:2021-06-15T21:30:31.1592302-06:00:Thread#0:T:Parsing: hey man from: nitrobeastproductions
+2021-06-15T21:30:50.4743883-06:00:2021-06-15T21:30:50.4733815-06:00:Thread#0:T:Line 41
+2021-06-15T21:30:50.5744039-06:00:2021-06-15T21:30:50.5744039-06:00:Thread#0:T:Parsing: so my wife started learning selenium stuff from: nitrobeastproductions
+2021-06-15T21:31:01.8938896-06:00:2021-06-15T21:31:01.8938896-06:00:Thread#0:T:Line 42
+2021-06-15T21:31:01.9979129-06:00:2021-06-15T21:31:01.9979129-06:00:Thread#0:T:Parsing: yeah schools great from: nitrobeastproductions
+2021-06-15T21:31:27.5051028-06:00:2021-06-15T21:31:27.5041023-06:00:Thread#0:T:Line 43
+2021-06-15T21:31:27.6061251-06:00:2021-06-15T21:31:27.6051243-06:00:Thread#0:T:Parsing: python i think is what she told me from: nitrobeastproductions
+2021-06-15T21:31:33.2653934-06:00:2021-06-15T21:31:33.2653934-06:00:Thread#0:T:Line 44
+2021-06-15T21:31:33.3594126-06:00:2021-06-15T21:31:33.3584129-06:00:Thread#0:T:Parsing: shes excited about it from: nitrobeastproductions
+2021-06-15T21:31:59.6568158-06:00:2021-06-15T21:31:59.6558153-06:00:Thread#0:T:Line 45
+2021-06-15T21:31:59.7758430-06:00:2021-06-15T21:31:59.7748441-06:00:Thread#0:T:Parsing: i've seen a a lot of python / selenium videos from: dstew99
+2021-06-15T21:32:28.8775011-06:00:2021-06-15T21:32:28.8765011-06:00:Thread#0:T:Line 46
+2021-06-15T21:32:28.9745231-06:00:2021-06-15T21:32:28.9745231-06:00:Thread#0:T:Parsing: spent alot of today working on my script for the next episode of my series im writing from: nitrobeastproductions
+2021-06-15T21:33:28.4664673-06:00:2021-06-15T21:33:28.4664673-06:00:Thread#0:T:Line 47
+2021-06-15T21:33:28.5824943-06:00:2021-06-15T21:33:28.5824943-06:00:Thread#0:T:Parsing: @dstew99 i'm looking at raft pt 4 and you're already at 7 deaths, i have 1, and everyone else has 0 from: mrnoah99
+2021-06-15T21:33:28.5874936-06:00:2021-06-15T21:33:28.5864947-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-15T21:33:41.4757743-06:00:2021-06-15T21:33:41.4757743-06:00:Thread#0:T:Line 48
+2021-06-15T21:33:41.5948033-06:00:2021-06-15T21:33:41.5938029-06:00:Thread#0:T:Parsing: also pop from: mrnoah99
+2021-06-15T21:33:42.6525507-06:00:2021-06-15T21:33:42.6525507-06:00:Thread#0:T:Line 49
+2021-06-15T21:33:42.7395729-06:00:2021-06-15T21:33:42.7385708-06:00:Thread#0:T:Parsing: really depends. i was in class at 19am when inspiration hit from: nitrobeastproductions
+2021-06-15T21:33:47.2658703-06:00:2021-06-15T21:33:47.2658703-06:00:Thread#0:T:Line 50
+2021-06-15T21:33:47.3718944-06:00:2021-06-15T21:33:47.3708946-06:00:Thread#0:T:Parsing: lol from: dstew99
+2021-06-15T21:34:03.6544765-06:00:2021-06-15T21:34:03.6534771-06:00:Thread#0:T:Line 51
+2021-06-15T21:34:03.7630118-06:00:2021-06-15T21:34:03.7620122-06:00:Thread#0:T:Parsing: 10 am from: nitrobeastproductions
+2021-06-15T21:34:23.6674131-06:00:2021-06-15T21:34:23.6664130-06:00:Thread#0:T:Line 52
+2021-06-15T21:34:23.7664363-06:00:2021-06-15T21:34:23.7644347-06:00:Thread#0:T:Parsing: 0 deaths is my brother and a friend who hasn't joined in the video series yet from: mrnoah99
+2021-06-15T21:34:52.6611689-06:00:2021-06-15T21:34:52.6601693-06:00:Thread#0:T:Line 53
+2021-06-15T21:34:52.7711949-06:00:2021-06-15T21:34:52.7701928-06:00:Thread#0:T:Parsing: lazer projectors are getter really really good from: nitrobeastproductions
+2021-06-15T21:35:14.6551452-06:00:2021-06-15T21:35:14.6541457-06:00:Thread#0:T:Line 54
+2021-06-15T21:35:14.8021784-06:00:2021-06-15T21:35:14.8021784-06:00:Thread#0:T:Parsing: ill shoot you some link from: nitrobeastproductions
+2021-06-15T21:35:25.2642395-06:00:2021-06-15T21:35:25.2642395-06:00:Thread#0:T:Line 55
+2021-06-15T21:35:25.3652623-06:00:2021-06-15T21:35:25.3642605-06:00:Thread#0:T:Parsing: wall mount tv? from: dstew99
+2021-06-15T21:35:32.8651099-06:00:2021-06-15T21:35:32.8651099-06:00:Thread#0:T:Line 56
+2021-06-15T21:35:32.9611292-06:00:2021-06-15T21:35:32.9611292-06:00:Thread#0:T:Parsing: projectors are expensive from: nitrobeastproductions
+2021-06-15T21:35:40.4663858-06:00:2021-06-15T21:35:40.4663858-06:00:Thread#0:T:Line 57
+2021-06-15T21:35:40.5764094-06:00:2021-06-15T21:35:40.5764094-06:00:Thread#0:T:Parsing: yep, jerry the shark is a monster from: dstew99
+2021-06-15T21:35:50.0911258-06:00:2021-06-15T21:35:50.0911258-06:00:Thread#0:T:Line 58
+2021-06-15T21:35:50.1951489-06:00:2021-06-15T21:35:50.1941486-06:00:Thread#0:T:Parsing: yes dstew keeps going into the water when he doesn't need to from: mrnoah99
+2021-06-15T21:35:53.6640978-06:00:2021-06-15T21:35:53.6640978-06:00:Thread#0:T:Line 59
+2021-06-15T21:35:53.7731219-06:00:2021-06-15T21:35:53.7721214-06:00:Thread#0:T:Parsing: yeah wall mount is what we went with cause projectors are crazy expensive from: nitrobeastproductions
+2021-06-15T21:35:58.8831780-06:00:2021-06-15T21:35:58.8821788-06:00:Thread#0:T:Line 60
+2021-06-15T21:35:58.9892007-06:00:2021-06-15T21:35:58.9882006-06:00:Thread#0:T:Parsing: so he keeps getting eaten from: mrnoah99
+2021-06-15T21:36:45.0554112-06:00:2021-06-15T21:36:45.0544110-06:00:Thread#0:T:Line 61
+2021-06-15T21:36:45.1534341-06:00:2021-06-15T21:36:45.1534341-06:00:Thread#0:T:Parsing: is that 7 deaths plus the ones from the other videos? from: dstew99
+2021-06-15T21:37:46.6640470-06:00:2021-06-15T21:37:46.6630477-06:00:Thread#0:T:Line 62
+2021-06-15T21:37:46.7790741-06:00:2021-06-15T21:37:46.7770721-06:00:Thread#0:T:Parsing: i came up with this really awesome plot twist ending so im working on all the middle shit. i think i want it to be 4-5 episodes i have 2 done from: nitrobeastproductions
+2021-06-15T21:39:05.4962882-06:00:2021-06-15T21:39:05.4962882-06:00:Thread#0:T:Line 63
+2021-06-15T21:39:05.6023127-06:00:2021-06-15T21:39:05.6023127-06:00:Thread#0:T:Parsing: welp good to see you user but i gotta go work on an assignment and then probably stay up late and watch some lectures to prep for thurday's exam from: voidvenom777
+2021-06-15T21:39:11.4676382-06:00:2021-06-15T21:39:11.4676382-06:00:Thread#0:T:Line 64
+2021-06-15T21:39:11.5706624-06:00:2021-06-15T21:39:11.5696628-06:00:Thread#0:T:Parsing: see ya around! from: voidvenom777
+2021-06-15T21:41:35.6846471-06:00:2021-06-15T21:41:35.6836463-06:00:Thread#0:T:Line 65
+2021-06-15T21:41:35.7886702-06:00:2021-06-15T21:41:35.7886702-06:00:Thread#0:T:Parsing: about 20 minutes per episode from: nitrobeastproductions
+2021-06-15T21:41:42.6658047-06:00:2021-06-15T21:41:42.6648055-06:00:Thread#0:T:Line 66
+2021-06-15T21:41:42.8128386-06:00:2021-06-15T21:41:42.8118388-06:00:Thread#0:T:Parsing: first is like 15 minutes from: nitrobeastproductions
+2021-06-15T21:42:09.2758935-06:00:2021-06-15T21:42:09.2758935-06:00:Thread#0:T:Line 67
+2021-06-15T21:42:09.3879182-06:00:2021-06-15T21:42:09.3869169-06:00:Thread#0:T:Parsing: get smaller chairs from: dstew99
+2021-06-15T21:48:27.2776504-06:00:2021-06-15T21:48:27.2766504-06:00:Thread#0:T:Line 68
+2021-06-15T21:48:27.4016844-06:00:2021-06-15T21:48:27.4006781-06:00:Thread#0:T:Parsing: i was gonna upload the episodes as i was editing the next one. but its taking much longer than anticipated so im gonna wait till tis all finished then ill upload them to youtube 1 week apart. so it will get released over the course of a month from: nitrobeastproductions
+2021-06-15T21:48:28.8420416-06:00:2021-06-15T21:48:28.8420416-06:00:Thread#0:T:Line 69
+2021-06-15T21:48:28.9510655-06:00:2021-06-15T21:48:28.9510655-06:00:Thread#0:T:Parsing: that is a funny push-up from: sky_acaniadev
+2021-06-15T21:48:33.6656305-06:00:2021-06-15T21:48:33.6656305-06:00:Thread#0:T:Line 70
+2021-06-15T21:48:33.7756549-06:00:2021-06-15T21:48:33.7756549-06:00:Thread#0:T:Parsing: and ill stream the premeires from: nitrobeastproductions
+2021-06-15T21:49:47.0681997-06:00:2021-06-15T21:49:47.0671955-06:00:Thread#0:T:Line 71
+2021-06-15T21:49:47.1892225-06:00:2021-06-15T21:49:47.1882233-06:00:Thread#0:T:Parsing: when they come out i want feedback from everyone. i want to get better as i go. im really enjoying it from: nitrobeastproductions
+2021-06-15T21:55:53.4698477-06:00:2021-06-15T21:55:53.4688484-06:00:Thread#0:T:Line 72
+2021-06-15T21:55:53.5798734-06:00:2021-06-15T21:55:53.5788729-06:00:Thread#0:T:Parsing: looks like one leg got broken\\ from: dstew99
+2021-06-15T22:00:51.4773981-06:00:2021-06-15T22:00:51.4733989-06:00:Thread#0:T:Line 73
+2021-06-15T22:00:51.5984246-06:00:2021-06-15T22:00:51.5984246-06:00:Thread#0:T:Parsing: rotate the spine bones up? from: sky_acaniadev
+2021-06-15T22:01:08.2636527-06:00:2021-06-15T22:01:08.2636527-06:00:Thread#0:T:Line 74
+2021-06-15T22:01:08.4316891-06:00:2021-06-15T22:01:08.4306893-06:00:Thread#0:T:Parsing: do you have an ik for head as well? from: sky_acaniadev
+2021-06-15T22:02:53.2692574-06:00:2021-06-15T22:02:53.2692574-06:00:Thread#0:T:Line 75
+2021-06-15T22:02:53.3772775-06:00:2021-06-15T22:02:53.3772775-06:00:Thread#0:T:Parsing: i am working on one of the most important projectile script in my game from: sky_acaniadev
+2021-06-15T22:03:06.2926827-06:00:2021-06-15T22:03:06.2916824-06:00:Thread#0:T:Line 76
+2021-06-15T22:03:06.4117127-06:00:2021-06-15T22:03:06.4117127-06:00:Thread#0:T:Parsing: also the second hardest one to make from: sky_acaniadev
+2021-06-15T22:04:44.2723524-06:00:2021-06-15T22:04:44.2713513-06:00:Thread#0:T:Line 77
+2021-06-15T22:04:44.3853776-06:00:2021-06-15T22:04:44.3853776-06:00:Thread#0:T:Parsing: the type that will spawn a networked unit object at the aimed position (or aimed unit if the spell can lock on a unit). lots of raycast check to find the final position from: sky_acaniadev
+2021-06-15T22:05:50.6570232-06:00:2021-06-15T22:05:50.6570232-06:00:Thread#0:T:Line 78
+2021-06-15T22:05:50.7620467-06:00:2021-06-15T22:05:50.7620467-06:00:Thread#0:T:Parsing: the networked object could be a summoned unit (demon), could be a aoe dot effect (blizzard), could be a timed trap (landmine), could be anything that is networked. from: sky_acaniadev
+2021-06-15T22:06:41.0669029-06:00:2021-06-15T22:06:41.0659024-06:00:Thread#0:T:Line 79
+2021-06-15T22:06:41.1869279-06:00:2021-06-15T22:06:41.1869279-06:00:Thread#0:T:Parsing: the hardest one is the wall creating projectile. i finished that one already. from: sky_acaniadev
+2021-06-15T22:06:52.8622950-06:00:2021-06-15T22:06:52.8612946-06:00:Thread#0:T:Line 80
+2021-06-15T22:06:52.9853232-06:00:2021-06-15T22:06:52.9843227-06:00:Thread#0:T:Parsing: the third hardest one is probably chain lightning type spell from: sky_acaniadev
+2021-06-15T22:07:44.0770449-06:00:2021-06-15T22:07:44.0740449-06:00:Thread#0:T:Line 81
+2021-06-15T22:07:44.1836169-06:00:2021-06-15T22:07:44.1836169-06:00:Thread#0:T:Parsing: i did the hardest one last (before this one tho) from: sky_acaniadev
+2021-06-15T22:08:08.6856981-06:00:2021-06-15T22:08:08.6846955-06:00:Thread#0:T:Line 82
+2021-06-15T22:08:08.8267294-06:00:2021-06-15T22:08:08.8257297-06:00:Thread#0:T:Parsing: are you trying to do any procedural animation/particles sky? from: dstew99
+2021-06-15T22:08:22.6922317-06:00:2021-06-15T22:08:22.6922317-06:00:Thread#0:T:Line 83
+2021-06-15T22:08:22.7972554-06:00:2021-06-15T22:08:22.7962545-06:00:Thread#0:T:Parsing: no from: sky_acaniadev
+2021-06-15T22:10:01.2784287-06:00:2021-06-15T22:10:01.2774303-06:00:Thread#0:T:Line 84
+2021-06-15T22:10:01.3974553-06:00:2021-06-15T22:10:01.3974553-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-06-15T22:14:37.6824981-06:00:2021-06-15T22:14:37.6814968-06:00:Thread#0:T:Line 85
+2021-06-15T22:14:37.8185271-06:00:2021-06-15T22:14:37.8175260-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-06-15T22:15:04.1895838-06:00:2021-06-15T22:15:04.1885834-06:00:Thread#0:T:Line 86
+2021-06-15T22:15:04.4403026-06:00:2021-06-15T22:15:04.4393015-06:00:Thread#0:T:Parsing: bye from: dstew99
+2021-06-15T22:15:08.2701778-06:00:2021-06-15T22:15:08.2701778-06:00:Thread#0:T:Line 87
+2021-06-15T22:15:08.4552189-06:00:2021-06-15T22:15:08.4542196-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-06-15T22:15:08.6542642-06:00:2021-06-15T22:15:08.6542642-06:00:Thread#0:T:Line 88
+2021-06-15T22:15:09.9820702-06:00:2021-06-15T22:15:09.9810715-06:00:Thread#0:T:Line 89
+2021-06-15T22:15:10.1231013-06:00:2021-06-15T22:15:10.1231013-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-06-15T22:15:10.2601473-06:00:2021-06-15T22:15:10.2601473-06:00:Thread#0:T:Line 90
+2021-06-15T22:15:10.9612903-06:00:2021-06-15T22:15:10.9612903-06:00:Thread#0:T:Line 91
+2021-06-15T22:15:11.1183251-06:00:2021-06-15T22:15:11.1173294-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-06-15T22:15:11.2683613-06:00:2021-06-15T22:15:11.2683613-06:00:Thread#0:T:Line 92
+2021-06-15T22:59:49.4403738-06:00:2021-06-15T22:59:49.4393731-06:00:Thread#0:T:Line 93
+2021-06-15T22:59:50.5212903-06:00:2021-06-15T22:59:50.5212903-06:00:Thread#0:T:Eyy, its user335!
+2021-06-15T23:01:16.8621371-06:00:2021-06-15T23:01:16.8611366-06:00:Thread#0:T:Line 94
+2021-06-15T23:01:17.9691604-06:00:2021-06-15T23:01:17.9681607-06:00:Thread#0:T:Eyy, its user335!
+2021-06-15T23:01:35.2572584-06:00:2021-06-15T23:01:35.2572584-06:00:Thread#0:T:Line 95
+2021-06-15T23:01:35.3542813-06:00:2021-06-15T23:01:35.3532808-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-06-15T23:01:37.6428600-06:00:2021-06-15T23:01:37.6418603-06:00:Thread#0:T:Line 96
+2021-06-15T23:01:37.7498846-06:00:2021-06-15T23:01:37.7498846-06:00:Thread#0:T:Parsing: nice from: evostreams
+2021-06-15T23:01:59.2471500-06:00:2021-06-15T23:01:59.2461497-06:00:Thread#0:T:Line 97
+2021-06-15T23:01:59.3771789-06:00:2021-06-15T23:01:59.3761784-06:00:Thread#0:T:Parsing: beastmode activated from: goldenglowmaster
+2021-06-15T23:02:08.0599260-06:00:2021-06-15T23:02:08.0589257-06:00:Thread#0:T:Line 98
+2021-06-15T23:02:08.1739510-06:00:2021-06-15T23:02:08.1739510-06:00:Thread#0:T:Parsing: two-hand sword best medieval weapon from: sky_acaniadev
+2021-06-15T23:02:32.2511574-06:00:2021-06-15T23:02:32.2511574-06:00:Thread#0:T:Line 99
+2021-06-15T23:02:32.3921907-06:00:2021-06-15T23:02:32.3911888-06:00:Thread#0:T:Parsing:  from: evostreams
+2021-06-15T23:03:00.0388896-06:00:2021-06-15T23:03:00.0388896-06:00:Thread#0:T:Line 100
+2021-06-15T23:03:00.1364869-06:00:2021-06-15T23:03:00.1354863-06:00:Thread#0:T:Parsing: team no where to be found from: evostreams
+2021-06-15T23:03:04.4611475-06:00:2021-06-15T23:03:04.4611475-06:00:Thread#0:T:Line 101
+2021-06-15T23:03:04.5821765-06:00:2021-06-15T23:03:04.5821765-06:00:Thread#0:T:Parsing: is the combat in your game going to be like this from: goldenglowmaster

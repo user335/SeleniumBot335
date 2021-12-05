@@ -1,0 +1,372 @@
+﻿2021-06-08T20:03:29.0387121-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-08T20:03:29.0387121-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-08T20:03:29.0387121-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-08T20:03:29.0387121-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-08T20:03:29.2957706-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-08T20:03:29.3047747-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-08T20:03:29.3097745-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-08T20:03:29.3827905-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-08T200329.log
+2021-06-08T20:03:29.3977944-06:00;Thread#15;Info;Checking activation
+2021-06-08T20:03:29.5808357-06:00;Thread#15;Info;Activated.
+2021-06-08T20:03:29.5848364-06:00;Thread#15;Info;Activation check completed
+2021-06-08T20:03:29.5878371-06:00;Thread#15;Info;Starting test run
+2021-06-08T20:03:29.6778572-06:00;Thread#15;Info;Discovering target: Default
+2021-06-08T20:03:29.6818579-06:00;Thread#15;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-08T20:03:30.4917777-06:00;Thread#15;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-08T20:03:30.4957780-06:00:Test Suite Dump
+2021-06-08T20:03:30.4977790-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-08T20:03:30.4977790-06:00:#1: Default - 
+2021-06-08T20:03:30.4977790-06:00:#2: PracticingSix - 
+2021-06-08T20:03:30.4977790-06:00:#5: Twitch Bot! - 
+2021-06-08T20:03:30.5448080-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-08T20:03:30.5448080-06:00:End: Test Suite Dump
+2021-06-08T20:03:30.6028218-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-08T20:03:30.6048214-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-08T20:03:30.6048214-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-08T20:03:30.6098249-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-08T20:03:30.6108235-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-08T20:03:30.6108235-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-08T20:03:30.6108235-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-08T20:03:30.6118234-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-08T20:03:30.6128236-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-08T20:03:30.6128236-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-08T20:03:30.6128236-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-08T20:03:30.6128236-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-08T20:03:30.6128236-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-08T20:03:30.6153383-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-08T20:03:30.6183324-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-08T20:03:30.6648504-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-08T20:03:30.6668506-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-08T20:03:30.6698516-06:00:starting Out Of Process Executor
+2021-06-08T20:03:30.6898584-06:00:Starting callback TCP Rpc server
+2021-06-08T20:03:30.7078605-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-08T20:03:30.7078605-06:00:Started callback TCP Rpc server on port 32768
+2021-06-08T20:03:30.7078605-06:00:Starting logger TCP Rpc server
+2021-06-08T20:03:30.7118616-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-08T20:03:30.7118616-06:00:Started logger TCP Rpc server on port 32769
+2021-06-08T20:03:30.7213737-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-06-08T20:03:30.9330430-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-06-08T20:03:30.9625596-06:00:Out of Process Executor 7032 started
+2021-06-08T20:03:30.9625596-06:00:Waiting for endpoint
+2021-06-08T20:03:31.9220083-06:00:Remote executor port received: 32770
+2021-06-08T20:03:31.9230088-06:00:Creating executor TCP client on port 32770
+2021-06-08T20:03:31.9240080-06:00:Created executor TCP client on port 32770
+2021-06-08T20:03:31.9240080-06:00:Connecting to remote executor TCP server
+2021-06-08T20:03:31.9240080-06:00:Connected remote executor TCP server
+2021-06-08T20:03:31.9240080-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-08T20:03:31.9240080-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-08T20:03:32.6655211-06:00:2021-06-08T20:03:32.6615198-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-06-08T20:03:32.6760309-06:00:Endpoint 7032 started
+2021-06-08T20:03:32.7025452-06:00:2021-06-08T20:03:32.7005449-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-08T20:03:33.2614239-06:00:2021-06-08T20:03:33.2594229-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-08T20:03:33.3294390-06:00:2021-06-08T20:03:33.3274385-06:00:Thread#0:T:-> Using default config
+2021-06-08T20:03:34.8295648-06:00:2021-06-08T20:03:34.8285636-06:00:Thread#0:T:Starting the driver...
+2021-06-08T20:03:37.0764253-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-08T20:03:37.1334380-06:00:2021-06-08T20:03:37.1324375-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-08T20:03:37.2174575-06:00:2021-06-08T20:03:37.2004546-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-08T20:03:37.2574651-06:00:2021-06-08T20:03:37.2564652-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-08T20:03:39.7595431-06:00:2021-06-08T20:03:39.7565423-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.5s)
+2021-06-08T20:03:39.7635441-06:00:2021-06-08T20:03:39.7625446-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-08T20:07:45.1702576-06:00:2021-06-08T20:07:45.1692565-06:00:Thread#0:T:Line 1
+2021-06-08T20:07:45.2623409-06:00:2021-06-08T20:07:45.2608282-06:00:Thread#0:T:Parsing: howdy from: rabbit_xxxx
+2021-06-08T20:07:45.2763395-06:00:2021-06-08T20:07:45.2733391-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-06-08T20:08:03.3621393-06:00:2021-06-08T20:08:03.3571386-06:00:Thread#0:T:Line 2
+2021-06-08T20:08:03.4691643-06:00:2021-06-08T20:08:03.4651628-06:00:Thread#0:T:Parsing: meh, crazy day from: rabbit_xxxx
+2021-06-08T20:08:59.7725748-06:00:2021-06-08T20:08:59.7675753-06:00:Thread#0:T:Line 3
+2021-06-08T20:08:59.9126061-06:00:2021-06-08T20:08:59.9106057-06:00:Thread#0:T:Parsing: wasn't that crazy i guess, but unusual from: rabbit_xxxx
+2021-06-08T20:09:17.7669472-06:00:2021-06-08T20:09:17.7629450-06:00:Thread#0:T:Line 4
+2021-06-08T20:09:17.8679706-06:00:2021-06-08T20:09:17.8639687-06:00:Thread#0:T:Parsing: took the day off work and went to the doctor for the first time in like 8 years because of my eye from: rabbit_xxxx
+2021-06-08T20:09:36.1566178-06:00:2021-06-08T20:09:36.1546177-06:00:Thread#0:T:Line 5
+2021-06-08T20:09:36.2496388-06:00:2021-06-08T20:09:36.2486385-06:00:Thread#0:T:Parsing: apparently i have a stye and a lot of infection around it from: rabbit_xxxx
+2021-06-08T20:09:42.3480186-06:00:2021-06-08T20:09:42.3470199-06:00:Thread#0:T:Line 6
+2021-06-08T20:09:42.4440390-06:00:2021-06-08T20:09:42.4430389-06:00:Thread#0:T:Parsing: no, urgentcare from: rabbit_xxxx
+2021-06-08T20:09:46.3339191-06:00:2021-06-08T20:09:46.3329186-06:00:Thread#0:T:Line 7
+2021-06-08T20:09:46.4479455-06:00:2021-06-08T20:09:46.4449450-06:00:Thread#0:T:Parsing: oh yeah from: rabbit_xxxx
+2021-06-08T20:09:51.3485605-06:00:2021-06-08T20:09:51.3475605-06:00:Thread#0:T:Line 8
+2021-06-08T20:09:51.4645864-06:00:2021-06-08T20:09:51.4615862-06:00:Thread#0:T:Parsing: what song is this? from: zrealbigdeal
+2021-06-08T20:09:51.4685874-06:00:2021-06-08T20:09:51.4675872-06:00:Thread#0:T:Eyy, its zrealbigdeal!
+2021-06-08T20:09:59.3410824-06:00:2021-06-08T20:09:59.3400828-06:00:Thread#0:T:Line 9
+2021-06-08T20:09:59.4401059-06:00:2021-06-08T20:09:59.4391058-06:00:Thread#0:T:Parsing: doc was fine from: rabbit_xxxx
+2021-06-08T20:10:12.1702335-06:00:2021-06-08T20:10:12.1662297-06:00:Thread#0:T:Line 10
+2021-06-08T20:10:12.2662525-06:00:2021-06-08T20:10:12.2662525-06:00:Thread#0:T:Parsing: so now i'm on antibiotics for that from: rabbit_xxxx
+2021-06-08T20:10:42.5609049-06:00:2021-06-08T20:10:42.5599039-06:00:Thread#0:T:Line 11
+2021-06-08T20:10:42.6564396-06:00:2021-06-08T20:10:42.6554394-06:00:Thread#0:T:Parsing: and then i just went to the store and narrowly avoided kicking some guy's ass i think from: rabbit_xxxx
+2021-06-08T20:10:49.1752137-06:00:2021-06-08T20:10:49.1742134-06:00:Thread#0:T:Line 12
+2021-06-08T20:10:49.2822365-06:00:2021-06-08T20:10:49.2812361-06:00:Thread#0:T:Parsing: people underestimate me from: rabbit_xxxx
+2021-06-08T20:10:59.5726626-06:00:2021-06-08T20:10:59.5696627-06:00:Thread#0:T:Line 13
+2021-06-08T20:10:59.6786860-06:00:2021-06-08T20:10:59.6776854-06:00:Thread#0:T:Parsing: hey @rabbit_xxxx do you like carrots? what about celery? from: zrealbigdeal
+2021-06-08T20:11:14.3701831-06:00:2021-06-08T20:11:14.3681836-06:00:Thread#0:T:Line 14
+2021-06-08T20:11:14.4792066-06:00:2021-06-08T20:11:14.4782067-06:00:Thread#0:T:Parsing: sometimes i like carrots, never celery from: rabbit_xxxx
+2021-06-08T20:11:21.5714638-06:00:2021-06-08T20:11:21.5704656-06:00:Thread#0:T:Line 15
+2021-06-08T20:11:21.7004942-06:00:2021-06-08T20:11:21.6984915-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:11:24.9687461-06:00:2021-06-08T20:11:24.9647415-06:00:Thread#0:T:Line 16
+2021-06-08T20:11:25.0877791-06:00:2021-06-08T20:11:25.0867707-06:00:Thread#0:T:Parsing: not enough neurons! from: sky_acaniadev
+2021-06-08T20:11:25.0937695-06:00:2021-06-08T20:11:25.0927699-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-06-08T20:11:47.7722803-06:00:2021-06-08T20:11:47.7682782-06:00:Thread#0:T:Line 17
+2021-06-08T20:11:47.8823029-06:00:2021-06-08T20:11:47.8813043-06:00:Thread#0:T:Parsing: very unique rabbit @rabbit_xxxx lol from: zrealbigdeal
+2021-06-08T20:11:48.9515671-06:00:2021-06-08T20:11:48.9505670-06:00:Thread#0:T:Line 18
+2021-06-08T20:11:49.0396226-06:00:2021-06-08T20:11:49.0386239-06:00:Thread#0:T:Parsing: i don't know what his problem was, i was just trying to get rice from: rabbit_xxxx
+2021-06-08T20:11:53.1416618-06:00:2021-06-08T20:11:53.1406620-06:00:Thread#0:T:Line 19
+2021-06-08T20:11:53.2722541-06:00:2021-06-08T20:11:53.2682543-06:00:Thread#0:T:Parsing: i just ignored him from: rabbit_xxxx
+2021-06-08T20:12:30.5704115-06:00:2021-06-08T20:12:30.5674336-06:00:Thread#0:T:Line 20
+2021-06-08T20:12:30.6964411-06:00:2021-06-08T20:12:30.6954452-06:00:Thread#0:T:Parsing: he was yelling at me like "you got a problem?" for some reason, maybe because i'm the only person wearing a mask and there are a lot of assholes up here who have no consideration for others and don't from: rabbit_xxxx
+2021-06-08T20:12:33.5594842-06:00:2021-06-08T20:12:33.5534824-06:00:Thread#0:T:Line 21
+2021-06-08T20:12:33.6615071-06:00:2021-06-08T20:12:33.6585046-06:00:Thread#0:T:Parsing: that's my only guess from: rabbit_xxxx
+2021-06-08T20:13:06.3753219-06:00:2021-06-08T20:13:06.3743218-06:00:Thread#0:T:Line 22
+2021-06-08T20:13:06.4909272-06:00:2021-06-08T20:13:06.4889285-06:00:Thread#0:T:Parsing: yeah i mean i didn't do anything else from: rabbit_xxxx
+2021-06-08T20:13:14.5649006-06:00:2021-06-08T20:13:14.5639000-06:00:Thread#0:T:Line 23
+2021-06-08T20:13:14.6709247-06:00:2021-06-08T20:13:14.6699244-06:00:Thread#0:T:Parsing: just got bread and rice off the shelf from: rabbit_xxxx
+2021-06-08T20:13:36.9905416-06:00:2021-06-08T20:13:36.9865397-06:00:Thread#0:T:Line 24
+2021-06-08T20:13:37.1125680-06:00:2021-06-08T20:13:37.1085672-06:00:Thread#0:T:Parsing: we should put all the people who don't want to wear masks on their own island from: zrealbigdeal
+2021-06-08T20:13:51.9625538-06:00:2021-06-08T20:13:51.9615533-06:00:Thread#0:T:Line 25
+2021-06-08T20:13:52.0655772-06:00:2021-06-08T20:13:52.0645770-06:00:Thread#0:T:Parsing: yeah i just ignored him and walked off from: rabbit_xxxx
+2021-06-08T20:14:20.3986338-06:00:2021-06-08T20:14:20.3946345-06:00:Thread#0:T:Line 26
+2021-06-08T20:14:20.5506678-06:00:2021-06-08T20:14:20.5456676-06:00:Thread#0:T:Parsing: make it free from: zrealbigdeal
+2021-06-08T20:14:23.1609484-06:00:2021-06-08T20:14:23.1579486-06:00:Thread#0:T:Line 27
+2021-06-08T20:14:23.2669910-06:00:2021-06-08T20:14:23.2659895-06:00:Thread#0:T:Parsing: i don't take crap from people though dude, if he came up to me he would have been asking for trouble from: rabbit_xxxx
+2021-06-08T20:14:35.5626194-06:00:2021-06-08T20:14:35.5616188-06:00:Thread#0:T:Line 28
+2021-06-08T20:14:35.6936497-06:00:2021-06-08T20:14:35.6916483-06:00:Thread#0:T:Parsing: oh and my size, apparently i'm 135 now from: rabbit_xxxx
+2021-06-08T20:15:15.3963215-06:00:2021-06-08T20:15:15.3903213-06:00:Thread#0:T:Line 29
+2021-06-08T20:15:15.5223502-06:00:2021-06-08T20:15:15.5183500-06:00:Thread#0:T:Parsing: but i can head kick people, and have no hesitation to do so from: rabbit_xxxx
+2021-06-08T20:15:35.5536922-06:00:2021-06-08T20:15:35.5516902-06:00:Thread#0:T:Line 30
+2021-06-08T20:15:35.6537132-06:00:2021-06-08T20:15:35.6507131-06:00:Thread#0:T:Parsing: high school from: rabbit_xxxx
+2021-06-08T20:15:50.1576520-06:00:2021-06-08T20:15:50.1566520-06:00:Thread#0:T:Line 31
+2021-06-08T20:15:50.2416698-06:00:2021-06-08T20:15:50.2406700-06:00:Thread#0:T:Parsing: he was like 50 and big, so slow from: rabbit_xxxx
+2021-06-08T20:16:24.5881700-06:00:2021-06-08T20:16:24.5861685-06:00:Thread#0:T:Line 32
+2021-06-08T20:16:24.7241989-06:00:2021-06-08T20:16:24.7222008-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:16:36.7643175-06:00:2021-06-08T20:16:36.7613163-06:00:Thread#0:T:Line 33
+2021-06-08T20:16:36.9120182-06:00:2021-06-08T20:16:36.9080187-06:00:Thread#0:T:Parsing: yeah exactly from: rabbit_xxxx
+2021-06-08T20:16:42.0234708-06:00:2021-06-08T20:16:42.0214721-06:00:Thread#0:T:Line 34
+2021-06-08T20:16:42.1455426-06:00:2021-06-08T20:16:42.1435432-06:00:Thread#0:T:Parsing: what did i miss from: nitrobeastproductions
+2021-06-08T20:17:15.5706264-06:00:2021-06-08T20:17:15.5656233-06:00:Thread#0:T:Line 35
+2021-06-08T20:17:15.6627126-06:00:2021-06-08T20:17:15.6617131-06:00:Thread#0:T:Parsing: oh your in northern florida rabbitt thats unfortunate from: nitrobeastproductions
+2021-06-08T20:17:37.8111263-06:00:2021-06-08T20:17:37.8041252-06:00:Thread#0:T:Line 36
+2021-06-08T20:17:37.9781637-06:00:2021-06-08T20:17:37.9751632-06:00:Thread#0:T:Parsing: so kuser that tornado touched down like 1 mile from my house last ngiht. we evacuated from: nitrobeastproductions
+2021-06-08T20:17:40.0141320-06:00:2021-06-08T20:17:40.0051297-06:00:Thread#0:T:Line 37
+2021-06-08T20:17:40.1851716-06:00:2021-06-08T20:17:40.1791696-06:00:Thread#0:T:Parsing: if you're closer to atlanta, more people wear masks, but once you get about an hour outside of it, so many people are like far-right crazies from: rabbit_xxxx
+2021-06-08T20:18:02.3761756-06:00:2021-06-08T20:18:02.3741751-06:00:Thread#0:T:Line 38
+2021-06-08T20:18:02.5612165-06:00:2021-06-08T20:18:02.5582158-06:00:Thread#0:T:Parsing: it was huge from: nitrobeastproductions
+2021-06-08T20:18:06.7852560-06:00:2021-06-08T20:18:06.7812552-06:00:Thread#0:T:Line 39
+2021-06-08T20:18:06.9322888-06:00:2021-06-08T20:18:06.9282891-06:00:Thread#0:T:Parsing: hold on from: nitrobeastproductions
+2021-06-08T20:18:20.2150994-06:00:2021-06-08T20:18:20.2120992-06:00:Thread#0:T:Line 40
+2021-06-08T20:18:20.4301474-06:00:2021-06-08T20:18:20.4041416-06:00:Thread#0:T:Parsing: https://twitter.com/livestormchaser/status/1402084735581622273 from: nitrobeastproductions
+2021-06-08T20:18:21.7775848-06:00:2021-06-08T20:18:21.7735848-06:00:Thread#0:T:Line 41
+2021-06-08T20:18:21.9242568-06:00:2021-06-08T20:18:21.9232568-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:18:26.2250676-06:00:2021-06-08T20:18:26.2050630-06:00:Thread#0:T:Line 42
+2021-06-08T20:18:26.4981297-06:00:2021-06-08T20:18:26.4961293-06:00:Thread#0:T:Parsing: there ya go from: nitrobeastproductions
+2021-06-08T20:18:37.1630430-06:00:2021-06-08T20:18:37.1610430-06:00:Thread#0:T:Line 43
+2021-06-08T20:18:37.3180801-06:00:2021-06-08T20:18:37.3150793-06:00:Thread#0:T:Parsing: nitrobeast should move to a concrete bomb shelter from: rabbit_xxxx
+2021-06-08T20:19:11.3755757-06:00:2021-06-08T20:19:11.3735757-06:00:Thread#0:T:Line 44
+2021-06-08T20:19:11.4946033-06:00:2021-06-08T20:19:11.4926022-06:00:Thread#0:T:Parsing: thats the damage from: nitrobeastproductions
+2021-06-08T20:19:57.6230833-06:00:2021-06-08T20:19:57.6210841-06:00:Thread#0:T:Line 45
+2021-06-08T20:19:57.7331069-06:00:2021-06-08T20:19:57.7311070-06:00:Thread#0:T:Parsing: landspout just means it started from the ground and moved up from: nitrobeastproductions
+2021-06-08T20:20:07.9810957-06:00:2021-06-08T20:20:07.9790941-06:00:Thread#0:T:Line 46
+2021-06-08T20:20:08.1091236-06:00:2021-06-08T20:20:08.1081250-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:20:39.3769252-06:00:2021-06-08T20:20:39.3759253-06:00:Thread#0:T:Line 47
+2021-06-08T20:20:39.4789481-06:00:2021-06-08T20:20:39.4779484-06:00:Thread#0:T:Parsing: we were sitting here working on school work. then my phone said take shelter now. i was confused so i opened my front door and there it was from: nitrobeastproductions
+2021-06-08T20:20:45.9765292-06:00:2021-06-08T20:20:45.9745291-06:00:Thread#0:T:Line 48
+2021-06-08T20:20:46.0825532-06:00:2021-06-08T20:20:46.0805534-06:00:Thread#0:T:Parsing: full panic from: nitrobeastproductions
+2021-06-08T20:20:55.3884645-06:00:2021-06-08T20:20:55.3874638-06:00:Thread#0:T:Line 49
+2021-06-08T20:20:55.4894885-06:00:2021-06-08T20:20:55.4884879-06:00:Thread#0:T:Parsing: yikes from: dstew99
+2021-06-08T20:21:09.8274699-06:00:2021-06-08T20:21:09.8264691-06:00:Thread#0:T:Line 50
+2021-06-08T20:21:09.9494976-06:00:2021-06-08T20:21:09.9484966-06:00:Thread#0:T:Parsing: we threw the kids in the car and drove away from: nitrobeastproductions
+2021-06-08T20:21:19.5704151-06:00:2021-06-08T20:21:19.5664140-06:00:Thread#0:T:Line 51
+2021-06-08T20:21:19.6944426-06:00:2021-06-08T20:21:19.6844401-06:00:Thread#0:T:Parsing: one of the craziest things i ever saw was a steel stop sign (the post of it) getting bend in two instantly just from wind...in kansas btw from: rabbit_xxxx
+2021-06-08T20:21:30.7717700-06:00:2021-06-08T20:21:30.7697743-06:00:Thread#0:T:Line 52
+2021-06-08T20:21:30.8787939-06:00:2021-06-08T20:21:30.8777933-06:00:Thread#0:T:Parsing: bent* from: rabbit_xxxx
+2021-06-08T20:21:41.9735046-06:00:2021-06-08T20:21:41.9725050-06:00:Thread#0:T:Line 53
+2021-06-08T20:21:42.0755283-06:00:2021-06-08T20:21:42.0735286-06:00:Thread#0:T:Parsing: 1 sec wife needs my attention from: nitrobeastproductions
+2021-06-08T20:21:50.3735012-06:00:2021-06-08T20:21:50.3725015-06:00:Thread#0:T:Line 54
+2021-06-08T20:21:50.4815259-06:00:2021-06-08T20:21:50.4805258-06:00:Thread#0:T:Parsing: no it just bent over in the middle from: rabbit_xxxx
+2021-06-08T20:21:55.3861470-06:00:2021-06-08T20:21:55.3851473-06:00:Thread#0:T:Line 55
+2021-06-08T20:21:55.4921702-06:00:2021-06-08T20:21:55.4911711-06:00:Thread#0:T:Parsing: like a 90 degree angler from: rabbit_xxxx
+2021-06-08T20:21:57.1453881-06:00:2021-06-08T20:21:57.1433885-06:00:Thread#0:T:Line 56
+2021-06-08T20:21:57.2799756-06:00:2021-06-08T20:21:57.2789761-06:00:Thread#0:T:Parsing: angle from: rabbit_xxxx
+2021-06-08T20:22:11.1748138-06:00:2021-06-08T20:22:11.1748138-06:00:Thread#0:T:Line 57
+2021-06-08T20:22:11.2838373-06:00:2021-06-08T20:22:11.2828375-06:00:Thread#0:T:Parsing: no it didn't fall over from: rabbit_xxxx
+2021-06-08T20:22:12.9787279-06:00:2021-06-08T20:22:12.9767278-06:00:Thread#0:T:Line 58
+2021-06-08T20:22:13.0997568-06:00:2021-06-08T20:22:13.0987545-06:00:Thread#0:T:Parsing: it bent from: rabbit_xxxx
+2021-06-08T20:22:37.7780855-06:00:2021-06-08T20:22:37.7760844-06:00:Thread#0:T:Line 59
+2021-06-08T20:22:37.8921106-06:00:2021-06-08T20:22:37.8911107-06:00:Thread#0:T:Parsing: yes, correct from: rabbit_xxxx
+2021-06-08T20:23:24.9760957-06:00:2021-06-08T20:23:24.9710949-06:00:Thread#0:T:Line 60
+2021-06-08T20:23:25.1191281-06:00:2021-06-08T20:23:25.1181293-06:00:Thread#0:T:Parsing: i like how nitrobeast said one of his 2nd wives needs attention from: rabbit_xxxx
+2021-06-08T20:23:31.9872937-06:00:2021-06-08T20:23:31.9842933-06:00:Thread#0:T:Line 61
+2021-06-08T20:23:32.1273266-06:00:2021-06-08T20:23:32.1233229-06:00:Thread#0:T:Parsing: how many wives does he have? from: rabbit_xxxx
+2021-06-08T20:23:55.4146778-06:00:2021-06-08T20:23:55.4116772-06:00:Thread#0:T:Line 62
+2021-06-08T20:23:55.5297039-06:00:2021-06-08T20:23:55.5267038-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:24:06.9648152-06:00:2021-06-08T20:24:06.9628156-06:00:Thread#0:T:Line 63
+2021-06-08T20:24:07.0898439-06:00:2021-06-08T20:24:07.0888441-06:00:Thread#0:T:Parsing: geez from: rabbit_xxxx
+2021-06-08T20:24:35.5974913-06:00:2021-06-08T20:24:35.5934910-06:00:Thread#0:T:Line 64
+2021-06-08T20:24:35.7335216-06:00:2021-06-08T20:24:35.7245199-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:25:10.5953558-06:00:2021-06-08T20:25:10.5923545-06:00:Thread#0:T:Line 65
+2021-06-08T20:25:10.7613927-06:00:2021-06-08T20:25:10.7593927-06:00:Thread#0:T:Parsing: i'm gonna stop distracting so you can actually make progress tonight, but i'll pitch in if i have any helpful tips or ideas from: rabbit_xxxx
+2021-06-08T20:25:39.7778032-06:00:2021-06-08T20:25:39.7768028-06:00:Thread#0:T:Line 66
+2021-06-08T20:25:39.9208358-06:00:2021-06-08T20:25:39.9198361-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:25:51.0000219-06:00:2021-06-08T20:25:50.9980219-06:00:Thread#0:T:Line 67
+2021-06-08T20:25:51.1675737-06:00:2021-06-08T20:25:51.1645716-06:00:Thread#0:T:Parsing: lmao from: rabbit_xxxx
+2021-06-08T20:26:47.1713144-06:00:2021-06-08T20:26:47.1657979-06:00:Thread#0:T:Line 68
+2021-06-08T20:26:47.2919085-06:00:2021-06-08T20:26:47.2889091-06:00:Thread#0:T:Parsing: yeah i looked at that some more, i think that's a different type of graph from: rabbit_xxxx
+2021-06-08T20:26:55.3854878-06:00:2021-06-08T20:26:55.3844887-06:00:Thread#0:T:Line 69
+2021-06-08T20:26:55.4935121-06:00:2021-06-08T20:26:55.4915116-06:00:Thread#0:T:Parsing: in searchpath from: rabbit_xxxx
+2021-06-08T20:27:08.5982512-06:00:2021-06-08T20:27:08.5902492-06:00:Thread#0:T:Line 70
+2021-06-08T20:27:08.7122779-06:00:2021-06-08T20:27:08.7102758-06:00:Thread#0:T:Parsing: this teacher today said your reading for this weeks is chapters 1-12. i asked if she meant pages. she said nope chapters. college be rough from: nitrobeastproductions
+2021-06-08T20:27:29.8266033-06:00:2021-06-08T20:27:29.8236023-06:00:Thread#0:T:Line 71
+2021-06-08T20:27:30.0171547-06:00:2021-06-08T20:27:30.0001513-06:00:Thread#0:T:Parsing: could revert to a previous commit from: dstew99
+2021-06-08T20:28:40.7854070-06:00:2021-06-08T20:28:40.7834063-06:00:Thread#0:T:Line 72
+2021-06-08T20:28:40.9354399-06:00:2021-06-08T20:28:40.9344405-06:00:Thread#0:T:Parsing: virtual lets it override a parent method or be overridden from: rabbit_xxxx
+2021-06-08T20:28:42.9864147-06:00:2021-06-08T20:28:42.9774139-06:00:Thread#0:T:Line 73
+2021-06-08T20:28:43.1494518-06:00:2021-06-08T20:28:43.1484513-06:00:Thread#0:T:Parsing: in a subclass from: rabbit_xxxx
+2021-06-08T20:29:16.3827849-06:00:2021-06-08T20:29:16.3797849-06:00:Thread#0:T:Line 74
+2021-06-08T20:29:16.5008119-06:00:2021-06-08T20:29:16.4998118-06:00:Thread#0:T:Parsing: i know you hate using the vs breakpoint stuff, but i think that's your easiest way of figuring how what's going on with the tags from: rabbit_xxxx
+2021-06-08T20:30:29.8144027-06:00:2021-06-08T20:30:29.8134027-06:00:Thread#0:T:Line 75
+2021-06-08T20:30:29.9464316-06:00:2021-06-08T20:30:29.9454313-06:00:Thread#0:T:Parsing: i would find all references to the traversabletag field from: rabbit_xxxx
+2021-06-08T20:30:36.7770420-06:00:2021-06-08T20:30:36.7760418-06:00:Thread#0:T:Line 76
+2021-06-08T20:30:36.8860679-06:00:2021-06-08T20:30:36.8820648-06:00:Thread#0:T:Parsing: or traversabletags from: rabbit_xxxx
+2021-06-08T20:30:52.7872270-06:00:2021-06-08T20:30:52.7852275-06:00:Thread#0:T:Line 77
+2021-06-08T20:30:52.9103670-06:00:2021-06-08T20:30:52.9103670-06:00:Thread#0:T:Parsing: then put breakpoints wherever it's modified from: rabbit_xxxx
+2021-06-08T20:31:49.3873913-06:00:2021-06-08T20:31:49.3843909-06:00:Thread#0:T:Line 78
+2021-06-08T20:31:49.5084188-06:00:2021-06-08T20:31:49.5054184-06:00:Thread#0:T:Parsing: right from: rabbit_xxxx
+2021-06-08T20:32:43.6133686-06:00:2021-06-08T20:32:43.6103677-06:00:Thread#0:T:Line 79
+2021-06-08T20:32:43.7865635-06:00:2021-06-08T20:32:43.7855620-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:33:56.1855471-06:00:2021-06-08T20:33:56.1845468-06:00:Thread#0:T:Line 80
+2021-06-08T20:33:56.2986311-06:00:2021-06-08T20:33:56.2971172-06:00:Thread#0:T:Parsing: because microsoft from: rabbit_xxxx
+2021-06-08T20:34:49.3777437-06:00:2021-06-08T20:34:49.3637397-06:00:Thread#0:T:Line 81
+2021-06-08T20:34:49.5197744-06:00:2021-06-08T20:34:49.5157746-06:00:Thread#0:T:Parsing: so probably that part that's doing something with scripts is what's resetting it from: rabbit_xxxx
+2021-06-08T20:35:00.3743598-06:00:2021-06-08T20:35:00.3723596-06:00:Thread#0:T:Line 82
+2021-06-08T20:35:00.4943860-06:00:2021-06-08T20:35:00.4933859-06:00:Thread#0:T:Parsing: but was it even used for anything? from: rabbit_xxxx
+2021-06-08T20:35:26.5838982-06:00:2021-06-08T20:35:26.5778969-06:00:Thread#0:T:Line 83
+2021-06-08T20:35:26.7329310-06:00:2021-06-08T20:35:26.7309307-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:36:28.7973853-06:00:2021-06-08T20:36:28.7933847-06:00:Thread#0:T:Line 84
+2021-06-08T20:36:28.9894283-06:00:2021-06-08T20:36:28.9724255-06:00:Thread#0:T:Parsing: lmao from: rabbit_xxxx
+2021-06-08T20:36:46.2312459-06:00:2021-06-08T20:36:46.2222442-06:00:Thread#0:T:Line 85
+2021-06-08T20:36:46.4412938-06:00:2021-06-08T20:36:46.4392934-06:00:Thread#0:T:Parsing: these antibiotics they game me are pretty big too...hmmm from: rabbit_xxxx
+2021-06-08T20:37:13.3976212-06:00:2021-06-08T20:37:13.3916186-06:00:Thread#0:T:Line 86
+2021-06-08T20:37:13.5646580-06:00:2021-06-08T20:37:13.5636579-06:00:Thread#0:T:Parsing: yayyyyy from: rabbit_xxxx
+2021-06-08T20:37:16.5723625-06:00:2021-06-08T20:37:16.5633603-06:00:Thread#0:T:Line 87
+2021-06-08T20:37:16.7504026-06:00:2021-06-08T20:37:16.7494019-06:00:Thread#0:T:Parsing: that would suck from: rabbit_xxxx
+2021-06-08T20:37:28.5998679-06:00:2021-06-08T20:37:28.5988679-06:00:Thread#0:T:Line 88
+2021-06-08T20:37:28.7604135-06:00:2021-06-08T20:37:28.7594116-06:00:Thread#0:T:Parsing: right from: rabbit_xxxx
+2021-06-08T20:38:10.8289592-06:00:2021-06-08T20:38:10.8269595-06:00:Thread#0:T:Line 89
+2021-06-08T20:38:11.0720153-06:00:2021-06-08T20:38:11.0710140-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:39:00.5877565-06:00:2021-06-08T20:39:00.5847545-06:00:Thread#0:T:Line 90
+2021-06-08T20:39:00.7637953-06:00:2021-06-08T20:39:00.7607945-06:00:Thread#0:T:Parsing: you have breakpoints? from: rabbit_xxxx
+2021-06-08T20:39:27.5768710-06:00:2021-06-08T20:39:27.5758707-06:00:Thread#0:T:Line 91
+2021-06-08T20:39:27.7579143-06:00:2021-06-08T20:39:27.7529140-06:00:Thread#0:T:Parsing: okay i can't see them so wasn't sure from: rabbit_xxxx
+2021-06-08T20:39:42.0018521-06:00:2021-06-08T20:39:41.9998518-06:00:Thread#0:T:Line 92
+2021-06-08T20:39:42.1378828-06:00:2021-06-08T20:39:42.1368826-06:00:Thread#0:T:Parsing: think so from: rabbit_xxxx
+2021-06-08T20:39:53.8304682-06:00:2021-06-08T20:39:53.7884317-06:00:Thread#0:T:Line 93
+2021-06-08T20:39:53.9690724-06:00:2021-06-08T20:39:53.9650706-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:41:00.3978495-06:00:2021-06-08T20:41:00.3948493-06:00:Thread#0:T:Line 94
+2021-06-08T20:41:00.5568870-06:00:2021-06-08T20:41:00.5538854-06:00:Thread#0:T:Parsing: it starts off as -1 because the object is being created from: rabbit_xxxx
+2021-06-08T20:41:07.8314730-06:00:2021-06-08T20:41:07.8274715-06:00:Thread#0:T:Line 95
+2021-06-08T20:41:08.0435211-06:00:2021-06-08T20:41:08.0395198-06:00:Thread#0:T:Parsing: so that's before your script from: rabbit_xxxx
+2021-06-08T20:41:25.2245100-06:00:2021-06-08T20:41:25.2225095-06:00:Thread#0:T:Line 96
+2021-06-08T20:41:25.3485365-06:00:2021-06-08T20:41:25.3475372-06:00:Thread#0:T:Parsing: the inspector stuff happens after though from: rabbit_xxxx
+2021-06-08T20:43:08.7897023-06:00:2021-06-08T20:43:08.7887023-06:00:Thread#0:T:Line 97
+2021-06-08T20:43:08.9062367-06:00:2021-06-08T20:43:08.9052370-06:00:Thread#0:T:Parsing: basically the object gets create when its constructor is called and it initializes the value to -1 then, and then unity does some magic stuff behind the scenes to set the value based on what you put in the inspector from: rabbit_xxxx
+2021-06-08T20:43:30.2287842-06:00:2021-06-08T20:43:30.2277846-06:00:Thread#0:T:Line 98
+2021-06-08T20:43:30.3749365-06:00:2021-06-08T20:43:30.3729371-06:00:Thread#0:T:Parsing: my typing skills not so good today, i blame my eye from: rabbit_xxxx
+2021-06-08T20:44:28.7853961-06:00:2021-06-08T20:44:28.7843963-06:00:Thread#0:T:Line 99
+2021-06-08T20:44:28.9214270-06:00:2021-06-08T20:44:28.9204270-06:00:Thread#0:T:Parsing: i'm confused now from: rabbit_xxxx
+2021-06-08T20:46:58.4449677-06:00:2021-06-08T20:46:58.4439676-06:00:Thread#0:T:Line 100
+2021-06-08T20:46:58.6470152-06:00:2021-06-08T20:46:58.6440124-06:00:Thread#0:T:Parsing: cephalexin from: rabbit_xxxx
+2021-06-08T20:47:43.6423450-06:00:2021-06-08T20:47:43.6413466-06:00:Thread#0:T:Line 101
+2021-06-08T20:47:43.8444172-06:00:2021-06-08T20:47:43.8434127-06:00:Thread#0:T:Parsing: i specifically asked the doctor for a weak antibiotic because i never take anything and didn't want to knock out my microbiome from: rabbit_xxxx
+2021-06-08T20:47:53.8008981-06:00:2021-06-08T20:47:53.7998978-06:00:Thread#0:T:Line 102
+2021-06-08T20:47:53.9619334-06:00:2021-06-08T20:47:53.9609339-06:00:Thread#0:T:Parsing: not really, i already have basically from: rabbit_xxxx
+2021-06-08T20:48:18.9871092-06:00:2021-06-08T20:48:18.9841084-06:00:Thread#0:T:Line 103
+2021-06-08T20:48:19.1611477-06:00:2021-06-08T20:48:19.1581472-06:00:Thread#0:T:Parsing: wait, not taking eye drops? from: dstew99
+2021-06-08T20:48:40.3788672-06:00:2021-06-08T20:48:40.3768686-06:00:Thread#0:T:Line 104
+2021-06-08T20:48:40.5228992-06:00:2021-06-08T20:48:40.5218990-06:00:Thread#0:T:Parsing: i took my gf to the hospital and watched them give her that shot in the buttcheek...that was a big needle from: rabbit_xxxx
+2021-06-08T20:49:17.9884810-06:00:2021-06-08T20:49:17.9824803-06:00:Thread#0:T:Line 105
+2021-06-08T20:49:18.1375137-06:00:2021-06-08T20:49:18.1355162-06:00:Thread#0:T:Parsing: yeah the doctor said they have antibiotic eyedrops but the infection is too bad so i have to take an oral antibiotic from: rabbit_xxxx
+2021-06-08T20:49:36.5759058-06:00:2021-06-08T20:49:36.5739062-06:00:Thread#0:T:Line 106
+2021-06-08T20:49:36.8139602-06:00:2021-06-08T20:49:36.8019583-06:00:Thread#0:T:Parsing: ouch from: dstew99
+2021-06-08T20:49:45.8041813-06:00:2021-06-08T20:49:45.8031810-06:00:Thread#0:T:Line 107
+2021-06-08T20:49:45.9467230-06:00:2021-06-08T20:49:45.9467230-06:00:Thread#0:T:Parsing: pretty sure i took penicillin a lot as a kid, i liked the taste of it from: rabbit_xxxx
+2021-06-08T20:49:59.9884072-06:00:2021-06-08T20:49:59.9874067-06:00:Thread#0:T:Line 108
+2021-06-08T20:50:00.1285343-06:00:2021-06-08T20:50:00.1255413-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-06-08T20:50:00.1365354-06:00:2021-06-08T20:50:00.1345348-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-08T20:50:03.5324912-06:00:2021-06-08T20:50:03.5314913-06:00:Thread#0:T:Line 110
+2021-06-08T20:50:03.7056161-06:00:2021-06-08T20:50:03.7036156-06:00:Thread#0:T:Line 110
+2021-06-08T20:50:03.8617357-06:00:2021-06-08T20:50:03.8597346-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-06-08T20:50:10.1962492-06:00:2021-06-08T20:50:10.1942507-06:00:Thread#0:T:Line 111
+2021-06-08T20:50:10.3492842-06:00:2021-06-08T20:50:10.3482858-06:00:Thread#0:T:Parsing: no i loved the flinstones vitamins too from: rabbit_xxxx
+2021-06-08T20:50:16.5852765-06:00:2021-06-08T20:50:16.5842723-06:00:Thread#0:T:Line 112
+2021-06-08T20:50:16.7643125-06:00:2021-06-08T20:50:16.7633116-06:00:Thread#0:T:Parsing: probably overdosed on nutrients from those from: rabbit_xxxx
+2021-06-08T20:50:21.6044066-06:00:2021-06-08T20:50:21.6034065-06:00:Thread#0:T:Line 113
+2021-06-08T20:50:21.7614424-06:00:2021-06-08T20:50:21.7604433-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:50:44.4122134-06:00:2021-06-08T20:50:44.4022104-06:00:Thread#0:T:Line 114
+2021-06-08T20:50:44.5912515-06:00:2021-06-08T20:50:44.5882510-06:00:Thread#0:T:Parsing: i seriously ate those things like candy from: rabbit_xxxx
+2021-06-08T20:51:01.7914188-06:00:2021-06-08T20:51:01.7894179-06:00:Thread#0:T:Line 115
+2021-06-08T20:51:01.9844635-06:00:2021-06-08T20:51:01.9754601-06:00:Thread#0:T:Parsing: i dunno from: rabbit_xxxx
+2021-06-08T20:51:02.0094675-06:00:2021-06-08T20:51:02.0064677-06:00:Thread#0:T:Line 116
+2021-06-08T20:51:02.1374969-06:00:2021-06-08T20:51:02.1334954-06:00:Thread#0:T:Parsing: 111 years ago when i was a kid, i got banana flavoured penicillin. it was ok from: dstew99
+2021-06-08T20:51:27.6030450-06:00:2021-06-08T20:51:27.6010443-06:00:Thread#0:T:Line 117
+2021-06-08T20:51:27.7900875-06:00:2021-06-08T20:51:27.7890872-06:00:Thread#0:T:Parsing: i only remember having bottles of them like 3 times, but they made a strong impression from: rabbit_xxxx
+2021-06-08T20:52:33.9995026-06:00:2021-06-08T20:52:33.9975018-06:00:Thread#0:T:Line 118
+2021-06-08T20:52:34.1475363-06:00:2021-06-08T20:52:34.1455350-06:00:Thread#0:T:Parsing: maybe that's what poor people do, we can't get enough nutrients from food so when we finally get some money we buy vitamins to try to fix our bodies from: rabbit_xxxx
+2021-06-08T20:53:04.0311197-06:00:2021-06-08T20:53:04.0051147-06:00:Thread#0:T:Line 119
+2021-06-08T20:53:04.2291644-06:00:2021-06-08T20:53:04.2251631-06:00:Thread#0:T:Parsing: ok, ok. i exaggerated my age. my birthday is coming up and feeling extra old. from: dstew99
+2021-06-08T20:53:11.7833809-06:00:2021-06-08T20:53:11.7813813-06:00:Thread#0:T:Line 120
+2021-06-08T20:53:11.9424169-06:00:2021-06-08T20:53:11.9404164-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:53:51.1906476-06:00:2021-06-08T20:53:51.1896474-06:00:Thread#0:T:Line 121
+2021-06-08T20:53:51.3806925-06:00:2021-06-08T20:53:51.3766922-06:00:Thread#0:T:Parsing: dstews alot older than 35 from: mrnoah99
+2021-06-08T20:53:54.3883703-06:00:2021-06-08T20:53:54.3873705-06:00:Thread#0:T:Line 122
+2021-06-08T20:53:54.5344042-06:00:2021-06-08T20:53:54.5324039-06:00:Thread#0:T:Parsing: i'm 33, i feel like a teenager still, and kinda look like one too from: rabbit_xxxx
+2021-06-08T20:54:02.4117606-06:00:2021-06-08T20:54:02.4087605-06:00:Thread#0:T:Line 123
+2021-06-08T20:54:02.5617941-06:00:2021-06-08T20:54:02.5607940-06:00:Thread#0:T:Parsing: shut up! from: dstew99
+2021-06-08T20:54:12.3876231-06:00:2021-06-08T20:54:12.3866227-06:00:Thread#0:T:Line 124
+2021-06-08T20:54:12.5477634-06:00:2021-06-08T20:54:12.5467641-06:00:Thread#0:T:Parsing: 50 i think from: mrnoah99
+2021-06-08T20:54:31.4604981-06:00:2021-06-08T20:54:31.4574963-06:00:Thread#0:T:Line 125
+2021-06-08T20:54:31.7045525-06:00:2021-06-08T20:54:31.6935496-06:00:Thread#0:T:Parsing: they're probably like 14 from: rabbit_xxxx
+2021-06-08T20:54:32.9988443-06:00:2021-06-08T20:54:32.9888422-06:00:Thread#0:T:Line 126
+2021-06-08T20:54:33.2464092-06:00:2021-06-08T20:54:33.2344063-06:00:Thread#0:T:Parsing: pretty sure it is 50 from: mrnoah99
+2021-06-08T20:55:19.2395817-06:00:2021-06-08T20:55:19.2075737-06:00:Thread#0:T:Line 127
+2021-06-08T20:55:19.4126203-06:00:2021-06-08T20:55:19.4086208-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T20:56:01.8059561-06:00:2021-06-08T20:56:01.7899527-06:00:Thread#0:T:Line 128
+2021-06-08T20:56:01.9641066-06:00:2021-06-08T20:56:01.9611063-06:00:Thread#0:T:Parsing: i'm 16 from: mrnoah99
+2021-06-08T20:56:07.1878197-06:00:2021-06-08T20:56:07.1868192-06:00:Thread#0:T:Line 129
+2021-06-08T20:56:07.3318527-06:00:2021-06-08T20:56:07.3298519-06:00:Thread#0:T:Parsing: hehe from: dstew99
+2021-06-08T20:56:14.9816662-06:00:2021-06-08T20:56:14.9806673-06:00:Thread#0:T:Line 130
+2021-06-08T20:56:15.1066933-06:00:2021-06-08T20:56:15.1066933-06:00:Thread#0:T:Parsing: grad is next year from: mrnoah99
+2021-06-08T20:56:27.3802643-06:00:2021-06-08T20:56:27.3782620-06:00:Thread#0:T:Line 131
+2021-06-08T20:56:27.5282956-06:00:2021-06-08T20:56:27.5242943-06:00:Thread#0:T:Parsing: 2 years ago i went with my sister-in-law to look at guns for her to get one for my brother's birthday, and some dude tried to get us to sign up for store credit cards, but he didn't think i was old enough to apply from: rabbit_xxxx
+2021-06-08T20:56:29.9783752-06:00:2021-06-08T20:56:29.9773748-06:00:Thread#0:T:Line 132
+2021-06-08T20:56:30.1114052-06:00:2021-06-08T20:56:30.1114052-06:00:Thread#0:T:Parsing: 17 yeap from: mrnoah99
+2021-06-08T20:57:46.1902030-06:00:2021-06-08T20:57:46.1882019-06:00:Thread#0:T:Line 133
+2021-06-08T20:57:46.3483211-06:00:2021-06-08T20:57:46.3473217-06:00:Thread#0:T:Parsing: i'll be finishing fifty trips around the sun soon from: dstew99
+2021-06-08T20:58:50.1913362-06:00:2021-06-08T20:58:50.1883354-06:00:Thread#0:T:Line 134
+2021-06-08T20:58:50.3693780-06:00:2021-06-08T20:58:50.3633751-06:00:Thread#0:T:Parsing: nice, congrats from: rabbit_xxxx
+2021-06-08T21:01:13.6070788-06:00:2021-06-08T21:01:13.6000771-06:00:Thread#0:T:Line 135
+2021-06-08T21:01:13.7591119-06:00:2021-06-08T21:01:13.7581120-06:00:Thread#0:T:Parsing: exactly from: rabbit_xxxx
+2021-06-08T21:01:18.3882232-06:00:2021-06-08T21:01:18.3872242-06:00:Thread#0:T:Line 136
+2021-06-08T21:01:18.5173801-06:00:2021-06-08T21:01:18.5163798-06:00:Thread#0:T:Parsing: 18 for the store credit card from: rabbit_xxxx
+2021-06-08T21:01:37.1725544-06:00:2021-06-08T21:01:37.1695548-06:00:Thread#0:T:Line 137
+2021-06-08T21:01:37.3085839-06:00:2021-06-08T21:01:37.3065844-06:00:Thread#0:T:Parsing: don't remember if i was completely clean-shaven from: rabbit_xxxx
+2021-06-08T21:01:56.9741130-06:00:2021-06-08T21:01:56.9731124-06:00:Thread#0:T:Line 138
+2021-06-08T21:01:57.1111427-06:00:2021-06-08T21:01:57.1091426-06:00:Thread#0:T:Parsing: i usually shave every few days though from: rabbit_xxxx
+2021-06-08T21:02:01.3796950-06:00:2021-06-08T21:02:01.3761845-06:00:Thread#0:T:Line 139
+2021-06-08T21:02:01.5222336-06:00:2021-06-08T21:02:01.5212429-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T21:02:17.7750297-06:00:2021-06-08T21:02:17.7730288-06:00:Thread#0:T:Line 140
+2021-06-08T21:02:17.9100592-06:00:2021-06-08T21:02:17.9080606-06:00:Thread#0:T:Parsing: yeah i always get carded, even the last time i went to see an r-rated movie alone i got carded from: rabbit_xxxx
+2021-06-08T21:02:55.3978841-06:00:2021-06-08T21:02:55.3958840-06:00:Thread#0:T:Line 141
+2021-06-08T21:02:55.5504308-06:00:2021-06-08T21:02:55.5484303-06:00:Thread#0:T:Parsing: wow from: rabbit_xxxx
+2021-06-08T21:03:03.7751202-06:00:2021-06-08T21:03:03.7731194-06:00:Thread#0:T:Line 142
+2021-06-08T21:03:03.9091500-06:00:2021-06-08T21:03:03.9081499-06:00:Thread#0:T:Parsing: lmao from: rabbit_xxxx
+2021-06-08T21:03:14.6005497-06:00:2021-06-08T21:03:14.5985500-06:00:Thread#0:T:Line 143
+2021-06-08T21:03:14.7395830-06:00:2021-06-08T21:03:14.7365805-06:00:Thread#0:T:Parsing: and i thought we were backwards with our laws from: rabbit_xxxx
+2021-06-08T21:03:36.7882529-06:00:2021-06-08T21:03:36.7872516-06:00:Thread#0:T:Line 144
+2021-06-08T21:03:36.9242826-06:00:2021-06-08T21:03:36.9232827-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T21:03:50.2001172-06:00:2021-06-08T21:03:50.1981164-06:00:Thread#0:T:Line 145
+2021-06-08T21:03:50.3991632-06:00:2021-06-08T21:03:50.3921595-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T21:04:05.3772093-06:00:2021-06-08T21:04:05.3762093-06:00:Thread#0:T:Line 146
+2021-06-08T21:04:05.5372449-06:00:2021-06-08T21:04:05.5362448-06:00:Thread#0:T:Parsing: nice from: rabbit_xxxx
+2021-06-08T21:04:30.4260813-06:00:2021-06-08T21:04:30.3990755-06:00:Thread#0:T:Line 147
+2021-06-08T21:04:30.5741140-06:00:2021-06-08T21:04:30.5721141-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-08T21:04:36.7820489-06:00:2021-06-08T21:04:36.7785167-06:00:Thread#0:T:Line 148
+2021-06-08T21:04:36.9505930-06:00:2021-06-08T21:04:36.9485926-06:00:Thread#0:T:Parsing: lmao from: rabbit_xxxx
+2021-06-08T21:05:44.1858694-06:00:2021-06-08T21:05:44.1828679-06:00:Thread#0:T:Line 149
+2021-06-08T21:05:44.3258994-06:00:2021-06-08T21:05:44.3228985-06:00:Thread#0:T:Parsing: that sucks from: rabbit_xxxx
+2021-06-08T21:06:11.8047640-06:00:2021-06-08T21:06:11.8037646-06:00:Thread#0:T:Line 150
+2021-06-08T21:06:11.9557981-06:00:2021-06-08T21:06:11.9537981-06:00:Thread#0:T:Parsing: i don't really bother with people if i know they judge me or anyone based on their job anyways from: rabbit_xxxx

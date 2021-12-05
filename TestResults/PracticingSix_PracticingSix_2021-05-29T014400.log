@@ -1,0 +1,109 @@
+﻿2021-05-29T01:44:00.1603206-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-29T01:44:00.1603206-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-29T01:44:00.1603206-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-29T01:44:00.1613206-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-29T01:44:00.3002076-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-05-29T01:44:00.3012076-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-29T01:44:00.3012076-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-29T01:44:00.3532350-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-29T014400.log
+2021-05-29T01:44:00.3622380-06:00;Thread#13;Info;Checking activation
+2021-05-29T01:44:00.4422886-06:00;Thread#13;Info;Activated.
+2021-05-29T01:44:00.4432883-06:00;Thread#13;Info;Activation check completed
+2021-05-29T01:44:00.4432883-06:00;Thread#13;Info;Starting test run
+2021-05-29T01:44:00.4813107-06:00;Thread#13;Info;Discovering target: Default
+2021-05-29T01:44:00.4823104-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-05-29T01:44:00.8089183-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-05-29T01:44:00.8109198-06:00:Test Suite Dump
+2021-05-29T01:44:00.8129197-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-29T01:44:00.8129197-06:00:#1: Default - 
+2021-05-29T01:44:00.8129197-06:00:#2: PracticingSix - 
+2021-05-29T01:44:00.8129197-06:00:#3: EyeOfTheTiger - 
+2021-05-29T01:44:00.8499427-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-29T01:44:00.8499427-06:00:End: Test Suite Dump
+2021-05-29T01:44:00.8919690-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-29T01:44:00.8939694-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-29T01:44:00.8939694-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-29T01:44:00.8989696-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-29T01:44:00.8989696-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-29T01:44:00.8989696-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-29T01:44:00.8989696-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-29T01:44:00.8999702-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-29T01:44:00.9009700-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-29T01:44:00.9009700-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-29T01:44:00.9009700-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-29T01:44:00.9009700-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-29T01:44:00.9009700-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-29T01:44:00.9029707-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-29T01:44:00.9049709-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-29T01:44:00.9089714-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-29T01:44:00.9099718-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-29T01:44:00.9119717-06:00:starting Out Of Process Executor
+2021-05-29T01:44:00.9174827-06:00:Starting callback TCP Rpc server
+2021-05-29T01:44:00.9329919-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-29T01:44:00.9329919-06:00:Started callback TCP Rpc server on port 32768
+2021-05-29T01:44:00.9329919-06:00:Starting logger TCP Rpc server
+2021-05-29T01:44:00.9369936-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-29T01:44:00.9369936-06:00:Started logger TCP Rpc server on port 32769
+2021-05-29T01:44:00.9419943-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 14828 --uniqueId "2021-05-29T014400" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-29T01:44:00.9459955-06:00:Executor with PID 27252 has been started successfully.
+2021-05-29T01:44:00.9479955-06:00:Out of Process Executor 27252 started
+2021-05-29T01:44:00.9479955-06:00:Waiting for endpoint
+2021-05-29T01:44:01.4467502-06:00:Remote executor port received: 32770
+2021-05-29T01:44:01.4477504-06:00:Creating executor TCP client on port 32770
+2021-05-29T01:44:01.4477504-06:00:Created executor TCP client on port 32770
+2021-05-29T01:44:01.4477504-06:00:Connecting to remote executor TCP server
+2021-05-29T01:44:01.4487509-06:00:Connected remote executor TCP server
+2021-05-29T01:44:01.4487509-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-29T01:44:01.4487509-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-29T01:44:01.5937833-06:00:2021-05-29T01:44:01.5927833-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-05-29T01:44:01.6007857-06:00:Endpoint 27252 started
+2021-05-29T01:44:01.6177887-06:00:2021-05-29T01:44:01.6177887-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-29T01:44:01.9499101-06:00:2021-05-29T01:44:01.9499101-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-29T01:44:01.9569123-06:00:2021-05-29T01:44:01.9569123-06:00:Thread#0:T:-> Using default config
+2021-05-29T01:44:02.6237162-06:00:2021-05-29T01:44:02.6237162-06:00:Thread#0:T:Starting the driver...
+2021-05-29T01:44:04.1538210-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-05-29T01:44:04.1888287-06:00:2021-05-29T01:44:04.1878291-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-29T01:44:29.7783050-06:00:2021-05-29T01:44:29.7773049-06:00:Thread#0:T:Playing!
+2021-05-29T01:44:30.1903984-06:00:2021-05-29T01:44:30.1903984-06:00:Thread#0:T:Loop: 0
+2021-05-29T01:44:35.4745611-06:00:2021-05-29T01:44:35.4735608-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-05-29T01:44:38.3381016-06:00:2021-05-29T01:44:38.3381016-06:00:Thread#0:T:Finished logging in
+2021-05-29T01:44:47.5599189-06:00:2021-05-29T01:44:47.5589178-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 1
+2021-05-29T01:44:48.0979337-06:00:2021-05-29T01:44:48.0979337-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 2
+2021-05-29T01:44:48.5822149-06:00:2021-05-29T01:44:48.5812137-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 3
+2021-05-29T01:44:49.0599861-06:00:2021-05-29T01:44:49.0599861-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 4
+2021-05-29T01:44:49.5011797-06:00:2021-05-29T01:44:49.5001790-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 5
+2021-05-29T01:44:49.9412367-06:00:2021-05-29T01:44:49.9402367-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 6
+2021-05-29T01:44:50.4453989-06:00:2021-05-29T01:44:50.4453989-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 7
+2021-05-29T01:44:50.9028052-06:00:2021-05-29T01:44:50.9018050-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 8
+2021-05-29T01:44:51.3939153-06:00:2021-05-29T01:44:51.3939153-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 9
+2021-05-29T01:44:51.8461693-06:00:2021-05-29T01:44:51.8451688-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 10
+2021-05-29T01:44:52.2969647-06:00:2021-05-29T01:44:52.2959635-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 11
+2021-05-29T01:44:52.7672482-06:00:2021-05-29T01:44:52.7662482-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 12
+2021-05-29T01:44:53.2580518-06:00:2021-05-29T01:44:53.2580518-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 13
+2021-05-29T01:44:53.7092922-06:00:2021-05-29T01:44:53.7092922-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 14
+2021-05-29T01:44:54.1322095-06:00:2021-05-29T01:44:54.1322095-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 15
+2021-05-29T01:44:54.5657992-06:00:2021-05-29T01:44:54.5657992-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 16
+2021-05-29T01:44:54.9788932-06:00:2021-05-29T01:44:54.9788932-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 17
+2021-05-29T01:44:55.4127407-06:00:2021-05-29T01:44:55.4117407-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 18
+2021-05-29T01:44:55.8431291-06:00:2021-05-29T01:44:55.8431291-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 19
+2021-05-29T01:44:56.3387819-06:00:2021-05-29T01:44:56.3387819-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 20
+2021-05-29T01:44:56.8208800-06:00:2021-05-29T01:44:56.8208800-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 21
+2021-05-29T01:44:57.2709810-06:00:2021-05-29T01:44:57.2709810-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 22
+2021-05-29T01:44:57.7760985-06:00:2021-05-29T01:44:57.7750965-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 23
+2021-05-29T01:44:58.2329488-06:00:2021-05-29T01:44:58.2329488-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 24
+2021-05-29T01:44:58.6960528-06:00:2021-05-29T01:44:58.6950524-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 25
+2021-05-29T01:44:59.1662305-06:00:2021-05-29T01:44:59.1652303-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 26
+2021-05-29T01:44:59.6203897-06:00:2021-05-29T01:44:59.6203897-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 27
+2021-05-29T01:45:00.0690002-06:00:2021-05-29T01:45:00.0690002-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 28
+2021-05-29T01:45:00.5249552-06:00:2021-05-29T01:45:00.5249552-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 29
+2021-05-29T01:45:00.9900741-06:00:2021-05-29T01:45:00.9900741-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 30
+2021-05-29T01:45:01.4431364-06:00:2021-05-29T01:45:01.4431364-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 31
+2021-05-29T01:45:01.8880290-06:00:2021-05-29T01:45:01.8870282-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 32
+2021-05-29T01:45:02.3230834-06:00:2021-05-29T01:45:02.3230834-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 33
+2021-05-29T01:45:02.7801195-06:00:2021-05-29T01:45:02.7801195-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 34
+2021-05-29T01:45:03.2062144-06:00:2021-05-29T01:45:03.2052144-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 35
+2021-05-29T01:45:03.6452044-06:00:2021-05-29T01:45:03.6442041-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 36
+2021-05-29T01:45:04.0983312-06:00:2021-05-29T01:45:04.0983312-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 37
+2021-05-29T01:45:04.5347051-06:00:2021-05-29T01:45:04.5347051-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 38
+2021-05-29T01:45:04.9810910-06:00:2021-05-29T01:45:04.9810910-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 39
+2021-05-29T01:45:05.4086168-06:00:2021-05-29T01:45:05.4076170-06:00:Thread#0:T:Tried to clear spinner, spinnerEncounters so far: 40

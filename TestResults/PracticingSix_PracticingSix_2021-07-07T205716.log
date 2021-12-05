@@ -1,0 +1,24 @@
+﻿2021-07-07T20:57:16.6535185-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-07-07T20:57:16.6535185-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-07-07T20:57:16.6535185-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-07-07T20:57:16.6545193-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-07-07T20:57:16.9575878-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-07T20:57:16.9585888-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-07-07T20:57:16.9585888-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-07-07T20:57:17.0356059-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-07-07T205716.log
+2021-07-07T20:57:17.0486623-06:00;Thread#13;Info;Checking activation
+2021-07-07T20:57:17.2056428-06:00;Thread#13;Info;Activated.
+2021-07-07T20:57:17.2066429-06:00;Thread#13;Info;Activation check completed
+2021-07-07T20:57:17.2076447-06:00;Thread#13;Info;Starting test run
+2021-07-07T20:57:17.2756602-06:00;Thread#13;Info;Discovering target: Default
+2021-07-07T20:57:17.2816606-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-07T20:57:17.7457845-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-07-07T20:57:17.7572934-06:00:Test Suite Dump
+2021-07-07T20:57:17.7582935-06:00:#0: PracticingSix/PracticingSix - 
+2021-07-07T20:57:17.7592937-06:00:#1: Default - 
+2021-07-07T20:57:17.7592937-06:00:#2: PracticingSix - 
+2021-07-07T20:57:17.7592937-06:00:#3: EyeOfTheTiger - 
+2021-07-07T20:57:17.7592937-06:00:#5: Twitch Bot! - 
+2021-07-07T20:57:17.8023277-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-07-07T20:57:17.8023277-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-07-07T20:57:17.8023277-06:00:End: Test Suite Dump

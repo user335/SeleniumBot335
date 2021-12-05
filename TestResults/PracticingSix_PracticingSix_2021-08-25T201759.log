@@ -1,0 +1,571 @@
+﻿2021-08-25T20:17:59.3515322-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-08-25T20:17:59.3515322-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-08-25T20:17:59.3515322-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-08-25T20:17:59.3515322-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-08-25T20:17:59.4636177-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-08-25T20:17:59.4636177-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-08-25T20:17:59.4636177-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-08-25T20:17:59.5046267-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-08-25T201759.log
+2021-08-25T20:17:59.5096284-06:00;Thread#13;Info;Checking activation
+2021-08-25T20:17:59.6027668-06:00;Thread#13;Info;Activated.
+2021-08-25T20:17:59.6027668-06:00;Thread#13;Info;Activation check completed
+2021-08-25T20:17:59.6027668-06:00;Thread#13;Info;Starting test run
+2021-08-25T20:17:59.6404474-06:00;Thread#13;Info;Discovering target: Default
+2021-08-25T20:17:59.6404474-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-08-25T20:17:59.9605541-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-08-25T20:17:59.9617411-06:00:Test Suite Dump
+2021-08-25T20:17:59.9632478-06:00:#0: PracticingSix/PracticingSix - 
+2021-08-25T20:17:59.9632478-06:00:#1: Default - 
+2021-08-25T20:17:59.9632478-06:00:#2: PracticingSix - 
+2021-08-25T20:17:59.9632478-06:00:#4: Twitch Bot! - 
+2021-08-25T20:17:59.9947780-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-08-25T20:17:59.9947780-06:00:End: Test Suite Dump
+2021-08-25T20:18:00.0305559-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-08-25T20:18:00.0315559-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-08-25T20:18:00.0315559-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-08-25T20:18:00.0385733-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-08-25T20:18:00.0385733-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-08-25T20:18:00.0385733-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-08-25T20:18:00.0385733-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-08-25T20:18:00.0395736-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-08-25T20:18:00.0405733-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-08-25T20:18:00.0405733-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-08-25T20:18:00.0405733-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-08-25T20:18:00.0405733-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-08-25T20:18:00.0405733-06:00:Thread#1:Scheduler: No more tests for thread
+2021-08-25T20:18:00.0425730-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-08-25T20:18:00.0435730-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-25T20:18:00.0834561-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-08-25T20:18:00.0854559-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-08-25T20:18:00.0874560-06:00:starting Out Of Process Executor
+2021-08-25T20:18:00.0934580-06:00:Starting callback TCP Rpc server
+2021-08-25T20:18:00.1074706-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-08-25T20:18:00.1074706-06:00:Started callback TCP Rpc server on port 32768
+2021-08-25T20:18:00.1074706-06:00:Starting logger TCP Rpc server
+2021-08-25T20:18:00.1094617-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-08-25T20:18:00.1104713-06:00:Started logger TCP Rpc server on port 32769
+2021-08-25T20:18:00.1164235-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 15112 --uniqueId "2021-08-25T201759" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-08-25T20:18:00.1704571-06:00:Executor with PID 13740 has been started successfully.
+2021-08-25T20:18:00.1734574-06:00:Out of Process Executor 13740 started
+2021-08-25T20:18:00.1734574-06:00:Waiting for endpoint
+2021-08-25T20:18:00.9210146-06:00:Remote executor port received: 32770
+2021-08-25T20:18:00.9220274-06:00:Creating executor TCP client on port 32770
+2021-08-25T20:18:00.9220274-06:00:Created executor TCP client on port 32770
+2021-08-25T20:18:00.9220274-06:00:Connecting to remote executor TCP server
+2021-08-25T20:18:00.9225380-06:00:Connected remote executor TCP server
+2021-08-25T20:18:00.9225380-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-08-25T20:18:00.9225380-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-08-25T20:18:01.5106433-06:00:2021-08-25T20:18:01.5096434-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-08-25T20:18:01.5166452-06:00:Endpoint 13740 started
+2021-08-25T20:18:01.5366494-06:00:2021-08-25T20:18:01.5356497-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-08-25T20:18:01.9237376-06:00:2021-08-25T20:18:01.9237376-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-08-25T20:18:01.9707490-06:00:2021-08-25T20:18:01.9707490-06:00:Thread#0:T:-> Using default config
+2021-08-25T20:18:03.0218242-06:00:2021-08-25T20:18:03.0208317-06:00:Thread#0:T:Starting the driver...
+2021-08-25T20:18:04.5119929-06:00:Thread#0: Test #5/0 is started on thread #0
+2021-08-25T20:18:04.5530226-06:00:2021-08-25T20:18:04.5520219-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-08-25T20:18:04.6150363-06:00:2021-08-25T20:18:04.6140361-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-08-25T20:18:04.6160369-06:00:2021-08-25T20:18:04.6160369-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-08-25T20:18:07.0227989-06:00:2021-08-25T20:18:07.0187984-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.4s)
+2021-08-25T20:18:07.0247987-06:00:2021-08-25T20:18:07.0247987-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-08-25T20:31:39.9961758-06:00:2021-08-25T20:31:39.9951744-06:00:Thread#0:T:Line 1
+2021-08-25T20:31:40.1047076-06:00:2021-08-25T20:31:40.1047076-06:00:Thread#0:T:Parsing: gonna lurk. just say hi. from: sky_acaniadev
+2021-08-25T20:31:40.1187101-06:00:2021-08-25T20:31:40.1172500-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-08-25T20:31:40.1197105-06:00:2021-08-25T20:31:40.1197105-06:00:Thread#0:T:Found 2 clips for user sky_acaniadev and rolled clip #: 0
+2021-08-25T20:31:40.2177323-06:00:2021-08-25T20:31:40.2167319-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\sky_acaniadev.wav at time: 8/25/2021 8:31:40 PM
+2021-08-25T20:31:40.2197324-06:00:2021-08-25T20:31:40.2187323-06:00:Thread#0:T:Waiting for 1915.646ms ended at time: 8/25/2021 8:31:40 PM
+2021-08-25T20:31:42.1490875-06:00:2021-08-25T20:31:42.1490875-06:00:Thread#0:T:Duration of clip was 1.915646, thanks rabbit_xxxx you're the best!
+2021-08-25T20:31:42.1500875-06:00:2021-08-25T20:31:42.1500875-06:00:Thread#0:T:clip played the old boring way, duration was: 1.915646
+2021-08-25T20:31:42.1680922-06:00:2021-08-25T20:31:42.1680922-06:00:Thread#0:T:{
+2021-08-25T20:31:42.1690932-06:00:2021-08-25T20:31:42.1680922-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-25T20:31:42.1690932-06:00:2021-08-25T20:31:42.1690932-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-08-25T20:31:42.1710937-06:00:2021-08-25T20:31:42.1700930-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-08-25T20:31:42.1720926-06:00:2021-08-25T20:31:42.1720926-06:00:Thread#0:T:}
+2021-08-25T20:31:42.1730930-06:00:2021-08-25T20:31:42.1720926-06:00:Thread#0:T:{
+2021-08-25T20:31:42.1740947-06:00:2021-08-25T20:31:42.1730930-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-08-25T20:31:42.1740947-06:00:2021-08-25T20:31:42.1740947-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T20:31:42.1750935-06:00:2021-08-25T20:31:42.1750935-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-08-25T20:31:42.1750935-06:00:2021-08-25T20:31:42.1750935-06:00:Thread#0:T:}
+2021-08-25T20:31:42.1760942-06:00:2021-08-25T20:31:42.1760942-06:00:Thread#0:T:{
+2021-08-25T20:31:42.1760942-06:00:2021-08-25T20:31:42.1760942-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T20:31:42.1770938-06:00:2021-08-25T20:31:42.1770938-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-08-25T20:31:42.1770938-06:00:2021-08-25T20:31:42.1770938-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-08-25T20:31:42.1780941-06:00:2021-08-25T20:31:42.1780941-06:00:Thread#0:T:}
+2021-08-25T20:31:42.1780941-06:00:2021-08-25T20:31:42.1780941-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 8/25/2021 8:31:42 PM
+2021-08-25T20:31:42.1810958-06:00:2021-08-25T20:31:42.1800946-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 8/25/2021 8:31:42 PM
+2021-08-25T20:35:34.5739946-06:00:2021-08-25T20:35:34.5729940-06:00:Thread#0:T:Line 2
+2021-08-25T20:35:34.6590656-06:00:2021-08-25T20:35:34.6590656-06:00:Thread#0:T:Parsing: 16 minutes for a notification from: voidvenom777
+2021-08-25T20:35:34.6620670-06:00:2021-08-25T20:35:34.6610656-06:00:Thread#0:T:Eyy, its voidvenom777!
+2021-08-25T20:35:34.6715921-06:00:2021-08-25T20:35:34.6706011-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\voidvenom777.wav at time: 8/25/2021 8:35:34 PM
+2021-08-25T20:35:34.6721059-06:00:2021-08-25T20:35:34.6721059-06:00:Thread#0:T:Waiting for 5152.721ms ended at time: 8/25/2021 8:35:34 PM
+2021-08-25T20:35:39.8307489-06:00:2021-08-25T20:35:39.8307489-06:00:Thread#0:T:Duration of clip was 5.152721, thanks rabbit_xxxx you're the best!
+2021-08-25T20:35:39.8317500-06:00:2021-08-25T20:35:39.8317500-06:00:Thread#0:T:clip played the old boring way, duration was: 5.152721
+2021-08-25T20:36:27.9586283-06:00:2021-08-25T20:36:27.9576278-06:00:Thread#0:T:Line 3
+2021-08-25T20:36:28.0296443-06:00:2021-08-25T20:36:28.0296443-06:00:Thread#0:T:Parsing: someone give mee6 a kick in the pants from: voidvenom777
+2021-08-25T20:38:05.5580003-06:00:2021-08-25T20:38:05.5570003-06:00:Thread#0:T:Line 4
+2021-08-25T20:38:05.6420184-06:00:2021-08-25T20:38:05.6420184-06:00:Thread#0:T:Parsing: hi. late to stream. was helping another person with his game. from: dstew99
+2021-08-25T20:38:05.6440196-06:00:2021-08-25T20:38:05.6440196-06:00:Thread#0:T:Eyy, its dstew99!
+2021-08-25T20:38:05.6525109-06:00:2021-08-25T20:38:05.6520209-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\dstew99.wav at time: 8/25/2021 8:38:05 PM
+2021-08-25T20:38:05.6570223-06:00:2021-08-25T20:38:05.6570223-06:00:Thread#0:T:Waiting for 1024.399ms ended at time: 8/25/2021 8:38:05 PM
+2021-08-25T20:38:06.6827824-06:00:2021-08-25T20:38:06.6827824-06:00:Thread#0:T:Duration of clip was 1.024399, thanks rabbit_xxxx you're the best!
+2021-08-25T20:38:06.6837821-06:00:2021-08-25T20:38:06.6837821-06:00:Thread#0:T:clip played the old boring way, duration was: 1.024399
+2021-08-25T20:39:06.5784499-06:00:2021-08-25T20:39:06.5774500-06:00:Thread#0:T:Line 5
+2021-08-25T20:39:06.6584676-06:00:2021-08-25T20:39:06.6584676-06:00:Thread#0:T:Parsing: guy from brazil. he was using floats when he should have used ints from: dstew99
+2021-08-25T20:42:32.5746077-06:00:2021-08-25T20:42:32.5736094-06:00:Thread#0:T:Line 6
+2021-08-25T20:42:32.6756307-06:00:2021-08-25T20:42:32.6756307-06:00:Thread#0:T:Parsing: hi from: protopoly_dot_com
+2021-08-25T20:42:32.6896344-06:00:2021-08-25T20:42:32.6886340-06:00:Thread#0:T:{
+2021-08-25T20:42:32.6906362-06:00:2021-08-25T20:42:32.6906362-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-25T20:42:32.6906362-06:00:2021-08-25T20:42:32.6906362-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-25T20:42:32.6916347-06:00:2021-08-25T20:42:32.6916347-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-25T20:42:32.6926351-06:00:2021-08-25T20:42:32.6916347-06:00:Thread#0:T:}
+2021-08-25T20:42:32.6926351-06:00:2021-08-25T20:42:32.6926351-06:00:Thread#0:T:{
+2021-08-25T20:42:32.6936345-06:00:2021-08-25T20:42:32.6936345-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-25T20:42:32.6936345-06:00:2021-08-25T20:42:32.6936345-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T20:42:32.6946342-06:00:2021-08-25T20:42:32.6946342-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-25T20:42:32.6946342-06:00:2021-08-25T20:42:32.6946342-06:00:Thread#0:T:}
+2021-08-25T20:42:32.6956347-06:00:2021-08-25T20:42:32.6956347-06:00:Thread#0:T:{
+2021-08-25T20:42:32.6956347-06:00:2021-08-25T20:42:32.6956347-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T20:42:32.6966349-06:00:2021-08-25T20:42:32.6966349-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-25T20:42:32.7036371-06:00:2021-08-25T20:42:32.6966349-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-25T20:42:32.7046374-06:00:2021-08-25T20:42:32.7036371-06:00:Thread#0:T:}
+2021-08-25T20:42:32.7056373-06:00:2021-08-25T20:42:32.7056373-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/25/2021 8:42:32 PM
+2021-08-25T20:42:32.7076397-06:00:2021-08-25T20:42:32.7066380-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/25/2021 8:42:32 PM
+2021-08-25T20:42:47.5780483-06:00:2021-08-25T20:42:47.5770481-06:00:Thread#0:T:Line 7
+2021-08-25T20:42:47.6550661-06:00:2021-08-25T20:42:47.6540666-06:00:Thread#0:T:Parsing: that's the opposite what i do... i always use ints and get weird results because of integer division from: voidvenom777
+2021-08-25T20:42:49.5481208-06:00:2021-08-25T20:42:49.5481208-06:00:Thread#0:T:Line 8
+2021-08-25T20:42:49.6121357-06:00:2021-08-25T20:42:49.6121357-06:00:Thread#0:T:Parsing: i've been from: protopoly_dot_com
+2021-08-25T20:43:08.7589720-06:00:2021-08-25T20:43:08.7579716-06:00:Thread#0:T:Line 9
+2021-08-25T20:43:08.8279877-06:00:2021-08-25T20:43:08.8279877-06:00:Thread#0:T:Parsing: more about keeping the variable's type from: dstew99
+2021-08-25T20:44:07.5649793-06:00:2021-08-25T20:44:07.5649793-06:00:Thread#0:T:Line 10
+2021-08-25T20:44:07.6409967-06:00:2021-08-25T20:44:07.6399998-06:00:Thread#0:T:Parsing: int math can be faster.\ from: dstew99
+2021-08-25T20:44:36.9830283-06:00:2021-08-25T20:44:36.9810278-06:00:Thread#0:T:Line 11
+2021-08-25T20:44:37.0780489-06:00:2021-08-25T20:44:37.0770500-06:00:Thread#0:T:Parsing: we're under lockdown again, delta variant of covid from: protopoly_dot_com
+2021-08-25T20:44:59.3722030-06:00:2021-08-25T20:44:59.3712025-06:00:Thread#0:T:Line 12
+2021-08-25T20:44:59.4702236-06:00:2021-08-25T20:44:59.4692237-06:00:Thread#0:T:Parsing: @user335 one case of where ints are better than floats is cpu line drawing. bresenham's has an integer-only implementation that is very, very fast (compared to the float version) from: voidvenom777
+2021-08-25T20:45:10.5664405-06:00:2021-08-25T20:45:10.5664405-06:00:Thread#0:T:Line 13
+2021-08-25T20:45:10.7054725-06:00:2021-08-25T20:45:10.7054725-06:00:Thread#0:T:Parsing: business is slow from: protopoly_dot_com
+2021-08-25T20:45:32.3745447-06:00:2021-08-25T20:45:32.3735439-06:00:Thread#0:T:Line 14
+2021-08-25T20:45:32.4825668-06:00:2021-08-25T20:45:32.4815663-06:00:Thread#0:T:Parsing: we have mandatory masks again because of delta. from: dstew99
+2021-08-25T20:45:34.9605201-06:00:2021-08-25T20:45:34.9605201-06:00:Thread#0:T:Line 15
+2021-08-25T20:45:35.0395389-06:00:2021-08-25T20:45:35.0395389-06:00:Thread#0:T:Parsing: beer sales are up from: protopoly_dot_com
+2021-08-25T20:46:14.6102091-06:00:2021-08-25T20:46:14.6092082-06:00:Thread#0:T:Line 16
+2021-08-25T20:46:14.7218057-06:00:2021-08-25T20:46:14.7208049-06:00:Thread#0:T:Parsing: doesn't matter about vaccination status from: dstew99
+2021-08-25T20:46:45.5760644-06:00:2021-08-25T20:46:45.5720642-06:00:Thread#0:T:Line 17
+2021-08-25T20:46:45.6971488-06:00:2021-08-25T20:46:45.6971488-06:00:Thread#0:T:Parsing: mandatory mask and face shield, fine for non compliance it 35000 philippines peso from: protopoly_dot_com
+2021-08-25T20:48:11.1625291-06:00:2021-08-25T20:48:11.1625291-06:00:Thread#0:T:Line 18
+2021-08-25T20:48:11.2490592-06:00:2021-08-25T20:48:11.2490592-06:00:Thread#0:T:Parsing: you may not be allowed in if it gets worse from: dstew99
+2021-08-25T20:48:23.3840609-06:00:2021-08-25T20:48:23.3840609-06:00:Thread#0:T:Line 19
+2021-08-25T20:48:23.4846140-06:00:2021-08-25T20:48:23.4846140-06:00:Thread#0:T:Parsing: like 700 or 750 usd from: protopoly_dot_com
+2021-08-25T20:49:53.7661305-06:00:2021-08-25T20:49:53.7661305-06:00:Thread#0:T:Line 20
+2021-08-25T20:49:53.8461482-06:00:2021-08-25T20:49:53.8451486-06:00:Thread#0:T:Parsing: that's a huge amount. from: dstew99
+2021-08-25T20:52:21.9736185-06:00:2021-08-25T20:52:21.9736185-06:00:Thread#0:T:Line 21
+2021-08-25T20:52:22.0986458-06:00:2021-08-25T20:52:22.0976458-06:00:Thread#0:T:Parsing: well if you dont pay, they put you in the rice fields work farm to pay the fine from: protopoly_dot_com
+2021-08-25T20:54:14.3855276-06:00:2021-08-25T20:54:14.3845275-06:00:Thread#0:T:Line 22
+2021-08-25T20:54:14.4655454-06:00:2021-08-25T20:54:14.4655454-06:00:Thread#0:T:Parsing: also the military went door to door and swab tested everyone from: protopoly_dot_com
+2021-08-25T20:57:30.1598964-06:00:2021-08-25T20:57:30.1598964-06:00:Thread#0:T:Line 23
+2021-08-25T20:57:30.2819245-06:00:2021-08-25T20:57:30.2819245-06:00:Thread#0:T:Parsing: when they swab tested, they warned everyone of the strict fines for non compliance from: protopoly_dot_com
+2021-08-25T20:58:01.3619733-06:00:2021-08-25T20:58:01.3619733-06:00:Thread#0:T:Line 24
+2021-08-25T20:58:01.4422049-06:00:2021-08-25T20:58:01.4412051-06:00:Thread#0:T:Parsing: what happens if test is positive? from: dstew99
+2021-08-25T20:59:29.5667161-06:00:2021-08-25T20:59:29.5667161-06:00:Thread#0:T:Line 25
+2021-08-25T20:59:29.6557591-06:00:2021-08-25T20:59:29.6547586-06:00:Thread#0:T:Parsing: entire household is quarantine from: protopoly_dot_com
+2021-08-25T20:59:42.1674132-06:00:2021-08-25T20:59:42.1674132-06:00:Thread#0:T:Line 26
+2021-08-25T20:59:42.2514343-06:00:2021-08-25T20:59:42.2514343-06:00:Thread#0:T:Parsing: shader debugging is such a pain in the ass from: voidvenom777
+2021-08-25T20:59:54.7643378-06:00:2021-08-25T20:59:54.7643378-06:00:Thread#0:T:Line 27
+2021-08-25T20:59:54.8444068-06:00:2021-08-25T20:59:54.8434070-06:00:Thread#0:T:Parsing: i'm just tryna intersect a ray and box come on please just work from: voidvenom777
+2021-08-25T21:00:55.3702436-06:00:2021-08-25T21:00:55.3702436-06:00:Thread#0:T:Line 28
+2021-08-25T21:00:55.4553341-06:00:2021-08-25T21:00:55.4553341-06:00:Thread#0:T:Parsing: technically i'm talking about both shadergraph and hlsl shaders from: voidvenom777
+2021-08-25T21:01:02.1648550-06:00:2021-08-25T21:01:02.1648550-06:00:Thread#0:T:Line 29
+2021-08-25T21:01:02.2484136-06:00:2021-08-25T21:01:02.2484136-06:00:Thread#0:T:Parsing: both are a pain in the ass from: voidvenom777
+2021-08-25T21:01:06.7657170-06:00:2021-08-25T21:01:06.7657170-06:00:Thread#0:T:Line 30
+2021-08-25T21:01:06.8617564-06:00:2021-08-25T21:01:06.8607559-06:00:Thread#0:T:Parsing: and i blame unity for that from: voidvenom777
+2021-08-25T21:01:33.3689581-06:00:2021-08-25T21:01:33.3679576-06:00:Thread#0:T:Line 31
+2021-08-25T21:01:33.4565415-06:00:2021-08-25T21:01:33.4555415-06:00:Thread#0:T:Parsing: i tested my algorithm using a custom hlsl shader, and it worked. but when i write a graph that should do the same thing, it doesn't from: voidvenom777
+2021-08-25T21:01:42.9706760-06:00:2021-08-25T21:01:42.9696753-06:00:Thread#0:T:Line 32
+2021-08-25T21:01:43.0576944-06:00:2021-08-25T21:01:43.0576944-06:00:Thread#0:T:Parsing: @user335 i have looked into the compiled shader code, yea from: voidvenom777
+2021-08-25T21:01:58.1719964-06:00:2021-08-25T21:01:58.1709969-06:00:Thread#0:T:Line 33
+2021-08-25T21:01:58.2705663-06:00:2021-08-25T21:01:58.2705663-06:00:Thread#0:T:Parsing: there is quarantine card where they have a qr code and chip, as you travel there is temp scanners and the card tracks your temperature from: protopoly_dot_com
+2021-08-25T21:02:18.3694706-06:00:2021-08-25T21:02:18.3684707-06:00:Thread#0:T:Line 34
+2021-08-25T21:02:18.4554885-06:00:2021-08-25T21:02:18.4554885-06:00:Thread#0:T:Parsing: i'd hardly say i'm skilled. i can make a graph but i only know very rudimentary hlsl/glsl shader code. from: voidvenom777
+2021-08-25T21:03:04.0115806-06:00:2021-08-25T21:03:04.0105809-06:00:Thread#0:T:Line 35
+2021-08-25T21:03:04.1046020-06:00:2021-08-25T21:03:04.1036019-06:00:Thread#0:T:Parsing: and if your card comes up with a warning, the guards tell you to go home, self quarantine and call the toll free line from: protopoly_dot_com
+2021-08-25T21:04:16.0024093-06:00:2021-08-25T21:04:15.9994089-06:00:Thread#0:T:Line 36
+2021-08-25T21:04:16.1094343-06:00:2021-08-25T21:04:16.1084336-06:00:Thread#0:T:Parsing: body temperature changes naturally throughout the day. hope it's not too sensitive. from: dstew99
+2021-08-25T21:04:40.3791594-06:00:2021-08-25T21:04:40.3791594-06:00:Thread#0:T:Line 37
+2021-08-25T21:04:40.4661959-06:00:2021-08-25T21:04:40.4661959-06:00:Thread#0:T:Parsing: it's checking for fever only from: protopoly_dot_com
+2021-08-25T21:07:24.3793976-06:00:2021-08-25T21:07:24.3783968-06:00:Thread#0:T:Line 38
+2021-08-25T21:07:24.4694334-06:00:2021-08-25T21:07:24.4684330-06:00:Thread#0:T:Parsing: @user335 nah its more about lack of shadergraph documentation, and the fact that the shadergraph compiled shaders use things that i don't have documentation for. from: voidvenom777
+2021-08-25T21:07:38.0024827-06:00:2021-08-25T21:07:38.0014827-06:00:Thread#0:T:Line 39
+2021-08-25T21:07:38.1275103-06:00:2021-08-25T21:07:38.1265109-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-08-25T21:07:38.1355379-06:00:2021-08-25T21:07:38.1355379-06:00:Thread#0:T:{
+2021-08-25T21:07:38.1365381-06:00:2021-08-25T21:07:38.1365381-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:07:38.1365381-06:00:2021-08-25T21:07:38.1365381-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-25T21:07:38.1375379-06:00:2021-08-25T21:07:38.1375379-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-25T21:07:38.1375379-06:00:2021-08-25T21:07:38.1375379-06:00:Thread#0:T:}
+2021-08-25T21:07:38.1385384-06:00:2021-08-25T21:07:38.1375379-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCUNBURROW.wav at time: 8/25/2021 9:07:38 PM
+2021-08-25T21:07:38.1385384-06:00:2021-08-25T21:07:38.1385384-06:00:Thread#0:T:Waiting for 1181.429ms ended at time: 8/25/2021 9:07:38 PM
+2021-08-25T21:09:03.1798585-06:00:2021-08-25T21:09:03.1788585-06:00:Thread#0:T:Line 40
+2021-08-25T21:09:03.2878848-06:00:2021-08-25T21:09:03.2868825-06:00:Thread#0:T:Parsing: again, not extra good at learning/learning fast lmao from: voidvenom777
+2021-08-25T21:09:08.3862358-06:00:2021-08-25T21:09:08.3862358-06:00:Thread#0:T:Line 41
+2021-08-25T21:09:08.4778427-06:00:2021-08-25T21:09:08.4768435-06:00:Thread#0:T:Parsing: i just spend a lot of time on these things from: voidvenom777
+2021-08-25T21:09:20.5699140-06:00:2021-08-25T21:09:20.5689139-06:00:Thread#0:T:Line 42
+2021-08-25T21:09:20.6769389-06:00:2021-08-25T21:09:20.6739379-06:00:Thread#0:T:Parsing: hi sky from: voidvenom777
+2021-08-25T21:09:31.3789406-06:00:2021-08-25T21:09:31.3789406-06:00:Thread#0:T:Line 43
+2021-08-25T21:09:41.5849274-06:00:2021-08-25T21:09:41.5849274-06:00:Thread#0:T:Line 44
+2021-08-25T21:09:41.6809483-06:00:2021-08-25T21:09:41.6809483-06:00:Thread#0:T:Parsing: !spherous from: user335
+2021-08-25T21:09:41.7859735-06:00:2021-08-25T21:09:41.7859735-06:00:Thread#0:T:Line 45
+2021-08-25T21:09:43.7583701-06:00:2021-08-25T21:09:43.7573715-06:00:Thread#0:T:Line 46
+2021-08-25T21:09:43.8424548-06:00:2021-08-25T21:09:43.8424548-06:00:Thread#0:T:Parsing: \o from: spherous
+2021-08-25T21:09:43.8489648-06:00:2021-08-25T21:09:43.8479649-06:00:Thread#0:T:{
+2021-08-25T21:09:43.8499656-06:00:2021-08-25T21:09:43.8499656-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-25T21:09:43.8509659-06:00:2021-08-25T21:09:43.8499656-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-25T21:09:43.8509659-06:00:2021-08-25T21:09:43.8509659-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-25T21:09:43.8519652-06:00:2021-08-25T21:09:43.8519652-06:00:Thread#0:T:}
+2021-08-25T21:09:43.8519652-06:00:2021-08-25T21:09:43.8519652-06:00:Thread#0:T:{
+2021-08-25T21:09:43.8529660-06:00:2021-08-25T21:09:43.8529660-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-25T21:09:43.8539656-06:00:2021-08-25T21:09:43.8529660-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T21:09:43.8539656-06:00:2021-08-25T21:09:43.8539656-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-25T21:09:43.8549654-06:00:2021-08-25T21:09:43.8539656-06:00:Thread#0:T:}
+2021-08-25T21:09:43.8549654-06:00:2021-08-25T21:09:43.8549654-06:00:Thread#0:T:{
+2021-08-25T21:09:43.8549654-06:00:2021-08-25T21:09:43.8549654-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:09:43.8559660-06:00:2021-08-25T21:09:43.8559660-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-25T21:09:43.8579667-06:00:2021-08-25T21:09:43.8569668-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-25T21:09:43.8579667-06:00:2021-08-25T21:09:43.8579667-06:00:Thread#0:T:}
+2021-08-25T21:09:43.8589666-06:00:2021-08-25T21:09:43.8579667-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/25/2021 9:09:43 PM
+2021-08-25T21:09:43.8589666-06:00:2021-08-25T21:09:43.8589666-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/25/2021 9:09:43 PM
+2021-08-25T21:09:57.1797561-06:00:2021-08-25T21:09:57.1787559-06:00:Thread#0:T:Line 47
+2021-08-25T21:09:57.2697764-06:00:2021-08-25T21:09:57.2697764-06:00:Thread#0:T:Parsing: good! from: spherous
+2021-08-25T21:10:00.5761352-06:00:2021-08-25T21:10:00.5761352-06:00:Thread#0:T:Line 48
+2021-08-25T21:10:00.6781607-06:00:2021-08-25T21:10:00.6771597-06:00:Thread#0:T:Parsing: i made a new shader today from: spherous
+2021-08-25T21:10:02.3606443-06:00:2021-08-25T21:10:02.3601291-06:00:Thread#0:T:Line 49
+2021-08-25T21:10:02.4846641-06:00:2021-08-25T21:10:02.4836640-06:00:Thread#0:T:Parsing:  from: spherous
+2021-08-25T21:10:17.1963950-06:00:2021-08-25T21:10:17.1963950-06:00:Thread#0:T:Line 50
+2021-08-25T21:10:17.2934165-06:00:2021-08-25T21:10:17.2924165-06:00:Thread#0:T:Parsing: going up again? wow from: spherous
+2021-08-25T21:10:20.1596627-06:00:2021-08-25T21:10:20.1586627-06:00:Thread#0:T:Line 51
+2021-08-25T21:10:20.2497402-06:00:2021-08-25T21:10:20.2487744-06:00:Thread#0:T:Parsing: i've heard that cool unity devs use ase from: sky_acaniadev
+2021-08-25T21:10:22.1610566-06:00:2021-08-25T21:10:22.1600557-06:00:Thread#0:T:Line 52
+2021-08-25T21:10:22.2440757-06:00:2021-08-25T21:10:22.2440757-06:00:Thread#0:T:Parsing: hey sphere from: voidvenom777
+2021-08-25T21:10:23.5549611-06:00:2021-08-25T21:10:23.5549611-06:00:Thread#0:T:Line 53
+2021-08-25T21:10:23.7100154-06:00:2021-08-25T21:10:23.7100154-06:00:Thread#0:T:Parsing: it's uploading, sec from: spherous
+2021-08-25T21:10:26.7889926-06:00:2021-08-25T21:10:26.7879929-06:00:Thread#0:T:Line 54
+2021-08-25T21:10:26.8870150-06:00:2021-08-25T21:10:26.8870150-06:00:Thread#0:T:Parsing: hey @voidvenom777 from: spherous
+2021-08-25T21:10:37.7833786-06:00:2021-08-25T21:10:37.7823783-06:00:Thread#0:T:Line 55
+2021-08-25T21:10:37.8833998-06:00:2021-08-25T21:10:37.8824002-06:00:Thread#0:T:Parsing: spheres are better than aabbs from: voidvenom777
+2021-08-25T21:10:42.5900806-06:00:2021-08-25T21:10:42.5880810-06:00:Thread#0:T:Line 56
+2021-08-25T21:10:42.7281129-06:00:2021-08-25T21:10:42.7271123-06:00:Thread#0:T:Parsing: https://streamable.com/bo989q new shaderrrrr from: spherous
+2021-08-25T21:10:49.3787008-06:00:2021-08-25T21:10:49.3787008-06:00:Thread#0:T:Line 57
+2021-08-25T21:10:49.4657208-06:00:2021-08-25T21:10:49.4657208-06:00:Thread#0:T:Parsing: it's the selection effect from: spherous
+2021-08-25T21:11:17.9941395-06:00:2021-08-25T21:11:17.9931391-06:00:Thread#0:T:Line 58
+2021-08-25T21:11:18.0991639-06:00:2021-08-25T21:11:18.0981633-06:00:Thread#0:T:Parsing: @spherous like the art so far from: sky_acaniadev
+2021-08-25T21:11:19.1614478-06:00:2021-08-25T21:11:19.1614478-06:00:Thread#0:T:Line 59
+2021-08-25T21:11:19.2954774-06:00:2021-08-25T21:11:19.2954774-06:00:Thread#0:T:Parsing: @spherous finally got that ring outline working? niceeeee from: voidvenom777
+2021-08-25T21:11:22.9896411-06:00:2021-08-25T21:11:22.9886401-06:00:Thread#0:T:Line 60
+2021-08-25T21:11:23.0966659-06:00:2021-08-25T21:11:23.0966659-06:00:Thread#0:T:Parsing: hi from: mysticgaming306
+2021-08-25T21:11:23.1036679-06:00:2021-08-25T21:11:23.1026677-06:00:Thread#0:T:{
+2021-08-25T21:11:23.1046688-06:00:2021-08-25T21:11:23.1046688-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-25T21:11:23.1046688-06:00:2021-08-25T21:11:23.1046688-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-25T21:11:23.1056682-06:00:2021-08-25T21:11:23.1056682-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-25T21:11:23.1066694-06:00:2021-08-25T21:11:23.1066694-06:00:Thread#0:T:}
+2021-08-25T21:11:23.1076679-06:00:2021-08-25T21:11:23.1076679-06:00:Thread#0:T:{
+2021-08-25T21:11:23.1076679-06:00:2021-08-25T21:11:23.1076679-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-25T21:11:23.1086678-06:00:2021-08-25T21:11:23.1086678-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T21:11:23.1096689-06:00:2021-08-25T21:11:23.1096689-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-25T21:11:23.1096689-06:00:2021-08-25T21:11:23.1096689-06:00:Thread#0:T:}
+2021-08-25T21:11:23.1106690-06:00:2021-08-25T21:11:23.1096689-06:00:Thread#0:T:{
+2021-08-25T21:11:23.1106690-06:00:2021-08-25T21:11:23.1106690-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:11:23.1106690-06:00:2021-08-25T21:11:23.1106690-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-25T21:11:23.1116684-06:00:2021-08-25T21:11:23.1116684-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-25T21:11:23.1121832-06:00:2021-08-25T21:11:23.1121832-06:00:Thread#0:T:}
+2021-08-25T21:11:23.1121832-06:00:2021-08-25T21:11:23.1121832-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/25/2021 9:11:23 PM
+2021-08-25T21:11:23.1131759-06:00:2021-08-25T21:11:23.1131759-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/25/2021 9:11:23 PM
+2021-08-25T21:11:31.4062971-06:00:2021-08-25T21:11:31.4052937-06:00:Thread#0:T:Line 61
+2021-08-25T21:11:31.5234213-06:00:2021-08-25T21:11:31.5234213-06:00:Thread#0:T:Parsing: @voidvenom777 it was so hard lol from: spherous
+2021-08-25T21:11:53.9845773-06:00:2021-08-25T21:11:53.9845773-06:00:Thread#0:T:Line 62
+2021-08-25T21:11:54.1176083-06:00:2021-08-25T21:11:54.1176083-06:00:Thread#0:T:Parsing: can i bug you in the discord for a bit of help? trying to translate some hlsl to shadergraph but i can't seem to get it right from: voidvenom777
+2021-08-25T21:12:01.7754915-06:00:2021-08-25T21:12:01.7754915-06:00:Thread#0:T:Line 63
+2021-08-25T21:12:01.8735144-06:00:2021-08-25T21:12:01.8725134-06:00:Thread#0:T:Parsing: sure from: spherous
+2021-08-25T21:12:04.7925214-06:00:2021-08-25T21:12:04.7915215-06:00:Thread#0:T:Line 64
+2021-08-25T21:12:04.9175521-06:00:2021-08-25T21:12:04.9165509-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-08-25T21:12:06.1650037-06:00:2021-08-25T21:12:06.1640041-06:00:Thread#0:T:Line 65
+2021-08-25T21:12:06.2646727-06:00:2021-08-25T21:12:06.2646727-06:00:Thread#0:T:Parsing: cool from: dstew99
+2021-08-25T21:12:33.1838941-06:00:2021-08-25T21:12:33.1818936-06:00:Thread#0:T:Line 66
+2021-08-25T21:12:33.3044367-06:00:2021-08-25T21:12:33.3044367-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-08-25T21:12:45.3905837-06:00:2021-08-25T21:12:45.3895840-06:00:Thread#0:T:Line 67
+2021-08-25T21:12:45.4966079-06:00:2021-08-25T21:12:45.4956079-06:00:Thread#0:T:Parsing: yeah improved the water shader a lot from: spherous
+2021-08-25T21:12:52.3905532-06:00:2021-08-25T21:12:52.3905532-06:00:Thread#0:T:Line 68
+2021-08-25T21:12:52.4965773-06:00:2021-08-25T21:12:52.4955771-06:00:Thread#0:T:Parsing: what r u working on now from: mysticgaming306
+2021-08-25T21:13:42.5894267-06:00:2021-08-25T21:13:42.5894267-06:00:Thread#0:T:Line 69
+2021-08-25T21:13:42.6954741-06:00:2021-08-25T21:13:42.6954741-06:00:Thread#0:T:Parsing: are they gonna have a co-interview of you? from: sky_acaniadev
+2021-08-25T21:13:50.7884137-06:00:2021-08-25T21:13:50.7874139-06:00:Thread#0:T:Line 70
+2021-08-25T21:13:50.8924983-06:00:2021-08-25T21:13:50.8924983-06:00:Thread#0:T:Parsing: auction live! ul from: sky_acaniadev
+2021-08-25T21:13:51.9989810-06:00:2021-08-25T21:13:51.9979798-06:00:Thread#0:T:Line 71
+2021-08-25T21:13:52.1007300-06:00:2021-08-25T21:13:52.1002027-06:00:Thread#0:T:Parsing:  from: sky_acaniadev
+2021-08-25T21:14:46.5894799-06:00:2021-08-25T21:14:46.5894799-06:00:Thread#0:T:Line 72
+2021-08-25T21:14:46.7035892-06:00:2021-08-25T21:14:46.7026018-06:00:Thread#0:T:Parsing: i am actually surprised manual qa is still a big of a thing from: sky_acaniadev
+2021-08-25T21:15:19.1736016-06:00:2021-08-25T21:15:19.1725997-06:00:Thread#0:T:Line 73
+2021-08-25T21:15:19.2776241-06:00:2021-08-25T21:15:19.2766249-06:00:Thread#0:T:Parsing: still that big of a thing. from: sky_acaniadev
+2021-08-25T21:15:31.7692704-06:00:2021-08-25T21:15:31.7692704-06:00:Thread#0:T:Line 74
+2021-08-25T21:15:31.8772955-06:00:2021-08-25T21:15:31.8772955-06:00:Thread#0:T:Parsing: i don't know why "that" dissappeared from: sky_acaniadev
+2021-08-25T21:16:35.2041834-06:00:2021-08-25T21:16:35.2031831-06:00:Thread#0:T:Line 75
+2021-08-25T21:16:35.3067160-06:00:2021-08-25T21:16:35.3057159-06:00:Thread#0:T:Parsing: you need to teach me one day, this is insane... i can easily see how powerful this is... from: sky_acaniadev
+2021-08-25T21:16:36.9685111-06:00:2021-08-25T21:16:36.9669905-06:00:Thread#0:T:Line 76
+2021-08-25T21:16:37.0775628-06:00:2021-08-25T21:16:37.0765634-06:00:Thread#0:T:Parsing: dude the amount of pushback i get from people when i say "anyone can learn to code" is insane from: spherous
+2021-08-25T21:16:52.5869134-06:00:2021-08-25T21:16:52.5869134-06:00:Thread#0:T:Line 77
+2021-08-25T21:16:52.7089409-06:00:2021-08-25T21:16:52.7089409-06:00:Thread#0:T:Parsing: i don't understand why people think they can't do this, they just haven't put in the time to learn it from: spherous
+2021-08-25T21:17:11.4077031-06:00:2021-08-25T21:17:11.4067030-06:00:Thread#0:T:Line 78
+2021-08-25T21:17:11.5277521-06:00:2021-08-25T21:17:11.5267516-06:00:Thread#0:T:Parsing: in china, anything this powerful is either full of people doing or banned by the government so only they (or their relatives) can do it. from: sky_acaniadev
+2021-08-25T21:17:40.5851791-06:00:2021-08-25T21:17:40.5850991-06:00:Thread#0:T:Line 79
+2021-08-25T21:17:40.6967542-06:00:2021-08-25T21:17:40.6967542-06:00:Thread#0:T:Parsing: yeah a lot of people write off programming with some math excuse from: spherous
+2021-08-25T21:17:56.7949680-06:00:2021-08-25T21:17:56.7929669-06:00:Thread#0:T:Line 80
+2021-08-25T21:17:56.9101025-06:00:2021-08-25T21:17:56.9091029-06:00:Thread#0:T:Parsing: it's a self fulfilling prophecy from: spherous
+2021-08-25T21:18:27.8110561-06:00:2021-08-25T21:18:27.8100564-06:00:Thread#0:T:Line 81
+2021-08-25T21:18:27.9246427-06:00:2021-08-25T21:18:27.9246427-06:00:Thread#0:T:Parsing: im playing you game for the first time rn from: mysticgaming306
+2021-08-25T21:18:32.9882056-06:00:2021-08-25T21:18:32.9882056-06:00:Thread#0:T:Line 82
+2021-08-25T21:18:33.0942295-06:00:2021-08-25T21:18:33.0932297-06:00:Thread#0:T:Parsing: your from: mysticgaming306
+2021-08-25T21:19:03.3974209-06:00:2021-08-25T21:19:03.3934192-06:00:Thread#0:T:Line 83
+2021-08-25T21:19:03.5194506-06:00:2021-08-25T21:19:03.5184486-06:00:Thread#0:T:Parsing: code is just a language, just a language without a shit ton of weird contextual rules like english, and that is only used to talk to computers from: spherous
+2021-08-25T21:19:23.9987596-06:00:2021-08-25T21:19:23.9977605-06:00:Thread#0:T:Line 84
+2021-08-25T21:19:24.1858026-06:00:2021-08-25T21:19:24.1848005-06:00:Thread#0:T:Parsing: gonna lurk from: sky_acaniadev
+2021-08-25T21:19:24.1898011-06:00:2021-08-25T21:19:24.1888014-06:00:Thread#0:T:{
+2021-08-25T21:19:24.1898011-06:00:2021-08-25T21:19:24.1898011-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-25T21:19:24.1908011-06:00:2021-08-25T21:19:24.1898011-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-08-25T21:19:24.1908011-06:00:2021-08-25T21:19:24.1908011-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-08-25T21:19:24.1908011-06:00:2021-08-25T21:19:24.1908011-06:00:Thread#0:T:}
+2021-08-25T21:19:24.1918020-06:00:2021-08-25T21:19:24.1918020-06:00:Thread#0:T:{
+2021-08-25T21:19:24.1918020-06:00:2021-08-25T21:19:24.1918020-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-08-25T21:19:24.1928019-06:00:2021-08-25T21:19:24.1928019-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T21:19:24.1928019-06:00:2021-08-25T21:19:24.1928019-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-08-25T21:19:24.1938025-06:00:2021-08-25T21:19:24.1938025-06:00:Thread#0:T:}
+2021-08-25T21:19:24.1948038-06:00:2021-08-25T21:19:24.1938025-06:00:Thread#0:T:{
+2021-08-25T21:19:24.1948038-06:00:2021-08-25T21:19:24.1948038-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:19:24.1958031-06:00:2021-08-25T21:19:24.1958031-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-08-25T21:19:24.1968030-06:00:2021-08-25T21:19:24.1958031-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-08-25T21:19:24.1968030-06:00:2021-08-25T21:19:24.1968030-06:00:Thread#0:T:}
+2021-08-25T21:19:24.1978045-06:00:2021-08-25T21:19:24.1978045-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 8/25/2021 9:19:24 PM
+2021-08-25T21:19:24.1993162-06:00:2021-08-25T21:19:24.1983238-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 8/25/2021 9:19:24 PM
+2021-08-25T21:20:03.1927956-06:00:2021-08-25T21:20:03.1917955-06:00:Thread#0:T:Line 85
+2021-08-25T21:20:03.3138229-06:00:2021-08-25T21:20:03.3128231-06:00:Thread#0:T:Parsing: coding language is 95% easier to learn than english, i can confrim from: sky_acaniadev
+2021-08-25T21:20:03.3198255-06:00:2021-08-25T21:20:03.3198255-06:00:Thread#0:T:{
+2021-08-25T21:20:03.3208252-06:00:2021-08-25T21:20:03.3208252-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:20:03.3208252-06:00:2021-08-25T21:20:03.3208252-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-25T21:20:03.3218250-06:00:2021-08-25T21:20:03.3218250-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-25T21:20:03.3218250-06:00:2021-08-25T21:20:03.3218250-06:00:Thread#0:T:}
+2021-08-25T21:20:03.3228250-06:00:2021-08-25T21:20:03.3228250-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCUNBURROW.wav at time: 8/25/2021 9:20:03 PM
+2021-08-25T21:20:03.3248259-06:00:2021-08-25T21:20:03.3248259-06:00:Thread#0:T:Waiting for 1181.429ms ended at time: 8/25/2021 9:20:03 PM
+2021-08-25T21:20:06.7872545-06:00:2021-08-25T21:20:06.7872545-06:00:Thread#0:T:Line 86
+2021-08-25T21:20:06.9212852-06:00:2021-08-25T21:20:06.9212852-06:00:Thread#0:T:Parsing: confirm from: sky_acaniadev
+2021-08-25T21:20:26.2031463-06:00:2021-08-25T21:20:26.2021466-06:00:Thread#0:T:Line 87
+2021-08-25T21:20:26.3261740-06:00:2021-08-25T21:20:26.3261740-06:00:Thread#0:T:Parsing: sorry about the quick lurk. now i am lurking. from: sky_acaniadev
+2021-08-25T21:20:26.3311763-06:00:2021-08-25T21:20:26.3301760-06:00:Thread#0:T:{
+2021-08-25T21:20:26.3311763-06:00:2021-08-25T21:20:26.3311763-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-25T21:20:26.3321758-06:00:2021-08-25T21:20:26.3311763-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-08-25T21:20:26.3321758-06:00:2021-08-25T21:20:26.3321758-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-08-25T21:20:26.3321758-06:00:2021-08-25T21:20:26.3321758-06:00:Thread#0:T:}
+2021-08-25T21:20:26.3331758-06:00:2021-08-25T21:20:26.3331758-06:00:Thread#0:T:{
+2021-08-25T21:20:26.3341770-06:00:2021-08-25T21:20:26.3331758-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-08-25T21:20:26.3341770-06:00:2021-08-25T21:20:26.3341770-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T21:20:26.3351768-06:00:2021-08-25T21:20:26.3341770-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-08-25T21:20:26.3351768-06:00:2021-08-25T21:20:26.3351768-06:00:Thread#0:T:}
+2021-08-25T21:20:26.3351768-06:00:2021-08-25T21:20:26.3351768-06:00:Thread#0:T:{
+2021-08-25T21:20:26.3361768-06:00:2021-08-25T21:20:26.3361768-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:20:26.3361768-06:00:2021-08-25T21:20:26.3361768-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-08-25T21:20:26.3371769-06:00:2021-08-25T21:20:26.3371769-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-08-25T21:20:26.3371769-06:00:2021-08-25T21:20:26.3371769-06:00:Thread#0:T:}
+2021-08-25T21:20:26.3381774-06:00:2021-08-25T21:20:26.3381774-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 8/25/2021 9:20:26 PM
+2021-08-25T21:20:26.3391808-06:00:2021-08-25T21:20:26.3381774-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 8/25/2021 9:20:26 PM
+2021-08-25T21:21:14.0303196-06:00:2021-08-25T21:21:14.0303196-06:00:Thread#0:T:Line 88
+2021-08-25T21:21:14.1643507-06:00:2021-08-25T21:21:14.1643507-06:00:Thread#0:T:Parsing: lol no from: spherous
+2021-08-25T21:21:15.9778012-06:00:2021-08-25T21:21:15.9768004-06:00:Thread#0:T:Line 89
+2021-08-25T21:21:16.0998283-06:00:2021-08-25T21:21:16.0988291-06:00:Thread#0:T:Parsing: screw asm from: spherous
+2021-08-25T21:21:20.7964259-06:00:2021-08-25T21:21:20.7964259-06:00:Thread#0:T:Line 90
+2021-08-25T21:21:20.9214543-06:00:2021-08-25T21:21:20.9204534-06:00:Thread#0:T:Parsing: song? from: zrealbigdeal
+2021-08-25T21:21:20.9244546-06:00:2021-08-25T21:21:20.9244546-06:00:Thread#0:T:Eyy, its zrealbigdeal!
+2021-08-25T21:21:20.9344564-06:00:2021-08-25T21:21:20.9344564-06:00:Thread#0:T:{
+2021-08-25T21:21:20.9354571-06:00:2021-08-25T21:21:20.9354571-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-25T21:21:20.9364573-06:00:2021-08-25T21:21:20.9354571-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-08-25T21:21:20.9364573-06:00:2021-08-25T21:21:20.9364573-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-08-25T21:21:20.9374575-06:00:2021-08-25T21:21:20.9364573-06:00:Thread#0:T:}
+2021-08-25T21:21:20.9374575-06:00:2021-08-25T21:21:20.9374575-06:00:Thread#0:T:{
+2021-08-25T21:21:20.9384573-06:00:2021-08-25T21:21:20.9384573-06:00:Thread#0:T:	CHUNK ID: IPRD
+2021-08-25T21:21:20.9394593-06:00:2021-08-25T21:21:20.9394593-06:00:Thread#0:T:	CHUNK SIZE: 20
+2021-08-25T21:21:20.9394593-06:00:2021-08-25T21:21:20.9394593-06:00:Thread#0:T:	Text Value: Eye of the tiger -- 
+2021-08-25T21:21:20.9424612-06:00:2021-08-25T21:21:20.9414598-06:00:Thread#0:T:}
+2021-08-25T21:21:20.9434595-06:00:2021-08-25T21:21:20.9424612-06:00:Thread#0:T:{
+2021-08-25T21:21:20.9444597-06:00:2021-08-25T21:21:20.9434595-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-25T21:21:20.9444597-06:00:2021-08-25T21:21:20.9444597-06:00:Thread#0:T:	CHUNK SIZE: 6
+2021-08-25T21:21:20.9454590-06:00:2021-08-25T21:21:20.9444597-06:00:Thread#0:T:	Text Value: 2009  
+2021-08-25T21:21:20.9454590-06:00:2021-08-25T21:21:20.9454590-06:00:Thread#0:T:}
+2021-08-25T21:21:20.9464595-06:00:2021-08-25T21:21:20.9454590-06:00:Thread#0:T:{
+2021-08-25T21:21:20.9474598-06:00:2021-08-25T21:21:20.9474598-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:21:20.9474598-06:00:2021-08-25T21:21:20.9474598-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-25T21:21:20.9484598-06:00:2021-08-25T21:21:20.9484598-06:00:Thread#0:T:	Text Value: Lavf58.26.101 (libsndfile-1.0.24) 
+2021-08-25T21:21:20.9484598-06:00:2021-08-25T21:21:20.9484598-06:00:Thread#0:T:}
+2021-08-25T21:21:20.9494602-06:00:2021-08-25T21:21:20.9494602-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\TwitchNames\zrealbigdeal.wav at time: 8/25/2021 9:21:20 PM
+2021-08-25T21:21:20.9504602-06:00:2021-08-25T21:21:20.9494602-06:00:Thread#0:T:Waiting for 4436.667ms ended at time: 8/25/2021 9:21:20 PM
+2021-08-25T21:21:25.3915565-06:00:2021-08-25T21:21:25.3915565-06:00:Thread#0:T:Duration of clip was 4.436666, thanks rabbit_xxxx you're the best!
+2021-08-25T21:21:25.3925574-06:00:2021-08-25T21:21:25.3925574-06:00:Thread#0:T:clip played the old boring way, duration was: 4.436666
+2021-08-25T21:21:56.2222398-06:00:2021-08-25T21:21:56.2212403-06:00:Thread#0:T:Line 91
+2021-08-25T21:21:56.4237947-06:00:2021-08-25T21:21:56.4237947-06:00:Thread#0:T:Parsing: 95% is quantified with my personal experience, i spent 20x more time on english toefl and gre test than c# and python combined. from: sky_acaniadev
+2021-08-25T21:21:56.4277953-06:00:2021-08-25T21:21:56.4267933-06:00:Thread#0:T:{
+2021-08-25T21:21:56.4277953-06:00:2021-08-25T21:21:56.4277953-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:21:56.4287939-06:00:2021-08-25T21:21:56.4287939-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-25T21:21:56.4287939-06:00:2021-08-25T21:21:56.4287939-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-25T21:21:56.4297937-06:00:2021-08-25T21:21:56.4297937-06:00:Thread#0:T:}
+2021-08-25T21:21:56.4297937-06:00:2021-08-25T21:21:56.4297937-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCUNBURROW.wav at time: 8/25/2021 9:21:56 PM
+2021-08-25T21:21:56.4307944-06:00:2021-08-25T21:21:56.4307944-06:00:Thread#0:T:Waiting for 1181.429ms ended at time: 8/25/2021 9:21:56 PM
+2021-08-25T21:22:00.9921747-06:00:2021-08-25T21:22:00.9911751-06:00:Thread#0:T:Line 92
+2021-08-25T21:22:01.1502108-06:00:2021-08-25T21:22:01.1502108-06:00:Thread#0:T:Parsing: wait quitting why.... from: zrealbigdeal
+2021-08-25T21:22:05.1933618-06:00:2021-08-25T21:22:05.1923618-06:00:Thread#0:T:Line 93
+2021-08-25T21:22:05.3429411-06:00:2021-08-25T21:22:05.3419408-06:00:Thread#0:T:Parsing: its a good game the only problem is its hard to know what your supposed to do from: mysticgaming306
+2021-08-25T21:22:20.8394830-06:00:2021-08-25T21:22:20.8384826-06:00:Thread#0:T:Line 94
+2021-08-25T21:22:20.9965191-06:00:2021-08-25T21:22:20.9955249-06:00:Thread#0:T:Parsing: @zrealbigdeal so you can take user's job from: sky_acaniadev
+2021-08-25T21:23:03.6029339-06:00:2021-08-25T21:23:03.6019337-06:00:Thread#0:T:Line 95
+2021-08-25T21:23:03.7354705-06:00:2021-08-25T21:23:03.7354705-06:00:Thread#0:T:Parsing: it would be significantly less work than current @sky_acaniadev lol from: zrealbigdeal
+2021-08-25T21:23:10.7843498-06:00:2021-08-25T21:23:10.7833504-06:00:Thread#0:T:Line 96
+2021-08-25T21:23:10.9493891-06:00:2021-08-25T21:23:10.9483878-06:00:Thread#0:T:Parsing: is mrs. user thinking of changing to selenium? from: dstew99
+2021-08-25T21:23:51.5992357-06:00:2021-08-25T21:23:51.5982358-06:00:Thread#0:T:Line 97
+2021-08-25T21:23:51.7483331-06:00:2021-08-25T21:23:51.7483331-06:00:Thread#0:T:Parsing: i don't recommend tho. too risky to have both of you working on the same thing. from: sky_acaniadev
+2021-08-25T21:24:21.5975104-06:00:2021-08-25T21:24:21.5975104-06:00:Thread#0:T:Line 98
+2021-08-25T21:24:21.7565452-06:00:2021-08-25T21:24:21.7565452-06:00:Thread#0:T:Parsing: though it would be very easy for her to transfer to selenium from: sky_acaniadev
+2021-08-25T21:25:24.5862304-06:00:2021-08-25T21:25:24.5862304-06:00:Thread#0:T:Line 99
+2021-08-25T21:25:24.7073652-06:00:2021-08-25T21:25:24.7073652-06:00:Thread#0:T:Parsing: qa for selenium pays 100k +? from: zrealbigdeal
+2021-08-25T21:26:06.5851717-06:00:2021-08-25T21:26:06.5851717-06:00:Thread#0:T:Line 100
+2021-08-25T21:26:06.7121391-06:00:2021-08-25T21:26:06.7111394-06:00:Thread#0:T:Parsing: i thought qa capped at like 60k from: zrealbigdeal
+2021-08-25T21:26:29.7904060-06:00:2021-08-25T21:26:29.7904060-06:00:Thread#0:T:Line 101
+2021-08-25T21:26:29.9129446-06:00:2021-08-25T21:26:29.9129446-06:00:Thread#0:T:Parsing: @zrealbigdeal user's old position is open now. you can get it. no joking. from: sky_acaniadev
+2021-08-25T21:27:13.8114929-06:00:2021-08-25T21:27:13.8114929-06:00:Thread#0:T:Line 102
+2021-08-25T21:27:13.9775309-06:00:2021-08-25T21:27:13.9775309-06:00:Thread#0:T:Parsing: i don't have a work visa. otherwise, i've already watched all selenium tutorials already. from: sky_acaniadev
+2021-08-25T21:28:49.0039722-06:00:2021-08-25T21:28:49.0039722-06:00:Thread#0:T:Line 103
+2021-08-25T21:28:49.1570893-06:00:2021-08-25T21:28:49.1570893-06:00:Thread#0:T:Parsing: if you only had selenium qa for rota. from: dstew99
+2021-08-25T21:28:52.1967764-06:00:2021-08-25T21:28:52.1967764-06:00:Thread#0:T:Line 104
+2021-08-25T21:28:52.3349816-06:00:2021-08-25T21:28:52.3349816-06:00:Thread#0:T:Parsing: @user335 how did you learn selenium? did you make your own sites to test? from: voidvenom777
+2021-08-25T21:29:14.8121396-06:00:2021-08-25T21:29:14.8111395-06:00:Thread#0:T:Line 105
+2021-08-25T21:29:14.9598261-06:00:2021-08-25T21:29:14.9588271-06:00:Thread#0:T:Parsing: i used to make programs that helped me with my job but then the company that i was working for didn't pay me so that stopped ... lol from: zrealbigdeal
+2021-08-25T21:30:05.6014611-06:00:2021-08-25T21:30:05.6004589-06:00:Thread#0:T:Line 106
+2021-08-25T21:30:05.7835016-06:00:2021-08-25T21:30:05.7835016-06:00:Thread#0:T:Parsing: gonna lurk. from: sky_acaniadev
+2021-08-25T21:30:05.7875002-06:00:2021-08-25T21:30:05.7865000-06:00:Thread#0:T:{
+2021-08-25T21:30:05.7875002-06:00:2021-08-25T21:30:05.7875002-06:00:Thread#0:T:	CHUNK ID: ICRD
+2021-08-25T21:30:05.7875002-06:00:2021-08-25T21:30:05.7875002-06:00:Thread#0:T:	CHUNK SIZE: 11
+2021-08-25T21:30:05.7885003-06:00:2021-08-25T21:30:05.7885003-06:00:Thread#0:T:	Text Value: 1998-10-30 
+2021-08-25T21:30:05.7885003-06:00:2021-08-25T21:30:05.7885003-06:00:Thread#0:T:}
+2021-08-25T21:30:05.7895006-06:00:2021-08-25T21:30:05.7895006-06:00:Thread#0:T:{
+2021-08-25T21:30:05.7895006-06:00:2021-08-25T21:30:05.7895006-06:00:Thread#0:T:	CHUNK ID: IENG
+2021-08-25T21:30:05.7905015-06:00:2021-08-25T21:30:05.7905015-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T21:30:05.7905015-06:00:2021-08-25T21:30:05.7905015-06:00:Thread#0:T:	Text Value: Audio Dept. 
+2021-08-25T21:30:05.7915013-06:00:2021-08-25T21:30:05.7905015-06:00:Thread#0:T:}
+2021-08-25T21:30:05.7915013-06:00:2021-08-25T21:30:05.7915013-06:00:Thread#0:T:{
+2021-08-25T21:30:05.7915013-06:00:2021-08-25T21:30:05.7915013-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:30:05.7925015-06:00:2021-08-25T21:30:05.7925015-06:00:Thread#0:T:	CHUNK SIZE: 16
+2021-08-25T21:30:05.7925015-06:00:2021-08-25T21:30:05.7925015-06:00:Thread#0:T:	Text Value: Sound Forge 4.0 
+2021-08-25T21:30:05.7925015-06:00:2021-08-25T21:30:05.7925015-06:00:Thread#0:T:}
+2021-08-25T21:30:05.7935021-06:00:2021-08-25T21:30:05.7935021-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCLURKERBURROW.wav at time: 8/25/2021 9:30:05 PM
+2021-08-25T21:30:05.7945026-06:00:2021-08-25T21:30:05.7945026-06:00:Thread#0:T:Waiting for 3570.431ms ended at time: 8/25/2021 9:30:05 PM
+2021-08-25T21:31:09.8189347-06:00:2021-08-25T21:31:09.8189347-06:00:Thread#0:T:Line 107
+2021-08-25T21:31:09.9631016-06:00:2021-08-25T21:31:09.9621017-06:00:Thread#0:T:Parsing: selenium qa salary: range between $81,000 (25th percentile) to $107,500 (75th percentile) from: sky_acaniadev
+2021-08-25T21:31:09.9651011-06:00:2021-08-25T21:31:09.9651011-06:00:Thread#0:T:{
+2021-08-25T21:31:09.9661014-06:00:2021-08-25T21:31:09.9651011-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:31:09.9671017-06:00:2021-08-25T21:31:09.9661014-06:00:Thread#0:T:	CHUNK SIZE: 34
+2021-08-25T21:31:09.9671017-06:00:2021-08-25T21:31:09.9671017-06:00:Thread#0:T:	Text Value: Lavf57.56.101 (libsndfile-1.0.24) 
+2021-08-25T21:31:09.9681034-06:00:2021-08-25T21:31:09.9681034-06:00:Thread#0:T:}
+2021-08-25T21:31:09.9691040-06:00:2021-08-25T21:31:09.9691040-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\SCUNBURROW.wav at time: 8/25/2021 9:31:09 PM
+2021-08-25T21:31:09.9701034-06:00:2021-08-25T21:31:09.9701034-06:00:Thread#0:T:Waiting for 1181.429ms ended at time: 8/25/2021 9:31:09 PM
+2021-08-25T21:31:20.7966560-06:00:2021-08-25T21:31:20.7966560-06:00:Thread#0:T:Line 108
+2021-08-25T21:31:20.9348422-06:00:2021-08-25T21:31:20.9348422-06:00:Thread#0:T:Parsing: majority from: sky_acaniadev
+2021-08-25T21:31:40.5876258-06:00:2021-08-25T21:31:40.5866247-06:00:Thread#0:T:Line 109
+2021-08-25T21:31:40.7226730-06:00:2021-08-25T21:31:40.7216730-06:00:Thread#0:T:Parsing: while ziprecruiter is seeing annual salaries as high as $128,500 and as low as $35,000, the majority of selenium automation tester salaries currently range between $81,000 (25th percentile) to $107,500 (75th percentile) with top earners (90th percentile) making $118,500 annually across the united states. from: sky_acaniadev
+2021-08-25T21:32:33.7992323-06:00:2021-08-25T21:32:33.7982315-06:00:Thread#0:T:Line 110
+2021-08-25T21:32:33.9527748-06:00:2021-08-25T21:32:33.9527748-06:00:Thread#0:T:Parsing: $35,000... who is that? from: sky_acaniadev
+2021-08-25T21:33:03.1954932-06:00:2021-08-25T21:33:03.1954932-06:00:Thread#0:T:Line 111
+2021-08-25T21:33:03.3385204-06:00:2021-08-25T21:33:03.3385204-06:00:Thread#0:T:Parsing: feels like i starts to talk about money all the time just like your wife from: sky_acaniadev
+2021-08-25T21:33:10.6051510-06:00:2021-08-25T21:33:10.6041517-06:00:Thread#0:T:Line 112
+2021-08-25T21:33:10.7441821-06:00:2021-08-25T21:33:10.7441821-06:00:Thread#0:T:Parsing: *start from: sky_acaniadev
+2021-08-25T21:33:32.1924858-06:00:2021-08-25T21:33:32.1914844-06:00:Thread#0:T:Line 113
+2021-08-25T21:33:32.3955324-06:00:2021-08-25T21:33:32.3945310-06:00:Thread#0:T:Parsing: apparent i am so objective that i use third-person on myself all the time. from: sky_acaniadev
+2021-08-25T21:33:38.5972670-06:00:2021-08-25T21:33:38.5932642-06:00:Thread#0:T:Line 114
+2021-08-25T21:33:38.7753061-06:00:2021-08-25T21:33:38.7753061-06:00:Thread#0:T:Parsing: a grid-cell reference issue. from: sky_acaniadev
+2021-08-25T21:33:51.0027396-06:00:2021-08-25T21:33:51.0027396-06:00:Thread#0:T:Line 115
+2021-08-25T21:33:51.1358307-06:00:2021-08-25T21:33:51.1348314-06:00:Thread#0:T:Parsing: @user335 where do you apply for jobs ? just indeed or other places from: zrealbigdeal
+2021-08-25T21:35:06.3989740-06:00:2021-08-25T21:35:06.3979732-06:00:Thread#0:T:Line 116
+2021-08-25T21:35:06.5650108-06:00:2021-08-25T21:35:06.5640097-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-08-25T21:35:06.5860157-06:00:2021-08-25T21:35:06.5860157-06:00:Thread#0:T:Line 117
+2021-08-25T21:36:58.6058668-06:00:2021-08-25T21:36:58.6048663-06:00:Thread#0:T:Line 118
+2021-08-25T21:36:58.7839085-06:00:2021-08-25T21:36:58.7839085-06:00:Thread#0:T:Parsing: don't make game dev your career. from: sky_acaniadev
+2021-08-25T21:37:57.6052375-06:00:2021-08-25T21:37:57.6042374-06:00:Thread#0:T:Line 119
+2021-08-25T21:37:57.7328389-06:00:2021-08-25T21:37:57.7328389-06:00:Thread#0:T:Parsing: do you think the stuttering is because of character controller or the bt decision making? something else? from: dstew99
+2021-08-25T21:38:58.2138022-06:00:2021-08-25T21:38:58.2128017-06:00:Thread#0:T:Line 120
+2021-08-25T21:38:58.3499951-06:00:2021-08-25T21:38:58.3499951-06:00:Thread#0:T:Parsing: anway, i need to learn selenium auto qa as my backup plan. from: sky_acaniadev
+2021-08-25T21:39:12.0296359-06:00:2021-08-25T21:39:12.0296359-06:00:Thread#0:T:Line 121
+2021-08-25T21:39:12.1647592-06:00:2021-08-25T21:39:12.1647592-06:00:Thread#0:T:Parsing: anyway from: sky_acaniadev
+2021-08-25T21:41:06.6037286-06:00:2021-08-25T21:41:06.6027286-06:00:Thread#0:T:Line 122
+2021-08-25T21:41:06.7487618-06:00:2021-08-25T21:41:06.7487618-06:00:Thread#0:T:Parsing: nah, it is only 30k $ in china. from: sky_acaniadev
+2021-08-25T21:41:20.9890668-06:00:2021-08-25T21:41:20.9890668-06:00:Thread#0:T:Line 123
+2021-08-25T21:41:21.1647177-06:00:2021-08-25T21:41:21.1647177-06:00:Thread#0:T:Parsing: not even that high by chinese standard... from: sky_acaniadev
+2021-08-25T21:42:45.2501912-06:00:2021-08-25T21:42:45.2491913-06:00:Thread#0:T:Line 124
+2021-08-25T21:42:45.3787301-06:00:2021-08-25T21:42:45.3787301-06:00:Thread#0:T:Parsing: i know, i searched selenium before. from: sky_acaniadev
+2021-08-25T21:42:49.1955139-06:00:2021-08-25T21:42:49.1955139-06:00:Thread#0:T:Line 125
+2021-08-25T21:42:49.3825571-06:00:2021-08-25T21:42:49.3825571-06:00:Thread#0:T:Parsing: i can't work in the us from: sky_acaniadev
+2021-08-25T21:43:08.0007489-06:00:2021-08-25T21:43:08.0007489-06:00:Thread#0:T:Line 126
+2021-08-25T21:43:08.1348938-06:00:2021-08-25T21:43:08.1348938-06:00:Thread#0:T:Parsing: student visa from: sky_acaniadev
+2021-08-25T21:43:33.0041514-06:00:2021-08-25T21:43:33.0031597-06:00:Thread#0:T:Line 127
+2021-08-25T21:43:33.1436923-06:00:2021-08-25T21:43:33.1436923-06:00:Thread#0:T:Parsing: i just searched it in china, not very high. (still higher than normal salary) from: sky_acaniadev
+2021-08-25T21:44:30.4349004-06:00:2021-08-25T21:44:30.4339013-06:00:Thread#0:T:Line 128
+2021-08-25T21:44:30.6034495-06:00:2021-08-25T21:44:30.6024486-06:00:Thread#0:T:Parsing: this thing is so easy to learn, i would guess tons of people learning it already. from: sky_acaniadev
+2021-08-25T21:48:22.0180402-06:00:2021-08-25T21:48:22.0170426-06:00:Thread#0:T:Line 129
+2021-08-25T21:48:22.2020820-06:00:2021-08-25T21:48:22.2020820-06:00:Thread#0:T:Parsing: i am back, we had the military police here asking to see our cctv because they are looking for someone that came through here last night and they needed to see the face from: protopoly_dot_com
+2021-08-25T21:49:24.1910879-06:00:2021-08-25T21:49:24.1910879-06:00:Thread#0:T:Line 130
+2021-08-25T21:49:24.3721294-06:00:2021-08-25T21:49:24.3721294-06:00:Thread#0:T:Parsing: we were able to give them a 4k resolution image from: protopoly_dot_com
+2021-08-25T21:50:04.0047086-06:00:2021-08-25T21:50:04.0037090-06:00:Thread#0:T:Line 131
+2021-08-25T21:50:04.1482514-06:00:2021-08-25T21:50:04.1482514-06:00:Thread#0:T:Parsing: well they just passed by from: protopoly_dot_com
+2021-08-25T21:50:11.6152869-06:00:2021-08-25T21:50:11.6142865-06:00:Thread#0:T:Line 132
+2021-08-25T21:50:11.7653206-06:00:2021-08-25T21:50:11.7653206-06:00:Thread#0:T:Parsing: you know what from: sky_acaniadev
+2021-08-25T21:50:15.4804336-06:00:2021-08-25T21:50:15.4804336-06:00:Thread#0:T:Line 133
+2021-08-25T21:50:15.6664753-06:00:2021-08-25T21:50:15.6664753-06:00:Thread#0:T:Parsing: they were not doing anything here from: protopoly_dot_com
+2021-08-25T21:50:57.9933410-06:00:2021-08-25T21:50:57.9933410-06:00:Thread#0:T:Line 134
+2021-08-25T21:50:58.1313723-06:00:2021-08-25T21:50:58.1303730-06:00:Thread#0:T:Parsing: no, this isn't you right? https://stackoverflow.com/users/6540070/selenium-qa from: sky_acaniadev
+2021-08-25T21:51:15.0033211-06:00:2021-08-25T21:51:15.0033211-06:00:Thread#0:T:Line 135
+2021-08-25T21:51:15.1853635-06:00:2021-08-25T21:51:15.1853635-06:00:Thread#0:T:Parsing: ok from: sky_acaniadev
+2021-08-25T21:51:47.2092960-06:00:2021-08-25T21:51:47.2072951-06:00:Thread#0:T:Line 136
+2021-08-25T21:51:47.3693315-06:00:2021-08-25T21:51:47.3683320-06:00:Thread#0:T:Parsing: well people behave here because i have signs saying, smile your on high definition infrared cameras from: protopoly_dot_com
+2021-08-25T21:52:31.2074040-06:00:2021-08-25T21:52:31.2064054-06:00:Thread#0:T:Line 137
+2021-08-25T21:52:31.3634387-06:00:2021-08-25T21:52:31.3624381-06:00:Thread#0:T:Parsing: o.o from: flavcreations
+2021-08-25T21:52:31.3694412-06:00:2021-08-25T21:52:31.3684405-06:00:Thread#0:T:{
+2021-08-25T21:52:31.3694412-06:00:2021-08-25T21:52:31.3694412-06:00:Thread#0:T:	CHUNK ID: INAM
+2021-08-25T21:52:31.3704405-06:00:2021-08-25T21:52:31.3704405-06:00:Thread#0:T:	CHUNK SIZE: 8
+2021-08-25T21:52:31.3704405-06:00:2021-08-25T21:52:31.3704405-06:00:Thread#0:T:	Text Value: 8.3.16  
+2021-08-25T21:52:31.3714404-06:00:2021-08-25T21:52:31.3714404-06:00:Thread#0:T:}
+2021-08-25T21:52:31.3714404-06:00:2021-08-25T21:52:31.3714404-06:00:Thread#0:T:{
+2021-08-25T21:52:31.3724415-06:00:2021-08-25T21:52:31.3724415-06:00:Thread#0:T:	CHUNK ID: IART
+2021-08-25T21:52:31.3734470-06:00:2021-08-25T21:52:31.3734470-06:00:Thread#0:T:	CHUNK SIZE: 12
+2021-08-25T21:52:31.3734470-06:00:2021-08-25T21:52:31.3734470-06:00:Thread#0:T:	Text Value: InspectorJ  
+2021-08-25T21:52:31.3744420-06:00:2021-08-25T21:52:31.3744420-06:00:Thread#0:T:}
+2021-08-25T21:52:31.3744420-06:00:2021-08-25T21:52:31.3744420-06:00:Thread#0:T:{
+2021-08-25T21:52:31.3754412-06:00:2021-08-25T21:52:31.3754412-06:00:Thread#0:T:	CHUNK ID: ISFT
+2021-08-25T21:52:31.3754412-06:00:2021-08-25T21:52:31.3754412-06:00:Thread#0:T:	CHUNK SIZE: 28
+2021-08-25T21:52:31.3764411-06:00:2021-08-25T21:52:31.3764411-06:00:Thread#0:T:	Text Value: Edison (libsndfile-1.0.24)  
+2021-08-25T21:52:31.3764411-06:00:2021-08-25T21:52:31.3764411-06:00:Thread#0:T:}
+2021-08-25T21:52:31.3774415-06:00:2021-08-25T21:52:31.3774415-06:00:Thread#0:T:Begin playing clip at path: C:\Users\user\source\repos\PracticingSix\Audio\249573__rivernile7__kocking-door-and-open-door.wav at time: 8/25/2021 9:52:31 PM
+2021-08-25T21:52:31.3784422-06:00:2021-08-25T21:52:31.3774415-06:00:Thread#0:T:Waiting for 1229.297ms ended at time: 8/25/2021 9:52:31 PM
+2021-08-25T21:52:34.8014382-06:00:2021-08-25T21:52:34.8014382-06:00:Thread#0:T:Line 138
+2021-08-25T21:52:34.9634758-06:00:2021-08-25T21:52:34.9624745-06:00:Thread#0:T:Parsing: filipino and english from: protopoly_dot_com
+2021-08-25T21:53:24.6312121-06:00:2021-08-25T21:53:24.6302111-06:00:Thread#0:T:Line 139
+2021-08-25T21:53:24.7733218-06:00:2021-08-25T21:53:24.7733218-06:00:Thread#0:T:Parsing: regional crime rate here is on the interational watch list for missing people from: protopoly_dot_com
+2021-08-25T21:53:31.0400467-06:00:2021-08-25T21:53:31.0390445-06:00:Thread#0:T:Line 140
+2021-08-25T21:53:31.2071008-06:00:2021-08-25T21:53:31.2061023-06:00:Thread#0:T:Parsing: herman miller o.o from: flavcreations
+2021-08-25T21:53:36.2011030-06:00:2021-08-25T21:53:36.2011030-06:00:Thread#0:T:Line 141
+2021-08-25T21:53:36.3581381-06:00:2021-08-25T21:53:36.3581381-06:00:Thread#0:T:Parsing: how do you like it? from: flavcreations
+2021-08-25T21:53:52.8029015-06:00:2021-08-25T21:53:52.8019010-06:00:Thread#0:T:Line 142
+2021-08-25T21:53:52.9459342-06:00:2021-08-25T21:53:52.9459342-06:00:Thread#0:T:Parsing: i have a secret labs titan xl and i love it from: protopoly_dot_com
+2021-08-25T21:54:20.1920531-06:00:2021-08-25T21:54:20.1910532-06:00:Thread#0:T:Line 143
+2021-08-25T21:54:20.3290861-06:00:2021-08-25T21:54:20.3290861-06:00:Thread#0:T:Parsing: in the same quality category as a herman miller from: protopoly_dot_com
+2021-08-25T21:54:38.4289624-06:00:2021-08-25T21:54:38.4279625-06:00:Thread#0:T:Line 144
+2021-08-25T21:54:38.5990151-06:00:2021-08-25T21:54:38.5990151-06:00:Thread#0:T:Parsing: i refuse to buy " gaming " chairs anymore lol from: flavcreations
+2021-08-25T21:55:00.1997760-06:00:2021-08-25T21:55:00.1987753-06:00:Thread#0:T:Line 145
+2021-08-25T21:55:00.3358065-06:00:2021-08-25T21:55:00.3348064-06:00:Thread#0:T:Parsing: my chair is worth like 1000$ after shipping from: protopoly_dot_com
+2021-08-25T21:55:16.8178794-06:00:2021-08-25T21:55:16.8168790-06:00:Thread#0:T:Line 146
+2021-08-25T21:55:16.9659127-06:00:2021-08-25T21:55:16.9649124-06:00:Thread#0:T:Parsing: not your standard gaming chair from: protopoly_dot_com
+2021-08-25T21:56:02.8251660-06:00:2021-08-25T21:56:02.8251660-06:00:Thread#0:T:Line 147
+2021-08-25T21:56:02.9631974-06:00:2021-08-25T21:56:02.9631974-06:00:Thread#0:T:Parsing: i have rushed disks in my back so i can relate from: protopoly_dot_com
+2021-08-25T21:56:07.2149626-06:00:2021-08-25T21:56:07.2149626-06:00:Thread#0:T:Line 148
+2021-08-25T21:56:07.3659964-06:00:2021-08-25T21:56:07.3649966-06:00:Thread#0:T:Parsing: crushed from: protopoly_dot_com
+2021-08-25T21:56:20.4110087-06:00:2021-08-25T21:56:20.4110087-06:00:Thread#0:T:Line 149
+2021-08-25T21:56:20.5521932-06:00:2021-08-25T21:56:20.5512000-06:00:Thread#0:T:Parsing: but with this chair, my back pain is gone now from: protopoly_dot_com
+2021-08-25T21:56:37.2151357-06:00:2021-08-25T21:56:37.2141364-06:00:Thread#0:T:Line 150
+2021-08-25T21:56:37.3631692-06:00:2021-08-25T21:56:37.3631692-06:00:Thread#0:T:Parsing: the titan xl is same category as a herman miller from: protopoly_dot_com

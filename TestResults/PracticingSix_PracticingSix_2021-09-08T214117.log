@@ -1,0 +1,168 @@
+﻿2021-09-08T21:41:17.8120946-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-09-08T21:41:17.8120946-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-09-08T21:41:17.8120946-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-09-08T21:41:17.8120946-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-09-08T21:41:17.9202524-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-09-08T21:41:17.9202524-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-09-08T21:41:17.9202524-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-09-08T21:41:17.9608697-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-09-08T214117.log
+2021-09-08T21:41:17.9668701-06:00;Thread#13;Info;Checking activation
+2021-09-08T21:41:18.0517601-06:00;Thread#13;Info;Activated.
+2021-09-08T21:41:18.0517601-06:00;Thread#13;Info;Activation check completed
+2021-09-08T21:41:18.0517601-06:00;Thread#13;Info;Starting test run
+2021-09-08T21:41:18.0891515-06:00;Thread#13;Info;Discovering target: Default
+2021-09-08T21:41:18.0891515-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-09-08T21:41:18.3979195-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-09-08T21:41:18.3989201-06:00:Test Suite Dump
+2021-09-08T21:41:18.4009295-06:00:#0: PracticingSix/PracticingSix - 
+2021-09-08T21:41:18.4009295-06:00:#1: Default - 
+2021-09-08T21:41:18.4009295-06:00:#2: PracticingSix - 
+2021-09-08T21:41:18.4009295-06:00:#4: Twitch Bot! - 
+2021-09-08T21:41:18.4339380-06:00:#5: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-09-08T21:41:18.4339380-06:00:End: Test Suite Dump
+2021-09-08T21:41:18.4679408-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-09-08T21:41:18.4709432-06:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2021-09-08T21:41:18.4709432-06:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2021-09-08T21:41:18.4759518-06:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2021-09-08T21:41:18.4759518-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2021-09-08T21:41:18.4759518-06:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:True
+2021-09-08T21:41:18.4759518-06:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2021-09-08T21:41:18.4769527-06:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2021-09-08T21:41:18.4779528-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-09-08T21:41:18.4779528-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-09-08T21:41:18.4779528-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-09-08T21:41:18.4779528-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-09-08T21:41:18.4779528-06:00:Thread#1:Scheduler: No more tests for thread
+2021-09-08T21:41:18.4799529-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-09-08T21:41:18.4819432-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-09-08T21:41:18.5094754-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-09-08T21:41:18.5114845-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-09-08T21:41:18.5134848-06:00:starting Out Of Process Executor
+2021-09-08T21:41:18.5269962-06:00:Starting callback TCP Rpc server
+2021-09-08T21:41:18.5400145-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-09-08T21:41:18.5400145-06:00:Started callback TCP Rpc server on port 32768
+2021-09-08T21:41:18.5400145-06:00:Starting logger TCP Rpc server
+2021-09-08T21:41:18.5430248-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-09-08T21:41:18.5430248-06:00:Started logger TCP Rpc server on port 32769
+2021-09-08T21:41:18.5475385-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 6192 --uniqueId "2021-09-08T214117" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-09-08T21:41:18.5715400-06:00:Executor with PID 9032 has been started successfully.
+2021-09-08T21:41:18.5735397-06:00:Out of Process Executor 9032 started
+2021-09-08T21:41:18.5735397-06:00:Waiting for endpoint
+2021-09-08T21:41:19.1926637-06:00:Remote executor port received: 32770
+2021-09-08T21:41:19.1926637-06:00:Creating executor TCP client on port 32770
+2021-09-08T21:41:19.1936638-06:00:Created executor TCP client on port 32770
+2021-09-08T21:41:19.1936638-06:00:Connecting to remote executor TCP server
+2021-09-08T21:41:19.1936638-06:00:Connected remote executor TCP server
+2021-09-08T21:41:19.1936638-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-09-08T21:41:19.1936638-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-09-08T21:41:19.6459101-06:00:2021-09-08T21:41:19.6449108-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-09-08T21:41:19.6519118-06:00:Endpoint 9032 started
+2021-09-08T21:41:19.6679187-06:00:2021-09-08T21:41:19.6679187-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-09-08T21:41:20.0076822-06:00:2021-09-08T21:41:20.0076822-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-09-08T21:41:20.0367126-06:00:2021-09-08T21:41:20.0367126-06:00:Thread#0:T:-> Using default config
+2021-09-08T21:41:20.9420885-06:00:2021-09-08T21:41:20.9420885-06:00:Thread#0:T:Starting the driver...
+2021-09-08T21:41:22.3864104-06:00:2021-09-08T21:41:22.3864104-06:00:OutOfProcessTestAssemblyExecutor: RunTest error: System.Runtime.Serialization.SerializationException: Unable to find assembly 'WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null'.
+
+Server stack trace: 
+   at System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo.GetAssembly()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetType(BinaryAssemblyInfo assemblyInfo, String name)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectMap..ctor(String objectName, String[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, Object[] typeInformationA, Int32[] memberAssemIds, ObjectReader objectReader, Int32 objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryObjectWithMapTyped record)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryHeaderEnum binaryHeaderEnum)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Remoting.Channels.CrossAppDomainSerializer.DeserializeObject(MemoryStream stm)
+   at System.Runtime.Remoting.Messaging.SmuggledMethodReturnMessage.FixupForNewAppDomain()
+   at System.Runtime.Remoting.Channels.CrossAppDomainSink.SyncProcessMessage(IMessage reqMsg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+2021-09-08T21:41:22.3874112-06:00:2021-09-08T21:41:22.3864104-06:00:OutOfProcessTestAssemblyExecutorReceiver - Error at RunTests - System.Runtime.Serialization.SerializationException: Unable to find assembly 'WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null'.
+
+Server stack trace: 
+   at System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo.GetAssembly()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetType(BinaryAssemblyInfo assemblyInfo, String name)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectMap..ctor(String objectName, String[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, Object[] typeInformationA, Int32[] memberAssemIds, ObjectReader objectReader, Int32 objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryObjectWithMapTyped record)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryHeaderEnum binaryHeaderEnum)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Remoting.Channels.CrossAppDomainSerializer.DeserializeObject(MemoryStream stm)
+   at System.Runtime.Remoting.Messaging.SmuggledMethodReturnMessage.FixupForNewAppDomain()
+   at System.Runtime.Remoting.Channels.CrossAppDomainSink.SyncProcessMessage(IMessage reqMsg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProcess.OutOfProcessTestAssemblyExecutorReceiver.RunTests(TestThreadState testThreadState)
+2021-09-08T21:41:22.4094469-06:00:test thread #0 error: StreamJsonRpc.RemoteInvocationException: Unable to find assembly 'WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+2021-09-08T21:41:22.4094469-06:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> StreamJsonRpc.RemoteInvocationException: Unable to find assembly 'WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at StreamJsonRpc.JsonRpc.<InvokeCoreAsync>d__88`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.TcpRpcClient.<Invoke>d__12`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at TechTalk.SpecFlow.Plus.RPC.AsyncHelper.RunSync[TResult](Func`1 func)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorClient.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   at TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   at TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+2021-09-08T21:41:22.4104404-06:00:Trying to cancel thread
+2021-09-08T21:41:22.4104404-06:00:Thread cancelled
+2021-09-08T21:41:22.4104404-06:00:Trying to cancel thread
+2021-09-08T21:41:22.4104404-06:00:Thread cancelled
+2021-09-08T21:41:22.4194746-06:00:Thread#-1: Test #5/0 is started on thread #-1
+2021-09-08T21:41:22.4214744-06:00:Thread#-1: Test #5/0 is finished on thread #-1 as Skipped within 0.0009999 seconds
+2021-09-08T21:41:22.4234747-06:00:Thread#-1:Scheduler: get next test for thread -1
+2021-09-08T21:41:22.4234747-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-09-08T21:41:22.4234747-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-09-08T21:41:22.4784874-06:00;Thread#13;Info;test run finished
+2021-09-08T21:41:22.4794879-06:00;Thread#13;Info;publishing test results
+2021-09-08T21:41:22.5345232-06:00;Thread#13;Info;test results published
+2021-09-08T21:41:22.5345232-06:00;Thread#13;Info;generating reports
+2021-09-08T21:41:22.6405919-06:00;Thread#13;Info;Starting external report generation process
+2021-09-08T21:41:23.8316268-06:00;Thread#13;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-09-08T21:41:23.8326266-06:00;Thread#13;Error;External program returned exit code '-2'
+2021-09-08T21:41:23.8326266-06:00;Thread#13;Info;Failed generating reports
+2021-09-08T21:41:23.8406281-06:00:Total: 1
+2021-09-08T21:41:23.8431369-06:00:Succeeded: 0
+2021-09-08T21:41:23.8431369-06:00:Ignored: 0
+2021-09-08T21:41:23.8441366-06:00:Pending: 0
+2021-09-08T21:41:23.8441366-06:00:Skipped: 1
+2021-09-08T21:41:23.8441366-06:00:Failed: 0
+2021-09-08T21:41:23.8461461-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

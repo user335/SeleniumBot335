@@ -1,0 +1,1418 @@
+﻿2021-05-31T20:54:20.1584471-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-31T20:54:20.1584471-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-31T20:54:20.1584471-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-31T20:54:20.1584471-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-31T20:54:20.3144830-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-05-31T20:54:20.3154840-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-31T20:54:20.3154840-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-31T20:54:20.3654943-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-31T205420.log
+2021-05-31T20:54:20.3764963-06:00;Thread#13;Info;Checking activation
+2021-05-31T20:54:20.4605155-06:00;Thread#13;Info;Activated.
+2021-05-31T20:54:20.4605155-06:00;Thread#13;Info;Activation check completed
+2021-05-31T20:54:20.4605155-06:00;Thread#13;Info;Starting test run
+2021-05-31T20:54:20.5025243-06:00;Thread#13;Info;Discovering target: Default
+2021-05-31T20:54:20.5025243-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-05-31T20:54:20.9021216-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-05-31T20:54:20.9041252-06:00:Test Suite Dump
+2021-05-31T20:54:20.9061222-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-31T20:54:20.9061222-06:00:#1: Default - 
+2021-05-31T20:54:20.9061222-06:00:#2: PracticingSix - 
+2021-05-31T20:54:20.9061222-06:00:#5: Twitch Bot! - 
+2021-05-31T20:54:20.9471308-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-05-31T20:54:20.9471308-06:00:End: Test Suite Dump
+2021-05-31T20:54:20.9881402-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T20:54:20.9901414-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-05-31T20:54:20.9901414-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T20:54:20.9951578-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T20:54:20.9951578-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T20:54:20.9951578-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T20:54:20.9951578-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T20:54:20.9961505-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T20:54:20.9971506-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-31T20:54:20.9971506-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-31T20:54:20.9971506-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-31T20:54:20.9971506-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-31T20:54:20.9971506-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-31T20:54:20.9991419-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-31T20:54:21.0011517-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-31T20:54:21.0041444-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-31T20:54:21.0071447-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-31T20:54:21.0091443-06:00:starting Out Of Process Executor
+2021-05-31T20:54:21.0141459-06:00:Starting callback TCP Rpc server
+2021-05-31T20:54:21.0311496-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-05-31T20:54:21.0311496-06:00:Started callback TCP Rpc server on port 32771
+2021-05-31T20:54:21.0311496-06:00:Starting logger TCP Rpc server
+2021-05-31T20:54:21.0351504-06:00:Asynchronously starting background TCP Rpc Server on port 32772
+2021-05-31T20:54:21.0351504-06:00:Started logger TCP Rpc server on port 32772
+2021-05-31T20:54:21.0411518-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 13236 --uniqueId "2021-05-31T205420" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32771 --loggerPort 32772' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-31T20:54:21.0471545-06:00:Executor with PID 24396 has been started successfully.
+2021-05-31T20:54:21.0491545-06:00:Out of Process Executor 24396 started
+2021-05-31T20:54:21.0491545-06:00:Waiting for endpoint
+2021-05-31T20:54:21.6282837-06:00:Remote executor port received: 32773
+2021-05-31T20:54:21.6292850-06:00:Creating executor TCP client on port 32773
+2021-05-31T20:54:21.6292850-06:00:Created executor TCP client on port 32773
+2021-05-31T20:54:21.6292850-06:00:Connecting to remote executor TCP server
+2021-05-31T20:54:21.6302868-06:00:Connected remote executor TCP server
+2021-05-31T20:54:21.6302868-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-31T20:54:21.6302868-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-31T20:54:22.3194393-06:00:2021-05-31T20:54:22.3184393-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-05-31T20:54:22.3274413-06:00:Endpoint 24396 started
+2021-05-31T20:54:22.3484465-06:00:2021-05-31T20:54:22.3474452-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-31T20:54:22.7975466-06:00:2021-05-31T20:54:22.7975466-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-31T20:54:22.8595615-06:00:2021-05-31T20:54:22.8595615-06:00:Thread#0:T:-> Using default config
+2021-05-31T20:54:23.9204701-06:00:2021-05-31T20:54:23.9204701-06:00:Thread#0:T:Starting the driver...
+2021-05-31T20:54:25.8515363-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-05-31T20:54:25.8945467-06:00:2021-05-31T20:54:25.8915460-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T20:54:25.9575807-06:00:2021-05-31T20:54:25.9565804-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T20:54:25.9605823-06:00:2021-05-31T20:54:25.9595810-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T20:54:27.7245473-06:00:2021-05-31T20:54:27.7245473-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (1.8s)
+2021-05-31T20:54:27.7325480-06:00:2021-05-31T20:54:27.7265467-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:31:12.5181514-06:00:2021-05-31T22:31:12.5171511-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:31:12.5191506-06:00:2021-05-31T22:31:12.5191506-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:31:12.5711641-06:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2021-05-31T22:31:12.5751642-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:31:12.5751642-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:31:12.5761652-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:31:12.5761652-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:31:12.5761652-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:31:12.5761652-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:31:12.5761652-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:31:12.5761652-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:31:12.5761652-06:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-05-31T22:31:12.6651838-06:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 5806.8136475 seconds
+2021-05-31T22:31:12.6701853-06:00:Thread#0: Test #6/1 is started on thread #0
+2021-05-31T22:31:12.6721858-06:00:2021-05-31T22:31:12.6711858-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:31:12.6741867-06:00:2021-05-31T22:31:12.6731867-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:31:12.6751864-06:00:2021-05-31T22:31:12.6751864-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:31:24.7971522-06:00:2021-05-31T22:31:24.7971522-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:31:24.7981518-06:00:2021-05-31T22:31:24.7981518-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:31:24.7981518-06:00:2021-05-31T22:31:24.7981518-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:31:24.7991525-06:00:2021-05-31T22:31:24.7991525-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:31:24.8091550-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:31:24.8091550-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:31:24.8091550-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:31:24.8091550-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:31:24.8091550-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:31:24.8091550-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:31:24.8091550-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:31:24.8091550-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:31:24.8091550-06:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-05-31T22:31:24.8111548-06:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 12.1409695 seconds
+2021-05-31T22:31:24.8121559-06:00:Thread#0: Test #6/2 is started on thread #0
+2021-05-31T22:31:24.8121559-06:00:2021-05-31T22:31:24.8121559-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:31:24.8131565-06:00:2021-05-31T22:31:24.8131565-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:31:24.8161569-06:00:2021-05-31T22:31:24.8131565-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:31:36.8895101-06:00:2021-05-31T22:31:36.8895101-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:31:36.8905106-06:00:2021-05-31T22:31:36.8905106-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:31:36.8915106-06:00:2021-05-31T22:31:36.8915106-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:31:36.8925115-06:00:2021-05-31T22:31:36.8915106-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:31:36.8935124-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:31:36.8935124-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:31:36.8935124-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:31:36.8935124-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:31:36.8935124-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:31:36.8935124-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:31:36.8935124-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:31:36.8941143-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:31:36.8941143-06:00:Thread#0:Scheduler: with testItemExecutionIndex 3
+2021-05-31T22:31:36.8961073-06:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 12.0839514 seconds
+2021-05-31T22:31:36.8971070-06:00:Thread#0: Test #6/3 is started on thread #0
+2021-05-31T22:31:36.8991080-06:00:2021-05-31T22:31:36.8981074-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:31:36.9011080-06:00:2021-05-31T22:31:36.9011080-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:31:36.9021077-06:00:2021-05-31T22:31:36.9021077-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:31:49.0011160-06:00:2021-05-31T22:31:49.0001157-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:31:49.0011160-06:00:2021-05-31T22:31:49.0011160-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:31:49.0021162-06:00:2021-05-31T22:31:49.0021162-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:31:49.0031173-06:00:2021-05-31T22:31:49.0021162-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:31:49.0041176-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:31:49.0051191-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:31:49.0051191-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:31:49.0051191-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:31:49.0051191-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:31:49.0051191-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:31:49.0051191-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:31:49.0061209-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:31:49.0061209-06:00:Thread#0:Scheduler: with testItemExecutionIndex 4
+2021-05-31T22:31:49.0091179-06:00:Thread#0: Test #6/3 is finished on thread #0 as Failed within 12.1120109 seconds
+2021-05-31T22:31:49.0091179-06:00:Thread#0: Test #6/4 is started on thread #0
+2021-05-31T22:31:49.0101181-06:00:2021-05-31T22:31:49.0101181-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:31:49.0111178-06:00:2021-05-31T22:31:49.0111178-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:31:49.0111178-06:00:2021-05-31T22:31:49.0111178-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:32:01.1184769-06:00:2021-05-31T22:32:01.1174764-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:32:01.1184769-06:00:2021-05-31T22:32:01.1184769-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:32:01.1194778-06:00:2021-05-31T22:32:01.1194778-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:32:01.1194778-06:00:2021-05-31T22:32:01.1194778-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:32:01.1224786-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:32:01.1224786-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:32:01.1224786-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:32:01.1224786-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:32:01.1224786-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:32:01.1224786-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:32:01.1224786-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:32:01.1224786-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:32:01.1224786-06:00:Thread#0:Scheduler: with testItemExecutionIndex 5
+2021-05-31T22:32:01.1244785-06:00:Thread#0: Test #6/4 is finished on thread #0 as Failed within 12.1153606 seconds
+2021-05-31T22:32:01.1254786-06:00:Thread#0: Test #6/5 is started on thread #0
+2021-05-31T22:32:01.1264796-06:00:2021-05-31T22:32:01.1254786-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:32:01.1274799-06:00:2021-05-31T22:32:01.1264796-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:32:01.1284795-06:00:2021-05-31T22:32:01.1274799-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:32:13.2049317-06:00:2021-05-31T22:32:13.2039284-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:32:13.2079289-06:00:2021-05-31T22:32:13.2079289-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:32:13.2089299-06:00:2021-05-31T22:32:13.2089299-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:32:13.2099305-06:00:2021-05-31T22:32:13.2099305-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:32:13.2109300-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:32:13.2109300-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:32:13.2109300-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:32:13.2109300-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:32:13.2109300-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:32:13.2109300-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:32:13.2109300-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:32:13.2109300-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:32:13.2109300-06:00:Thread#0:Scheduler: with testItemExecutionIndex 6
+2021-05-31T22:32:13.2129299-06:00:Thread#0: Test #6/5 is finished on thread #0 as Failed within 12.0874513 seconds
+2021-05-31T22:32:13.2139293-06:00:Thread#0: Test #6/6 is started on thread #0
+2021-05-31T22:32:13.2159319-06:00:2021-05-31T22:32:13.2149323-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:32:13.2169327-06:00:2021-05-31T22:32:13.2169327-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:32:13.2179319-06:00:2021-05-31T22:32:13.2169327-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:32:25.3457994-06:00:2021-05-31T22:32:25.3457994-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:32:25.3467993-06:00:2021-05-31T22:32:25.3457994-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:32:25.3473123-06:00:2021-05-31T22:32:25.3467993-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:32:25.3478321-06:00:2021-05-31T22:32:25.3478321-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:32:25.3498211-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:32:25.3498211-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:32:25.3498211-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:32:25.3498211-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:32:25.3498211-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:32:25.3498211-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:32:25.3498211-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:32:25.3498211-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:32:25.3498211-06:00:Thread#0:Scheduler: with testItemExecutionIndex 7
+2021-05-31T22:32:25.3528228-06:00:Thread#0: Test #6/6 is finished on thread #0 as Failed within 12.1388935 seconds
+2021-05-31T22:32:25.3538213-06:00:Thread#0: Test #6/7 is started on thread #0
+2021-05-31T22:32:25.3548328-06:00:2021-05-31T22:32:25.3538213-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:32:25.3548328-06:00:2021-05-31T22:32:25.3548328-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:32:25.3558229-06:00:2021-05-31T22:32:25.3558229-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:32:37.4758817-06:00:2021-05-31T22:32:37.4758817-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:32:37.4758817-06:00:2021-05-31T22:32:37.4758817-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:32:37.4768820-06:00:2021-05-31T22:32:37.4768820-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:32:37.4768820-06:00:2021-05-31T22:32:37.4768820-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:32:37.4788817-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:32:37.4788817-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:32:37.4788817-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:32:37.4788817-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:32:37.4788817-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:32:37.4788817-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:32:37.4788817-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:32:37.4788817-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:32:37.4788817-06:00:Thread#0:Scheduler: with testItemExecutionIndex 8
+2021-05-31T22:32:37.4813920-06:00:Thread#0: Test #6/7 is finished on thread #0 as Failed within 12.1275707 seconds
+2021-05-31T22:32:37.4823919-06:00:Thread#0: Test #6/8 is started on thread #0
+2021-05-31T22:32:37.4843921-06:00:2021-05-31T22:32:37.4833929-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:32:37.4853921-06:00:2021-05-31T22:32:37.4843921-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:32:37.4863929-06:00:2021-05-31T22:32:37.4863929-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:32:49.6201657-06:00:2021-05-31T22:32:49.6191661-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:32:49.6211662-06:00:2021-05-31T22:32:49.6211662-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:32:49.6221659-06:00:2021-05-31T22:32:49.6221659-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:32:49.6221659-06:00:2021-05-31T22:32:49.6221659-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:32:49.6241673-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:32:49.6241673-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:32:49.6241673-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:32:49.6241673-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:32:49.6241673-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:32:49.6241673-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:32:49.6241673-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:32:49.6241673-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:32:49.6241673-06:00:Thread#0:Scheduler: with testItemExecutionIndex 9
+2021-05-31T22:32:49.6251661-06:00:Thread#0: Test #6/8 is finished on thread #0 as Failed within 12.1427742 seconds
+2021-05-31T22:32:49.6261665-06:00:Thread#0: Test #6/9 is started on thread #0
+2021-05-31T22:32:49.6271666-06:00:2021-05-31T22:32:49.6261665-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:32:49.6301695-06:00:2021-05-31T22:32:49.6291688-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:32:49.6311685-06:00:2021-05-31T22:32:49.6301695-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:33:01.7253221-06:00:2021-05-31T22:33:01.7253221-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:33:01.7263222-06:00:2021-05-31T22:33:01.7263222-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:33:01.7263222-06:00:2021-05-31T22:33:01.7263222-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:33:01.7273226-06:00:2021-05-31T22:33:01.7273226-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:33:01.7283231-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:33:01.7283231-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:33:01.7283231-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:33:01.7283231-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:33:01.7283231-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:33:01.7283231-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:33:01.7283231-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:33:01.7283231-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:33:01.7283231-06:00:Thread#0:Scheduler: with testItemExecutionIndex 10
+2021-05-31T22:33:01.7313243-06:00:Thread#0: Test #6/9 is finished on thread #0 as Failed within 12.1051578 seconds
+2021-05-31T22:33:01.7313243-06:00:Thread#0: Test #6/10 is started on thread #0
+2021-05-31T22:33:01.7353255-06:00:2021-05-31T22:33:01.7353255-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:33:01.7363255-06:00:2021-05-31T22:33:01.7363255-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:33:01.7373258-06:00:2021-05-31T22:33:01.7373258-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:33:13.8811418-06:00:2021-05-31T22:33:13.8801413-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:33:13.8821424-06:00:2021-05-31T22:33:13.8821424-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:33:13.8841447-06:00:2021-05-31T22:33:13.8831419-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:33:13.8851430-06:00:2021-05-31T22:33:13.8841447-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:33:13.8881436-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:33:13.8881436-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:33:13.8881436-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:33:13.8881436-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:33:13.8881436-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:33:13.8881436-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:33:13.8881436-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:33:13.8881436-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:33:13.8881436-06:00:Thread#0:Scheduler: with testItemExecutionIndex 11
+2021-05-31T22:33:13.8901429-06:00:Thread#0: Test #6/10 is finished on thread #0 as Failed within 12.1588186 seconds
+2021-05-31T22:33:13.8901429-06:00:Thread#0: Test #6/11 is started on thread #0
+2021-05-31T22:33:13.8911434-06:00:2021-05-31T22:33:13.8911434-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:33:13.8921444-06:00:2021-05-31T22:33:13.8921444-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:33:13.8931450-06:00:2021-05-31T22:33:13.8921444-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:33:26.0495167-06:00:2021-05-31T22:33:26.0485165-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:33:26.0515175-06:00:2021-05-31T22:33:26.0505179-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:33:26.0515175-06:00:2021-05-31T22:33:26.0515175-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:33:26.0525172-06:00:2021-05-31T22:33:26.0515175-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:33:26.0535178-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:33:26.0535178-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:33:26.0535178-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:33:26.0535178-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:33:26.0535178-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:33:26.0535178-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:33:26.0535178-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:33:26.0535178-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:33:26.0535178-06:00:Thread#0:Scheduler: with testItemExecutionIndex 12
+2021-05-31T22:33:26.0590302-06:00:Thread#0: Test #6/11 is finished on thread #0 as Failed within 12.1688873 seconds
+2021-05-31T22:33:26.0600301-06:00:Thread#0: Test #6/12 is started on thread #0
+2021-05-31T22:33:26.0695400-06:00:2021-05-31T22:33:26.0640316-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:33:26.0705402-06:00:2021-05-31T22:33:26.0705402-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:33:26.0715404-06:00:2021-05-31T22:33:26.0715404-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:33:38.1571444-06:00:2021-05-31T22:33:38.1571444-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:33:38.1571444-06:00:2021-05-31T22:33:38.1571444-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:33:38.1581377-06:00:2021-05-31T22:33:38.1581377-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:33:38.1581377-06:00:2021-05-31T22:33:38.1581377-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:33:38.1591374-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:33:38.1591374-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:33:38.1591374-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:33:38.1591374-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:33:38.1591374-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:33:38.1591374-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:33:38.1591374-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:33:38.1591374-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:33:38.1591374-06:00:Thread#0:Scheduler: with testItemExecutionIndex 13
+2021-05-31T22:33:38.1621405-06:00:Thread#0: Test #6/12 is finished on thread #0 as Failed within 12.1001103 seconds
+2021-05-31T22:33:38.1631392-06:00:Thread#0: Test #6/13 is started on thread #0
+2021-05-31T22:33:38.1631392-06:00:2021-05-31T22:33:38.1631392-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:33:38.1641402-06:00:2021-05-31T22:33:38.1641402-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:33:38.1651410-06:00:2021-05-31T22:33:38.1641402-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:33:50.3243528-06:00:2021-05-31T22:33:50.3243528-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:33:50.3253527-06:00:2021-05-31T22:33:50.3253527-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:33:50.3253527-06:00:2021-05-31T22:33:50.3253527-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:33:50.3263527-06:00:2021-05-31T22:33:50.3263527-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:33:50.3273524-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:33:50.3273524-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:33:50.3273524-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:33:50.3273524-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:33:50.3273524-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:33:50.3273524-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:33:50.3273524-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:33:50.3273524-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:33:50.3273524-06:00:Thread#0:Scheduler: with testItemExecutionIndex 14
+2021-05-31T22:33:50.3303619-06:00:Thread#0: Test #6/13 is finished on thread #0 as Failed within 12.1672227 seconds
+2021-05-31T22:33:50.3313531-06:00:Thread#0: Test #6/14 is started on thread #0
+2021-05-31T22:33:50.3313531-06:00:2021-05-31T22:33:50.3313531-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:33:50.3323535-06:00:2021-05-31T22:33:50.3313531-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:33:50.3323535-06:00:2021-05-31T22:33:50.3323535-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:34:02.4444822-06:00:2021-05-31T22:34:02.4435027-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:34:02.4454827-06:00:2021-05-31T22:34:02.4454827-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:34:02.4464831-06:00:2021-05-31T22:34:02.4454827-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:34:02.4464831-06:00:2021-05-31T22:34:02.4464831-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:34:02.4484836-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:34:02.4484836-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:34:02.4484836-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:34:02.4484836-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:34:02.4484836-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:34:02.4484836-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:34:02.4484836-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:34:02.4484836-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:34:02.4484836-06:00:Thread#0:Scheduler: with testItemExecutionIndex 15
+2021-05-31T22:34:02.4504838-06:00:Thread#0: Test #6/14 is finished on thread #0 as Failed within 12.1191307 seconds
+2021-05-31T22:34:02.4504838-06:00:Thread#0: Test #6/15 is started on thread #0
+2021-05-31T22:34:02.4514835-06:00:2021-05-31T22:34:02.4514835-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:34:02.4514835-06:00:2021-05-31T22:34:02.4514835-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:34:02.4524841-06:00:2021-05-31T22:34:02.4524841-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:34:14.5678272-06:00:2021-05-31T22:34:14.5678272-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:34:14.5678272-06:00:2021-05-31T22:34:14.5678272-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:34:14.5688268-06:00:2021-05-31T22:34:14.5688268-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:34:14.5688268-06:00:2021-05-31T22:34:14.5688268-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:34:14.5708281-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:34:14.5708281-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:34:14.5708281-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:34:14.5708281-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:34:14.5708281-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:34:14.5708281-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:34:14.5708281-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:34:14.5708281-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:34:14.5708281-06:00:Thread#0:Scheduler: with testItemExecutionIndex 16
+2021-05-31T22:34:14.5738282-06:00:Thread#0: Test #6/15 is finished on thread #0 as Failed within 12.1233444 seconds
+2021-05-31T22:34:14.5748295-06:00:Thread#0: Test #6/16 is started on thread #0
+2021-05-31T22:34:14.5758306-06:00:2021-05-31T22:34:14.5758306-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:34:14.5768299-06:00:2021-05-31T22:34:14.5768299-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:34:14.5778299-06:00:2021-05-31T22:34:14.5778299-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:34:26.6738321-06:00:2021-05-31T22:34:26.6738321-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:34:26.6748319-06:00:2021-05-31T22:34:26.6738321-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:34:26.6748319-06:00:2021-05-31T22:34:26.6748319-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:34:26.6758326-06:00:2021-05-31T22:34:26.6758326-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:34:26.6768314-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:34:26.6768314-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:34:26.6768314-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:34:26.6768314-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:34:26.6768314-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:34:26.6768314-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:34:26.6768314-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:34:26.6768314-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:34:26.6768314-06:00:Thread#0:Scheduler: with testItemExecutionIndex 17
+2021-05-31T22:34:26.6788328-06:00:Thread#0: Test #6/16 is finished on thread #0 as Failed within 12.1040033 seconds
+2021-05-31T22:34:26.6798318-06:00:Thread#0: Test #6/17 is started on thread #0
+2021-05-31T22:34:26.6818341-06:00:2021-05-31T22:34:26.6808329-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:34:26.6828338-06:00:2021-05-31T22:34:26.6828338-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:34:26.6838332-06:00:2021-05-31T22:34:26.6838332-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:34:38.8126215-06:00:2021-05-31T22:34:38.8126215-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:34:38.8136214-06:00:2021-05-31T22:34:38.8126215-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:34:38.8136214-06:00:2021-05-31T22:34:38.8136214-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:34:38.8146219-06:00:2021-05-31T22:34:38.8136214-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:34:38.8156226-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:34:38.8156226-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:34:38.8156226-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:34:38.8156226-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:34:38.8156226-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:34:38.8156226-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:34:38.8156226-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:34:38.8156226-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:34:38.8156226-06:00:Thread#0:Scheduler: with testItemExecutionIndex 18
+2021-05-31T22:34:38.8186222-06:00:Thread#0: Test #6/17 is finished on thread #0 as Failed within 12.1387904 seconds
+2021-05-31T22:34:38.8196234-06:00:Thread#0: Test #6/18 is started on thread #0
+2021-05-31T22:34:38.8206249-06:00:2021-05-31T22:34:38.8206249-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:34:38.8216228-06:00:2021-05-31T22:34:38.8216228-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:34:38.8226232-06:00:2021-05-31T22:34:38.8216228-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:34:50.9242011-06:00:2021-05-31T22:34:50.9242011-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:34:50.9252010-06:00:2021-05-31T22:34:50.9252010-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:34:50.9262010-06:00:2021-05-31T22:34:50.9252010-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:34:50.9262010-06:00:2021-05-31T22:34:50.9262010-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:34:50.9272017-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:34:50.9272017-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:34:50.9272017-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:34:50.9282018-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:34:50.9282018-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:34:50.9282018-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:34:50.9282018-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:34:50.9282018-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:34:50.9282018-06:00:Thread#0:Scheduler: with testItemExecutionIndex 19
+2021-05-31T22:34:50.9302017-06:00:Thread#0: Test #6/18 is finished on thread #0 as Failed within 12.1105783 seconds
+2021-05-31T22:34:50.9302017-06:00:Thread#0: Test #6/19 is started on thread #0
+2021-05-31T22:34:50.9312023-06:00:2021-05-31T22:34:50.9312023-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:34:50.9322028-06:00:2021-05-31T22:34:50.9312023-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:34:50.9322028-06:00:2021-05-31T22:34:50.9322028-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:35:03.0585166-06:00:2021-05-31T22:35:03.0585166-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:35:03.0595163-06:00:2021-05-31T22:35:03.0585166-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:35:03.0595163-06:00:2021-05-31T22:35:03.0595163-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:35:03.0605159-06:00:2021-05-31T22:35:03.0605159-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:35:03.0615163-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:35:03.0615163-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:35:03.0615163-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:35:03.0615163-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:35:03.0615163-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:35:03.0615163-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:35:03.0615163-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:35:03.0615163-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:35:03.0615163-06:00:Thread#0:Scheduler: with testItemExecutionIndex 20
+2021-05-31T22:35:03.0645161-06:00:Thread#0: Test #6/19 is finished on thread #0 as Failed within 12.1343144 seconds
+2021-05-31T22:35:03.0645161-06:00:Thread#0: Test #6/20 is started on thread #0
+2021-05-31T22:35:03.0655166-06:00:2021-05-31T22:35:03.0655166-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:35:03.0665168-06:00:2021-05-31T22:35:03.0655166-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:35:03.0665168-06:00:2021-05-31T22:35:03.0665168-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:35:15.1915178-06:00:2021-05-31T22:35:15.1915178-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:35:15.1925176-06:00:2021-05-31T22:35:15.1915178-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:35:15.1925176-06:00:2021-05-31T22:35:15.1925176-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:35:15.1935174-06:00:2021-05-31T22:35:15.1935174-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:35:15.1945176-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:35:15.1945176-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:35:15.1945176-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:35:15.1945176-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:35:15.1945176-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:35:15.1945176-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:35:15.1945176-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:35:15.1945176-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:35:15.1945176-06:00:Thread#0:Scheduler: with testItemExecutionIndex 21
+2021-05-31T22:35:15.1965181-06:00:Thread#0: Test #6/20 is finished on thread #0 as Failed within 12.132002 seconds
+2021-05-31T22:35:15.1965181-06:00:Thread#0: Test #6/21 is started on thread #0
+2021-05-31T22:35:15.1975188-06:00:2021-05-31T22:35:15.1975188-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:35:15.1975188-06:00:2021-05-31T22:35:15.1975188-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:35:15.1985187-06:00:2021-05-31T22:35:15.1985187-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:35:27.2832468-06:00:2021-05-31T22:35:27.2822471-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:35:27.2832468-06:00:2021-05-31T22:35:27.2832468-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:35:27.2842472-06:00:2021-05-31T22:35:27.2842472-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:35:27.2852469-06:00:2021-05-31T22:35:27.2852469-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:35:27.2872478-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:35:27.2872478-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:35:27.2872478-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:35:27.2872478-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:35:27.2872478-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:35:27.2872478-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:35:27.2872478-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:35:27.2872478-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:35:27.2872478-06:00:Thread#0:Scheduler: with testItemExecutionIndex 22
+2021-05-31T22:35:27.2892480-06:00:Thread#0: Test #6/21 is finished on thread #0 as Failed within 12.0927299 seconds
+2021-05-31T22:35:27.2902492-06:00:Thread#0: Test #6/22 is started on thread #0
+2021-05-31T22:35:27.2912484-06:00:2021-05-31T22:35:27.2912484-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:35:27.2922487-06:00:2021-05-31T22:35:27.2922487-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:35:27.2932497-06:00:2021-05-31T22:35:27.2922487-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:35:39.4054860-06:00:2021-05-31T22:35:39.4054860-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:35:39.4064873-06:00:2021-05-31T22:35:39.4064873-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:35:39.4074867-06:00:2021-05-31T22:35:39.4064873-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:35:39.4084867-06:00:2021-05-31T22:35:39.4074867-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:35:39.4094867-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:35:39.4094867-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:35:39.4094867-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:35:39.4094867-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:35:39.4094867-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:35:39.4094867-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:35:39.4094867-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:35:39.4094867-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:35:39.4094867-06:00:Thread#0:Scheduler: with testItemExecutionIndex 23
+2021-05-31T22:35:39.4114875-06:00:Thread#0: Test #6/22 is finished on thread #0 as Failed within 12.1212383 seconds
+2021-05-31T22:35:39.4114875-06:00:Thread#0: Test #6/23 is started on thread #0
+2021-05-31T22:35:39.4124875-06:00:2021-05-31T22:35:39.4124875-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:35:39.4134879-06:00:2021-05-31T22:35:39.4134879-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:35:39.4144881-06:00:2021-05-31T22:35:39.4134879-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:35:51.4757616-06:00:2021-05-31T22:35:51.4757616-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:35:51.4767620-06:00:2021-05-31T22:35:51.4767620-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:35:51.4777615-06:00:2021-05-31T22:35:51.4767620-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:35:51.4777615-06:00:2021-05-31T22:35:51.4777615-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:35:51.4797658-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:35:51.4797658-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:35:51.4797658-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:35:51.4797658-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:35:51.4797658-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:35:51.4797658-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:35:51.4797658-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:35:51.4797658-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:35:51.4797658-06:00:Thread#0:Scheduler: with testItemExecutionIndex 24
+2021-05-31T22:35:51.4837637-06:00:Thread#0: Test #6/23 is finished on thread #0 as Failed within 12.0722762 seconds
+2021-05-31T22:35:51.4857630-06:00:Thread#0: Test #6/24 is started on thread #0
+2021-05-31T22:35:51.4887649-06:00:2021-05-31T22:35:51.4877640-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:35:51.4897641-06:00:2021-05-31T22:35:51.4887649-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:35:51.4907648-06:00:2021-05-31T22:35:51.4907648-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:36:03.5960857-06:00:2021-05-31T22:36:03.5950855-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:36:03.5960857-06:00:2021-05-31T22:36:03.5960857-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:36:03.5970855-06:00:2021-05-31T22:36:03.5970855-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:36:03.5970855-06:00:2021-05-31T22:36:03.5970855-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:36:03.5980865-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:36:03.5980865-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:36:03.5980865-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:36:03.5980865-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:36:03.5980865-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:36:03.5980865-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:36:03.5990859-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:36:03.5990859-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:36:03.5990859-06:00:Thread#0:Scheduler: with testItemExecutionIndex 25
+2021-05-31T22:36:03.6000868-06:00:Thread#0: Test #6/24 is finished on thread #0 as Failed within 12.1143238 seconds
+2021-05-31T22:36:03.6020876-06:00:Thread#0: Test #6/25 is started on thread #0
+2021-05-31T22:36:03.6030879-06:00:2021-05-31T22:36:03.6020876-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:36:03.6030879-06:00:2021-05-31T22:36:03.6030879-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:36:03.6040883-06:00:2021-05-31T22:36:03.6040883-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:36:15.7438715-06:00:2021-05-31T22:36:15.7428708-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:36:15.7448713-06:00:2021-05-31T22:36:15.7438715-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:36:15.7448713-06:00:2021-05-31T22:36:15.7448713-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:36:15.7458717-06:00:2021-05-31T22:36:15.7458717-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:36:15.7493802-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:36:15.7493802-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:36:15.7493802-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:36:15.7493802-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:36:15.7493802-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:36:15.7493802-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:36:15.7493802-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:36:15.7493802-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:36:15.7493802-06:00:Thread#0:Scheduler: with testItemExecutionIndex 26
+2021-05-31T22:36:15.7513808-06:00:Thread#0: Test #6/25 is finished on thread #0 as Failed within 12.1492932 seconds
+2021-05-31T22:36:15.7533818-06:00:Thread#0: Test #6/26 is started on thread #0
+2021-05-31T22:36:15.7573859-06:00:2021-05-31T22:36:15.7573859-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:36:15.7589027-06:00:2021-05-31T22:36:15.7583837-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:36:15.7589027-06:00:2021-05-31T22:36:15.7589027-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:36:27.8503719-06:00:2021-05-31T22:36:27.8503719-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:36:27.8513709-06:00:2021-05-31T22:36:27.8513709-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:36:27.8523714-06:00:2021-05-31T22:36:27.8513709-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:36:27.8523714-06:00:2021-05-31T22:36:27.8523714-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:36:27.8553721-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:36:27.8553721-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:36:27.8553721-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:36:27.8553721-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:36:27.8553721-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:36:27.8553721-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:36:27.8553721-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:36:27.8553721-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:36:27.8553721-06:00:Thread#0:Scheduler: with testItemExecutionIndex 27
+2021-05-31T22:36:27.8577666-06:00:Thread#0: Test #6/26 is finished on thread #0 as Failed within 12.1043848 seconds
+2021-05-31T22:36:27.8587507-06:00:Thread#0: Test #6/27 is started on thread #0
+2021-05-31T22:36:27.8597514-06:00:2021-05-31T22:36:27.8597514-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:36:27.8607520-06:00:2021-05-31T22:36:27.8607520-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:36:27.8617513-06:00:2021-05-31T22:36:27.8617513-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:36:39.9511525-06:00:2021-05-31T22:36:39.9511525-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:36:39.9521519-06:00:2021-05-31T22:36:39.9521519-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:36:39.9531526-06:00:2021-05-31T22:36:39.9531526-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:36:39.9531526-06:00:2021-05-31T22:36:39.9531526-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:36:39.9551510-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:36:39.9551510-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:36:39.9551510-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:36:39.9551510-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:36:39.9551510-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:36:39.9551510-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:36:39.9551510-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:36:39.9551510-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:36:39.9551510-06:00:Thread#0:Scheduler: with testItemExecutionIndex 28
+2021-05-31T22:36:39.9572837-06:00:Thread#0: Test #6/27 is finished on thread #0 as Failed within 12.0974003 seconds
+2021-05-31T22:36:39.9572837-06:00:Thread#0: Test #6/28 is started on thread #0
+2021-05-31T22:36:39.9592701-06:00:2021-05-31T22:36:39.9582697-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:36:39.9602698-06:00:2021-05-31T22:36:39.9592701-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:36:39.9602698-06:00:2021-05-31T22:36:39.9602698-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:36:52.1281748-06:00:2021-05-31T22:36:52.1271750-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:36:52.1281748-06:00:2021-05-31T22:36:52.1281748-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:36:52.1291750-06:00:2021-05-31T22:36:52.1291750-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:36:52.1291750-06:00:2021-05-31T22:36:52.1291750-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:36:52.1301757-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:36:52.1301757-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:36:52.1301757-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:36:52.1301757-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:36:52.1301757-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:36:52.1301757-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:36:52.1301757-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:36:52.1301757-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:36:52.1301757-06:00:Thread#0:Scheduler: with testItemExecutionIndex 29
+2021-05-31T22:36:52.1321760-06:00:Thread#0: Test #6/28 is finished on thread #0 as Failed within 12.1748923 seconds
+2021-05-31T22:36:52.1321760-06:00:Thread#0: Test #6/29 is started on thread #0
+2021-05-31T22:36:52.1331763-06:00:2021-05-31T22:36:52.1331763-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:36:52.1341774-06:00:2021-05-31T22:36:52.1331763-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:36:52.1361788-06:00:2021-05-31T22:36:52.1351780-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:37:04.2214792-06:00:2021-05-31T22:37:04.2204795-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:37:04.2214792-06:00:2021-05-31T22:37:04.2214792-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:37:04.2224791-06:00:2021-05-31T22:37:04.2214792-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:37:04.2224791-06:00:2021-05-31T22:37:04.2224791-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:37:04.2234795-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:37:04.2234795-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:37:04.2234795-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:37:04.2234795-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:37:04.2234795-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:37:04.2234795-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:37:04.2234795-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:37:04.2234795-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:37:04.2234795-06:00:Thread#0:Scheduler: with testItemExecutionIndex 30
+2021-05-31T22:37:04.2254795-06:00:Thread#0: Test #6/29 is finished on thread #0 as Failed within 12.0933035 seconds
+2021-05-31T22:37:04.2254795-06:00:Thread#0: Test #6/30 is started on thread #0
+2021-05-31T22:37:04.2264797-06:00:2021-05-31T22:37:04.2264797-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:37:04.2284806-06:00:2021-05-31T22:37:04.2284806-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:37:04.2294816-06:00:2021-05-31T22:37:04.2294816-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:37:16.3082849-06:00:2021-05-31T22:37:16.3072844-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:37:16.3092858-06:00:2021-05-31T22:37:16.3092858-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:37:16.3102854-06:00:2021-05-31T22:37:16.3092858-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:37:16.3112862-06:00:2021-05-31T22:37:16.3102854-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:37:16.3122859-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:37:16.3122859-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:37:16.3122859-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:37:16.3122859-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:37:16.3122859-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:37:16.3122859-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:37:16.3122859-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:37:16.3122859-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:37:16.3122859-06:00:Thread#0:Scheduler: with testItemExecutionIndex 31
+2021-05-31T22:37:16.3152858-06:00:Thread#0: Test #6/30 is finished on thread #0 as Failed within 12.0898063 seconds
+2021-05-31T22:37:16.3162865-06:00:Thread#0: Test #6/31 is started on thread #0
+2021-05-31T22:37:16.3162865-06:00:2021-05-31T22:37:16.3162865-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:37:16.3172868-06:00:2021-05-31T22:37:16.3172868-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:37:16.3182864-06:00:2021-05-31T22:37:16.3172868-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:37:28.4282047-06:00:2021-05-31T22:37:28.4282047-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:37:28.4292043-06:00:2021-05-31T22:37:28.4282047-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:37:28.4292043-06:00:2021-05-31T22:37:28.4292043-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:37:28.4302057-06:00:2021-05-31T22:37:28.4302057-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:37:28.4322048-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:37:28.4322048-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:37:28.4322048-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:37:28.4322048-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:37:28.4322048-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:37:28.4322048-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:37:28.4322048-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:37:28.4322048-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:37:28.4322048-06:00:Thread#0:Scheduler: with testItemExecutionIndex 32
+2021-05-31T22:37:28.4332052-06:00:Thread#0: Test #6/31 is finished on thread #0 as Failed within 12.1169187 seconds
+2021-05-31T22:37:28.4342057-06:00:Thread#0: Test #6/32 is started on thread #0
+2021-05-31T22:37:28.4352055-06:00:2021-05-31T22:37:28.4352055-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:37:28.4362060-06:00:2021-05-31T22:37:28.4362060-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:37:28.4382060-06:00:2021-05-31T22:37:28.4372061-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:37:40.5169722-06:00:2021-05-31T22:37:40.5169722-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:37:40.5179722-06:00:2021-05-31T22:37:40.5179722-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:37:40.5194819-06:00:2021-05-31T22:37:40.5194819-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:37:40.5204813-06:00:2021-05-31T22:37:40.5194819-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:37:40.5224834-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:37:40.5224834-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:37:40.5224834-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:37:40.5224834-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:37:40.5224834-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:37:40.5224834-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:37:40.5224834-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:37:40.5224834-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:37:40.5224834-06:00:Thread#0:Scheduler: with testItemExecutionIndex 33
+2021-05-31T22:37:40.5244831-06:00:Thread#0: Test #6/32 is finished on thread #0 as Failed within 12.0902774 seconds
+2021-05-31T22:37:40.5260085-06:00:Thread#0: Test #6/33 is started on thread #0
+2021-05-31T22:37:40.5269933-06:00:2021-05-31T22:37:40.5260085-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:37:40.5279937-06:00:2021-05-31T22:37:40.5279937-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:37:40.5289938-06:00:2021-05-31T22:37:40.5279937-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:37:52.6252147-06:00:2021-05-31T22:37:52.6252147-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:37:52.6262146-06:00:2021-05-31T22:37:52.6252147-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:37:52.6262146-06:00:2021-05-31T22:37:52.6262146-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:37:52.6272148-06:00:2021-05-31T22:37:52.6262146-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:37:52.6302161-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:37:52.6302161-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:37:52.6302161-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:37:52.6302161-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:37:52.6302161-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:37:52.6302161-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:37:52.6302161-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:37:52.6302161-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:37:52.6302161-06:00:Thread#0:Scheduler: with testItemExecutionIndex 34
+2021-05-31T22:37:52.6322172-06:00:Thread#0: Test #6/33 is finished on thread #0 as Failed within 12.1062087 seconds
+2021-05-31T22:37:52.6332169-06:00:Thread#0: Test #6/34 is started on thread #0
+2021-05-31T22:37:52.6352172-06:00:2021-05-31T22:37:52.6332169-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:37:52.6372184-06:00:2021-05-31T22:37:52.6372184-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:37:52.6392187-06:00:2021-05-31T22:37:52.6372184-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:38:04.9890859-06:00:2021-05-31T22:38:04.9880854-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:38:04.9900855-06:00:2021-05-31T22:38:04.9890859-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:38:04.9906005-06:00:2021-05-31T22:38:04.9900855-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:38:04.9906005-06:00:2021-05-31T22:38:04.9906005-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:38:04.9925972-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:38:04.9925972-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:38:04.9925972-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:38:04.9925972-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:38:04.9925972-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:38:04.9925972-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:38:04.9925972-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:38:04.9925972-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:38:04.9925972-06:00:Thread#0:Scheduler: with testItemExecutionIndex 35
+2021-05-31T22:38:04.9945977-06:00:Thread#0: Test #6/34 is finished on thread #0 as Failed within 12.3613808 seconds
+2021-05-31T22:38:04.9945977-06:00:Thread#0: Test #6/35 is started on thread #0
+2021-05-31T22:38:04.9955964-06:00:2021-05-31T22:38:04.9955964-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:38:04.9985962-06:00:2021-05-31T22:38:04.9965972-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:38:04.9995967-06:00:2021-05-31T22:38:04.9985962-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:38:17.0772281-06:00:2021-05-31T22:38:17.0772281-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:38:17.0782274-06:00:2021-05-31T22:38:17.0782274-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:38:17.0782274-06:00:2021-05-31T22:38:17.0782274-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:38:17.0792275-06:00:2021-05-31T22:38:17.0792275-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:38:17.0812282-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:38:17.0812282-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:38:17.0812282-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:38:17.0812282-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:38:17.0812282-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:38:17.0812282-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:38:17.0812282-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:38:17.0812282-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:38:17.0812282-06:00:Thread#0:Scheduler: with testItemExecutionIndex 36
+2021-05-31T22:38:17.0852300-06:00:Thread#0: Test #6/35 is finished on thread #0 as Failed within 12.0896316 seconds
+2021-05-31T22:38:17.0892295-06:00:Thread#0: Test #6/36 is started on thread #0
+2021-05-31T22:38:17.0932307-06:00:2021-05-31T22:38:17.0932307-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:38:17.0972324-06:00:2021-05-31T22:38:17.0962312-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:38:17.0982325-06:00:2021-05-31T22:38:17.0972324-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:38:29.1951132-06:00:2021-05-31T22:38:29.1941144-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:38:29.1961123-06:00:2021-05-31T22:38:29.1951132-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:38:29.1961123-06:00:2021-05-31T22:38:29.1961123-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:38:29.1971127-06:00:2021-05-31T22:38:29.1971127-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:38:29.1991127-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:38:29.1991127-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:38:29.1991127-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:38:29.1991127-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:38:29.1991127-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:38:29.1991127-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:38:29.1991127-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:38:29.1991127-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:38:29.1991127-06:00:Thread#0:Scheduler: with testItemExecutionIndex 37
+2021-05-31T22:38:29.2001125-06:00:Thread#0: Test #6/36 is finished on thread #0 as Failed within 12.110883 seconds
+2021-05-31T22:38:29.2011132-06:00:Thread#0: Test #6/37 is started on thread #0
+2021-05-31T22:38:29.2021146-06:00:2021-05-31T22:38:29.2011132-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:38:29.2041152-06:00:2021-05-31T22:38:29.2031156-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:38:29.2051148-06:00:2021-05-31T22:38:29.2051148-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:38:41.3134281-06:00:2021-05-31T22:38:41.3134281-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:38:41.3144273-06:00:2021-05-31T22:38:41.3144273-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:38:41.3144273-06:00:2021-05-31T22:38:41.3144273-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:38:41.3154285-06:00:2021-05-31T22:38:41.3154285-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:38:41.3164277-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:38:41.3164277-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:38:41.3164277-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:38:41.3164277-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:38:41.3164277-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:38:41.3164277-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:38:41.3164277-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:38:41.3164277-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:38:41.3174282-06:00:Thread#0:Scheduler: with testItemExecutionIndex 38
+2021-05-31T22:38:41.3184292-06:00:Thread#0: Test #6/37 is finished on thread #0 as Failed within 12.117316 seconds
+2021-05-31T22:38:41.3194293-06:00:Thread#0: Test #6/38 is started on thread #0
+2021-05-31T22:38:41.3224309-06:00:2021-05-31T22:38:41.3204294-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:38:41.3239472-06:00:2021-05-31T22:38:41.3234303-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:38:41.3239472-06:00:2021-05-31T22:38:41.3239472-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:38:53.3884753-06:00:2021-05-31T22:38:53.3884753-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:38:53.3894752-06:00:2021-05-31T22:38:53.3894752-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:38:53.3904751-06:00:2021-05-31T22:38:53.3904751-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:38:53.3914749-06:00:2021-05-31T22:38:53.3914749-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:38:53.3934751-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:38:53.3934751-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:38:53.3934751-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:38:53.3934751-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:38:53.3934751-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:38:53.3934751-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:38:53.3934751-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:38:53.3934751-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:38:53.3934751-06:00:Thread#0:Scheduler: with testItemExecutionIndex 39
+2021-05-31T22:38:53.3954756-06:00:Thread#0: Test #6/38 is finished on thread #0 as Failed within 12.0760463 seconds
+2021-05-31T22:38:53.3954756-06:00:Thread#0: Test #6/39 is started on thread #0
+2021-05-31T22:38:53.3964756-06:00:2021-05-31T22:38:53.3964756-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:38:53.3974763-06:00:2021-05-31T22:38:53.3964756-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:38:53.3974763-06:00:2021-05-31T22:38:53.3974763-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:39:05.5277002-06:00:2021-05-31T22:39:05.5267158-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:39:05.5277002-06:00:2021-05-31T22:39:05.5277002-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:39:05.5286987-06:00:2021-05-31T22:39:05.5286987-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:39:05.5286987-06:00:2021-05-31T22:39:05.5286987-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:39:05.5306987-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:39:05.5306987-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:39:05.5306987-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:39:05.5306987-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:39:05.5306987-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:39:05.5306987-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:39:05.5306987-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:39:05.5306987-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:39:05.5306987-06:00:Thread#0:Scheduler: with testItemExecutionIndex 40
+2021-05-31T22:39:05.5326994-06:00:Thread#0: Test #6/39 is finished on thread #0 as Failed within 12.1372238 seconds
+2021-05-31T22:39:05.5336992-06:00:Thread#0: Test #6/40 is started on thread #0
+2021-05-31T22:39:05.5336992-06:00:2021-05-31T22:39:05.5336992-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:39:05.5362238-06:00:2021-05-31T22:39:05.5346999-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:39:05.5402141-06:00:2021-05-31T22:39:05.5372132-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:39:17.6133570-06:00:2021-05-31T22:39:17.6123569-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:39:17.6133570-06:00:2021-05-31T22:39:17.6133570-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:39:17.6143577-06:00:2021-05-31T22:39:17.6143577-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:39:17.6143577-06:00:2021-05-31T22:39:17.6143577-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:39:17.6163581-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:39:17.6163581-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:39:17.6163581-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:39:17.6163581-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:39:17.6163581-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:39:17.6163581-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:39:17.6163581-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:39:17.6163581-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:39:17.6163581-06:00:Thread#0:Scheduler: with testItemExecutionIndex 41
+2021-05-31T22:39:17.6193595-06:00:Thread#0: Test #6/40 is finished on thread #0 as Failed within 12.0856603 seconds
+2021-05-31T22:39:17.6193595-06:00:Thread#0: Test #6/41 is started on thread #0
+2021-05-31T22:39:17.6213603-06:00:2021-05-31T22:39:17.6203588-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:39:17.6213603-06:00:2021-05-31T22:39:17.6213603-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:39:17.6223595-06:00:2021-05-31T22:39:17.6223595-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:39:29.7177573-06:00:2021-05-31T22:39:29.7177573-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:39:29.7177573-06:00:2021-05-31T22:39:29.7177573-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:39:29.7187581-06:00:2021-05-31T22:39:29.7187581-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:39:29.7187581-06:00:2021-05-31T22:39:29.7187581-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:39:29.7197577-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:39:29.7197577-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:39:29.7197577-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:39:29.7197577-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:39:29.7207582-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:39:29.7207582-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:39:29.7207582-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:39:29.7207582-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:39:29.7207582-06:00:Thread#0:Scheduler: with testItemExecutionIndex 42
+2021-05-31T22:39:29.7217598-06:00:Thread#0: Test #6/41 is finished on thread #0 as Failed within 12.1024003 seconds
+2021-05-31T22:39:29.7227599-06:00:Thread#0: Test #6/42 is started on thread #0
+2021-05-31T22:39:29.7237597-06:00:2021-05-31T22:39:29.7237597-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:39:29.7247597-06:00:2021-05-31T22:39:29.7237597-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:39:29.7257602-06:00:2021-05-31T22:39:29.7257602-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:39:41.8298341-06:00:2021-05-31T22:39:41.8288336-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:39:41.8308347-06:00:2021-05-31T22:39:41.8298341-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:39:41.8308347-06:00:2021-05-31T22:39:41.8308347-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:39:41.8318340-06:00:2021-05-31T22:39:41.8318340-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:39:41.8338348-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:39:41.8338348-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:39:41.8338348-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:39:41.8338348-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:39:41.8338348-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:39:41.8338348-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:39:41.8338348-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:39:41.8338348-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:39:41.8338348-06:00:Thread#0:Scheduler: with testItemExecutionIndex 43
+2021-05-31T22:39:41.8358353-06:00:Thread#0: Test #6/42 is finished on thread #0 as Failed within 12.1130754 seconds
+2021-05-31T22:39:41.8358353-06:00:Thread#0: Test #6/43 is started on thread #0
+2021-05-31T22:39:41.8368343-06:00:2021-05-31T22:39:41.8368343-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:39:41.8378398-06:00:2021-05-31T22:39:41.8378398-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:39:41.8388355-06:00:2021-05-31T22:39:41.8388355-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:39:53.9867896-06:00:2021-05-31T22:39:53.9857896-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:39:53.9867896-06:00:2021-05-31T22:39:53.9867896-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:39:53.9867896-06:00:2021-05-31T22:39:53.9867896-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:39:53.9877897-06:00:2021-05-31T22:39:53.9877897-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:39:53.9903026-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:39:53.9903026-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:39:53.9903026-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:39:53.9903026-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:39:53.9903026-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:39:53.9903026-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:39:53.9903026-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:39:53.9903026-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:39:53.9903026-06:00:Thread#0:Scheduler: with testItemExecutionIndex 44
+2021-05-31T22:39:53.9913022-06:00:Thread#0: Test #6/43 is finished on thread #0 as Failed within 12.1554669 seconds
+2021-05-31T22:39:53.9923021-06:00:Thread#0: Test #6/44 is started on thread #0
+2021-05-31T22:39:53.9943022-06:00:2021-05-31T22:39:53.9933022-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:39:53.9953025-06:00:2021-05-31T22:39:53.9943022-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:39:53.9953025-06:00:2021-05-31T22:39:53.9953025-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:40:06.1156907-06:00:2021-05-31T22:40:06.1156907-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:40:06.1166906-06:00:2021-05-31T22:40:06.1156907-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:40:06.1166906-06:00:2021-05-31T22:40:06.1166906-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:40:06.1166906-06:00:2021-05-31T22:40:06.1166906-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:40:06.1186908-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:40:06.1186908-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:40:06.1186908-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:40:06.1186908-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:40:06.1186908-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:40:06.1186908-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:40:06.1186908-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:40:06.1186908-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:40:06.1186908-06:00:Thread#0:Scheduler: with testItemExecutionIndex 45
+2021-05-31T22:40:06.1206908-06:00:Thread#0: Test #6/44 is finished on thread #0 as Failed within 12.1283887 seconds
+2021-05-31T22:40:06.1226924-06:00:Thread#0: Test #6/45 is started on thread #0
+2021-05-31T22:40:06.1236945-06:00:2021-05-31T22:40:06.1236945-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:40:06.1236945-06:00:2021-05-31T22:40:06.1236945-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:40:06.1262197-06:00:2021-05-31T22:40:06.1246933-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:40:18.2062348-06:00:2021-05-31T22:40:18.2052333-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:40:18.2062348-06:00:2021-05-31T22:40:18.2062348-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:40:18.2072342-06:00:2021-05-31T22:40:18.2072342-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:40:18.2082340-06:00:2021-05-31T22:40:18.2072342-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:40:18.2092343-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:40:18.2092343-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:40:18.2092343-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:40:18.2092343-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:40:18.2092343-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:40:18.2102332-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:40:18.2102332-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:40:18.2102332-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:40:18.2102332-06:00:Thread#0:Scheduler: with testItemExecutionIndex 46
+2021-05-31T22:40:18.2112332-06:00:Thread#0: Test #6/45 is finished on thread #0 as Failed within 12.0885408 seconds
+2021-05-31T22:40:18.2112332-06:00:Thread#0: Test #6/46 is started on thread #0
+2021-05-31T22:40:18.2122341-06:00:2021-05-31T22:40:18.2122341-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:40:18.2132343-06:00:2021-05-31T22:40:18.2122341-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:40:18.2142343-06:00:2021-05-31T22:40:18.2132343-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:40:30.3361110-06:00:2021-05-31T22:40:30.3361110-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:40:30.3371112-06:00:2021-05-31T22:40:30.3371112-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:40:30.3381117-06:00:2021-05-31T22:40:30.3371112-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:40:30.3391121-06:00:2021-05-31T22:40:30.3381117-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:40:30.3401125-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:40:30.3401125-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:40:30.3401125-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:40:30.3401125-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:40:30.3401125-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:40:30.3401125-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:40:30.3401125-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:40:30.3401125-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:40:30.3411136-06:00:Thread#0:Scheduler: with testItemExecutionIndex 47
+2021-05-31T22:40:30.3421114-06:00:Thread#0: Test #6/46 is finished on thread #0 as Failed within 12.1308782 seconds
+2021-05-31T22:40:30.3431133-06:00:Thread#0: Test #6/47 is started on thread #0
+2021-05-31T22:40:30.3441125-06:00:2021-05-31T22:40:30.3441125-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:40:30.3451126-06:00:2021-05-31T22:40:30.3451126-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:40:30.3461131-06:00:2021-05-31T22:40:30.3451126-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:40:42.4434917-06:00:2021-05-31T22:40:42.4434917-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:40:42.4444902-06:00:2021-05-31T22:40:42.4444902-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:40:42.4454898-06:00:2021-05-31T22:40:42.4444902-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:40:42.4454898-06:00:2021-05-31T22:40:42.4454898-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:40:42.4474893-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:40:42.4474893-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:40:42.4474893-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:40:42.4474893-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:40:42.4474893-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:40:42.4474893-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:40:42.4474893-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:40:42.4474893-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:40:42.4474893-06:00:Thread#0:Scheduler: with testItemExecutionIndex 48
+2021-05-31T22:40:42.4484897-06:00:Thread#0: Test #6/47 is finished on thread #0 as Failed within 12.1053764 seconds
+2021-05-31T22:40:42.4494896-06:00:Thread#0: Test #6/48 is started on thread #0
+2021-05-31T22:40:42.4494896-06:00:2021-05-31T22:40:42.4494896-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:40:42.4504898-06:00:2021-05-31T22:40:42.4504898-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:40:42.4514905-06:00:2021-05-31T22:40:42.4514905-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:40:54.5582179-06:00:2021-05-31T22:40:54.5572182-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:40:54.5582179-06:00:2021-05-31T22:40:54.5582179-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:40:54.5592179-06:00:2021-05-31T22:40:54.5582179-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:40:54.5592179-06:00:2021-05-31T22:40:54.5592179-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:40:54.5612187-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:40:54.5612187-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:40:54.5612187-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:40:54.5612187-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:40:54.5612187-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:40:54.5612187-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:40:54.5612187-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:40:54.5612187-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:40:54.5612187-06:00:Thread#0:Scheduler: with testItemExecutionIndex 49
+2021-05-31T22:40:54.5632205-06:00:Thread#0: Test #6/48 is finished on thread #0 as Failed within 12.1137309 seconds
+2021-05-31T22:40:54.5642209-06:00:Thread#0: Test #6/49 is started on thread #0
+2021-05-31T22:40:54.5652203-06:00:2021-05-31T22:40:54.5642209-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:40:54.5652203-06:00:2021-05-31T22:40:54.5652203-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:40:54.5662209-06:00:2021-05-31T22:40:54.5662209-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:41:06.6524536-06:00:2021-05-31T22:41:06.6514538-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:41:06.6524536-06:00:2021-05-31T22:41:06.6524536-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:41:06.6534539-06:00:2021-05-31T22:41:06.6534539-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:41:06.6534539-06:00:2021-05-31T22:41:06.6534539-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:41:06.6554560-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:41:06.6554560-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:41:06.6554560-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:41:06.6554560-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:41:06.6554560-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:41:06.6554560-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:41:06.6554560-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:41:06.6554560-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:41:06.6554560-06:00:Thread#0:Scheduler: with testItemExecutionIndex 50
+2021-05-31T22:41:06.6574869-06:00:Thread#0: Test #6/49 is finished on thread #0 as Failed within 12.093266 seconds
+2021-05-31T22:41:06.6594881-06:00:Thread#0: Test #6/50 is started on thread #0
+2021-05-31T22:41:06.6614876-06:00:2021-05-31T22:41:06.6605755-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:41:06.6614876-06:00:2021-05-31T22:41:06.6614876-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:41:06.6624876-06:00:2021-05-31T22:41:06.6624876-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:41:18.7319188-06:00:2021-05-31T22:41:18.7319188-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:41:18.7329193-06:00:2021-05-31T22:41:18.7319188-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:41:18.7329193-06:00:2021-05-31T22:41:18.7329193-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:41:18.7339198-06:00:2021-05-31T22:41:18.7329193-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:41:18.7359213-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:41:18.7359213-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:41:18.7359213-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:41:18.7359213-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:41:18.7359213-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:41:18.7359213-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:41:18.7359213-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:41:18.7359213-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:41:18.7359213-06:00:Thread#0:Scheduler: with testItemExecutionIndex 51
+2021-05-31T22:41:18.7379291-06:00:Thread#0: Test #6/50 is finished on thread #0 as Failed within 12.078441 seconds
+2021-05-31T22:41:18.7389206-06:00:Thread#0: Test #6/51 is started on thread #0
+2021-05-31T22:41:18.7399215-06:00:2021-05-31T22:41:18.7399215-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:41:18.7409213-06:00:2021-05-31T22:41:18.7409213-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:41:18.7419213-06:00:2021-05-31T22:41:18.7419213-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:41:30.8251293-06:00:2021-05-31T22:41:30.8251293-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:41:30.8261298-06:00:2021-05-31T22:41:30.8261298-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:41:30.8261298-06:00:2021-05-31T22:41:30.8261298-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:41:30.8271293-06:00:2021-05-31T22:41:30.8271293-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:41:30.8291311-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:41:30.8291311-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:41:30.8291311-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:41:30.8291311-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:41:30.8291311-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:41:30.8291311-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:41:30.8291311-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:41:30.8291311-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:41:30.8291311-06:00:Thread#0:Scheduler: with testItemExecutionIndex 52
+2021-05-31T22:41:30.8311310-06:00:Thread#0: Test #6/51 is finished on thread #0 as Failed within 12.0922104 seconds
+2021-05-31T22:41:30.8321323-06:00:Thread#0: Test #6/52 is started on thread #0
+2021-05-31T22:41:30.8331314-06:00:2021-05-31T22:41:30.8321323-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:41:30.8341319-06:00:2021-05-31T22:41:30.8331314-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:41:30.8341319-06:00:2021-05-31T22:41:30.8341319-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:41:43.0333222-06:00:2021-05-31T22:41:43.0323222-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:41:43.0343231-06:00:2021-05-31T22:41:43.0343231-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:41:43.0353224-06:00:2021-05-31T22:41:43.0353224-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:41:43.0363218-06:00:2021-05-31T22:41:43.0353224-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:41:43.0383252-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:41:43.0383252-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:41:43.0383252-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:41:43.0383252-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:41:43.0383252-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:41:43.0383252-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:41:43.0383252-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:41:43.0383252-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:41:43.0383252-06:00:Thread#0:Scheduler: with testItemExecutionIndex 53
+2021-05-31T22:41:43.0418322-06:00:Thread#0: Test #6/52 is finished on thread #0 as Failed within 12.2096999 seconds
+2021-05-31T22:41:43.0478340-06:00:Thread#0: Test #6/53 is started on thread #0
+2021-05-31T22:41:43.0488335-06:00:2021-05-31T22:41:43.0488335-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:41:43.0498333-06:00:2021-05-31T22:41:43.0498333-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:41:43.0508337-06:00:2021-05-31T22:41:43.0498333-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:41:55.1665036-06:00:2021-05-31T22:41:55.1655032-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:41:55.1665036-06:00:2021-05-31T22:41:55.1665036-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:41:55.1675037-06:00:2021-05-31T22:41:55.1675037-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:41:55.1685040-06:00:2021-05-31T22:41:55.1685040-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:41:55.1705043-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:41:55.1705043-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:41:55.1705043-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:41:55.1705043-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:41:55.1705043-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:41:55.1705043-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:41:55.1705043-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:41:55.1705043-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:41:55.1705043-06:00:Thread#0:Scheduler: with testItemExecutionIndex 54
+2021-05-31T22:41:55.1725051-06:00:Thread#0: Test #6/53 is finished on thread #0 as Failed within 12.1246711 seconds
+2021-05-31T22:41:55.1735044-06:00:Thread#0: Test #6/54 is started on thread #0
+2021-05-31T22:41:55.1775058-06:00:2021-05-31T22:41:55.1755061-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:41:55.1795062-06:00:2021-05-31T22:41:55.1785060-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:41:55.1815070-06:00:2021-05-31T22:41:55.1805067-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:42:07.2996452-06:00:2021-05-31T22:42:07.2996452-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:42:07.3006447-06:00:2021-05-31T22:42:07.3006447-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:42:07.3016447-06:00:2021-05-31T22:42:07.3016447-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:42:07.3026455-06:00:2021-05-31T22:42:07.3026455-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:42:07.3036450-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:42:07.3036450-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:42:07.3036450-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:42:07.3036450-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:42:07.3036450-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:42:07.3036450-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:42:07.3036450-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:42:07.3036450-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:42:07.3036450-06:00:Thread#0:Scheduler: with testItemExecutionIndex 55
+2021-05-31T22:42:07.3056454-06:00:Thread#0: Test #6/54 is finished on thread #0 as Failed within 12.132141 seconds
+2021-05-31T22:42:07.3066444-06:00:Thread#0: Test #6/55 is started on thread #0
+2021-05-31T22:42:07.3072198-06:00:2021-05-31T22:42:07.3072198-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:42:07.3092122-06:00:2021-05-31T22:42:07.3092122-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:42:07.3102128-06:00:2021-05-31T22:42:07.3102128-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:42:19.4226712-06:00:2021-05-31T22:42:19.4226712-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:42:19.4236715-06:00:2021-05-31T22:42:19.4236715-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:42:19.4236715-06:00:2021-05-31T22:42:19.4236715-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:42:19.4246714-06:00:2021-05-31T22:42:19.4246714-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:42:19.4256736-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:42:19.4256736-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:42:19.4256736-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:42:19.4256736-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:42:19.4256736-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:42:19.4256736-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:42:19.4256736-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:42:19.4256736-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:42:19.4256736-06:00:Thread#0:Scheduler: with testItemExecutionIndex 56
+2021-05-31T22:42:19.4292379-06:00:Thread#0: Test #6/55 is finished on thread #0 as Failed within 12.1225935 seconds
+2021-05-31T22:42:19.4312384-06:00:Thread#0: Test #6/56 is started on thread #0
+2021-05-31T22:42:19.4342387-06:00:2021-05-31T22:42:19.4322388-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:42:19.4362412-06:00:2021-05-31T22:42:19.4362412-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:42:19.4372402-06:00:2021-05-31T22:42:19.4372402-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:42:31.5371738-06:00:2021-05-31T22:42:31.5371738-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:42:31.5381732-06:00:2021-05-31T22:42:31.5381732-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:42:31.5391729-06:00:2021-05-31T22:42:31.5391729-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:42:31.5391729-06:00:2021-05-31T22:42:31.5391729-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:42:31.5411743-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:42:31.5411743-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:42:31.5411743-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:42:31.5411743-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:42:31.5411743-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:42:31.5411743-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:42:31.5411743-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:42:31.5411743-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:42:31.5411743-06:00:Thread#0:Scheduler: with testItemExecutionIndex 57
+2021-05-31T22:42:31.5421728-06:00:Thread#0: Test #6/56 is finished on thread #0 as Failed within 12.1109344 seconds
+2021-05-31T22:42:31.5431731-06:00:Thread#0: Test #6/57 is started on thread #0
+2021-05-31T22:42:31.5441737-06:00:2021-05-31T22:42:31.5431731-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:42:31.5441737-06:00:2021-05-31T22:42:31.5441737-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:42:31.5451743-06:00:2021-05-31T22:42:31.5451743-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:42:43.6565400-06:00:2021-05-31T22:42:43.6560173-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:42:43.6720362-06:00:2021-05-31T22:42:43.6710371-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:42:43.6850599-06:00:2021-05-31T22:42:43.6830598-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:42:43.6950856-06:00:2021-05-31T22:42:43.6885729-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:42:43.7230910-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:42:43.7230910-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:42:43.7230910-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:42:43.7250916-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:42:43.7250916-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:42:43.7250916-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:42:43.7250916-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:42:43.7250916-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:42:43.7250916-06:00:Thread#0:Scheduler: with testItemExecutionIndex 58
+2021-05-31T22:42:43.7290927-06:00:Thread#0: Test #6/57 is finished on thread #0 as Failed within 12.1859196 seconds
+2021-05-31T22:42:43.7360942-06:00:Thread#0: Test #6/58 is started on thread #0
+2021-05-31T22:42:43.7450955-06:00:2021-05-31T22:42:43.7440954-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:42:43.7500971-06:00:2021-05-31T22:42:43.7500971-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:42:43.7520975-06:00:2021-05-31T22:42:43.7510978-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:42:55.8631238-06:00:2021-05-31T22:42:55.8631238-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:42:55.8641241-06:00:2021-05-31T22:42:55.8641241-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:42:55.8651239-06:00:2021-05-31T22:42:55.8641241-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:42:55.8651239-06:00:2021-05-31T22:42:55.8651239-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:42:55.8701235-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:42:55.8701235-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:42:55.8701235-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:42:55.8701235-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:42:55.8701235-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:42:55.8701235-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:42:55.8701235-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:42:55.8701235-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:42:55.8701235-06:00:Thread#0:Scheduler: with testItemExecutionIndex 59
+2021-05-31T22:42:55.8741247-06:00:Thread#0: Test #6/58 is finished on thread #0 as Failed within 12.1380305 seconds
+2021-05-31T22:42:55.8751259-06:00:Thread#0: Test #6/59 is started on thread #0
+2021-05-31T22:42:55.8781257-06:00:2021-05-31T22:42:55.8781257-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:42:55.8791253-06:00:2021-05-31T22:42:55.8791253-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:42:55.8801256-06:00:2021-05-31T22:42:55.8801256-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:43:07.9914369-06:00:2021-05-31T22:43:07.9914369-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:43:07.9934369-06:00:2021-05-31T22:43:07.9924379-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:43:07.9944371-06:00:2021-05-31T22:43:07.9934369-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:43:07.9944371-06:00:2021-05-31T22:43:07.9944371-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:43:07.9964381-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:43:07.9964381-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:43:07.9964381-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:43:07.9964381-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:43:07.9964381-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:43:07.9964381-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:43:07.9964381-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:43:07.9964381-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:43:07.9964381-06:00:Thread#0:Scheduler: with testItemExecutionIndex 60
+2021-05-31T22:43:07.9984379-06:00:Thread#0: Test #6/59 is finished on thread #0 as Failed within 12.123312 seconds
+2021-05-31T22:43:07.9994371-06:00:Thread#0: Test #6/60 is started on thread #0
+2021-05-31T22:43:07.9994371-06:00:2021-05-31T22:43:07.9994371-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:43:08.0024394-06:00:2021-05-31T22:43:08.0004378-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:43:08.0044415-06:00:2021-05-31T22:43:08.0034392-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:43:20.1411974-06:00:2021-05-31T22:43:20.1411974-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:43:20.1421973-06:00:2021-05-31T22:43:20.1421973-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:43:20.1431991-06:00:2021-05-31T22:43:20.1431991-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:43:20.1441975-06:00:2021-05-31T22:43:20.1441975-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:43:20.1451970-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:43:20.1451970-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:43:20.1451970-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:43:20.1451970-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:43:20.1451970-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:43:20.1451970-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:43:20.1451970-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:43:20.1451970-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:43:20.1451970-06:00:Thread#0:Scheduler: with testItemExecutionIndex 61
+2021-05-31T22:43:20.1471978-06:00:Thread#0: Test #6/60 is finished on thread #0 as Failed within 12.1477607 seconds
+2021-05-31T22:43:20.1482004-06:00:Thread#0: Test #6/61 is started on thread #0
+2021-05-31T22:43:20.1512000-06:00:2021-05-31T22:43:20.1501994-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:43:20.1522008-06:00:2021-05-31T22:43:20.1522008-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:43:20.1522008-06:00:2021-05-31T22:43:20.1522008-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:43:32.3561179-06:00:2021-05-31T22:43:32.3551175-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:43:32.3561179-06:00:2021-05-31T22:43:32.3561179-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:43:32.3571171-06:00:2021-05-31T22:43:32.3571171-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:43:32.3571171-06:00:2021-05-31T22:43:32.3571171-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:43:32.3581176-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:43:32.3581176-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:43:32.3581176-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:43:32.3581176-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:43:32.3581176-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:43:32.3581176-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:43:32.3581176-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:43:32.3581176-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:43:32.3581176-06:00:Thread#0:Scheduler: with testItemExecutionIndex 62
+2021-05-31T22:43:32.3611176-06:00:Thread#0: Test #6/61 is finished on thread #0 as Failed within 12.2129172 seconds
+2021-05-31T22:43:32.3631184-06:00:Thread#0: Test #6/62 is started on thread #0
+2021-05-31T22:43:32.3671198-06:00:2021-05-31T22:43:32.3651207-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:43:32.3681208-06:00:2021-05-31T22:43:32.3681208-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:43:32.3691200-06:00:2021-05-31T22:43:32.3681208-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:43:44.4745566-06:00:2021-05-31T22:43:44.4735559-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:43:44.4755574-06:00:2021-05-31T22:43:44.4745566-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:43:44.4755574-06:00:2021-05-31T22:43:44.4755574-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:43:44.4765570-06:00:2021-05-31T22:43:44.4765570-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:43:44.4775562-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:43:44.4775562-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:43:44.4775562-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:43:44.4775562-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:43:44.4775562-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:43:44.4775562-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:43:44.4775562-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:43:44.4775562-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:43:44.4775562-06:00:Thread#0:Scheduler: with testItemExecutionIndex 63
+2021-05-31T22:43:44.4795564-06:00:Thread#0: Test #6/62 is finished on thread #0 as Failed within 12.1154375 seconds
+2021-05-31T22:43:44.4805566-06:00:Thread#0: Test #6/63 is started on thread #0
+2021-05-31T22:43:44.4835583-06:00:2021-05-31T22:43:44.4825592-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:43:44.4835583-06:00:2021-05-31T22:43:44.4835583-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:43:44.4845590-06:00:2021-05-31T22:43:44.4845590-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:43:56.5695905-06:00:2021-05-31T22:43:56.5685905-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:43:56.5715904-06:00:2021-05-31T22:43:56.5705907-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:43:56.5715904-06:00:2021-05-31T22:43:56.5715904-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:43:56.5725913-06:00:2021-05-31T22:43:56.5725913-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:43:56.5735916-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:43:56.5735916-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:43:56.5735916-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:43:56.5735916-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:43:56.5735916-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:43:56.5735916-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:43:56.5735916-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:43:56.5735916-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:43:56.5735916-06:00:Thread#0:Scheduler: with testItemExecutionIndex 64
+2021-05-31T22:43:56.5765932-06:00:Thread#0: Test #6/63 is finished on thread #0 as Failed within 12.0960366 seconds
+2021-05-31T22:43:56.5785923-06:00:Thread#0: Test #6/64 is started on thread #0
+2021-05-31T22:43:56.5805926-06:00:2021-05-31T22:43:56.5795931-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:43:56.5825929-06:00:2021-05-31T22:43:56.5825929-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:43:56.5835939-06:00:2021-05-31T22:43:56.5835939-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:44:08.6732618-06:00:2021-05-31T22:44:08.6722639-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:44:08.6732618-06:00:2021-05-31T22:44:08.6732618-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:44:08.6742612-06:00:2021-05-31T22:44:08.6742612-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:44:08.6752627-06:00:2021-05-31T22:44:08.6742612-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:44:08.6757774-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:44:08.6757774-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:44:08.6757774-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:44:08.6757774-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:44:08.6757774-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:44:08.6757774-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:44:08.6757774-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:44:08.6757774-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:44:08.6767717-06:00:Thread#0:Scheduler: with testItemExecutionIndex 65
+2021-05-31T22:44:08.6787719-06:00:Thread#0: Test #6/64 is finished on thread #0 as Failed within 12.1001796 seconds
+2021-05-31T22:44:08.6787719-06:00:Thread#0: Test #6/65 is started on thread #0
+2021-05-31T22:44:08.6797724-06:00:2021-05-31T22:44:08.6797724-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:44:08.6807736-06:00:2021-05-31T22:44:08.6797724-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:44:08.6877754-06:00:2021-05-31T22:44:08.6837742-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:44:20.7694693-06:00:2021-05-31T22:44:20.7684693-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:44:20.7694693-06:00:2021-05-31T22:44:20.7694693-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:44:20.7704698-06:00:2021-05-31T22:44:20.7704698-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:44:20.7714725-06:00:2021-05-31T22:44:20.7714725-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:44:20.7734703-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:44:20.7734703-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:44:20.7734703-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:44:20.7734703-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:44:20.7734703-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:44:20.7734703-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:44:20.7734703-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:44:20.7734703-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:44:20.7734703-06:00:Thread#0:Scheduler: with testItemExecutionIndex 66
+2021-05-31T22:44:20.7784719-06:00:Thread#0: Test #6/65 is finished on thread #0 as Failed within 12.0997 seconds
+2021-05-31T22:44:20.7794718-06:00:Thread#0: Test #6/66 is started on thread #0
+2021-05-31T22:44:20.7824732-06:00:2021-05-31T22:44:20.7814727-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:44:20.7834727-06:00:2021-05-31T22:44:20.7834727-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:44:20.7844727-06:00:2021-05-31T22:44:20.7844727-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:44:32.8794860-06:00:2021-05-31T22:44:32.8794860-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:44:32.8814875-06:00:2021-05-31T22:44:32.8804863-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:44:32.8824889-06:00:2021-05-31T22:44:32.8814875-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:44:32.8824889-06:00:2021-05-31T22:44:32.8824889-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:44:32.8844875-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:44:32.8844875-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:44:32.8844875-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:44:32.8844875-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:44:32.8844875-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:44:32.8844875-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:44:32.8844875-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:44:32.8844875-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:44:32.8844875-06:00:Thread#0:Scheduler: with testItemExecutionIndex 67
+2021-05-31T22:44:32.8874882-06:00:Thread#0: Test #6/66 is finished on thread #0 as Failed within 12.1080164 seconds
+2021-05-31T22:44:32.8884878-06:00:Thread#0: Test #6/67 is started on thread #0
+2021-05-31T22:44:32.8884878-06:00:2021-05-31T22:44:32.8884878-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:44:32.8894878-06:00:2021-05-31T22:44:32.8894878-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:44:32.8894878-06:00:2021-05-31T22:44:32.8894878-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:44:44.9901286-06:00:2021-05-31T22:44:44.9901286-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:44:44.9911293-06:00:2021-05-31T22:44:44.9911293-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:44:44.9911293-06:00:2021-05-31T22:44:44.9911293-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:44:44.9921289-06:00:2021-05-31T22:44:44.9921289-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:44:44.9941291-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:44:44.9941291-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:44:44.9941291-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:44:44.9941291-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:44:44.9941291-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:44:44.9941291-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:44:44.9941291-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:44:44.9941291-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:44:44.9941291-06:00:Thread#0:Scheduler: with testItemExecutionIndex 68
+2021-05-31T22:44:44.9961294-06:00:Thread#0: Test #6/67 is finished on thread #0 as Failed within 12.1076416 seconds
+2021-05-31T22:44:44.9971302-06:00:Thread#0: Test #6/68 is started on thread #0
+2021-05-31T22:44:44.9971302-06:00:2021-05-31T22:44:44.9971302-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:44:44.9981308-06:00:2021-05-31T22:44:44.9981308-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:44:44.9991300-06:00:2021-05-31T22:44:44.9981308-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:44:57.1090476-06:00:2021-05-31T22:44:57.1080460-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:44:57.1100473-06:00:2021-05-31T22:44:57.1100473-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:44:57.1110477-06:00:2021-05-31T22:44:57.1110477-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:44:57.1120478-06:00:2021-05-31T22:44:57.1120478-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:44:57.1140477-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:44:57.1140477-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:44:57.1140477-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:44:57.1140477-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:44:57.1140477-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:44:57.1140477-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:44:57.1140477-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:44:57.1140477-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:44:57.1140477-06:00:Thread#0:Scheduler: with testItemExecutionIndex 69
+2021-05-31T22:44:57.1160486-06:00:Thread#0: Test #6/68 is finished on thread #0 as Failed within 12.1189184 seconds
+2021-05-31T22:44:57.1170485-06:00:Thread#0: Test #6/69 is started on thread #0
+2021-05-31T22:44:57.1180487-06:00:2021-05-31T22:44:57.1180487-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:44:57.1190494-06:00:2021-05-31T22:44:57.1180487-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:44:57.1210494-06:00:2021-05-31T22:44:57.1200490-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:45:09.2375101-06:00:2021-05-31T22:45:09.2365117-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:45:09.2385109-06:00:2021-05-31T22:45:09.2385109-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:45:09.2395117-06:00:2021-05-31T22:45:09.2385109-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:45:09.2395117-06:00:2021-05-31T22:45:09.2395117-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:45:09.2425126-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:45:09.2425126-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:45:09.2425126-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:45:09.2425126-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:45:09.2425126-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:45:09.2425126-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:45:09.2425126-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:45:09.2425126-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:45:09.2425126-06:00:Thread#0:Scheduler: with testItemExecutionIndex 70
+2021-05-31T22:45:09.2475143-06:00:Thread#0: Test #6/69 is finished on thread #0 as Failed within 12.1304658 seconds
+2021-05-31T22:45:09.2485140-06:00:Thread#0: Test #6/70 is started on thread #0
+2021-05-31T22:45:09.2505137-06:00:2021-05-31T22:45:09.2495150-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:45:09.2525145-06:00:2021-05-31T22:45:09.2515137-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:45:09.2525145-06:00:2021-05-31T22:45:09.2525145-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:45:21.3802113-06:00:2021-05-31T22:45:21.3792119-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:45:21.3812116-06:00:2021-05-31T22:45:21.3812116-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:45:21.3822134-06:00:2021-05-31T22:45:21.3822134-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:45:21.3832119-06:00:2021-05-31T22:45:21.3832119-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:45:21.3842113-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:45:21.3842113-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:45:21.3842113-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:45:21.3842113-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:45:21.3842113-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:45:21.3842113-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:45:21.3842113-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:45:21.3842113-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:45:21.3842113-06:00:Thread#0:Scheduler: with testItemExecutionIndex 71
+2021-05-31T22:45:21.3862115-06:00:Thread#0: Test #6/70 is finished on thread #0 as Failed within 12.1376975 seconds
+2021-05-31T22:45:21.3862115-06:00:Thread#0: Test #6/71 is started on thread #0
+2021-05-31T22:45:21.3892144-06:00:2021-05-31T22:45:21.3872118-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:45:21.3907320-06:00:2021-05-31T22:45:21.3902148-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:45:21.3937265-06:00:2021-05-31T22:45:21.3927283-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:45:33.4931731-06:00:2021-05-31T22:45:33.4931731-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:45:33.4941734-06:00:2021-05-31T22:45:33.4941734-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:45:33.4971735-06:00:2021-05-31T22:45:33.4951733-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:45:33.4981740-06:00:2021-05-31T22:45:33.4981740-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:45:33.5021749-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:45:33.5021749-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:45:33.5021749-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:45:33.5021749-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:45:33.5021749-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:45:33.5021749-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:45:33.5021749-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:45:33.5021749-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:45:33.5021749-06:00:Thread#0:Scheduler: with testItemExecutionIndex 72
+2021-05-31T22:45:33.5051768-06:00:Thread#0: Test #6/71 is finished on thread #0 as Failed within 12.1189653 seconds
+2021-05-31T22:45:33.5061750-06:00:Thread#0: Test #6/72 is started on thread #0
+2021-05-31T22:45:33.5131773-06:00:2021-05-31T22:45:33.5081775-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:45:33.5161775-06:00:2021-05-31T22:45:33.5151777-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:45:33.5171779-06:00:2021-05-31T22:45:33.5161775-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:45:45.6251950-06:00:2021-05-31T22:45:45.6251950-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:45:45.6261955-06:00:2021-05-31T22:45:45.6251950-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:45:45.6261955-06:00:2021-05-31T22:45:45.6261955-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:45:45.6271961-06:00:2021-05-31T22:45:45.6271961-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:45:45.6301978-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:45:45.6301978-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:45:45.6301978-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:45:45.6301978-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:45:45.6301978-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:45:45.6301978-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:45:45.6301978-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:45:45.6301978-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:45:45.6301978-06:00:Thread#0:Scheduler: with testItemExecutionIndex 73
+2021-05-31T22:45:45.6331988-06:00:Thread#0: Test #6/72 is finished on thread #0 as Failed within 12.1270238 seconds
+2021-05-31T22:45:45.6341974-06:00:Thread#0: Test #6/73 is started on thread #0
+2021-05-31T22:45:45.6351992-06:00:2021-05-31T22:45:45.6351992-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:45:45.6361980-06:00:2021-05-31T22:45:45.6361980-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:45:45.6381988-06:00:2021-05-31T22:45:45.6371983-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:45:57.7778938-06:00:2021-05-31T22:45:57.7768936-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:45:57.7788945-06:00:2021-05-31T22:45:57.7788945-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:45:57.7798953-06:00:2021-05-31T22:45:57.7798953-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:45:57.7808953-06:00:2021-05-31T22:45:57.7798953-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:45:57.7828961-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:45:57.7828961-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:45:57.7828961-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:45:57.7828961-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:45:57.7828961-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:45:57.7828961-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:45:57.7828961-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:45:57.7828961-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:45:57.7828961-06:00:Thread#0:Scheduler: with testItemExecutionIndex 74
+2021-05-31T22:45:57.7858953-06:00:Thread#0: Test #6/73 is finished on thread #0 as Failed within 12.1516979 seconds
+2021-05-31T22:45:57.7874133-06:00:Thread#0: Test #6/74 is started on thread #0
+2021-05-31T22:45:57.7914076-06:00:2021-05-31T22:45:57.7904068-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:45:57.7924066-06:00:2021-05-31T22:45:57.7924066-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:45:57.7934062-06:00:2021-05-31T22:45:57.7924066-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-05-31T22:46:09.8965315-06:00:2021-05-31T22:46:09.8955315-06:00:Thread#0:T:error: chrome not reachable
+2021-05-31T22:46:09.8985316-06:00:2021-05-31T22:46:09.8985316-06:00:Thread#0:T:  (Session info: chrome=91.0.4472.77)
+2021-05-31T22:46:09.8995343-06:00:2021-05-31T22:46:09.8995343-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-05-31T22:46:09.9005382-06:00:2021-05-31T22:46:09.9005382-06:00:Thread#0:T:skipped because of previous errors
+2021-05-31T22:46:09.9025328-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-31T22:46:09.9025328-06:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2021-05-31T22:46:09.9025328-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-05-31T22:46:09.9025328-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-31T22:46:09.9025328-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-05-31T22:46:09.9025328-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-05-31T22:46:09.9025328-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-05-31T22:46:09.9025328-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-05-31T22:46:09.9025328-06:00:Thread#0:Scheduler: with testItemExecutionIndex 75
+2021-05-31T22:46:09.9045320-06:00:Thread#0: Test #6/74 is finished on thread #0 as Failed within 12.1171187 seconds
+2021-05-31T22:46:09.9045320-06:00:Thread#0: Test #6/75 is started on thread #0
+2021-05-31T22:46:09.9055326-06:00:2021-05-31T22:46:09.9055326-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-05-31T22:46:09.9065326-06:00:2021-05-31T22:46:09.9065326-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-05-31T22:46:09.9105354-06:00:2021-05-31T22:46:09.9065326-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel

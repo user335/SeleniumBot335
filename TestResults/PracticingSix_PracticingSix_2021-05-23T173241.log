@@ -1,0 +1,97 @@
+﻿2021-05-23T17:32:41.7533625-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-05-23T17:32:41.7533625-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-05-23T17:32:41.7533625-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-05-23T17:32:41.7543609-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-05-23T17:32:41.8903923-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-23T17:32:41.8903923-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-05-23T17:32:41.8913924-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-05-23T17:32:41.9464061-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-05-23T173241.log
+2021-05-23T17:32:41.9534063-06:00;Thread#13;Info;Checking activation
+2021-05-23T17:32:42.0414260-06:00;Thread#13;Info;Activated.
+2021-05-23T17:32:42.0424257-06:00;Thread#13;Info;Activation check completed
+2021-05-23T17:32:42.0424257-06:00;Thread#13;Info;Starting test run
+2021-05-23T17:32:42.0824449-06:00;Thread#13;Info;Discovering target: Default
+2021-05-23T17:32:42.0834357-06:00;Thread#13;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-23T17:32:42.4253545-06:00;Thread#13;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll
+2021-05-23T17:32:42.4263544-06:00:Test Suite Dump
+2021-05-23T17:32:42.4283544-06:00:#0: PracticingSix/PracticingSix - 
+2021-05-23T17:32:42.4283544-06:00:#1: Default - 
+2021-05-23T17:32:42.4283544-06:00:#2: PracticingSix - 
+2021-05-23T17:32:42.4283544-06:00:#3: EyeOfTheTiger - 
+2021-05-23T17:32:42.4633627-06:00:#4: Hit Me and Don't Stop - TestAssembly:PracticingSix/Feature:EyeOfTheTiger/Scenario:Hit+Me+and+Don%27t+Stop
+2021-05-23T17:32:42.4633627-06:00:End: Test Suite Dump
+2021-05-23T17:32:42.5053922-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-05-23T17:32:42.5083938-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-05-23T17:32:42.5083938-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-05-23T17:32:42.5153944-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-05-23T17:32:42.5153944-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-05-23T17:32:42.5153944-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:True
+2021-05-23T17:32:42.5153944-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-05-23T17:32:42.5163947-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-05-23T17:32:42.5173953-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-05-23T17:32:42.5173953-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-05-23T17:32:42.5173953-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-05-23T17:32:42.5173953-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-05-23T17:32:42.5173953-06:00:Thread#1:Scheduler: No more tests for thread
+2021-05-23T17:32:42.5213956-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-05-23T17:32:42.5233957-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-23T17:32:42.5263974-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-05-23T17:32:42.5283976-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-05-23T17:32:42.5313988-06:00:starting Out Of Process Executor
+2021-05-23T17:32:42.5373995-06:00:Starting callback TCP Rpc server
+2021-05-23T17:32:42.5509125-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-05-23T17:32:42.5509125-06:00:Started callback TCP Rpc server on port 32768
+2021-05-23T17:32:42.5519123-06:00:Starting logger TCP Rpc server
+2021-05-23T17:32:42.5539134-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-05-23T17:32:42.5539134-06:00:Started logger TCP Rpc server on port 32769
+2021-05-23T17:32:42.5599151-06:00:Executing test executor at 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.Framework.Executor.x86.clr40.exe' '--remoteRunnerPid 16980 --uniqueId "2021-05-23T173241" --outputFolder "C:\Users\user\source\repos\PracticingSix\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461'
+2021-05-23T17:32:42.5634229-06:00:Executor with PID 5456 has been started successfully.
+2021-05-23T17:32:42.5664243-06:00:Out of Process Executor 5456 started
+2021-05-23T17:32:42.5664243-06:00:Waiting for endpoint
+2021-05-23T17:32:43.0753347-06:00:Remote executor port received: 32770
+2021-05-23T17:32:43.0753347-06:00:Creating executor TCP client on port 32770
+2021-05-23T17:32:43.0763361-06:00:Created executor TCP client on port 32770
+2021-05-23T17:32:43.0763361-06:00:Connecting to remote executor TCP server
+2021-05-23T17:32:43.0773354-06:00:Connected remote executor TCP server
+2021-05-23T17:32:43.0773354-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-05-23T17:32:43.0773354-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-05-23T17:32:43.6543696-06:00:2021-05-23T17:32:43.6523786-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug\PracticingSix.dll on test thread #0
+2021-05-23T17:32:43.6603709-06:00:Endpoint 5456 started
+2021-05-23T17:32:43.6774207-06:00:2021-05-23T17:32:43.6774207-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-05-23T17:32:44.0424750-06:00:2021-05-23T17:32:44.0424750-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-05-23T17:32:44.1016950-06:00:2021-05-23T17:32:44.1016950-06:00:Thread#0:T:-> Using default config
+2021-05-23T17:32:45.0323510-06:00:2021-05-23T17:32:45.0323510-06:00:Thread#0:T:Starting the driver...
+2021-05-23T17:32:46.5535931-06:00:Thread#0: Test #4/0 is started on thread #0
+2021-05-23T17:32:46.5911121-06:00:2021-05-23T17:32:46.5911121-06:00:Thread#0:B:When I need Eye of the Tiger every 4.05 minutes
+2021-05-23T17:32:58.2845069-06:00:2021-05-23T17:32:58.2835062-06:00:Thread#0:T:Playing!
+2021-05-23T17:32:58.7316081-06:00:2021-05-23T17:32:58.7306073-06:00:Thread#0:T:Loop: 0
+2021-05-23T17:33:04.0166189-06:00:2021-05-23T17:33:04.0156177-06:00:Thread#0:T:Switched to Confirm Permissions window
+2021-05-23T17:33:06.9262532-06:00:2021-05-23T17:33:06.9252540-06:00:Thread#0:T:Finished logging in
+2021-05-23T17:37:16.7533419-06:00:2021-05-23T17:37:16.7523409-06:00:Thread#0:T:Playing!
+2021-05-23T17:41:37.2320227-06:00:2021-05-23T17:41:37.2310232-06:00:Thread#0:T:Playing!
+2021-05-23T17:46:38.7273209-06:00:2021-05-23T17:46:38.7273209-06:00:Thread#0:T:Playing!
+2021-05-23T17:50:44.3835560-06:00:2021-05-23T17:50:44.3825548-06:00:Thread#0:T:Playing!
+2021-05-23T17:54:51.1065989-06:00:2021-05-23T17:54:51.1035973-06:00:Thread#0:T:Playing!
+2021-05-23T17:58:56.7736805-06:00:2021-05-23T17:58:56.7736805-06:00:Thread#0:T:Playing!
+2021-05-23T18:03:02.3354776-06:00:2021-05-23T18:03:02.3354776-06:00:Thread#0:T:Playing!
+2021-05-23T18:13:53.3524930-06:00:2021-05-23T18:13:53.3514917-06:00:Thread#0:T:Playing!
+2021-05-23T19:10:29.7187354-06:00:2021-05-23T19:10:29.7177339-06:00:Thread#0:T:Playing!
+2021-05-23T19:28:02.1668519-06:00:2021-05-23T19:28:02.1668519-06:00:Thread#0:T:Playing!
+2021-05-23T19:32:07.7391895-06:00:2021-05-23T19:32:07.7381893-06:00:Thread#0:T:Playing!
+2021-05-23T19:36:13.2950153-06:00:2021-05-23T19:36:13.2950153-06:00:Thread#0:T:Playing!
+2021-05-23T19:40:33.4595733-06:00:2021-05-23T19:40:33.4595733-06:00:Thread#0:T:Playing!
+2021-05-23T19:44:39.0425942-06:00:2021-05-23T19:44:39.0415931-06:00:Thread#0:T:Playing!
+2021-05-23T20:08:50.6835889-06:00:2021-05-23T20:08:50.6825868-06:00:Thread#0:T:Playing!
+2021-05-23T20:12:57.2871403-06:00:2021-05-23T20:12:57.2831393-06:00:Thread#0:T:Playing!
+2021-05-23T20:17:03.1284170-06:00:2021-05-23T20:17:03.1284170-06:00:Thread#0:T:Playing!
+2021-05-23T20:21:08.9279776-06:00:2021-05-23T20:21:08.9269772-06:00:Thread#0:T:Playing!
+2021-05-23T20:25:14.8698290-06:00:2021-05-23T20:25:14.8678271-06:00:Thread#0:T:Playing!
+2021-05-23T20:29:20.5408908-06:00:2021-05-23T20:29:20.5398896-06:00:Thread#0:T:Playing!
+2021-05-23T20:33:26.3525960-06:00:2021-05-23T20:33:26.3515967-06:00:Thread#0:T:Playing!
+2021-05-23T20:37:31.9904461-06:00:2021-05-23T20:37:31.9904461-06:00:Thread#0:T:Playing!
+2021-05-23T21:19:57.6892788-06:00:2021-05-23T21:19:57.6892788-06:00:Thread#0:T:Playing!
+2021-05-23T21:32:26.0081777-06:00:2021-05-23T21:32:26.0081777-06:00:Thread#0:T:Playing!
+2021-05-23T21:36:31.3873879-06:00:2021-05-23T21:36:31.3873879-06:00:Thread#0:T:Playing!
+2021-05-23T21:40:37.8223990-06:00:2021-05-23T21:40:37.8218851-06:00:Thread#0:T:Playing!
+2021-05-23T22:06:26.6725316-06:00:2021-05-23T22:06:26.6715308-06:00:Thread#0:T:Playing!
+2021-05-23T22:10:32.0396226-06:00:2021-05-23T22:10:32.0376216-06:00:Thread#0:T:Playing!

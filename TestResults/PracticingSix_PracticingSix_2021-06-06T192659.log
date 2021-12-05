@@ -1,0 +1,267 @@
+﻿2021-06-06T19:26:58.8115012-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-06T19:26:58.8115012-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework clr40 in x86 mode execution started
+2021-06-06T19:26:58.8115012-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\user\source\repos\PracticingSix\packages\SpecRun.Runner.3.4.19\tools\net461\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-06T19:26:58.8125009-06:00;VSTestExecutionThread;Info;Current UserName: 'user', MachineName: 'DESKTOP-5BKHEHG'
+2021-06-06T19:26:59.4956535-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-06T19:26:59.5246599-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\user\source\repos\PracticingSix\TestResults" (default)
+2021-06-06T19:26:59.5356626-06:00;VSTestExecutionThread;Info;Profile: PracticingSix
+2021-06-06T19:26:59.7127026-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\user\source\repos\PracticingSix\TestResults\PracticingSix_PracticingSix_2021-06-06T192659.log
+2021-06-06T19:26:59.7627126-06:00;Thread#16;Info;Checking activation
+2021-06-06T19:27:00.1317961-06:00;Thread#16;Info;Activated.
+2021-06-06T19:27:00.1367962-06:00;Thread#16;Info;Activation check completed
+2021-06-06T19:27:00.1407974-06:00;Thread#16;Info;Starting test run
+2021-06-06T19:27:00.2688256-06:00;Thread#16;Info;Discovering target: Default
+2021-06-06T19:27:00.2748278-06:00;Thread#16;Info;Discovering tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-06T19:27:01.6256653-06:00;Thread#16;Info;Discovered tests from assembly: C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll
+2021-06-06T19:27:01.6316674-06:00:Test Suite Dump
+2021-06-06T19:27:01.6346675-06:00:#0: PracticingSix/PracticingSix - 
+2021-06-06T19:27:01.6346675-06:00:#1: Default - 
+2021-06-06T19:27:01.6346675-06:00:#2: PracticingSix - 
+2021-06-06T19:27:01.6346675-06:00:#5: Twitch Bot! - 
+2021-06-06T19:27:01.7016825-06:00:#6: It's Twitch Bot time - TestAssembly:PracticingSix/Feature:Twitch+Bot!/Scenario:It%27s+Twitch+Bot+time
+2021-06-06T19:27:01.7016825-06:00:End: Test Suite Dump
+2021-06-06T19:27:01.7706970-06:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-06T19:27:01.7736996-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2021-06-06T19:27:01.7736996-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2021-06-06T19:27:01.7887022-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-06T19:27:01.7887022-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2021-06-06T19:27:01.7887022-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:True
+2021-06-06T19:27:01.7887022-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2021-06-06T19:27:01.7907023-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2021-06-06T19:27:01.7917027-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-06T19:27:01.7927026-06:00:Thread#1:Scheduler: get next test for thread 1
+2021-06-06T19:27:01.7927026-06:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-06T19:27:01.7927026-06:00:Thread#1:Scheduler: enumerator for thread is at end
+2021-06-06T19:27:01.7927026-06:00:Thread#1:Scheduler: No more tests for thread
+2021-06-06T19:27:01.8017052-06:00:Thread #0: creating new test thread executor for PracticingSix, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-06T19:27:01.8057062-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-06T19:27:01.8287110-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-06T19:27:01.8327115-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-06T19:27:01.8377128-06:00:starting Out Of Process Executor
+2021-06-06T19:27:01.8757215-06:00:Starting callback TCP Rpc server
+2021-06-06T19:27:01.9067282-06:00:Asynchronously starting background TCP Rpc Server on port 32771
+2021-06-06T19:27:01.9067282-06:00:Started callback TCP Rpc server on port 32771
+2021-06-06T19:27:01.9067282-06:00:Starting logger TCP Rpc server
+2021-06-06T19:27:01.9117354-06:00:Asynchronously starting background TCP Rpc Server on port 32772
+2021-06-06T19:27:01.9117354-06:00:Started logger TCP Rpc server on port 32772
+2021-06-06T19:27:01.9247317-06:00;Test Thread #0;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2021-06-06T19:27:02.2147975-06:00;Test Thread #0;Info;Successfully started SpecFlow+ Runner executor process
+2021-06-06T19:27:02.2808126-06:00:Out of Process Executor 25920 started
+2021-06-06T19:27:02.2808126-06:00:Waiting for endpoint
+2021-06-06T19:27:03.2070188-06:00:Remote executor port received: 32773
+2021-06-06T19:27:03.2090211-06:00:Creating executor TCP client on port 32773
+2021-06-06T19:27:03.2100203-06:00:Created executor TCP client on port 32773
+2021-06-06T19:27:03.2100203-06:00:Connecting to remote executor TCP server
+2021-06-06T19:27:03.2110207-06:00:Connected remote executor TCP server
+2021-06-06T19:27:03.2110207-06:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-06T19:27:03.2110207-06:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-06T19:27:04.4834051-06:00:2021-06-06T19:27:04.4764049-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\user\source\repos\PracticingSix\bin\Debug2\PracticingSix.dll on test thread #0
+2021-06-06T19:27:04.5164137-06:00:Endpoint 25920 started
+2021-06-06T19:27:04.5924302-06:00:2021-06-06T19:27:04.5794273-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-06T19:27:05.6181692-06:00:2021-06-06T19:27:05.6101695-06:00:Thread#0:T:-> Loading plugin C:\Users\user\source\repos\PracticingSix\bin\Debug2\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-06T19:27:05.7391954-06:00:2021-06-06T19:27:05.7381958-06:00:Thread#0:T:-> Using default config
+2021-06-06T19:27:08.3316196-06:00:2021-06-06T19:27:08.3276170-06:00:Thread#0:T:Starting the driver...
+2021-06-06T19:27:11.4079185-06:00:Thread#0: Test #6/0 is started on thread #0
+2021-06-06T19:27:11.5689560-06:00:2021-06-06T19:27:11.5199438-06:00:Thread#0:B:Given I want a Twitch Bot running in Selenium just for the heck of it
+2021-06-06T19:27:11.7510238-06:00:2021-06-06T19:27:11.7460229-06:00:Thread#0:T:done: TwitchBotSteps.GivenIWantATwitchBotRunningInSeleniumJustForTheHeckOfIt() (0.0s)
+2021-06-06T19:27:11.7630568-06:00:2021-06-06T19:27:11.7540237-06:00:Thread#0:B:When I send a browser to snoop on my own chat channel
+2021-06-06T19:27:14.4274529-06:00:2021-06-06T19:27:14.4214496-06:00:Thread#0:T:done: TwitchBotSteps.WhenISendABrowserToSnoopOnMyOwnChatChannel() (2.7s)
+2021-06-06T19:27:14.4314524-06:00:2021-06-06T19:27:14.4304529-06:00:Thread#0:B:Then my Twitch Bot lives!
+2021-06-06T19:38:11.3368722-06:00:2021-06-06T19:38:11.3359014-06:00:Thread#0:T:Line 1
+2021-06-06T19:38:11.4488991-06:00:2021-06-06T19:38:11.4478972-06:00:Thread#0:T:Parsing: pop from: mrnoah99
+2021-06-06T19:38:11.4639011-06:00:2021-06-06T19:38:11.4609003-06:00:Thread#0:T:Eyy, its mrnoah99!
+2021-06-06T19:38:14.8483154-06:00:2021-06-06T19:38:14.8453115-06:00:Thread#0:T:Line 2
+2021-06-06T19:56:27.6963770-06:00:2021-06-06T19:56:27.6943775-06:00:Thread#0:T:Line 3
+2021-06-06T19:56:27.8204055-06:00:2021-06-06T19:56:27.8184044-06:00:Thread#0:T:Parsing: hello from: rabbit_xxxx
+2021-06-06T19:56:27.8334083-06:00:2021-06-06T19:56:27.8324075-06:00:Thread#0:T:Eyy, its rabbit_xxxx!
+2021-06-06T19:56:56.6925423-06:00:2021-06-06T19:56:56.6855400-06:00:Thread#0:T:Line 4
+2021-06-06T19:56:56.8045668-06:00:2021-06-06T19:56:56.8015669-06:00:Thread#0:T:Parsing: your stream delay is pretty big from: rabbit_xxxx
+2021-06-06T19:56:58.0618482-06:00:2021-06-06T19:56:58.0598479-06:00:Thread#0:T:Line 5
+2021-06-06T19:56:58.1528670-06:00:2021-06-06T19:56:58.1518673-06:00:Thread#0:T:Parsing: 2nd dose? from: rabbit_xxxx
+2021-06-06T19:57:16.0907319-06:00:2021-06-06T19:57:16.0857292-06:00:Thread#0:T:Line 6
+2021-06-06T19:57:16.1767498-06:00:2021-06-06T19:57:16.1747496-06:00:Thread#0:T:Parsing: i got my first vaccine last week myself from: rabbit_xxxx
+2021-06-06T19:57:48.8833147-06:00:2021-06-06T19:57:48.8783134-06:00:Thread#0:T:Line 7
+2021-06-06T19:57:48.9678416-06:00:2021-06-06T19:57:48.9658405-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-06-06T19:58:12.4992822-06:00:2021-06-06T19:58:12.4962816-06:00:Thread#0:T:Line 8
+2021-06-06T19:58:12.6043057-06:00:2021-06-06T19:58:12.6023074-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T19:58:25.1116495-06:00:2021-06-06T19:58:25.1076482-06:00:Thread#0:T:Line 9
+2021-06-06T19:58:25.2081778-06:00:2021-06-06T19:58:25.2061760-06:00:Thread#0:T:Parsing: my eye has been swollen and hurting for a couple days from: rabbit_xxxx
+2021-06-06T19:58:54.2810532-06:00:2021-06-06T19:58:54.2790542-06:00:Thread#0:T:Line 10
+2021-06-06T19:58:54.3860775-06:00:2021-06-06T19:58:54.3810752-06:00:Thread#0:T:Parsing: i'm not sure why from: rabbit_xxxx
+2021-06-06T19:59:15.4855458-06:00:2021-06-06T19:59:15.4825456-06:00:Thread#0:T:Line 11
+2021-06-06T19:59:15.5725668-06:00:2021-06-06T19:59:15.5715657-06:00:Thread#0:T:Parsing: like the lower lid is red and hurts all around my eye from: rabbit_xxxx
+2021-06-06T19:59:20.8718293-06:00:2021-06-06T19:59:20.8708287-06:00:Thread#0:T:Line 12
+2021-06-06T19:59:20.9628497-06:00:2021-06-06T19:59:20.9618490-06:00:Thread#0:T:Parsing: nope from: rabbit_xxxx
+2021-06-06T19:59:27.4888676-06:00:2021-06-06T19:59:27.4878657-06:00:Thread#0:T:Line 13
+2021-06-06T19:59:27.6208958-06:00:2021-06-06T19:59:27.6198959-06:00:Thread#0:T:Parsing: i don't drink coffee from: rabbit_xxxx
+2021-06-06T19:59:47.6855934-06:00:2021-06-06T19:59:47.6845942-06:00:Thread#0:T:Line 14
+2021-06-06T19:59:47.7951943-06:00:2021-06-06T19:59:47.7926809-06:00:Thread#0:T:Parsing: i've had pink eye before, lots as a kid, don't think it's that from: rabbit_xxxx
+2021-06-06T20:00:08.2842056-06:00:2021-06-06T20:00:08.2812071-06:00:Thread#0:T:Line 15
+2021-06-06T20:00:08.3772263-06:00:2021-06-06T20:00:08.3752276-06:00:Thread#0:T:Parsing: i don't really drink soda either, maybe a few a year from: rabbit_xxxx
+2021-06-06T20:00:34.5119028-06:00:2021-06-06T20:00:34.5108998-06:00:Thread#0:T:Line 16
+2021-06-06T20:00:34.6399301-06:00:2021-06-06T20:00:34.6359307-06:00:Thread#0:T:Parsing: is chocolate milk caffeine free? if it is, then yeah, i guess i'm basically caffeine free from: rabbit_xxxx
+2021-06-06T20:01:28.8813207-06:00:2021-06-06T20:01:28.8773204-06:00:Thread#0:T:Line 17
+2021-06-06T20:01:29.0018586-06:00:2021-06-06T20:01:28.9998582-06:00:Thread#0:T:Parsing: i don't drink chocolate milk that often either though from: rabbit_xxxx
+2021-06-06T20:02:13.0883751-06:00:2021-06-06T20:02:13.0848657-06:00:Thread#0:T:Line 18
+2021-06-06T20:02:13.2314644-06:00:2021-06-06T20:02:13.2284634-06:00:Thread#0:T:Parsing: i mostly drink water,milk, lemonade, apple juice, or other fruit juices from: rabbit_xxxx
+2021-06-06T20:02:43.7363473-06:00:2021-06-06T20:02:43.7353488-06:00:Thread#0:T:Line 19
+2021-06-06T20:02:43.9033866-06:00:2021-06-06T20:02:43.9013835-06:00:Thread#0:T:Parsing: chocolate actually does have caffeine. https://www.healthline.com/health/does-chocolate-have-caffeine from: professor_stevens
+2021-06-06T20:02:47.1058353-06:00:2021-06-06T20:02:47.1008329-06:00:Thread#0:T:Line 20
+2021-06-06T20:02:47.2528676-06:00:2021-06-06T20:02:47.2478733-06:00:Thread#0:T:Parsing: i wonder how i would do on that test from: rabbit_xxxx
+2021-06-06T20:03:08.0908930-06:00:2021-06-06T20:03:08.0858902-06:00:Thread#0:T:Line 21
+2021-06-06T20:03:08.2049161-06:00:2021-06-06T20:03:08.2029155-06:00:Thread#0:T:Parsing: hi from: sky_acaniadev
+2021-06-06T20:03:08.2159189-06:00:2021-06-06T20:03:08.2119205-06:00:Thread#0:T:Eyy, its sky_acaniadev!
+2021-06-06T20:03:27.4884850-06:00:2021-06-06T20:03:27.4844827-06:00:Thread#0:T:Line 22
+2021-06-06T20:03:27.6381060-06:00:2021-06-06T20:03:27.6325962-06:00:Thread#0:T:Parsing: yes, darker has more. from: professor_stevens
+2021-06-06T20:03:45.0990041-06:00:2021-06-06T20:03:45.0950039-06:00:Thread#0:T:Line 23
+2021-06-06T20:03:45.2100294-06:00:2021-06-06T20:03:45.2070278-06:00:Thread#0:T:Parsing: oh nice, i can just buy dark chocolate then from: sky_acaniadev
+2021-06-06T20:04:09.4861929-06:00:2021-06-06T20:04:09.4851926-06:00:Thread#0:T:Line 24
+2021-06-06T20:04:09.6092217-06:00:2021-06-06T20:04:09.6072188-06:00:Thread#0:T:Parsing: coffee has 95 mg from: rabbit_xxxx
+2021-06-06T20:04:53.7096203-06:00:2021-06-06T20:04:53.6876157-06:00:Thread#0:T:Line 25
+2021-06-06T20:04:53.8166454-06:00:2021-06-06T20:04:53.8136442-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:05:06.6955428-06:00:2021-06-06T20:05:06.6935425-06:00:Thread#0:T:Line 26
+2021-06-06T20:05:06.7895633-06:00:2021-06-06T20:05:06.7885624-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:06:20.7161734-06:00:2021-06-06T20:06:20.6991697-06:00:Thread#0:T:Line 27
+2021-06-06T20:06:20.8742075-06:00:2021-06-06T20:06:20.8682066-06:00:Thread#0:T:Parsing: what language did you learn? from: professor_stevens
+2021-06-06T20:06:26.0847470-06:00:2021-06-06T20:06:26.0837467-06:00:Thread#0:T:Line 28
+2021-06-06T20:06:26.1847701-06:00:2021-06-06T20:06:26.1817696-06:00:Thread#0:T:Parsing: what's the test called again? from: rabbit_xxxx
+2021-06-06T20:06:45.0981763-06:00:2021-06-06T20:06:45.0971757-06:00:Thread#0:T:Line 29
+2021-06-06T20:06:45.2102019-06:00:2021-06-06T20:06:45.2092018-06:00:Thread#0:T:Parsing: dlab = hardest test ever from: user335
+2021-06-06T20:06:45.2162022-06:00:2021-06-06T20:06:45.2152024-06:00:Thread#0:T:Eyy, its user335!
+2021-06-06T20:06:54.9062964-06:00:2021-06-06T20:06:54.9062964-06:00:Thread#0:T:Line 30
+2021-06-06T20:06:55.0123206-06:00:2021-06-06T20:06:55.0103195-06:00:Thread#0:T:Parsing: gracious, dude, that's a major skill to have this world. from: professor_stevens
+2021-06-06T20:07:06.7198571-06:00:2021-06-06T20:07:06.7188563-06:00:Thread#0:T:Line 31
+2021-06-06T20:07:06.8198782-06:00:2021-06-06T20:07:06.8188771-06:00:Thread#0:T:Parsing: ...in this world. from: professor_stevens
+2021-06-06T20:07:07.9085055-06:00:2021-06-06T20:07:07.9075061-06:00:Thread#0:T:Line 32
+2021-06-06T20:07:08.0055802-06:00:2021-06-06T20:07:08.0055802-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:08:28.8832224-06:00:2021-06-06T20:08:28.8812221-06:00:Thread#0:T:Line 33
+2021-06-06T20:08:29.0052493-06:00:2021-06-06T20:08:29.0042492-06:00:Thread#0:T:Parsing: two households both alike in dignity from: rabbit_xxxx
+2021-06-06T20:08:52.2849772-06:00:2021-06-06T20:08:52.2839770-06:00:Thread#0:T:Line 34
+2021-06-06T20:08:52.3850000-06:00:2021-06-06T20:08:52.3830018-06:00:Thread#0:T:Parsing: in fair verona where we lay our scene from: rabbit_xxxx
+2021-06-06T20:08:56.0868744-06:00:2021-06-06T20:08:56.0848742-06:00:Thread#0:T:Line 35
+2021-06-06T20:08:56.1898977-06:00:2021-06-06T20:08:56.1878977-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:09:04.8853574-06:00:2021-06-06T20:09:04.8843577-06:00:Thread#0:T:Line 36
+2021-06-06T20:09:05.0123865-06:00:2021-06-06T20:09:05.0113867-06:00:Thread#0:T:Parsing: it's from romeo and juliet from: rabbit_xxxx
+2021-06-06T20:09:10.6922279-06:00:2021-06-06T20:09:10.6902282-06:00:Thread#0:T:Line 37
+2021-06-06T20:09:10.8122583-06:00:2021-06-06T20:09:10.8102560-06:00:Thread#0:T:Parsing: well, sorry you suffered for those five years, but as-salamu alaykum, nonetheless. from: professor_stevens
+2021-06-06T20:09:11.0733434-06:00:2021-06-06T20:09:11.0733434-06:00:Thread#0:T:Line 38
+2021-06-06T20:09:11.1603634-06:00:2021-06-06T20:09:11.1593623-06:00:Thread#0:T:Parsing: i will stop distracting from: rabbit_xxxx
+2021-06-06T20:11:25.0874230-06:00:2021-06-06T20:11:25.0864231-06:00:Thread#0:T:Line 39
+2021-06-06T20:11:25.2150298-06:00:2021-06-06T20:11:25.2140282-06:00:Thread#0:T:Parsing: that's messed up. if there's a war and replacements come in at a leadership level, they're going to refuse them because they didn't train with the unit? from: professor_stevens
+2021-06-06T20:13:20.4952778-06:00:2021-06-06T20:13:20.4932772-06:00:Thread#0:T:Line 40
+2021-06-06T20:13:20.6234002-06:00:2021-06-06T20:13:20.6203050-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:13:43.5227164-06:00:2021-06-06T20:13:43.5197165-06:00:Thread#0:T:Line 41
+2021-06-06T20:13:43.6327406-06:00:2021-06-06T20:13:43.6317402-06:00:Thread#0:T:Parsing: how many times did you listen to eye of the tiger when you were doing that? from: rabbit_xxxx
+2021-06-06T20:13:44.6869765-06:00:2021-06-06T20:13:44.6849755-06:00:Thread#0:T:Line 42
+2021-06-06T20:13:44.8141507-06:00:2021-06-06T20:13:44.8070534-06:00:Thread#0:T:Parsing: hey, when you take the job no one else wants, you rule. from: professor_stevens
+2021-06-06T20:14:07.0971182-06:00:2021-06-06T20:14:07.0961181-06:00:Thread#0:T:Line 43
+2021-06-06T20:14:07.2311478-06:00:2021-06-06T20:14:07.2281470-06:00:Thread#0:T:Parsing: nice from: rabbit_xxxx
+2021-06-06T20:15:05.1070099-06:00:2021-06-06T20:15:05.1050111-06:00:Thread#0:T:Line 44
+2021-06-06T20:15:05.2135758-06:00:2021-06-06T20:15:05.2105754-06:00:Thread#0:T:Parsing: wow from: rabbit_xxxx
+2021-06-06T20:15:20.2902712-06:00:2021-06-06T20:15:20.2862670-06:00:Thread#0:T:Line 45
+2021-06-06T20:15:20.4042935-06:00:2021-06-06T20:15:20.4032935-06:00:Thread#0:T:Parsing: life comes at you fast, sometimes. peace. out. from: professor_stevens
+2021-06-06T20:18:13.6862667-06:00:2021-06-06T20:18:13.6852666-06:00:Thread#0:T:Line 46
+2021-06-06T20:18:13.8052934-06:00:2021-06-06T20:18:13.8042928-06:00:Thread#0:T:Parsing: no i meant when you were fighting yeah from: rabbit_xxxx
+2021-06-06T20:18:40.1285588-06:00:2021-06-06T20:18:40.1245578-06:00:Thread#0:T:Line 47
+2021-06-06T20:18:40.2716067-06:00:2021-06-06T20:18:40.2706065-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:19:28.2963362-06:00:2021-06-06T20:19:28.2903364-06:00:Thread#0:T:Line 48
+2021-06-06T20:19:28.3993610-06:00:2021-06-06T20:19:28.3983595-06:00:Thread#0:T:Parsing: not sure if it's "legal" but i would probably just kick my opponent in the head from: rabbit_xxxx
+2021-06-06T20:19:49.7148749-06:00:2021-06-06T20:19:49.7098731-06:00:Thread#0:T:Line 49
+2021-06-06T20:19:49.8709078-06:00:2021-06-06T20:19:49.8699079-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:20:53.2985095-06:00:2021-06-06T20:20:53.2965083-06:00:Thread#0:T:Line 50
+2021-06-06T20:20:53.4195350-06:00:2021-06-06T20:20:53.4175339-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:21:16.6933860-06:00:2021-06-06T20:21:16.6903870-06:00:Thread#0:T:Line 51
+2021-06-06T20:21:16.8665145-06:00:2021-06-06T20:21:16.8635153-06:00:Thread#0:T:Parsing: lol from: rabbit_xxxx
+2021-06-06T20:21:38.4964252-06:00:2021-06-06T20:21:38.4954247-06:00:Thread#0:T:Line 52
+2021-06-06T20:21:38.6344555-06:00:2021-06-06T20:21:38.6334551-06:00:Thread#0:T:Parsing: at least you got a good story out of it from: rabbit_xxxx
+2021-06-06T20:22:31.1216128-06:00:2021-06-06T20:22:31.1136090-06:00:Thread#0:T:Line 53
+2021-06-06T20:22:31.2756460-06:00:2021-06-06T20:22:31.2716438-06:00:Thread#0:T:Parsing: yep from: rabbit_xxxx
+2021-06-06T20:23:25.2980542-06:00:2021-06-06T20:23:25.2910536-06:00:Thread#0:T:Line 54
+2021-06-06T20:23:25.4060947-06:00:2021-06-06T20:23:25.4040939-06:00:Thread#0:T:Parsing: it's the unpredictabilty of things and the challenges that make life interesting from: rabbit_xxxx
+2021-06-06T20:24:43.3216296-06:00:2021-06-06T20:24:43.3196341-06:00:Thread#0:T:Line 55
+2021-06-06T20:24:43.5802248-06:00:2021-06-06T20:24:43.5792238-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:24:52.1729044-06:00:2021-06-06T20:24:52.1649026-06:00:Thread#0:T:Line 56
+2021-06-06T20:24:52.2949312-06:00:2021-06-06T20:24:52.2939316-06:00:Thread#0:T:Parsing: same from: rabbit_xxxx
+2021-06-06T20:26:17.3019128-06:00:2021-06-06T20:26:17.2999116-06:00:Thread#0:T:Line 57
+2021-06-06T20:26:17.4259399-06:00:2021-06-06T20:26:17.4249398-06:00:Thread#0:T:Parsing: you're more conditioned for misery from: rabbit_xxxx
+2021-06-06T20:26:20.1090820-06:00:2021-06-06T20:26:20.1080805-06:00:Thread#0:T:Line 58
+2021-06-06T20:26:20.2141036-06:00:2021-06-06T20:26:20.2101035-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:26:26.0971908-06:00:2021-06-06T20:26:26.0961904-06:00:Thread#0:T:Line 59
+2021-06-06T20:26:26.1917675-06:00:2021-06-06T20:26:26.1907676-06:00:Thread#0:T:Parsing: i feel like i'm in that boat as well from: rabbit_xxxx
+2021-06-06T20:26:35.6868020-06:00:2021-06-06T20:26:35.6858005-06:00:Thread#0:T:Line 60
+2021-06-06T20:26:35.8048283-06:00:2021-06-06T20:26:35.8048283-06:00:Thread#0:T:Parsing: i handle most things better than your average bear from: rabbit_xxxx
+2021-06-06T20:27:21.7097680-06:00:2021-06-06T20:27:21.6997659-06:00:Thread#0:T:Line 61
+2021-06-06T20:27:21.8267931-06:00:2021-06-06T20:27:21.8257923-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:27:45.9125928-06:00:2021-06-06T20:27:45.9085926-06:00:Thread#0:T:Line 62
+2021-06-06T20:27:46.0156156-06:00:2021-06-06T20:27:46.0106163-06:00:Thread#0:T:Parsing: lmao from: rabbit_xxxx
+2021-06-06T20:28:36.5961907-06:00:2021-06-06T20:28:36.5811869-06:00:Thread#0:T:Line 63
+2021-06-06T20:28:36.9087721-06:00:2021-06-06T20:28:36.9057739-06:00:Thread#0:T:Parsing: wonder how i'll handle the 2nd shot from: rabbit_xxxx
+2021-06-06T20:29:29.7225018-06:00:2021-06-06T20:29:29.7134994-06:00:Thread#0:T:Line 64
+2021-06-06T20:29:29.8505482-06:00:2021-06-06T20:29:29.8465461-06:00:Thread#0:T:Parsing: we'll see from: rabbit_xxxx
+2021-06-06T20:29:41.7261310-06:00:2021-06-06T20:29:41.7241307-06:00:Thread#0:T:Line 65
+2021-06-06T20:29:41.8311538-06:00:2021-06-06T20:29:41.8301538-06:00:Thread#0:T:Parsing: nope from: rabbit_xxxx
+2021-06-06T20:30:05.2575793-06:00:2021-06-06T20:30:05.2565790-06:00:Thread#0:T:Line 66
+2021-06-06T20:30:05.4256792-06:00:2021-06-06T20:30:05.4236790-06:00:Thread#0:T:Parsing: it isn't scheduled, but if i get sick i'll just take the day off from: rabbit_xxxx
+2021-06-06T20:30:13.3123213-06:00:2021-06-06T20:30:13.3103193-06:00:Thread#0:T:Line 67
+2021-06-06T20:30:13.4863578-06:00:2021-06-06T20:30:13.4853572-06:00:Thread#0:T:Parsing: supposed to be the 23rd i think from: rabbit_xxxx
+2021-06-06T20:30:17.5767973-06:00:2021-06-06T20:30:17.5757976-06:00:Thread#0:T:Line 68
+2021-06-06T20:30:17.7498365-06:00:2021-06-06T20:30:17.7488366-06:00:Thread#0:T:Parsing: which is a wednesday from: rabbit_xxxx
+2021-06-06T20:30:28.9140204-06:00:2021-06-06T20:30:28.9110194-06:00:Thread#0:T:Line 69
+2021-06-06T20:30:29.0710551-06:00:2021-06-06T20:30:29.0680555-06:00:Thread#0:T:Parsing: salary from: rabbit_xxxx
+2021-06-06T20:31:03.6984508-06:00:2021-06-06T20:31:03.6954506-06:00:Thread#0:T:Line 70
+2021-06-06T20:31:03.8255037-06:00:2021-06-06T20:31:03.8195015-06:00:Thread#0:T:Parsing: they were open to me contracting again but it would have been too much of a hassle to set everything up from: rabbit_xxxx
+2021-06-06T20:31:34.2962085-06:00:2021-06-06T20:31:34.2952081-06:00:Thread#0:T:Line 71
+2021-06-06T20:31:34.4442411-06:00:2021-06-06T20:31:34.4412434-06:00:Thread#0:T:Parsing: something new they started doing this past year is unlimited time off from: rabbit_xxxx
+2021-06-06T20:31:37.2858757-06:00:2021-06-06T20:31:37.2848759-06:00:Thread#0:T:Line 72
+2021-06-06T20:31:37.4179061-06:00:2021-06-06T20:31:37.4159052-06:00:Thread#0:T:Parsing: no idea how that works from: rabbit_xxxx
+2021-06-06T20:31:49.5052562-06:00:2021-06-06T20:31:49.5012543-06:00:Thread#0:T:Line 73
+2021-06-06T20:31:49.6702917-06:00:2021-06-06T20:31:49.6682920-06:00:Thread#0:T:Parsing: but that's the advantage of working for a company based in europe i guess from: rabbit_xxxx
+2021-06-06T20:32:00.8961941-06:00:2021-06-06T20:32:00.8951933-06:00:Thread#0:T:Line 74
+2021-06-06T20:32:01.0312227-06:00:2021-06-06T20:32:01.0302231-06:00:Thread#0:T:Parsing: unlimited paid time off i should say from: rabbit_xxxx
+2021-06-06T20:33:03.3209555-06:00:2021-06-06T20:33:03.3169523-06:00:Thread#0:T:Line 75
+2021-06-06T20:33:03.4549825-06:00:2021-06-06T20:33:03.4469790-06:00:Thread#0:T:Parsing: weird from: rabbit_xxxx
+2021-06-06T20:34:42.8982826-06:00:2021-06-06T20:34:42.8962822-06:00:Thread#0:T:Line 76
+2021-06-06T20:34:43.0453177-06:00:2021-06-06T20:34:43.0433150-06:00:Thread#0:T:Parsing: 1 << 2 is 4 from: rabbit_xxxx
+2021-06-06T20:34:47.3032673-06:00:2021-06-06T20:34:47.3002651-06:00:Thread#0:T:Line 77
+2021-06-06T20:34:47.4362973-06:00:2021-06-06T20:34:47.4332952-06:00:Thread#0:T:Parsing: and 1 << 1 is 2 from: rabbit_xxxx
+2021-06-06T20:35:35.9000117-06:00:2021-06-06T20:35:35.8990116-06:00:Thread#0:T:Line 78
+2021-06-06T20:35:36.0216055-06:00:2021-06-06T20:35:36.0186042-06:00:Thread#0:T:Parsing: is just like if you have 0001 (binary), which is decimal 1, then you shift every bit left twice (<<2), then you get 0100, which is decimal 4 from: rabbit_xxxx
+2021-06-06T20:36:07.1252783-06:00:2021-06-06T20:36:07.1232784-06:00:Thread#0:T:Line 79
+2021-06-06T20:36:07.2423050-06:00:2021-06-06T20:36:07.2383059-06:00:Thread#0:T:Parsing: is that my long lost relative bleep blop on screen? from: crow_s_of_fate
+2021-06-06T20:36:10.7225896-06:00:2021-06-06T20:36:10.7225896-06:00:Thread#0:T:Line 80
+2021-06-06T20:36:10.8506187-06:00:2021-06-06T20:36:10.8476174-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:36:33.9115301-06:00:2021-06-06T20:36:33.9105289-06:00:Thread#0:T:Line 81
+2021-06-06T20:36:34.0675650-06:00:2021-06-06T20:36:34.0645648-06:00:Thread#0:T:Parsing: hahahahhahahahha from: crow_s_of_fate
+2021-06-06T20:36:39.1034356-06:00:2021-06-06T20:36:39.1004344-06:00:Thread#0:T:Line 82
+2021-06-06T20:36:39.2594699-06:00:2021-06-06T20:36:39.2584693-06:00:Thread#0:T:Parsing: whatup from: crow_s_of_fate
+2021-06-06T20:37:17.8968557-06:00:2021-06-06T20:37:17.8958548-06:00:Thread#0:T:Line 83
+2021-06-06T20:37:18.0598905-06:00:2021-06-06T20:37:18.0578905-06:00:Thread#0:T:Parsing: do you have a layer called indoors? from: rabbit_xxxx
+2021-06-06T20:39:12.9221574-06:00:2021-06-06T20:39:12.9191555-06:00:Thread#0:T:Line 84
+2021-06-06T20:39:13.0531854-06:00:2021-06-06T20:39:13.0521859-06:00:Thread#0:T:Parsing: https://arongranberg.com/astar/docs_dev/tags.php from: rabbit_xxxx
+2021-06-06T20:39:38.3100183-06:00:2021-06-06T20:39:38.3080189-06:00:Thread#0:T:Line 85
+2021-06-06T20:39:38.4280448-06:00:2021-06-06T20:39:38.4260461-06:00:Thread#0:T:Parsing: np from: rabbit_xxxx
+2021-06-06T20:40:52.7084963-06:00:2021-06-06T20:40:52.7054962-06:00:Thread#0:T:Line 86
+2021-06-06T20:40:52.8295223-06:00:2021-06-06T20:40:52.8275215-06:00:Thread#0:T:Parsing: a* inspector -> settings -> tags to rename the tags from: rabbit_xxxx
+2021-06-06T20:41:39.1114025-06:00:2021-06-06T20:41:39.1094028-06:00:Thread#0:T:Line 87
+2021-06-06T20:41:39.2644372-06:00:2021-06-06T20:41:39.2594358-06:00:Thread#0:T:Parsing: check window menu? from: rabbit_xxxx
+2021-06-06T20:41:49.7257403-06:00:2021-06-06T20:41:49.7247394-06:00:Thread#0:T:Line 88
+2021-06-06T20:41:49.8702825-06:00:2021-06-06T20:41:49.8672839-06:00:Thread#0:T:Parsing: there it is from: rabbit_xxxx
+2021-06-06T20:41:51.1135615-06:00:2021-06-06T20:41:51.1125610-06:00:Thread#0:T:Line 89
+2021-06-06T20:41:51.2635949-06:00:2021-06-06T20:41:51.2615943-06:00:Thread#0:T:Parsing: tag names from: rabbit_xxxx
+2021-06-06T20:43:08.5378151-06:00:2021-06-06T20:43:08.5368148-06:00:Thread#0:T:Line 90
+2021-06-06T20:43:08.6718448-06:00:2021-06-06T20:43:08.6688451-06:00:Thread#0:T:Parsing: i would trust the logging more then the ui from: rabbit_xxxx
+2021-06-06T20:44:03.3501162-06:00:2021-06-06T20:44:03.3451165-06:00:Thread#0:T:Line 91
+2021-06-06T20:44:03.4877156-06:00:2021-06-06T20:44:03.4847163-06:00:Thread#0:T:Parsing: than* from: rabbit_xxxx
+2021-06-06T20:46:12.4410710-06:00:2021-06-06T20:46:12.4300708-06:00:Thread#0:T:Line 92
+2021-06-06T20:46:12.6171061-06:00:2021-06-06T20:46:12.6141050-06:00:Thread#0:T:Parsing:  from: rabbit_xxxx
+2021-06-06T20:49:43.2985850-06:00:2021-06-06T20:49:43.2965855-06:00:Thread#0:T:Line 93
+2021-06-06T20:49:43.5093462-06:00:2021-06-06T20:49:43.5083460-06:00:Thread#0:T:Parsing: / from: rabbit_xxxx
+2021-06-06T20:50:17.9829414-06:00:2021-06-06T20:50:17.9779392-06:00:Thread#0:T:Line 94
+2021-06-06T20:50:18.3086402-06:00:2021-06-06T20:50:18.3001250-06:00:Thread#0:T:Parsing: !discord from: user335
+2021-06-06T20:50:18.3366691-06:00:2021-06-06T20:50:18.3346675-06:00:Thread#0:T:Line 95
+2021-06-06T20:50:19.0811609-06:00:2021-06-06T20:50:19.0781606-06:00:Thread#0:T:Line 96
+2021-06-06T20:50:19.3844267-06:00:2021-06-06T20:50:19.3824259-06:00:Thread#0:T:Parsing: !demo from: user335
+2021-06-06T20:50:19.4054459-06:00:2021-06-06T20:50:19.4034452-06:00:Thread#0:T:Line 97
+2021-06-06T20:50:20.8686989-06:00:2021-06-06T20:50:20.8676992-06:00:Thread#0:T:Line 98
+2021-06-06T20:50:21.0428385-06:00:2021-06-06T20:50:21.0418386-06:00:Thread#0:T:Parsing: !steam from: user335
+2021-06-06T20:50:21.0798472-06:00:2021-06-06T20:50:21.0778464-06:00:Thread#0:T:Line 99
