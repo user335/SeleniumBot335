@@ -19,10 +19,10 @@ namespace PracticingSix
             scenarioContext = injectedContext;
         }
         readonly ScenarioContext scenarioContext;
-        public static IWebDriver _webDriver;
-        public static WebDriverWait _wait { get { return new WebDriverWait(_webDriver, defaultWaitTimeout); } }
-        public static TimeSpan defaultWaitTimeout = TimeSpan.FromSeconds(10);
-        public static IWebDriver StartWebDriver()
+        public IWebDriver _webDriver => scenarioContext["webDriver"] as IWebDriver;
+        public WebDriverWait _wait { get { return new WebDriverWait(_webDriver, defaultWaitTimeout); } }
+        public TimeSpan defaultWaitTimeout = TimeSpan.FromSeconds(10);
+        public void StartWebDriverAndStoreInContext()
         {
             Console.WriteLine("Starting the driver...");
             var cService = ChromeDriverService.CreateDefaultService();
@@ -39,7 +39,6 @@ namespace PracticingSix
             //    //@"C:\Users\user\Desktop\CRX files\cmedhionkhpnakcndndgjdbohmhepckk.crx",
             //    @"C:\Users\user\Desktop\CRX files\kjhnjfldmodoikafpfhfehngokaiegok.crx" } );
             var driver = new ChromeDriver(cService, options, TimeSpan.FromMinutes(3));
-            _webDriver = driver;
             //driver.Navigate().GoToUrl("chrome-extension://cmedhionkhpnakcndndgjdbohmhepckk/index.html");
             //driver.Navigate().GoToUrl("chrome-extension://kjhnjfldmodoikafpfhfehngokaiegok/index.html");
             driver.Navigate().GoToUrl("about:blank");
@@ -51,10 +50,10 @@ namespace PracticingSix
                     driver.Close();
                 }
             }
-
-            return driver;
+            scenarioContext.Add("webDriver", driver);
+            //return driver;
         }
-        public static bool WebDriverIsLive()
+        public bool WebDriverIsLive()
         {
             try
             {
@@ -112,7 +111,7 @@ namespace PracticingSix
             //_wait.Timeout = TimeSpan.FromSeconds(5);
             //var titleElement = _wait.Until(d => d.FindElement(By.XPath(YouTubePlayPage.videoTitleXPath)));
             //_webDriver.Manage().Timeouts().ImplicitWait = defaultWaitTimeout;
-            var title = Browser._webDriver.FindElement(By.XPath(YouTubePlayPage.videoTitleXPath));
+            var title = _webDriver.FindElement(By.XPath(YouTubePlayPage.videoTitleXPath));
             var text = title.GetAttribute("innerText");
             return text.ToLower().Contains("eye of the tiger");
         }

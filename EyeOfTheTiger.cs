@@ -23,8 +23,8 @@ namespace PracticingSix
         readonly ScenarioContext scenarioContext;
         Browser browser { get { return new Browser(scenarioContext); } }
         YouTubePlayPage youTubePlayPage { get { return new YouTubePlayPage(scenarioContext); } }
-        IWebDriver _webDriver => Browser._webDriver;
-        WebDriverWait _wait => Browser._wait;
+        IWebDriver _webDriver => browser._webDriver;
+        WebDriverWait _wait => browser._wait;
         static bool _firstPlayGone;
         int spinnerEncounters = 0;
         static string _password => Setup.DecryptSecretKey(0);

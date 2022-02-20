@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,7 +10,7 @@ using TechTalk.SpecFlow;
 namespace PracticingSix
 {
     [Binding]
-    public class Setup 
+    public class Setup
     {
         //public Setup(ScenarioContext injectedContext)
         //{
@@ -17,13 +18,14 @@ namespace PracticingSix
         //}
         //readonly ScenarioContext scenarioContext;
         public static ScenarioContext scenarioContext;
+
         static string[] _getAllSecureLines => File.ReadAllLines(@"C:\Passwords\lastfm.txt");
 
-        [BeforeTestRun]
-        static void BeforeTestRun()
-        {
-            Browser.StartWebDriver();
-        }
+        //[BeforeTestRun]
+        //static void BeforeTestRun()
+        //{
+        //    Browser.StartWebDriverAndStoreInContext();
+        //}
         [BeforeScenario]
         static void BeforeScenario(ScenarioContext injecteContext)
         {
@@ -32,29 +34,32 @@ namespace PracticingSix
         [AfterTestRun]
         static void AfterTestRun()
         {
-            try
+            if (scenarioContext.TryGetValue("webDriver", out IWebDriver driver))
             {
-                Browser._webDriver.Quit();
-            }
-            catch (Exception)
-            {
+                try
+                {
+                    driver.Quit();
+                }
+                catch (Exception)
+                {
 
-            }
-            try
-            {
-                Browser._webDriver.Dispose();
-            }
-            catch (Exception)
-            {
+                }
+                try
+                {
+                    driver.Dispose();
+                }
+                catch (Exception)
+                {
 
-            }
-            try
-            {
-                Browser._webDriver.Quit();
-            }
-            catch (Exception)
-            {
+                }
+                try
+                {
+                    driver.Quit();
+                }
+                catch (Exception)
+                {
 
+                }
             }
         }
         public static string DecryptSecretKey(int k)

@@ -27,8 +27,8 @@ namespace PracticingSix.Steps
         [When(@"I send a browser to snoop on my own chat channel")]
         public void WhenISendABrowserToSnoopOnMyOwnChatChannel()
         {
-            if (!Browser.WebDriverIsLive()) Browser.StartWebDriver();
-            Browser._webDriver.Navigate().GoToUrl("https://twitch.tv/user335/chat");
+            if (!browser.WebDriverIsLive()) browser.StartWebDriverAndStoreInContext();
+            browser._webDriver.Navigate().GoToUrl("https://twitch.tv/user335/chat");
             browser.WaitForPageReady();
         }
 
