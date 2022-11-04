@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using TechTalk.SpecFlow;
@@ -25,7 +26,8 @@ namespace PracticingSix
         public void StartWebDriverAndStoreInContext()
         {
             Console.WriteLine("Starting the driver...");
-            var cService = ChromeDriverService.CreateDefaultService();
+            string path = Assembly.GetExecutingAssembly().Location;
+            var cService = ChromeDriverService.CreateDefaultService($@"{path}\..");
             cService.HideCommandPromptWindow = true;
             ChromeOptions options = new ChromeOptions();
             //options.AddArguments("--disable-extensions");

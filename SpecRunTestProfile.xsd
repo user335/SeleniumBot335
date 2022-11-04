@@ -257,6 +257,7 @@
       <xs:enumeration value="net461" />
       <xs:enumeration value="Netcoreapp2.1" />
       <xs:enumeration value="Netcoreapp3.1" />
+      <xs:enumeration value="Net5.0" />
     </xs:restriction>
   </xs:simpleType>
 

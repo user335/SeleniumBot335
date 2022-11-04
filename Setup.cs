@@ -18,15 +18,16 @@ namespace PracticingSix
         //}
         //readonly ScenarioContext scenarioContext;
         public static ScenarioContext scenarioContext;
-
+        public static string _nextStreamTitle = "Automating stream setup - normally i do game dev, 5+ years on my first title";
+        public static string _streamTags = "Unity,Educational,Game Development,AMA,C#";
         static string[] _getAllSecureLines => File.ReadAllLines(@"C:\Passwords\lastfm.txt");
 
-        //[BeforeTestRun]
-        //static void BeforeTestRun()
-        //{
-        //    Browser.StartWebDriverAndStoreInContext();
-        //}
-        [BeforeScenario]
+		//[BeforeTestRun]
+		//static void BeforeTestRun()
+		//{
+			
+		//}
+		[BeforeScenario]
         static void BeforeScenario(ScenarioContext injecteContext)
         {
             scenarioContext = injecteContext;
@@ -34,7 +35,9 @@ namespace PracticingSix
         [AfterTestRun]
         static void AfterTestRun()
         {
-            if (scenarioContext.TryGetValue("webDriver", out IWebDriver driver))
+            scenarioContext.CloseCon();
+
+			if (scenarioContext.TryGetValue("webDriver", out IWebDriver driver))
             {
                 try
                 {
@@ -67,11 +70,11 @@ namespace PracticingSix
             var answer = "";
             try
             {
-                answer = Eramake.eCryptography.Decrypt(_getAllSecureLines.ElementAt(k));
+                //answer = Eramake.eCryptography.Decrypt(_getAllSecureLines.ElementAt(k));
             }
             catch (Exception)
             {
-                answer = Eramake.eCryptography.Encrypt(_getAllSecureLines.ElementAt(k));
+                //answer = Eramake.eCryptography.Encrypt(_getAllSecureLines.ElementAt(k));
                 Console.WriteLine("Couldn't decrypt line 1, returning back encrypted line " + k + " for you instead: " + answer);
             }
             return answer;
