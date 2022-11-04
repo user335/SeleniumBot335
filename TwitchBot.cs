@@ -1,5 +1,5 @@
 ﻿using com.okitoki.wavhello;
-using PracticingSix.PageObjects;
+using SeleniumBot.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -10,10 +10,9 @@ using System.Net.Sockets;
 //using System.Media;
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.Windows;
 using TechTalk.SpecFlow;
 
-namespace PracticingSix
+namespace SeleniumBot
 {
     public class TwitchBot
     {
@@ -25,7 +24,7 @@ namespace PracticingSix
         Browser browser => new Browser(_scenarioContext);
         string _path => ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).FilePath;
         string _pathPlusRoot => _path.Substring(0, _path.IndexOf(rootFolder) + rootFolder.Length);
-        string rootFolder = "PracticingSix\\";
+        string rootFolder = "SeleniumBot\\";
         string audioFolder = "Audio\\";
 			
         string ip = "irc.chat.twitch.tv";

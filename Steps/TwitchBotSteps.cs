@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 
-namespace PracticingSix.Steps
+namespace SeleniumBot.Steps
 {
-    [Binding]
+	[Binding]
     public class TwitchBotSteps
     {
         public TwitchBotSteps(ScenarioContext injectedContext)

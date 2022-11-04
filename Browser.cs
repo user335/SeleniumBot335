@@ -1,19 +1,14 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
-using PracticingSix.PageObjects;
+using SeleniumBot.PageObjects;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 
-namespace PracticingSix
+namespace SeleniumBot
 {
-    public class Browser
+	public class Browser
     {
         public Browser(ScenarioContext injectedContext)
         {

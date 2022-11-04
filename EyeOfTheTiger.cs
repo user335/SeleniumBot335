@@ -2,19 +2,15 @@
 using com.okitoki.wobblefm.client;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
-using PracticingSix.PageObjects;
+using SeleniumBot.PageObjects;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading;
-using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 
-namespace PracticingSix
+namespace SeleniumBot
 {
-    public class EyeOfTheTiger
+	public class EyeOfTheTiger
     {
         public EyeOfTheTiger(ScenarioContext injectedContext)
         {
