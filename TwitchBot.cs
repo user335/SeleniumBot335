@@ -56,13 +56,16 @@ namespace SeleniumBot
         static string _lastChatUser;
         static string _lastChatMessage;
         static string _lastRaider;
-        public void Go()
+        static string _firstChatUser;
+        static string _firstChatMessage;
+        static bool _endTest = false;
+		public void Go()
         {
             namesGreetedThisSession = new List<string>();
             lurkers = new List<string>();
             brbs = new List<string>();
             string nameToReGreet_Manually = "";
-            while (true && browser._webDriver.Url.Contains("335"))
+            while (true)
             {
                 if (NewLineWasDetected())
 				{
@@ -78,7 +81,13 @@ namespace SeleniumBot
                             lastTextElementNumber++;
                         }
                         else _lastChatMessage = "";
-                        ParseForCommands(_lastChatMessage, _lastChatUser);
+						if (string.IsNullOrEmpty(_firstChatUser + _firstChatMessage)) //used in CheckIfBrowserChoppedOutOldChats
+						{
+							_firstChatUser = _lastChatUser;
+							_firstChatMessage = _lastChatMessage;
+						}
+						if (string.IsNullOrEmpty(_lastChatUser) || _lastChatUser == "seleniumbot335" || _lastChatUser.ToLower() == "nightbot" || _lastChatMessage.StartsWith("/")) return;
+						ParseForCommands(_lastChatMessage, _lastChatUser);
                     }
                     else CheckForNewRaidOrHost();
                 }
@@ -88,7 +97,11 @@ namespace SeleniumBot
                     namesGreetedThisSession.Remove(nameToReGreet_Manually);
                     nameToReGreet_Manually = "";
                 }
-                //Thread.Sleep(250); //not necessary
+                if (_endTest)
+                {
+                    Logger.Log("End of stream deyected.");
+                    break;
+                }
             }
         }
         bool NewLineWasDetected()
@@ -103,12 +116,9 @@ namespace SeleniumBot
         }
         public void ParseForCommands(string input, string user)
         {
-            if (string.IsNullOrEmpty(user) || user == "seleniumbot335" || user.ToLower() == "nightbot" || input.StartsWith("/")) return;
             Console.WriteLine("Parsing: " + input + " from: " + user);
-
             bool cameFromHost = string.Equals(user, "user335", StringComparison.OrdinalIgnoreCase);
-            //parse user specific commands first
-            //if (!namesGreetedThisSession.Contains(user))
+
             var sql = $"SELECT LastGreetTime FROM dbo.[LastGreetTimes] WHERE Name = '{user}'";
             object response = null;
             try
@@ -117,7 +127,7 @@ namespace SeleniumBot
             }
             catch (Exception e)
             {
-                _scenarioContext.CloseCon();
+                _scenarioContext.CloseSqlConn();
                 throw e;
             }
             if (cameFromHost && input.StartsWith("!"))
@@ -136,18 +146,15 @@ namespace SeleniumBot
                 if (success != 1) throw new OperationCanceledException("Why did that insert fail? sql was: " + sql.ToString());
                 else Console.WriteLine($"Greeted {user} at {DateTime.Now.ToShortTimeString()}");
 
-                if (CheckForCustomIntroPlay(user) == false)
-                    PlayEnterRoom();
+                GreetUserInChat(user);
+                GreetUserInAudio(user);				
 
                 if (cameFromHost)
                 {
                     PlayWhipBackToWork();
                 }
             }
-            //         else
-            //{
-            //             _scenarioContext.CloseCon();
-            //}
+
             if (CanUserUnlurk(user, input))
             {
                 PlayAndUnlurkUser(user);
@@ -170,10 +177,6 @@ namespace SeleniumBot
             {
                 PlayUserGetBackToWork();
             }
-            //else if (input.Contains("back ")
-            //    && input.Substring(input.IndexOf("back ")).Contains(" to ")
-            //    && input.Substring(input.IndexOf("back ")).Substring(input.IndexOf(" to ")).Contains(" work"))
-            //PlayUserGetBackToWork();
             else if (input.Contains("goodnight") || input.Contains("bye") ||
                 (input.Contains("going")
                 && input.Substring(input.IndexOf("going")).Contains("to")
@@ -191,8 +194,8 @@ namespace SeleniumBot
                     PlaySleepyTime();
             }
             if (input.Contains("selenium") && input.Substring(input.IndexOf("selenium")).Contains("bot") && input.Contains("?"))
-                PingToChat("Who, me? User335 made me with selenium, which he LOVES talking about to a ridiculous degree because test automation is the future of all QA so feel free to distract him further with more questions!");
-            if (input.StartsWith("!discord", StringComparison.OrdinalIgnoreCase))
+                PingToChat("Who, me? User335 made me with selenium, which he LOVES talking about to a ridiculous degree because test automation is the future of all QA - see full source code at github.com/user335/SeleniumBot335");
+            else if (input.StartsWith("!discord", StringComparison.OrdinalIgnoreCase))
             {
                 PingDiscord();
             }
@@ -208,7 +211,24 @@ namespace SeleniumBot
 			{
                 PingSteam();
 			}
+            else if (input.StartsWith("!github", StringComparison.OrdinalIgnoreCase))
+            {
+                PingToChat("My source code is available at github.com/user335/SeleniumBot335");
+            }
 		}
+
+        void GreetUserInAudio(string user)
+        {
+			if (!CheckForCustomIntroPlay(user))
+				PlayGenericEnterRoom();
+		}
+
+        void GreetUserInChat(string user)
+        {
+			if (!GreetUserFromDBIfFound(user)) 
+                IntroduceUserToChatGenerically(user);
+		}
+
         void PingDemo()
         {
 			PingToChat("Try the game out here: user335.itch.io/rota - no install needed just download, extract, and run the exe. ALL feedback GREATLY appreciated!");
@@ -267,7 +287,7 @@ namespace SeleniumBot
             wavePlayer.Play(_back);
             brbs.Remove(user);
         }
-        public void PlayEnterRoom()
+        public void PlayGenericEnterRoom()
         {
             wavePlayer.Play(_enterRoom);
         }
@@ -278,7 +298,6 @@ namespace SeleniumBot
         /// </summary>
         public bool CheckForCustomIntroPlay(string user)
         {
-            GreetUserFromDBIfFound(user);
             string fullpath = _pathPlusRoot + audioFolder + "TwitchNames\\" + user + ".wav";
             if (!File.Exists(fullpath)) return false;
             Console.WriteLine("Eyy, its " + user + "!");
@@ -314,15 +333,88 @@ namespace SeleniumBot
             return true;
         }
 
-		private void GreetUserFromDBIfFound(string user)
+		private bool GreetUserFromDBIfFound(string user)
 		{
             var sql = $"SELECT [Greeting] FROM dbo.[CurrentGreetings] WHERE [Name] = '{user}'";
 			var greeting = new SqlCommand(sql, _scenarioContext.Con()).ExecuteScalar();
             if (greeting != null)
 			{
                 PingToChat($"User335 recommends you check out {user}'s work: {greeting}");
+                return true;
 			}
+            return false;
 		}
+        void IntroduceUserToChatGenerically(string user)
+        {
+            int roll = new Random().Next(63);
+			switch (roll)
+            {
+                case 0: PingToChat($"{user} walks in"); break;
+                case 1: PingToChat($"{user} strolls in"); break;
+                case 2: PingToChat($"{user} makes an entrance"); break;
+                case 3: PingToChat($"{user} appears"); break;
+                case 4: PingToChat($"{user} suddenly appears"); break;
+                case 5: PingToChat($"{user} pops out of a bush"); break;
+                case 6: PingToChat($"{user} descends slowly from a tree"); break;
+                case 7: PingToChat($"{user} climbs in through an unlocked window"); break;
+                case 8: PingToChat($"{user} breaks an unlocked window and climbs in"); break;
+                case 9: PingToChat($"{user} breaks an unlocked window and climbs in, cutting themselves on the glass"); break;
+                case 10: PingToChat($"{user} is here"); break;
+                case 11: PingToChat($"{user} emerges from a demon portal"); break;
+                case 12: PingToChat($"{user} emerges from a demon portal, and is hungry"); break;
+                case 13: PingToChat($"{user} emerges from a demon portal and immediately goes HAM"); break;
+                case 14: PingToChat($"{user} defenestrates themselves into the stream"); break;
+                case 15: PingToChat($"{user} reveals they have been lurking for quite some time and heard everything we said"); break;
+                case 16: PingToChat($"{user} reveals they have been hiding under the sink but emerged due to audio issues"); break;
+                case 17: PingToChat($"{user} emerges from a demon po- Oh god, why are they naked!?"); break;
+                case 18: PingToChat($"{user} sneaks into the room wearing a disguise"); break;
+                case 19: PingToChat($"{user} sneaks into the room by walking backwards"); break;
+                case 20: PingToChat($"{user} is a spy."); break;
+                case 21: PingToChat($"{user} infiltrates the chat"); break;
+                case 22: PingToChat($"{user} arrives pretending to be one of us"); break;
+                case 23: PingToChat($"{user} arrives late but plays it cool"); break;
+                case 24: PingToChat($"{user} arrives uninvited but plays it off legit"); break;
+                case 25: PingToChat($"{user} arrives acting surprised about the strange smell that has also arrived"); break;
+                case 26: PingToChat($"{user} gets yeeted into the room by a giant ant demon"); break;
+                case 27: PingToChat($"{user} arrives despite the restraining order"); break;
+                case 28: PingToChat($"A wild {user} appears!"); break;
+                case 29: PingToChat($"{user} drops in"); break;
+                case 30: PingToChat($"{user} kicks down the door wearing full battle armor"); break;
+                case 31: PingToChat($"{user} air assaults onto the lawn"); break;
+                case 32: PingToChat($"{user} parachutes onto the roof then just stays up there, listening in"); break;
+                case 33: PingToChat($"{user} bursts through the wall in a BattleMech"); break;
+                case 34: PingToChat($"{user} has finally arrived"); break;
+                case 35: PingToChat($"{user} arrived at precisely {DateTime.Now.ToShortTimeString()} (user time) and wants everyone to know so they can use us as an alibi"); break;
+                case 36: PingToChat($"{user} stumbles in, sober as ever"); break;
+                case 37: PingToChat($"{user} arrives, wondering where they can park their monster truck"); break;
+                case 38: PingToChat($"{user} walks out of a demon portal dual-wielding two fully charged chaos meters"); break;
+                case 39: PingToChat($"{user} arrives with an entourage of angry demons"); break;
+                case 40: PingToChat($"{user} has arrived, which is strange because they were not meant to be here until the next chapter..."); break;
+                case 41: PingToChat($"{user} emerges from a tunnel they dug underneath the house"); break;
+                case 42: PingToChat($"{user} arrives carrying a large locked treasure chest"); break;
+                case 43: PingToChat($"{user} arrives wearing jeans that reek of bleach"); break;
+                case 44: PingToChat($"{user} chooses here to hide out from the police"); break;
+                case 45: PingToChat($"{user} wanders into the room while searching for a specific sandwich"); break;
+                case 46: PingToChat($"{user} arrives on horseback"); break;
+                case 47: PingToChat($"{user} arrives riding a horse backwards"); break;
+                case 48: PingToChat($"{user} arrives riding a bear without a saddle"); break;
+                case 49: PingToChat($"{user} arrives riding a bear backwards"); break;
+                case 50: PingToChat($"A bat flies into the room, lands on the couch, then transforms into {user}"); break;
+                case 51: PingToChat($"A bat wearing sunglasses flies into the room, hangs from the ceiling fan and begins sipping from a tiny flask. It must be {user}"); break;
+                case 52: PingToChat($"{user} materializes in the middle of the room with no memories at all"); break;
+                case 53: PingToChat($"{user} appears to have emerged from thin air, but is actually a higher-dimensional being and simply walked here"); break;
+                case 54: PingToChat($"Summoner's note: {user} is communing with us from the other side"); break;
+                case 55: PingToChat($"{user} has crossed three planes of existence to be with us tonight"); break;
+                case 56: PingToChat($"Summoner's note: {user} is hiding from Sasquatch. Please be an ally and do not report them"); break;
+                case 57: PingToChat($"Summoner's note: {user} is hiding from the police. Please be an ally and do not report them"); break;
+                case 58: PingToChat($"Summoner's note: {user} is hiding from the IRS. Please be an ally and do not report them"); break;
+                case 59: PingToChat($"{user} ignores several previous warnings and shows up anyway"); break;
+                case 60: PingToChat($"Summoner's note: {user} is originally from the future but is participating in this conversation from the past"); break;
+                case 61: PingToChat($"Summoner's note: {user} is joining us again for the first time ever, having been recently re-reborn"); break;
+                case 62: PingToChat($"{user} is choosing to spend time with us instead of any of the infinite other possibilities available"); break;
+                default: PingToChat($"{user} suddenly barges in with unexpected intensity (due partially to an internal switch rolling outside of expected range: {roll})"); break;
+            }
+        }
 
 		public float TryToPlayFileFromPath(string fullpath)
         {
@@ -340,8 +432,6 @@ namespace SeleniumBot
         {
             if (!lurkers.Contains(user))
             {
-                lurkers.Add(user);
-                wavePlayer.Play(_burrow);
                 switch (new Random().Next(3))
                 {
                     case 0: PingToChat(user + " drinks a stinky potion and disappears");
@@ -353,29 +443,11 @@ namespace SeleniumBot
 						PingToChat(user + " hides from a demon going HAM");
 						break;
 				}
+				lurkers.Add(user);
+				wavePlayer.Play(_burrow);
+			}
+		}
 
-            }
-
-        }
-
-        //lol this
-        //public int GetMaxMatchedChars(string stringA, string stringB)
-        //{
-        //    int matchLength = 0;
-        //    for (int i = 0; i < stringA.Length; i++)
-        //    {
-        //        if (stringB.Contains(stringA.ElementAt(i)))
-        //        {
-        //            //get max chars to check by comparing length of remaining string in A vs same in B
-        //            int charsToCheck = Math.Min(stringA.Substring(i).Length, stringB.Substring(stringB.IndexOf(stringA.ElementAt(i))).Length);
-        //            while (!stringB.Contains(stringA.Substring(i, charsToCheck))) 
-        //                charsToCheck--;
-        //            if (charsToCheck > matchLength) matchLength = charsToCheck;
-        //        }
-        //    }
-        //    //return longest length match found
-        //    return matchLength;
-        //}
         public bool CanUserUnlurk(string user, string input)
         {
             return lurkers.Contains(user) || input.Contains("unlurk");
@@ -384,7 +456,6 @@ namespace SeleniumBot
         {
             lurkers.Remove(user);
             wavePlayer.Play(_unBurrow);
-            //Thread.Sleep(1000);
         }
         public void CheckForNewRaidOrHost()
         {
@@ -396,10 +467,10 @@ namespace SeleniumBot
                 Thread.Sleep(1000);
                 if (CheckForCustomIntroPlay(_lastRaider) == false)
                 {
-                    PlayEnterRoom();
+                    PlayGenericEnterRoom();
                 }
-                PingToChat("Big thanks to " + _lastRaider + " for the raid! Hook them up with a follow if you can: twitch.tv/" + _lastRaider);
                 CreateNewDefaultGreetingIfNoneFoundInDB(_lastRaider);
+                PingToChat("Big thanks to " + _lastRaider + " for the raid! Hook them up with a follow if you can: twitch.tv/" + _lastRaider);
             }
         }
 
@@ -409,41 +480,20 @@ namespace SeleniumBot
         /// </summary>
         public void CheckIfBrowserChoppedOutOldChats()
         {
-            //if (twitchChatPage.allUserNames.Count > 0)
-            //{
-            //    if (string.IsNullOrEmpty(_firstChatUser) || (_firstChatUser != twitchChatPage.allUserNames.First().Text))
-            //    {
-            //        _firstChatUser = twitchChatPage.allUserNames.First().Text;
-            //        _firstChatMessage = twitchChatPage.allChatMessages?.First()?.Text;
-            //    }
-            //    else if (twitchChatPage.allUserNames.First(o => o != null).Text != _firstChatUser || twitchChatPage.allChatMessages.First(o => o != null).Text != _firstChatMessage)
-            //    {
-            //        RecalculateIndexes();
-            //    }
-            //}
-            //if (lastLineParsed >= 150)
-            //    throw new OperationCanceledException("That's the max! Restart this bot or it's done!");
-            ////todo: fix this!
+            if (twitchChatPage.allUserNames.Count > 0 && !string.IsNullOrEmpty(_firstChatUser) &&
+                    (twitchChatPage.allUserNames.First(o => o != null).Text != _firstChatUser
+                    || twitchChatPage.allChatMessages.First().Text != _firstChatMessage))
+            {
+                RecalculateIndexes();
+
+            }
+            if (lastLineParsed >= 150)
+                throw new OperationCanceledException("That's the max! Restart this bot or it's done!");
+            //todo: fix this!
         }
         void RecalculateIndexes()
         {
-            int totalLinesChopped = 0;
-            int linecount = twitchChatPage.allChatLines.Count;
-            int usercount = twitchChatPage.allUserNames.Count;
-            int messagecount = twitchChatPage.allChatMessages.Count;
-            for (int i = 0; i < twitchChatPage.allChatLines.Count; i++)
-            {
-                if (twitchChatPage.allChatLines.ElementAt(i).Text == _lastLineParsedText)
-                {
-                    totalLinesChopped = lastLineParsed - i;
-                    lastLineParsed = i;
-                    break;
-                }
-            }
-            //for (int i = lastUserElementNumber - (totalLinesChopped + 1); i < twitchChatPage.allUserNames.Count; i++)
-            //{
-            //    if (twitchChatPage.allUserNames.ElementAt(i).Text == lastuser)
-            //        }
+            
         }
         bool ParseHostOnlyCommand(string input)
 		{
@@ -465,21 +515,25 @@ namespace SeleniumBot
 			}
             else if (input.StartsWith("!regreet", StringComparison.OrdinalIgnoreCase))
             {
-                if (input.StartsWith("!regreetnow", StringComparison.OrdinalIgnoreCase))
+                if (input.StartsWith("!regreetnext", StringComparison.OrdinalIgnoreCase))
+                {
+					var user = input.Substring(8).Trim();
+					var sql = $"DELETE FROM LastGreetTimes WHERE [Name] = '{user}'";
+					ExecuteNonQuery(sql);
+					PingToChat(user + " will be greeted again next time they chat");
+				}
+				else
                 {
 					var user = input.Substring(11).Trim();
 					CheckForCustomIntroPlay(user);
+					var sql = $"DELETE FROM LastGreetTimes WHERE [Name] = '{user}'";
+					new SqlCommand(sql, _scenarioContext.Con()).ExecuteNonQuery();
+					sql = $"INSERT LastGreetTimes (Name, LastGreetTime) values ('{user}','{DateTime.Now}')";
+					new SqlCommand(sql, _scenarioContext.Con()).ExecuteNonQuery();
 				}
-                else
-                {
-                    var user = input.Substring(8).Trim();
-                    var sql = $"DELETE FROM LastGreetTimes WHERE [Name] = '{user}'";
-                    ExecuteNonQuery(sql);
-                    PingToChat(user + " will be greeted again next time they chat");
-                    return true;
-                }
-            }
-            else if (input.StartsWith("!outro", StringComparison.OrdinalIgnoreCase))
+				return true;
+			}
+			else if (input.StartsWith("!outro", StringComparison.OrdinalIgnoreCase))
             {
                 PingDiscord();
                 Thread.Sleep(1000);
@@ -488,6 +542,8 @@ namespace SeleniumBot
                 PingDemo();
                 Thread.Sleep(1000);
                 PingToChat("Have a good night everybody!");
+                _endTest = true;
+				return true;
 			}
 			return false;
 		}
@@ -505,6 +561,7 @@ namespace SeleniumBot
 				ExecuteNonQuery(sql2);
 				var sql3 = $"INSERT CurrentGreetings (Name,Greeting) values ('{raider}','{greet}')";
 				ExecuteNonQuery(sql3);
+                PingToChat($"Added a default greeting in the database recommending people check out twitch.tv/{raider} whenever {raider} is in the room - please let user know what you'd prefer your custom message to say!");
 			}
         }
 		string Sterilize(string input)
@@ -522,7 +579,7 @@ namespace SeleniumBot
             }
             catch (Exception e)
             {
-				_scenarioContext.CloseCon();
+				_scenarioContext.CloseSqlConn();
                 throw e;
             }
         }
@@ -537,7 +594,7 @@ namespace SeleniumBot
             }
             catch (Exception e)
             {
-				_scenarioContext.CloseCon();
+				_scenarioContext.CloseSqlConn();
 				throw e;
             }
         }
@@ -551,21 +608,18 @@ namespace SeleniumBot
             {
                 streamWriter.WriteLine($"PRIVMSG #user335 :{message}");
             }
-            catch (Exception)
+            catch (Exception e)
             {
-				var writer = _scenarioContext.Get<StreamWriter>("StreamWriter");
-				var reader = _scenarioContext.Get<StreamReader>("StreamReader");
-                writer.Flush();
-                writer.Close();
-                reader.Close();
-                _scenarioContext.Remove("StreamWriter");
-                _scenarioContext.Remove("StreamReader");
-				writer = InitializeStreamWriter();
-				writer.WriteLine($"PRIVMSG #user335 :{message}");
+                Logger.Log("Failed when writing message: " + message + "\n e was: " + e);
+                Logger.Log("Flushing streamwriter and retrying");
+                _scenarioContext.CloseStreamWriterConn();
+				streamWriter = InitializeStreamWriter();
+				streamWriter.WriteLine($"PRIVMSG #user335 :{message}");
 			}
 		}
         public StreamWriter InitializeStreamWriter()
 		{
+            Logger.Log("Initializing streamwriter...");
             var tcpClient = new TcpClient();
             tcpClient.Connect(ip, port);
             var streamReader = new StreamReader(tcpClient.GetStream());

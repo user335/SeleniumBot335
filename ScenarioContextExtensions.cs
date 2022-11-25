@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.IO;
 using TechTalk.SpecFlow;
 
 namespace SeleniumBot
@@ -26,13 +27,23 @@ namespace SeleniumBot
 			_scenarioContext.Add("SqlConn", newCon); //Hard add to force you to keep this clean, ensuring all open conns get closed
 			return newCon;
 		}
-		public static void CloseCon(this ScenarioContext _scenarioContext)
+		public static void CloseSqlConn(this ScenarioContext _scenarioContext)
 		{
 			if (_scenarioContext.ContainsKey("SqlConn"))
 			{
 				_scenarioContext.Con().Close();
 				_scenarioContext.Remove("SqlConn");
 			}
+		}
+		public static void CloseStreamWriterConn(this ScenarioContext _scenarioContext)
+		{
+			var writer = _scenarioContext.Get<StreamWriter>("StreamWriter");
+			var reader = _scenarioContext.Get<StreamReader>("StreamReader");
+			writer.Flush();
+			writer.Close();
+			reader.Close();
+			_scenarioContext.Remove("StreamWriter");
+			_scenarioContext.Remove("StreamReader");
 		}
 	}
 }

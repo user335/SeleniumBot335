@@ -22,9 +22,7 @@ namespace SeleniumBot.Steps
         [When(@"I send a browser to snoop on my own chat channel")]
         public void WhenISendABrowserToSnoopOnMyOwnChatChannel()
         {
-            if (!browser.WebDriverIsLive()) browser.StartWebDriverAndStoreInContext();
-            browser._webDriver.Navigate().GoToUrl("https://twitch.tv/user335/chat");
-            browser.WaitForPageReady();
+            browser.GoTo("https://twitch.tv/user335/chat");
         }
 
         [Then(@"my Twitch Bot lives!")]

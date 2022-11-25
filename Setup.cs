@@ -27,12 +27,13 @@ namespace SeleniumBot
         static void BeforeScenario(ScenarioContext injecteContext)
         {
             scenarioContext = injecteContext;
-        }
+			new TwitchBot(scenarioContext).InitializeStreamWriter();
+		}
         [AfterTestRun]
         static void AfterTestRun()
         {
-            scenarioContext.CloseCon();
-
+            scenarioContext.CloseSqlConn();
+            scenarioContext.CloseStreamWriterConn();
 			if (scenarioContext.TryGetValue("webDriver", out IWebDriver driver))
             {
                 try
