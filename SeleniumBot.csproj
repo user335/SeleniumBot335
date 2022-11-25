@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net471</TargetFramework>
+    <TargetFramework>net481</TargetFramework>
     <OutputType>Library</OutputType>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -91,10 +91,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.WinAppDriver.Appium.WebDriver" Version="1.0.1-Preview" />
-    <PackageReference Include="Selenium.WebDriver">
-      <Version>3.11.2</Version>
-    </PackageReference>
-    <PackageReference Include="SpecRun.SpecFlow">
+	<PackageReference Include="Selenium.WebDriver">
+	  <Version>3.11.2</Version>
+	</PackageReference>
+	<PackageReference Include="SpecRun.SpecFlow">
       <Version>3.4.19</Version>
     </PackageReference>
     <PackageReference Include="System.Configuration.ConfigurationManager">
@@ -118,5 +118,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestResults\" />
   </ItemGroup>
 </Project>

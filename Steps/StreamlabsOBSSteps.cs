@@ -115,7 +115,7 @@ namespace SeleniumBot.Steps
 			//if (_scenarioContext.TryGetValue("WinAppDriver", out Process winappdriver))
 			//	winappdriver.Kill();
 
-			var quitTime = DateTime.Now.AddSeconds(500);
+			var quitTime = DateTime.Now.AddSeconds(60);
 			while (true)
 			{
 				try
@@ -129,6 +129,7 @@ namespace SeleniumBot.Steps
 				}
 				catch { }
 				CloseSlobsSession();
+				if (DateTime.Now > quitTime) throw new OperationCanceledException("Didn't work!");
 			}
 		}
 
@@ -155,7 +156,8 @@ namespace SeleniumBot.Steps
 		[Then(@"my stream is live!")]
 		public void ThenMyStreamIsLive()
 		{
-			//_scenarioContext.Pending();
+			twitchVideoPage.TryToMuteThePage();
+			browser.OpenANewTab();
 		}
 		[Given(@"WinAppDriver is running")]
 		public void GivenWinAppDriverIsRunning()

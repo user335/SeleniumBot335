@@ -48,7 +48,8 @@ namespace SeleniumBot
                 }
             }
             scenarioContext.Add("webDriver", driver);
-            //return driver;
+			if (Setup.sharingWebDriverBetweenScenarios)
+				Setup.scenarioContext = scenarioContext;
         }
         public bool WebDriverIsLive()
         {
@@ -267,6 +268,12 @@ namespace SeleniumBot
 		{
 			IJavaScriptExecutor executor = (IJavaScriptExecutor)_webDriver;
 			executor.ExecuteScript("arguments[0].click();", element);
+		}
+
+		public void OpenANewTab()
+		{
+			((IJavaScriptExecutor)_webDriver).ExecuteScript("window.open();");
+			_webDriver.SwitchTo().Window(_webDriver.WindowHandles.Last());
 		}
 	}
 }
