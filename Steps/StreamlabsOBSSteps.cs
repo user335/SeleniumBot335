@@ -3,16 +3,14 @@ using OpenQA.Selenium.Remote;
 using SeleniumBot.PageObjects;
 using System;
 using System.Diagnostics;
-using System.IO;
 using TechTalk.SpecFlow;
-using static System.Collections.Specialized.BitVector32;
 
 namespace SeleniumBot.Steps
 {
 	[Binding]
-	public class StreamlabsOBSSteps
+	public class WinApp
 	{
-		public StreamlabsOBSSteps(ScenarioContext injectedContext)
+		public WinApp(ScenarioContext injectedContext)
 		{
 			_scenarioContext = injectedContext;
 		}
@@ -214,7 +212,7 @@ namespace SeleniumBot.Steps
 			else return true;
 		}
 
-		void CloseSlobsSession()
+		public void CloseSlobsSession()
 		{
 			CloseGoLiveSession();
 			Logger.Log("Killing Slobs session");

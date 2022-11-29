@@ -1,5 +1,6 @@
 ﻿using com.okitoki.wavhello;
 using SeleniumBot.PageObjects;
+using SeleniumBot.Steps;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -58,7 +59,7 @@ namespace SeleniumBot
         static string _lastRaider;
         static string _firstChatUser;
         static string _firstChatMessage;
-        static bool _endTest = false;
+        static DateTime _endStreamTime = DateTime.MaxValue;
 		public void Go()
         {
             namesGreetedThisSession = new List<string>();
@@ -86,8 +87,8 @@ namespace SeleniumBot
 							_firstChatUser = _lastChatUser;
 							_firstChatMessage = _lastChatMessage;
 						}
-						if (string.IsNullOrEmpty(_lastChatUser) || _lastChatUser == "seleniumbot335" || _lastChatUser.ToLower() == "nightbot" || _lastChatMessage.StartsWith("/")) return;
-						ParseForCommands(_lastChatMessage, _lastChatUser);
+						if (!string.IsNullOrEmpty(_lastChatUser) && _lastChatUser != "seleniumbot335" && _lastChatUser.ToLower() != "nightbot" && !_lastChatMessage.StartsWith("/"))                             
+						    ParseForCommands(_lastChatMessage, _lastChatUser);
                     }
                     else CheckForNewRaidOrHost();
                 }
@@ -97,10 +98,11 @@ namespace SeleniumBot
                     namesGreetedThisSession.Remove(nameToReGreet_Manually);
                     nameToReGreet_Manually = "";
                 }
-                if (_endTest)
+                if (DateTime.Now > _endStreamTime)
                 {
-                    Logger.Log("End of stream deyected.");
-                    break;
+                    Logger.Log("Stream ending at " + DateTime.Now);
+                    new WinApp(_scenarioContext).CloseSlobsSession();
+					break;
                 }
             }
         }
@@ -219,7 +221,7 @@ namespace SeleniumBot
 
         void GreetUserInAudio(string user)
         {
-			if (!CheckForCustomIntroPlay(user))
+			if (!CheckForCustomIntroWavFile(user))
 				PlayGenericEnterRoom();
 		}
 
@@ -296,7 +298,7 @@ namespace SeleniumBot
         /// returns true if custom intro is found and plays
         /// also checks the database for a greeting and chats it out if found!
         /// </summary>
-        public bool CheckForCustomIntroPlay(string user)
+        public bool CheckForCustomIntroWavFile(string user)
         {
             string fullpath = _pathPlusRoot + audioFolder + "TwitchNames\\" + user + ".wav";
             if (!File.Exists(fullpath)) return false;
@@ -465,11 +467,13 @@ namespace SeleniumBot
                 _lastRaider = newRaid.GetAttribute("alt");
                 //_newRaid.Play(); //rely on streamlabs for this
                 Thread.Sleep(1000);
-                if (CheckForCustomIntroPlay(_lastRaider) == false)
-                {
-                    PlayGenericEnterRoom();
-                }
-                CreateNewDefaultGreetingIfNoneFoundInDB(_lastRaider);
+                //if (CheckForCustomIntroWavFile(_lastRaider) == false)
+                //{
+                //    PlayGenericEnterRoom();
+                //}
+                GreetUserInAudio(_lastRaider);
+
+				CreateNewDefaultGreetingIfNoneFoundInDB(_lastRaider);
                 PingToChat("Big thanks to " + _lastRaider + " for the raid! Hook them up with a follow if you can: twitch.tv/" + _lastRaider);
             }
         }
@@ -501,7 +505,9 @@ namespace SeleniumBot
             if (input.StartsWith("!greet", StringComparison.OrdinalIgnoreCase)) //format for !greet is !greet <who> <greeting>, which will get played back as "User335 recommends you check out <who>'s work at <greeting>"
 			{
                 var userAndGreet = input.Substring(6).Trim();
-                var user = userAndGreet.Substring(0, userAndGreet.IndexOf(' ')).Trim();
+                var index = userAndGreet.IndexOf(' ');
+
+				var user = index < 0 ? userAndGreet : userAndGreet.Substring(0, index).Trim();
                 var greet = Sterilize(userAndGreet.Substring(userAndGreet.IndexOf(' ')).Trim());
 
                 var sql1 = $"INSERT OldGreetings (Name,Greeting,TimeAdded) values ('{user}','{greet}','{DateTime.Now}')";
@@ -524,8 +530,9 @@ namespace SeleniumBot
 				}
 				else
                 {
-					var user = input.Substring(11).Trim();
-					CheckForCustomIntroPlay(user);
+					var user = input.Substring(9).Trim();
+					GreetUserInChat(user);
+					GreetUserInAudio(user);
 					var sql = $"DELETE FROM LastGreetTimes WHERE [Name] = '{user}'";
 					new SqlCommand(sql, _scenarioContext.Con()).ExecuteNonQuery();
 					sql = $"INSERT LastGreetTimes (Name, LastGreetTime) values ('{user}','{DateTime.Now}')";
@@ -542,7 +549,7 @@ namespace SeleniumBot
                 PingDemo();
                 Thread.Sleep(1000);
                 PingToChat("Have a good night everybody!");
-                _endTest = true;
+                _endStreamTime = DateTime.Now.AddSeconds(30);
 				return true;
 			}
 			return false;
@@ -566,7 +573,7 @@ namespace SeleniumBot
         }
 		string Sterilize(string input)
         {
-            return input.Replace("\0", "").Replace("\'", "").Replace("\"", "").Replace("\b", "").Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("\\Z", "").Replace("\\", "").Replace("\\%", "").Replace("\\_", "").Replace("%", "");
+            return input.Replace("\0", "").Replace("\'", "").Replace("\"", "").Replace("\b", "").Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("\\Z", "").Replace("\\", "").Replace("\\%", "").Replace("\\_", "").Replace("%", "").Replace("https://", "").Replace("http://", "").Replace("www.", "");
 		}
 
         object ExecuteScalar(string sql)
@@ -607,6 +614,7 @@ namespace SeleniumBot
             try
             {
                 streamWriter.WriteLine($"PRIVMSG #user335 :{message}");
+                Logger.Log("Pinged to chat: " + message);
             }
             catch (Exception e)
             {
@@ -615,6 +623,7 @@ namespace SeleniumBot
                 _scenarioContext.CloseStreamWriterConn();
 				streamWriter = InitializeStreamWriter();
 				streamWriter.WriteLine($"PRIVMSG #user335 :{message}");
+				Logger.Log("Pinged to chat: " + message);
 			}
 		}
         public StreamWriter InitializeStreamWriter()
