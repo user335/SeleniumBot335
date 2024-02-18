@@ -1,8 +1,12 @@
 ﻿using OpenQA.Selenium.Appium.Windows;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
 using SeleniumBot.PageObjects;
 using System;
 using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 using TechTalk.SpecFlow;
 
 namespace SeleniumBot.Steps
@@ -174,6 +178,11 @@ namespace SeleniumBot.Steps
 					Logger.Log("It worked!");
 				}
 			}
+		}
+		[When(@"I launch Firefox")]
+		public void WhenILaunchFirefox()
+		{
+			Process.Start("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 		}
 
 		bool GoLiveAndCheckForEncoding()
